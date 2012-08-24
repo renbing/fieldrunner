@@ -1,0 +1,243 @@
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<a>
+	<hero id="1010" name="野狗战士(钉棒兵)" photo="1" level="1" addlevel="0" atk="30" def="30" lucky="30" category="1" classid="1011" skill1id="1" skill1lv="1"/>
+	<hero id="1020" name="野蜂枪兵(长矛兵)" photo="2" level="1" addlevel="0" atk="30" def="30" lucky="30" category="2" classid="2011" skill1id="1" skill1lv="1" skill2id="36" skill2lv="1"/>
+	<hero id="1030" name="霹雳木马(轻骑兵)" photo="3" level="1" addlevel="0" atk="30" def="30" lucky="30" category="3" classid="3011" skill1id="14" skill1lv="1"/>
+	<hero id="1040" name="掷斧山猪(掷斧兵)" photo="4" level="1" addlevel="0" atk="30" def="30" lucky="30" category="4" classid="4011" skill1id="1" skill1lv="1"/>
+	<hero id="1050" name="枯木法师(魔兵)" photo="5" level="1" addlevel="0" atk="30" def="30" lucky="30" category="5" classid="5011" skill1id="35" skill1lv="1"/>
+	<hero id="1060" name="野狗战士(钉棒兵)" photo="1" level="10" addlevel="0" atk="34" def="29" lucky="34" category="1" classid="1011" skill1id="1" skill1lv="3"/>
+	<hero id="1070" name="野蜂枪兵(长矛兵)" photo="2" level="10" addlevel="0" atk="34" def="29" lucky="34" category="2" classid="2011" skill1id="1" skill1lv="3" skill2id="36" skill2lv="1"/>
+	<hero id="1080" name="霹雳木马(轻骑兵)" photo="3" level="10" addlevel="0" atk="34" def="29" lucky="34" category="3" classid="3011" skill1id="14" skill1lv="3"/>
+	<hero id="1090" name="掷斧山猪(掷斧兵)" photo="4" level="10" addlevel="0" atk="34" def="29" lucky="34" category="4" classid="4011" skill1id="1" skill1lv="2"/>
+	<hero id="1100" name="枯木法师(魔兵)" photo="5" level="10" addlevel="0" atk="34" def="29" lucky="34" category="5" classid="5011" skill1id="35" skill1lv="1"/>
+	<hero id="1110" name="黑熊屠夫(刀兵)" photo="6" level="11" addlevel="0" atk="48" def="42" lucky="48" category="1" classid="1022" skill1id="2" skill1lv="1"/>
+	<hero id="1120" name="蜥蜴戟兵(戟兵)" photo="7" level="11" addlevel="0" atk="48" def="42" lucky="48" category="2" classid="2022" skill1id="8" skill1lv="1" skill2id="36" skill2lv="1"/>
+	<hero id="1130" name="木盾兵(圆盾兵)" photo="10" level="11" addlevel="0" atk="48" def="42" lucky="48" category="2" classid="2023" skill1id="10" skill1lv="1" skill2id="36" skill2lv="1"/>
+	<hero id="1140" name="荆棘木马(游骑兵)" photo="8" level="11" addlevel="0" atk="48" def="42" lucky="48" category="3" classid="3022" skill1id="15" skill1lv="1"/>
+	<hero id="1150" name="蘑菇弓兵(弓兵)" photo="9" level="11" addlevel="0" atk="48" def="42" lucky="48" category="4" classid="4022" skill1id="21" skill1lv="1"/>
+	<hero id="1160" name="巫术枯叶(魔兵)" photo="91" level="11" addlevel="0" atk="48" def="42" lucky="48" category="5" classid="5021" skill1id="35" skill1lv="1"/>
+	<hero id="1170" name="蜥蜴鼓手(魔鼓队)" photo="16" level="11" addlevel="0" atk="48" def="42" lucky="48" category="5" classid="5022" skill1id="37" skill1lv="1"/>
+	<hero id="1180" name="黑熊屠夫(刀兵)" photo="6" level="20" addlevel="0" atk="52" def="46" lucky="52" category="1" classid="1022" skill1id="2" skill1lv="3"/>
+	<hero id="1190" name="蜥蜴戟兵(戟兵)" photo="7" level="20" addlevel="0" atk="52" def="46" lucky="52" category="2" classid="2022" skill1id="8" skill1lv="3" skill2id="36" skill2lv="1"/>
+	<hero id="1200" name="木盾兵(圆盾兵)" photo="10" level="20" addlevel="0" atk="52" def="46" lucky="52" category="2" classid="2023" skill1id="10" skill1lv="1" skill2id="36" skill2lv="1"/>
+	<hero id="1210" name="荆棘木马(游骑兵)" photo="8" level="20" addlevel="0" atk="52" def="46" lucky="52" category="3" classid="3022" skill1id="15" skill1lv="3"/>
+	<hero id="1220" name="蘑菇弓兵(弓兵)" photo="9" level="20" addlevel="0" atk="52" def="46" lucky="52" category="4" classid="4022" skill1id="21" skill1lv="2"/>
+	<hero id="1230" name="巫术枯叶(魔兵)" photo="91" level="20" addlevel="0" atk="52" def="46" lucky="52" category="5" classid="5021" skill1id="35" skill1lv="3"/>
+	<hero id="1240" name="蜥蜴鼓手(魔鼓队)" photo="16" level="20" addlevel="0" atk="52" def="46" lucky="52" category="5" classid="5022" skill1id="37" skill1lv="1"/>
+	<hero id="1250" name="冰熊战士(刀兵)" photo="11" level="21" addlevel="0" atk="65" def="57" lucky="65" category="1" classid="1032" skill1id="2" skill1lv="3"/>
+	<hero id="1260" name="蓝蜥戟兵(戟兵)" photo="12" level="21" addlevel="0" atk="65" def="57" lucky="65" category="2" classid="2032" skill1id="8" skill1lv="3" skill2id="36" skill2lv="1"/>
+	<hero id="1270" name="机甲盾兵(圆盾兵)" photo="15" level="21" addlevel="0" atk="65" def="57" lucky="65" category="2" classid="2033" skill1id="10" skill1lv="1" skill2id="36" skill2lv="1"/>
+	<hero id="1280" name="铁甲马(游骑兵)" photo="13" level="21" addlevel="0" atk="65" def="57" lucky="65" category="3" classid="3032" skill1id="15" skill1lv="3"/>
+	<hero id="1290" name="烈焰骑士(枪骑兵)" photo="73" level="21" addlevel="0" atk="65" def="57" lucky="65" category="3" classid="3033" skill1id="16" skill1lv="1"/>
+	<hero id="1300" name="蓝菇弓兵(弓兵)" photo="14" level="21" addlevel="0" atk="65" def="57" lucky="65" category="4" classid="4032" skill1id="21" skill1lv="2"/>
+	<hero id="1310" name="铁面弩手(弩兵)" photo="17" level="21" addlevel="0" atk="65" def="57" lucky="65" category="4" classid="4033" skill1id="22" skill1lv="1" skill2id="40" skill2lv="1"/>
+	<hero id="1320" name="魔龙(魔兵)" photo="92" level="21" addlevel="0" atk="65" def="57" lucky="65" category="5" classid="5031" skill1id="35" skill1lv="3"/>
+	<hero id="1330" name="蜥蜴鼓手(魔鼓队)" photo="16" level="21" addlevel="0" atk="65" def="57" lucky="65" category="5" classid="5022" skill1id="37" skill1lv="1"/>
+	<hero id="1340" name="冰熊战士(刀兵)" photo="11" level="30" addlevel="0" atk="75" def="68" lucky="75" category="1" classid="1032" skill1id="2" skill1lv="6"/>
+	<hero id="1350" name="蓝蜥戟兵(戟兵)" photo="12" level="30" addlevel="0" atk="75" def="68" lucky="100" category="2" classid="2032" skill1id="8" skill1lv="6" skill2id="36" skill2lv="1"/>
+	<hero id="1360" name="机甲盾兵(圆盾兵)" photo="15" level="30" addlevel="0" atk="75" def="68" lucky="100" category="2" classid="2033" skill1id="10" skill1lv="3" skill2id="36" skill2lv="1"/>
+	<hero id="1370" name="铁甲马(游骑兵)" photo="13" level="30" addlevel="0" atk="75" def="68" lucky="100" category="3" classid="3032" skill1id="15" skill1lv="6"/>
+	<hero id="1380" name="烈焰骑士(枪骑兵)" photo="73" level="30" addlevel="0" atk="75" def="68" lucky="100" category="3" classid="3033" skill1id="16" skill1lv="1"/>
+	<hero id="1390" name="蓝菇弓兵(弓兵)" photo="14" level="30" addlevel="0" atk="75" def="68" lucky="100" category="4" classid="4032" skill1id="21" skill1lv="4"/>
+	<hero id="1400" name="铁面弩手(弩兵)" photo="17" level="30" addlevel="0" atk="75" def="68" lucky="100" category="4" classid="4033" skill1id="22" skill1lv="2" skill2id="40" skill2lv="1"/>
+	<hero id="1410" name="魔龙(魔兵)" photo="92" level="30" addlevel="0" atk="75" def="68" lucky="100" category="5" classid="5031" skill1id="35" skill1lv="6"/>
+	<hero id="1420" name="蜥蜴鼓手(魔鼓队)" photo="16" level="30" addlevel="0" atk="75" def="68" lucky="100" category="5" classid="5022" skill1id="37" skill1lv="1"/>
+	<hero id="1430" name="女强盗(刀兵)" photo="18" level="31" addlevel="0" atk="98" def="87" lucky="100" category="1" classid="1042" skill1id="2" skill1lv="6"/>
+	<hero id="1440" name="拉科斯特(巨斧兵)" photo="90" level="31" addlevel="0" atk="98" def="87" lucky="100" category="1" classid="1044" skill1id="6" skill1lv="1"/>
+	<hero id="1450" name="草莓蛙(戟兵)" photo="87" level="31" addlevel="0" atk="98" def="87" lucky="100" category="2" classid="2042" skill1id="8" skill1lv="6" skill2id="36" skill2lv="1"/>
+	<hero id="1460" name="怒海盾兵(圆盾兵)" photo="22" level="31" addlevel="0" atk="98" def="87" lucky="100" category="2" classid="2043" skill1id="10" skill1lv="3" skill2id="36" skill2lv="1"/>
+	<hero id="1470" name="芥末蛙(塔盾兵)" photo="88" level="31" addlevel="0" atk="98" def="87" lucky="100" category="2" classid="2044" skill1id="12" skill1lv="1" skill2id="36" skill2lv="1"/>
+	<hero id="1480" name="星光战马(游骑兵)" photo="20" level="31" addlevel="0" atk="98" def="87" lucky="100" category="3" classid="3042" skill1id="15" skill1lv="6"/>
+	<hero id="1490" name="蟹骑士(枪骑兵)" photo="25" level="31" addlevel="0" atk="98" def="87" lucky="100" category="3" classid="3043" skill1id="16" skill1lv="1"/>
+	<hero id="1500" name="菌菇弓兵(弓兵)" photo="21" level="31" addlevel="0" atk="98" def="87" lucky="100" category="4" classid="4042" skill1id="21" skill1lv="5"/>
+	<hero id="1510" name="蓝海弩手(弩兵)" photo="24" level="31" addlevel="0" atk="98" def="87" lucky="100" category="4" classid="4043" skill1id="22" skill1lv="2" skill2id="40" skill2lv="1"/>
+	<hero id="1520" name="帆蜥鼓手(魔鼓队)" photo="23" level="31" addlevel="0" atk="98" def="87" lucky="100" category="5" classid="5042" skill1id="37" skill1lv="1"/>
+	<hero id="1530" name="沼泽萨满(魔藤咒师)" photo="86" level="31" addlevel="0" atk="98" def="87" lucky="100" category="5" classid="5043" skill1id="29" skill1lv="1" skill2id="38" skill2lv="1"/>
+	<hero id="1540" name="女强盗(刀兵)" photo="18" level="40" addlevel="0" atk="106" def="95" lucky="100" category="1" classid="1042" skill1id="2" skill1lv="8"/>
+	<hero id="1550" name="拉科斯特(巨斧兵)" photo="90" level="40" addlevel="0" atk="106" def="95" lucky="100" category="1" classid="1044" skill1id="6" skill1lv="3"/>
+	<hero id="1560" name="草莓蛙(戟兵)" photo="87" level="40" addlevel="0" atk="106" def="95" lucky="100" category="2" classid="2042" skill1id="8" skill1lv="8" skill2id="36" skill2lv="1"/>
+	<hero id="1570" name="怒海盾兵(圆盾兵)" photo="22" level="40" addlevel="0" atk="106" def="95" lucky="100" category="2" classid="2043" skill1id="10" skill1lv="6" skill2id="36" skill2lv="1"/>
+	<hero id="1580" name="芥末蛙(塔盾兵)" photo="88" level="40" addlevel="0" atk="106" def="95" lucky="100" category="2" classid="2044" skill1id="12" skill1lv="1" skill2id="36" skill2lv="1"/>
+	<hero id="1590" name="星光战马(游骑兵)" photo="20" level="40" addlevel="0" atk="106" def="95" lucky="100" category="3" classid="3042" skill1id="15" skill1lv="8"/>
+	<hero id="1600" name="蟹骑士(枪骑兵)" photo="25" level="40" addlevel="0" atk="106" def="95" lucky="100" category="3" classid="3043" skill1id="16" skill1lv="3"/>
+	<hero id="1610" name="菌菇弓兵(弓兵)" photo="21" level="40" addlevel="0" atk="106" def="95" lucky="100" category="4" classid="4042" skill1id="21" skill1lv="7"/>
+	<hero id="1620" name="蓝海弩手(弩兵)" photo="24" level="40" addlevel="0" atk="106" def="95" lucky="100" category="4" classid="4043" skill1id="22" skill1lv="4" skill2id="40" skill2lv="1"/>
+	<hero id="1630" name="帆蜥鼓手(魔鼓队)" photo="23" level="40" addlevel="0" atk="106" def="95" lucky="100" category="5" classid="5042" skill1id="37" skill1lv="1"/>
+	<hero id="1640" name="沼泽萨满(魔藤咒师)" photo="86" level="40" addlevel="0" atk="106" def="95" lucky="100" category="5" classid="5043" skill1id="29" skill1lv="1" skill2id="38" skill2lv="1"/>
+	<hero id="1650" name="丛林女匪(刀兵)" photo="27" level="41" addlevel="0" atk="111" def="100" lucky="100" category="1" classid="1052" skill1id="2" skill1lv="8"/>
+	<hero id="1660" name="白银步兵(重步兵)" photo="35" level="41" addlevel="0" atk="111" def="100" lucky="100" category="1" classid="1053" skill1id="4" skill1lv="1"/>
+	<hero id="1670" name="魔控斧兵(巨斧兵)" photo="77" level="41" addlevel="0" atk="111" def="100" lucky="100" category="1" classid="1054" skill1id="6" skill1lv="3"/>
+	<hero id="1680" name="鬃蜥戟兵(戟兵)" photo="28" level="41" addlevel="0" atk="111" def="100" lucky="100" category="2" classid="2052" skill1id="8" skill1lv="8" skill2id="36" skill2lv="1"/>
+	<hero id="1690" name="沼泽盾兵(圆盾兵)" photo="31" level="41" addlevel="0" atk="111" def="100" lucky="100" category="2" classid="2053" skill1id="10" skill1lv="6" skill2id="36" skill2lv="1"/>
+	<hero id="1700" name="傀儡巨魔(塔盾兵)" photo="37" level="41" addlevel="0" atk="111" def="100" lucky="100" category="2" classid="2054" skill1id="12" skill1lv="1" skill2id="36" skill2lv="1"/>
+	<hero id="1710" name="丛林战马(游骑兵)" photo="29" level="41" addlevel="0" atk="111" def="100" lucky="100" category="3" classid="3052" skill1id="15" skill1lv="8"/>
+	<hero id="1720" name="柯鲁吉斯(枪骑兵)" photo="93" level="41" addlevel="0" atk="111" def="100" lucky="100" category="3" classid="3053" skill1id="16" skill1lv="4"/>
+	<hero id="1730" name="炎阳球(投弹兵)" photo="94" level="41" addlevel="0" atk="111" def="100" lucky="100" category="3" classid="3054" skill1id="19" skill1lv="1"/>
+	<hero id="1740" name="孢子魔(弓兵)" photo="30" level="41" addlevel="0" atk="111" def="100" lucky="100" category="4" classid="4052" skill1id="21" skill1lv="7"/>
+	<hero id="1750" name="藤刺弩手(弩兵)" photo="33" level="41" addlevel="0" atk="111" def="100" lucky="100" category="4" classid="4053" skill1id="22" skill1lv="5" skill2id="40" skill2lv="1"/>
+	<hero id="1760" name="花尾蝎(投石车)" photo="95" level="41" addlevel="0" atk="111" def="100" lucky="100" category="4" classid="4054" skill1id="25" skill1lv="1"/>
+	<hero id="1770" name="鬃蜥鼓手(魔鼓队)" photo="32" level="41" addlevel="0" atk="111" def="100" lucky="100" category="5" classid="5052" skill1id="37" skill1lv="1"/>
+	<hero id="1780" name="妖怪藤(魔藤咒师)" photo="36" level="41" addlevel="0" atk="111" def="100" lucky="100" category="5" classid="5053" skill1id="29" skill1lv="2" skill2id="38" skill2lv="1"/>
+	<hero id="1790" name="丛林女匪(刀兵)" photo="27" level="50" addlevel="0" atk="130" def="118" lucky="100" category="1" classid="1052" skill1id="2" skill1lv="11"/>
+	<hero id="1800" name="白银步兵(重步兵)" photo="35" level="50" addlevel="0" atk="130" def="118" lucky="100" category="1" classid="1053" skill1id="4" skill1lv="3"/>
+	<hero id="1810" name="魔控斧兵(巨斧兵)" photo="77" level="50" addlevel="0" atk="130" def="118" lucky="100" category="1" classid="1054" skill1id="6" skill1lv="5"/>
+	<hero id="1820" name="鬃蜥戟兵(戟兵)" photo="28" level="50" addlevel="0" atk="130" def="118" lucky="100" category="2" classid="2052" skill1id="8" skill1lv="11" skill2id="36" skill2lv="1"/>
+	<hero id="1830" name="沼泽盾兵(圆盾兵)" photo="31" level="50" addlevel="0" atk="130" def="118" lucky="100" category="2" classid="2053" skill1id="10" skill1lv="8" skill2id="36" skill2lv="1"/>
+	<hero id="1840" name="傀儡巨魔(塔盾兵)" photo="37" level="50" addlevel="0" atk="130" def="118" lucky="100" category="2" classid="2054" skill1id="12" skill1lv="3" skill2id="36" skill2lv="1"/>
+	<hero id="1850" name="丛林战马(游骑兵)" photo="29" level="50" addlevel="0" atk="130" def="118" lucky="100" category="3" classid="3052" skill1id="15" skill1lv="11"/>
+	<hero id="1860" name="柯鲁吉斯(枪骑兵)" photo="93" level="50" addlevel="0" atk="130" def="118" lucky="100" category="3" classid="3053" skill1id="16" skill1lv="6"/>
+	<hero id="1870" name="炎阳球(投弹兵)" photo="94" level="50" addlevel="0" atk="130" def="118" lucky="100" category="3" classid="3054" skill1id="19" skill1lv="2"/>
+	<hero id="1880" name="孢子魔(弓兵)" photo="30" level="50" addlevel="0" atk="130" def="118" lucky="100" category="4" classid="4052" skill1id="21" skill1lv="9"/>
+	<hero id="1890" name="藤刺弩手(弩兵)" photo="33" level="50" addlevel="0" atk="130" def="118" lucky="100" category="4" classid="4053" skill1id="22" skill1lv="7" skill2id="40" skill2lv="1"/>
+	<hero id="1900" name="花尾蝎(投石车)" photo="95" level="50" addlevel="0" atk="130" def="118" lucky="100" category="4" classid="4054" skill1id="25" skill1lv="2"/>
+	<hero id="1910" name="鬃蜥鼓手(魔鼓队)" photo="32" level="50" addlevel="0" atk="130" def="118" lucky="100" category="5" classid="5052" skill1id="37" skill1lv="1"/>
+	<hero id="1920" name="妖怪藤(魔藤咒师)" photo="36" level="50" addlevel="0" atk="130" def="118" lucky="100" category="5" classid="5053" skill1id="29" skill1lv="4" skill2id="38" skill2lv="1"/>
+	<hero id="1930" name="黄金步兵(重步兵)" photo="46" level="51" addlevel="0" atk="135" def="123" lucky="100" category="1" classid="1063" skill1id="4" skill1lv="3"/>
+	<hero id="1940" name="巨斧骷髅(巨斧兵)" photo="49" level="51" addlevel="0" atk="135" def="123" lucky="100" category="1" classid="1064" skill1id="6" skill1lv="5"/>
+	<hero id="1950" name="亡灵刺客(刺客)" photo="38" level="51" addlevel="0" atk="135" def="123" lucky="100" category="1" classid="1065" skill1id="7" skill1lv="1" skill2id="41" skill2lv="1"/>
+	<hero id="1960" name="腐蜥戟兵(戟兵)" photo="39" level="51" addlevel="0" atk="135" def="123" lucky="100" category="2" classid="2062" skill1id="8" skill1lv="11" skill2id="36" skill2lv="1"/>
+	<hero id="1970" name="骷髅盾兵(圆盾兵)" photo="42" level="51" addlevel="0" atk="135" def="123" lucky="100" category="2" classid="2063" skill1id="10" skill1lv="8" skill2id="36" skill2lv="1"/>
+	<hero id="1980" name="远古巨魔(塔盾兵)" photo="48" level="51" addlevel="0" atk="135" def="123" lucky="100" category="2" classid="2064" skill1id="12" skill1lv="3" skill2id="36" skill2lv="1"/>
+	<hero id="1990" name="无头骑士(枪骑兵)" photo="45" level="51" addlevel="0" atk="135" def="123" lucky="100" category="3" classid="3063" skill1id="16" skill1lv="6"/>
+	<hero id="2000" name="空袭虫(投弹兵)" photo="96" level="51" addlevel="0" atk="135" def="123" lucky="100" category="3" classid="3064" skill1id="19" skill1lv="2"/>
+	<hero id="2010" name="黑孢子魔(弓兵)" photo="41" level="51" addlevel="0" atk="135" def="123" lucky="100" category="4" classid="4062" skill1id="21" skill1lv="10"/>
+	<hero id="2020" name="骷髅弩手(弩兵)" photo="44" level="51" addlevel="0" atk="135" def="123" lucky="100" category="4" classid="4063" skill1id="22" skill1lv="7" skill2id="40" skill2lv="1"/>
+	<hero id="2030" name="巨石怪(投石车)" photo="64" level="51" addlevel="0" atk="135" def="123" lucky="100" category="4" classid="4064" skill1id="25" skill1lv="2"/>
+	<hero id="2040" name="古火枪(火枪手)" photo="97" level="51" addlevel="0" atk="135" def="123" lucky="100" category="4" classid="4065" skill1id="26" skill1lv="1"/>
+	<hero id="2050" name="腐蜥鼓手(魔鼓队)" photo="43" level="51" addlevel="0" atk="135" def="123" lucky="100" category="5" classid="5062" skill1id="37" skill1lv="1"/>
+	<hero id="2060" name="死亡藤蔓(魔藤咒师)" photo="47" level="51" addlevel="0" atk="135" def="123" lucky="100" category="5" classid="5063" skill1id="29" skill1lv="4" skill2id="38" skill2lv="1"/>
+	<hero id="2070" name="雷电法师(雷电法师)" photo="50" level="51" addlevel="0" atk="135" def="123" lucky="100" category="5" classid="5064" skill1id="31" skill1lv="1" skill2id="39" skill2lv="1"/>
+	<hero id="2080" name="黄金步兵(重步兵)" photo="46" level="60" addlevel="0" atk="140" def="128" lucky="100" category="1" classid="1063" skill1id="4" skill1lv="5"/>
+	<hero id="2090" name="巨斧骷髅(巨斧兵)" photo="49" level="60" addlevel="0" atk="140" def="128" lucky="100" category="1" classid="1064" skill1id="6" skill1lv="8"/>
+	<hero id="2100" name="亡灵刺客(刺客)" photo="38" level="60" addlevel="0" atk="140" def="128" lucky="100" category="1" classid="1065" skill1id="7" skill1lv="2" skill2id="41" skill2lv="1"/>
+	<hero id="2110" name="腐蜥戟兵(戟兵)" photo="39" level="60" addlevel="0" atk="140" def="128" lucky="100" category="2" classid="2062" skill1id="8" skill1lv="13" skill2id="36" skill2lv="1"/>
+	<hero id="2120" name="骷髅盾兵(圆盾兵)" photo="42" level="60" addlevel="0" atk="140" def="128" lucky="100" category="2" classid="2063" skill1id="10" skill1lv="11" skill2id="36" skill2lv="1"/>
+	<hero id="2130" name="远古巨魔(塔盾兵)" photo="48" level="60" addlevel="0" atk="140" def="128" lucky="100" category="2" classid="2064" skill1id="12" skill1lv="6" skill2id="36" skill2lv="1"/>
+	<hero id="2140" name="无头骑士(枪骑兵)" photo="45" level="60" addlevel="0" atk="140" def="128" lucky="100" category="3" classid="3063" skill1id="16" skill1lv="8"/>
+	<hero id="2150" name="空袭虫(投弹兵)" photo="96" level="60" addlevel="0" atk="140" def="128" lucky="100" category="3" classid="3064" skill1id="19" skill1lv="4"/>
+	<hero id="2160" name="黑孢子魔(弓兵)" photo="41" level="60" addlevel="0" atk="140" def="128" lucky="100" category="4" classid="4062" skill1id="21" skill1lv="12"/>
+	<hero id="2170" name="骷髅弩手(弩兵)" photo="44" level="60" addlevel="0" atk="140" def="128" lucky="100" category="4" classid="4063" skill1id="22" skill1lv="9" skill2id="40" skill2lv="1"/>
+	<hero id="2180" name="巨石怪(投石车)" photo="64" level="60" addlevel="0" atk="140" def="128" lucky="100" category="4" classid="4064" skill1id="25" skill1lv="4"/>
+	<hero id="2190" name="古火枪(火枪手)" photo="97" level="60" addlevel="0" atk="140" def="128" lucky="100" category="4" classid="4065" skill1id="26" skill1lv="1"/>
+	<hero id="2200" name="腐蜥鼓手(魔鼓队)" photo="43" level="60" addlevel="0" atk="140" def="128" lucky="100" category="5" classid="5062" skill1id="37" skill1lv="1"/>
+	<hero id="2210" name="死亡藤蔓(魔藤咒师)" photo="47" level="60" addlevel="0" atk="140" def="128" lucky="100" category="5" classid="5063" skill1id="29" skill1lv="6" skill2id="38" skill2lv="1"/>
+	<hero id="2220" name="雷电法师(雷电法师)" photo="50" level="60" addlevel="0" atk="140" def="128" lucky="100" category="5" classid="5064" skill1id="31" skill1lv="3" skill2id="39" skill2lv="1"/>
+	<hero id="2230" name="黑熊屠夫(刀兵)" photo="6" level="61" addlevel="0" atk="155" def="140" lucky="100" category="1" classid="1022" skill1id="2" skill1lv="13"/>
+	<hero id="2240" name="僵尸(重步兵)" photo="59" level="61" addlevel="0" atk="155" def="140" lucky="100" category="1" classid="1073" skill1id="4" skill1lv="5"/>
+	<hero id="2250" name="杀戮斧兵(巨斧兵)" photo="62" level="61" addlevel="0" atk="155" def="140" lucky="100" category="1" classid="1074" skill1id="6" skill1lv="8"/>
+	<hero id="2260" name="暗影刺客(刺客)" photo="51" level="61" addlevel="0" atk="155" def="140" lucky="100" category="1" classid="1075" skill1id="7" skill1lv="2" skill2id="41" skill2lv="1"/>
+	<hero id="2270" name="血蜥戟兵(戟兵)" photo="52" level="61" addlevel="0" atk="155" def="140" lucky="100" category="2" classid="2072" skill1id="8" skill1lv="13" skill2id="36" skill2lv="1"/>
+	<hero id="2280" name="浴血盾兵(圆盾兵)" photo="55" level="61" addlevel="0" atk="155" def="140" lucky="100" category="2" classid="2073" skill1id="10" skill1lv="11" skill2id="36" skill2lv="1"/>
+	<hero id="2290" name="铠甲巨魔(塔盾兵)" photo="61" level="61" addlevel="0" atk="155" def="140" lucky="100" category="2" classid="2074" skill1id="12" skill1lv="6" skill2id="36" skill2lv="1"/>
+	<hero id="2300" name="怒吼战车(铁甲车)" photo="98" level="61" addlevel="0" atk="155" def="140" lucky="100" category="2" classid="2075"/>
+	<hero id="2310" name="梦魇(游骑兵)" photo="53" level="61" addlevel="0" atk="155" def="140" lucky="100" category="3" classid="3072" skill1id="15" skill1lv="13"/>
+	<hero id="2320" name="地狱骑士(枪骑兵)" photo="58" level="61" addlevel="0" atk="155" def="140" lucky="100" category="3" classid="3073" skill1id="16" skill1lv="9"/>
+	<hero id="2330" name="投弹火蝠(投弹兵)" photo="65" level="61" addlevel="0" atk="155" def="140" lucky="100" category="3" classid="3074" skill1id="19" skill1lv="4"/>
+	<hero id="2340" name="摄魂马(圣骑士)" photo="40" level="61" addlevel="0" atk="155" def="140" lucky="100" category="3" classid="3075" skill1id="20" skill1lv="1"/>
+	<hero id="2350" name="嗜血弩手(弩兵)" photo="57" level="61" addlevel="0" atk="155" def="140" lucky="100" category="4" classid="4073" skill1id="22" skill1lv="10" skill2id="40" skill2lv="1"/>
+	<hero id="2360" name="地龙(投石车)" photo="99" level="61" addlevel="0" atk="155" def="140" lucky="100" category="4" classid="4074" skill1id="25" skill1lv="5"/>
+	<hero id="2370" name="赤孢子魔(火枪手)" photo="54" level="61" addlevel="0" atk="155" def="140" lucky="100" category="4" classid="4075" skill1id="26" skill1lv="1"/>
+	<hero id="2380" name="血蜥鼓手(魔鼓队)" photo="56" level="61" addlevel="0" atk="155" def="140" lucky="100" category="5" classid="5072" skill1id="37" skill1lv="1"/>
+	<hero id="2390" name="血刺藤蔓(魔藤咒师)" photo="60" level="61" addlevel="0" atk="155" def="140" lucky="100" category="5" classid="5073" skill1id="29" skill1lv="7" skill2id="38" skill2lv="1"/>
+	<hero id="2400" name="赤血电魔(雷电法师)" photo="63" level="61" addlevel="0" atk="155" def="140" lucky="100" category="5" classid="5074" skill1id="31" skill1lv="3" skill2id="39" skill2lv="1"/>
+	<hero id="2410" name="黑熊屠夫(刀兵)" photo="6" level="70" addlevel="0" atk="164" def="149" lucky="100" category="1" classid="1022" skill1id="2" skill1lv="16"/>
+	<hero id="2420" name="僵尸(重步兵)" photo="59" level="70" addlevel="0" atk="164" def="149" lucky="100" category="1" classid="1073" skill1id="4" skill1lv="8"/>
+	<hero id="2430" name="杀戮斧兵(巨斧兵)" photo="62" level="70" addlevel="0" atk="164" def="149" lucky="100" category="1" classid="1074" skill1id="6" skill1lv="10"/>
+	<hero id="2440" name="暗影刺客(刺客)" photo="51" level="70" addlevel="0" atk="164" def="149" lucky="100" category="1" classid="1075" skill1id="7" skill1lv="4" skill2id="41" skill2lv="1"/>
+	<hero id="2450" name="血蜥戟兵(戟兵)" photo="52" level="70" addlevel="0" atk="164" def="149" lucky="100" category="2" classid="2072" skill1id="8" skill1lv="16" skill2id="36" skill2lv="1"/>
+	<hero id="2460" name="浴血盾兵(圆盾兵)" photo="55" level="70" addlevel="0" atk="164" def="149" lucky="100" category="2" classid="2073" skill1id="10" skill1lv="13" skill2id="36" skill2lv="1"/>
+	<hero id="2470" name="铠甲巨魔(塔盾兵)" photo="61" level="70" addlevel="0" atk="164" def="149" lucky="100" category="2" classid="2074" skill1id="12" skill1lv="8" skill2id="36" skill2lv="1"/>
+	<hero id="2480" name="怒吼战车(铁甲车)" photo="98" level="70" addlevel="0" atk="164" def="149" lucky="100" category="2" classid="2075"/>
+	<hero id="2490" name="梦魇(游骑兵)" photo="53" level="70" addlevel="0" atk="164" def="149" lucky="100" category="3" classid="3072" skill1id="15" skill1lv="16"/>
+	<hero id="2500" name="地狱骑士(枪骑兵)" photo="58" level="70" addlevel="0" atk="164" def="149" lucky="100" category="3" classid="3073" skill1id="16" skill1lv="11"/>
+	<hero id="2510" name="投弹火蝠(投弹兵)" photo="65" level="70" addlevel="0" atk="164" def="149" lucky="100" category="3" classid="3074" skill1id="19" skill1lv="7"/>
+	<hero id="2520" name="摄魂马(圣骑士)" photo="40" level="70" addlevel="0" atk="164" def="149" lucky="100" category="3" classid="3075" skill1id="20" skill1lv="2"/>
+	<hero id="2530" name="嗜血弩手(弩兵)" photo="57" level="70" addlevel="0" atk="164" def="149" lucky="100" category="4" classid="4073" skill1id="22" skill1lv="12" skill2id="40" skill2lv="1"/>
+	<hero id="2540" name="地龙(投石车)" photo="99" level="70" addlevel="0" atk="164" def="149" lucky="100" category="4" classid="4074" skill1id="25" skill1lv="7"/>
+	<hero id="2550" name="赤孢子魔(火枪手)" photo="54" level="70" addlevel="0" atk="164" def="149" lucky="100" category="4" classid="4075" skill1id="26" skill1lv="3"/>
+	<hero id="2560" name="血蜥鼓手(魔鼓队)" photo="56" level="70" addlevel="0" atk="164" def="149" lucky="100" category="5" classid="5072" skill1id="37" skill1lv="1"/>
+	<hero id="2570" name="血刺藤蔓(魔藤咒师)" photo="60" level="70" addlevel="0" atk="164" def="149" lucky="100" category="5" classid="5073" skill1id="29" skill1lv="9" skill2id="38" skill2lv="1"/>
+	<hero id="2580" name="赤血电魔(雷电法师)" photo="63" level="70" addlevel="0" atk="164" def="149" lucky="100" category="5" classid="5074" skill1id="31" skill1lv="5" skill2id="39" skill2lv="1"/>
+	<hero id="2590" name="魔龙刀兵(刀兵)" photo="66" level="71" addlevel="0" atk="168" def="154" lucky="100" category="1" classid="1082" skill1id="2" skill1lv="16"/>
+	<hero id="2600" name="腐尸(重步兵)" photo="74" level="71" addlevel="0" atk="168" def="154" lucky="100" category="1" classid="1083" skill1id="4" skill1lv="8"/>
+	<hero id="2610" name="魔控斧兵(巨斧兵)" photo="77" level="71" addlevel="0" atk="168" def="154" lucky="100" category="1" classid="1054" skill1id="6" skill1lv="10"/>
+	<hero id="2620" name="恶魔刺客(刺客)" photo="103" level="71" addlevel="0" atk="168" def="154" lucky="100" category="1" classid="1085" skill1id="7" skill1lv="4" skill2id="41" skill2lv="1"/>
+	<hero id="2630" name="龙纹盾兵(圆盾兵)" photo="70" level="71" addlevel="0" atk="168" def="154" lucky="100" category="2" classid="2083" skill1id="10" skill1lv="13" skill2id="36" skill2lv="1"/>
+	<hero id="2640" name="暗影巨魔(塔盾兵)" photo="76" level="71" addlevel="0" atk="168" def="154" lucky="100" category="2" classid="2084" skill1id="12" skill1lv="8" skill2id="36" skill2lv="1"/>
+	<hero id="2650" name="魔龙铁卫(铁甲车)" photo="67" level="71" addlevel="0" atk="168" def="154" lucky="100" category="2" classid="2085"/>
+	<hero id="2660" name="独角兽(游骑兵)" photo="68" level="71" addlevel="0" atk="168" def="154" lucky="100" category="3" classid="3082" skill1id="15" skill1lv="16"/>
+	<hero id="2670" name="烈焰骑士(枪骑兵)" photo="73" level="71" addlevel="0" atk="168" def="154" lucky="100" category="3" classid="3033" skill1id="16" skill1lv="11"/>
+	<hero id="2680" name="暗魔蝙蝠(投弹兵)" photo="80" level="71" addlevel="0" atk="168" def="154" lucky="100" category="3" classid="3084" skill1id="19" skill1lv="7"/>
+	<hero id="2690" name="暗黑骑士(圣骑士)" photo="100" level="71" addlevel="0" atk="168" def="154" lucky="100" category="3" classid="3085" skill1id="20" skill1lv="2"/>
+	<hero id="2700" name="毒孢子魔(弓兵)" photo="69" level="71" addlevel="0" atk="168" def="154" lucky="100" category="4" classid="4082" skill1id="21" skill1lv="15"/>
+	<hero id="2710" name="龙纹弩手(弩兵)" photo="72" level="71" addlevel="0" atk="168" def="154" lucky="100" category="4" classid="4083" skill1id="22" skill1lv="12" skill2id="40" skill2lv="1"/>
+	<hero id="2720" name="黑猩猩(投石车)" photo="79" level="71" addlevel="0" atk="168" def="154" lucky="100" category="4" classid="4084" skill1id="25" skill1lv="7"/>
+	<hero id="2730" name="火龙(火枪手)" photo="101" level="71" addlevel="0" atk="168" def="154" lucky="100" category="4" classid="4085" skill1id="26" skill1lv="3"/>
+	<hero id="2740" name="龙蜥鼓手(魔鼓队)" photo="71" level="71" addlevel="0" atk="168" def="154" lucky="100" category="5" classid="5082" skill1id="37" skill1lv="1"/>
+	<hero id="2750" name="魔龙萨满(魔藤咒师)" photo="75" level="71" addlevel="0" atk="168" def="154" lucky="100" category="5" classid="5083" skill1id="29" skill1lv="9" skill2id="38" skill2lv="1"/>
+	<hero id="2760" name="光岚电魔(雷电法师)" photo="78" level="71" addlevel="0" atk="168" def="154" lucky="100" category="5" classid="5084" skill1id="31" skill1lv="6" skill2id="39" skill2lv="1"/>
+	<hero id="2770" name="光龙(牧师)" photo="102" level="71" addlevel="0" atk="168" def="154" lucky="100" category="5" classid="5085" skill1id="33" skill1lv="1" skill2id="42" skill2lv="1"/>
+	<hero id="2780" name="魔龙刀兵(刀兵)" photo="66" level="80" addlevel="0" atk="173" def="159" lucky="100" category="1" classid="1082" skill1id="2" skill1lv="18"/>
+	<hero id="2790" name="腐尸(重步兵)" photo="74" level="80" addlevel="0" atk="173" def="159" lucky="100" category="1" classid="1083" skill1id="4" skill1lv="10"/>
+	<hero id="2800" name="魔控斧兵(巨斧兵)" photo="77" level="80" addlevel="0" atk="173" def="159" lucky="100" category="1" classid="1054" skill1id="6" skill1lv="13"/>
+	<hero id="2810" name="恶魔刺客(刺客)" photo="103" level="80" addlevel="0" atk="173" def="159" lucky="100" category="1" classid="1085" skill1id="7" skill1lv="7" skill2id="41" skill2lv="1"/>
+	<hero id="2820" name="龙纹盾兵(圆盾兵)" photo="70" level="80" addlevel="0" atk="173" def="159" lucky="100" category="2" classid="2083" skill1id="10" skill1lv="16" skill2id="36" skill2lv="1"/>
+	<hero id="2830" name="暗影巨魔(塔盾兵)" photo="76" level="80" addlevel="0" atk="173" def="159" lucky="100" category="2" classid="2084" skill1id="12" skill1lv="11" skill2id="36" skill2lv="1"/>
+	<hero id="2840" name="魔龙铁卫(铁甲车)" photo="67" level="80" addlevel="0" atk="173" def="159" lucky="100" category="2" classid="2085"/>
+	<hero id="2850" name="独角兽(游骑兵)" photo="68" level="80" addlevel="0" atk="173" def="159" lucky="100" category="3" classid="3082" skill1id="15" skill1lv="18"/>
+	<hero id="2860" name="烈焰骑士(枪骑兵)" photo="73" level="80" addlevel="0" atk="173" def="159" lucky="100" category="3" classid="3033" skill1id="16" skill1lv="13"/>
+	<hero id="2870" name="暗魔蝙蝠(投弹兵)" photo="80" level="80" addlevel="0" atk="173" def="159" lucky="100" category="3" classid="3084" skill1id="19" skill1lv="9"/>
+	<hero id="2880" name="暗黑骑士(圣骑士)" photo="100" level="80" addlevel="0" atk="173" def="159" lucky="100" category="3" classid="3085" skill1id="20" skill1lv="4"/>
+	<hero id="2890" name="毒孢子魔(弓兵)" photo="69" level="80" addlevel="0" atk="173" def="159" lucky="100" category="4" classid="4082" skill1id="21" skill1lv="17"/>
+	<hero id="2900" name="龙纹弩手(弩兵)" photo="72" level="80" addlevel="0" atk="173" def="159" lucky="100" category="4" classid="4083" skill1id="22" skill1lv="14" skill2id="40" skill2lv="1"/>
+	<hero id="2910" name="黑猩猩(投石车)" photo="79" level="80" addlevel="0" atk="173" def="159" lucky="100" category="4" classid="4084" skill1id="25" skill1lv="9"/>
+	<hero id="2920" name="火龙(火枪手)" photo="101" level="80" addlevel="0" atk="173" def="159" lucky="100" category="4" classid="4085" skill1id="26" skill1lv="6"/>
+	<hero id="2930" name="龙蜥鼓手(魔鼓队)" photo="71" level="80" addlevel="0" atk="173" def="159" lucky="100" category="5" classid="5082" skill1id="37" skill1lv="1"/>
+	<hero id="2940" name="魔龙萨满(魔藤咒师)" photo="75" level="80" addlevel="0" atk="173" def="159" lucky="100" category="5" classid="5083" skill1id="29" skill1lv="11" skill2id="38" skill2lv="1"/>
+	<hero id="2950" name="光岚电魔(雷电法师)" photo="78" level="80" addlevel="0" atk="173" def="159" lucky="100" category="5" classid="5084" skill1id="31" skill1lv="8" skill2id="39" skill2lv="1"/>
+	<hero id="2960" name="光龙(牧师)" photo="102" level="80" addlevel="0" atk="173" def="159" lucky="100" category="5" classid="5085" skill1id="33" skill1lv="3" skill2id="42" skill2lv="1"/>
+	<hero id="2970" name="山猪大王(掷斧兵)" photo="81" level="10" addlevel="0" atk="34" def="29" lucky="30" category="4" classid="4091" skill1id="1" skill1lv="2"/>
+	<hero id="2980" name="守护者(圆盾兵)" photo="83" level="20" addlevel="0" atk="52" def="46" lucky="50" category="2" classid="2093" skill1id="10" skill1lv="1" skill2id="36" skill2lv="1"/>
+	<hero id="2990" name="雷奥伯爵(刀兵)" photo="84" level="30" addlevel="0" atk="75" def="68" lucky="70" category="1" classid="1092" skill1id="2" skill1lv="6"/>
+	<hero id="3000" name="海盗头目(枪骑兵)" photo="85" level="40" addlevel="0" atk="106" def="95" lucky="100" category="3" classid="3093" skill1id="16" skill1lv="3"/>
+	<hero id="3010" name="魔龙王(铁甲车)" photo="104" level="80" addlevel="0" atk="173" def="159" lucky="100" category="2" classid="2095"/>
+	<hero id="3020" name="冰熊战士(刀兵)" photo="11" level="21" addlevel="0" atk="100" def="100" lucky="100" category="1" classid="1102" skill1id="2" skill1lv="3"/>
+	<hero id="3030" name="蓝蜥戟兵(戟兵)" photo="12" level="21" addlevel="0" atk="100" def="100" lucky="100" category="2" classid="2102" skill1id="8" skill1lv="3" skill2id="36" skill2lv="1"/>
+	<hero id="3040" name="机甲盾兵(圆盾兵)" photo="15" level="21" addlevel="0" atk="100" def="100" lucky="100" category="2" classid="2103" skill1id="10" skill1lv="1" skill2id="36" skill2lv="1"/>
+	<hero id="3050" name="铁甲马(游骑兵)" photo="13" level="21" addlevel="0" atk="100" def="100" lucky="100" category="3" classid="3102" skill1id="15" skill1lv="3"/>
+	<hero id="3060" name="烈焰骑士(枪骑兵)" photo="73" level="21" addlevel="0" atk="100" def="100" lucky="100" category="3" classid="3103" skill1id="16" skill1lv="1"/>
+	<hero id="3070" name="蓝菇弓兵(弓兵)" photo="14" level="21" addlevel="0" atk="100" def="100" lucky="100" category="4" classid="4102" skill1id="21" skill1lv="2"/>
+	<hero id="3080" name="铁面弩手(弩兵)" photo="17" level="21" addlevel="0" atk="100" def="100" lucky="100" category="4" classid="4103" skill1id="22" skill1lv="1" skill2id="40" skill2lv="1"/>
+	<hero id="3090" name="魔龙(魔兵)" photo="92" level="21" addlevel="0" atk="100" def="100" lucky="100" category="5" classid="5101" skill1id="35" skill1lv="3"/>
+	<hero id="3100" name="蜥蜴鼓手(魔鼓队)" photo="16" level="21" addlevel="0" atk="100" def="100" lucky="100" category="5" classid="5102" skill1id="37" skill1lv="1"/>
+	<hero id="3110" name="女强盗(刀兵)" photo="18" level="31" addlevel="0" atk="126" def="126" lucky="126" category="1" classid="1112" skill1id="2" skill1lv="6"/>
+	<hero id="3120" name="拉科斯特(巨斧兵)" photo="90" level="31" addlevel="0" atk="126" def="126" lucky="126" category="1" classid="1114" skill1id="6" skill1lv="1"/>
+	<hero id="3130" name="草莓蛙(戟兵)" photo="87" level="31" addlevel="0" atk="126" def="126" lucky="126" category="2" classid="2112" skill1id="8" skill1lv="6" skill2id="36" skill2lv="1"/>
+	<hero id="3140" name="怒海盾兵(圆盾兵)" photo="22" level="31" addlevel="0" atk="126" def="126" lucky="126" category="2" classid="2113" skill1id="10" skill1lv="3" skill2id="36" skill2lv="1"/>
+	<hero id="3150" name="芥末蛙(塔盾兵)" photo="88" level="31" addlevel="0" atk="126" def="126" lucky="126" category="2" classid="2114" skill1id="12" skill1lv="1" skill2id="36" skill2lv="1"/>
+	<hero id="3160" name="星光战马(游骑兵)" photo="20" level="31" addlevel="0" atk="126" def="126" lucky="126" category="3" classid="3112" skill1id="15" skill1lv="6"/>
+	<hero id="3170" name="蟹骑士(枪骑兵)" photo="25" level="31" addlevel="0" atk="126" def="126" lucky="126" category="3" classid="3113" skill1id="16" skill1lv="1"/>
+	<hero id="3180" name="菌菇弓兵(弓兵)" photo="21" level="31" addlevel="0" atk="126" def="126" lucky="126" category="4" classid="4112" skill1id="21" skill1lv="5"/>
+	<hero id="3190" name="蓝海弩手(弩兵)" photo="24" level="31" addlevel="0" atk="126" def="126" lucky="126" category="4" classid="4113" skill1id="22" skill1lv="2" skill2id="40" skill2lv="1"/>
+	<hero id="3200" name="帆蜥鼓手(魔鼓队)" photo="23" level="31" addlevel="0" atk="126" def="126" lucky="126" category="5" classid="5112" skill1id="37" skill1lv="1"/>
+	<hero id="3210" name="沼泽萨满(魔藤咒师)" photo="86" level="31" addlevel="0" atk="126" def="126" lucky="126" category="5" classid="5113" skill1id="29" skill1lv="1" skill2id="38" skill2lv="1"/>
+	<hero id="3220" name="丛林女匪(刀兵)" photo="27" level="41" addlevel="0" atk="153" def="153" lucky="153" category="1" classid="1122" skill1id="2" skill1lv="8"/>
+	<hero id="3230" name="白银步兵(重步兵)" photo="35" level="41" addlevel="0" atk="153" def="153" lucky="153" category="1" classid="1123" skill1id="4" skill1lv="1"/>
+	<hero id="3240" name="魔控斧兵(巨斧兵)" photo="77" level="41" addlevel="0" atk="153" def="153" lucky="153" category="1" classid="1124" skill1id="6" skill1lv="3"/>
+	<hero id="3250" name="鬃蜥戟兵(戟兵)" photo="28" level="41" addlevel="0" atk="153" def="153" lucky="153" category="2" classid="2122" skill1id="8" skill1lv="8" skill2id="36" skill2lv="1"/>
+	<hero id="3260" name="沼泽盾兵(圆盾兵)" photo="31" level="41" addlevel="0" atk="153" def="153" lucky="153" category="2" classid="2123" skill1id="10" skill1lv="6" skill2id="36" skill2lv="1"/>
+	<hero id="3270" name="傀儡巨魔(塔盾兵)" photo="37" level="41" addlevel="0" atk="153" def="153" lucky="153" category="2" classid="2124" skill1id="12" skill1lv="1" skill2id="36" skill2lv="1"/>
+	<hero id="3280" name="丛林战马(游骑兵)" photo="29" level="41" addlevel="0" atk="153" def="153" lucky="153" category="3" classid="3122" skill1id="15" skill1lv="8"/>
+	<hero id="3290" name="柯鲁吉斯(枪骑兵)" photo="93" level="41" addlevel="0" atk="153" def="153" lucky="153" category="3" classid="3123" skill1id="16" skill1lv="4"/>
+	<hero id="3300" name="炎阳球(投弹兵)" photo="94" level="41" addlevel="0" atk="153" def="153" lucky="153" category="3" classid="3124" skill1id="19" skill1lv="1"/>
+	<hero id="3310" name="孢子魔(弓兵)" photo="30" level="41" addlevel="0" atk="153" def="153" lucky="153" category="4" classid="4122" skill1id="21" skill1lv="7"/>
+	<hero id="3320" name="藤刺弩手(弩兵)" photo="33" level="41" addlevel="0" atk="153" def="153" lucky="153" category="4" classid="4123" skill1id="22" skill1lv="5" skill2id="40" skill2lv="1"/>
+	<hero id="3330" name="花尾蝎(投石车)" photo="95" level="41" addlevel="0" atk="153" def="153" lucky="153" category="4" classid="4124" skill1id="25" skill1lv="1"/>
+	<hero id="3340" name="鬃蜥鼓手(魔鼓队)" photo="32" level="41" addlevel="0" atk="153" def="153" lucky="153" category="5" classid="5122" skill1id="37" skill1lv="1"/>
+	<hero id="3350" name="妖怪藤(魔藤咒师)" photo="36" level="41" addlevel="0" atk="153" def="153" lucky="153" category="5" classid="5123" skill1id="29" skill1lv="2" skill2id="38" skill2lv="1"/>
+</a>

@@ -1,0 +1,16 @@
+
+<settings>
+	<!-- 酒馆派对花费定义
+			id						等级
+			gold						需要的金币
+	-->
+	<levels>
+		<level id="1" gold="500"/>
+		<level id="2" gold="1000"/>
+		<level id="3" gold="1500"/>
+		<level id="4" gold="2000"/>
+		<level id="5" gold="2500"/>
+		<level id="6" gold="3000"/>
+		<level id="7" gold="3500"/>
+	</levels>
+</settings>

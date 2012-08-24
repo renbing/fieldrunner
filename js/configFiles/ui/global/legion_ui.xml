@@ -1,0 +1,69 @@
+<ui>	
+	<control type="dialog" name="legion_edit_panel" background="legion_attr_panel" x="" y="" addchild="0" >	
+		<text mainname="item_1" subname="num_text" filtercolor="0" />
+		<text mainname="item_2" subname="num_text" filtercolor="0" />
+		<text mainname="item_3" subname="num_text" filtercolor="0" />
+		<text mainname="item_4" subname="num_text" filtercolor="0" />
+		<text mainname="item_5" subname="num_text" filtercolor="0" />
+		
+		<text mainname="legio_item_1" subname="num_text" filtercolor="0xffffff" />
+		<text mainname="legio_item_2" subname="num_text" filtercolor="0xffffff" />
+		<text mainname="legio_item_3" subname="num_text" filtercolor="0xffffff" />
+		<text mainname="legio_item_4" subname="num_text" filtercolor="0xffffff" />
+		<text mainname="legio_item_5" subname="num_text" filtercolor="0xffffff" />
+		<text mainname="legio_item_6" subname="num_text" filtercolor="0xffffff" />
+		<text mainname="legio_item_7" subname="num_text" filtercolor="0xffffff" />
+		<text mainname="legio_item_8" subname="num_text" filtercolor="0xffffff" />
+		<text mainname="legio_item_9" subname="num_text" filtercolor="0xffffff" />
+	
+		<control type="button" name="legion_edit_list_left_arrow" background="leftBtn" x="24" y="113" addchild="1" />
+		<control type="button" name="legion_edit_list_right_arrow" background="rightBtn" x="374" y="113" addchild="1" />
+		<control type="static" name="legion_edit_panel_selectbox" background="select_legion_box" x="" y="" addchild="1" />
+		
+		<control type="button" name="" background="closeIcon" x="366" y="28" addchild="1" >
+			<function evttype="click" callback="OnCloseLegionEditPanel" />
+		</control>
+		
+		<!--<control type="dialog" name="legion_edit_remove_hero_dialog" background="legion_quit_hero_panel" x="" y="" addchild="1" />-->
+		
+		<control type="dialog" name="legion_edit_add_hero_dialog" background="legion_choice_hero_panel" x="" y="" addchild="1" >
+			<text mainname="heros_item_1" subname="herosLevelText1" filtercolor="0" />
+			<text mainname="heros_item_2" subname="herosLevelText1" filtercolor="0" />
+			<text mainname="heros_item_3" subname="herosLevelText1" filtercolor="0" />
+			<text mainname="heros_item_4" subname="herosLevelText1" filtercolor="0" />
+			<text mainname="heros_item_5" subname="herosLevelText1" filtercolor="0" />
+			<text mainname="heros_item_6" subname="herosLevelText1" filtercolor="0" />
+			<control type="button" name="legion_edit_add_hero_dialog_left_arrow" background="leftBtn" x="249" y="17" addchild="1" />
+			<control type="button" name="legion_edit_add_hero_dialog_right_arrow" background="rightBtn" x="337" y="17" addchild="1" />
+		</control>
+		
+		<control type="static" name="legion_edit_hero_tips" background="legion_hero_tips" x="" y="" addchild="1" mouseenable="0" mousechild="0" >
+			<text mainname="heros_name_text" subname="" filtercolor="0" />
+			<text mainname="herosLevelText2" subname="" filtercolor="0" />
+			<text mainname="level_text_1" subname="" filtercolor="0xffffff" />
+			<text mainname="hero_state_text" subname="" filtercolor="0" />
+			<text mainname="hero_skill_text" subname="" filtercolor="0" />
+			
+			<text mainname="attackText" subname="" filtercolor="0" />
+			<text mainname="weaponText" subname="" filtercolor="0" />
+			<text mainname="luckyText" subname="" filtercolor="0" />
+		</control>
+		
+		<control type="static" name="legion_edit_add_hero_dialog_hero_tips" background="hero_tips" x="" y="" addchild="0" mouseenable="0" mousechild="0" >	
+			<text mainname="heros_name_text" subname="" filtercolor="0" />
+			<text mainname="hero_level_text" subname="" filtercolor="0" />
+			<text mainname="hero_soldier_text" subname="" filtercolor="0" />
+			<text mainname="hero_state_text" subname="" filtercolor="0" />
+			<text mainname="hero_skill_text" subname="" filtercolor="0" />
+		</control>
+		
+		<control type="static" name="legion_edit_equip_tips" background="weapon_tips" x="" y="" addchild="0" >
+			<!--
+			<text mainname="weapon_name_text" subname="" filtercolor="0" />
+			<text mainname="attack_text" subname="" filtercolor="0" />
+			<text mainname="level_text" subname="" filtercolor="0" />
+			<text mainname="soldier_text" subname="" filtercolor="0" />
+			-->
+		</control>
+	</control>	
+</ui>

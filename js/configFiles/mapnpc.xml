@@ -1,0 +1,733 @@
+<data>
+	<!--
+	harvestxoffset,harvestxoffset 税收动画的位置偏移
+	begframe,endframe,税收动画的偏移到最左，最右的帧数
+	canharvest 是否可以税收的开关
+	harvestsfx 税收的音效
+	walk_need_time 每一步行走的速度(单位:帧)
+	min_walk_time,max_walk_time 走动时间随机长度范围(单位:帧)
+	min_stay_time,max_stay_time 停止时间随机长度范围(单位:帧)
+	-->
+	<!--
+	<mapnpc id="10" name="装备店老板" level="1" walkres="Npc04walkPeople" stopres="Npc01standPeople" harvest="Npc07revenuePeople" harvestxoffset="80" harvestyoffset="120" begframe="60" endframe="63" canwalk="0" canharvest="0" walk_need_time="10" min_walk_time="80" max_walk_time="180" min_stay_time="5" max_stay_time="16" />
+	<mapnpc id="20" name="杂货店老板level="1" walkres="Npc03walkPeople" stopres="Npc03standPeople" harvest="Npc07revenuePeople" harvestxoffset="80" harvestyoffset="120" begframe="60" endframe="63" canwalk="0" canharvest="0" walk_need_time="16" min_walk_time="40" max_walk_time="100" min_stay_time="8" max_stay_time="25" />
+	<mapnpc id="50" name="鹅" level="10" voice="npc/goose.mp3" harvestsfx="npc/goose.mp3"walkres="Npc04walkPeople" stopres="Npc04standPeople" harvest="Npc07revenuePeople" harvestxoffset="80" harvestyoffset="120" begframe="60" endframe="63" canharvest="0" rollovercallbcak="" walk_need_time="14" min_walk_time="30" max_walk_time="90" min_stay_time="2" max_stay_time="16" />
+	-->
+	<mapnpc id="30" name="小狗" level="1" voice="npc/dog.mp3" harvestsfx="npc/dog.mp3" walkres="Npc03walkDog" stopres="Npc03restDog" canharvest="0" rollovercallbcak="" walk_need_time="12" min_walk_time="30" max_walk_time="120" min_stay_time="3" max_stay_time="15" />
+	<mapnpc id="60" name="母鸡" level="20" voice="npc/hen.mp3" harvestsfx="npc/hen.mp3" walkres="Npc06walkChicken" stopres="Npc06restChicken" canharvest="0" rollovercallbcak="" walk_need_time="25" min_walk_time="20" max_walk_time="70" min_stay_time="10" max_stay_time="20" />
+
+	<mapnpc id="70" name="木桶男A" level="1" harvestsfx="npc/npc07_scream.mp3" walkres="Npc07walkPeople" stopres="Npc07standPeople" harvest="Npc07revenuePeople" harvestxoffset="80" harvestyoffset="140" begframe="35" endframe="37" walk_need_time="15" min_walk_time="200" max_walk_time="300" min_stay_time="20" max_stay_time="30" />
+	<mapnpc id="80" name="木桶男B" level="1" harvestsfx="npc/npc07_scream.mp3" walkres="Npc07walkPeople" stopres="Npc07standPeople" harvest="Npc07revenuePeople" harvestxoffset="80" harvestyoffset="140" begframe="35" endframe="37" walk_need_time="15" min_walk_time="200" max_walk_time="300" min_stay_time="20" max_stay_time="30" />
+	<mapnpc id="90" name="家庭妇女A" level="1" harvestsfx="npc/npc09_scream.mp3" walkres="Npc09walkPeople" stopres="Npc09standPeople" harvest="Npc09revenuePeople" harvestxoffset="95" harvestyoffset="140" begframe="34" endframe="36" walk_need_time="15" min_walk_time="60" max_walk_time="120" min_stay_time="8" max_stay_time="25" />
+	<mapnpc id="100" name="家庭妇女B" level="1" harvestsfx="npc/npc09_scream.mp3" walkres="Npc09walkPeople" stopres="Npc09standPeople" harvest="Npc09revenuePeople" harvestxoffset="95" harvestyoffset="140" begframe="34" endframe="36" walk_need_time="15" min_walk_time="60" max_walk_time="120" min_stay_time="8" max_stay_time="25" />
+
+	<mapnpc id="110" name="小男孩A" level="10" harvestsfx="npc/npc11_scream.mp3" walkres="Npc11walkPeople" stopres="Npc11standPeople" harvest="Npc11revenuePeople" harvestxoffset="80" harvestyoffset="140" begframe="41" endframe="43" walk_need_time="12" min_walk_time="30" max_walk_time="110" min_stay_time="5" max_stay_time="20" />
+	<mapnpc id="120" name="小男孩B" level="10" harvestsfx="npc/npc11_scream.mp3" walkres="Npc11walkPeople" stopres="Npc11standPeople" harvest="Npc11revenuePeople" harvestxoffset="80" harvestyoffset="140" begframe="41" endframe="43" walk_need_time="12" min_walk_time="30" max_walk_time="110" min_stay_time="5" max_stay_time="20" />
+	<mapnpc id="130" name="老奶奶A" level="15" harvestsfx="npc/npc13_scream.mp3" walkres="Npc13walkPeople" stopres="Npc13standPeople" harvest="Npc13revenuePeople" harvestxoffset="230" harvestyoffset="120" begframe="38" endframe="40" walk_need_time="18" min_walk_time="20" max_walk_time="60" min_stay_time="10" max_stay_time="35" />
+	<mapnpc id="140" name="老奶奶B" level="15" harvestsfx="npc/npc13_scream.mp3" walkres="Npc13walkPeople" stopres="Npc13standPeople" harvest="Npc13revenuePeople" harvestxoffset="230" harvestyoffset="120" begframe="38" endframe="40" walk_need_time="18" min_walk_time="20" max_walk_time="60" min_stay_time="10" max_stay_time="35" />
+
+	<mapnpc id="150" name="衰哥A" level="5" harvestsfx="npc/npc15_scream.mp3" walkres="Npc15walkPeople" stopres="Npc15standPeople" canharvest="1" harvest="Npc15revenuePeople" harvestxoffset="280" harvestyoffset="180" begframe="42" endframe="45" walk_need_time="22" min_walk_time="30" max_walk_time="60" min_stay_time="45" max_stay_time="60" />
+	<mapnpc id="160" name="衰哥B" level="5" harvestsfx="npc/npc15_scream.mp3" walkres="Npc15walkPeople" stopres="Npc15standPeople" canharvest="1" harvest="Npc15revenuePeople" harvestxoffset="280" harvestyoffset="180" begframe="42" endframe="45" walk_need_time="25" min_walk_time="30" max_walk_time="60" min_stay_time="45" max_stay_time="60" />
+
+	<mapnpc id="190" name="傻大个A" level="1" harvestsfx="npc/npc19_scream.mp3" walkres="Npc19walkPeople" stopres="Npc19standPeople" harvest="Npc19revenuePeople" harvestxoffset="80" harvestyoffset="140" begframe="33" endframe="35"  walk_need_time="10" min_walk_time="50" max_walk_time="90" min_stay_time="8" max_stay_time="15" />
+	<mapnpc id="200" name="傻大个B" level="1" harvestsfx="npc/npc19_scream.mp3" walkres="Npc19walkPeople" stopres="Npc19standPeople" harvest="Npc19revenuePeople" harvestxoffset="80" harvestyoffset="140" begframe="33" endframe="35"  walk_need_time="10" min_walk_time="50" max_walk_time="90" min_stay_time="8" max_stay_time="15" />
+
+	<mapnpc id="210" name="洗衣妇女A" level="1" harvestsfx="npc/npc21_scream.mp3" walkres="Npc21walkPeople" stopres="Npc21standPeople" canharvest="1" harvest="Npc21revenuePeople" harvestxoffset="130" harvestyoffset="150" begframe="47" endframe="49" walk_need_time="18" min_walk_time="20" max_walk_time="60" min_stay_time="10" max_stay_time="35" />
+	<mapnpc id="220" name="洗衣妇女B" level="1" harvestsfx="npc/npc21_scream.mp3" walkres="Npc21walkPeople" stopres="Npc21standPeople" canharvest="1" harvest="Npc21revenuePeople" harvestxoffset="130" harvestyoffset="150" begframe="47" endframe="49" walk_need_time="18" min_walk_time="20" max_walk_time="60" min_stay_time="10" max_stay_time="35" />
+
+	<mapnpc id="230" name="屠户A" level="20" harvestsfx="npc/npc23_scream.mp3" walkres="Npc23walkPeople" stopres="Npc23standPeople" harvest="Npc23revenuePeople" harvestxoffset="80" harvestyoffset="135" begframe="31" endframe="33"  walk_need_time="9" min_walk_time="50" max_walk_time="90" min_stay_time="8" max_stay_time="15" />
+	<mapnpc id="240" name="屠户B" level="20" harvestsfx="npc/npc23_scream.mp3" walkres="Npc23walkPeople" stopres="Npc23standPeople" harvest="Npc23revenuePeople" harvestxoffset="80" harvestyoffset="135" begframe="31" endframe="33"  walk_need_time="9" min_walk_time="50" max_walk_time="90" min_stay_time="8" max_stay_time="15" />
+	<mapnpc id="250" name="裁缝A" level="25" harvestsfx="npc/npc25_scream.mp3" walkres="Npc25walkPeople" stopres="Npc25standPeople" canharvest="1" harvest="Npc25revenuePeople" harvestxoffset="180" harvestyoffset="130" begframe="42" endframe="45"  walk_need_time="8" min_walk_time="50" max_walk_time="90" min_stay_time="8" max_stay_time="15" />
+	<mapnpc id="260" name="裁缝B" level="25" harvestsfx="npc/npc25_scream.mp3" walkres="Npc25walkPeople" stopres="Npc25standPeople" canharvest="1" harvest="Npc25revenuePeople" harvestxoffset="180" harvestyoffset="130" begframe="42" endframe="45"  walk_need_time="8" min_walk_time="50" max_walk_time="90" min_stay_time="8" max_stay_time="15" />
+
+	<mapnpc id="270" name="村妇A" level="30" harvestsfx="npc/npc27_scream.mp3" walkres="Npc27walkPeople" stopres="Npc27standPeople" canharvest="1" harvest="Npc27revenuePeople" harvestxoffset="280" harvestyoffset="180" begframe="47" endframe="49"  walk_need_time="8" min_walk_time="50" max_walk_time="90" min_stay_time="8" max_stay_time="15" />
+	<mapnpc id="280" name="村妇B" level="30" harvestsfx="npc/npc27_scream.mp3" walkres="Npc27walkPeople" stopres="Npc27standPeople" canharvest="1" harvest="Npc27revenuePeople" harvestxoffset="280" harvestyoffset="180" begframe="47" endframe="49"  walk_need_time="8" min_walk_time="50" max_walk_time="90" min_stay_time="8" max_stay_time="15" />
+
+	<!--<activitynpc id="10000" name="圣诞老人" level="0" delay="0" acttype="1" clickicon="christmas_present_icon" harvestsfx="" walkres="Christmas_npc_walk" stopres="Christmas_npc_rest" canharvest="1" harvest="" harvestxoffset="280" harvestyoffset="180" begframe="47" endframe="49"  walk_need_time="8" min_walk_time="50" max_walk_time="90" min_stay_time="8" max_stay_time="15" />
+
+
+		<mapnpc id="150" name="衰哥" level="5" walkres="Npc03walkPeople" stopres="Npc03standPeople" harvest="Npc07revenuePeople" harvestxoffset="80" harvestyoffset="120" begframe="60" endframe="63"  walk_need_time="12" min_walk_time="50" max_walk_time="90" min_stay_time="8" max_stay_time="15" />
+	<mapnpc id="170" name="小女孩" level="5" walkres="Npc04walkPeople" stopres="Npc04standPeople" harvest="Npc07revenuePeople" harvestxoffset="80" harvestyoffset="120" begframe="60" endframe="63"  walk_need_time="13" min_walk_time="50" max_walk_time="90" min_stay_time="8" max_stay_time="15" />
+
+	<mapnpc id="210" name="洗衣妇女" level="15" walkres="Npc04walkPeople" stopres="Npc04standPeople" harvest="Npc07revenuePeople" harvestxoffset="80" harvestyoffset="120" begframe="60" endframe="63"  walk_need_time="10" min_walk_time="50" max_walk_time="90" min_stay_time="8" max_stay_time="15" />
+
+	<mapnpc id="250" name="裁缝" level="25" walkres="Npc01walkPeople" stopres="Npc01standPeople" harvest="Npc07revenuePeople" harvestxoffset="80" harvestyoffset="120" begframe="60" endframe="63"  walk_need_time="10" min_walk_time="50" max_walk_time="90" min_stay_time="8" max_stay_time="15" />
+	<mapnpc id="270" name="村妇" level="30" walkres="Npc01walkPeople" stopres="Npc01standPeople" harvest="Npc07revenuePeople" harvestxoffset="80" harvestyoffset="120" begframe="60" endframe="63"  walk_need_time="10" min_walk_time="50" max_walk_time="90" min_stay_time="8" max_stay_time="15" />
+	<mapnpc id="290" name="贵族" level="35" walkres="Npc01walkPeople" stopres="Npc01standPeople" harvest="Npc07revenuePeople" harvestxoffset="80" harvestyoffset="120" begframe="60" endframe="63"  walk_need_time="10" min_walk_time="50" max_walk_time="90" min_stay_time="8" max_stay_time="15" />
+
+	<mapnpc id="310" name="士兵" level="1" walkres="Npc01walkPeople" stopres="Npc01standPeople" harvest="Npc07revenuePeople" harvestxoffset="80" harvestyoffset="120" begframe="60" endframe="63"  canwalk="0" walk_need_time="10" min_walk_time="50" max_walk_time="90" min_stay_time="8" max_stay_time="15" />
+	<mapnpc id="320" name="驻军" level="1" walkres="Npc04walkPeople" stopres="Npc04standPeople" harvest="Npc07revenuePeople" harvestxoffset="80" harvestyoffset="120" begframe="60" endframe="63"  canwalk="0" walk_need_time="10" min_walk_time="50" max_walk_time="90" min_stay_time="8" max_stay_time="15" />
+	<mapnpc id="330" name="公主" level="1" walkres="Npc04walkPeople" stopres="Npc04standPeople" harvest="Npc07revenuePeople" harvestxoffset="80" harvestyoffset="120" begframe="60" endframe="63"  canwalk="0" walk_need_time="10" min_walk_time="50" max_walk_time="90" min_stay_time="8" max_stay_time="15" />
+	-->
+
+	<mapbuyer id="1002" name="" level="1" harvestsfx="" walkres="npc_footman_walk" stopres="npc_footman_rest" canharvest="1" harvest="Npc27standPeople" harvestxoffset="280" harvestyoffset="180" begframe="47" endframe="49"  walk_need_time="8" min_walk_time="50" max_walk_time="90" min_stay_time="8" max_stay_time="15" />
+	<mapbuyer id="2003" name="" level="1" harvestsfx="" walkres="npc_halberdier_walk" stopres="npc_halberdier_rest" canharvest="1" harvest="Npc27standPeople" harvestxoffset="280" harvestyoffset="180" begframe="47" endframe="49"  walk_need_time="8" min_walk_time="50" max_walk_time="90" min_stay_time="8" max_stay_time="15" />
+	<mapbuyer id="3003" name="" level="1" harvestsfx="" walkres="npc_ranger_walk" stopres="npc_ranger_rest" canharvest="1" harvest="Npc27standPeople" harvestxoffset="280" harvestyoffset="180" begframe="47" endframe="49"  walk_need_time="8" min_walk_time="50" max_walk_time="90" min_stay_time="8" max_stay_time="15" />
+	<mapbuyer id="4002" name="" level="1" harvestsfx="" walkres="npc_huoqiangshou_walk" stopres="npc_huoqiangshou_rest" canharvest="1" harvest="Npc27standPeople" harvestxoffset="280" harvestyoffset="180" begframe="47" endframe="49"  walk_need_time="8" min_walk_time="50" max_walk_time="90" min_stay_time="8" max_stay_time="15" />
+	<mapbuyer id="5004" name="" level="1" harvestsfx="" walkres="npc_shaman_walk" stopres="npc_shaman_rest" canharvest="1" harvest="Npc27standPeople" harvestxoffset="280" harvestyoffset="180" begframe="47" endframe="49"  walk_need_time="8" min_walk_time="50" max_walk_time="90" min_stay_time="8" max_stay_time="15" />
+
+	<showlimit minlevel="1" maxnpc="10" />
+	<showlimit minlevel="6" maxnpc="20" />
+	<showlimit minlevel="11" maxnpc="30" />
+	<showlimit minlevel="21" maxnpc="40" />
+
+	<param moveduration="1" mindelay="20" maxdelay="100" reverseratio="30" mapnpcharvesticon="heartIcon" />
+	<autoscale begy="500" endy="300" deltaratio="0.6" />
+
+
+
+<track id="1000" layer="1" desc="城镇前往王城">
+  <point x="494" y="510"/>
+	<point x="475" y="509"/>
+	<point x="470" y="509"/>
+	<point x="467" y="508"/>
+	<point x="462" y="507"/>
+	<point x="458" y="506"/>
+	<point x="455" y="504"/>
+	<point x="451" y="502"/>
+	<point x="448" y="501"/>
+	<point x="445" y="498"/>
+	<point x="443" y="492"/>
+	<point x="440" y="489"/>
+	<point x="438" y="488"/>
+	<point x="433" y="486"/>
+	<point x="430" y="477"/>
+	<point x="425" y="469"/>
+	<point x="429" y="460"/>
+	<point x="432" y="454"/>
+	<point x="440" y="447"/>
+	<point x="446" y="440"/>
+	<point x="450" y="433"/>
+	<point x="455" y="427"/>
+	<point x="458" y="427"/>
+	<point x="470" y="424"/>
+	<point x="475" y="420"/>
+	<point x="482" y="420"/>
+	<point x="487" y="418"/>
+	<point x="492" y="418"/>
+	<point x="497" y="415"/>
+	<point x="500" y="413"/>
+	<point x="507" y="410"/>
+	<point x="517" y="408"/>
+	<point x="526" y="405"/>
+	<point x="531" y="403"/>
+	<point x="540" y="400"/>
+	<point x="546" y="397"/>
+	<point x="550" y="395"/>
+	<point x="553" y="393"/>
+	<point x="556" y="392"/>
+	<point x="559" y="392"/>
+	<point x="563" y="391"/>
+	<point x="567" y="390"/>
+	<point x="568" y="389"/>
+	<point x="569" y="387"/>
+	<point x="570" y="385"/>
+	<point x="572" y="384"/>
+	<point x="573" y="383"/>
+	<point x="575" y="382"/>
+	<point x="576" y="381"/>
+	<point x="577" y="380"/>
+	<point x="580" y="379"/>
+	<point x="582" y="377"/>
+	<point x="585" y="376"/>
+	<point x="587" y="374"/>
+	<point x="590" y="372"/>
+	<point x="592" y="370"/>
+	<point x="594" y="368"/>
+	<point x="595" y="365"/>
+	<point x="592" y="362"/>
+	<point x="590" y="360"/>
+	<point x="587" y="359"/>
+	<point x="585" y="358"/>
+	<point x="582" y="357"/>
+	<point x="580" y="356"/>
+	<point x="577" y="355"/>
+	<point x="575" y="354"/>
+	<point x="572" y="352"/>
+	<point x="569" y="350"/>
+	<point x="566" y="349"/>
+	<point x="564" y="348"/>
+	<point x="561" y="346"/>
+	<point x="558" y="344"/>
+	<point x="555" y="344"/>
+	<point x="553" y="344"/>
+	<point x="550" y="344"/>
+	<point x="548" y="344"/>
+	<point x="545" y="343"/>
+	<point x="542" y="343"/>
+	<point x="539" y="343"/>
+	<point x="536" y="343"/>
+	<point x="533" y="343"/>
+	<point x="530" y="343"/>
+	<point x="528" y="343"/>
+	<point x="525" y="342"/>
+	<point x="522" y="342"/>
+	<point x="519" y="342"/>
+	<point x="516" y="341"/>
+	<point x="513" y="341"/>
+	<point x="510" y="341"/>
+	<point x="508" y="341"/>
+	<point x="505" y="340"/>
+	<point x="502" y="340"/>
+	<point x="499" y="340"/>
+	<point x="496" y="340"/>
+	<point x="493" y="339"/>
+	<point x="490" y="339"/>
+	<point x="488" y="338"/>
+	<point x="485" y="338"/>
+	<point x="483" y="338"/>
+	<point x="479" y="338"/>
+	<point x="477" y="338"/>
+	<point x="475" y="338"/>
+	<point x="471" y="338"/>
+	<point x="468" y="338"/>
+	<point x="465" y="338"/>
+	<point x="462" y="338"/>
+	<point x="459" y="338"/>
+	<point x="457" y="338"/>
+	<point x="455" y="338"/>
+	<point x="452" y="338"/>
+	<point x="450" y="338"/>
+	<point x="447" y="338"/>
+	<point x="444" y="338"/>
+	<point x="441" y="338"/>
+	<point x="438" y="338"/>
+	<point x="436" y="338"/>
+	<point x="432" y="337"/>
+	<point x="429" y="337"/>
+	<point x="426" y="337"/>
+	<point x="422" y="337"/>
+	<point x="419" y="337"/>
+	<point x="416" y="337"/>
+	<point x="412" y="337"/>
+	<point x="409" y="337"/>
+	<point x="406" y="337"/>
+	<point x="404" y="336"/>
+	<point x="402" y="336"/>
+	<point x="398" y="336"/>
+	<point x="395" y="336"/>
+	<point x="392" y="336"/>
+	<point x="389" y="336"/>
+	<point x="386" y="336"/>
+	<point x="383" y="336"/>
+	<point x="380" y="336"/>
+	<point x="377" y="336"/>
+	<point x="375" y="336"/>
+	<point x="372" y="336"/>
+	<point x="369" y="336"/>
+	<point x="367" y="336"/>
+	<point x="363" y="336"/>
+	<point x="360" y="336"/>
+	<point x="357" y="336"/>
+	<point x="354" y="336"/>
+	<point x="351" y="336"/>
+	<point x="348" y="336"/>
+	<point x="346" y="336"/>
+	<point x="343" y="336"/>
+	<point x="340" y="336"/>
+	<point x="338" y="335"/>
+	<point x="337" y="335"/>
+	<point x="336" y="335"/>
+	<point x="332" y="335"/>
+	<point x="329" y="335"/>
+	<point x="325" y="335"/>
+	<point x="322" y="335"/>
+	<point x="320" y="335"/>
+	<point x="318" y="335"/>
+	<point x="315" y="335"/>
+	<point x="313" y="335"/>
+	<point x="311" y="335"/>
+	<point x="308" y="334"/>
+	<point x="305" y="334"/>
+	<point x="302" y="333"/>
+	<point x="300" y="333"/>
+	<point x="298" y="333"/>
+	<point x="295" y="333"/>
+	<point x="293" y="333"/>
+	<point x="290" y="333"/>
+	<point x="287" y="333"/>
+	<point x="285" y="333"/>
+	<point x="282" y="333"/>
+	<point x="279" y="333"/>
+	<point x="277" y="332"/>
+	<point x="274" y="332"/>
+	<point x="271" y="332"/>
+	<point x="268" y="332"/>
+	<point x="266" y="332"/>
+	<point x="263" y="331"/>
+	<point x="261" y="331"/>
+	<point x="259" y="331"/>
+	<point x="258" y="330"/>
+	<point x="257" y="329"/>
+	<point x="256" y="326"/>
+	<point x="256" y="325"/>
+	<point x="257" y="324"/>
+	<point x="258" y="323"/>
+	<point x="259" y="322"/>
+	<point x="263" y="320"/>
+	<point x="266" y="319"/>
+	<point x="269" y="317"/>
+	<point x="272" y="316"/>
+	<point x="275" y="315"/>
+	<point x="278" y="314"/>
+	<point x="279" y="312"/>
+	<point x="280" y="310"/>
+	<point x="282" y="309"/>
+	<point x="283" y="308"/>
+	<point x="284" y="306"/>
+	<point x="285" y="304"/>
+	<point x="286" y="302"/>
+	<point x="287" y="300"/>
+	<point x="291" y="298"/>
+	<point x="294" y="295"/>
+	<point x="297" y="294"/>
+	<point x="300" y="293"/>
+	<point x="302" y="290"/>
+	<point x="304" y="289"/>
+	<point x="306" y="289"/>
+	<point x="310" y="288"/>
+	<point x="314" y="286"/>
+	</track>
+
+<track id="400" nexttrack="" desc="城镇中徘徊">
+ <point x="548" y="516"/>
+ <point x="567" y="516"/>
+ <point x="579" y="516"/>
+ <point x="592" y="516"/>
+ <point x="606" y="516"/>
+ <point x="625" y="516"/>
+ <point x="645" y="516"/>
+ <point x="666" y="516"/>
+ <point x="683" y="516"/>
+ <point x="699" y="516"/>
+ <point x="714" y="516"/>
+ <point x="730" y="516"/>
+ <point x="745" y="516"/>
+ <point x="760" y="516"/>
+ <point x="780" y="516"/>
+ <point x="799" y="516"/>
+ <point x="817" y="516"/>
+ <point x="833" y="516"/>
+ <point x="841" y="516"/>
+ <point x="853" y="516"/>
+ <point x="866" y="518"/>
+ <point x="855" y="518"/>
+ <point x="829" y="518"/>
+ <point x="821" y="518"/>
+ <point x="812" y="518"/>
+ <point x="774" y="518"/>
+ <point x="755" y="518"/>
+ <point x="739" y="518"/>
+ <point x="724" y="520"/>
+ <point x="709" y="520"/>
+ <point x="693" y="520"/>
+ <point x="676" y="516"/>
+ <point x="657" y="516"/>
+ <point x="642" y="516"/>
+ <point x="627" y="516"/>
+ <point x="612" y="516"/>
+ <point x="587" y="516"/>
+ <point x="566" y="516"/>
+ <point x="546" y="516"/>
+  </track>
+
+<track id="100" nexttrack="" desc="城镇向左">
+  <point x="529" y="515"/>
+  <point x="523" y="515"/>
+  <point x="498" y="515"/>
+  <point x="481" y="515"/>
+  <point x="461" y="515"/>
+  <point x="445" y="515"/>
+  <point x="424" y="515"/>
+  <point x="406" y="515"/>
+  <point x="379" y="515"/>
+  <point x="353" y="515"/>
+  <point x="335" y="515"/>
+  <point x="317" y="515"/>
+  <point x="277" y="515"/>
+  <point x="264" y="515"/>
+  <point x="257" y="515"/>
+  <point x="235" y="515"/>
+  <point x="217" y="513"/>
+  <point x="199" y="513"/>
+  </track>
+
+<track id="200" nexttrack="" desc="城镇左边往中心">
+ <point x="183" y="515"/>
+ <point x="194" y="515"/>
+ <point x="216" y="515"/>
+ <point x="234" y="515"/>
+ <point x="243" y="515"/>
+ <point x="262" y="515"/>
+ <point x="276" y="515"/>
+ <point x="287" y="515"/>
+ <point x="301" y="515"/>
+ <point x="312" y="515"/>
+ <point x="323" y="515"/>
+ <point x="337" y="519"/>
+ <point x="356" y="519"/>
+ <point x="365" y="519"/>
+ <point x="377" y="519"/>
+ <point x="385" y="519"/>
+ <point x="398" y="519"/>
+ <point x="415" y="519"/>
+ <point x="427" y="519"/>
+ <point x="447" y="519"/>
+ <point x="465" y="519"/>
+ <point x="477" y="519"/>
+ <point x="494" y="516"/>
+ <point x="513" y="516"/>
+ <point x="529" y="516"/>
+  </track>
+
+<track id="2000" nexttrack="" layer="0" desc="从城镇中心向右边山脚">
+  <point x="547" y="513"/>
+  <point x="562" y="516"/>
+  <point x="583" y="516"/>
+  <point x="603" y="516"/>
+  <point x="625" y="519"/>
+  <point x="637" y="519"/>
+  <point x="657" y="519"/>
+  <point x="671" y="519"/>
+  <point x="685" y="519"/>
+  <point x="692" y="519"/>
+  <point x="708" y="519"/>
+  <point x="723" y="519"/>
+  <point x="744" y="519"/>
+  <point x="760" y="524"/>
+  <point x="775" y="524"/>
+  <point x="786" y="524"/>
+  <point x="795" y="524"/>
+  <point x="807" y="519"/>
+  <point x="824" y="519"/>
+  <point x="839" y="519"/>
+  <point x="855" y="519"/>
+  <point x="866" y="519"/>
+  <point x="879" y="519"/>
+  <point x="894" y="525"/>
+  <point x="910" y="525"/>
+  <point x="928" y="525"/>
+  <point x="953" y="525"/>
+  <point x="971" y="525"/>
+  <point x="987" y="525"/>
+  <point x="1007" y="525"/>
+  <point x="1017" y="525"/>
+  <point x="1030" y="520"/>
+  <point x="1040" y="520"/>
+  <point x="1055" y="517"/>
+  <point x="1076" y="517"/>
+  <point x="1090" y="515"/>
+  <point x="1098" y="513"/>
+  </track>
+
+<track id="2100" pass="1" nexttrack="" layer="0" desc="右边山脚往城镇中心">
+		<point x="1110" y="513"/>
+		<point x="1091" y="513"/>
+		<point x="1081" y="515"/>
+		<point x="1062" y="515"/>
+		<point x="1050" y="515"/>
+		<point x="1036" y="518"/>
+		<point x="1010" y="518"/>
+		<point x="987" y="518"/>
+		<point x="971" y="518"/>
+		<point x="942" y="518"/>
+		<point x="922" y="518"/>
+		<point x="912" y="522"/>
+		<point x="895" y="522"/>
+		<point x="885" y="522"/>
+		<point x="872" y="522"/>
+		<point x="861" y="522"/>
+		<point x="842" y="522"/>
+		<point x="824" y="522"/>
+		<point x="808" y="525"/>
+		<point x="791" y="525"/>
+		<point x="771" y="525"/>
+		<point x="754" y="525"/>
+		<point x="732" y="523"/>
+		<point x="716" y="523"/>
+		<point x="697" y="523"/>
+		<point x="678" y="523"/>
+		<point x="663" y="519"/>
+		<point x="647" y="519"/>
+		<point x="631" y="519"/>
+		<point x="612" y="519"/>
+		<point x="599" y="516"/>
+		<point x="584" y="516"/>
+		<point x="568" y="516"/>
+		<point x="556" y="513"/>
+		<point x="544" y="513"/>
+	</track>
+
+<track id="2200" nexttrack="" desc="民居到酒馆">
+		<point x="343" y="516"/>
+		<point x="353" y="516"/>
+		<point x="355" y="519"/>
+		<point x="367" y="519"/>
+		<point x="372" y="519"/>
+		<point x="379" y="519"/>
+		<point x="385" y="522"/>
+		<point x="396" y="523"/>
+		<point x="406" y="523"/>
+		<point x="412" y="523"/>
+		<point x="423" y="523"/>
+		<point x="433" y="523"/>
+		<point x="438" y="523"/>
+		<point x="452" y="523"/>
+		<point x="459" y="520"/>
+		<point x="468" y="519"/>
+		<point x="480" y="519"/>
+		<point x="491" y="519"/>
+		<point x="504" y="519"/>
+		<point x="513" y="519"/>
+		<point x="519" y="519"/>
+		<point x="527" y="519"/>
+		<point x="536" y="519"/>
+		<point x="547" y="519"/>
+		<point x="556" y="519"/>
+		<point x="568" y="519"/>
+		<point x="579" y="523"/>
+		<point x="587" y="523"/>
+		<point x="596" y="523"/>
+		<point x="605" y="523"/>
+		<point x="614" y="523"/>
+		<point x="621" y="523"/>
+		<point x="630" y="523"/>
+		<point x="637" y="523"/>
+		<point x="644" y="523"/>
+		<point x="650" y="523"/>
+		<point x="658" y="523"/>
+		<point x="665" y="523"/>
+		<point x="672" y="523"/>
+		<point x="682" y="523"/>
+		<point x="690" y="524"/>
+		<point x="698" y="524"/>
+		<point x="709" y="524"/>
+		<point x="720" y="525"/>
+		<point x="732" y="525"/>
+		<point x="741" y="525"/>
+		<point x="750" y="525"/>
+		<point x="759" y="523"/>
+		<point x="768" y="523"/>
+		<point x="774" y="523"/>
+		<point x="782" y="523"/>
+		<point x="790" y="523"/>
+		<point x="799" y="523"/>
+		<point x="808" y="523"/>
+		<point x="819" y="523"/>
+		<point x="826" y="523"/>
+		<point x="834" y="520"/>
+		<point x="840" y="520"/>
+		<point x="849" y="519"/>
+		<point x="854" y="519"/>
+	</track>
+
+<track id="2300" nexttrack="" desc="教堂到武器闲逛">
+  <point x="1112" y="471"/>
+  <point x="1110" y="471"/>
+  <point x="1097" y="471"/>
+  <point x="1092" y="472"/>
+  <point x="1088" y="473"/>
+  <point x="1082" y="475"/>
+  <point x="1079" y="476"/>
+  <point x="1074" y="476"/>
+  <point x="1069" y="476"/>
+  <point x="1069" y="481"/>
+  <point x="1063" y="484"/>
+  <point x="1066" y="488"/>
+  <point x="1073" y="491"/>
+  <point x="1078" y="494"/>
+  <point x="1085" y="497"/>
+  <point x="1090" y="498"/>
+  <point x="1096" y="500"/>
+  <point x="1104" y="506"/>
+  <point x="1110" y="510"/>
+  <point x="1115" y="513"/>
+  <point x="1117" y="515"/>
+  <point x="1120" y="517"/>
+  <point x="1124" y="517"/>
+  <point x="1128" y="517"/>
+  <point x="1132" y="517"/>
+  <point x="1136" y="517"/>
+  <point x="1141" y="517"/>
+  <point x="1147" y="517"/>
+  <point x="1152" y="517"/>
+  <point x="1158" y="517"/>
+  <point x="1166" y="517"/>
+  <point x="1175" y="517"/>
+  <point x="1181" y="517"/>
+  <point x="1189" y="517"/>
+  <point x="1195" y="517"/>
+  <point x="1201" y="517"/>
+  <point x="1214" y="517"/>
+  <point x="1221" y="517"/>
+  <point x="1229" y="517"/>
+  <point x="1234" y="517"/>
+  <point x="1241" y="518"/>
+  <point x="1249" y="518"/>
+  <point x="1255" y="518"/>
+  <point x="1267" y="518"/>
+  <point x="1276" y="518"/>
+  <point x="1284" y="518"/>
+  <point x="1292" y="518"/>
+  <point x="1302" y="518"/>
+  <point x="1311" y="518"/>
+  <point x="1320" y="518"/>
+  <point x="1329" y="518"/>
+  <point x="1338" y="518"/>
+  <point x="1345" y="518"/>
+  <point x="1351" y="518"/>
+  <point x="1360" y="518"/>
+  <point x="1367" y="518"/>
+  <point x="1375" y="518"/>
+  <point x="1384" y="518"/>
+  <point x="1392" y="518"/>
+  <point x="1397" y="520"/>
+  <point x="1393" y="520"/>
+  <point x="1390" y="520"/>
+  <point x="1384" y="520"/>
+  <point x="1380" y="520"/>
+  <point x="1370" y="520"/>
+  <point x="1362" y="520"/>
+  <point x="1354" y="520"/>
+  <point x="1348" y="520"/>
+  <point x="1340" y="520"/>
+  <point x="1332" y="520"/>
+  <point x="1324" y="520"/>
+  <point x="1316" y="520"/>
+  <point x="1308" y="520"/>
+  <point x="1299" y="520"/>
+  <point x="1290" y="520"/>
+  <point x="1282" y="520"/>
+  <point x="1271" y="520"/>
+  <point x="1260" y="520"/>
+  <point x="1252" y="520"/>
+  <point x="1246" y="520"/>
+  <point x="1240" y="520"/>
+  <point x="1231" y="526"/>
+  <point x="1224" y="526"/>
+  <point x="1213" y="526"/>
+  <point x="1204" y="526"/>
+  <point x="1199" y="526"/>
+  <point x="1191" y="526"/>
+  <point x="1184" y="526"/>
+  <point x="1175" y="526"/>
+  <point x="1168" y="526"/>
+  <point x="1160" y="526"/>
+  <point x="1152" y="526"/>
+  <point x="1146" y="526"/>
+  <point x="1140" y="526"/>
+  <point x="1134" y="526"/>
+  <point x="1130" y="526"/>
+  <point x="1125" y="526"/>
+  <point x="1119" y="526"/>
+  <point x="1114" y="526"/>
+  <point x="1108" y="526"/>
+  <point x="1103" y="526"/>
+  <point x="1099" y="526"/>
+  <point x="1096" y="526"/>
+  <point x="1092" y="526"/>
+  <point x="1088" y="526"/>
+  <point x="1084" y="522"/>
+  <point x="1080" y="522"/>
+  <point x="1069" y="517"/>
+  <point x="1060" y="517"/>
+  <point x="1054" y="517"/>
+  <point x="1048" y="517"/>
+  <point x="1040" y="517"/>
+  <point x="1032" y="517"/>
+  <point x="1023" y="517"/>
+  <point x="1015" y="517"/>
+  <point x="1010" y="517"/>
+  <point x="1004" y="517"/>
+  <point x="998" y="517"/>
+  <point x="992" y="517"/>
+  <point x="986" y="517"/>
+  <point x="980" y="517"/>
+  <point x="974" y="517"/>
+  <point x="969" y="517"/>
+  <point x="960" y="517"/>
+  <point x="954" y="517"/>
+  <point x="948" y="517"/>
+  <point x="942" y="517"/>
+  <point x="938" y="517"/>
+  <point x="930" y="517"/>
+  <point x="925" y="517"/>
+  <point x="918" y="517"/>
+  <point x="912" y="517"/>
+  <point x="906" y="517"/>
+  <point x="900" y="517"/>
+  <point x="894" y="517"/>
+  <point x="888" y="517"/>
+  <point x="882" y="517"/>
+  <point x="876" y="517"/>
+  <point x="872" y="517"/>
+  <point x="868" y="517"/>
+  <point x="860" y="517"/>
+  <point x="852" y="517"/>
+  <point x="845" y="517"/>
+  <point x="841" y="517"/>
+  <point x="838" y="517"/>
+  <point x="832" y="520"/>
+  <point x="827" y="520"/>
+  <point x="820" y="527"/>
+  <point x="814" y="527"/>
+  <point x="806" y="527"/>
+  <point x="800" y="527"/>
+  <point x="795" y="527"/>
+  <point x="790" y="527"/>
+  <point x="784" y="527"/>
+  <point x="780" y="527"/>
+  <point x="775" y="527"/>
+  <point x="771" y="527"/>
+  <point x="768" y="527"/>
+  <point x="762" y="527"/>
+  <point x="758" y="527"/>
+  <point x="753" y="527"/>
+  <point x="749" y="527"/>
+  <point x="746" y="527"/>
+  <point x="743" y="527"/>
+  <point x="740" y="527"/>
+  <point x="736" y="527"/>
+  <point x="734" y="527"/>
+  <point x="730" y="527"/>
+  <point x="727" y="527"/>
+  <point x="725" y="527"/>
+  <point x="720" y="527"/>
+  <point x="714" y="527"/>
+  <point x="708" y="527"/>
+  <point x="704" y="527"/>
+  <point x="700" y="527"/>
+  <point x="698" y="527"/>
+  <point x="692" y="529"/>
+  <point x="688" y="529"/>
+  <point x="685" y="529"/>
+  <point x="683" y="529"/>
+  <point x="680" y="529"/>
+  <point x="677" y="529"/>
+  <point x="674" y="529"/>
+  <point x="670" y="529"/>
+  <point x="665" y="529"/>
+  <point x="663" y="529"/>
+  <point x="660" y="529"/>
+  <point x="656" y="529"/>
+  <point x="653" y="529"/>
+  <point x="649" y="529"/>
+  <point x="646" y="529"/>
+  <point x="644" y="526"/>
+  <point x="640" y="526"/>
+  <point x="637" y="526"/>
+  <point x="632" y="526"/>
+  <point x="624" y="526"/>
+  <point x="618" y="526"/>
+  <point x="614" y="526"/>
+  <point x="610" y="526"/>
+  <point x="606" y="526"/>
+  <point x="603" y="526"/>
+  <point x="600" y="524"/>
+  <point x="597" y="524"/>
+  <point x="594" y="520"/>
+  <point x="590" y="516"/>
+  <point x="588" y="514"/>
+	</track>
+    
+</data>

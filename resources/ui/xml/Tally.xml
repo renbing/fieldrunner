@@ -1,0 +1,638 @@
+<!--Copyright 2012 Subatomic Studios, LLC. All rights reserved.-->
+<Form Name="" BasePlatform="2" Version="77" FormType="2" ClassType="10">
+    <FormRoot Name="Element">
+        <Element TextureFilename="BGTint.png" Type="2" Name="BGTint" ID="106" Anchor="0.500000, 0.500000" Dimension="1.025695, 1.501042" BlendState="3" ResizeBias="0" />
+        <Element Type="2" Name="Frames" ID="275" Anchor="0.500000, 0.500000" Dimension="1.012500, 1.012500" IsPassive="T" Tint="255, 255, 255, 0" ResizeBias="2">
+            <Animations>
+                <Animation Name="OnLoad">
+                    <Track ID="71" Type="11">
+                        <TrackKey ID="0" Time="0" Value="1" />
+                    </Track>
+                </Animation>
+                <Animation Name="CloseForm">
+                    <Track ID="24" Type="11">
+                        <TrackKey ID="0" Time="0.171875" Value="1" />
+                        <TrackKey ID="1" Time="0.40625" Value="1.4" />
+                    </Track>
+                </Animation>
+            </Animations>
+            <Element PanelSkin="ResizeableFrame01.asc" Type="10" Name="Inner" ID="277" Dimension="1.093750, 1.171873" IsPassive="T" ResizeBias="2" RenderFlags="510">
+                <Element PanelSkin="Test_InnerShadow.asc" Type="10" Name="ResizablePanel::322" ID="322" Dimension="1.093750, 1.171875" IsPassive="T" BlendState="3" ResizeBias="2" />
+            </Element>
+            <Element PanelSkin="ResizeableFrame02.asc" Type="10" Name="Outer" ID="278" Dimension="1.095833, 1.172917" IsPassive="T" ResizeBias="2" RenderFlags="238">
+                <Element TextureFilename="Trans.png" Type="2" Name="BottomLeft" ID="279" Anchor="-0.498957, -0.426562" Dimension="0.094792, 0.189063" IsPassive="T" Tint="255, 255, 255, 0" ResizeBias="2" Margin="6">
+                    <Element TextureFilename="Vents02.png" Type="2" Name="BottomLeftVents" ID="280" Anchor="0.000000, -0.039062" Dimension="0.086458, 0.068750" IsPassive="T" ResizeBias="2" PixelFormat="2" />
+                </Element>
+                <Element TextureFilename="Trans.png" Type="2" Name="BottomRight" ID="281" Anchor="0.500000, -0.429688" Dimension="0.094792, 0.189063" IsPassive="T" Tint="255, 255, 255, 0" ResizeBias="2" Margin="6">
+                    <Element TextureFilename="Vents02.png" Type="2" Name="BottomLeftVents" ID="282" Anchor="0.000000, -0.039062" Dimension="0.086458, 0.068750" IsPassive="T" ResizeBias="2" PixelFormat="2" />
+                </Element>
+                <Element TextureFilename="Trans.png" Type="2" Name="Left" ID="283" Anchor="-0.484375, 0.017188" Dimension="0.065625, 0.500522" IsPassive="T" Tint="255, 255, 255, 0" Margin="7">
+                    <Element TextureFilename="Vents01.png" Type="2" Name="LeftVents" ID="284" Anchor="0.000000, 0.087500" Dimension="0.048958, 0.175000" IsPassive="T" PixelFormat="2" />
+                    <Element Type="2" Name="BoltRoot" ID="285" Dimension="0.090380, 0.260417" IsPassive="T" Tint="255, 255, 255, 0">
+                        <Element TextureFilename="Bolt01.png" Type="2" Name="Bolt" ID="286" Anchor="0.013541, 0.189062" Dimension="0.018750, 0.028125" IsPassive="T" PixelFormat="2" />
+                        <Element TextureFilename="Bolt01.png" Type="2" Name="Bolt" ID="288" Anchor="0.013541, -0.190625" Dimension="0.018750, 0.028125" IsPassive="T" PixelFormat="2" />
+                    </Element>
+                    <Element TextureFilename="Vents01.png" Type="2" Name="LeftVents" ID="290" Anchor="0.000000, -0.087500" Dimension="0.048958, 0.175000" IsPassive="T" PixelFormat="2" />
+                </Element>
+                <Element PanelSkin="FrameShadow01.asc" Type="10" Name="Shadow" ID="299" Dimension="0.455208, 0.476563" IsPassive="T" RelativeScale="2.4" BlendState="3" ResizeBias="2" RenderFlags="238" />
+                <Element TextureFilename="Trans.png" Type="2" Name="Right" ID="323" Anchor="0.484375, 0.017188" Dimension="0.065625, 0.500522" IsPassive="T" Tint="255, 255, 255, 0" Margin="3">
+                    <Element TextureFilename="Vents01.png" Type="2" Name="LeftVents" ID="324" Anchor="0.000000, 0.087500" Dimension="0.048958, 0.175000" IsPassive="T" PixelFormat="2" />
+                    <Element Type="2" Name="BoltRoot" ID="325" Dimension="0.090380, 0.260417" IsPassive="T" Tint="255, 255, 255, 0">
+                        <Element TextureFilename="Bolt01.png" Type="2" Name="Bolt" ID="326" Anchor="-0.013541, 0.189062" Dimension="0.018750, 0.028125" IsPassive="T" PixelFormat="2" />
+                        <Element TextureFilename="Bolt01.png" Type="2" Name="Bolt" ID="327" Anchor="-0.013541, -0.190625" Dimension="0.018750, 0.028125" IsPassive="T" PixelFormat="2" />
+                    </Element>
+                    <Element TextureFilename="Vents01.png" Type="2" Name="LeftVents" ID="328" Anchor="0.000000, -0.087500" Dimension="0.048958, 0.175000" IsPassive="T" PixelFormat="2" />
+                </Element>
+            </Element>
+        </Element>
+        <Element TextureFilename="BGTint.png" Type="2" Name="TallyMainGroup" ID="1" Anchor="0.500000, 1.412848" Dimension="1.000000, 1.000000" IsPassive="T" Tint="255, 255, 255, 0" BlendState="3" Margin="1" PixelFormat="2">
+            <Animations>
+                <Animation Name="OnLoad">
+                    <Track ID="37" Type="1">
+                        <TrackKey ID="0" Time="0" Value="0.500000, 1.412848" />
+                        <TrackKey ID="1" Time="0.225" Value="0.500000, 0.501910" />
+                        <TrackKey ID="2" Time="0.271875" Value="0.500000, 0.533160" />
+                    </Track>
+                </Animation>
+            </Animations>
+            <Element TextureFilename="Occlusion_Square.png" Type="2" Name="Shadow" ID="196" Anchor="0.032292, 0.024999" Dimension="0.668750, 0.945833" IsPassive="T" BlendState="3" />
+            <Element TextureFilename="" Type="2" Name="TopPanelGroup" ID="2" Dimension="0.570833, 0.755209" IsPassive="T" Tint="255, 255, 255, 0" PixelFormat="2">
+                <Element TextureFilename="TallyPanelShadow.png" Type="2" Name="Shadow" ID="4" Dimension="0.585417, 0.754687" IsPassive="T" BlendState="3" />
+                <Element TextureFilename="TallyCounterBG.png" Type="2" Name="ScrollBackground" ID="5" Anchor="0.000000, -0.273438" Dimension="0.517708, 0.120312" IsPassive="T" />
+                <Element TextureFilename="TallyPanel.png" Type="2" Name="TallyPanelInner" ID="3" Anchor="0.001042, 0.000000" Dimension="0.593750, 0.764063" IsPassive="T">
+                    <Element Type="2" Name="Bolts" ID="312" Anchor="0.000000, -0.001563" Dimension="0.593750, 0.698959" IsPassive="T" Tint="255, 255, 255, 0" PixelFormat="2">
+                        <Element TextureFilename="Bolt01.png" Type="2" Name="Panel::199" ID="313" Anchor="-0.255208, -0.114063" Dimension="0.018750, 0.028125" IsPassive="T" PixelFormat="2" />
+                        <Element TextureFilename="Bolt01.png" Type="2" Name="Panel::199" ID="314" Anchor="-0.255208, 0.207812" Dimension="0.018750, 0.028125" IsPassive="T" PixelFormat="2" />
+                        <Element TextureFilename="Bolt01.png" Type="2" Name="Panel::199" ID="315" Anchor="-0.255208, 0.332812" Dimension="0.018750, 0.028125" IsPassive="T" PixelFormat="2" />
+                        <Element TextureFilename="Bolt01.png" Type="2" Name="Panel::199" ID="316" Anchor="0.257292, -0.114063" Dimension="0.018750, 0.028125" IsPassive="T" PixelFormat="2" />
+                        <Element TextureFilename="Bolt01.png" Type="2" Name="Panel::199" ID="317" Anchor="0.257292, 0.206249" Dimension="0.018750, 0.028125" IsPassive="T" PixelFormat="2" />
+                        <Element TextureFilename="Bolt01.png" Type="2" Name="Panel::199" ID="318" Anchor="0.258334, 0.337500" Dimension="0.018750, 0.028125" IsPassive="T" PixelFormat="2" />
+                    </Element>
+                    <Element Type="2" Name="UpperLabels" ID="26" Anchor="0.000000, 0.245312" Dimension="0.450000, 0.182292" IsPassive="T" Tint="255, 255, 255, 0" PixelFormat="2">
+                        <Element Text="$(TallyMissionCompleteText)" TextScale="0.9" Type="1" Name="MissionCompleteLabel" ID="105" Anchor="0.000000, 0.057812" Dimension="0.525833, 0.078153" IsPassive="T" Tracking="-7" Leading="47" TranslateOnce="T" Font="StencilYellow10.asc">
+                            <Animations>
+                                <Animation Name="OnLoad">
+                                    <Track ID="64" Type="11">
+                                        <TrackKey ID="0" Time="0.446875" Value="1" />
+                                        <TrackKey ID="1" Time="0.49375" Value="1.1" />
+                                        <TrackKey ID="2" Time="0.75" Value="1" />
+                                    </Track>
+                                </Animation>
+                            </Animations>
+                        </Element>
+                        <Element Text="$(TallyMissionFailedText)" TextScale="0.9" Type="1" Name="MissionFailedLabel" ID="104" Anchor="0.000000, 0.060937" Dimension="0.525833, 0.078153" Visible="F" IsPassive="T" Tracking="-7" Leading="47" TranslateOnce="T" Font="StencilGray01.asc" />
+                        <Element Text="$(MapName)" TextScale="0.6" Type="1" Name="MissionNameLabel" ID="31" Anchor="0.000000, 0.012499" Dimension="0.517500, 0.042736" IsPassive="T" Tint="192, 192, 192, 255" Tracking="-14" Leading="37" Font="StencilWhite01.asc" />
+                        <Element Text=" $(WaveNumber)" TextScale="0.6" Type="1" Name="MissionWaveLabel" ID="32" Anchor="0.000000, -0.026563" Dimension="0.527917, 0.051070" IsPassive="T" Tint="192, 192, 192, 255" Tracking="-14" Leading="37" Font="StencilWhite01.asc" />
+                        <Element Text="$(Score_ProfileDefault_NumKills) / $(TargetKillCount)" TextScale="0.6" Type="1" Name="MissionKillCountLabel" ID="205" Anchor="0.000000, -0.026563" Dimension="0.527917, 0.051070" Visible="F" IsPassive="T" Tint="192, 192, 192, 255" Tracking="-14" Leading="37" Font="StencilWhite01.asc" />
+                    </Element>
+                    <Element Type="2" Name="StarsPanel" ID="50" Anchor="0.000000, 0.120313" Dimension="0.458333, 0.126042" IsPassive="T" Tint="255, 255, 255, 0" RelativeScale="1.1" PixelFormat="2">
+                        <Element TextureFilename="Star_Empty.png" Type="2" Name="StarBackground1" ID="56" Anchor="-0.087500, 0.000000" Dimension="0.079167, 0.118750" IsPassive="T" PixelFormat="2">
+                            <Animations>
+                                <Animation Name="Reset1Stars">
+                                    <Track ID="68" Type="1">
+                                        <TrackKey ID="0" Time="0" Value="0.001042, 0.000000" />
+                                    </Track>
+                                </Animation>
+                                <Animation Name="Reset2Stars">
+                                    <Track ID="69" Type="1">
+                                        <TrackKey ID="0" Time="0" Value="-0.044271, 0.000000" />
+                                    </Track>
+                                </Animation>
+                                <Animation Name="Reset3Stars">
+                                    <Track ID="65" Type="1">
+                                        <TrackKey ID="0" Time="0" Value="-0.087500, 0.000000" />
+                                    </Track>
+                                </Animation>
+                            </Animations>
+                            <Element TextureFilename="Star_Full.png" Type="2" Name="StarFill1" ID="57" Dimension="0.075000, 0.112500" IsPassive="T" PixelFormat="2">
+                                <Animations>
+                                    <Animation Name="Star1">
+                                        <Track ID="5" Type="3">
+                                            <TrackKey ID="0" Time="0" Value="0.020833, 0.031250" />
+                                            <TrackKey ID="1" Time="0.19375" Value="0.090278, 0.135417" />
+                                            <TrackKey ID="2" Time="0.3" Value="0.075000, 0.112500" />
+                                        </Track>
+                                        <Track ID="6" Type="5">
+                                            <TrackKey ID="0" Time="0" />
+                                            <TrackKey ID="1" Time="0.059375" Value="255" />
+                                        </Track>
+                                    </Animation>
+                                </Animations>
+                            </Element>
+                            <Element TextureFilename="Glow.png" Type="2" Name="Panel::85" ID="86" Dimension="0.251260, 0.376891" IsPassive="T" Tint="255, 179, 0, 0" BlendState="5" PixelFormat="2" MaximumAlpha="150">
+                                <Animations>
+                                    <Animation Name="Star1">
+                                        <Track ID="7" Type="3">
+                                            <TrackKey ID="0" Time="0" Value="0.038889, 0.058333" />
+                                            <TrackKey ID="1" Time="0.25" Value="0.163760, 0.245641" />
+                                            <TrackKey ID="2" Time="0.659375" Value="0.251260, 0.376891" />
+                                        </Track>
+                                        <Track ID="8" Type="5">
+                                            <TrackKey ID="0" Time="0" />
+                                            <TrackKey ID="1" Time="0" Value="62" />
+                                            <TrackKey ID="2" Time="0.3125" Value="89" />
+                                            <TrackKey ID="3" Time="0.621875" />
+                                        </Track>
+                                        <Track ID="11" Type="9">
+                                            <TrackKey ID="0" Time="0.06875" Value="playsound UI/In_Game/Star_Acquired" />
+                                        </Track>
+                                    </Animation>
+                                </Animations>
+                            </Element>
+                            <Element Type="7" Name="Star_Award1" ID="187" Dimension="0.351390, 0.527083" IsPassive="T" Filename="Star_Award.fx">
+                                <Animations>
+                                    <Animation Name="Star1">
+                                        <Track ID="14" Type="8">
+                                            <TrackKey ID="0" Time="0" Value="1" />
+                                            <TrackKey ID="1" Time="0.2125" />
+                                        </Track>
+                                    </Animation>
+                                </Animations>
+                            </Element>
+                        </Element>
+                        <Element TextureFilename="Star_Empty.png" Type="2" Name="StarBackground2" ID="89" Anchor="0.001042, 0.000000" Dimension="0.079167, 0.118750" IsPassive="T" PixelFormat="2">
+                            <Animations>
+                                <Animation Name="Reset2Stars">
+                                    <Track ID="70" Type="1">
+                                        <TrackKey ID="0" Time="0" Value="0.044271, 0.000000" />
+                                    </Track>
+                                </Animation>
+                                <Animation Name="Reset3Stars">
+                                    <Track ID="66" Type="1">
+                                        <TrackKey ID="0" Time="0" Value="0.001042, 0.000000" />
+                                    </Track>
+                                </Animation>
+                            </Animations>
+                            <Element TextureFilename="Star_Full.png" Type="2" Name="StarFill2" ID="90" Dimension="0.075000, 0.107813" IsPassive="T" PixelFormat="2">
+                                <Animations>
+                                    <Animation Name="Star2">
+                                        <Track ID="5" Type="3">
+                                            <TrackKey ID="0" Time="0" Value="0.020833, 0.031250" />
+                                            <TrackKey ID="1" Time="0.19375" Value="0.090278, 0.135417" />
+                                            <TrackKey ID="2" Time="0.3" Value="0.075000, 0.112500" />
+                                        </Track>
+                                        <Track ID="6" Type="5">
+                                            <TrackKey ID="0" Time="0" />
+                                            <TrackKey ID="1" Time="0.059375" Value="255" />
+                                        </Track>
+                                    </Animation>
+                                </Animations>
+                            </Element>
+                            <Element TextureFilename="Glow.png" Type="2" Name="Panel::85" ID="91" Dimension="0.145029, 0.217545" IsPassive="T" Tint="255, 179, 0, 0" BlendState="5" PixelFormat="2" MaximumAlpha="150">
+                                <Animations>
+                                    <Animation Name="Star2">
+                                        <Track ID="7" Type="3">
+                                            <TrackKey ID="0" Time="0" Value="0.038889, 0.058333" />
+                                            <TrackKey ID="1" Time="0.25" Value="0.163760, 0.245641" />
+                                            <TrackKey ID="2" Time="0.659375" Value="0.251260, 0.376891" />
+                                        </Track>
+                                        <Track ID="8" Type="5">
+                                            <TrackKey ID="0" Time="0" />
+                                            <TrackKey ID="1" Time="0" Value="62" />
+                                            <TrackKey ID="2" Time="0.3125" Value="89" />
+                                            <TrackKey ID="3" Time="0.621875" />
+                                        </Track>
+                                        <Track ID="12" Type="9">
+                                            <TrackKey ID="0" Time="0.078125" Value="playsound UI/In_Game/Star_Acquired_2" />
+                                        </Track>
+                                    </Animation>
+                                </Animations>
+                            </Element>
+                            <Element Type="7" Name="Star_Award2" ID="188" Dimension="0.306945, 0.460417" IsPassive="T" Filename="Star_Award.fx">
+                                <Animations>
+                                    <Animation Name="Star2">
+                                        <Track ID="15" Type="8">
+                                            <TrackKey ID="0" Time="0" Value="1" />
+                                            <TrackKey ID="1" Time="0.209375" />
+                                        </Track>
+                                    </Animation>
+                                </Animations>
+                            </Element>
+                        </Element>
+                        <Element TextureFilename="Star_Empty.png" Type="2" Name="StarBackground3" ID="92" Anchor="0.087500, 0.000000" Dimension="0.079167, 0.118750" IsPassive="T" PixelFormat="2">
+                            <Animations>
+                                <Animation Name="Reset3Stars">
+                                    <Track ID="67" Type="1">
+                                        <TrackKey ID="0" Time="0" Value="0.087500, 0.000000" />
+                                    </Track>
+                                </Animation>
+                            </Animations>
+                            <Element TextureFilename="Star_Full.png" Type="2" Name="StarFill3" ID="93" Dimension="0.075000, 0.107813" IsPassive="T" PixelFormat="2">
+                                <Animations>
+                                    <Animation Name="Star3">
+                                        <Track ID="5" Type="3">
+                                            <TrackKey ID="0" Time="0" Value="0.020833, 0.031250" />
+                                            <TrackKey ID="1" Time="0.19375" Value="0.090278, 0.135417" />
+                                            <TrackKey ID="2" Time="0.3" Value="0.075000, 0.112500" />
+                                        </Track>
+                                        <Track ID="6" Type="5">
+                                            <TrackKey ID="0" Time="0" />
+                                            <TrackKey ID="1" Time="0.059375" Value="255" />
+                                        </Track>
+                                    </Animation>
+                                </Animations>
+                            </Element>
+                            <Element TextureFilename="Glow.png" Type="2" Name="Panel::85" ID="94" Dimension="0.160638, 0.240958" IsPassive="T" Tint="255, 179, 0, 0" BlendState="5" PixelFormat="2" MaximumAlpha="150">
+                                <Animations>
+                                    <Animation Name="Star3">
+                                        <Track ID="7" Type="3">
+                                            <TrackKey ID="0" Time="0" Value="0.038889, 0.058333" />
+                                            <TrackKey ID="1" Time="0.25" Value="0.163760, 0.245641" />
+                                            <TrackKey ID="2" Time="0.659375" Value="0.251260, 0.376891" />
+                                        </Track>
+                                        <Track ID="8" Type="5">
+                                            <TrackKey ID="0" Time="0" />
+                                            <TrackKey ID="1" Time="0" Value="62" />
+                                            <TrackKey ID="2" Time="0.3125" Value="89" />
+                                            <TrackKey ID="3" Time="0.621875" />
+                                        </Track>
+                                        <Track ID="13" Type="9">
+                                            <TrackKey ID="0" Time="0.08125" Value="playsound UI/In_Game/Star_Acquired_3" />
+                                        </Track>
+                                    </Animation>
+                                </Animations>
+                            </Element>
+                            <Element Type="7" Name="Star_Award3" ID="189" Dimension="0.319445, 0.479167" IsPassive="T" Filename="Star_Award.fx">
+                                <Animations>
+                                    <Animation Name="Star3">
+                                        <Track ID="16" Type="8">
+                                            <TrackKey ID="0" Time="0" Value="1" />
+                                            <TrackKey ID="1" Time="0.215625" />
+                                        </Track>
+                                    </Animation>
+                                </Animations>
+                            </Element>
+                        </Element>
+                    </Element>
+                    <Element Type="2" Name="LowerLabels" ID="28" Anchor="0.000000, -0.176563" Dimension="0.502083, 0.067708" IsPassive="T" Tint="255, 255, 255, 0" PixelFormat="2">
+                        <Element Text="0" TextScale="0.7" Type="1" Name="ScoreLabel" ID="35" Anchor="-0.014584, 0.000000" Dimension="0.238333, 0.053125" IsPassive="T" Alignment="0" Tracking="-7" Leading="47" TranslateOnce="T" Font="StencilYellow10.asc" />
+                        <Element Text="$(ScoreText):" TextScale="0.7" Type="1" Name="ScoreTitleLabel" ID="34" Anchor="-0.220833, -0.015625" Dimension="0.171667, 0.078125" IsPassive="T" Tint="192, 192, 192, 255" Alignment="2" Tracking="-14" Leading="37" TranslateOnce="T" Font="StencilWhite01.asc" />
+                        <Element Text="~+$(SubaBucksEarned)" TextScale="0.7" Type="1" Name="SubabucksLabel" ID="36" Anchor="0.167708, 0.000000" Dimension="0.169584, 0.053125" IsPassive="T" Alignment="0" Tracking="-7" Leading="47" Font="StencilYellow10.asc" />
+                    </Element>
+                    <Element Type="2" Name="ScoreMessageScroller" ID="29" Anchor="0.001042, -0.275000" Dimension="0.470833, 0.092708" Tint="255, 255, 255, 0" PixelFormat="2">
+                        <Element TextureFilename="Trans.png" ClipChildren="T" Type="2" Name="MessagePanelClipper" ID="134" Dimension="0.481250, 0.090625" IsPassive="T">
+                            <Element TextureFilename="Trans.png" Type="6" Name="MessageSlider" ID="135" Anchor="0.000000, -0.264064" Dimension="0.483333, 0.634375" IsPassive="T" SliderInverted="F" SliderVertical="T" ScrollWithTouch="T">
+                                <Element TextureFilename="Trans.png" Type="2" Name="MessageHolder" ID="171" Anchor="0.000000, 0.271875" Dimension="0.485417, 0.090625" IsPassive="T">
+                                    <Element Type="2" Name="DifficultyGroup" ID="181" Anchor="0.000000, 0.443750" Dimension="0.479167, 0.090625" IsPassive="T" Tint="255, 255, 255, 0" PixelFormat="2" TextureEnvironmentMode="3">
+                                        <Element Text="$(Difficulty) $(TallyDifficultyText): " TextScale="0.6" Type="1" Name="DifficultyLabel" ID="197" Anchor="0.000000, 0.023438" Dimension="0.488334, 0.047917" IsPassive="T" Tint="192, 192, 192, 255" Tracking="-14" Leading="37" Font="StencilWhite01.asc" />
+                                        <Element Text="x$(Score_Profile_ScoreMultiplier)" TextScale="0.6" Type="1" Name="DifficultyMultiplierLabel" ID="183" Anchor="0.000000, -0.021875" Dimension="0.488334, 0.046875" IsPassive="T" Tracking="-7" Leading="47" Font="StencilYellow10.asc" />
+                                    </Element>
+                                    <Element Type="2" Name="CombosGroup" ID="175" Anchor="0.000000, 0.353125" Dimension="0.479167, 0.090625" IsPassive="T" Tint="255, 255, 255, 0" PixelFormat="2">
+                                        <Element Text="$(Score_Profile_NumCombos) $(TallyCombosText): " TextScale="0.6" Type="1" Name="CombosTotalLabel" ID="176" Anchor="0.000000, 0.023438" Dimension="0.488334, 0.047917" IsPassive="T" Tint="192, 192, 192, 255" Tracking="-14" Leading="37" Font="StencilWhite01.asc" />
+                                        <Element Text="+$(Score_Profile_ComboScore)" TextScale="0.6" Type="1" Name="CombosScoreLabel" ID="177" Anchor="0.000000, -0.021875" Dimension="0.488334, 0.047916" IsPassive="T" Tracking="-7" Leading="47" Font="StencilYellow10.asc" />
+                                    </Element>
+                                    <Element Type="2" Name="MegaCombosGroup" ID="178" Anchor="0.000000, 0.262500" Dimension="0.479167, 0.090625" IsPassive="T" Tint="255, 255, 255, 0" PixelFormat="2">
+                                        <Element Text="$(Score_Profile_NumMegaCombos) $(TallyMegaCombosText): " TextScale="0.6" Type="1" Name="MegaCombosTotalLabel" ID="179" Anchor="0.000000, 0.023438" Dimension="0.488334, 0.047917" IsPassive="T" Tint="192, 192, 192, 255" Tracking="-14" Leading="37" Font="StencilWhite01.asc" />
+                                        <Element Text="+$(Score_Profile_MegaComboScore)" TextScale="0.6" Type="1" Name="MegaCombosScoreLabel" ID="180" Anchor="0.000000, -0.021875" Dimension="0.488334, 0.046875" IsPassive="T" Tracking="-7" Leading="47" Font="StencilYellow10.asc" />
+                                    </Element>
+                                    <Element Type="2" Name="PenaltyGroup" ID="192" Anchor="0.000000, 0.171875" Dimension="0.479167, 0.090625" IsPassive="T" Tint="255, 255, 255, 0" PixelFormat="2">
+                                        <Element Text="$(TallyPenaltiesText): " TextScale="0.6" Type="1" Name="PenaltyNameLabel" ID="193" Anchor="0.000000, 0.023438" Dimension="0.488334, 0.047917" IsPassive="T" Tint="192, 192, 192, 255" Tracking="-14" Leading="37" Font="StencilWhite01.asc" />
+                                        <Element Text="-$(Score_Profile_Penalties)" TextScale="0.6" Type="1" Name="PenaltyScoreLabel" ID="194" Anchor="0.000000, -0.021875" Dimension="0.488334, 0.046875" IsPassive="T" Tint="255, 0, 0, 255" Tracking="-7" Leading="47" Font="StencilYellow10.asc" />
+                                    </Element>
+                                    <Element Type="2" Name="RunnersDefeatedGroup" ID="172" Anchor="0.000000, 0.081250" Dimension="0.479167, 0.090625" IsPassive="T" Tint="255, 255, 255, 0" PixelFormat="2">
+                                        <Element Text="$(Score_Profile_NumKills) $(TallyRunnersDefeatedText): " TextScale="0.6" Type="1" Name="RunnersTotalLabel" ID="173" Anchor="-0.004167, 0.023437" Dimension="0.488334, 0.047917" IsPassive="T" Tint="192, 192, 192, 255" Tracking="-14" Leading="37" Font="StencilWhite01.asc" />
+                                        <Element Text="+$(Score_Profile_MinorScore)" TextScale="0.6" Type="1" Name="RunnersScoreLabel" ID="174" Anchor="0.000000, -0.021875" Dimension="0.488334, 0.045833" IsPassive="T" Tracking="-7" Leading="47" Font="StencilYellow10.asc" />
+                                    </Element>
+                                    <Element Type="2" Name="EliteDefeatedGroup" ID="184" Anchor="0.000000, -0.009375" Dimension="0.479167, 0.090625" IsPassive="T" Tint="255, 255, 255, 0" PixelFormat="2">
+                                        <Element Text="$(EliteInfo_Name) $(TallyDefeatedText): " TextScale="0.6" Type="1" Name="EliteNameLabel" ID="185" Anchor="0.000000, 0.023438" Dimension="0.488334, 0.046875" IsPassive="T" Tint="192, 192, 192, 255" Tracking="-14" Leading="37" Font="StencilWhite01.asc" />
+                                        <Element Text="+$(Score_Profile_EliteScore)" TextScale="0.6" Type="1" Name="EliteScoreLabel" ID="186" Anchor="0.000000, -0.021875" Dimension="0.488334, 0.046875" IsPassive="T" Tracking="-7" Leading="47" Font="StencilYellow10.asc" />
+                                    </Element>
+                                </Element>
+                            </Element>
+                        </Element>
+                    </Element>
+                    <Element Type="2" Name="WeaponUnlockGroup" ID="27" Anchor="0.000000, -0.023438" Dimension="0.447917, 0.138542" IsPassive="T" Tint="255, 255, 255, 0" PixelFormat="2">
+                        <Element TextureFilename="SlotTower.jpg" Type="2" Name="Panel::305" ID="305" Anchor="0.090625, 0.000000" Dimension="0.088905, 0.152604" IsPassive="T" Tint="255, 255, 255, 192" PixelFormat="2" />
+                        <Element TextureFilename="Icon_Tower_Nuke.png" Type="2" Name="NextWeaponIcon" ID="44" Anchor="0.090625, 0.001563" Dimension="0.091667, 0.137500" IsPassive="T" PixelFormat="2">
+                            <Animations>
+                                <Animation Name="TowerUnlocked">
+                                    <Track ID="62" Type="11">
+                                        <TrackKey ID="0" Time="1.5" Value="1" />
+                                        <TrackKey ID="1" Time="1.55" Value="1.24638" />
+                                        <TrackKey ID="2" Time="1.84375" Value="1" />
+                                    </Track>
+                                    <Track ID="63" Type="9">
+                                        <TrackKey ID="0" Time="0.003125" Value="playsound UI/In_Game/Tower_Cage_Swing" />
+                                        <TrackKey ID="1" Time="0.990625" Value="playsound UI/In_Game/Item_Drag_Out" />
+                                        <TrackKey ID="2" Time="1.5" Value="playsound UI/In_Game/Reward_Earned" />
+                                    </Track>
+                                </Animation>
+                            </Animations>
+                            <Element Text="$120" TextScale="0.33" Type="1" Name="Number" ID="274" Anchor="0.000000, -0.046875" Dimension="0.098750, 0.028153" IsPassive="T" Tint="64, 0, 0, 255" Tracking="1" Leading="44" TranslateOnce="T" Font="ImpactWhite02.asc" />
+                            <Element TextureFilename="Light_Rays002.jpg" Type="2" Name="LockBurst" ID="270" Dimension="0.116667, 0.175000" Rotation="-1.6006" IsPassive="T" Tint="253, 216, 104, 0" BlendState="5" PixelFormat="2">
+                                <Animations>
+                                    <Animation Name="TowerUnlocked">
+                                        <Track ID="44" Type="3">
+                                            <TrackKey ID="0" Time="1.475" Value="0.116667, 0.175000" />
+                                            <TrackKey ID="1" Time="1.65313" Value="0.230556, 0.345833" />
+                                            <TrackKey ID="2" Time="2.00625" Value="0.116667, 0.175000" />
+                                        </Track>
+                                        <Track ID="45" Type="5">
+                                            <TrackKey ID="0" Time="1.47187" />
+                                            <TrackKey ID="1" Time="1.64063" Value="79" />
+                                            <TrackKey ID="2" Time="2.00625" />
+                                        </Track>
+                                        <Track ID="46" Type="2">
+                                            <TrackKey ID="0" Time="1.48125" />
+                                            <TrackKey ID="1" Time="2.01563" Value="-1.6006" />
+                                        </Track>
+                                    </Animation>
+                                </Animations>
+                            </Element>
+                            <Element TextureFilename="Button_Glow.jpg" Type="2" Name="TowerLockGlow" ID="268" Dimension="0.172221, 0.258332" IsPassive="T" Tint="255, 255, 255, 0" BlendState="5">
+                                <Animations>
+                                    <Animation Name="Star3">
+                                        <Track ID="51" Type="3">
+                                            <TrackKey ID="0" Time="0" Value="0.073611, 0.110417" />
+                                            <TrackKey ID="1" Time="0.165625" Value="0.116098, 0.174147" />
+                                            <TrackKey ID="2" Time="0.465625" Value="0.133333, 0.200000" />
+                                        </Track>
+                                        <Track ID="52" Type="5">
+                                            <TrackKey ID="0" Time="0" />
+                                            <TrackKey ID="1" Time="0.15625" Value="255" />
+                                            <TrackKey ID="2" Time="0.440625" />
+                                        </Track>
+                                    </Animation>
+                                    <Animation Name="Star2">
+                                        <Track ID="49" Type="3">
+                                            <TrackKey ID="0" Time="0" Value="0.073611, 0.110417" />
+                                            <TrackKey ID="1" Time="0.165625" Value="0.116098, 0.174147" />
+                                            <TrackKey ID="2" Time="0.465625" Value="0.133333, 0.200000" />
+                                        </Track>
+                                        <Track ID="50" Type="5">
+                                            <TrackKey ID="0" Time="0" />
+                                            <TrackKey ID="1" Time="0.15625" Value="255" />
+                                            <TrackKey ID="2" Time="0.440625" />
+                                        </Track>
+                                    </Animation>
+                                    <Animation Name="Star1">
+                                        <Track ID="47" Type="3">
+                                            <TrackKey ID="0" Time="0" Value="0.073611, 0.110417" />
+                                            <TrackKey ID="1" Time="0.165625" Value="0.116098, 0.174147" />
+                                            <TrackKey ID="2" Time="0.465625" Value="0.133333, 0.200000" />
+                                        </Track>
+                                        <Track ID="48" Type="5">
+                                            <TrackKey ID="0" Time="0" />
+                                            <TrackKey ID="1" Time="0.15625" Value="255" />
+                                            <TrackKey ID="2" Time="0.440625" />
+                                        </Track>
+                                    </Animation>
+                                    <Animation Name="TowerUnlocked">
+                                        <Track ID="57" Type="5">
+                                            <TrackKey ID="0" Time="1.49375" />
+                                            <TrackKey ID="1" Time="1.65625" Value="255" />
+                                            <TrackKey ID="2" Time="2.00312" />
+                                        </Track>
+                                        <Track ID="58" Type="3">
+                                            <TrackKey ID="0" Time="1.50312" Value="0.101388, 0.152083" />
+                                            <TrackKey ID="1" Time="1.6625" Value="0.131944, 0.197916" />
+                                            <TrackKey ID="2" Time="1.99375" Value="0.172221, 0.258332" />
+                                        </Track>
+                                    </Animation>
+                                </Animations>
+                            </Element>
+                            <Element Type="2" Name="LockPivot" ID="271" Anchor="0.000000, -1.250000" Dimension="0.033333, 0.050000" Rotation="-3.68469" Visible="F" IsPassive="T" Tint="255, 255, 255, 0" PixelFormat="2">
+                                <Animations>
+                                    <Animation Name="TowerUnlocked">
+                                        <Track ID="55" Type="2">
+                                            <TrackKey ID="0" Time="0" />
+                                            <TrackKey ID="1" Time="0.2" Value="-1.49017" />
+                                            <TrackKey ID="2" Time="0.3375" Value="-3.71294" />
+                                            <TrackKey ID="3" Time="0.4375" Value="-2.84265" />
+                                            <TrackKey ID="4" Time="0.5375" Value="-3.40281" />
+                                            <TrackKey ID="5" Time="0.65" Value="-3.14049" />
+                                            <TrackKey ID="6" Time="1.01563" Value="-3.14049" />
+                                            <TrackKey ID="7" Time="1.47187" Value="-3.68469" />
+                                        </Track>
+                                        <Track ID="56" Type="1">
+                                            <TrackKey ID="0" Time="0" Value="0.000000, -0.040625" />
+                                            <TrackKey ID="1" Time="0.3375" Value="0.000000, -0.054687" />
+                                            <TrackKey ID="2" Time="1.00625" Value="0.000000, -0.058846" />
+                                            <TrackKey ID="3" Time="1.51563" Value="0.000000, -0.582812" />
+                                            <TrackKey ID="4" Time="2" Value="0.000000, -1.250000" />
+                                        </Track>
+                                    </Animation>
+                                </Animations>
+                                <Element TextureFilename="Icon_Tower_Locked.jpg" Type="2" Name="Lock" ID="272" Anchor="0.000000, 0.042188" Dimension="0.102778, 0.154167" IsPassive="T" PixelFormat="2" />
+                            </Element>
+                            <Element Type="7" Name="Sparkles" ID="308" Dimension="0.835417, 0.835417" IsPassive="T" Filename="UI_NewSparkles.fx">
+                                <Animations>
+                                    <Animation Name="CloseForm">
+                                        <Track ID="78" Type="8">
+                                            <TrackKey ID="0" Time="0" Value="1" />
+                                        </Track>
+                                    </Animation>
+                                    <Animation Name="TowerUnlocked">
+                                        <Track ID="77" Type="8">
+                                            <TrackKey ID="0" Time="0.075" Value="1" />
+                                            <TrackKey ID="1" Time="1.57187" />
+                                        </Track>
+                                    </Animation>
+                                </Animations>
+                            </Element>
+                        </Element>
+                        <Element Type="2" Name="WeaponUnlockProgressGroup" ID="45" Anchor="-0.056251, -0.028125" Dimension="0.204167, 0.061458" IsPassive="T" Tint="255, 255, 255, 0" PixelFormat="2">
+                            <Element TextureFilename="BGBlack.png" Type="2" Name="WeaponUnlockBack" ID="48" Dimension="0.187500, 0.035417" />
+                            <Element TextureFilename="Trans.png" ClipChildren="T" Type="6" Name="WeaponUnlockSlider" ID="97" Anchor="0.000000, -0.001563" Dimension="0.190178, 0.041667" SecondsToSlide="2">
+                                <Element TextureFilename="Trans.png" Type="2" Name="WeaponUnlockSliderNotch" ID="102" Anchor="-0.094568, 0.000000" Dimension="0.001042, 0.030208">
+                                    <Element TextureFilename="ProductProgressFill.png" Type="2" Name="Panel::46" ID="103" Anchor="-0.092484, 0.000000" Dimension="0.185417, 0.035937" IsPassive="T" />
+                                </Element>
+                            </Element>
+                            <Element TextureFilename="SlotTallyProgress.jpg" Type="2" Name="WeaponUnlockFront" ID="47" Dimension="0.192111, 0.043229" IsPassive="T" PixelFormat="2" />
+                        </Element>
+                        <Element Text="20 left" TextScale="0.7" Type="1" Name="StarsUnlockProgress" ID="33" Anchor="-0.011459, 0.007812" Dimension="0.208333, 0.073987" IsPassive="T" Alignment="0" Tracking="-7" Leading="47" TranslateOnce="T" Font="StencilYellow10.asc" />
+                        <Element Text="New Tower!" Type="1" Name="NewTowerText" ID="273" Anchor="0.092708, -0.087500" Dimension="0.340417, 0.051070" IsPassive="T" Tint="255, 255, 255, 0" RelativeScale="0.5" Tracking="-7" Leading="40" TranslateOnce="T" Font="ImpactYellow06.asc">
+                            <Animations>
+                                <Animation Name="TowerUnlocked">
+                                    <Track ID="59" Type="5">
+                                        <TrackKey ID="0" Time="0" Value="255" />
+                                        <TrackKey ID="1" Time="2.58125" Value="255" />
+                                        <TrackKey ID="2" Time="2.975" />
+                                    </Track>
+                                    <Track ID="60" Type="1">
+                                        <TrackKey ID="0" Time="1.47187" Value="0.092708, -0.087500" />
+                                    </Track>
+                                    <Track ID="61" Type="11">
+                                        <TrackKey ID="0" Time="1.49688" />
+                                        <TrackKey ID="1" Time="1.5875" Value="1" />
+                                        <TrackKey ID="2" Time="1.80938" Value="0.5" />
+                                    </Track>
+                                </Animation>
+                            </Animations>
+                        </Element>
+                        <Element Text="}" TextScale="0.7" Type="1" Name="Star" ID="267" Anchor="-0.134375, 0.018750" Dimension="0.098750, 0.051070" IsPassive="T" Tracking="-11" Leading="47" TranslateOnce="T" Font="StencilYellow10.asc" />
+                    </Element>
+                    <Element Type="2" Name="LowerLabelSubabucksParticle" ID="300" Anchor="0.000000, -0.176563" Dimension="0.502083, 0.067708" IsPassive="T" Tint="255, 255, 255, 0" PixelFormat="2">
+                        <Element Type="7" Name="SubabucksParticle" ID="304" Anchor="0.105208, -0.004688" Dimension="0.431250, 0.431250" IsPassive="T" Filename="Coin.fx">
+                            <Animations>
+                                <Animation Name="SubabucksParticle">
+                                    <Track ID="30" Type="8">
+                                        <TrackKey ID="0" Time="0" Value="1" />
+                                        <TrackKey ID="1" Time="0.06875" />
+                                    </Track>
+                                </Animation>
+                                <Animation Name="Star1">
+                                    <Track ID="29" Type="8" />
+                                </Animation>
+                            </Animations>
+                        </Element>
+                    </Element>
+                    <Element Type="2" Name="HighScore" ID="309" Anchor="-0.205208, -0.155468" Dimension="0.161250, 0.184375" IsPassive="T" Tint="192, 192, 192, 0">
+                        <Element Type="7" Name="Sparkles" ID="311" Anchor="0.023958, 0.043750" Dimension="0.669916, 0.408333" IsPassive="T" Filename="UI_NewSparkles.fx">
+                            <Animations>
+                                <Animation Name="CloseForm">
+                                    <Track ID="79" Type="8">
+                                        <TrackKey ID="0" Time="0" Value="1" />
+                                    </Track>
+                                </Animation>
+                                <Animation Name="HighScore">
+                                    <Track ID="75" Type="8">
+                                        <TrackKey ID="0" Time="0" Value="1" />
+                                        <TrackKey ID="1" Time="0.04375" />
+                                    </Track>
+                                </Animation>
+                            </Animations>
+                        </Element>
+                        <Element Type="7" Name="Sparkles" ID="329" Anchor="0.143750, 0.042187" Dimension="0.667373, 0.387500" IsPassive="T" Filename="UI_NewSparkles.fx">
+                            <Animations>
+                                <Animation Name="CloseForm">
+                                    <Track ID="79" Type="8">
+                                        <TrackKey ID="0" Time="0" Value="1" />
+                                    </Track>
+                                </Animation>
+                                <Animation Name="HighScore">
+                                    <Track ID="75" Type="8">
+                                        <TrackKey ID="0" Time="0" Value="1" />
+                                        <TrackKey ID="1" Time="0.04375" />
+                                    </Track>
+                                </Animation>
+                            </Animations>
+                        </Element>
+                        <Element Text="HIGH SCORE!" TextScale="0.8" Type="1" Name="NewHighScore" ID="310" Anchor="0.096876, 0.037500" Dimension="0.286250, 0.061487" IsPassive="T" Tint="255, 255, 128, 0" RelativeScale="1.8" TextureEnvironmentMode="0" Tracking="-9" Leading="40" TranslateOnce="T" Font="ImpactYellow06.asc">
+                            <Animations>
+                                <Animation Name="HighScore">
+                                    <Track ID="73" Type="11">
+                                        <TrackKey ID="0" Time="0" Value="1.8" />
+                                        <TrackKey ID="1" Time="0.1" Value="1" />
+                                    </Track>
+                                    <Track ID="74" Type="5">
+                                        <TrackKey ID="0" Time="0" />
+                                        <TrackKey ID="1" Time="0.103125" Value="255" />
+                                    </Track>
+                                    <Track ID="76" Type="4">
+                                        <TrackKey ID="0" Time="0" Value="255, 255, 128, 255" />
+                                        <TrackKey ID="1" Time="0.0875" Value="0, 0, 0, 255" />
+                                    </Track>
+                                </Animation>
+                            </Animations>
+                        </Element>
+                    </Element>
+                </Element>
+                <Element TextureFilename="Trans.png" Type="2" Name="Steam" ID="319" Dimension="0.577430, 0.272396" IsPassive="T">
+                    <Element Type="7" Name="SteamLeft" ID="320" Anchor="-0.297917, 0.045313" Dimension="1.033334, 1.033333" Rotation="1.08377" IsPassive="T" Filename="UI_Panel_Hit.fx">
+                        <Animations>
+                            <Animation Name="OnLoad">
+                                <Track ID="81" Type="8">
+                                    <TrackKey ID="0" Time="0" Value="3" />
+                                    <TrackKey ID="1" Time="0.1625" Value="1" />
+                                    <TrackKey ID="2" Time="0.25" />
+                                </Track>
+                            </Animation>
+                        </Animations>
+                    </Element>
+                    <Element Type="7" Name="SteamRight" ID="321" Anchor="0.298958, 0.054687" Dimension="1.033334, 1.033333" Rotation="-1.31593" IsPassive="T" Filename="UI_Panel_Hit.fx">
+                        <Animations>
+                            <Animation Name="OnLoad">
+                                <Track ID="81" Type="8">
+                                    <TrackKey ID="0" Time="0" Value="3" />
+                                    <TrackKey ID="1" Time="0.2125" Value="1" />
+                                    <TrackKey ID="2" Time="0.25" />
+                                </Track>
+                            </Animation>
+                        </Animations>
+                    </Element>
+                </Element>
+            </Element>
+        </Element>
+        <Element Type="2" Name="BottomButtonGroup" ID="231" Anchor="0.500000, 0.046875" Dimension="0.833333, 0.226042" IsPassive="T" Tint="255, 255, 255, 0" Margin="3" PixelFormat="2">
+            <Element Type="2" Name="ReplayButtonGroup" ID="232" Anchor="-0.268750, -0.112500" Dimension="0.247917, 0.138542" IsPassive="T" Tint="255, 255, 255, 0" PixelFormat="2">
+                <Animations>
+                    <Animation Name="OnLoad">
+                        <Track ID="35" Type="1">
+                            <TrackKey ID="0" Time="0" Value="-0.268750, -0.112500" />
+                            <TrackKey ID="1" Time="0.125" Value="-0.268750, 0.040625" />
+                        </Track>
+                    </Animation>
+                </Animations>
+                <Element TextureFilename="OptionsButtonShadow.jpg" Type="2" Name="Panel::23" ID="257" Anchor="0.006250, -0.028125" Dimension="0.300000, 0.153125" IsPassive="T" BlendState="3" />
+                <Element TextureFilename="" Type="2" Name="Panel::9" ID="251" Anchor="0.000000, 0.032812" Dimension="0.262500, 0.173959" IsPassive="T" Tint="255, 255, 255, 0" PixelFormat="2">
+                    <Element TextureFilename="Joint01A.png" Type="2" Name="Panel::10" ID="252" Anchor="0.000000, -0.120312" Dimension="0.060417, 0.117188" Rotation="-1.5708" IsPassive="T" MirrorMode="1" />
+                    <Element TextureFilename="Joint02B.jpg" Type="2" Name="Panel::11" ID="253" Anchor="0.120833, -0.035937" Dimension="0.058333, 0.050000" IsPassive="T" Tint="255, 255, 255, 0" MirrorMode="1">
+                        <Element TextureFilename="Joint02.jpg" Type="2" Name="Panel::248" ID="254" Dimension="0.025000, 0.090625" IsPassive="T" MirrorMode="1" />
+                    </Element>
+                    <Element TextureFilename="Joint02B.jpg" Type="2" Name="Panel::11" ID="255" Anchor="-0.120833, -0.034375" Dimension="0.058333, 0.050000" IsPassive="T" Tint="255, 255, 255, 0">
+                        <Element TextureFilename="Joint02.jpg" Type="2" Name="Panel::248" ID="256" Dimension="0.025000, 0.090625" IsPassive="T" />
+                    </Element>
+                </Element>
+                <Element PressedTextureFilename="Button07_Pressed.png" HighlightedTextureFilename="Button07_Glow.png" TextureFilename="Button07.png" Type="3" Name="ReplayButton" ID="238" Dimension="0.234375, 0.134375" PixelFormat="2" HorizontalScale="1.07111" VerticalScale="1.2093">
+                    <Animations>
+                        <Animation Name="ReplayTrigger">
+                            <Track ID="10" Type="9">
+                                <TrackKey ID="0" Time="0" Value="pausemusic off | removeInactiveForms | setForm Loading.form  HUD.form  reloadMap  postload startGame | gametouches on" />
+                            </Track>
+                        </Animation>
+                    </Animations>
+                    <SoundMapRoot>
+                        <SoundEvent EventTrigger="Touches Began (UI Only)" SoundEventFullPath="UI/Menu/Button_Press_Down" />
+                        <SoundEvent EventTrigger="Touches Ended (UI Only)" SoundEventFullPath="UI/Menu/Button_Press_Back" />
+                    </SoundMapRoot>
+                    <Element Text="$(ReplayText)" TextScale="0.75" Type="1" Name="ReplayButtonLabel" ID="239" Anchor="0.000000, -0.004688" Dimension="0.209167, 0.057320" IsPassive="T" Tracking="-7" Leading="47" TranslateOnce="T" Font="StencilYellow10.asc" />
+                </Element>
+            </Element>
+            <Element Type="2" Name="ContinueButtonGroup" ID="240" Anchor="0.268750, -0.117187" Dimension="0.247917, 0.138542" IsPassive="T" Tint="255, 255, 255, 0" PixelFormat="2">
+                <Animations>
+                    <Animation Name="OnLoad">
+                        <Track ID="36" Type="1">
+                            <TrackKey ID="0" Time="0.125" Value="0.268750, -0.117187" />
+                            <TrackKey ID="1" Time="0.2125" Value="0.268750, 0.039063" />
+                        </Track>
+                    </Animation>
+                </Animations>
+                <Element TextureFilename="OptionsButtonShadow.jpg" Type="2" Name="Panel::23" ID="245" Anchor="-0.001042, -0.037500" Dimension="0.322917, 0.153125" IsPassive="T" BlendState="3" />
+                <Element TextureFilename="" Type="2" Name="Panel::9" ID="241" Anchor="0.000000, 0.032812" Dimension="0.262500, 0.173959" IsPassive="T" Tint="255, 255, 255, 0" PixelFormat="2">
+                    <Element TextureFilename="Joint01A.png" Type="2" Name="Panel::10" ID="242" Anchor="0.000000, -0.120312" Dimension="0.060417, 0.117188" Rotation="-1.5708" IsPassive="T" MirrorMode="1" />
+                    <Element TextureFilename="Joint02B.jpg" Type="2" Name="Panel::11" ID="243" Anchor="0.120833, -0.035937" Dimension="0.058333, 0.050000" IsPassive="T" Tint="255, 255, 255, 0" MirrorMode="1">
+                        <Element TextureFilename="Joint02.jpg" Type="2" Name="Panel::248" ID="248" Dimension="0.025000, 0.090625" IsPassive="T" MirrorMode="1" />
+                    </Element>
+                    <Element TextureFilename="Joint02B.jpg" Type="2" Name="Panel::11" ID="249" Anchor="-0.120833, -0.034375" Dimension="0.058333, 0.050000" IsPassive="T" Tint="255, 255, 255, 0">
+                        <Element TextureFilename="Joint02.jpg" Type="2" Name="Panel::248" ID="250" Dimension="0.025000, 0.090625" IsPassive="T" />
+                    </Element>
+                </Element>
+                <Element PressedTextureFilename="Button08_Pressed.png" HighlightedTextureFilename="Button07_Glow.png" TextureFilename="Button08.png" Type="3" Name="ContinueButton" ID="246" Dimension="0.234375, 0.134375" PixelFormat="2" HorizontalScale="1.07111" VerticalScale="1.2093">
+                    <Animations>
+                        <Animation Name="NextMissionTrigger">
+                            <Track ID="9" Type="9">
+                                <TrackKey ID="0" Time="0" Value="returnitems | pushform Loading.form WorldMap.form preloadForms shell | resetmap | removeinactiveforms" />
+                            </Track>
+                        </Animation>
+                    </Animations>
+                    <SoundMapRoot>
+                        <SoundEvent EventTrigger="Touches Began (UI Only)" SoundEventFullPath="UI/Menu/Button_Press_Down" />
+                        <SoundEvent EventTrigger="Touches Ended (UI Only)" SoundEventFullPath="UI/Menu/Button_Press_Advance" />
+                    </SoundMapRoot>
+                    <Element Text="$(ContinueText)" TextScale="0.75" Type="1" Name="ContinueButtonLabel" ID="247" Anchor="0.000000, -0.004688" Dimension="0.221667, 0.055236" IsPassive="T" Tracking="-7" Leading="47" TranslateOnce="T" Font="StencilYellow10.asc" />
+                </Element>
+            </Element>
+        </Element>
+    </FormRoot>
+    <AnimationTriggers>
+        <AnimationTrigger Event="Touch Clicked (UI Only)" Data="238" Animation="ReplayTrigger" />
+        <AnimationTrigger Event="Touch Clicked (UI Only)" Data="246" Animation="NextMissionTrigger" />
+        <AnimationTrigger Event="Form Opened (UI Only)" Data="1073741824" Animation="OnLoad" />
+    </AnimationTriggers>
+    <ResettableAnimations>
+        <ResetAnimation Name="OnLoad" />
+        <ResetAnimation Name="HighScore" />
+        <ResetAnimation Name="TowerUnlocked" />
+    </ResettableAnimations>
+</Form>

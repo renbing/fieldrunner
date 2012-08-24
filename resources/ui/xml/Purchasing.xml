@@ -1,0 +1,25 @@
+<!--Copyright 2012 Subatomic Studios, LLC. All rights reserved.-->
+<Form Name="Purchasing" BasePlatform="2" Version="67" FormType="1" ClassType="18">
+    <FormRoot Name="Element">
+        <Element TextureFilename="Occlusion_Square.png" Type="2" Name="Panel::4" ID="4" Anchor="0.536133, 0.473958" Dimension="0.469482, 0.246745" BlendState="3">
+            <PlatformOverrides>
+                <Override Platform="4" Dimension="0.528167, 0.246745" />
+            </PlatformOverrides>
+        </Element>
+        <Element TextureFilename="BGBlack.jpg" Type="2" Name="Grayout" ID="3" Anchor="0.500000, 0.500000" Dimension="1.127777, 1.179167" IsPassive="T" Tint="255, 255, 255, 201" BlendState="3" ResizeBias="2">
+            <PlatformOverrides>
+                <Override Platform="4" TextureFilename="BGTint.png" Tint="255, 255, 255, 255" Dimension="0.937500, 0.833333" />
+            </PlatformOverrides>
+        </Element>
+        <Element Type="10" Name="PurchasingResizablePanel" ID="1" Anchor="0.500000, 0.500000" Dimension="0.388905, 0.175130" IsPassive="T" EdgeSqueeze="0.833333">
+            <PlatformOverrides>
+                <Override Platform="4" Dimension="0.437518, 0.175130" />
+            </PlatformOverrides>
+            <Element Text="$(PurchasingText)" TextScale="0.7" Type="1" Name="PurchasingLabel" ID="2" Anchor="-0.000868, -0.010417" Dimension="0.363174, 0.128930" IsPassive="T" Tracking="-7" Leading="50" TranslateOnce="T" Font="StencilYellow10.asc">
+                <PlatformOverrides>
+                    <Override Platform="4" Dimension="0.408571, 0.128930" TextScale="1.000000" />
+                </PlatformOverrides>
+            </Element>
+        </Element>
+    </FormRoot>
+</Form>

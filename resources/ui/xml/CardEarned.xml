@@ -1,0 +1,144 @@
+<!--Copyright 2012 Subatomic Studios, LLC. All rights reserved.-->
+<Form Name="" BasePlatform="2" Version="76" FormType="2" ClassType="15">
+    <FormRoot Name="Element">
+        <Element TextureFilename="BGBlack.png" Type="2" Name="BGDarken" ID="20" Anchor="0.500000, 0.500000" Dimension="1.041667, 1.000000" IsPassive="T" Tint="255, 255, 255, 0" ResizeBias="0">
+            <Animations>
+                <Animation Name="FadeOut">
+                    <Track ID="4" Type="5">
+                        <TrackKey ID="0" Time="0" Value="217" />
+                        <TrackKey ID="1" Time="0.51875" />
+                    </Track>
+                </Animation>
+                <Animation Name="PopUp">
+                    <Track ID="3" Type="5">
+                        <TrackKey ID="0" Time="0" />
+                        <TrackKey ID="1" Time="0.35" Value="217" />
+                    </Track>
+                </Animation>
+            </Animations>
+        </Element>
+        <Element TextureFilename="BGBlack.png" Type="2" Name="QuickShadowPanel" ID="22" Anchor="0.266667, 0.500000" Dimension="0.297917, 0.615625" Rotation="1.90241" Visible="F" IsPassive="T" Tint="255, 255, 255, 0" RelativeScale="1.75">
+            <Animations>
+                <Animation Name="PopUp">
+                    <Track ID="0" Type="1">
+                        <TrackKey ID="0" Time="0" Value="0.266667, 0.500000" />
+                        <TrackKey ID="1" Time="0.365625" Value="0.493750, 0.507813" />
+                        <TrackKey ID="2" Time="0.459375" Value="0.500000, 0.506250" />
+                    </Track>
+                    <Track ID="1" Type="2">
+                        <TrackKey ID="0" Time="0" Value="1.90241" />
+                        <TrackKey ID="1" Time="0.359375" />
+                        <TrackKey ID="2" Time="0.41875" Value="-0.0174533" />
+                    </Track>
+                    <Track ID="2" Type="5">
+                        <TrackKey ID="0" Time="0" />
+                        <TrackKey ID="1" Time="0.084375" Value="18" />
+                        <TrackKey ID="2" Time="0.290625" Value="45" />
+                        <TrackKey ID="3" Time="0.35625" />
+                    </Track>
+                    <Track ID="7" Type="11">
+                        <TrackKey ID="0" Time="0" Value="1.75" />
+                        <TrackKey ID="1" Time="0.359375" Value="1.3" />
+                    </Track>
+                </Animation>
+            </Animations>
+        </Element>
+        <Element TextureFilename="Trans.png" Type="2" Name="CardGroup" ID="1" Anchor="0.267708, 1.250000" Dimension="0.321875, 0.665625" Rotation="1.91986" IsPassive="T" Tint="255, 255, 255, 0" SetChildrenAlpha="T">
+            <Animations>
+                <Animation Name="FadeOut">
+                    <Track ID="0" Type="5">
+                        <TrackKey ID="0" Time="0" Value="255" />
+                        <TrackKey ID="1" Time="0.4" />
+                    </Track>
+                    <Track ID="1" Type="2">
+                        <TrackKey ID="0" Time="0" Value="-0.0174533" />
+                        <TrackKey ID="1" Time="0.4" Value="-1.25521" />
+                    </Track>
+                    <Track ID="2" Type="1">
+                        <TrackKey ID="0" Time="0" Value="0.500000, 0.467187" />
+                        <TrackKey ID="1" Time="0.403125" Value="0.500000, -0.207813" />
+                    </Track>
+                    <Track ID="3" Type="9">
+                        <TrackKey ID="0" Time="0" Value="playsound UI/Menu/Button_Press_Back" />
+                    </Track>
+                </Animation>
+                <Animation Name="PopUp">
+                    <Track ID="0" Type="1">
+                        <TrackKey ID="0" Time="0" Value="0.267708, 1.250000" />
+                        <TrackKey ID="1" Time="0.34375" Value="0.472539, 0.491414" />
+                        <TrackKey ID="2" Time="0.596875" Value="0.500000, 0.467187" />
+                    </Track>
+                    <Track ID="1" Type="2">
+                        <TrackKey ID="0" Time="0" Value="1.91986" />
+                        <TrackKey ID="1" Time="0.2125" Value="0.0937285" />
+                        <TrackKey ID="2" Time="0.35" Value="0.0482984" />
+                        <TrackKey ID="3" Time="0.5875" />
+                        <TrackKey ID="4" Time="0.640625" Value="-0.0174533" />
+                    </Track>
+                    <Track ID="2" Type="5">
+                        <TrackKey ID="0" Time="0" />
+                        <TrackKey ID="1" Time="0.090625" Value="255" />
+                    </Track>
+                    <Track ID="3" Type="9">
+                        <TrackKey ID="0" Time="0" Value="playsound UI/In_Game/Alert_Card" />
+                    </Track>
+                </Animation>
+            </Animations>
+            <Element TextureFilename="CardShadow.jpg" Type="2" Name="Shadow" ID="25" Dimension="0.003175, 0.006250" Visible="F" IsPassive="T" Tint="255, 255, 255, 0" BlendState="3">
+                <Animations>
+                    <Animation Name="FadeOut">
+                        <Track ID="10" Type="3">
+                            <TrackKey ID="0" Time="0" Value="0.332242, 0.654167" />
+                            <TrackKey ID="1" Time="0.246875" Value="0.003175, 0.006250" />
+                        </Track>
+                    </Animation>
+                </Animations>
+            </Element>
+            <Element TextureFilename="MapReward.jpg" Type="2" Name="Panel::29" ID="29" Dimension="0.414103, 0.945833" Tint="255, 255, 255, 0" BlendState="5" />
+            <Element TextureFilename="Trans.png" Type="2" Name="ProgressMeter" ID="12" Anchor="0.000000, -0.228125" Dimension="0.060417, 0.090625" IsPassive="T" Tint="255, 255, 255, 0">
+                <Element TextureFilename="CardProgressFill.png" Type="2" Name="Panel::13" ID="13" Dimension="0.266667, 0.050000" IsPassive="T" Tint="255, 255, 255, 0" />
+                <Element Text="0/0 }" TextScale="0.75" Type="1" Name="CardProgressText" ID="28" Dimension="0.246698, 0.040625" Tint="255, 255, 255, 0" Tracking="-4" Leading="35" TranslateOnce="T" Font="ArialWhite05.asc" />
+            </Element>
+            <Element TextureFilename="EmptyStars.png" Type="2" Name="EmptyStars" ID="26" Anchor="0.000000, -0.228125" Dimension="0.234375, 0.056250" Tint="255, 255, 255, 0">
+                <Element TextureFilename="FullStars.jpg" Type="2" Name="FullStars" ID="27" Dimension="0.234375, 0.056250" Tint="255, 255, 255, 0" />
+            </Element>
+            <Element TextureFilename="CardBG.png" Type="2" Name="CardBG" ID="2" Dimension="0.272917, 0.570313" IsPassive="T" Tint="255, 255, 255, 0" />
+            <Element TextureFilename="Card_ID08.png" Type="2" Name="CardIcon" ID="3" Anchor="-0.001042, 0.070313" Dimension="0.250000, 0.247656" IsPassive="T" Tint="255, 255, 255, 0" />
+            <Element Text="Card Name" TextScale="0.5" Type="1" Name="CardName" ID="4" Anchor="0.000000, 0.228128" Dimension="0.269583, 0.038438" IsPassive="T" Tint="225, 217, 189, 0" Tracking="-14" Leading="37" TranslateOnce="T" Font="StencilWhite01.asc" />
+            <Element Text="This is what a card is supposed to look like, maybe. Some day youll be big like me." TextScale="0.52" Type="1" Name="CardDescription" ID="5" Anchor="0.000000, -0.121875" Dimension="0.215670, 0.107320" IsPassive="T" Tint="95, 81, 69, 0" VerticalAlignment="1" Tracking="-0" Leading="32" TranslateOnce="T" Font="ArialWhite03.asc" />
+        </Element>
+        <Element Text="$(CardEarnedText)" Type="1" Name="Card Earned!" ID="24" Anchor="0.500000, 1.262500" Dimension="0.937500, 0.102083" Rotation="0.261799" IsPassive="T" Tint="255, 255, 255, 0" Tracking="-11" Leading="47" TranslateOnce="T" Font="StencilYellow10.asc">
+            <Animations>
+                <Animation Name="FadeOut">
+                    <Track ID="1" Type="5">
+                        <TrackKey ID="0" Time="0" Value="255" />
+                        <TrackKey ID="1" Time="0.309375" />
+                    </Track>
+                    <Track ID="3" Type="2">
+                        <TrackKey ID="0" Time="0" />
+                        <TrackKey ID="1" Time="0.390625" Value="-0.911262" />
+                    </Track>
+                    <Track ID="9" Type="1">
+                        <TrackKey ID="0" Time="0" Value="0.500000, 0.848437" />
+                        <TrackKey ID="1" Time="1.19687" Value="0.756250, -0.484375" />
+                    </Track>
+                </Animation>
+                <Animation Name="PopUp">
+                    <Track ID="0" Type="1">
+                        <TrackKey ID="0" Time="0.296875" Value="0.500000, 1.262500" />
+                        <TrackKey ID="1" Time="0.55" Value="0.500000, 0.848437" />
+                    </Track>
+                    <Track ID="8" Type="2">
+                        <TrackKey ID="0" Time="0.296875" Value="0.261799" />
+                        <TrackKey ID="1" Time="0.584375" />
+                    </Track>
+                    <Track ID="11" Type="5">
+                        <TrackKey ID="0" Time="0.33125" />
+                        <TrackKey ID="1" Time="0.51875" Value="255" />
+                    </Track>
+                </Animation>
+            </Animations>
+        </Element>
+        <Element TextureFilename="Trans.png" Type="2" Name="TouchPanel" ID="14" Anchor="0.500000, 0.490625" Dimension="1.032748, 1.023958" />
+    </FormRoot>
+</Form>

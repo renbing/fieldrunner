@@ -1,0 +1,14 @@
+<Doll>
+    <Sprites defaultAnimationSetName="level1" defaultAnimationName="run" dithered="T">
+        <Sprite filename="Tower_Plasma.asc" attachToTag="" sortToParentDepth="F">
+            <Particles>
+                <ParticleSystem type="1" filename="Tower_Transition_Placed.fx" attachToTag="anchor" actorEvent="3" actorEventParameter="" animation="" animationSet="" animationFrameIndex="-1" renderQueueOffset="1" removeOnSetChange="F" />
+                <ParticleSystem type="1" filename="Tower_Transition_Upgrade.fx" attachToTag="anchor" actorEvent="5" actorEventParameter="" animation="" animationSet="" animationFrameIndex="-1" renderQueueOffset="1" removeOnSetChange="F" />
+                <ParticleSystem type="1" filename="Tower_Plasma_Attack.fx" attachToTag="anchor" actorEvent="3" actorEventParameter="Attack" animation="" animationSet="" animationFrameIndex="-1" renderQueueOffset="1" removeOnSetChange="F" />
+            </Particles>
+        </Sprite>
+    </Sprites>
+    <Sounds>
+        <Sound type="1" soundpath="Towers/Tower_Plasma/Attack" replacePrevSoundInstance="T" actorEvent="3" actorEventParameter="Attack" animation="" animationSet="" />
+    </Sounds>
+</Doll>

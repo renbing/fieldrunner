@@ -1,0 +1,92 @@
+<ui>
+	<control type="dialog" name="trainingfield_panel_dialog" background="trainingfield_panel" x="50" y="50" addchild="0" >
+		<text mainname="idle_hero_panel" subname="training_hero_item_1" thirdname="text" filtercolor="0" />	
+		<text mainname="idle_hero_panel" subname="training_hero_item_1" thirdname="level_text_1" filtercolor="0xffffff" />	
+		<text mainname="idle_hero_panel" subname="training_hero_item_1" thirdname="heros_name_text" filtercolor="0" />			
+		<text mainname="idle_hero_panel" subname="training_hero_item_2" thirdname="text" filtercolor="0" />	
+		<text mainname="idle_hero_panel" subname="training_hero_item_2" thirdname="level_text_1" filtercolor="0xffffff" />	
+		<text mainname="idle_hero_panel" subname="training_hero_item_2" thirdname="heros_name_text" filtercolor="0" />			
+		<text mainname="idle_hero_panel" subname="training_hero_item_3" thirdname="text" filtercolor="0" />	
+		<text mainname="idle_hero_panel" subname="training_hero_item_3" thirdname="level_text_1" filtercolor="0xffffff" />	
+		<text mainname="idle_hero_panel" subname="training_hero_item_3" thirdname="heros_name_text" filtercolor="0" />			
+		<text mainname="idle_hero_panel" subname="training_hero_item_4" thirdname="text" filtercolor="0" />	
+		<text mainname="idle_hero_panel" subname="training_hero_item_4" thirdname="level_text_1" filtercolor="0xffffff" />	
+		<text mainname="idle_hero_panel" subname="training_hero_item_4" thirdname="heros_name_text" filtercolor="0" />			
+	
+		<text mainname="idle_hero_panel" subname="training_item_1" thirdname="attackText" filtercolor="0" />
+		<text mainname="idle_hero_panel" subname="training_item_1" thirdname="weaponText" filtercolor="0" />
+		<text mainname="idle_hero_panel" subname="training_item_1" thirdname="luckyText" filtercolor="0" />
+		<text mainname="idle_hero_panel" subname="training_item_1" thirdname="soldier_total_text" filtercolor="0" textcolor="0xff00" />
+		<text mainname="idle_hero_panel" subname="training_item_1" thirdname="hero_soldier_text" filtercolor="0" textcolor="0xff00" />
+		
+		<text mainname="idle_hero_panel" subname="training_item_2" thirdname="attackText" filtercolor="0" />
+		<text mainname="idle_hero_panel" subname="training_item_2" thirdname="weaponText" filtercolor="0" />
+		<text mainname="idle_hero_panel" subname="training_item_2" thirdname="luckyText" filtercolor="0" />
+		<text mainname="idle_hero_panel" subname="training_item_2" thirdname="soldier_total_text" filtercolor="0" textcolor="0xff00" />
+		<text mainname="idle_hero_panel" subname="training_item_2" thirdname="hero_soldier_text" filtercolor="0" textcolor="0xff00" />
+		
+		<text mainname="idle_hero_panel" subname="training_item_3" thirdname="attackText" filtercolor="0" />
+		<text mainname="idle_hero_panel" subname="training_item_3" thirdname="weaponText" filtercolor="0" />
+		<text mainname="idle_hero_panel" subname="training_item_3" thirdname="luckyText" filtercolor="0" />
+		<text mainname="idle_hero_panel" subname="training_item_3" thirdname="soldier_total_text" filtercolor="0" textcolor="0xff00" />
+		<text mainname="idle_hero_panel" subname="training_item_3" thirdname="hero_soldier_text" filtercolor="0" textcolor="0xff00" />
+		
+		<text mainname="idle_hero_panel" subname="training_item_4" thirdname="attackText" filtercolor="0" />
+		<text mainname="idle_hero_panel" subname="training_item_4" thirdname="weaponText" filtercolor="0" />
+		<text mainname="idle_hero_panel" subname="training_item_4" thirdname="luckyText" filtercolor="0" />
+		<text mainname="idle_hero_panel" subname="training_item_4" thirdname="soldier_total_text" filtercolor="0" textcolor="0xff00" />
+		<text mainname="idle_hero_panel" subname="training_item_4" thirdname="hero_soldier_text" filtercolor="0" textcolor="0xff00" />
+	
+		<text mainname="idle_hero_panel" subname="training_time_item_1" thirdname="time_text" />	
+		<text mainname="idle_hero_panel" subname="training_time_item_2" thirdname="time_text" />	
+		<text mainname="idle_hero_panel" subname="training_time_item_3" thirdname="time_text" />	
+		<text mainname="idle_hero_panel" subname="training_time_item_4" thirdname="time_text" />	
+		<text mainname="idle_hero_panel" subname="training_time_item_1" thirdname="gold_text" filtercolor="0" textcolor="0xff00" />	
+		<text mainname="idle_hero_panel" subname="training_time_item_1" thirdname="gold_exp_text" filtercolor="0" textcolor="0xff00" />	
+		<text mainname="idle_hero_panel" subname="training_time_item_1" thirdname="cash_text" filtercolor="0" textcolor="0xff00" />	
+		<text mainname="idle_hero_panel" subname="training_time_item_1" thirdname="cash_exp_text" filtercolor="0" textcolor="0xff00" />	
+		<text mainname="idle_hero_panel" subname="training_time_item_2" thirdname="gold_text" filtercolor="0" textcolor="0xff00" />	
+		<text mainname="idle_hero_panel" subname="training_time_item_2" thirdname="gold_exp_text" filtercolor="0" textcolor="0xff00" />	
+		<text mainname="idle_hero_panel" subname="training_time_item_2" thirdname="cash_text" filtercolor="0" textcolor="0xff00" />	
+		<text mainname="idle_hero_panel" subname="training_time_item_2" thirdname="cash_exp_text" filtercolor="0" textcolor="0xff00" />	
+		<text mainname="idle_hero_panel" subname="training_time_item_3" thirdname="gold_text" filtercolor="0" textcolor="0xff00" />	
+		<text mainname="idle_hero_panel" subname="training_time_item_3" thirdname="gold_exp_text" filtercolor="0" textcolor="0xff00" />	
+		<text mainname="idle_hero_panel" subname="training_time_item_3" thirdname="cash_text" filtercolor="0" textcolor="0xff00" />	
+		<text mainname="idle_hero_panel" subname="training_time_item_3" thirdname="cash_exp_text" filtercolor="0" textcolor="0xff00" />	
+		<text mainname="idle_hero_panel" subname="training_time_item_4" thirdname="gold_text" filtercolor="0" textcolor="0xff00" />	
+		<text mainname="idle_hero_panel" subname="training_time_item_4" thirdname="gold_exp_text" filtercolor="0" textcolor="0xff00" />	
+		<text mainname="idle_hero_panel" subname="training_time_item_4" thirdname="cash_text" filtercolor="0" textcolor="0xff00" />	
+		<text mainname="idle_hero_panel" subname="training_time_item_4" thirdname="cash_exp_text" filtercolor="0" textcolor="0xff00" />	
+	
+		<text mainname="training_hero_panel" subname="hero_time_item_1" thirdname="soldier_name_text" filtercolor="0" textcolor="0xff00" />	
+		<text mainname="training_hero_panel" subname="hero_time_item_2" thirdname="soldier_name_text" filtercolor="0" textcolor="0xff00" />
+		<text mainname="training_hero_panel" subname="hero_time_item_3" thirdname="soldier_name_text" filtercolor="0" textcolor="0xff00" />
+		<text mainname="training_hero_panel" subname="hero_time_item_4" thirdname="soldier_name_text" filtercolor="0" textcolor="0xff00" />
+	
+		<control type="button" name="trainingfield_dialog_close_btn" background="closeIcon" x="680" y="22" addchild="1" >
+			<function evttype="click" callback="OnCloseObjectAtDialog" />
+		</control>
+	</control>
+	
+	<control type="button" name="trainingfield_idle_list_left_arrow" background="leftBtn_1" x="9" y="9" addchild="0" />
+	<control type="button" name="trainingfield_idle_list_right_arrow" background="rightBtn_1" x="680" y="9" addchild="0" />		
+	
+	<control type="button" name="trainingfield_training_list_left_arrow" background="leftBtn_1" x="-1" y="20" addchild="0" />
+	<control type="button" name="trainingfield_training_list_right_arrow" background="rightBtn_1" x="670" y="20" addchild="0" />		
+	
+	<control type="dialog" name="trainingfield_stop_dialog" background="stop_training_panel" x="0" y="0" addchild="0" />
+	
+	<control type="static" name="trainingfield_icon_tips" background="icon_tips_long" x="" y="" addchild="0" >
+		<text mainname="icon_text" subname="" thirdname="" textcolor="0xffffff" filtercolor="0" />
+	</control>
+	<control type="text" name="trainingfield_attr_icon_tips" background="" x="" y="" width="90" height="20" addchild="0" drawrect="3" bgcolor="0x90ffff" textcolor="0xffffff" fontsize="13" align="center" filter="1" />
+	<control type="text" name="trainingfield_fsh_btn_tips" background="" x="" y="" width="140" height="20" addchild="0" drawrect="3" bgcolor="0x90ffff" textcolor="0xffffff" fontsize="13" align="center" filter="1" />		
+	
+	<control type="dialog" name="trainingfield_addplace_dlg" background="add_place_panel" addchild="0" >
+		<control type="button" name="" background="closeIcon" x="334" y="0" addchild="1" >
+			<function evttype="click" callback="OnCloseObjectAtDialog" />
+		</control>
+	</control>
+	
+	<control type="dialog" name="trainingfield_finish_panel" background="trainingfield_finish_panel" />
+</ui>

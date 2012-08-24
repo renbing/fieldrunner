@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<ui>	
+	<!---------------------------HOUSE DIALOG ------------------------------->		
+	<control type="dialog" name="house_panel_dialog" background="funPanel_bg_1" addchild="1" >	
+		<control type="static" name="house_panel" background="housePanel" x="40" y="82" addchild="1" >
+			<!--
+			<text mainname="amountText" subname="" textcolor="0xffffffff" filtercolor="0" />
+			-->
+			<text mainname="item1" subname="timeText" filtercolor="0" textcolor="0xffffff" />
+			<text mainname="item1" subname="outputText" filtercolor="0" />
+			<text mainname="item1" subname="goldText" filtercolor="0" />
+			
+			<text mainname="item2" subname="timeText" filtercolor="0" textcolor="0xffffff" />
+			<text mainname="item2" subname="outputText" filtercolor="0" />
+			<text mainname="item2" subname="goldText" filtercolor="0" />
+			
+			<text mainname="item3" subname="timeText" filtercolor="0" textcolor="0xffffff" />
+			<text mainname="item3" subname="outputText" filtercolor="0" />
+			<text mainname="item3" subname="goldText" filtercolor="0" />
+			
+			<text mainname="item4" subname="timeText" filtercolor="0" textcolor="0xffffff" />
+			<text mainname="item4" subname="outputText" filtercolor="0" />
+			<text mainname="item4" subname="goldText" filtercolor="0" />	
+			
+			<text mainname="item5" subname="timeText" filtercolor="0" textcolor="0xffffff" />
+			<text mainname="item5" subname="outputText" filtercolor="0" />
+			<text mainname="item5" subname="goldText" filtercolor="0" />
+			
+			<text mainname="item6" subname="timeText" filtercolor="0" textcolor="0xffffff" />
+			<text mainname="item6" subname="outputText" filtercolor="0" />
+			<text mainname="item6" subname="goldText" filtercolor="0" />		
+		</control>
+		<control type="button" name="" background="closeIcon" x="490" y="15" addchild="1" >
+			<function evttype="click" callback="OnCloseObjectAtDialog" />			
+		</control>
+	</control>	
+	
+	<!---------------------------END------------------------------->		
+</ui>

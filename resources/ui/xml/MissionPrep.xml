@@ -1,0 +1,1021 @@
+<!--Copyright 2012 Subatomic Studios, LLC. All rights reserved.-->
+<Form Name="MissionPrep" BasePlatform="2" Version="77" FormType="1" ClassType="6">
+    <FormRoot Name="Element">
+        <Animations>
+            <Animation Name="OpenForm">
+                <Track ID="28" Type="9">
+                    <TrackKey ID="0" Time="0" Value="playsound UI/Menu/Shell_Move_2" />
+                    <TrackKey ID="1" Time="0.65" Value="playsound UI/Menu/Shell_Move_2" />
+                </Track>
+            </Animation>
+        </Animations>
+        <Element TextureFilename="ScreenBG.png" Type="2" Name="BackgroundPanel" ID="524" Anchor="0.500000, 0.500000" Dimension="0.997917, 1.045833" IsPassive="T" Tint="162, 162, 162, 0" ResizeBias="2">
+            <Animations>
+                <Animation Name="OpenForm">
+                    <Track ID="55" Type="5">
+                        <TrackKey ID="0" Time="0" />
+                        <TrackKey ID="1" Time="0.25625" Value="255" />
+                    </Track>
+                </Animation>
+                <Animation Name="CloseForm">
+                    <Track ID="58" Type="5">
+                        <TrackKey ID="0" Time="0.26875" Value="255" />
+                        <TrackKey ID="1" Time="0.459375" />
+                    </Track>
+                </Animation>
+            </Animations>
+        </Element>
+        <Element TextureFilename="Trans.png" Type="2" Name="ProductRoot" ID="3" Anchor="0.500000, 0.500000" Dimension="1.058333, 1.018750" IsPassive="T" ResizeBias="2" Margin="1" SetChildrenAlpha="T">
+            <Animations>
+                <Animation Name="OpenForm">
+                    <Track ID="60" Type="5">
+                        <TrackKey ID="0" Time="0" Value="255" />
+                    </Track>
+                </Animation>
+                <Animation Name="CloseForm">
+                    <Track ID="59" Type="5">
+                        <TrackKey ID="0" Time="0" Value="255" />
+                        <TrackKey ID="1" Time="0" />
+                    </Track>
+                </Animation>
+            </Animations>
+            <Element TextureFilename="Trans.png" Type="6" Name="ProductSlider" ID="76" Anchor="0.001042, -0.873438" Dimension="0.677420, 0.652083" ResizeBias="2" Margin="1" SliderInverted="F" SliderVertical="T" ScrollWithTouch="T">
+                <Animations>
+                    <Animation Name="OpenForm">
+                        <Track ID="54" Type="1">
+                            <TrackKey ID="0" Time="0.578125" Value="0.001042, -0.873438" />
+                            <TrackKey ID="1" Time="0.746875" Value="0.001042, -0.123438" />
+                            <TrackKey ID="2" Time="0.85" Value="0.001042, 0.032812" />
+                            <TrackKey ID="3" Time="0.909375" Value="0.001042, 0.001562" />
+                        </Track>
+                    </Animation>
+                </Animations>
+                <Element TextureFilename="Trans.png" Type="2" Name="SlidingNub" ID="419" Anchor="0.000000, -0.286979" Dimension="0.052083, 0.078125" Visible="F" IsPassive="T" />
+                <Element TextureFilename="Trans.png" Type="8" Name="ProductSliderRoot" ID="351" Anchor="0.000000, 0.248437" Dimension="0.833333, 0.155208" IsPassive="T" Margin="8">
+                    <Element TextureFilename="Trans.png" Type="2" Name="ProductRow" ID="352" Dimension="0.820833, 0.156250" IsPassive="T" Margin="7">
+                        <Element TextureFilename="Trans.png" Type="2" Name="ProductGroup" ID="353" Dimension="0.818750, 0.146875" IsPassive="T" Margin="7">
+                            <Element TextureFilename="ProductPanel.png" Type="2" Name="ProductBGPanel" ID="522" Anchor="0.119791, 0.001563" Dimension="0.833333, 0.154687" IsPassive="T">
+                                <Element TextureFilename="ProductPanel.png" Type="2" Name="ProductBGPanel" ID="592" Anchor="-0.936459, 0.000000" Dimension="0.833333, 0.154687" IsPassive="T" MirrorMode="1" />
+                            </Element>
+                            <Element TextureFilename="Trans.png" Type="3" Name="BuyProductHitRegion" ID="448" Anchor="-0.347917, 0.000000" Dimension="0.102083, 0.153125" Expansion="1.000000, -0.051000">
+                                <SoundMapRoot>
+                                    <SoundEvent EventTrigger="Touches Began (UI Only)" SoundEventFullPath="UI/In_Game/Tower_Select" />
+                                </SoundMapRoot>
+                                <Element TextureFilename="Button04_Pressed.png" Type="2" Name="Locked" ID="651" Anchor="-0.001042, 0.001563" Dimension="0.107292, 0.151562" IsPassive="T" Tint="128, 128, 128, 255" PixelFormat="2" />
+                            </Element>
+                            <Element TextureFilename="Button04Shadow.png" Type="2" Name="SlotBackground" ID="354" Anchor="-0.348959, 0.001563" Dimension="0.118143, 0.176563" IsPassive="T" BlendState="3">
+                                <Element TextureFilename="Button04.png" Type="2" Name="Available" ID="356" Dimension="0.107292, 0.151562" Visible="F" IsPassive="T">
+                                    <Element TextureFilename="Button04Shadow.png" Type="2" Name="shadow" ID="540" Anchor="0.000000, -0.003125" Dimension="0.122325, 0.174479" IsPassive="T" BlendState="3" />
+                                </Element>
+                                <Element TextureFilename="Button04_Pressed.png" Type="2" Name="Equipped" ID="355" Dimension="0.107292, 0.151562" Visible="F" IsPassive="T" PixelFormat="2" />
+                            </Element>
+                            <Element TextureFilename="Trans.png" Type="2" Name="PackGroup" ID="357" Dimension="0.802083, 0.132292" Visible="F" IsPassive="T">
+                                <Element Text="None" TextScale="0.65" Type="1" Name="ProductNameLabel" ID="363" Anchor="0.031251, 0.029687" Dimension="0.421666, 0.057320" IsPassive="T" Alignment="0" Tracking="-9" Leading="47" TranslateOnce="T" Font="StencilGray01.asc" />
+                                <Element Text="Description" TextScale="0.6" Type="1" Name="ProductDescriptionLabel" ID="362" Anchor="0.022916, -0.023437" Dimension="0.398750, 0.065653" IsPassive="T" Tint="159, 164, 174, 255" Alignment="0" Tracking="-7" Leading="35" TranslateOnce="T" Font="ArialWhite05.asc" />
+                                <Element TextureFilename="Icon_Expendable_Fire.png" Type="2" Name="Icon" ID="374" Anchor="-0.346875, 0.000000" Dimension="0.091667, 0.137501" IsPassive="T" PixelFormat="2">
+                                    <Element Type="1" Name="Number" ID="449" Dimension="0.098750, 0.028153" IsPassive="T" Tracking="0" Leading="0" TranslateOnce="T" />
+                                </Element>
+                                <Element TextureFilename="SlotItemQty.png" Type="2" Name="ItemCountBackground" ID="359" Anchor="-0.243750, -0.001563" Dimension="0.077083, 0.114062" IsPassive="T">
+                                    <Element Text="00" TextScale="0.8" Type="1" Name="Number" ID="360" Dimension="0.091886, 0.057320" IsPassive="T" Tracking="-7" Leading="47" TranslateOnce="T" Font="StencilYellow10.asc" />
+                                </Element>
+                                <Element TextureFilename="ProductPanelDivider.png" Type="2" Name="VerticalDivider" ID="361" Anchor="-0.194791, 0.000000" Dimension="0.008333, 0.114063" IsPassive="T" />
+                                <Element TextureFilename="Button08Shadow.png" Type="2" Name="BuyButtonGroup" ID="371" Anchor="0.320834, -0.004688" Dimension="0.181250, 0.131771" IsPassive="T" BlendState="3" Margin="3">
+                                    <Element PressedTextureFilename="Button07_Pressed.jpg" HighlightedTextureFilename="Button07_Glow.jpg" TextureFilename="Button07.jpg" Type="3" Name="BuyButton" ID="463" Anchor="0.000000, 0.004688" Dimension="0.165312, 0.103125" HorizontalScale="1.07111" VerticalScale="1.2093" InactiveTint="128, 128, 128, 255">
+                                        <SoundMapRoot>
+                                            <SoundEvent EventTrigger="Touches Ended (UI Only)" SoundEventFullPath="UI/Menu/Button_Purchased" />
+                                        </SoundMapRoot>
+                                        <Element Text="{" TextScale="0.55" Type="1" Name="BuyButtonLabel" ID="464" Dimension="0.147819, 0.036486" IsPassive="T" Tracking="-7" Leading="47" TranslateOnce="T" Font="StencilYellow10.asc" />
+                                    </Element>
+                                </Element>
+                                <Element TextureFilename="Icon_Item_Locked.png" Type="2" Name="Lock" ID="506" Anchor="-0.347917, 0.000000" Dimension="0.088889, 0.133334" IsPassive="T" PixelFormat="2">
+                                    <Animations>
+                                        <Animation Name="PackRowLockJiggle">
+                                            <Track ID="62" Type="2">
+                                                <TrackKey ID="0" Time="0" />
+                                                <TrackKey ID="1" Time="0.003125" Interpolator="2" />
+                                                <TrackKey ID="2" Time="0.121875" Interpolator="3" Value="0.261799" />
+                                                <TrackKey ID="3" Time="0.24375" Interpolator="3" Value="-0.261799" />
+                                                <TrackKey ID="4" Time="0.375" Interpolator="2" />
+                                                <TrackKey ID="5" Time="0.4875" Interpolator="3" Value="0.261799" />
+                                                <TrackKey ID="6" Time="0.60625" />
+                                            </Track>
+                                            <Track ID="63" Type="9">
+                                                <TrackKey ID="0" Time="0" Value="playsound UI/Menu/Button_Locked" />
+                                            </Track>
+                                        </Animation>
+                                    </Animations>
+                                </Element>
+                            </Element>
+                            <Element TextureFilename="Trans.png" Type="2" Name="BundleGroup" ID="375" Dimension="0.804166, 0.121875" Visible="F" IsPassive="T">
+                                <Element Text="Title" TextScale="0.65" Type="1" Name="ProductNameLabel" ID="418" Anchor="-0.041666, 0.028125" Dimension="0.475833, 0.059403" IsPassive="T" Alignment="0" Tracking="-9" Leading="47" TranslateOnce="T" Font="StencilGray01.asc" />
+                                <Element Text="Description" TextScale="0.6" Type="1" Name="ProductDescriptionLabel" ID="377" Anchor="-0.079167, -0.023436" Dimension="0.394583, 0.065653" IsPassive="T" Tint="162, 167, 176, 255" Alignment="0" Tracking="-7" Leading="35" TranslateOnce="T" Font="ArialWhite05.asc" />
+                                <Element TextureFilename="Icon_Tower_Gatling.png" Type="2" Name="Icon" ID="378" Anchor="-0.346876, -0.000001" Dimension="0.090278, 0.135417" IsPassive="T" PixelFormat="2">
+                                    <Element Text="$120" TextScale="0.29" Type="1" Name="Number" ID="379" Anchor="-0.001041, -0.047656" Dimension="0.098750, 0.028153" IsPassive="T" Tint="64, 0, 0, 255" Tracking="-0.3" Leading="20" TranslateOnce="T" Font="ImpactWhite02.asc" />
+                                </Element>
+                                <Element TextureFilename="Trans.png" Type="2" Name="SliderGroup" ID="383" Anchor="0.325000, 0.000000" Dimension="0.177084, 0.136458" IsPassive="T" Margin="3">
+                                    <Element Text="}90/90" TextScale="0.6" Type="1" Name="ProgressLabel" ID="384" Anchor="-0.019791, 0.020311" Dimension="0.136250, 0.040653" IsPassive="T" Alignment="0" Tracking="-7" Leading="47" TranslateOnce="T" Font="StencilYellow10.asc" />
+                                    <Element TextureFilename="BGBlack.png" Type="2" Name="SliderBackground" ID="385" Anchor="-0.010417, -0.029687" Dimension="0.152083, 0.025000" IsPassive="T" />
+                                    <Element TextureFilename="Trans.png" ClipChildren="T" Type="6" Name="Slider" ID="386" Anchor="-0.009376, -0.029686" Dimension="0.152083, 0.025000" IsPassive="T" SecondsToSlide="0">
+                                        <Element Type="2" Name="SliderBarHolder" ID="387" Anchor="-0.076042, 0.000000" Dimension="0.000000, 0.040105" IsPassive="T">
+                                            <Element TextureFilename="ProductProgressFill.png" Type="2" Name="SliderBar" ID="388" Anchor="-0.079167, 0.000000" Dimension="0.152083, 0.035938" IsPassive="T" />
+                                        </Element>
+                                    </Element>
+                                    <Element TextureFilename="SlotProductProgress.png" Type="2" Name="SliderOverlay" ID="389" Anchor="-0.010417, -0.029687" Dimension="0.160417, 0.039063" IsPassive="T" PixelFormat="2" />
+                                </Element>
+                                <Element TextureFilename="Button08Shadow.png" Type="2" Name="BuyButtonGroup" ID="380" Anchor="0.320834, -0.004688" Dimension="0.181250, 0.131250" IsPassive="T" BlendState="3" Margin="3">
+                                    <Element PressedTextureFilename="Button07_Pressed.png" HighlightedTextureFilename="Button07_Glow.png" TextureFilename="Button07.png" Type="3" Name="BuyButton" ID="461" Anchor="0.000000, 0.004688" Dimension="0.165335, 0.103125" HorizontalScale="1.07111" VerticalScale="1.2093" InactiveTint="128, 128, 128, 255">
+                                        <SoundMapRoot>
+                                            <SoundEvent EventTrigger="Touches Began (UI Only)" SoundEventFullPath="UI/Menu/Button_Press_Down" />
+                                            <SoundEvent EventTrigger="Touches Ended (UI Only)" SoundEventFullPath="UI/Menu/Button_Purchased" />
+                                        </SoundMapRoot>
+                                        <Element Text="{" TextScale="0.55" Type="1" Name="BuyButtonLabel" ID="462" Dimension="0.160319, 0.038569" IsPassive="T" Tracking="-7" Leading="47" TranslateOnce="T" Font="StencilYellow10.asc" />
+                                    </Element>
+                                </Element>
+                                <Element TextureFilename="Trans.png" Type="2" Name="StarUnlock" ID="458" Anchor="0.287501, 0.020312" Dimension="0.034375, 0.051562" Visible="F" IsPassive="T" Margin="3">
+                                    <Element Text="}30" TextScale="0.6" Type="1" Name="UnlockAmountLabel" ID="459" Dimension="0.100834, 0.040653" IsPassive="T" Alignment="0" Tracking="-7" Leading="47" TranslateOnce="T" Font="StencilYellow10.asc" />
+                                </Element>
+                                <Element TextureFilename="Icon_Tower_Locked.png" Type="2" Name="Lock" ID="507" Anchor="-0.346876, 0.001562" Dimension="0.101333, 0.143750" IsPassive="T" PixelFormat="2">
+                                    <Animations>
+                                        <Animation Name="BundleRowLockJiggle">
+                                            <Track ID="61" Type="2">
+                                                <TrackKey ID="0" Time="0" />
+                                                <TrackKey ID="1" Time="0.003125" Interpolator="2" />
+                                                <TrackKey ID="2" Time="0.121875" Interpolator="3" Value="0.261799" />
+                                                <TrackKey ID="3" Time="0.24375" Interpolator="3" Value="-0.261799" />
+                                                <TrackKey ID="4" Time="0.375" Interpolator="2" />
+                                                <TrackKey ID="5" Time="0.4875" Interpolator="3" Value="0.261799" />
+                                                <TrackKey ID="6" Time="0.60625" />
+                                            </Track>
+                                            <Track ID="64" Type="9">
+                                                <TrackKey ID="0" Time="0" Value="playsound UI/Menu/Button_Locked" />
+                                            </Track>
+                                        </Animation>
+                                    </Animations>
+                                </Element>
+                            </Element>
+                            <Element TextureFilename="Bolt01.png" Type="2" Name="Bolt" ID="442" Anchor="-0.192709, 0.075001" Dimension="0.020833, 0.031250" IsPassive="T" PixelFormat="2" />
+                            <Element TextureFilename="TowerReward.jpg" Type="2" Name="NewOverlay" ID="455" Anchor="-0.347917, 0.000000" Dimension="0.098958, 0.165104" Visible="F" IsPassive="T" MirrorMode="1" BlendState="5">
+                                <Element Type="7" Name="Sparkles" ID="615" Dimension="0.831250, 0.831249" IsPassive="T" Filename="UI_NewSparkles.fx">
+                                    <Animations>
+                                        <Animation Name="NewParticleSparkles">
+                                            <Track ID="84" Type="8">
+                                                <TrackKey ID="0" Time="0" Value="3" />
+                                                <TrackKey ID="1" Time="0.00625" />
+                                            </Track>
+                                        </Animation>
+                                        <Animation Name="CloseForm">
+                                            <Track ID="102" Type="8">
+                                                <TrackKey ID="0" Time="0.15" Value="3" />
+                                            </Track>
+                                        </Animation>
+                                    </Animations>
+                                </Element>
+                                <Element Text="NEW!" TextScale="0.6" Type="1" Name="NewLabel" ID="456" Anchor="0.109375, 0.029688" Dimension="0.080158, 0.048986" IsPassive="T" Alignment="0" Tracking="-11" Leading="47" TranslateOnce="T" Font="StencilYellow10.asc" />
+                                <Element Text="None" TextScale="0.65" Type="1" Name="ProductNameLabel" ID="616" Anchor="0.360416, 0.029687" Dimension="0.421666, 0.057320" IsPassive="T" Alignment="0" Tracking="-9" Leading="47" TranslateOnce="T" Font="StencilGray01.asc" />
+                            </Element>
+                        </Element>
+                    </Element>
+                </Element>
+            </Element>
+        </Element>
+        <Element Type="2" Name="HitTestCollisionOccluder" ID="450" Anchor="0.500000, 0.500000" Dimension="1.000000, 1.000000" IsPassive="T" Tint="255, 255, 255, 0" ResizeBias="2">
+            <Element Type="2" Name="Left" ID="451" Anchor="-0.457292, 0.000000" Dimension="0.085417, 1.000000" Tint="255, 255, 255, 0" ResizeBias="2" Margin="7" />
+            <Element Type="2" Name="Right" ID="452" Anchor="0.457291, 0.000000" Dimension="0.085417, 1.000000" Tint="255, 255, 255, 0" ResizeBias="2" Margin="3" />
+            <Element Type="2" Name="Top" ID="453" Anchor="0.000000, 0.414063" Dimension="1.000000, 0.166667" Tint="255, 255, 255, 0" ResizeBias="2" Margin="1" />
+            <Element Type="2" Name="Bottom" ID="454" Anchor="0.000000, -0.400000" Dimension="1.000000, 0.200000" Tint="255, 255, 255, 0" ResizeBias="2" Margin="5" />
+        </Element>
+        <Element Type="2" Name="Frames" ID="568" Anchor="0.500000, 0.504687" Dimension="1.000000, 1.000000" IsPassive="T" Tint="255, 255, 255, 0" RelativeScale="1.65" ResizeBias="2" Margin="6">
+            <Animations>
+                <Animation Name="OpenForm">
+                    <Track ID="25" Type="11">
+                        <TrackKey ID="0" Time="0" Value="1.65" />
+                        <TrackKey ID="1" Time="0.153125" Value="1" />
+                    </Track>
+                </Animation>
+                <Animation Name="CloseForm">
+                    <Track ID="34" Type="11">
+                        <TrackKey ID="0" Time="0.240625" Value="1" />
+                        <TrackKey ID="1" Time="0.475" Value="2.15" />
+                    </Track>
+                    <Track ID="48" Type="9">
+                        <TrackKey ID="0" Time="0.2375" Value="playsound UI/Menu/Shell_Move_2" />
+                    </Track>
+                </Animation>
+            </Animations>
+            <Element PanelSkin="ResizeableFrame01.asc" Type="10" Name="Inner" ID="569" Anchor="0.000000, -0.012499" Dimension="1.058333, 1.019791" IsPassive="T" ResizeBias="2" RenderFlags="510">
+                <Element PanelSkin="Test_InnerShadow.asc" Type="10" Name="ResizablePanel::644" ID="644" Dimension="1.058333, 1.018750" IsPassive="T" BlendState="3" ResizeBias="2" />
+            </Element>
+            <Element PanelSkin="ResizeableFrame02.asc" Type="10" Name="Outer" ID="571" Anchor="0.000000, -0.012500" Dimension="1.054167, 1.014583" IsPassive="T" ResizeBias="2" RenderFlags="238">
+                <Element TextureFilename="Trans.png" Type="2" Name="BottomLeft" ID="572" Anchor="-0.453124, -0.390625" Dimension="0.094792, 0.189063" IsPassive="T" Tint="255, 255, 255, 0" ResizeBias="2" Margin="6">
+                    <Element TextureFilename="Vents02.png" Type="2" Name="BottomLeftVents" ID="573" Anchor="0.000000, -0.039062" Dimension="0.086458, 0.068750" IsPassive="T" ResizeBias="2" PixelFormat="2" />
+                </Element>
+                <Element TextureFilename="Trans.png" Type="2" Name="BottomRight" ID="574" Anchor="0.451041, -0.392188" Dimension="0.094792, 0.189063" IsPassive="T" Tint="255, 255, 255, 0" ResizeBias="2" Margin="6">
+                    <Element TextureFilename="Vents02.png" Type="2" Name="BottomLeftVents" ID="575" Anchor="0.000000, -0.039062" Dimension="0.086458, 0.068750" IsPassive="T" ResizeBias="2" PixelFormat="2" />
+                </Element>
+                <Element TextureFilename="Trans.png" Type="2" Name="Left" ID="576" Anchor="-0.468750, 0.020313" Dimension="0.053125, 0.258855" IsPassive="T" Tint="255, 255, 255, 0" Margin="7">
+                    <Element TextureFilename="Vents01.png" Type="2" Name="LeftVents" ID="577" Anchor="0.000000, -0.003125" Dimension="0.048958, 0.175000" IsPassive="T" PixelFormat="2" />
+                    <Element Type="2" Name="BoltRoot" ID="578" Anchor="0.011458, 0.000000" Dimension="0.029963, 0.260417" IsPassive="T" Tint="255, 255, 255, 0">
+                        <Element TextureFilename="Bolt01.png" Type="2" Name="Bolt" ID="579" Anchor="0.000000, 0.101563" Dimension="0.018750, 0.028125" IsPassive="T" PixelFormat="2" />
+                        <Element TextureFilename="Bolt01.png" Type="2" Name="Bolt" ID="581" Anchor="0.000000, -0.106249" Dimension="0.018750, 0.028125" IsPassive="T" PixelFormat="2" />
+                    </Element>
+                </Element>
+                <Element PanelSkin="FrameShadow01.asc" Type="10" Name="Shadow" ID="590" Dimension="0.444221, 0.417187" IsPassive="T" RelativeScale="2.35" BlendState="3" ResizeBias="2" PixelFormat="2" RenderFlags="238" />
+                <Element TextureFilename="Trans.png" Type="2" Name="Right" ID="645" Anchor="0.468750, 0.020312" Dimension="0.053125, 0.258855" IsPassive="T" Tint="255, 255, 255, 0" Margin="3">
+                    <Element TextureFilename="Vents01.png" Type="2" Name="LeftVents" ID="646" Anchor="0.000000, -0.003125" Dimension="0.048958, 0.175000" IsPassive="T" PixelFormat="2" />
+                    <Element Type="2" Name="BoltRoot" ID="647" Anchor="-0.011458, 0.000000" Dimension="0.029963, 0.260417" IsPassive="T" Tint="255, 255, 255, 0">
+                        <Element TextureFilename="Bolt01.png" Type="2" Name="Bolt" ID="648" Anchor="0.000000, 0.101563" Dimension="0.018750, 0.028125" IsPassive="T" PixelFormat="2" />
+                        <Element TextureFilename="Bolt01.png" Type="2" Name="Bolt" ID="649" Anchor="0.000000, -0.106249" Dimension="0.018750, 0.028125" IsPassive="T" PixelFormat="2" />
+                    </Element>
+                </Element>
+            </Element>
+        </Element>
+        <Element Type="2" Name="TopInfoBar" ID="22" Anchor="0.500000, 1.064065" Dimension="1.000000, 0.113542" IsPassive="T" Tint="255, 255, 255, 0" Expansion="0.000000, 0.615000" Margin="1">
+            <Animations>
+                <Animation Name="OpenForm">
+                    <Track ID="27" Type="1">
+                        <TrackKey ID="0" Time="0.059375" Value="0.500000, 1.064065" />
+                        <TrackKey ID="1" Time="0.15625" Value="0.500000, 0.939065" />
+                    </Track>
+                </Animation>
+                <Animation Name="CloseForm">
+                    <Track ID="103" Type="1">
+                        <TrackKey ID="0" Time="0.234375" Value="0.500000, 0.939065" />
+                        <TrackKey ID="1" Time="0.303125" Value="0.500000, 1.056252" />
+                        <TrackKey ID="2" Time="0.3375" Value="0.500000, 1.087502" />
+                    </Track>
+                </Animation>
+            </Animations>
+            <Element TextureFilename="Button03Shadow.png" Type="2" Name="TitlePanelRoot" ID="36" Anchor="-0.312500, -0.004688" Dimension="0.282879, 0.123959" IsPassive="T" Tint="255, 255, 255, 0" BlendState="3" Margin="7">
+                <Element TextureFilename="Title01.png" Type="2" Name="TitleBG" ID="468" Dimension="0.268750, 0.106250" IsPassive="T" />
+                <Element Text="$(TowersText)" Type="1" Name="TitlePanelLabel" ID="467" Dimension="0.255000, 0.071903" IsPassive="T" Margin="8" Tracking="-7" Leading="47" TranslateOnce="T" Font="StencilYellow10.asc" />
+            </Element>
+            <Element TextureFilename="SlotClose.png" Type="2" Name="CloseButtonRoot" ID="286" Anchor="0.409376, -0.006250" Dimension="0.065278, 0.097917" IsPassive="T" RelativeScale="1.05" Expansion="1.000000, 1.000000" Margin="3" PixelFormat="2">
+                <Element PressedTextureFilename="Button02_Pressed.png" HighlightedTextureFilename="Button02_Glow.png" TextureFilename="Button02.png" Type="3" Name="CloseButton" ID="287" Dimension="0.057639, 0.083333" Expansion="0.436000, 0.538000" Margin="1" HorizontalScale="1.33846" VerticalScale="1.34921">
+                    <Animations>
+                        <Animation Name="CloseFormTrigger">
+                            <Track ID="1" Type="9">
+                                <TrackKey ID="0" Time="0" Value="playuianimation CloseForm" />
+                                <TrackKey ID="1" Time="0.509375" Value="popform" />
+                            </Track>
+                        </Animation>
+                    </Animations>
+                    <SoundMapRoot>
+                        <SoundEvent EventTrigger="Touches Began (UI Only)" SoundEventFullPath="UI/Menu/Button_Press_Down" />
+                        <SoundEvent EventTrigger="Touches Ended (UI Only)" SoundEventFullPath="UI/Menu/Button_Press_Back" />
+                    </SoundMapRoot>
+                </Element>
+            </Element>
+            <Element TextureFilename="Button07Shaddow.png" Type="3" Name="StarButtonRoot" ID="527" Anchor="-0.012499, -0.004688" Dimension="0.225591, 0.101041" IsPassive="T" Tint="255, 255, 255, 0" Expansion="0.000000, 0.615000" MirrorMode="1" BlendState="3" Margin="3">
+                <SoundMapRoot>
+                    <SoundEvent EventTrigger="Touches Ended (UI Only)" SoundEventFullPath="UI/Menu/Button_Press_Advance" />
+                </SoundMapRoot>
+                <Element TextureFilename="SlotMoney02.png" Type="2" Name="StarSlot" ID="528" Dimension="0.212766, 0.106250" IsPassive="T" />
+                <Element PressedTextureFilename="Button11_Pressed.png" HighlightedTextureFilename="Button11_Glow.png" TextureFilename="Button11.png" Type="3" Name="StarPurchaseButton" ID="529" Anchor="0.001042, 0.000000" Dimension="0.200162, 0.085417" Expansion="0.000000, 0.538000" HorizontalScale="1.10407" VerticalScale="1.4">
+                    <Animations>
+                        <Animation Name="StarInfoTrigger">
+                            <Track ID="22" Type="9">
+                                <TrackKey ID="0" Time="0" Value="pushform NotificationBox.form StarsInfo" />
+                            </Track>
+                        </Animation>
+                    </Animations>
+                    <SoundMapRoot>
+                        <SoundEvent EventTrigger="Touches Began (UI Only)" SoundEventFullPath="UI/Menu/Button_Press_Down" />
+                        <SoundEvent EventTrigger="Touches Ended (UI Only)" SoundEventFullPath="UI/In_Game/Tower_Select" />
+                    </SoundMapRoot>
+                </Element>
+                <Element Text="?" TextScale="0.8" Type="1" Name="PurchaseStarPlusLabel" ID="530" Anchor="0.071875, -0.012500" Dimension="0.051986, 0.082319" IsPassive="T" Wrap="T" Tracking="-7" Leading="47" TranslateOnce="T" Font="StencilYellow10.asc" />
+                <Element Text="}" TextScale="0.5" Type="1" Name="Star" ID="532" Anchor="0.006250, -0.004687" Dimension="0.171666, 0.046903" IsPassive="T" Alignment="0" Tracking="-7" Leading="47" TranslateOnce="T" Font="StencilYellow10.asc" />
+                <Element Text="$(StarsTotal)" TextScale="0.5" Type="1" Name="TotalStarsLabel" ID="640" Anchor="0.035417, -0.004688" Dimension="0.171666, 0.046903" IsPassive="T" Alignment="0" Tracking="-7" Leading="47" TranslateOnce="T" Font="StencilYellow10.asc" />
+            </Element>
+            <Element TextureFilename="Button07Shaddow.png" Type="3" Name="SubabuckButtonRoot" ID="465" Anchor="0.236459, -0.004688" Dimension="0.240175, 0.103125" IsPassive="T" Tint="255, 255, 255, 0" Expansion="0.000000, 0.718000" MirrorMode="1" BlendState="3" Margin="3">
+                <SoundMapRoot>
+                    <SoundEvent EventTrigger="Touches Ended (UI Only)" SoundEventFullPath="UI/Menu/Button_Press_Advance" />
+                </SoundMapRoot>
+                <Element TextureFilename="SlotMoney02.png" Type="2" Name="SubabuckPurchaseButtonGlow" ID="508" Dimension="0.250000, 0.107760" IsPassive="T" />
+                <Element PressedTextureFilename="Button11_Pressed.png" HighlightedTextureFilename="Button11_Glow.png" TextureFilename="Button11.png" Type="3" Name="SubabuckPurchaseButton" ID="469" Anchor="0.001042, 0.000000" Dimension="0.240625, 0.089583" Expansion="0.000000, 0.462000" HorizontalScale="1.10407" VerticalScale="1.4">
+                    <Animations>
+                        <Animation Name="PurchaseSubabucksTrigger">
+                            <Track ID="20" Type="9">
+                                <TrackKey ID="0" Time="0" Value="pushform NotificationBox.form CoinsInfo" />
+                            </Track>
+                        </Animation>
+                    </Animations>
+                    <SoundMapRoot>
+                        <SoundEvent EventTrigger="Touches Began (UI Only)" SoundEventFullPath="UI/Menu/Button_Press_Down" />
+                        <SoundEvent EventTrigger="Touches Ended (UI Only)" SoundEventFullPath="UI/In_Game/Tower_Select" />
+                    </SoundMapRoot>
+                </Element>
+                <Element Text="?" TextScale="0.8" Type="1" Name="SubabuckPurchaseLabel" ID="466" Anchor="0.081250, -0.012500" Dimension="0.051986, 0.082319" IsPassive="T" Wrap="T" Tracking="-7" Leading="47" TranslateOnce="T" Font="StencilYellow10.asc" />
+                <Element Text="$(Subabucks)" TextScale="0.5" Type="1" Name="SubaCoinLabel" ID="526" Anchor="-0.003124, -0.003125" Dimension="0.136249, 0.046903" IsPassive="T" Alignment="0" Tracking="-7" Leading="47" TranslateOnce="T" Font="StencilYellow10.asc" />
+                <Element Text="{" TextScale="0.5" Type="1" Name="CoinLabel" ID="567" Anchor="-0.085416, -0.001563" Dimension="0.029999, 0.046903" IsPassive="T" Alignment="0" Tracking="-7" Leading="47" TranslateOnce="T" Font="StencilYellow10.asc" />
+                <Element Type="7" Name="CoinsParticle" ID="566" Anchor="-0.079167, -0.001562" Dimension="0.100000, 0.100000" IsPassive="T" Filename="Coins.fx" />
+            </Element>
+        </Element>
+        <Element Type="2" Name="TowerDockRoot" ID="193" Anchor="0.500000, -0.153125" Dimension="0.966667, 0.188542" IsPassive="T" Tint="255, 255, 255, 0" Margin="5">
+            <Animations>
+                <Animation Name="BackButtonTrigger">
+                    <Track ID="31" Type="1">
+                        <TrackKey ID="0" Time="0" Value="0.500000, -0.182812" />
+                        <TrackKey ID="1" Time="0.165625" Value="0.500000, 0.109375" />
+                        <TrackKey ID="2" Time="0.203125" Value="0.500000, 0.093750" />
+                    </Track>
+                    <Track ID="45" Type="9">
+                        <TrackKey ID="0" Time="0" Value="playsound UI/Menu/Shell_Up" />
+                    </Track>
+                </Animation>
+                <Animation Name="OpenForm">
+                    <Track ID="26" Type="1">
+                        <TrackKey ID="0" Time="0.278125" Value="0.500000, -0.153125" />
+                        <TrackKey ID="1" Time="0.5" Value="0.500000, 0.093750" />
+                    </Track>
+                    <Track ID="46" Type="9">
+                        <TrackKey ID="0" Time="0.275" Value="playsound UI/Menu/Shell_Up" />
+                    </Track>
+                </Animation>
+                <Animation Name="CloseForm">
+                    <Track ID="32" Type="1">
+                        <TrackKey ID="0" Time="0" Value="0.500000, 0.093750" />
+                        <TrackKey ID="1" Time="0" Value="0.500000, 0.093750" />
+                        <TrackKey ID="2" Time="0.159375" Value="0.500000, -0.153125" />
+                    </Track>
+                    <Track ID="47" Type="9">
+                        <TrackKey ID="0" Time="0" Value="playsound UI/Menu/Shell_Down" />
+                    </Track>
+                </Animation>
+                <Animation Name="NextButtonTrigger">
+                    <Track ID="29" Type="1">
+                        <TrackKey ID="0" Time="0" Value="0.500000, 0.093750" />
+                        <TrackKey ID="1" Time="0.028125" Value="0.500000, 0.099306" />
+                        <TrackKey ID="2" Time="0.196875" Value="0.500000, -0.137500" />
+                    </Track>
+                    <Track ID="50" Type="9">
+                        <TrackKey ID="0" Time="0.05" Value="playsound UI/Menu/Shell_Down" />
+                        <TrackKey ID="1" Time="0.19375" Value="playsound UI/Menu/Shell_Up" />
+                    </Track>
+                </Animation>
+            </Animations>
+            <Element TextureFilename="Button01Shaddow.png" Type="2" Name="RefreshButtonShadow" ID="195" Anchor="-0.378125, -0.031250" Dimension="0.240625, 0.137500" IsPassive="T" MirrorMode="1" BlendState="3" Margin="7" />
+            <Element TextureFilename="Joint01A.png" Type="2" Name="RefreshButtonJoint" ID="200" Anchor="-0.318749, 0.000000" Dimension="0.060417, 0.117188" IsPassive="T" MirrorMode="1" Margin="7" />
+            <Element TextureFilename="Button01Shaddow.png" Type="2" Name="NextButtonShadow" ID="194" Anchor="0.373959, -0.031250" Dimension="0.240625, 0.137500" IsPassive="T" BlendState="3" Margin="3" />
+            <Element TextureFilename="Joint01A.png" Type="2" Name="NextButtonJoint" ID="196" Anchor="0.317708, 0.000000" Dimension="0.060417, 0.117188" IsPassive="T" Margin="3" />
+            <Element TextureFilename="Joint01B.png" Type="2" Name="NextButtonDecoration" ID="197" Anchor="0.458333, 0.000000" Dimension="0.022917, 0.082813" IsPassive="T" Margin="3" />
+            <Element PressedTextureFilename="Button01_Pressed.png" HighlightedTextureFilename="Button01_Glow.png" TextureFilename="Button01.png" Type="3" Name="NextButton" ID="198" Anchor="0.405208, 0.000000" Dimension="0.176042, 0.131250" Expansion="0.000000, 0.282000" Margin="3" HorizontalScale="1.08876" VerticalScale="1.16667">
+                <Animations>
+                    <Animation Name="NextButtonTrigger">
+                        <Track ID="3" Type="9">
+                            <TrackKey ID="0" Time="0" Value="applyuiformargs MissionPrep.form Items" />
+                        </Track>
+                    </Animation>
+                </Animations>
+                <SoundMapRoot>
+                    <SoundEvent EventTrigger="Touches Began (UI Only)" SoundEventFullPath="UI/Menu/Button_Press_Down" />
+                    <SoundEvent EventTrigger="Touches Ended (UI Only)" SoundEventFullPath="UI/Menu/Button_Press_Advance" />
+                </SoundMapRoot>
+                <Element Text="$(NextText)" TextScale="0.8" Type="1" Name="NextButtonText" ID="199" Dimension="0.160319, 0.055236" IsPassive="T" Tracking="-7" Leading="47" TranslateOnce="T" Font="StencilYellow10.asc" />
+            </Element>
+            <Element PressedTextureFilename="Button01_Pressed.png" HighlightedTextureFilename="Button01_Glow.png" TextureFilename="Button01.png" Type="3" Name="BackTowerButton" ID="638" Anchor="-0.407292, 0.000000" Dimension="0.176042, 0.131250" Expansion="0.000000, 0.333000" Margin="7" HorizontalScale="1.08876" VerticalScale="1.16667">
+                <Animations>
+                    <Animation Name="BackTowerTrigger">
+                        <Track ID="105" Type="9">
+                            <TrackKey ID="0" Time="0" Value="playuianimation CloseForm" />
+                            <TrackKey ID="1" Time="0.4875" Value="popform" />
+                        </Track>
+                    </Animation>
+                    <Animation Name="BackButtonTrigger">
+                        <Track ID="104" Type="9" />
+                    </Animation>
+                </Animations>
+                <SoundMapRoot>
+                    <SoundEvent EventTrigger="Touches Began (UI Only)" SoundEventFullPath="UI/Menu/Button_Press_Down" />
+                    <SoundEvent EventTrigger="Touches Ended (UI Only)" SoundEventFullPath="UI/Menu/Button_Press_Back" />
+                </SoundMapRoot>
+                <Element Text="$(BackText)" TextScale="0.8" Type="1" Name="BackButtonLabel" ID="639" Dimension="0.164519, 0.057320" IsPassive="T" Tracking="-7" Leading="47" TranslateOnce="T" Font="StencilYellow10.asc" />
+            </Element>
+            <Element Type="2" Name="TowerDockPanel" ID="204" Anchor="0.000000, 0.004688" Dimension="0.664584, 0.211457" IsPassive="T" Tint="255, 255, 255, 0" RelativeScale="0.95">
+                <Element TextureFilename="TrayShadow.png" Type="2" Name="TowerDockPanelShadow" ID="240" Anchor="0.001097, -0.001563" Dimension="0.680208, 0.204688" IsPassive="T" BlendState="3" />
+                <Element TextureFilename="Tray.png" Type="2" Name="TowerDock" ID="206" Dimension="0.683333, 0.206771" IsPassive="T">
+                    <Element Type="2" Name="Bolts" ID="232" Dimension="0.662501, 0.190625" IsPassive="T" Tint="255, 255, 255, 0">
+                        <Element TextureFilename="Bolt01.png" Type="2" Name="TopLeft" ID="233" Anchor="-0.309375, 0.067187" Dimension="0.018750, 0.028125" IsPassive="T" Margin="8" PixelFormat="2" />
+                        <Element TextureFilename="Bolt01.png" Type="2" Name="BottomLeft" ID="234" Anchor="-0.309375, -0.089063" Dimension="0.018750, 0.028125" IsPassive="T" Margin="7" PixelFormat="2" />
+                        <Element TextureFilename="Bolt01.png" Type="2" Name="TopRight" ID="235" Anchor="0.308333, 0.067187" Dimension="0.018750, 0.028125" IsPassive="T" Margin="2" PixelFormat="2" />
+                        <Element TextureFilename="Bolt01.png" Type="2" Name="BottomRight" ID="236" Anchor="0.309374, -0.089063" Dimension="0.018750, 0.028125" IsPassive="T" Margin="3" PixelFormat="2" />
+                    </Element>
+                    <Element Type="2" Name="SlotsRoot" ID="392" Dimension="0.637500, 0.196875" IsPassive="T" Tint="255, 255, 255, 0">
+                        <Element TextureFilename="SlotTower.png" Type="3" Name="0" ID="393" Anchor="-0.263542, -0.014063" Dimension="0.101042, 0.173438" RelativeScale="1.1" InactiveTint="255, 255, 255, 255">
+                            <SoundMapRoot>
+                                <SoundEvent EventTrigger="Touches Ended (UI Only)" SoundEventFullPath="UI/In_Game/Tower_Drag_Out" />
+                            </SoundMapRoot>
+                            <Element TextureFilename="Icon_Tower_Gatling.png" Type="2" Name="Icon" ID="394" Anchor="0.000000, 0.001563" Dimension="0.102778, 0.154167" IsPassive="T" PixelFormat="2" SetChildrenAlpha="T">
+                                <Animations>
+                                    <Animation Name="TowerEquip0">
+                                        <Track ID="98" Type="5">
+                                            <TrackKey ID="0" Time="0" />
+                                            <TrackKey ID="1" Time="0.290625" />
+                                            <TrackKey ID="2" Time="0.328125" Value="255" />
+                                        </Track>
+                                    </Animation>
+                                </Animations>
+                                <Element Text="$$5" TextScale="0.33" Type="1" Name="Number" ID="395" Anchor="0.000000, -0.049062" Dimension="0.098750, 0.023438" IsPassive="T" Tint="64, 0, 0, 255" Tracking="-0.3" Leading="20" TranslateOnce="T" Font="ImpactWhite02.asc" />
+                            </Element>
+                            <Element TextureFilename="Icon_Tower_Locked.png" Type="2" Name="Lock" ID="497" Anchor="0.000000, 0.004688" Dimension="0.108334, 0.162501" Visible="F" PixelFormat="2">
+                                <Animations>
+                                    <Animation Name="TowerDockLockJiggle0">
+                                        <Track ID="66" Type="2">
+                                            <TrackKey ID="0" Time="0" Interpolator="2" />
+                                            <TrackKey ID="1" Time="0.121875" Interpolator="3" Value="0.261799" />
+                                            <TrackKey ID="2" Time="0.24375" Interpolator="3" Value="-0.261799" />
+                                            <TrackKey ID="3" Time="0.375" Interpolator="2" />
+                                            <TrackKey ID="4" Time="0.4875" Interpolator="3" Value="0.261799" />
+                                            <TrackKey ID="5" Time="0.60625" />
+                                        </Track>
+                                        <Track ID="67" Type="9">
+                                            <TrackKey ID="0" Time="0" Value="playsound UI/Menu/Button_Locked" />
+                                        </Track>
+                                    </Animation>
+                                </Animations>
+                            </Element>
+                        </Element>
+                        <Element TextureFilename="SlotTower.png" Type="3" Name="1" ID="396" Anchor="-0.158334, -0.014063" Dimension="0.101042, 0.173438" RelativeScale="1.1" InactiveTint="255, 255, 255, 255">
+                            <SoundMapRoot>
+                                <SoundEvent EventTrigger="Touches Ended (UI Only)" SoundEventFullPath="UI/In_Game/Tower_Drag_Out" />
+                            </SoundMapRoot>
+                            <Element TextureFilename="Icon_Tower_Gatling.png" Type="2" Name="Icon" ID="397" Anchor="0.000000, 0.001563" Dimension="0.102778, 0.154167" IsPassive="T" PixelFormat="2" SetChildrenAlpha="T">
+                                <Animations>
+                                    <Animation Name="TowerEquip1">
+                                        <Track ID="98" Type="5">
+                                            <TrackKey ID="0" Time="0" />
+                                            <TrackKey ID="1" Time="0.290625" />
+                                            <TrackKey ID="2" Time="0.328125" Value="255" />
+                                        </Track>
+                                    </Animation>
+                                </Animations>
+                                <Element Text="$$5" TextScale="0.33" Type="1" Name="Number" ID="398" Anchor="0.000000, -0.049062" Dimension="0.098750, 0.023438" IsPassive="T" Tint="64, 0, 0, 255" Tracking="-0.3" Leading="20" TranslateOnce="T" Font="ImpactWhite02.asc" />
+                            </Element>
+                            <Element TextureFilename="Icon_Tower_Locked.png" Type="2" Name="Lock" ID="533" Anchor="0.000000, 0.003125" Dimension="0.108334, 0.162501" Visible="F" PixelFormat="2">
+                                <Animations>
+                                    <Animation Name="TowerDockLockJiggle1">
+                                        <Track ID="68" Type="2">
+                                            <TrackKey ID="0" Time="0" Interpolator="2" />
+                                            <TrackKey ID="1" Time="0.121875" Interpolator="3" Value="0.261799" />
+                                            <TrackKey ID="2" Time="0.24375" Interpolator="3" Value="-0.261799" />
+                                            <TrackKey ID="3" Time="0.375" Interpolator="2" />
+                                            <TrackKey ID="4" Time="0.4875" Interpolator="3" Value="0.261799" />
+                                            <TrackKey ID="5" Time="0.60625" />
+                                        </Track>
+                                        <Track ID="69" Type="9">
+                                            <TrackKey ID="0" Time="0" Value="playsound UI/Menu/Button_Locked" />
+                                        </Track>
+                                    </Animation>
+                                </Animations>
+                            </Element>
+                        </Element>
+                        <Element TextureFilename="SlotTower.png" Type="3" Name="2" ID="399" Anchor="-0.052084, -0.014063" Dimension="0.101042, 0.173438" Tint="255, 255, 255, 254" RelativeScale="1.1" InactiveTint="255, 255, 255, 255">
+                            <SoundMapRoot>
+                                <SoundEvent EventTrigger="Touches Ended (UI Only)" SoundEventFullPath="UI/In_Game/Tower_Drag_Out" />
+                            </SoundMapRoot>
+                            <Element TextureFilename="Icon_Tower_Gatling.png" Type="2" Name="Icon" ID="400" Anchor="0.000000, 0.001563" Dimension="0.102778, 0.154167" IsPassive="T" PixelFormat="2" SetChildrenAlpha="T">
+                                <Animations>
+                                    <Animation Name="TowerEquip2">
+                                        <Track ID="98" Type="5">
+                                            <TrackKey ID="0" Time="0" />
+                                            <TrackKey ID="1" Time="0.290625" />
+                                            <TrackKey ID="2" Time="0.328125" Value="255" />
+                                        </Track>
+                                    </Animation>
+                                </Animations>
+                                <Element Text="$$5" TextScale="0.33" Type="1" Name="Number" ID="401" Anchor="-0.000003, -0.049062" Dimension="0.098750, 0.023438" IsPassive="T" Tint="64, 0, 0, 255" Tracking="-0.3" Leading="20" TranslateOnce="T" Font="ImpactWhite02.asc" />
+                            </Element>
+                            <Element TextureFilename="Icon_Tower_Locked.png" Type="2" Name="Lock" ID="534" Anchor="0.000000, 0.003125" Dimension="0.108334, 0.162501" Visible="F" PixelFormat="2">
+                                <Animations>
+                                    <Animation Name="TowerDockLockJiggle2">
+                                        <Track ID="70" Type="2">
+                                            <TrackKey ID="0" Time="0" Interpolator="2" />
+                                            <TrackKey ID="1" Time="0.121875" Interpolator="3" Value="0.261799" />
+                                            <TrackKey ID="2" Time="0.24375" Interpolator="3" Value="-0.261799" />
+                                            <TrackKey ID="3" Time="0.375" Interpolator="2" />
+                                            <TrackKey ID="4" Time="0.4875" Interpolator="3" Value="0.261799" />
+                                            <TrackKey ID="5" Time="0.60625" />
+                                        </Track>
+                                        <Track ID="71" Type="9">
+                                            <TrackKey ID="0" Time="0" Value="playsound UI/Menu/Button_Locked" />
+                                        </Track>
+                                    </Animation>
+                                </Animations>
+                            </Element>
+                        </Element>
+                        <Element TextureFilename="SlotTower.png" Type="3" Name="3" ID="402" Anchor="0.053124, -0.014062" Dimension="0.101042, 0.173438" Tint="255, 255, 255, 254" RelativeScale="1.1" InactiveTint="255, 255, 255, 255">
+                            <SoundMapRoot>
+                                <SoundEvent EventTrigger="Touches Ended (UI Only)" SoundEventFullPath="UI/In_Game/Tower_Drag_Out" />
+                            </SoundMapRoot>
+                            <Element TextureFilename="Icon_Tower_Gatling.png" Type="2" Name="Icon" ID="403" Anchor="0.000000, 0.001563" Dimension="0.102778, 0.154167" IsPassive="T" PixelFormat="2" SetChildrenAlpha="T">
+                                <Animations>
+                                    <Animation Name="TowerEquip3">
+                                        <Track ID="98" Type="5">
+                                            <TrackKey ID="0" Time="0" />
+                                            <TrackKey ID="1" Time="0.290625" />
+                                            <TrackKey ID="2" Time="0.328125" Value="255" />
+                                        </Track>
+                                    </Animation>
+                                </Animations>
+                                <Element Text="$$5" TextScale="0.33" Type="1" Name="Number" ID="404" Anchor="-0.000001, -0.049062" Dimension="0.098750, 0.023438" IsPassive="T" Tint="64, 0, 0, 255" Tracking="-0.3" Leading="20" TranslateOnce="T" Font="ImpactWhite02.asc" />
+                            </Element>
+                            <Element TextureFilename="Icon_Tower_Locked.png" Type="2" Name="Lock" ID="535" Anchor="0.000000, 0.003125" Dimension="0.108334, 0.162501" Visible="F" PixelFormat="2">
+                                <Animations>
+                                    <Animation Name="TowerDockLockJiggle3">
+                                        <Track ID="72" Type="2">
+                                            <TrackKey ID="0" Time="0" Interpolator="2" />
+                                            <TrackKey ID="1" Time="0.121875" Interpolator="3" Value="0.261799" />
+                                            <TrackKey ID="2" Time="0.24375" Interpolator="3" Value="-0.261799" />
+                                            <TrackKey ID="3" Time="0.375" Interpolator="2" />
+                                            <TrackKey ID="4" Time="0.4875" Interpolator="3" Value="0.261799" />
+                                            <TrackKey ID="5" Time="0.60625" />
+                                        </Track>
+                                        <Track ID="73" Type="9">
+                                            <TrackKey ID="0" Time="0" Value="playsound UI/Menu/Button_Locked" />
+                                        </Track>
+                                    </Animation>
+                                </Animations>
+                            </Element>
+                        </Element>
+                        <Element TextureFilename="SlotTower.png" Type="3" Name="4" ID="405" Anchor="0.159374, -0.014063" Dimension="0.101042, 0.173438" Tint="255, 255, 255, 254" RelativeScale="1.1" InactiveTint="255, 255, 255, 255">
+                            <SoundMapRoot>
+                                <SoundEvent EventTrigger="Touches Ended (UI Only)" SoundEventFullPath="UI/In_Game/Tower_Drag_Out" />
+                            </SoundMapRoot>
+                            <Element TextureFilename="Icon_Tower_Gatling.png" Type="2" Name="Icon" ID="406" Anchor="0.000000, 0.001563" Dimension="0.102778, 0.154167" IsPassive="T" PixelFormat="2" SetChildrenAlpha="T">
+                                <Animations>
+                                    <Animation Name="TowerEquip4">
+                                        <Track ID="98" Type="5">
+                                            <TrackKey ID="0" Time="0" />
+                                            <TrackKey ID="1" Time="0.290625" />
+                                            <TrackKey ID="2" Time="0.328125" Value="255" />
+                                        </Track>
+                                    </Animation>
+                                </Animations>
+                                <Element Text="$$5" TextScale="0.33" Type="1" Name="Number" ID="407" Anchor="0.000000, -0.049062" Dimension="0.098750, 0.023438" IsPassive="T" Tint="64, 0, 0, 255" Tracking="-0.3" Leading="20" TranslateOnce="T" Font="ImpactWhite02.asc" />
+                            </Element>
+                            <Element TextureFilename="Icon_Tower_Locked.png" Type="2" Name="Lock" ID="537" Anchor="0.000000, 0.003125" Dimension="0.108334, 0.162501" Visible="F" PixelFormat="2">
+                                <Animations>
+                                    <Animation Name="TowerDockLockJiggle4">
+                                        <Track ID="74" Type="2">
+                                            <TrackKey ID="0" Time="0" Interpolator="2" />
+                                            <TrackKey ID="1" Time="0.121875" Interpolator="3" Value="0.261799" />
+                                            <TrackKey ID="2" Time="0.24375" Interpolator="3" Value="-0.261799" />
+                                            <TrackKey ID="3" Time="0.375" Interpolator="2" />
+                                            <TrackKey ID="4" Time="0.4875" Interpolator="3" Value="0.261799" />
+                                            <TrackKey ID="5" Time="0.60625" />
+                                        </Track>
+                                        <Track ID="75" Type="9">
+                                            <TrackKey ID="0" Time="0" Value="playsound UI/Menu/Button_Locked" />
+                                        </Track>
+                                    </Animation>
+                                </Animations>
+                            </Element>
+                        </Element>
+                        <Element TextureFilename="SlotTower.png" Type="3" Name="5" ID="408" Anchor="0.265624, -0.014063" Dimension="0.101042, 0.173438" Tint="255, 255, 255, 254" RelativeScale="1.1" InactiveTint="255, 255, 255, 255">
+                            <SoundMapRoot>
+                                <SoundEvent EventTrigger="Touches Ended (UI Only)" SoundEventFullPath="UI/In_Game/Tower_Drag_Out" />
+                            </SoundMapRoot>
+                            <Element TextureFilename="Icon_Tower_Gatling.png" Type="2" Name="Icon" ID="409" Anchor="0.000000, 0.001563" Dimension="0.102778, 0.154167" IsPassive="T" PixelFormat="2" SetChildrenAlpha="T">
+                                <Animations>
+                                    <Animation Name="TowerEquip5">
+                                        <Track ID="98" Type="5">
+                                            <TrackKey ID="0" Time="0" />
+                                            <TrackKey ID="1" Time="0.290625" />
+                                            <TrackKey ID="2" Time="0.328125" Value="255" />
+                                        </Track>
+                                    </Animation>
+                                </Animations>
+                                <Element Text="$$5" TextScale="0.33" Type="1" Name="Number" ID="410" Anchor="-0.000013, -0.049062" Dimension="0.098750, 0.023438" IsPassive="T" Tint="64, 0, 0, 255" Tracking="-0.3" Leading="20" TranslateOnce="T" Font="ImpactWhite02.asc" />
+                            </Element>
+                            <Element TextureFilename="Icon_Tower_Locked.png" Type="2" Name="Lock" ID="536" Anchor="0.000000, 0.003125" Dimension="0.108334, 0.162501" Visible="F" PixelFormat="2">
+                                <Animations>
+                                    <Animation Name="TowerDockLockJiggle5">
+                                        <Track ID="76" Type="2">
+                                            <TrackKey ID="0" Time="0" Interpolator="2" />
+                                            <TrackKey ID="1" Time="0.121875" Interpolator="3" Value="0.261799" />
+                                            <TrackKey ID="2" Time="0.24375" Interpolator="3" Value="-0.261799" />
+                                            <TrackKey ID="3" Time="0.375" Interpolator="2" />
+                                            <TrackKey ID="4" Time="0.4875" Interpolator="3" Value="0.261799" />
+                                            <TrackKey ID="5" Time="0.60625" />
+                                        </Track>
+                                        <Track ID="77" Type="9">
+                                            <TrackKey ID="0" Time="0" Value="playsound UI/Menu/Button_Locked" />
+                                        </Track>
+                                    </Animation>
+                                </Animations>
+                            </Element>
+                        </Element>
+                    </Element>
+                    <Element Type="2" Name="TowerSlotWidth" ID="624" Dimension="0.106250, 0.100000" Visible="F" IsPassive="T" />
+                </Element>
+                <Element TextureFilename="Trans.png" Type="2" Name="TowerEquipDock" ID="641" Anchor="0.000000, -0.003125" Dimension="0.683333, 0.206771" IsPassive="T" />
+            </Element>
+        </Element>
+        <Element Type="2" Name="ItemDockRoot" ID="11" Anchor="0.500000, -0.140625" Dimension="0.941667, 0.176042" IsPassive="T" Tint="255, 255, 255, 0" Margin="5">
+            <Animations>
+                <Animation Name="CloseForm">
+                    <Track ID="57" Type="1">
+                        <TrackKey ID="0" Time="0" Value="0.500000, 0.087500" />
+                        <TrackKey ID="1" Time="0.153125" Value="0.500000, -0.123438" />
+                    </Track>
+                </Animation>
+                <Animation Name="NextButtonTrigger">
+                    <Track ID="30" Type="1">
+                        <TrackKey ID="0" Time="0.003125" Value="0.500000, -0.140625" />
+                        <TrackKey ID="1" Time="0.253125" Value="0.500000, 0.103125" />
+                        <TrackKey ID="2" Time="0.29375" Value="0.500000, 0.087500" />
+                    </Track>
+                    <Track ID="49" Type="9">
+                        <TrackKey ID="0" Time="0.153125" Value="playsound UI/Menu/Shell_Up" />
+                    </Track>
+                </Animation>
+            </Animations>
+            <Element TextureFilename="Button01Shaddow.png" Type="2" Name="StartButtonShadow" ID="24" Anchor="0.373959, -0.025000" Dimension="0.240625, 0.137500" IsPassive="T" BlendState="3" Margin="3" />
+            <Element TextureFilename="Joint01A.png" Type="2" Name="StartButtonJoint" ID="16" Anchor="0.284375, 0.006250" Dimension="0.079167, 0.117188" IsPassive="T" Margin="3" />
+            <Element TextureFilename="Joint01B.png" Type="2" Name="StartButtonDecoration" ID="17" Anchor="0.458334, 0.006250" Dimension="0.022917, 0.082813" IsPassive="T" Margin="3" />
+            <Element TextureFilename="Button01Shaddow.png" Type="2" Name="BackButtonShadow" ID="25" Anchor="-0.377084, -0.025000" Dimension="0.240625, 0.137500" IsPassive="T" MirrorMode="1" BlendState="3" Margin="7" />
+            <Element TextureFilename="Joint01A.png" Type="2" Name="BackButtonJoint" ID="18" Anchor="-0.288541, 0.006250" Dimension="0.079167, 0.117188" IsPassive="T" MirrorMode="1" Margin="7" />
+            <Element TextureFilename="Joint01B.png" Type="2" Name="BackButtonDecoration" ID="19" Anchor="-0.457292, 0.006250" Dimension="0.022917, 0.082813" IsPassive="T" MirrorMode="1" Margin="7" />
+            <Element TextureFilename="Occlusion_Square.jpg" Type="2" Name="DockShadow" ID="620" Anchor="0.000000, -0.045313" Dimension="0.789584, 0.102084" BlendState="3" />
+            <Element PressedTextureFilename="Button01_Pressed.png" HighlightedTextureFilename="Button01_Glow.png" TextureFilename="Button01.png" Type="3" Name="StartButton" ID="12" Anchor="0.404167, 0.006250" Dimension="0.176042, 0.131250" Expansion="0.000000, 0.333000" HorizontalScale="1.08876" VerticalScale="1.16667">
+                <Animations>
+                    <Animation Name="StartGameTrigger">
+                        <Track ID="5" Type="9">
+                            <TrackKey ID="0" Time="0" Value="saveprofile | removeInactiveForms | setForm Loading.form  HUD.form  preloadForms ingame  loadMap $(MapFilename)  postload startGame" />
+                        </Track>
+                    </Animation>
+                </Animations>
+                <SoundMapRoot>
+                    <SoundEvent EventTrigger="Touches Began (UI Only)" SoundEventFullPath="UI/Menu/Button_Press_Down" />
+                    <SoundEvent EventTrigger="Touches Ended (UI Only)" SoundEventFullPath="UI/Menu/Button_Press_Advance" />
+                </SoundMapRoot>
+                <Element Text="$(StartText)" TextScale="0.8" Type="1" Name="StartButtonLabel" ID="121" Dimension="0.160319, 0.059403" IsPassive="T" Tracking="-7" Leading="47" TranslateOnce="T" Font="StencilYellow10.asc" />
+            </Element>
+            <Element PressedTextureFilename="Button01_Pressed.png" HighlightedTextureFilename="Button01_Glow.png" TextureFilename="Button01.png" Type="3" Name="BackButton" ID="13" Anchor="-0.407292, 0.006250" Dimension="0.176042, 0.131250" Expansion="0.000000, 0.333000" Margin="7" HorizontalScale="1.08876" VerticalScale="1.16667">
+                <Animations>
+                    <Animation Name="BackButtonTrigger">
+                        <Track ID="4" Type="9">
+                            <TrackKey ID="0" Time="0" Value="applyuiformargs MissionPrep.form Towers" />
+                        </Track>
+                    </Animation>
+                </Animations>
+                <SoundMapRoot>
+                    <SoundEvent EventTrigger="Touches Began (UI Only)" SoundEventFullPath="UI/Menu/Button_Press_Down" />
+                    <SoundEvent EventTrigger="Touches Ended (UI Only)" SoundEventFullPath="UI/Menu/Button_Press_Back" />
+                </SoundMapRoot>
+                <Element Text="$(BackText)" TextScale="0.8" Type="1" Name="BackButtonLabel" ID="122" Dimension="0.164519, 0.057320" IsPassive="T" Tracking="-7" Leading="47" TranslateOnce="T" Font="StencilYellow10.asc" />
+            </Element>
+            <Element Type="2" Name="ItemDock" ID="74" Anchor="0.000000, 0.009375" Dimension="0.431251, 0.201041" IsPassive="T" Tint="255, 255, 255, 0">
+                <Element TextureFilename="TrayShadow.png" Type="2" Name="ItemDockShadow" ID="82" Anchor="0.000000, -0.018750" Dimension="0.518750, 0.238020" IsPassive="T" BlendState="3" />
+                <Element TextureFilename="Tray.png" Type="2" Name="SlotsRoot" ID="75" Anchor="0.000000, -0.003125" Dimension="0.518750, 0.204688" IsPassive="T">
+                    <Element TextureFilename="SlotItem.png" Type="3" Name="0" ID="107" Anchor="-0.138542, -0.006250" Dimension="0.113262, 0.160417" RelativeScale="1.05" InactiveTint="255, 255, 255, 255">
+                        <SoundMapRoot>
+                            <SoundEvent EventTrigger="Touches Ended (UI Only)" SoundEventFullPath="UI/In_Game/Item_Drag_Out" />
+                        </SoundMapRoot>
+                        <Element TextureFilename="Icon_Expendable_Fire.png" Type="2" Name="Icon" ID="108" Anchor="0.000000, 0.009375" Dimension="0.097222, 0.145833" IsPassive="T" PixelFormat="2" SetChildrenAlpha="T">
+                            <Animations>
+                                <Animation Name="ItemEquip0">
+                                    <Track ID="99" Type="5">
+                                        <TrackKey ID="0" Time="0" />
+                                        <TrackKey ID="1" Time="0.3" />
+                                        <TrackKey ID="2" Time="0.3" Value="255" />
+                                    </Track>
+                                </Animation>
+                            </Animations>
+                            <Element TextureFilename="ItemQnty.png" Type="2" Name="EquipSlots" ID="333" Anchor="0.000000, -0.056250" Dimension="0.106863, 0.056771" IsPassive="T" PixelFormat="2">
+                                <Element TextureFilename="ItemQntyFill.png" Type="2" Name="0" ID="334" Anchor="-0.038020, 0.004687" Dimension="-0.016698, -0.023958" IsPassive="T" PixelFormat="2" />
+                                <Element TextureFilename="ItemQntyFill.png" Type="2" Name="1" ID="421" Anchor="-0.018228, -0.003125" Dimension="-0.016698, -0.023958" Rotation="-3.14159" IsPassive="T" PixelFormat="2" />
+                                <Element TextureFilename="ItemQntyFill.png" Type="2" Name="2" ID="425" Anchor="-0.000520, -0.004688" Dimension="-0.016698, -0.023958" IsPassive="T" PixelFormat="2" />
+                                <Element TextureFilename="ItemQntyFill.png" Type="2" Name="3" ID="423" Anchor="0.019272, -0.003125" Dimension="-0.016698, -0.023958" Rotation="3.14159" IsPassive="T" PixelFormat="2" />
+                                <Element TextureFilename="ItemQntyFill.png" Type="2" Name="4" ID="424" Anchor="0.036980, 0.004687" Dimension="-0.016698, -0.023958" IsPassive="T" PixelFormat="2" />
+                            </Element>
+                        </Element>
+                        <Element TextureFilename="Icon_Item_Locked.png" Type="2" Name="Lock" ID="503" Anchor="0.000000, 0.004688" Dimension="0.097222, 0.145834" Visible="F" IsPassive="T" PixelFormat="2">
+                            <Animations>
+                                <Animation Name="ItemDockLockJiggle0">
+                                    <Track ID="78" Type="2">
+                                        <TrackKey ID="0" Time="0" Interpolator="2" />
+                                        <TrackKey ID="1" Time="0.121875" Interpolator="3" Value="0.261799" />
+                                        <TrackKey ID="2" Time="0.24375" Interpolator="3" Value="-0.261799" />
+                                        <TrackKey ID="3" Time="0.375" Interpolator="2" />
+                                        <TrackKey ID="4" Time="0.4875" Interpolator="3" Value="0.261799" />
+                                        <TrackKey ID="5" Time="0.60625" />
+                                    </Track>
+                                    <Track ID="79" Type="9">
+                                        <TrackKey ID="0" Time="0" Value="playsound UI/Menu/Button_Locked" />
+                                    </Track>
+                                </Animation>
+                            </Animations>
+                        </Element>
+                    </Element>
+                    <Element TextureFilename="SlotItem.png" Type="3" Name="1" ID="426" Anchor="0.001042, -0.006250" Dimension="0.113262, 0.160417" RelativeScale="1.05" InactiveTint="255, 255, 255, 255">
+                        <SoundMapRoot>
+                            <SoundEvent EventTrigger="Touches Ended (UI Only)" SoundEventFullPath="UI/In_Game/Item_Drag_Out" />
+                        </SoundMapRoot>
+                        <Element TextureFilename="Icon_Expendable_Fire.png" Type="2" Name="Icon" ID="427" Anchor="0.000000, 0.009375" Dimension="0.097222, 0.145833" IsPassive="T" PixelFormat="2" SetChildrenAlpha="T">
+                            <Animations>
+                                <Animation Name="ItemEquip1">
+                                    <Track ID="100" Type="5">
+                                        <TrackKey ID="0" Time="0" />
+                                        <TrackKey ID="1" Time="0.3" />
+                                        <TrackKey ID="2" Time="0.3" Value="255" />
+                                    </Track>
+                                </Animation>
+                            </Animations>
+                            <Element TextureFilename="ItemQnty.png" Type="2" Name="EquipSlots" ID="428" Anchor="0.000000, -0.056250" Dimension="0.106863, 0.056771" IsPassive="T" PixelFormat="2">
+                                <Element TextureFilename="ItemQntyFill.png" Type="2" Name="0" ID="429" Anchor="-0.038020, 0.004687" Dimension="-0.016698, -0.023958" IsPassive="T" PixelFormat="2" />
+                                <Element TextureFilename="ItemQntyFill.png" Type="2" Name="1" ID="430" Anchor="-0.018228, -0.003125" Dimension="-0.016698, -0.023958" Rotation="-3.14159" IsPassive="T" PixelFormat="2" />
+                                <Element TextureFilename="ItemQntyFill.png" Type="2" Name="2" ID="431" Anchor="-0.000520, -0.004688" Dimension="-0.016698, -0.023958" IsPassive="T" PixelFormat="2" />
+                                <Element TextureFilename="ItemQntyFill.png" Type="2" Name="3" ID="432" Anchor="0.019272, -0.003125" Dimension="-0.016698, -0.023958" Rotation="3.14159" IsPassive="T" PixelFormat="2" />
+                                <Element TextureFilename="ItemQntyFill.png" Type="2" Name="4" ID="433" Anchor="0.036980, 0.004687" Dimension="-0.016698, -0.023958" IsPassive="T" PixelFormat="2" />
+                            </Element>
+                        </Element>
+                        <Element TextureFilename="Icon_Item_Locked.png" Type="2" Name="Lock" ID="538" Anchor="0.000000, 0.004688" Dimension="0.097222, 0.145834" Visible="F" IsPassive="T" PixelFormat="2">
+                            <Animations>
+                                <Animation Name="ItemDockLockJiggle1">
+                                    <Track ID="80" Type="2">
+                                        <TrackKey ID="0" Time="0" Interpolator="2" />
+                                        <TrackKey ID="1" Time="0.121875" Interpolator="3" Value="0.261799" />
+                                        <TrackKey ID="2" Time="0.24375" Interpolator="3" Value="-0.261799" />
+                                        <TrackKey ID="3" Time="0.375" Interpolator="2" />
+                                        <TrackKey ID="4" Time="0.4875" Interpolator="3" Value="0.261799" />
+                                        <TrackKey ID="5" Time="0.60625" />
+                                    </Track>
+                                    <Track ID="81" Type="9">
+                                        <TrackKey ID="0" Time="0" Value="playsound UI/Menu/Button_Locked" />
+                                    </Track>
+                                </Animation>
+                            </Animations>
+                        </Element>
+                    </Element>
+                    <Element TextureFilename="SlotItem.png" Type="3" Name="2" ID="434" Anchor="0.138542, -0.006250" Dimension="0.113262, 0.160417" RelativeScale="1.05" InactiveTint="255, 255, 255, 255">
+                        <SoundMapRoot>
+                            <SoundEvent EventTrigger="Touches Ended (UI Only)" SoundEventFullPath="UI/In_Game/Item_Drag_Out" />
+                        </SoundMapRoot>
+                        <Element TextureFilename="Icon_Expendable_Fire.png" Type="2" Name="Icon" ID="435" Anchor="0.000000, 0.009375" Dimension="0.097222, 0.145833" IsPassive="T" PixelFormat="2" SetChildrenAlpha="T">
+                            <Animations>
+                                <Animation Name="ItemEquip2">
+                                    <Track ID="101" Type="5">
+                                        <TrackKey ID="0" Time="0" />
+                                        <TrackKey ID="1" Time="0.3" />
+                                        <TrackKey ID="2" Time="0.3" Value="255" />
+                                    </Track>
+                                </Animation>
+                            </Animations>
+                            <Element TextureFilename="ItemQnty.png" Type="2" Name="EquipSlots" ID="436" Anchor="0.000000, -0.056250" Dimension="0.106863, 0.056771" IsPassive="T" PixelFormat="2">
+                                <Element TextureFilename="ItemQntyFill.png" Type="2" Name="0" ID="437" Anchor="-0.038020, 0.004687" Dimension="-0.016698, -0.023958" IsPassive="T" PixelFormat="2" />
+                                <Element TextureFilename="ItemQntyFill.png" Type="2" Name="1" ID="438" Anchor="-0.018228, -0.003125" Dimension="-0.016698, -0.023958" Rotation="-3.14159" IsPassive="T" PixelFormat="2" />
+                                <Element TextureFilename="ItemQntyFill.png" Type="2" Name="2" ID="439" Anchor="-0.000520, -0.004688" Dimension="-0.016698, -0.023958" IsPassive="T" PixelFormat="2" />
+                                <Element TextureFilename="ItemQntyFill.png" Type="2" Name="3" ID="440" Anchor="0.019272, -0.003125" Dimension="-0.016698, -0.023958" Rotation="3.14159" IsPassive="T" PixelFormat="2" />
+                                <Element TextureFilename="ItemQntyFill.png" Type="2" Name="4" ID="441" Anchor="0.036980, 0.004687" Dimension="-0.016698, -0.023958" IsPassive="T" PixelFormat="2" />
+                            </Element>
+                        </Element>
+                        <Element TextureFilename="Icon_Item_Locked.png" Type="2" Name="Lock" ID="539" Anchor="0.000000, 0.004688" Dimension="0.097222, 0.145834" Visible="F" IsPassive="T" PixelFormat="2">
+                            <Animations>
+                                <Animation Name="ItemDockLockJiggle2">
+                                    <Track ID="82" Type="2">
+                                        <TrackKey ID="0" Time="0" Interpolator="2" />
+                                        <TrackKey ID="1" Time="0.121875" Interpolator="3" Value="0.261799" />
+                                        <TrackKey ID="2" Time="0.24375" Interpolator="3" Value="-0.261799" />
+                                        <TrackKey ID="3" Time="0.375" Interpolator="2" />
+                                        <TrackKey ID="4" Time="0.4875" Interpolator="3" Value="0.261799" />
+                                        <TrackKey ID="5" Time="0.60625" />
+                                    </Track>
+                                    <Track ID="83" Type="9">
+                                        <TrackKey ID="0" Time="0" Value="playsound UI/Menu/Button_Locked" />
+                                    </Track>
+                                </Animation>
+                            </Animations>
+                        </Element>
+                    </Element>
+                </Element>
+                <Element Type="2" Name="Bolts" ID="443" Dimension="0.429168, 0.201042" IsPassive="T" Tint="255, 255, 255, 0">
+                    <Element TextureFilename="Bolt01.png" Type="2" Name="TopLeft" ID="444" Anchor="-0.229167, 0.062499" Dimension="0.018750, 0.028125" IsPassive="T" Margin="8" PixelFormat="2" />
+                    <Element TextureFilename="Bolt01.png" Type="2" Name="BottomLeft" ID="445" Anchor="-0.230208, -0.082814" Dimension="0.018750, 0.028125" IsPassive="T" Margin="7" PixelFormat="2" />
+                    <Element TextureFilename="Bolt01.png" Type="2" Name="TopRight" ID="446" Anchor="0.230208, 0.064062" Dimension="0.018750, 0.028125" IsPassive="T" Margin="2" PixelFormat="2" />
+                    <Element TextureFilename="Bolt01.png" Type="2" Name="BottomRight" ID="447" Anchor="0.231249, -0.082814" Dimension="0.018750, 0.028125" IsPassive="T" Margin="3" PixelFormat="2" />
+                </Element>
+                <Element Type="2" Name="ItemSlotWidth" ID="622" Dimension="0.135417, 0.100000" Visible="F" IsPassive="T" />
+                <Element TextureFilename="Trans.png" Type="2" Name="ItemEquipDock" ID="642" Dimension="0.518750, 0.204688" IsPassive="T" />
+            </Element>
+        </Element>
+        <Element TextureFilename="Icon_Tower_Gatling.png" Type="2" Name="BundleDummy" ID="412" Anchor="0.141667, 0.759375" Dimension="0.080556, 0.120833" IsPassive="T" Tint="255, 255, 255, 0" PixelFormat="2" SetChildrenAlpha="T">
+            <Animations>
+                <Animation Name="BundleDummyFadeIn">
+                    <Track ID="106" Type="5">
+                        <TrackKey ID="0" Time="0" />
+                        <TrackKey ID="1" Time="0.15" Value="255" />
+                    </Track>
+                    <Track ID="109" Type="11">
+                        <TrackKey ID="0" Time="0" Value="1" />
+                        <TrackKey ID="1" Time="0.15" Value="1.5" />
+                    </Track>
+                </Animation>
+                <Animation Name="BundleDummyFadeOut">
+                    <Track ID="107" Type="5">
+                        <TrackKey ID="0" Time="0" Value="255" />
+                        <TrackKey ID="1" Time="0.15" />
+                    </Track>
+                    <Track ID="110" Type="11">
+                        <TrackKey ID="0" Time="0" Value="1.5" />
+                        <TrackKey ID="1" Time="0.15" Value="1" />
+                    </Track>
+                </Animation>
+                <Animation Name="BundleFlyIn">
+                    <Track ID="10" Type="1">
+                        <TrackKey ID="0" Time="0" Value="0.141667, 0.759375" />
+                        <TrackKey ID="1" Time="0.3" Value="0.209375, 0.082813" />
+                    </Track>
+                    <Track ID="11" Type="11">
+                        <TrackKey ID="0" Time="0" Value="0.95" />
+                        <TrackKey ID="1" Time="0.23125" Value="1.65" />
+                        <TrackKey ID="2" Time="0.3" Value="1.35" />
+                    </Track>
+                    <Track ID="12" Type="5">
+                        <TrackKey ID="0" Time="0" />
+                        <TrackKey ID="1" Time="0.1" Value="255" />
+                        <TrackKey ID="2" Time="0.278125" Value="255" />
+                        <TrackKey ID="3" Time="0.321875" />
+                    </Track>
+                </Animation>
+            </Animations>
+            <Element Text="$5" TextScale="0.27" Type="1" Name="Number" ID="413" Anchor="-0.001041, -0.043750" Dimension="0.098750, 0.028153" IsPassive="T" Tint="64, 0, 0, 0" Tracking="-6" Leading="20" TranslateOnce="T" Font="ImpactWhite02.asc" />
+        </Element>
+        <Element TextureFilename="Icon_Expendable_Fire.png" Type="2" Name="PackDummy" ID="414" Anchor="0.187500, 0.707812" Dimension="0.133333, 0.200000" IsPassive="T" Tint="255, 255, 255, 0" RelativeScale="0.8" PixelFormat="2" SetChildrenAlpha="T">
+            <Animations>
+                <Animation Name="PackDummyFadeOut">
+                    <Track ID="113" Type="5">
+                        <TrackKey ID="0" Time="0" Value="255" />
+                        <TrackKey ID="1" Time="0.15" />
+                    </Track>
+                    <Track ID="114" Type="11">
+                        <TrackKey ID="0" Time="0" Value="0.9" />
+                        <TrackKey ID="1" Time="0.15" Value="0.8" />
+                    </Track>
+                </Animation>
+                <Animation Name="PackDummyFadeIn">
+                    <Track ID="111" Type="5">
+                        <TrackKey ID="0" Time="0" />
+                        <TrackKey ID="1" Time="0.15" Value="255" />
+                    </Track>
+                    <Track ID="112" Type="11">
+                        <TrackKey ID="0" Time="0" Value="0.8" />
+                        <TrackKey ID="1" Time="0.15" Value="0.9" />
+                    </Track>
+                </Animation>
+                <Animation Name="PackFlyIn">
+                    <Track ID="16" Type="5">
+                        <TrackKey ID="0" Time="0" />
+                        <TrackKey ID="1" Time="0.1" Value="255" />
+                        <TrackKey ID="2" Time="0.284375" Value="255" />
+                        <TrackKey ID="3" Time="0.321875" />
+                    </Track>
+                    <Track ID="17" Type="11">
+                        <TrackKey ID="0" Time="0" Value="0.55" />
+                        <TrackKey ID="1" Time="0.215625" Value="1" />
+                        <TrackKey ID="2" Time="0.303125" Value="0.8" />
+                    </Track>
+                    <Track ID="18" Type="1">
+                        <TrackKey ID="0" Time="0" Value="0.143750, 0.756250" />
+                        <TrackKey ID="1" Time="0.3" Value="0.367709, 0.095313" />
+                    </Track>
+                </Animation>
+            </Animations>
+            <Element Text="John wuz here." Type="1" Name="Number" ID="415" Dimension="0.140417, 0.028153" IsPassive="T" Tint="255, 255, 255, 0" MaximumAlpha="0" Tracking="0" Leading="0" TranslateOnce="T" />
+        </Element>
+        <Element TextureFilename="Trans.png" Type="2" Name="BundlePopAwayRoot" ID="594" Anchor="0.510417, 0.078125" Dimension="0.112500, 0.168750" IsPassive="T">
+            <Element TextureFilename="Icon_Tower_Gatling.png" Type="2" Name="AnimationDummy" ID="595" Anchor="0.104167, -0.207893" Dimension="0.108333, 0.162499" Rotation="-0.754713" IsPassive="T" Tint="255, 255, 255, 0" PixelFormat="2" SetChildrenAlpha="T">
+                <Animations>
+                    <Animation Name="BundlePopAway">
+                        <Track ID="39" Type="1">
+                            <TrackKey ID="0" Time="0" Value="0.000000, -0.000000" />
+                            <TrackKey ID="1" Time="0.065625" Value="0.010417, 0.109294" />
+                            <TrackKey ID="2" Time="0.121875" Value="0.031250, 0.124919" />
+                            <TrackKey ID="3" Time="0.178125" Value="0.062500, 0.109294" />
+                            <TrackKey ID="4" Time="0.284375" Value="0.104167, -0.207893" />
+                        </Track>
+                        <Track ID="40" Type="5">
+                            <TrackKey ID="0" Time="0" Value="255" />
+                            <TrackKey ID="1" Time="0.125" Value="255" />
+                            <TrackKey ID="2" Time="0.321875" />
+                        </Track>
+                        <Track ID="44" Type="2">
+                            <TrackKey ID="0" Time="0" />
+                            <TrackKey ID="1" Time="0.30625" Value="-0.754713" />
+                        </Track>
+                        <Track ID="53" Type="11">
+                            <TrackKey ID="0" Time="0" Value="1" />
+                            <TrackKey ID="1" Time="0.11875" Value="1.2" />
+                            <TrackKey ID="2" Time="0.309375" Value="1" />
+                        </Track>
+                    </Animation>
+                </Animations>
+                <Element Text="$ 5" TextScale="0.33" Type="1" Name="Number" ID="596" Anchor="-0.001041, -0.054687" Dimension="0.098750, 0.028153" IsPassive="T" Tint="64, 0, 0, 0" Tracking="-6" Leading="20" TranslateOnce="T" Font="ImpactWhite02.asc" />
+            </Element>
+        </Element>
+        <Element TextureFilename="Trans.png" Type="2" Name="PackPopAwayRoot" ID="597" Anchor="0.367708, 0.093750" Dimension="0.140278, 0.210417" IsPassive="T">
+            <Element TextureFilename="Icon_Expendable_Fire.png" Type="2" Name="AnimationDummy" ID="598" Anchor="0.091667, -0.212500" Dimension="0.102778, 0.154168" Rotation="-0.8493" IsPassive="T" Tint="255, 255, 255, 0" RelativeScale="0.55" PixelFormat="2" SetChildrenAlpha="T">
+                <Animations>
+                    <Animation Name="PackPopAway">
+                        <Track ID="37" Type="1">
+                            <TrackKey ID="0" Time="0" />
+                            <TrackKey ID="1" Time="0.06875" Value="0.004167, 0.128125" />
+                            <TrackKey ID="2" Time="0.140625" Value="0.025000, 0.159375" />
+                            <TrackKey ID="3" Time="0.3625" Value="0.091667, -0.212500" />
+                        </Track>
+                        <Track ID="41" Type="5">
+                            <TrackKey ID="0" Time="0" Value="255" />
+                            <TrackKey ID="1" Time="0.215625" Value="255" />
+                            <TrackKey ID="2" Time="0.3625" />
+                        </Track>
+                        <Track ID="43" Type="2">
+                            <TrackKey ID="0" Time="0" />
+                            <TrackKey ID="1" Time="0.359375" Value="-0.8493" />
+                        </Track>
+                        <Track ID="51" Type="11">
+                            <TrackKey ID="0" Time="0" Value="1" />
+                            <TrackKey ID="1" Time="0.14375" Value="1.25" />
+                            <TrackKey ID="2" Time="0.359375" Value="0.55" />
+                        </Track>
+                    </Animation>
+                </Animations>
+                <Element TextureFilename="ItemQnty.png" Type="2" Name="AmmoSlots" ID="609" Anchor="0.000000, -0.059375" Dimension="0.106863, 0.056771" IsPassive="T" Tint="255, 255, 255, 0" RelativeScale="1.05" PixelFormat="2" SetChildrenAlpha="T">
+                    <Element TextureFilename="ItemQntyFill.png" Type="2" Name="0" ID="610" Anchor="-0.038020, 0.004687" Dimension="-0.016698, -0.023958" IsPassive="T" Tint="255, 255, 255, 0" PixelFormat="2" />
+                    <Element TextureFilename="ItemQntyFill.png" Type="2" Name="1" ID="611" Anchor="-0.018228, -0.003125" Dimension="-0.016698, -0.023958" Rotation="-3.14159" IsPassive="T" Tint="255, 255, 255, 0" PixelFormat="2" />
+                    <Element TextureFilename="ItemQntyFill.png" Type="2" Name="2" ID="612" Anchor="-0.000520, -0.004688" Dimension="-0.016698, -0.023958" IsPassive="T" Tint="255, 255, 255, 0" PixelFormat="2" />
+                    <Element TextureFilename="ItemQntyFill.png" Type="2" Name="3" ID="613" Anchor="0.019272, -0.003125" Dimension="-0.016698, -0.023958" Rotation="3.14159" IsPassive="T" Tint="255, 255, 255, 0" PixelFormat="2" />
+                    <Element TextureFilename="ItemQntyFill.png" Type="2" Name="4" ID="614" Anchor="0.036980, 0.004687" Dimension="-0.016698, -0.023958" IsPassive="T" Tint="255, 255, 255, 0" PixelFormat="2" />
+                </Element>
+            </Element>
+        </Element>
+        <Element TextureFilename="Trans.png" Type="2" Name="Glows" ID="617" Anchor="0.500000, 0.500000" Dimension="1.000000, 1.000000" IsPassive="T" Tint="255, 255, 255, 0" ResizeBias="0">
+            <Animations>
+                <Animation Name="OpenForm">
+                    <Track ID="92" Type="9">
+                        <TrackKey ID="0" Time="0" Value="playuianimation IdleGlows" />
+                    </Track>
+                </Animation>
+                <Animation Name="IdleGlows">
+                    <Track ID="91" Type="9">
+                        <TrackKey ID="0" Time="5.9" Value="playuianimation IdleGlows" />
+                    </Track>
+                </Animation>
+            </Animations>
+            <Element TextureFilename="Glow_Orange.JPG" Type="2" Name="OrangeGlow" ID="618" Anchor="0.844792, -0.878125" Dimension="0.654167, 0.560938" IsPassive="T" Tint="255, 255, 255, 0" BlendState="5" ResizeBias="0" Margin="4">
+                <Animations>
+                    <Animation Name="CloseForm">
+                        <Track ID="95" Type="1">
+                            <TrackKey ID="0" Time="0" Value="0.173958, -0.223438" />
+                            <TrackKey ID="1" Time="0.275" Value="0.844792, -0.878125" />
+                        </Track>
+                    </Animation>
+                    <Animation Name="IdleGlows">
+                        <Track ID="88" Type="1">
+                            <TrackKey ID="0" Time="0" Value="0.173958, -0.223438" />
+                        </Track>
+                        <Track ID="89" Type="5">
+                            <TrackKey ID="0" Time="0" />
+                            <TrackKey ID="1" Time="3" Value="255" />
+                            <TrackKey ID="2" Time="6" />
+                        </Track>
+                    </Animation>
+                </Animations>
+            </Element>
+            <Element TextureFilename="Glow_Blue.JPG" Type="2" Name="BlueGlow" ID="619" Anchor="-0.806250, 1.071875" Dimension="0.958333, 1.046875" IsPassive="T" Tint="255, 255, 255, 0" BlendState="5" ResizeBias="0" Margin="8">
+                <Animations>
+                    <Animation Name="CloseForm">
+                        <Track ID="94" Type="1">
+                            <TrackKey ID="0" Time="0" Value="-0.019792, -0.018750" />
+                            <TrackKey ID="1" Time="0.25" Value="-0.806250, 1.071875" />
+                        </Track>
+                    </Animation>
+                    <Animation Name="IdleGlows">
+                        <Track ID="90" Type="5">
+                            <TrackKey ID="0" Time="0" />
+                            <TrackKey ID="1" Time="3" Value="255" />
+                            <TrackKey ID="2" Time="6" />
+                        </Track>
+                        <Track ID="96" Type="1">
+                            <TrackKey ID="0" Time="0" Value="-0.019792, -0.018750" />
+                        </Track>
+                    </Animation>
+                </Animations>
+            </Element>
+        </Element>
+    </FormRoot>
+    <AnimationTriggers>
+        <AnimationTrigger Event="Touch Clicked (UI Only)" Data="287" Animation="CloseFormTrigger" />
+        <AnimationTrigger Event="Touch Clicked (UI Only)" Data="198" Animation="NextButtonTrigger" />
+        <AnimationTrigger Event="Touch Clicked (UI Only)" Data="13" Animation="BackButtonTrigger" />
+        <AnimationTrigger Event="Touch Clicked (UI Only)" Data="469" Animation="PurchaseSubabucksTrigger" />
+        <AnimationTrigger Event="Touch Clicked (UI Only)" Data="529" Animation="StarInfoTrigger" />
+        <AnimationTrigger Event="Form Opened (UI Only)" Data="1073741824" Animation="OpenForm" />
+        <AnimationTrigger Event="Touch Clicked (UI Only)" Data="638" Animation="BackTowerTrigger" />
+        <AnimationTrigger Event="Touch Clicked (UI Only)" Data="497" Animation="TowerDockLockJiggle0" />
+        <AnimationTrigger Event="Touch Clicked (UI Only)" Data="533" Animation="TowerDockLockJiggle1" />
+        <AnimationTrigger Event="Touch Clicked (UI Only)" Data="534" Animation="TowerDockLockJiggle2" />
+        <AnimationTrigger Event="Touch Clicked (UI Only)" Data="535" Animation="TowerDockLockJiggle3" />
+        <AnimationTrigger Event="Touch Clicked (UI Only)" Data="537" Animation="TowerDockLockJiggle4" />
+        <AnimationTrigger Event="Touch Clicked (UI Only)" Data="536" Animation="TowerDockLockJiggle5" />
+    </AnimationTriggers>
+</Form>

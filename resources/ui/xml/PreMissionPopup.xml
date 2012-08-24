@@ -1,0 +1,62 @@
+<!--Copyright 2012 Subatomic Studios, LLC. All rights reserved.-->
+<Form Name="" BasePlatform="2" Version="74" FormType="2">
+    <FormRoot Name="Element">
+        <Element TextureFilename="BGBlack.jpg" Type="2" Name="Background" ID="1" Anchor="0.500000, 0.500000" Dimension="1.000000, 1.000000" Tint="255, 255, 255, 173" ResizeBias="2">
+            <Animations>
+                <Animation Name="OnOpen">
+                    <Track ID="3" Type="5">
+                        <TrackKey ID="0" Time="0" Value="173" />
+                    </Track>
+                    <Track ID="6" Type="9">
+                        <TrackKey ID="0" Time="0" Value="setelementpassive Background off" />
+                    </Track>
+                </Animation>
+                <Animation Name="LeaveForm">
+                    <Track ID="1" Type="5">
+                        <TrackKey ID="0" Time="0" Value="173" />
+                        <TrackKey ID="1" Time="0.09375" />
+                    </Track>
+                    <Track ID="5" Type="9">
+                        <TrackKey ID="0" Time="0" Value="setelementpassive Background on" />
+                    </Track>
+                </Animation>
+            </Animations>
+            <Element PanelSkin="UnitNoteBox.asc" Type="10" Name="WindowPanel" ID="2" Dimension="0.669619, 0.464583" IsPassive="T" PixelFormat="2" SetChildrenAlpha="T">
+                <Animations>
+                    <Animation Name="OnOpen">
+                        <Track ID="0" Type="9">
+                            <TrackKey ID="0" Time="0" Value="gametouches off | pause on | pausetime on" />
+                        </Track>
+                        <Track ID="4" Type="5">
+                            <TrackKey ID="0" Time="0" Value="255" />
+                        </Track>
+                    </Animation>
+                    <Animation Name="LeaveForm">
+                        <Track ID="0" Type="9">
+                            <TrackKey ID="0" Time="0.221875" Value="playsound UI/In_Game/Tower_Drag_Cancel | gametouches on | popform | pause off | pausetime off" />
+                        </Track>
+                        <Track ID="2" Type="5">
+                            <TrackKey ID="0" Time="0.10625" Value="255" />
+                            <TrackKey ID="1" Time="0.190625" />
+                        </Track>
+                    </Animation>
+                </Animations>
+                <Element Text="$(MapName)" TextScale="0.8" Type="1" Name="LevelName" ID="4" Anchor="-0.044792, 0.164063" Dimension="0.536458, 0.063570" IsPassive="T" Alignment="0" Tracking="-6" Leading="47" Font="StencilYellow10.asc" />
+                <Element Text="$(MapGoalText)" TextScale="0.7" Type="1" Name="DescriptionText" ID="3" Anchor="0.000000, 0.076565" Dimension="0.625000, 0.117737" IsPassive="T" Tint="207, 225, 239, 255" Alignment="0" Tracking="-7" Leading="38" Font="ArialWhite05.asc" />
+                <Element Text="$(SelectedMapMode)" TextScale="0.8" Type="1" Name="MissionType" ID="5" Anchor="0.011458, -0.040624" Dimension="0.536458, 0.057320" IsPassive="T" Alignment="0" Tracking="-7" Leading="47" Font="StencilYellow10.asc" />
+                <Element Text="$(SelectedMapModeDescription)" TextScale="0.7" Type="1" Name="MissionGoalText" ID="6" Anchor="0.000000, -0.135937" Dimension="0.625000, 0.132320" IsPassive="T" Tint="207, 225, 239, 255" Alignment="0" Tracking="-7" Leading="38" Font="ArialWhite05.asc" />
+                <Element Text="$(TapToContinue)" TextScale="0.7" Type="1" Name="TapToContinue" ID="7" Anchor="0.059374, -0.189062" Dimension="0.517500, 0.028153" IsPassive="T" Tint="207, 225, 239, 255" Alignment="2" Tracking="-7" Leading="38" Font="ArialWhite05.asc" TextEffect="AlphaPulse" />
+                <Element TextureFilename="$(MissionModeIcon)" Type="2" Name="ModeIcon" ID="9" Anchor="-0.283333, -0.034375" Dimension="0.061111, 0.091667" IsPassive="T" PixelFormat="2">
+                    <Element TextureFilename="$(MissionModeAttachmentIcon)" Type="2" Name="MissionModeAttachment" ID="10" Dimension="0.065278, 0.097917" Rotation="-0.829862" IsPassive="T" />
+                </Element>
+            </Element>
+        </Element>
+    </FormRoot>
+    <AnimationTriggers>
+        <AnimationTrigger Event="Form Activated (UI Only)" Data="1073741824" Animation="OnOpen" />
+        <AnimationTrigger Event="Touches Ended (UI Only)" Data="1" Animation="LeaveForm" />
+    </AnimationTriggers>
+    <ResettableAnimations>
+        <ResetAnimation Name="LeaveForm" />
+    </ResettableAnimations>
+</Form>

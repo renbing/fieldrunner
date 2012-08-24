@@ -1,0 +1,11 @@
+<Doll>
+    <Sprites defaultAnimationSetName="level1" defaultAnimationName="run" dithered="T">
+        <Sprite filename="Tower_Nuke.asc" attachToTag="" sortToParentDepth="F">
+            <Particles>
+                <ParticleSystem type="1" filename="Tower_Transition_Upgrade.fx" attachToTag="anchor" actorEvent="5" actorEventParameter="" animation="" animationSet="" animationFrameIndex="-1" renderQueueOffset="1" removeOnSetChange="F" />
+                <ParticleSystem type="1" filename="Tower_Transition_Placed.fx" attachToTag="anchor" actorEvent="3" actorEventParameter="" animation="" animationSet="" animationFrameIndex="-1" renderQueueOffset="0" removeOnSetChange="F" />
+            </Particles>
+        </Sprite>
+    </Sprites>
+    <Sounds />
+</Doll>

@@ -1,0 +1,14 @@
+<config>
+	<!--
+	levelup升级信息
+	 	value对应等级
+	 	needgold升到当前级需要金币
+	 	background背景变化
+	-->
+	<drop centerx="130" centery="80" />
+	<levelup value="1" needgold="0" background="tavernBuilding1" />
+	<levelup value="2" needgold="200" background="tavernBuilding2" />
+	<levelup value="3" needgold="400" background="tavernBuilding3" />
+	<levelup value="4" needgold="800" background="tavernBuilding4" />
+	<levelup value="5" needgold="1600" background="tavernBuilding4" />
+</config>

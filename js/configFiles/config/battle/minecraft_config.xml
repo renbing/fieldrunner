@@ -1,0 +1,296 @@
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<minecraft>
+	<!--
+    minlevel value对应最小进入金矿等级
+    
+    收益系数
+	level对应等级
+    Fixedgold五分钟对应的固定收益
+	value对应的额外金币总收益值
+    
+    occupiedtime成功占领后增益系数
+    minute成功占领时间
+    value对应的增益系数比例
+	
+	map地图
+	  id金矿地图的编号
+	  beglevel可适用的等级开始
+	  endlevel可适用的等级结束
+	  name金矿地图的名称
+	  
+	 mine矿点
+	 	x,y矿点的位置，从0,0开始
+	 	level矿点的等级
+	 	income 矿的单位收益
+	 	candrive 是否可以驱赶
+        canpillage 是否可以掠夺
+	 	rate掠夺惩罚的比率(100)
+        fine金矿惩罚金上限比例 
+    
+     playerlimit房间玩家限制人数
+        beginlevel可以进入最小玩家等级
+        endlevel可进入最大玩家等级
+        maxnumber房间对应容纳最大人数
+        mapid对应challenge_config.xml中map.id
+        challengeid对应challenge_config.xml中challenge.id,由mapid指定地图
+
+	-->
+	<minlevel value="10"/>
+	<rate level="1" Fixedgold="1" value="1"/>
+	<rate level="2" Fixedgold="1" value="1"/>
+	<rate level="3" Fixedgold="1" value="1"/>
+	<rate level="4" Fixedgold="1" value="1"/>
+	<rate level="5" Fixedgold="1" value="1"/>
+	<rate level="6" Fixedgold="1" value="1"/>
+	<rate level="7" Fixedgold="1" value="1"/>
+	<rate level="8" Fixedgold="1" value="1"/>
+	<rate level="9" Fixedgold="1" value="1"/>
+	<rate level="10" Fixedgold="211" value="10130"/>
+	<rate level="11" Fixedgold="214" value="10270"/>
+	<rate level="12" Fixedgold="217" value="10400"/>
+	<rate level="13" Fixedgold="220" value="10540"/>
+	<rate level="14" Fixedgold="223" value="10680"/>
+	<rate level="15" Fixedgold="225" value="10820"/>
+	<rate level="16" Fixedgold="229" value="10970"/>
+	<rate level="17" Fixedgold="231" value="11110"/>
+	<rate level="18" Fixedgold="235" value="11260"/>
+	<rate level="19" Fixedgold="238" value="11410"/>
+	<rate level="20" Fixedgold="241" value="11560"/>
+	<rate level="21" Fixedgold="244" value="11720"/>
+	<rate level="22" Fixedgold="247" value="11870"/>
+	<rate level="23" Fixedgold="251" value="12030"/>
+	<rate level="24" Fixedgold="254" value="12190"/>
+	<rate level="25" Fixedgold="257" value="12350"/>
+	<rate level="26" Fixedgold="261" value="12520"/>
+	<rate level="27" Fixedgold="264" value="12680"/>
+	<rate level="28" Fixedgold="268" value="12850"/>
+	<rate level="29" Fixedgold="271" value="13020"/>
+	<rate level="30" Fixedgold="275" value="13190"/>
+	<rate level="31" Fixedgold="279" value="13370"/>
+	<rate level="32" Fixedgold="282" value="13550"/>
+	<rate level="33" Fixedgold="286" value="13730"/>
+	<rate level="34" Fixedgold="290" value="13910"/>
+	<rate level="35" Fixedgold="294" value="14090"/>
+	<rate level="36" Fixedgold="298" value="14280"/>
+	<rate level="37" Fixedgold="301" value="14470"/>
+	<rate level="38" Fixedgold="305" value="14660"/>
+	<rate level="39" Fixedgold="310" value="14860"/>
+	<rate level="40" Fixedgold="314" value="15060"/>
+	<rate level="41" Fixedgold="318" value="15260"/>
+	<rate level="42" Fixedgold="322" value="15460"/>
+	<rate level="43" Fixedgold="326" value="15660"/>
+	<rate level="44" Fixedgold="331" value="15870"/>
+	<rate level="45" Fixedgold="335" value="16080"/>
+	<rate level="46" Fixedgold="340" value="16300"/>
+	<rate level="47" Fixedgold="344" value="16510"/>
+	<rate level="48" Fixedgold="349" value="16730"/>
+	<rate level="49" Fixedgold="353" value="16960"/>
+	<rate level="50" Fixedgold="358" value="17180"/>
+	<rate level="51" Fixedgold="363" value="17410"/>
+	<rate level="52" Fixedgold="368" value="17640"/>
+	<rate level="53" Fixedgold="372" value="17870"/>
+	<rate level="54" Fixedgold="377" value="18110"/>
+	<rate level="55" Fixedgold="382" value="18350"/>
+	<rate level="56" Fixedgold="388" value="18600"/>
+	<rate level="57" Fixedgold="393" value="18840"/>
+	<rate level="58" Fixedgold="398" value="19090"/>
+	<rate level="59" Fixedgold="403" value="19350"/>
+	<rate level="60" Fixedgold="409" value="19610"/>
+	<rate level="61" Fixedgold="414" value="19870"/>
+	<rate level="62" Fixedgold="419" value="20130"/>
+	<rate level="63" Fixedgold="425" value="20400"/>
+	<rate level="64" Fixedgold="431" value="20670"/>
+	<rate level="65" Fixedgold="436" value="20940"/>
+	<rate level="66" Fixedgold="442" value="21220"/>
+	<rate level="67" Fixedgold="448" value="21500"/>
+	<rate level="68" Fixedgold="454" value="21790"/>
+	<rate level="69" Fixedgold="460" value="22080"/>
+	<rate level="70" Fixedgold="466" value="22370"/>
+	<rate level="71" Fixedgold="472" value="22670"/>
+	<rate level="72" Fixedgold="479" value="22970"/>
+	<rate level="73" Fixedgold="485" value="23280"/>
+	<rate level="74" Fixedgold="491" value="23580"/>
+	<rate level="75" Fixedgold="498" value="23900"/>
+	<rate level="76" Fixedgold="505" value="24220"/>
+	<rate level="77" Fixedgold="511" value="24540"/>
+	<rate level="78" Fixedgold="518" value="24860"/>
+	<rate level="79" Fixedgold="525" value="25190"/>
+	<rate level="80" Fixedgold="532" value="25530"/>
+	<rate level="81" Fixedgold="539" value="25870"/>
+	<rate level="82" Fixedgold="546" value="26210"/>
+	<rate level="83" Fixedgold="553" value="26560"/>
+	<rate level="84" Fixedgold="561" value="26910"/>
+	<rate level="85" Fixedgold="568" value="27270"/>
+	<rate level="86" Fixedgold="576" value="27630"/>
+	<rate level="87" Fixedgold="583" value="28000"/>
+	<rate level="88" Fixedgold="591" value="28370"/>
+	<rate level="89" Fixedgold="599" value="28750"/>
+	<rate level="90" Fixedgold="607" value="29130"/>
+	<rate level="91" Fixedgold="615" value="29520"/>
+	<rate level="92" Fixedgold="623" value="29910"/>
+	<rate level="93" Fixedgold="631" value="30310"/>
+	<rate level="94" Fixedgold="640" value="30710"/>
+	<rate level="95" Fixedgold="648" value="31120"/>
+	<rate level="96" Fixedgold="657" value="31530"/>
+	<rate level="97" Fixedgold="666" value="31950"/>
+	<rate level="98" Fixedgold="674" value="32370"/>
+	<rate level="99" Fixedgold="684" value="32810"/>
+	<rate level="100" Fixedgold="693" value="33240"/>
+	<occupiedtime minute="60" value="10"/>
+	<occupiedtime minute="120" value="20"/>
+	<occupiedtime minute="180" value="30"/>
+	<occupiedtime minute="240" value="40"/>
+	<minelevel value="1" name="枯竭的金矿" income="80" fine="0"/>
+	<minelevel value="2" name="贫瘠的金矿" income="100" fine="40"/>
+	<minelevel value="3" name="普通的金矿" income="150" fine="60"/>
+	<minelevel value="4" name="充足的金矿" income="200" fine="80"/>
+	<minelevel value="5" name="富饶的金矿" income="250" fine="100"/>
+	<mineproperty maxlevel="5"/>
+	<map id="1" beglevel="10" endlevel="100" name="金矿摸拟战" width="7" height="7">
+		<mine x="0" y="0" level="1" rate="0" candrive="1" canpillage="0"/>
+		<mine x="1" y="0" level="1" rate="0" candrive="1" canpillage="0"/>
+		<mine x="2" y="0" level="1" rate="0" candrive="1" canpillage="0"/>
+		<mine x="3" y="0" level="2" rate="20" candrive="0" canpillage="1"/>
+		<mine x="4" y="0" level="1" rate="0" candrive="1" canpillage="0"/>
+		<mine x="5" y="0" level="1" rate="0" candrive="1" canpillage="0"/>
+		<mine x="6" y="0" level="1" rate="0" candrive="1" canpillage="0"/>
+		<mine x="0" y="1" level="1" rate="0" candrive="1" canpillage="0"/>
+		<mine x="1" y="1" level="1" rate="0" candrive="1" canpillage="0"/>
+		<mine x="2" y="1" level="2" rate="20" candrive="0" canpillage="1"/>
+		<mine x="3" y="1" level="3" rate="30" candrive="0" canpillage="1"/>
+		<mine x="4" y="1" level="2" rate="20" candrive="0" canpillage="1"/>
+		<mine x="5" y="1" level="1" rate="0" candrive="1" canpillage="0"/>
+		<mine x="6" y="1" level="1" rate="0" candrive="1" canpillage="0"/>
+		<mine x="0" y="2" level="1" rate="0" candrive="1" canpillage="0"/>
+		<mine x="1" y="2" level="2" rate="20" candrive="0" canpillage="1"/>
+		<mine x="2" y="2" level="3" rate="30" candrive="0" canpillage="1"/>
+		<mine x="3" y="2" level="4" rate="40" candrive="0" canpillage="1"/>
+		<mine x="4" y="2" level="3" rate="30" candrive="0" canpillage="1"/>
+		<mine x="5" y="2" level="2" rate="20" candrive="0" canpillage="1"/>
+		<mine x="6" y="2" level="1" rate="0" candrive="1" canpillage="0"/>
+		<mine x="0" y="3" level="3" rate="30" candrive="0" canpillage="1"/>
+		<mine x="1" y="3" level="4" rate="40" candrive="0" canpillage="1"/>
+		<mine x="2" y="3" level="5" rate="50" candrive="0" canpillage="1"/>
+		<mine x="3" y="3" level="5" rate="50" candrive="0" canpillage="1"/>
+		<mine x="4" y="3" level="5" rate="50" candrive="0" canpillage="1"/>
+		<mine x="5" y="3" level="4" rate="40" candrive="0" canpillage="1"/>
+		<mine x="6" y="3" level="3" rate="30" candrive="0" canpillage="1"/>
+		<mine x="0" y="4" level="1" rate="0" candrive="1" canpillage="0"/>
+		<mine x="1" y="4" level="2" rate="20" candrive="0" canpillage="1"/>
+		<mine x="2" y="4" level="3" rate="30" candrive="0" canpillage="1"/>
+		<mine x="3" y="4" level="4" rate="40" candrive="0" canpillage="1"/>
+		<mine x="4" y="4" level="3" rate="30" candrive="0" canpillage="1"/>
+		<mine x="5" y="4" level="2" rate="20" candrive="0" canpillage="1"/>
+		<mine x="6" y="4" level="1" rate="0" candrive="1" canpillage="0"/>
+		<mine x="0" y="5" level="1" rate="0" candrive="1" canpillage="0"/>
+		<mine x="1" y="5" level="1" rate="0" candrive="1" canpillage="0"/>
+		<mine x="2" y="5" level="2" rate="20" candrive="0" canpillage="1"/>
+		<mine x="3" y="5" level="3" rate="30" candrive="0" canpillage="1"/>
+		<mine x="4" y="5" level="2" rate="20" candrive="0" canpillage="1"/>
+		<mine x="5" y="5" level="1" rate="0" candrive="1" canpillage="0"/>
+		<mine x="6" y="5" level="1" rate="0" candrive="1" canpillage="0"/>
+		<mine x="0" y="6" level="1" rate="0" candrive="1" canpillage="0"/>
+		<mine x="1" y="6" level="1" rate="0" candrive="1" canpillage="0"/>
+		<mine x="2" y="6" level="1" rate="0" candrive="1" canpillage="0"/>
+		<mine x="3" y="6" level="2" rate="20" candrive="0" canpillage="1"/>
+		<mine x="4" y="6" level="1" rate="0" candrive="1" canpillage="0"/>
+		<mine x="5" y="6" level="1" rate="0" candrive="1" canpillage="0"/>
+		<mine x="6" y="6" level="1" rate="0" candrive="1" canpillage="0"/>
+	</map>
+	<playerlimit beginlevel="10" endlevel="10" maxnumber="180" mapid="1" challengeid="7"/>
+	<playerlimit beginlevel="11" endlevel="11" maxnumber="180" mapid="1" challengeid="8"/>
+	<playerlimit beginlevel="12" endlevel="12" maxnumber="180" mapid="1" challengeid="9"/>
+	<playerlimit beginlevel="13" endlevel="13" maxnumber="280" mapid="1" challengeid="9"/>
+	<playerlimit beginlevel="14" endlevel="14" maxnumber="280" mapid="1" challengeid="11"/>
+	<playerlimit beginlevel="15" endlevel="15" maxnumber="280" mapid="1" challengeid="11"/>
+	<playerlimit beginlevel="16" endlevel="16" maxnumber="280" mapid="1" challengeid="13"/>
+	<playerlimit beginlevel="17" endlevel="17" maxnumber="280" mapid="1" challengeid="13"/>
+	<playerlimit beginlevel="18" endlevel="18" maxnumber="280" mapid="1" challengeid="14"/>
+	<playerlimit beginlevel="19" endlevel="19" maxnumber="280" mapid="1" challengeid="14"/>
+	<playerlimit beginlevel="20" endlevel="20" maxnumber="280" mapid="1" challengeid="15"/>
+	<playerlimit beginlevel="21" endlevel="21" maxnumber="240" mapid="1" challengeid="16"/>
+	<playerlimit beginlevel="22" endlevel="22" maxnumber="240" mapid="1" challengeid="17"/>
+	<playerlimit beginlevel="23" endlevel="23" maxnumber="240" mapid="1" challengeid="18"/>
+	<playerlimit beginlevel="24" endlevel="24" maxnumber="240" mapid="1" challengeid="19"/>
+	<playerlimit beginlevel="25" endlevel="25" maxnumber="240" mapid="1" challengeid="19"/>
+	<playerlimit beginlevel="26" endlevel="26" maxnumber="240" mapid="1" challengeid="21"/>
+	<playerlimit beginlevel="27" endlevel="27" maxnumber="240" mapid="1" challengeid="22"/>
+	<playerlimit beginlevel="28" endlevel="28" maxnumber="240" mapid="1" challengeid="23"/>
+	<playerlimit beginlevel="29" endlevel="29" maxnumber="240" mapid="1" challengeid="24"/>
+	<playerlimit beginlevel="30" endlevel="30" maxnumber="240" mapid="1" challengeid="25"/>
+	<playerlimit beginlevel="31" endlevel="31" maxnumber="240" mapid="1" challengeid="26"/>
+	<playerlimit beginlevel="32" endlevel="32" maxnumber="240" mapid="1" challengeid="27"/>
+	<playerlimit beginlevel="33" endlevel="33" maxnumber="240" mapid="1" challengeid="28"/>
+	<playerlimit beginlevel="34" endlevel="34" maxnumber="240" mapid="1" challengeid="29"/>
+	<playerlimit beginlevel="35" endlevel="35" maxnumber="240" mapid="1" challengeid="29"/>
+	<playerlimit beginlevel="36" endlevel="36" maxnumber="240" mapid="1" challengeid="31"/>
+	<playerlimit beginlevel="37" endlevel="37" maxnumber="240" mapid="1" challengeid="32"/>
+	<playerlimit beginlevel="38" endlevel="38" maxnumber="240" mapid="1" challengeid="33"/>
+	<playerlimit beginlevel="39" endlevel="39" maxnumber="240" mapid="1" challengeid="34"/>
+	<playerlimit beginlevel="40" endlevel="40" maxnumber="240" mapid="1" challengeid="35"/>
+	<playerlimit beginlevel="41" endlevel="41" maxnumber="240" mapid="1" challengeid="37"/>
+	<playerlimit beginlevel="42" endlevel="42" maxnumber="240" mapid="1" challengeid="39"/>
+	<playerlimit beginlevel="43" endlevel="43" maxnumber="240" mapid="1" challengeid="40"/>
+	<playerlimit beginlevel="44" endlevel="44" maxnumber="240" mapid="1" challengeid="41"/>
+	<playerlimit beginlevel="45" endlevel="45" maxnumber="240" mapid="1" challengeid="41"/>
+	<playerlimit beginlevel="46" endlevel="46" maxnumber="240" mapid="1" challengeid="43"/>
+	<playerlimit beginlevel="47" endlevel="47" maxnumber="240" mapid="1" challengeid="44"/>
+	<playerlimit beginlevel="48" endlevel="48" maxnumber="240" mapid="1" challengeid="45"/>
+	<playerlimit beginlevel="49" endlevel="49" maxnumber="240" mapid="1" challengeid="46"/>
+	<playerlimit beginlevel="50" endlevel="50" maxnumber="240" mapid="1" challengeid="48"/>
+	<playerlimit beginlevel="51" endlevel="51" maxnumber="240" mapid="1" challengeid="50"/>
+	<playerlimit beginlevel="52" endlevel="52" maxnumber="240" mapid="1" challengeid="51"/>
+	<playerlimit beginlevel="53" endlevel="53" maxnumber="240" mapid="1" challengeid="52"/>
+	<playerlimit beginlevel="54" endlevel="54" maxnumber="240" mapid="1" challengeid="53"/>
+	<playerlimit beginlevel="55" endlevel="55" maxnumber="240" mapid="1" challengeid="53"/>
+	<playerlimit beginlevel="56" endlevel="56" maxnumber="240" mapid="1" challengeid="55"/>
+	<playerlimit beginlevel="57" endlevel="57" maxnumber="240" mapid="1" challengeid="56"/>
+	<playerlimit beginlevel="58" endlevel="58" maxnumber="240" mapid="1" challengeid="57"/>
+	<playerlimit beginlevel="59" endlevel="59" maxnumber="240" mapid="1" challengeid="59"/>
+	<playerlimit beginlevel="60" endlevel="60" maxnumber="240" mapid="1" challengeid="61"/>
+	<playerlimit beginlevel="61" endlevel="61" maxnumber="240" mapid="1" challengeid="63"/>
+	<playerlimit beginlevel="62" endlevel="62" maxnumber="240" mapid="1" challengeid="64"/>
+	<playerlimit beginlevel="63" endlevel="63" maxnumber="240" mapid="1" challengeid="65"/>
+	<playerlimit beginlevel="64" endlevel="64" maxnumber="240" mapid="1" challengeid="66"/>
+	<playerlimit beginlevel="65" endlevel="65" maxnumber="240" mapid="1" challengeid="66"/>
+	<playerlimit beginlevel="66" endlevel="66" maxnumber="240" mapid="1" challengeid="68"/>
+	<playerlimit beginlevel="67" endlevel="67" maxnumber="240" mapid="1" challengeid="69"/>
+	<playerlimit beginlevel="68" endlevel="68" maxnumber="240" mapid="1" challengeid="70"/>
+	<playerlimit beginlevel="69" endlevel="69" maxnumber="240" mapid="1" challengeid="71"/>
+	<playerlimit beginlevel="70" endlevel="70" maxnumber="240" mapid="1" challengeid="73"/>
+	<playerlimit beginlevel="71" endlevel="71" maxnumber="240" mapid="1" challengeid="75"/>
+	<playerlimit beginlevel="72" endlevel="72" maxnumber="240" mapid="1" challengeid="77"/>
+	<playerlimit beginlevel="73" endlevel="73" maxnumber="240" mapid="1" challengeid="78"/>
+	<playerlimit beginlevel="74" endlevel="74" maxnumber="240" mapid="1" challengeid="79"/>
+	<playerlimit beginlevel="75" endlevel="75" maxnumber="240" mapid="1" challengeid="79"/>
+	<playerlimit beginlevel="76" endlevel="76" maxnumber="240" mapid="1" challengeid="81"/>
+	<playerlimit beginlevel="77" endlevel="77" maxnumber="240" mapid="1" challengeid="82"/>
+	<playerlimit beginlevel="78" endlevel="78" maxnumber="240" mapid="1" challengeid="83"/>
+	<playerlimit beginlevel="79" endlevel="79" maxnumber="240" mapid="1" challengeid="84"/>
+	<playerlimit beginlevel="80" endlevel="80" maxnumber="240" mapid="1" challengeid="86"/>
+	<playerlimit beginlevel="81" endlevel="81" maxnumber="240" mapid="1" challengeid="88"/>
+	<playerlimit beginlevel="82" endlevel="82" maxnumber="240" mapid="1" challengeid="89"/>
+	<playerlimit beginlevel="83" endlevel="83" maxnumber="240" mapid="1" challengeid="90"/>
+	<playerlimit beginlevel="84" endlevel="84" maxnumber="240" mapid="1" challengeid="91"/>
+	<playerlimit beginlevel="85" endlevel="85" maxnumber="240" mapid="1" challengeid="91"/>
+	<playerlimit beginlevel="86" endlevel="86" maxnumber="240" mapid="1" challengeid="91"/>
+	<playerlimit beginlevel="87" endlevel="87" maxnumber="240" mapid="1" challengeid="91"/>
+	<playerlimit beginlevel="88" endlevel="88" maxnumber="240" mapid="1" challengeid="91"/>
+	<playerlimit beginlevel="89" endlevel="89" maxnumber="240" mapid="1" challengeid="91"/>
+	<playerlimit beginlevel="90" endlevel="90" maxnumber="240" mapid="1" challengeid="91"/>
+	<playerlimit beginlevel="91" endlevel="91" maxnumber="240" mapid="1" challengeid="91"/>
+	<playerlimit beginlevel="92" endlevel="92" maxnumber="240" mapid="1" challengeid="91"/>
+	<playerlimit beginlevel="93" endlevel="93" maxnumber="240" mapid="1" challengeid="91"/>
+	<playerlimit beginlevel="94" endlevel="94" maxnumber="240" mapid="1" challengeid="91"/>
+	<playerlimit beginlevel="95" endlevel="95" maxnumber="240" mapid="1" challengeid="91"/>
+	<playerlimit beginlevel="96" endlevel="96" maxnumber="240" mapid="1" challengeid="91"/>
+	<playerlimit beginlevel="97" endlevel="97" maxnumber="240" mapid="1" challengeid="91"/>
+	<playerlimit beginlevel="98" endlevel="98" maxnumber="240" mapid="1" challengeid="91"/>
+	<playerlimit beginlevel="99" endlevel="99" maxnumber="240" mapid="1" challengeid="91"/>
+	<playerlimit beginlevel="100" endlevel="100" maxnumber="240" mapid="1" challengeid="91"/>
+</minecraft>

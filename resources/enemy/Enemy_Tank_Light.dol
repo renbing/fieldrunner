@@ -1,0 +1,15 @@
+<Doll>
+    <Sprites defaultAnimationSetName="default" defaultAnimationName="run" dithered="F">
+        <Sprite filename="Enemy_Tank_Light.asc" attachToTag="" sortToParentDepth="F">
+            <Particles>
+                <ParticleSystem type="1" filename="Enemy_Air_Death_Explosion.fx" attachToTag="anchor" actorEvent="0" actorEventParameter="" animation="" animationSet="" animationFrameIndex="-1" renderQueueOffset="1" removeOnSetChange="F" />
+                <ParticleSystem type="1" filename="Enemy_Bike_Heavy_Exhaust.fx" attachToTag="dust" actorEvent="3" actorEventParameter="" animation="" animationSet="" animationFrameIndex="-1" renderQueueOffset="0" removeOnSetChange="T" />
+            </Particles>
+        </Sprite>
+    </Sprites>
+    <Sounds>
+        <Sound type="0" soundpath="Common/Explosions/Explosion_Machine_Medium" replacePrevSoundInstance="T" actorEvent="-1" actorEventParameter="" animation="death" animationSet="default" animationFrameIndex="4" />
+        <Sound type="1" soundpath="Enemies/Enemy_Tank_Light/Spawn" replacePrevSoundInstance="T" actorEvent="3" actorEventParameter="" animation="" animationSet="" />
+        <Sound type="1" soundpath="Common/Explosions/Explosion_Medium" replacePrevSoundInstance="T" actorEvent="0" actorEventParameter="" animation="" animationSet="" />
+    </Sounds>
+</Doll>

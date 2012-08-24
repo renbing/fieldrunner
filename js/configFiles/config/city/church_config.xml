@@ -1,0 +1,22 @@
+<config>
+	<!--
+	levelup升级信息
+	 	value对应等级
+	 	needgold升到当前级需要金币
+	 	background背景变化
+	-->
+	<drop centerx="60" centery="50" />
+	<church id="1" minute="1" costwounded="10" soldier="10" exp="1" limitlevel="0" />
+	<church id="2" minute="10" costwounded="20" soldier="20" exp="5" limitlevel="0" />
+	<church id="3" minute="30" costwounded="40" soldier="40" exp="10" limitlevel="5" />
+	<church id="4" minute="60" costwounded="80" soldier="80" exp="20" limitlevel="10" />
+	<church id="5" minute="120" costwounded="160" soldier="160" exp="40" limitlevel="20" />
+	<church id="6" minute="240" costwounded="320" soldier="320" exp="60" limitlevel="30" />	
+	<church id="7" minute="480" costwounded="640" soldier="640" exp="80" limitlevel="40" />	
+	
+	<levelup value="1" needgold="100" background="" />
+	<levelup value="2" needgold="200" background="" />
+	<levelup value="3" needgold="400" background="" />
+	<levelup value="4" needgold="800" background="" />
+	<levelup value="5" needgold="1600" background="" />
+</config>

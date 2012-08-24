@@ -1,0 +1,20 @@
+<Doll>
+    <Sprites defaultAnimationSetName="default" defaultAnimationName="run" dithered="F">
+        <Sprite filename="Enemy_Air_Plane_Bi_Medium.asc" attachToTag="" sortToParentDepth="F">
+            <Particles>
+                <ParticleSystem type="0" filename="Enemy_Bike_Death_Explosion.fx" attachToTag="attack" actorEvent="-1" actorEventParameter="" animation="death" animationSet="default" animationFrameIndex="40" renderQueueOffset="1" removeOnSetChange="F" />
+                <ParticleSystem type="1" filename="Enemy_Air_Death_Explosion.fx" attachToTag="anchor" actorEvent="0" actorEventParameter="" animation="" animationSet="" animationFrameIndex="-1" renderQueueOffset="1" removeOnSetChange="F" />
+                <ParticleSystem type="1" filename="Enemy_Air_Biplane_Created_Trail.fx" attachToTag="trail" actorEvent="3" actorEventParameter="" animation="" animationSet="" animationFrameIndex="-1" renderQueueOffset="0" removeOnSetChange="T" />
+            </Particles>
+            <Sprite filename="Enemy_Air_Plane_Propeller.asc" attachToTag="prop" sortToParentDepth="T">
+                <Particles />
+            </Sprite>
+        </Sprite>
+    </Sprites>
+    <Sounds>
+        <Sound type="0" soundpath="Common/Explosions/Explosion_Hit_Ground_Large" replacePrevSoundInstance="T" actorEvent="-1" actorEventParameter="" animation="death" animationSet="default" animationFrameIndex="32" />
+        <Sound type="1" soundpath="Enemies/Enemy_Air_BiPlane/Spawn" replacePrevSoundInstance="T" actorEvent="3" actorEventParameter="" animation="" animationSet="" />
+        <Sound type="1" soundpath="Common/Explosions/Explosion_Medium" replacePrevSoundInstance="T" actorEvent="0" actorEventParameter="" animation="" animationSet="" />
+        <Sound type="1" soundpath="Common/Enemy/Falling/Plane_Fall_Medium" replacePrevSoundInstance="F" actorEvent="0" actorEventParameter="" animation="" animationSet="" />
+    </Sounds>
+</Doll>

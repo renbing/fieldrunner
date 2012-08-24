@@ -1,0 +1,12 @@
+<Doll>
+    <Sprites defaultAnimationSetName="level1" defaultAnimationName="run">
+        <Sprite filename="Tower_Flame_Base.asc" attachToTag="" sortToParentDepth="F">
+            <Particles>
+                <ParticleSystem type="1" filename="Tower_Transition_Placed.fx" attachToTag="anchor" actorEvent="3" actorEventParameter="" animation="" animationSet="" animationFrameIndex="-1" removeOnSetChange="F" />
+                <ParticleSystem type="1" filename="Tower_Transition_Upgrade.fx" attachToTag="anchor" actorEvent="5" actorEventParameter="" animation="" animationSet="" animationFrameIndex="-1" removeOnSetChange="F" />
+            </Particles>
+            <Sprite filename="Tower_Flame_Turret.asc" attachToTag="anchor" sortToParentDepth="T" />
+        </Sprite>
+    </Sprites>
+    <Sounds />
+</Doll>

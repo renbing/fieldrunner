@@ -1,0 +1,123 @@
+<ui>			
+	<control type="dialog" name="city_map" background="cityscene1" x="0" y="0" width="0" height="0" bgcolor="0xcccccc" addchild="1" drag="2" >
+		<control type="button" name="city_house" background1="houseBuilding1" x="220.9" y="355.8" width="0" height="0" drag="0" hitarea="0xff" colorkey="0xffffffff" setdata="1" btnstyle="1" >
+			<function evttype="click" callback="OnClickCityHouse" />			
+			<function evttype="rollOver" callback="OnRollOverCityHouse" />
+			<function1 evttype="rollOut" callback="OnRollOutCityHouse" />
+			<overtimer delay="1000" repeat="0" timercallback="OnButtonOverBuildingTip" completecallback="OnRollOutCityHouse" />									
+		</control>		
+		<control type="button" name="city_market" background1="marketBuilding1" x="489.9" y="329.8" width="0" height="0" drag="0" hitarea="0xff" colorkey="0xffffffff" setdata="11" btnstyle="1" >
+			<function evttype="click" callback="OnClickCityMarket" />
+			<function evttype="rollOver" callback="OnRollOverCityMarket" />
+			<function1 evttype="rollOut" callback="OnRollOutCityBarrack" />
+			<overtimer delay="1000" repeat="0" timercallback="OnButtonOverBuildingTip" completecallback="OnRollOutCityMarket" />
+		</control>		
+		<control type="button" name="city_church" background1="churchBuilding1" x="1092.3" y="284.6" width="0" height="0" drag="0" hitarea="0xff" colorkey="0xffffffff" setdata="4" btnstyle="1" >	
+			<function evttype="click" callback="OnClickCityChurch" />
+			<function evttype="rollOver" callback="OnRollOverCityChurch" />
+			<function1 evttype="rollOut" callback="OnRollOutCityChurch" />
+			<overtimer delay="1000" repeat="0" timercallback="OnButtonOverBuildingTip" completecallback="OnRollOutCityChurch" />
+		</control>
+		<control type="button" name="city_barrack" background1="barrackBuilding1" x="932.9" y="171.8" width="0" height="0" drag="0" hitarea="0xff" colorkey="0xffffffff" layer="1" setdata="2" btnstyle="1" >
+			<function evttype="click" callback="OnClickCityBarrack" />
+			<function evttype="rollOver" callback="OnRollOverCityBarrack" />
+			<function1 evttype="rollOut" callback="OnRollOutCityBarrack" />
+			<overtimer delay="1000" repeat="0" timercallback="OnButtonOverBuildingTip" completecallback="OnRollOutCityBarrack" />
+		</control>
+		<control type="button" name="city_prison_a" background1="prisonBuilding1" x="59.5" y="395.9" width="0" height="0" drag="0" hitarea="0xff" colorkey="0xffffffff" setdata="10" btnstyle="1" >	
+			<function evttype="click" callback="OnClickCityPrison" />
+			<function evttype="rollOver" callback="OnRollOverCityPrison" />
+			<function1 evttype="rollOut" callback="OnRollOutCityPrison" />
+			<overtimer delay="1000" repeat="0" timercallback="OnButtonOverBuildingTip" completecallback="OnRollOutCityPrison" />
+		</control>
+		<control type="button" name="city_prison_b" background1="prisonBuilding1" x="125" y="395.9" width="0" height="0" drag="0" hitarea="0xff" colorkey="0xffffffff" setdata="10" btnstyle="1" >	
+			<function evttype="click" callback="OnClickCityPrison" />
+			<function evttype="rollOver" callback="OnRollOverCityPrison" />
+			<function1 evttype="rollOut" callback="OnRollOutCityPrison" />
+			<overtimer delay="1000" repeat="0" timercallback="OnButtonOverBuildingTip" completecallback="OnRollOutCityPrison" />
+		</control>
+		<control type="button" name="city_prison_c" background1="prisonBuilding3" x="49" y="276" width="0" height="0" drag="0" hitarea="0xff" colorkey="0xffffffff" setdata="10" btnstyle="1" >	
+			<function evttype="click" callback="OnClickCityPrison" />
+			<function evttype="rollOver" callback="OnRollOverCityPrison" />
+			<function1 evttype="rollOut" callback="OnRollOutCityPrison" />
+			<overtimer delay="1000" repeat="0" timercallback="OnButtonOverBuildingTip" completecallback="OnRollOutCityPrison" />
+		</control>
+		<control type="button" name="city_prison_d" background1="prisonBuilding5" x="252" y="290" width="0" height="0" drag="0" hitarea="0xff" colorkey="0xffffffff" setdata="10" btnstyle="1" mirror="1" >	
+			<function evttype="click" callback="OnClickCityPrison" />
+			<function evttype="rollOver" callback="OnRollOverCityPrison" />
+			<function1 evttype="rollOut" callback="OnRollOutCityPrison" />
+			<overtimer delay="1000" repeat="0" timercallback="OnButtonOverBuildingTip" completecallback="OnRollOutCityPrison" />
+		</control>
+		<control type="button" name="city_tavern" background1="tavernBuilding1" x="826" y="316.9" width="0" height="0" drag="0" hitarea1="0xff" colorkey1="0xffffffff" setdata="3" btnstyle="1" >	
+			<function evttype="click" callback="OnClickCityTavern" />
+			<function evttype="rollOver" callback="OnRollOverCityTavern" />
+			<function1 evttype="rollOut" callback="OnRollOutCityTavern" />
+			<overtimer delay="1000" repeat="0" timercallback="OnButtonOverBuildingTip" completecallback="OnRollOutCityTavern" />
+		</control>
+		412,342
+		<control type="button" name="city_trainingfield" background1="trainingfieldBuilding1" x="1104" y="83" width="0" height="0" drag="0" hitarea="0xff" colorkey="0xffffffff" setdata="6" btnstyle="1" >
+			<function evttype="click" callback="OnClickCityTrainingField" />
+			<function evttype="rollOver" callback="OnRollOverCityTrainingField" />
+			<function1 evttype="rollOut" callback="OnRollOutCityTrainingField" />
+			<overtimer delay="1000" repeat="0" timercallback="OnButtonOverBuildingTip" completecallback="OnRollOutCityTrainingField" />
+		</control>
+		
+		<control type="button" name="city_bank" background1="storeBuilding1" x="1355.8" y="159.8" width="0" height="0" drag="0" hitarea="0xff" colorkey="0xffffffff" setdata="5" btnstyle="1" >	
+			<function evttype="click" callback="OnClickCityBank" />
+			<function evttype="rollOver" callback="OnRollOverCityBank" />
+			<function1 evttype="rollOut" callback="OnRollOutCityTavern" />
+			<overtimer delay="1000" repeat="0" timercallback="OnButtonOverBuildingTip" completecallback="OnRollOutCityBank" />
+		</control>
+		
+		<control type="button" name="city_weaponshop" background1="weaponshopBuilding1" x="1314.4" y="401.8" width="0" height="0" drag="0" hitarea="0xff" colorkey="0xffffffff" setdata="7" btnstyle="1" >	
+			<function evttype="click" callback="OnClickCityWeaponShop" />
+			<function evttype="rollOver" callback="OnRollOverCityWeaponShop" />
+			<function1 evttype="rollOut" callback="OnRollOverWeaponShop" />
+			<overtimer delay="1000" repeat="0" timercallback="OnButtonOverBuildingTip" completecallback="OnRollOutCityWeaponShop" />
+		</control>
+		<control type="button" name="city_armorshop" background1="armorshopBuilding1" x="1145.4" y="388.9" width="0" height="0" drag="0" hitarea="0xff" colorkey="0xffffffff" setdata="8" btnstyle="1" >	
+			<function evttype="click" callback="OnClickCityArmorShop" />
+			<function evttype="rollOver" callback="OnRollOverCityArmorShop" />
+			<function1 evttype="rollOut" callback="OnRollOutCityTavern" />
+			<overtimer delay="1000" repeat="0" timercallback="OnButtonOverBuildingTip" completecallback="OnRollOutCityArmorShop" />
+		</control>
+		
+		<control type="button" name="city_castle" background1="castleBuilding1" x="64" y="41" width="" height="" drag="0" hitarea="0xff" colorkey="0xffffffff" drawrect="0" setdata="0" btnstyle="1" >	
+			<function evttype="click" callback="OnClickCityCastle" />
+			<function evttype="rollOver" callback="OnRollOverCityCastle" />
+			<function1 evttype="rollOut" callback="OnRollOutCityCastle" />
+			<overtimer delay="1000" repeat="0" timercallback="OnButtonOverBuildingTip" completecallback="OnRollOutCityCastle" />
+		</control>
+		
+		<control type="button" name="city_farm" background1="fieldBuilding" x="412" y="342" width="0" height="0" drag="0" hitarea="0xff" colorkey="0xffffffff" setdata="9" btnstyle="1"  >
+			<function evttype="click" callback="OnClickCityFarm" />
+			<function evttype="rollOver" callback="OnRollOverCityFarm" />			
+			<overtimer delay="1000" repeat="0" timercallback="OnButtonOverBuildingTip" completecallback="OnRollOutCityFarm" />
+		</control>		
+		
+		<control type="button" name="city_mask1" background="front1" x="848" y="454" addchild="1" hitarea="0xff" colorkey="0xffffffff" />
+		<control type="button" name="city_mask2" background="front2" x="845.8" y="280" addchild="1" hitarea="0xff" colorkey="0xffffffff" />		
+		<control type="button" name="city_mask3" background="front3" x="575" y="335.4" addchild="1" hitarea="0xff" colorkey="0xffffffff" />		
+		<control type="button" name="city_mask4" background="front4" x="820" y="305" addchild="1" hitarea="0xff" colorkey="0xffffffff" />
+		
+		<!--<control type="static" name="" background="bigtree_rest" x="651" y="228" addchild="1" hitarea="0xff" colorkey="0xffffffff" playbg="1" />-->
+	</control>
+	<!--
+	<control type="button" name="map_left_btn" background="rollIcon" x="38" y="300" width="40" height="40" bgcolor="0xcccccc" drawrect="0" addchild="1" mirror="1" >
+		<function evttype="click" callback="OnMapClickLeftBtn" />
+		<function evttype="doubleClick" callback="OnMapDoubleClickLeftBtn" />		
+		<holdtimer delay="40" repeat="20" timercallback="OnButtonHoldMapLeftButton" completecallback="OnButtonHoldMapButtonComplete" />
+	</control>
+
+	<control type="button" name="map_right_btn" background="rollIcon" x="720" y="300" width="40" height="40" bgcolor="0xcccccc" drawrect="0" addchild="1" >
+		<function evttype="click" callback="OnMapClickRightBtn" />
+		<function evttype="doubleClick" callback="OnMapDoubleClickRightBtn" />		
+		<holdtimer delay="40" repeat="20" timercallback="OnButtonHoldMapRightButton" completecallback="OnButtonHoldMapButtonComplete" />
+	</control>
+	-->
+	<control type="dialog" name="global_building_tip" background="tipsPanel" width="200" height="60" drawrect="0" bgcolor="0xf0f0f0" addchild="0" mouseenable="0" mousechild="0" >		
+		<text mainname="tipsText1" subname="" textcolor="0xffffffff" filtercolor="0" />
+		<text mainname="tipsText2" subname="" textcolor="0xffffffff" filtercolor="0xff" />
+		<text mainname="tipsText3" subname="" textcolor="0xffffffff" filtercolor="0xff" />	
+	</control>
+</ui>

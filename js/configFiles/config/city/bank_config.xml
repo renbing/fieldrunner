@@ -1,0 +1,39 @@
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<data>
+	<!--
+  国库
+  level 等级
+  goldlimit 金币上限
+	-->
+	<bank level="1" goldlimit="35000"/>
+	<bank level="2" goldlimit="50000"/>
+	<bank level="3" goldlimit="70000"/>
+	<bank level="4" goldlimit="110000"/>
+	<bank level="5" goldlimit="155000"/>
+	<bank level="6" goldlimit="210000"/>
+	<bank level="7" goldlimit="265000"/>
+	<bank level="8" goldlimit="325000"/>
+	<bank level="9" goldlimit="395000"/>
+	<bank level="10" goldlimit="465000"/>
+	<bank level="11" goldlimit="540000"/>
+	<bank level="12" goldlimit="620000"/>
+	<bank level="13" goldlimit="700000"/>
+	<bank level="14" goldlimit="790000"/>
+	<bank level="15" goldlimit="880000"/>
+	<bank level="16" goldlimit="970000"/>
+	<bank level="17" goldlimit="1070000"/>
+	<bank level="18" goldlimit="1170000"/>
+	<bank level="19" goldlimit="1275000"/>
+	<bank level="20" goldlimit="1380000"/>
+	<bank level="21" goldlimit="1490000"/>
+	<bank level="22" goldlimit="1605000"/>
+	<bank level="23" goldlimit="1720000"/>
+	<bank level="24" goldlimit="1835000"/>
+	<bank level="25" goldlimit="1960000"/>
+	<bank level="26" goldlimit="2085000"/>
+	<bank level="27" goldlimit="2210000"/>
+	<bank level="28" goldlimit="2340000"/>
+	<bank level="29" goldlimit="2475000"/>
+	<bank level="30" goldlimit="2610000"/>
+</data>

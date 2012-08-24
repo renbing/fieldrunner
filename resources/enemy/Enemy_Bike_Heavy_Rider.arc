@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+
+<!--ActorDescription-->
+<ActorName version="1.0" Class="Minor" Type="Ambient" Terrain="Ground" Description="" Name="" ReferenceArchetype=""><Health AlwaysShowHealth="0" Health="100" DecayTime="1.4" TargetingPriority="1" ImmuneModifyMovementSpeed="0" ImmuneIncrementalHealthModifier="0" ImmuneModifyDamage="0" ImmuneNamedEffects="" ElementImmunities="1" BlockTileWhenKilled="0" MoneyParticleSpawnTime="1" Immunity1="None" /><Visual Image="" Sprite="Enemy_Bike_Heavy_Rider.asc" Doll="" Scale="1.25" RenderQueue="Actor" NotificationScale="1" NotificationHorizontalOffset="0" NotificationVerticalOffset="0" /><Steering MaximumSpeed="1.1" TurnSpeed="20" DecelerationRate="0" SlowdownDistance="0.2" NeighborRadius="0.4" Mass="1" MaximumForce="3" SlowsAtCorners="0" TopSpeedTurningArc="15" Dampening="0.9" MaximumImpulseForce="55" /><Collision CollisionRadius="0.125" /></ActorName>

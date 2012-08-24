@@ -1,0 +1,239 @@
+<!--Copyright 2012 Subatomic Studios, LLC. All rights reserved.-->
+<Form Name="" BasePlatform="2" Version="77" ClassType="4">
+    <FormRoot Name="Element">
+        <Element TextureFilename="BGBlack.jpg" Type="2" Name="BGTint" ID="184" Anchor="0.500000, 0.500000" Dimension="1.000000, 1.000000" IsPassive="T" Tint="255, 255, 255, 0" ResizeBias="0">
+            <Animations>
+                <Animation Name="Closeform">
+                    <Track ID="28" Type="5">
+                        <TrackKey ID="0" Time="0" Value="166" />
+                        <TrackKey ID="1" Time="0.1875" />
+                    </Track>
+                </Animation>
+                <Animation Name="OpenForm">
+                    <Track ID="25" Type="5">
+                        <TrackKey ID="0" Time="0" />
+                        <TrackKey ID="1" Time="0.184375" Value="166" />
+                    </Track>
+                </Animation>
+            </Animations>
+        </Element>
+        <Element TextureFilename="BGTint.png" Type="2" Name="OptionsGroup" ID="192" Anchor="0.500000, 1.517187" Dimension="0.554167, 0.879166" IsPassive="T" Tint="255, 255, 255, 0">
+            <Animations>
+                <Animation Name="Closeform">
+                    <Track ID="30" Type="1">
+                        <TrackKey ID="0" Time="0" Value="0.500000, 0.500000" />
+                        <TrackKey ID="1" Time="0.275" Value="0.500000, -0.625000" />
+                    </Track>
+                    <Track ID="31" Type="9">
+                        <TrackKey ID="0" Time="0" Value="playsound UI/Menu/Button_Press_Back_Big" />
+                    </Track>
+                </Animation>
+                <Animation Name="OpenForm">
+                    <Track ID="20" Type="9">
+                        <TrackKey ID="0" Time="0" Value="playsound UI/Menu/Button_Press_Advance_Big" />
+                    </Track>
+                    <Track ID="26" Type="1">
+                        <TrackKey ID="0" Time="0" Value="0.500000, 1.517187" />
+                        <TrackKey ID="1" Time="0.178125" Value="0.500000, 1.454687" />
+                        <TrackKey ID="2" Time="0.3875" Value="0.500000, 0.468750" />
+                        <TrackKey ID="3" Time="0.459375" Value="0.500000, 0.500000" />
+                    </Track>
+                </Animation>
+                <Animation Name="DoneTrigger">
+                    <Track ID="1" Type="1">
+                        <TrackKey ID="0" Time="0" Interpolator="8" Value="0.500000, 0.643750" />
+                        <TrackKey ID="1" Time="0.225" Interpolator="8" Value="0.500000, 0.679468" />
+                        <TrackKey ID="2" Time="1" Value="0.500000, -0.360938" />
+                    </Track>
+                    <Track ID="22" Type="9">
+                        <TrackKey ID="0" Time="0" Value="playsound UI/Menu/Button_Press_Back_Big" />
+                    </Track>
+                </Animation>
+            </Animations>
+            <Element TextureFilename="OptionsPanelShadow.png" Type="2" Name="Shadow" ID="469" Anchor="0.000000, -0.007813" Dimension="0.588542, 0.935416" IsPassive="T" BlendState="3" />
+            <Element TextureFilename="OptionsPanel.png" Type="2" Name="OptionsBG" ID="193" Dimension="0.541667, 0.850000" IsPassive="T">
+                <Element Type="2" Name="Bolts" ID="486" Dimension="0.545834, 0.851043" IsPassive="T" Tint="255, 255, 255, 0">
+                    <Element TextureFilename="Bolt01.png" Type="2" Name="Panel::487" ID="487" Anchor="-0.236458, -0.075000" Dimension="0.018750, 0.028125" IsPassive="T" PixelFormat="2" />
+                    <Element TextureFilename="Bolt01.png" Type="2" Name="Panel::487" ID="488" Anchor="-0.236458, -0.384375" Dimension="0.018750, 0.028125" IsPassive="T" PixelFormat="2" />
+                    <Element TextureFilename="Bolt01.png" Type="2" Name="Panel::487" ID="489" Anchor="-0.236458, 0.387500" Dimension="0.018750, 0.028125" IsPassive="T" PixelFormat="2" />
+                    <Element TextureFilename="Bolt01.png" Type="2" Name="Panel::487" ID="490" Anchor="-0.236458, 0.256250" Dimension="0.018750, 0.028125" IsPassive="T" PixelFormat="2" />
+                    <Element TextureFilename="Bolt01.png" Type="2" Name="Panel::487" ID="491" Anchor="0.236459, -0.384375" Dimension="0.018750, 0.028125" IsPassive="T" PixelFormat="2" />
+                    <Element TextureFilename="Bolt01.png" Type="2" Name="Panel::487" ID="492" Anchor="0.236459, -0.075000" Dimension="0.018750, 0.028125" IsPassive="T" PixelFormat="2" />
+                    <Element TextureFilename="Bolt01.png" Type="2" Name="Panel::487" ID="493" Anchor="0.236459, 0.256250" Dimension="0.018750, 0.028125" IsPassive="T" PixelFormat="2" />
+                </Element>
+            </Element>
+            <Element TextureFilename="Trans.png" Type="2" Name="MusicSliderGroup" ID="498" Anchor="0.000000, 0.212500" Dimension="0.406250, 0.140625" IsPassive="T">
+                <Element Text="$(MusicText)" TextScale="0.55" Type="1" Name="MusicLabel" ID="499" Anchor="0.000000, 0.039065" Dimension="0.303360, 0.059403" IsPassive="T" Tracking="-7" Leading="47" Font="StencilGray01.asc" />
+                <Element TextureFilename="OptionsSliderOval.png" Type="2" Name="Shadow" ID="500" Anchor="0.000000, -0.015625" Dimension="0.390625, 0.064062" Visible="F" IsPassive="T" BlendState="3" />
+                <Element TextureFilename="OptionsSliderBG.png" Type="2" Name="MusicSliderBG" ID="501" Anchor="0.000000, -0.015625" Dimension="0.390625, 0.054688" IsPassive="T" BlendState="3" />
+                <Element TextureFilename="Trans.png" ClipChildren="T" Type="6" Name="MusicSlider" ID="502" Anchor="0.000000, -0.015625" Dimension="0.375000, 0.083182" SliderInverted="F" SecondsToSlide="0">
+                    <Animations>
+                        <Animation Name="SoundsDrag">
+                            <Track ID="19" Type="9">
+                                <TrackKey ID="0" Time="0" Value="playsound UI/Menu/Slider_Value_Change" />
+                            </Track>
+                        </Animation>
+                    </Animations>
+                    <Element PressedTextureFilename="SliderNotch.png" TextureFilename="SliderNotch.png" Type="3" Name="MusicSliderButton" ID="503" Anchor="-0.172396, 0.000000" Dimension="0.030208, 0.070313" Expansion="1.000000, 1.000000">
+                        <Element TextureFilename="SliderNotchShadow.png" Type="2" Name="shadow" ID="504" Dimension="0.036458, 0.079687" IsPassive="T" BlendState="3" />
+                    </Element>
+                    <Element TextureFilename="Trans.png" Type="2" Name="FillHolder" ID="505" Anchor="-0.187500, 0.000000" Dimension="0.750000, 0.075000" IsPassive="T">
+                        <Element TextureFilename="OptionsSliderFill.png" Type="2" Name="SliderFill" ID="508" Anchor="-0.187500, 0.000000" Dimension="0.375000, 0.046875" IsPassive="T" />
+                    </Element>
+                </Element>
+                <Element TextureFilename="OptionsSliderFrame.png" Type="2" Name="MusicSliderFrame" ID="507" Anchor="0.000000, -0.015625" Dimension="0.390625, 0.067188" IsPassive="T" PixelFormat="2" />
+            </Element>
+            <Element TextureFilename="Trans.png" Type="2" Name="SoundsSliderGroup" ID="223" Anchor="0.000000, 0.079688" Dimension="0.406250, 0.140625" IsPassive="T">
+                <Element Text="$(SoundsText)" TextScale="0.55" Type="1" Name="SoundsLabel" ID="229" Anchor="0.000000, 0.039065" Dimension="0.303360, 0.059403" IsPassive="T" Tracking="-7" Leading="47" Font="StencilGray01.asc" />
+                <Element TextureFilename="OptionsSliderBG.png" Type="2" Name="SoundSliderBG" ID="224" Anchor="0.000000, -0.015625" Dimension="0.390625, 0.054688" IsPassive="T" BlendState="3" />
+                <Element TextureFilename="Trans.png" ClipChildren="T" Type="6" Name="SoundsSlider" ID="440" Anchor="0.000000, -0.015625" Dimension="0.375000, 0.083182" SliderInverted="F" SecondsToSlide="0">
+                    <Animations>
+                        <Animation Name="SoundsDrag">
+                            <Track ID="19" Type="9">
+                                <TrackKey ID="0" Time="0" Value="playsound UI/Menu/Slider_Value_Change" />
+                            </Track>
+                        </Animation>
+                    </Animations>
+                    <Element PressedTextureFilename="SliderNotch.png" TextureFilename="SliderNotch.png" Type="3" Name="SoundsSliderButton" ID="496" Anchor="-0.172396, 0.000000" Dimension="0.030208, 0.070313" Expansion="1.000000, 1.000000">
+                        <Element TextureFilename="SliderNotchShadow.png" Type="2" Name="shadow" ID="497" Dimension="0.036458, 0.079687" IsPassive="T" BlendState="3" />
+                    </Element>
+                    <Element TextureFilename="Trans.png" Type="2" Name="FillHolder" ID="443" Anchor="-0.187500, 0.000000" Dimension="0.750000, 0.075000" IsPassive="T">
+                        <Element TextureFilename="OptionsSliderFill.png" Type="2" Name="SliderFill" ID="509" Anchor="-0.187500, 0.000000" Dimension="0.375000, 0.046875" IsPassive="T" />
+                    </Element>
+                </Element>
+                <Element TextureFilename="OptionsSliderFrame.png" Type="2" Name="SoundSliderFrame" ID="228" Anchor="0.000000, -0.015625" Dimension="0.390625, 0.067188" IsPassive="T" PixelFormat="2" />
+            </Element>
+            <Element Type="2" Name="GridSliderGroup" ID="212" Anchor="0.000000, -0.060938" Dimension="0.542286, 0.154090" IsPassive="T" Tint="255, 255, 255, 0">
+                <Element Text="$(GridText)" TextScale="0.55" Type="1" Name="GridLabel" ID="219" Anchor="0.000000, 0.059375" Dimension="0.217592, 0.048958" IsPassive="T" Tracking="-7" Leading="47" Font="StencilGray01.asc" />
+                <Element TextureFilename="Trans.png" Type="2" Name="GridSliderTextures" ID="213" Dimension="0.468750, 0.094915" IsPassive="T">
+                    <Element TextureFilename="GridSlider.png" Type="2" Name="GridSliderBG" ID="460" Dimension="0.401042, 0.040625" IsPassive="T" />
+                    <Element TextureFilename="Trans.png" Type="6" Name="GridSlider" ID="445" Dimension="0.375000, 0.093750" SliderInverted="F" SecondsToSlide="0.2">
+                        <Animations>
+                            <Animation Name="GridDrag">
+                                <Track ID="21" Type="9">
+                                    <TrackKey ID="0" Time="0" Value="playsound UI/Menu/Button_Press_Down" />
+                                </Track>
+                            </Animation>
+                        </Animations>
+                        <Element PressedTextureFilename="SliderNotch.png" TextureFilename="SliderNotch.png" Type="3" Name="GridSliderButton" ID="449" Anchor="-0.172396, 0.000000" Dimension="0.030208, 0.070313" Expansion="0.462000, 0.308000">
+                            <Element TextureFilename="SliderNotchShadow.png" Type="2" Name="SliderNotchShadow" ID="450" Dimension="0.036458, 0.079687" IsPassive="T" BlendState="3" />
+                        </Element>
+                        <Element TextureFilename="Trans.png" Type="2" Name="GridSliderDummy" ID="454" Anchor="-0.187500, 0.000000" Dimension="0.750000, 0.090625" IsPassive="T" />
+                    </Element>
+                </Element>
+                <Element Text="$(GridOptionOffText)&#x0D;&#x0A;" TextScale="0.5" Type="1" Name="GridOffLabel" ID="220" Anchor="-0.170833, -0.059375" Dimension="0.052917, 0.046875" IsPassive="T" Tint="242, 193, 0, 255" Tracking="-14" Leading="37" Font="StencilWhite01.asc" />
+                <Element Text="$(GridOptionAutoText)&#x0D;&#x0A;" TextScale="0.5" Type="1" Name="GridHybridLabel" ID="222" Anchor="0.000000, -0.059375" Dimension="0.120834, 0.046875" IsPassive="T" Tint="192, 192, 192, 250" Tracking="-14" Leading="37" Font="StencilWhite01.asc" />
+                <Element Text="$(GridOptionFullText)" TextScale="0.5" Type="1" Name="GridOnLabel" ID="221" Anchor="0.164583, -0.059375" Dimension="0.108333, 0.046875" IsPassive="T" Tint="192, 192, 192, 255" Tracking="-14" Leading="37" Font="StencilWhite01.asc" />
+            </Element>
+            <Element TextureFilename="Trans.png" Type="2" Name="TipsGroup" ID="240" Anchor="-0.411459, -0.240625" Dimension="0.269391, 0.203125" Visible="F" IsPassive="T" Expansion="1.000000, 1.000000">
+                <Element TextureFilename="SlotClose.png" Type="2" Name="TipsResetButtonShadow" ID="245" Anchor="0.064583, 0.000000" Dimension="0.077083, 0.115625" IsPassive="T" Expansion="1.000000, 1.000000" PixelFormat="2">
+                    <Element TextureFilename="Button02_Shadow.jpg" Type="2" Name="Shadow" ID="526" Anchor="0.000000, -0.003125" Dimension="0.070313, 0.108333" IsPassive="T" BlendState="3" />
+                    <Element PressedTextureFilename="Button06_Pressed.png" HighlightedTextureFilename="Button06_Glow.png" TextureFilename="Button06.png" Type="3" Name="TipsResetButton" ID="246" Dimension="0.068750, 0.103125" Expansion="0.564000, 1.000000" HorizontalScale="1.16842" VerticalScale="1.18182">
+                        <Animations>
+                            <Animation Name="ResetTips">
+                                <Track ID="1" Type="9">
+                                    <TrackKey ID="0" Time="0" Value="resettips" />
+                                </Track>
+                            </Animation>
+                        </Animations>
+                    </Element>
+                    <Element Text="$(ResetText)" TextScale="0.55" Type="1" Name="ResetCheckboxLabel" ID="522" Anchor="0.000000, -0.081251" Dimension="0.097918, 0.048959" IsPassive="T" Tint="192, 192, 192, 255" Tracking="-14" Leading="37" Font="StencilWhite01.asc" />
+                </Element>
+                <Element Text="$(TipsText)" TextScale="0.55" Type="1" Name="TipsLabel" ID="250" Anchor="0.009375, 0.087500" Dimension="0.206249, 0.042709" IsPassive="T" Tracking="-7" Leading="47" Font="StencilGray01.asc" />
+            </Element>
+            <Element TextureFilename="Trans.png" Type="2" Name="TipsCheckboxGroup" ID="516" Anchor="-0.420833, -0.237500" Dimension="0.077083, 0.115625" Visible="F" IsPassive="T" Expansion="1.000000, 1.000000">
+                <Element TextureFilename="SlotClose.png" Type="2" Name="TipsCheckboxShadow" ID="517" Dimension="0.077083, 0.115625" IsPassive="T" Expansion="1.000000, 1.000000" PixelFormat="2">
+                    <Element TextureFilename="Button02_Shadow.jpg" Type="2" Name="Shadow" ID="525" Anchor="0.000000, -0.004687" Dimension="0.070313, 0.108333" IsPassive="T" BlendState="3" />
+                    <Element CheckboxChecked="T" DisabledTextureFilename="ToggleOff.png" HighlightedTextureFilename="Button06_Glow.png" TextureFilename="ToggleOff.png" Type="5" Name="TipsCheckbox" ID="518" Anchor="0.001042, 0.000000" Dimension="0.066667, 0.096875" Expansion="0.513000, 1.000000" HorizontalScale="1.68182" VerticalScale="1.625">
+                        <Animations>
+                            <Animation Name="TipsChecked">
+                                <Track ID="24" Type="9">
+                                    <TrackKey ID="0" Time="0" Value="toggletipsenabled" />
+                                </Track>
+                            </Animation>
+                        </Animations>
+                        <Element TextureFilename="ToggleOn.png" Type="2" Name="Checked" ID="519" Dimension="0.066667, 0.096875" IsPassive="T" />
+                    </Element>
+                    <Element Text="$(OnText)" TextScale="0.55" Type="1" Name="TipsCheckboxLabel" ID="521" Anchor="0.000000, -0.079688" Dimension="0.070835, 0.048959" IsPassive="T" Tint="192, 192, 192, 255" Expansion="0.308000, 0.000000" Tracking="-14" Leading="37" Font="StencilWhite01.asc" />
+                </Element>
+            </Element>
+            <Element TextureFilename="Trans.png" Type="2" Name="VibrateGroup" ID="251" Anchor="-0.038542, -0.206250" Dimension="0.263141, 0.122245" Visible="F" IsPassive="T" Expansion="1.000000, 1.000000">
+                <Element TextureFilename="SlotClose.png" Type="2" Name="VibrateCheckboxShadow" ID="252" Anchor="0.141667, 0.000000" Dimension="0.075748, 0.109375" IsPassive="T" Expansion="1.000000, 1.000000" PixelFormat="2">
+                    <Element TextureFilename="Button02_Shadow.jpg" Type="2" Name="Shadow" ID="527" Anchor="0.000000, -0.004687" Dimension="0.069792, 0.108333" IsPassive="T" BlendState="3" />
+                    <Element CheckboxChecked="T" DisabledTextureFilename="ToggleOff.png" HighlightedTextureFilename="Button06_Glow.png" TextureFilename="ToggleOff.png" Type="5" Name="VibrateCheckbox" ID="253" Dimension="0.066667, 0.096875" IsPassive="T" Expansion="0.923000, 0.385000" HorizontalScale="1.71212" VerticalScale="1.65625">
+                        <Animations>
+                            <Animation Name="VibrateChecked">
+                                <Track ID="4" Type="9">
+                                    <TrackKey ID="0" Time="0" Value="togglevibrateenabled" />
+                                </Track>
+                            </Animation>
+                        </Animations>
+                        <Element TextureFilename="ToggleOn.png" Type="2" Name="Checked" ID="510" Dimension="0.066667, 0.096875" IsPassive="T" />
+                    </Element>
+                    <Element Text="On" TextScale="0.55" Type="1" Name="VibrateCheckboxLabel" ID="523" Anchor="0.000000, -0.081250" Dimension="0.070835, 0.048959" Visible="F" IsPassive="T" Tint="192, 192, 192, 255" Expansion="0.308000, 0.000000" Tracking="-14" Leading="37" Font="StencilWhite01.asc" />
+                </Element>
+                <Element Text="$(VibrationText):" TextScale="0.55" Type="1" Name="VibrateLabel" ID="256" Anchor="0.000000, -0.001563" Dimension="0.287501, 0.044792" IsPassive="T" Tracking="-7" Leading="47" Font="StencilGray01.asc" />
+            </Element>
+            <Element TextureFilename="SlotClose.png" Type="2" Name="CloseButtonGroup" ID="471" Anchor="0.204167, 0.339062" Dimension="0.078436, 0.116145" IsPassive="T" Expansion="1.000000, 1.000000" PixelFormat="2">
+                <Element TextureFilename="Button02_Shadow.jpg" Type="2" Name="Shadow" ID="524" Anchor="0.000000, -0.001563" Dimension="0.070313, 0.108333" IsPassive="T" BlendState="3" />
+                <Element PressedTextureFilename="Button02_Pressed.png" HighlightedTextureFilename="Button02_Glow.png" TextureFilename="Button02.png" Type="3" Name="CloseButton" ID="475" Dimension="0.067708, 0.098438" Expansion="1.000000, 1.000000" HorizontalScale="1.33846" VerticalScale="1.34921">
+                    <Animations>
+                        <Animation Name="Closeform">
+                            <Track ID="23" Type="9">
+                                <TrackKey ID="0" Time="0.434375" Value="popform" />
+                            </Track>
+                        </Animation>
+                    </Animations>
+                </Element>
+            </Element>
+            <Element Text="$(OptionsText)" Type="1" Name="OptionsLabel" ID="479" Anchor="0.000000, 0.342188" Dimension="0.397917, 0.067735" IsPassive="T" Tracking="-7" Leading="47" Font="StencilYellow10.asc" />
+            <Element TextureFilename="Trans.png" Type="2" Name="ProgressionGroup" ID="528" Anchor="0.000000, -0.335937" Dimension="0.394097, 0.097396" IsPassive="T">
+                <Element TextureFilename="ButtonSlot02.png" Type="2" Name="ButtonSlot" ID="529" Dimension="0.394792, 0.110937" IsPassive="T" PixelFormat="2" />
+                <Element TextureFilename="Button15_Shadow.jpg" Type="2" Name="ButtonShadow" ID="531" Anchor="0.000000, -0.004688" Dimension="0.397222, 0.114583" IsPassive="T" BlendState="3" />
+                <Element PressedTextureFilename="Button15_Pressed.jpg" HighlightedTextureFilename="Button15_Glow.jpg" TextureFilename="Button15.jpg" Type="3" Name="ProgressionButton" ID="530" Dimension="0.385417, 0.098958" HorizontalScale="1.07027" VerticalScale="1.31429" InactiveTint="128, 128, 128, 255">
+                    <Animations>
+                        <Animation Name="ResetProgressionTrigger">
+                            <Track ID="32" Type="9">
+                                <TrackKey ID="0" Time="0" Value="pushform NotificationBox.form DeleteProfileConfirm" />
+                            </Track>
+                        </Animation>
+                    </Animations>
+                </Element>
+                <Element Text="$(ResetProgressionText)" TextScale="0.6" Type="1" Name="ProgressionLabel" ID="532" Dimension="0.361250, 0.042736" IsPassive="T" Tracking="-7" Leading="47" TranslateOnce="T" Font="StencilYellow10.asc" />
+            </Element>
+            <Element TextureFilename="Trans.png" Type="2" Name="Smoke" ID="533" Dimension="0.523264, 0.366146" IsPassive="T">
+                <Element Type="7" Name="ParticleSystem::534" ID="535" Anchor="0.283333, 0.082812" Dimension="1.020834, 1.020834" Rotation="-1.39486" IsPassive="T" Filename="UI_Panel_Hit.fx">
+                    <Animations>
+                        <Animation Name="OpenForm">
+                            <Track ID="33" Type="8">
+                                <TrackKey ID="0" Time="0" Value="3" />
+                                <TrackKey ID="1" Time="0.30625" Value="1" />
+                                <TrackKey ID="2" Time="0.359375" />
+                            </Track>
+                        </Animation>
+                    </Animations>
+                </Element>
+                <Element Type="7" Name="ParticleSystem::534" ID="536" Anchor="-0.283333, 0.089062" Dimension="1.020834, 1.020834" Rotation="1.39486" IsPassive="T" Filename="UI_Panel_Hit.fx">
+                    <Animations>
+                        <Animation Name="OpenForm">
+                            <Track ID="33" Type="8">
+                                <TrackKey ID="0" Time="0" Value="3" />
+                                <TrackKey ID="1" Time="0.325" Value="1" />
+                                <TrackKey ID="2" Time="0.365625" />
+                            </Track>
+                        </Animation>
+                    </Animations>
+                </Element>
+            </Element>
+        </Element>
+    </FormRoot>
+    <AnimationTriggers>
+        <AnimationTrigger Event="Touch Clicked (UI Only)" Data="475" Animation="Closeform" />
+        <AnimationTrigger Event="Touch Clicked (UI Only)" Data="253" Animation="VibrateChecked" />
+        <AnimationTrigger Event="Touch Clicked (UI Only)" Data="246" Animation="ResetTips" />
+        <AnimationTrigger Event="Touches Moved (UI Only)" Data="440" Animation="SoundsDrag" />
+        <AnimationTrigger Event="Touches Ended (UI Only)" Data="445" Animation="GridDrag" />
+        <AnimationTrigger Event="Touch Clicked (UI Only)" Data="518" Animation="TipsChecked" />
+        <AnimationTrigger Event="Touch Clicked (UI Only)" Data="530" Animation="ResetProgressionTrigger" />
+    </AnimationTriggers>
+</Form>

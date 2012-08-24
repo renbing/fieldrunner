@@ -1,0 +1,195 @@
+<!--Copyright 2012 Subatomic Studios, LLC. All rights reserved.-->
+<Form Name="PackBuyConfirm" BasePlatform="2" Version="77" FormType="1" ClassType="5">
+    <FormRoot Name="Element">
+        <Element TextureFilename="BGBlack.jpg" Type="2" Name="BGTint" ID="449" Anchor="0.500000, 0.498437" Dimension="1.000000, 1.000000" IsPassive="T" Tint="255, 255, 255, 0" ResizeBias="0">
+            <Animations>
+                <Animation Name="CloseFormTrigger">
+                    <Track ID="4" Type="5">
+                        <TrackKey ID="0" Time="0" Value="179" />
+                        <TrackKey ID="1" Time="0.25625" />
+                    </Track>
+                </Animation>
+                <Animation Name="OpenFormAnimation">
+                    <Track ID="1" Type="5">
+                        <TrackKey ID="0" Time="0" />
+                        <TrackKey ID="1" Time="0.15625" Value="211" />
+                    </Track>
+                </Animation>
+            </Animations>
+        </Element>
+        <Element TextureFilename="Editor_Element.png" Type="2" Name="BuyPackDialog" ID="374" Anchor="0.500000, -0.526562" Dimension="0.806663, 0.932553" IsPassive="T" Tint="255, 255, 255, 0" Expansion="0.154000, 0.000000">
+            <Animations>
+                <Animation Name="CloseFormTrigger">
+                    <Track ID="3" Type="1">
+                        <TrackKey ID="0" Time="0" Value="0.500000, 0.523438" />
+                        <TrackKey ID="1" Time="0.053125" Value="0.500000, 0.421825" />
+                        <TrackKey ID="2" Time="0.240625" Value="0.500000, -0.526562" />
+                    </Track>
+                </Animation>
+                <Animation Name="OpenFormAnimation">
+                    <Track ID="2" Type="1">
+                        <TrackKey ID="0" Time="0.165625" Value="0.500000, 1.554687" />
+                        <TrackKey ID="1" Time="0.43125" Value="0.500000, 0.492188" />
+                        <TrackKey ID="2" Time="0.5" Value="0.500000, 0.523438" />
+                    </Track>
+                </Animation>
+            </Animations>
+            <Element TextureFilename="" Type="2" Name="ProductGroupRoot" ID="462" Anchor="0.000000, -0.090625" Dimension="0.950273, 0.819793" IsPassive="T" Tint="255, 255, 255, 0" RelativeScale="0.9">
+                <Element Type="2" Name="StoreItems" ID="683" Anchor="0.000000, -0.093750" Dimension="0.974149, 0.671355" IsPassive="T" Tint="255, 255, 255, 0">
+                    <Element Type="2" Name="JointGroups" ID="874" Dimension="0.950000, 0.635417" IsPassive="T" Tint="255, 255, 255, 0">
+                        <Element Type="2" Name="Panel::875" ID="875" Anchor="0.244792, 0.164063" Dimension="0.493750, 0.279167" IsPassive="T" Tint="255, 255, 255, 0">
+                            <Element TextureFilename="pause_chain.jpg" Type="2" Name="Panel::933" ID="933" Anchor="-0.157292, 0.207813" Dimension="0.030208, 0.200000" IsPassive="T" />
+                            <Element TextureFilename="pause_chain.jpg" Type="2" Name="Panel::933" ID="934" Anchor="0.163542, 0.201562" Dimension="0.030208, 0.200000" IsPassive="T" />
+                            <Element TextureFilename="MetalPole.jpg" Type="2" Name="Panel::876" ID="876" Anchor="-0.157292, -0.026563" Dimension="0.045833, 0.400000" IsPassive="T" MirrorMode="1">
+                                <Element TextureFilename="Joint01B.jpg" Type="2" Name="Panel::878" ID="878" Anchor="-0.001042, -0.100000" Dimension="0.030988, 0.111979" Rotation="1.5708" IsPassive="T" MirrorMode="1" />
+                                <Element TextureFilename="Joint01B.jpg" Type="2" Name="Panel::878" ID="879" Anchor="-0.001042, 0.154687" Dimension="0.030988, 0.111979" Rotation="1.5708" IsPassive="T" />
+                            </Element>
+                            <Element TextureFilename="MetalPole.jpg" Type="2" Name="Panel::876" ID="880" Anchor="0.163542, -0.026563" Dimension="0.045833, 0.400000" IsPassive="T" MirrorMode="1">
+                                <Element TextureFilename="Joint01B.jpg" Type="2" Name="Panel::878" ID="881" Anchor="-0.001042, -0.100000" Dimension="0.030988, 0.111979" Rotation="1.5708" IsPassive="T" MirrorMode="1" />
+                                <Element TextureFilename="Joint01B.jpg" Type="2" Name="Panel::878" ID="882" Anchor="-0.001042, 0.154687" Dimension="0.030988, 0.111979" Rotation="1.5708" IsPassive="T" />
+                            </Element>
+                            <Element TextureFilename="Button02_Shadow.jpg" Type="2" Name="Panel::909" ID="909" Anchor="0.000000, -0.007813" Dimension="0.499219, 0.285417" IsPassive="T" BlendState="3" />
+                        </Element>
+                        <Element Type="2" Name="Panel::875" ID="883" Anchor="-0.244792, 0.164063" Dimension="0.493750, 0.279167" IsPassive="T" Tint="255, 255, 255, 0">
+                            <Element TextureFilename="pause_chain.jpg" Type="2" Name="Panel::933" ID="936" Anchor="-0.158333, 0.193750" Dimension="0.030208, 0.200000" IsPassive="T" />
+                            <Element TextureFilename="pause_chain.jpg" Type="2" Name="Panel::933" ID="935" Anchor="0.162500, 0.207813" Dimension="0.030208, 0.200000" IsPassive="T" />
+                            <Element TextureFilename="MetalPole.jpg" Type="2" Name="Panel::876" ID="884" Anchor="-0.158334, -0.026563" Dimension="0.045833, 0.400000" IsPassive="T" MirrorMode="1">
+                                <Element TextureFilename="Joint01B.jpg" Type="2" Name="Panel::878" ID="885" Anchor="-0.001042, -0.100000" Dimension="0.030988, 0.111979" Rotation="1.5708" IsPassive="T" MirrorMode="1" />
+                                <Element TextureFilename="Joint01B.jpg" Type="2" Name="Panel::878" ID="886" Anchor="-0.001042, 0.154687" Dimension="0.030988, 0.111979" Rotation="1.5708" IsPassive="T" />
+                            </Element>
+                            <Element TextureFilename="MetalPole.jpg" Type="2" Name="Panel::876" ID="887" Anchor="0.161459, -0.026563" Dimension="0.045833, 0.400000" IsPassive="T" MirrorMode="1">
+                                <Element TextureFilename="Joint01B.jpg" Type="2" Name="Panel::878" ID="888" Anchor="-0.001042, -0.100000" Dimension="0.030988, 0.111979" Rotation="1.5708" IsPassive="T" MirrorMode="1" />
+                                <Element TextureFilename="Joint01B.jpg" Type="2" Name="Panel::878" ID="889" Anchor="-0.001042, 0.154687" Dimension="0.030988, 0.111979" Rotation="1.5708" IsPassive="T" />
+                            </Element>
+                            <Element TextureFilename="Button02_Shadow.jpg" Type="2" Name="Panel::909" ID="910" Anchor="0.000000, -0.009375" Dimension="0.499219, 0.285417" IsPassive="T" BlendState="3" />
+                        </Element>
+                        <Element Type="2" Name="Panel::875" ID="890" Anchor="0.243750, -0.164063" Dimension="0.493750, 0.279167" IsPassive="T" Tint="255, 255, 255, 0">
+                            <Element TextureFilename="MetalPole.jpg" Type="2" Name="Panel::876" ID="891" Anchor="-0.157292, -0.026563" Dimension="0.052083, 0.400000" IsPassive="T" Tint="255, 255, 255, 0" MirrorMode="1">
+                                <Element TextureFilename="Joint01B.jpg" Type="2" Name="Panel::878" ID="892" Anchor="0.000000, -0.100000" Dimension="0.030988, 0.111979" Rotation="1.5708" IsPassive="T" MirrorMode="1" />
+                                <Element TextureFilename="Joint01B.jpg" Type="2" Name="Panel::878" ID="893" Anchor="0.000000, 0.154687" Dimension="0.030988, 0.111979" Rotation="1.5708" IsPassive="T" />
+                            </Element>
+                            <Element TextureFilename="MetalPole.jpg" Type="2" Name="Panel::876" ID="894" Anchor="0.163542, -0.026563" Dimension="0.052083, 0.400000" IsPassive="T" Tint="255, 255, 255, 0" MirrorMode="1">
+                                <Element TextureFilename="Joint01B.jpg" Type="2" Name="Panel::878" ID="895" Anchor="0.000000, -0.100000" Dimension="0.030988, 0.111979" Rotation="1.5708" IsPassive="T" MirrorMode="1" />
+                                <Element TextureFilename="Joint01B.jpg" Type="2" Name="Panel::878" ID="896" Anchor="0.000000, 0.154687" Dimension="0.030988, 0.111979" Rotation="1.5708" IsPassive="T" />
+                            </Element>
+                            <Element TextureFilename="Button02_Shadow.jpg" Type="2" Name="Panel::909" ID="911" Anchor="0.000000, -0.007813" Dimension="0.499219, 0.285417" IsPassive="T" BlendState="3" />
+                        </Element>
+                        <Element Type="2" Name="Panel::875" ID="897" Anchor="-0.246875, -0.164063" Dimension="0.493750, 0.279167" IsPassive="T" Tint="255, 255, 255, 0">
+                            <Element TextureFilename="MetalPole.jpg" Type="2" Name="Panel::876" ID="898" Anchor="-0.157292, -0.026563" Dimension="0.052083, 0.400000" IsPassive="T" Tint="255, 255, 255, 0" MirrorMode="1">
+                                <Element TextureFilename="Joint01B.jpg" Type="2" Name="Panel::878" ID="899" Anchor="0.000000, -0.100000" Dimension="0.030988, 0.111979" Rotation="1.5708" IsPassive="T" MirrorMode="1" />
+                                <Element TextureFilename="Joint01B.jpg" Type="2" Name="Panel::878" ID="900" Anchor="0.000000, 0.154687" Dimension="0.030988, 0.111979" Rotation="1.5708" IsPassive="T" />
+                            </Element>
+                            <Element TextureFilename="MetalPole.jpg" Type="2" Name="Panel::876" ID="901" Anchor="0.163542, -0.026563" Dimension="0.052083, 0.400000" IsPassive="T" Tint="255, 255, 255, 0" MirrorMode="1">
+                                <Element TextureFilename="Joint01B.jpg" Type="2" Name="Panel::878" ID="902" Anchor="0.000000, -0.100000" Dimension="0.030988, 0.111979" Rotation="1.5708" IsPassive="T" MirrorMode="1" />
+                                <Element TextureFilename="Joint01B.jpg" Type="2" Name="Panel::878" ID="903" Anchor="0.000000, 0.154687" Dimension="0.030988, 0.111979" Rotation="1.5708" IsPassive="T" />
+                            </Element>
+                            <Element TextureFilename="Button02_Shadow.jpg" Type="2" Name="Panel::909" ID="912" Anchor="0.000000, -0.007813" Dimension="0.499219, 0.285417" IsPassive="T" BlendState="3" />
+                        </Element>
+                    </Element>
+                    <Element Type="2" Name="SUBABUCK_1000" ID="704" Anchor="-0.244791, 0.164063" Dimension="0.479166, 0.271355" IsPassive="T" Tint="255, 255, 255, 0">
+                        <Element Type="10" Name="Panel" ID="805" Dimension="0.454167, 0.246355" IsPassive="T" />
+                        <Element Type="2" Name="Bolts" ID="810" Dimension="0.460417, 0.250000" IsPassive="T" Tint="255, 255, 255, 0">
+                            <Element TextureFilename="Bolt01.jpg" Type="2" Name="Panel::811" ID="811" Anchor="-0.203125, 0.085938" Dimension="0.016667, 0.025000" IsPassive="T" PixelFormat="2" />
+                            <Element TextureFilename="Bolt01.jpg" Type="2" Name="Panel::811" ID="812" Anchor="-0.202083, -0.084375" Dimension="0.016667, 0.025000" IsPassive="T" PixelFormat="2" />
+                            <Element TextureFilename="Bolt01.jpg" Type="2" Name="Panel::811" ID="813" Anchor="0.205208, 0.089062" Dimension="0.016667, 0.025000" IsPassive="T" PixelFormat="2" />
+                            <Element TextureFilename="Bolt01.jpg" Type="2" Name="Panel::811" ID="827" Anchor="0.203125, -0.085938" Dimension="0.016667, 0.025000" IsPassive="T" PixelFormat="2" />
+                        </Element>
+                        <Element TextureFilename="OptionsSliderOval.png" Type="2" Name="LineBG" ID="782" Anchor="0.000000, 0.056250" Dimension="0.376652, 0.064063" IsPassive="T" BlendState="3" />
+                        <Element Text="Bucket of Coins" TextScale="0.7" Type="1" Name="Title" ID="806" Anchor="0.000000, 0.056249" Dimension="0.400833, 0.055236" IsPassive="T" Tracking="-12" Leading="47" TranslateOnce="T" Font="StencilGray01.asc" />
+                        <Element Text="~1,000" TextScale="0.65" Type="1" Name="Quantity" ID="705" Anchor="-0.083334, -0.039062" Dimension="0.210416, 0.048986" IsPassive="T" Alignment="0" Tracking="-7" Leading="47" TranslateOnce="T" Font="StencilYellow10.asc" />
+                        <Element TextureFilename="ButtonSlot.png" Type="2" Name="CashBuyButton" ID="728" Anchor="0.096875, -0.037500" Dimension="0.185417, 0.110937" IsPassive="T">
+                            <Element TextureFilename="Button07Shaddow.jpg" Type="2" Name="Shadow" ID="809" Dimension="0.189603, 0.117708" IsPassive="T" BlendState="3" />
+                            <Element PressedTextureFilename="Button07_Pressed.jpg" HighlightedTextureFilename="Button07_Glow.jpg" TextureFilename="Button07.jpg" Type="3" Name="BuyButton" ID="828" Dimension="0.179869, 0.103125" HorizontalScale="1.07111" VerticalScale="1.2093" />
+                            <Element Text="$0.99" TextScale="0.7" Type="1" Name="Cost" ID="729" Dimension="0.147321, 0.051069" IsPassive="T" Tracking="-7" Leading="47" NumericCommas="F" TranslateOnce="T" Font="StencilYellow10.asc" />
+                        </Element>
+                    </Element>
+                    <Element Type="2" Name="SUBABUCK_5000" ID="829" Anchor="0.244792, 0.164063" Dimension="0.479166, 0.271355" IsPassive="T" Tint="255, 255, 255, 0">
+                        <Element Type="10" Name="Panel" ID="830" Dimension="0.454167, 0.246355" IsPassive="T" />
+                        <Element Type="2" Name="Bolts" ID="831" Dimension="0.460417, 0.250000" IsPassive="T" Tint="255, 255, 255, 0">
+                            <Element TextureFilename="Bolt01.jpg" Type="2" Name="Panel::811" ID="832" Anchor="-0.203125, 0.085938" Dimension="0.016667, 0.025000" IsPassive="T" PixelFormat="2" />
+                            <Element TextureFilename="Bolt01.jpg" Type="2" Name="Panel::811" ID="833" Anchor="-0.202083, -0.084375" Dimension="0.016667, 0.025000" IsPassive="T" PixelFormat="2" />
+                            <Element TextureFilename="Bolt01.jpg" Type="2" Name="Panel::811" ID="834" Anchor="0.205208, 0.089062" Dimension="0.016667, 0.025000" IsPassive="T" PixelFormat="2" />
+                            <Element TextureFilename="Bolt01.jpg" Type="2" Name="Panel::811" ID="835" Anchor="0.203125, -0.085938" Dimension="0.016667, 0.025000" IsPassive="T" PixelFormat="2" />
+                        </Element>
+                        <Element TextureFilename="OptionsSliderOval.png" Type="2" Name="LineBG" ID="836" Anchor="0.000000, 0.056250" Dimension="0.376652, 0.064063" IsPassive="T" BlendState="3" />
+                        <Element Text="Coin Reserves" TextScale="0.7" Type="1" Name="Title" ID="837" Anchor="0.000000, 0.056249" Dimension="0.400833, 0.055236" IsPassive="T" Tracking="-12" Leading="47" TranslateOnce="T" Font="StencilGray01.asc" />
+                        <Element Text="~5,000" TextScale="0.65" Type="1" Name="Quantity" ID="838" Anchor="-0.083334, -0.039062" Dimension="0.210416, 0.048986" IsPassive="T" Alignment="0" Tracking="-7" Leading="47" TranslateOnce="T" Font="StencilYellow10.asc" />
+                        <Element TextureFilename="ButtonSlot.png" Type="2" Name="CashBuyButton" ID="839" Anchor="0.096875, -0.037500" Dimension="0.185417, 0.110937" IsPassive="T">
+                            <Element TextureFilename="Button07Shaddow.jpg" Type="2" Name="Shadow" ID="840" Dimension="0.189603, 0.117708" IsPassive="T" BlendState="3" />
+                            <Element PressedTextureFilename="Button07_Pressed.jpg" HighlightedTextureFilename="Button07_Glow.jpg" TextureFilename="Button07.jpg" Type="3" Name="BuyButton" ID="841" Dimension="0.179869, 0.103125" HorizontalScale="1.07111" VerticalScale="1.2093" />
+                            <Element Text="$1.99" TextScale="0.7" Type="1" Name="Cost" ID="842" Dimension="0.147321, 0.051069" IsPassive="T" Tracking="-7" Leading="47" NumericCommas="F" TranslateOnce="T" Font="StencilYellow10.asc" />
+                        </Element>
+                    </Element>
+                    <Element Type="2" Name="SUBABUCK_75000" ID="857" Anchor="-0.244792, -0.164063" Dimension="0.479166, 0.271355" IsPassive="T" Tint="255, 255, 255, 0">
+                        <Element Type="10" Name="Panel" ID="858" Dimension="0.454167, 0.246355" IsPassive="T" />
+                        <Element Type="2" Name="Bolts" ID="859" Dimension="0.460417, 0.250000" IsPassive="T" Tint="255, 255, 255, 0">
+                            <Element TextureFilename="Bolt01.jpg" Type="2" Name="Panel::811" ID="860" Anchor="-0.203125, 0.085938" Dimension="0.016667, 0.025000" IsPassive="T" PixelFormat="2" />
+                            <Element TextureFilename="Bolt01.jpg" Type="2" Name="Panel::811" ID="861" Anchor="-0.202083, -0.084375" Dimension="0.016667, 0.025000" IsPassive="T" PixelFormat="2" />
+                            <Element TextureFilename="Bolt01.jpg" Type="2" Name="Panel::811" ID="862" Anchor="0.205208, 0.089062" Dimension="0.016667, 0.025000" IsPassive="T" PixelFormat="2" />
+                            <Element TextureFilename="Bolt01.jpg" Type="2" Name="Panel::811" ID="863" Anchor="0.203125, -0.085938" Dimension="0.016667, 0.025000" IsPassive="T" PixelFormat="2" />
+                        </Element>
+                        <Element TextureFilename="OptionsSliderOval.png" Type="2" Name="LineBG" ID="864" Anchor="0.000000, 0.056250" Dimension="0.376652, 0.064063" IsPassive="T" BlendState="3" />
+                        <Element Text="Military Budget" TextScale="0.7" Type="1" Name="Title" ID="865" Anchor="0.000000, 0.056249" Dimension="0.400833, 0.055236" IsPassive="T" Tracking="-12" Leading="47" TranslateOnce="T" Font="StencilGray01.asc" />
+                        <Element Text="~75,000" TextScale="0.65" Type="1" Name="Quantity" ID="866" Anchor="-0.083334, -0.039062" Dimension="0.210416, 0.048986" IsPassive="T" Alignment="0" Tracking="-7" Leading="47" TranslateOnce="T" Font="StencilYellow10.asc" />
+                        <Element TextureFilename="ButtonSlot.png" Type="2" Name="CashBuyButton" ID="867" Anchor="0.096875, -0.037500" Dimension="0.185417, 0.110937" IsPassive="T">
+                            <Element TextureFilename="Button07Shaddow.jpg" Type="2" Name="Shadow" ID="868" Dimension="0.189603, 0.117708" IsPassive="T" BlendState="3" />
+                            <Element PressedTextureFilename="Button07_Pressed.jpg" HighlightedTextureFilename="Button07_Glow.jpg" TextureFilename="Button07.jpg" Type="3" Name="BuyButton" ID="869" Dimension="0.179869, 0.103125" HorizontalScale="1.07111" VerticalScale="1.2093" />
+                            <Element Text="$7.99" TextScale="0.7" Type="1" Name="Cost" ID="870" Dimension="0.147321, 0.051069" IsPassive="T" Tracking="-7" Leading="47" NumericCommas="F" TranslateOnce="T" Font="StencilYellow10.asc" />
+                        </Element>
+                    </Element>
+                    <Element Type="2" Name="SUBABUCK_250000" ID="843" Anchor="0.244792, -0.164063" Dimension="0.479166, 0.271355" IsPassive="T" Tint="255, 255, 255, 0">
+                        <Element Type="10" Name="Panel" ID="844" Dimension="0.454167, 0.246355" IsPassive="T" />
+                        <Element Type="2" Name="Bolts" ID="845" Dimension="0.460417, 0.250000" IsPassive="T" Tint="255, 255, 255, 0">
+                            <Element TextureFilename="Bolt01.jpg" Type="2" Name="Panel::811" ID="846" Anchor="-0.203125, 0.085938" Dimension="0.016667, 0.025000" IsPassive="T" PixelFormat="2" />
+                            <Element TextureFilename="Bolt01.jpg" Type="2" Name="Panel::811" ID="847" Anchor="-0.202083, -0.084375" Dimension="0.016667, 0.025000" IsPassive="T" PixelFormat="2" />
+                            <Element TextureFilename="Bolt01.jpg" Type="2" Name="Panel::811" ID="848" Anchor="0.205208, 0.089062" Dimension="0.016667, 0.025000" IsPassive="T" PixelFormat="2" />
+                            <Element TextureFilename="Bolt01.jpg" Type="2" Name="Panel::811" ID="849" Anchor="0.203125, -0.085938" Dimension="0.016667, 0.025000" IsPassive="T" PixelFormat="2" />
+                        </Element>
+                        <Element TextureFilename="OptionsSliderOval.png" Type="2" Name="LineBG" ID="850" Anchor="0.000000, 0.056250" Dimension="0.376652, 0.064063" IsPassive="T" BlendState="3" />
+                        <Element Text="All of the coins" TextScale="0.7" Type="1" Name="Title" ID="851" Anchor="0.000000, 0.056249" Dimension="0.400833, 0.055236" IsPassive="T" Tracking="-12" Leading="47" TranslateOnce="T" Font="StencilGray01.asc" />
+                        <Element Text="~250,000" TextScale="0.65" Type="1" Name="Quantity" ID="852" Anchor="-0.083334, -0.039062" Dimension="0.210416, 0.048986" IsPassive="T" Alignment="0" Tracking="-7" Leading="47" TranslateOnce="T" Font="StencilYellow10.asc" />
+                        <Element TextureFilename="ButtonSlot.png" Type="2" Name="CashBuyButton" ID="853" Anchor="0.096875, -0.037500" Dimension="0.185417, 0.110937" IsPassive="T">
+                            <Element TextureFilename="Button07Shaddow.jpg" Type="2" Name="Shadow" ID="854" Dimension="0.189603, 0.117708" IsPassive="T" BlendState="3" />
+                            <Element PressedTextureFilename="Button07_Pressed.jpg" HighlightedTextureFilename="Button07_Glow.jpg" TextureFilename="Button07.jpg" Type="3" Name="BuyButton" ID="855" Dimension="0.179869, 0.103125" HorizontalScale="1.07111" VerticalScale="1.2093" />
+                            <Element Text="$9.99" TextScale="0.7" Type="1" Name="Cost" ID="856" Dimension="0.147321, 0.051069" IsPassive="T" Tracking="-7" Leading="47" NumericCommas="F" TranslateOnce="T" Font="StencilYellow10.asc" />
+                        </Element>
+                    </Element>
+                </Element>
+            </Element>
+            <Element Type="10" Name="TitleGroup" ID="916" Anchor="0.000000, 0.304688" Dimension="0.943649, 0.243750" IsPassive="T" Tint="255, 255, 255, 0" WidthTiling="3">
+                <Element TextureFilename="Button07Shaddow.jpg" Type="2" Name="Panel::941" ID="941" Dimension="1.014635, 0.292709" IsPassive="T" BlendState="3" />
+                <Element Type="10" Name="ResizablePanel::940" ID="940" Dimension="0.942708, 0.243750" IsPassive="T" WidthTiling="3" />
+                <Element Text="Buy subacoins to up your tower and item aresenal." TextScale="0.8" Type="1" Name="Label::917" ID="917" Anchor="0.000000, -0.059375" Dimension="0.880000, 0.028153" IsPassive="T" Tracking="1" Leading="34" TranslateOnce="T" Font="ArialWhite03.asc" />
+                <Element TextureFilename="Vents02.jpg" Type="2" Name="Panel::918" ID="918" Anchor="-0.408333, -0.068750" Dimension="0.075979, 0.060417" IsPassive="T" />
+                <Element TextureFilename="Vents02.jpg" Type="2" Name="Panel::918" ID="919" Anchor="0.412500, -0.068750" Dimension="0.075979, 0.060417" IsPassive="T" />
+                <Element TextureFilename="Trans.png" Type="2" Name="SubacoinSlot" ID="920" Anchor="0.252084, 0.028125" Dimension="0.196875, 0.076563" IsPassive="T">
+                    <Element TextureFilename="SlotMoney.png" Type="2" Name="SlotBG" ID="921" Dimension="0.222917, 0.079687" IsPassive="T" />
+                    <Element Text="~$(Subabucks)" TextScale="0.55" Type="1" Name="SubabucksLabel" ID="922" Anchor="0.002083, 0.000000" Dimension="0.194584, 0.038569" IsPassive="T" Alignment="0" Tracking="-7" Leading="47" Font="StencilYellow10.asc" />
+                </Element>
+                <Element Type="2" Name="CancelButtonGroup" ID="923" Anchor="0.411459, 0.029688" Dimension="0.106884, 0.136459" IsPassive="T" Tint="255, 255, 255, 0">
+                    <Element TextureFilename="SlotClose.png" Type="2" Name="Slot" ID="924" Dimension="0.081250, 0.120312" IsPassive="T" SetChildrenAlpha="T" />
+                    <Element PressedTextureFilename="Button02_Pressed.png" HighlightedTextureFilename="Button02_Glow.png" TextureFilename="Button02.png" Type="3" Name="CancelButton" ID="925" Dimension="0.067708, 0.098438" HorizontalScale="1.4" VerticalScale="1.44444">
+                        <Animations>
+                            <Animation Name="CloseFormTrigger">
+                                <Track ID="0" Type="9">
+                                    <TrackKey ID="0" Time="0.278125" Value="popform" />
+                                </Track>
+                            </Animation>
+                        </Animations>
+                        <SoundMapRoot>
+                            <SoundEvent EventTrigger="Touches Ended (UI Only)" SoundEventFullPath="UI/Menu/Button_Press_Back" />
+                        </SoundMapRoot>
+                    </Element>
+                </Element>
+                <Element Type="2" Name="TitleGroup" ID="926" Anchor="-0.290625, 0.035937" Dimension="0.264584, 0.107292" IsPassive="T" Tint="255, 255, 255, 0">
+                    <Element TextureFilename="Title01.png" Type="2" Name="BG" ID="927" Anchor="0.000000, -0.004687" Dimension="0.309491, 0.118750" IsPassive="T" />
+                    <Element Text="Coin Shop" TextScale="0.9" Type="1" Name="Title" ID="928" Anchor="0.001042, -0.010938" Dimension="0.355000, 0.076070" IsPassive="T" Tracking="-7" Leading="47" TranslateOnce="T" Font="StencilYellow10.asc" />
+                </Element>
+            </Element>
+        </Element>
+    </FormRoot>
+    <AnimationTriggers>
+        <AnimationTrigger Event="Form Opened (UI Only)" Data="1073741824" Animation="OpenFormAnimation" />
+        <AnimationTrigger Event="Touch Clicked (UI Only)" Data="925" Animation="CloseFormTrigger" />
+    </AnimationTriggers>
+</Form>

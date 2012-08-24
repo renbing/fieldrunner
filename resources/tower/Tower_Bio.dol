@@ -1,0 +1,14 @@
+<Doll>
+    <Sprites defaultAnimationSetName="level1" defaultAnimationName="run">
+        <Sprite filename="Tower_Bio_Base.asc" attachToTag="" sortToParentDepth="F">
+            <Particles>
+                <ParticleSystem filename="Tower_Transition_Placed.fx" attachToTag="anchor" actorEvent="3" actorEventParameter="" animationSet="" />
+                <ParticleSystem filename="Tower_Transition_Upgrade.fx" attachToTag="anchor" actorEvent="5" actorEventParameter="" animationSet="" />
+                <ParticleSystem filename="Tower_Transition_Upgrade.fx" attachToTag="anchor" actorEvent="5" actorEventParameter="" animationSet="" />
+            </Particles>
+            <Sprite filename="Tower_Bio_Turret.asc" attachToTag="anchor" sortToParentDepth="T">
+                <Particles />
+            </Sprite>
+        </Sprite>
+    </Sprites>
+</Doll>

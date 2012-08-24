@@ -1,0 +1,30 @@
+<!--Copyright 2012 Subatomic Studios, LLC. All rights reserved.-->
+<Form Name="" BasePlatform="2" Version="74" PassTouches="T">
+    <FormRoot Name="Element">
+        <Element PanelSkin="UnitNoteBox.asc" Type="10" Name="EntryPanel" ID="2" Anchor="0.497917, 1.110937" Dimension="0.543750, 0.221353" Margin="1" PixelFormat="2">
+            <Animations>
+                <Animation Name="FormExit">
+                    <Track ID="12" Type="1">
+                        <TrackKey ID="0" Time="0" Value="0.497917, 0.876562" />
+                        <TrackKey ID="1" Time="0.25625" Value="0.497917, 1.157812" />
+                    </Track>
+                </Animation>
+                <Animation Name="FormEntry">
+                    <Track ID="0" Type="9">
+                        <TrackKey ID="0" Time="4.99375" Value="playuianimation Tutorial2PuzzleTwoSteps.form FormExit" />
+                    </Track>
+                    <Track ID="10" Type="1">
+                        <TrackKey ID="0" Time="0" Value="0.497917, 1.110937" />
+                        <TrackKey ID="1" Time="0.240625" Value="0.497917, 0.876562" />
+                    </Track>
+                </Animation>
+            </Animations>
+            <Element Text="$(TipC1StepsText)" TextScale="0.7" Type="1" Name="Text" ID="3" Anchor="0.004166, -0.032811" Dimension="0.441667, 0.086487" IsPassive="T" Tint="205, 220, 230, 255" Alignment="0" Tracking="-7" Leading="38" Font="ArialWhite05.asc" />
+            <Element Text="$(TipC1StepsTitle)" TextScale="0.7" Type="1" Name="Title" ID="19" Anchor="0.003125, 0.039062" Dimension="0.559123, 0.067736" IsPassive="T" Tracking="-11" Leading="47" TranslateOnce="T" Font="StencilYellow10.asc" />
+        </Element>
+    </FormRoot>
+    <AnimationTriggers>
+        <AnimationTrigger Event="Touches Ended (UI Only)" Data="2" Animation="FormExit" />
+        <AnimationTrigger Event="Form Activated (UI Only)" Data="1073741824" Animation="FormEntry" />
+    </AnimationTriggers>
+</Form>

@@ -1,0 +1,172 @@
+<!--Copyright 2012 Subatomic Studios, LLC. All rights reserved.-->
+<Form Name="" BasePlatform="2" Version="77" PassTouches="T" FormType="1" ClassType="14">
+    <FormRoot Name="Element">
+        <Element TextureFilename="BGTint.png" Type="2" Name="BG" ID="5" Anchor="0.500000, 0.925000" Dimension="1.000000, 0.185417" Visible="F" IsPassive="T" Tint="192, 192, 192, 255" />
+        <Element Type="2" Name="NavGroup" ID="98" Anchor="0.457292, 1.084375" Dimension="1.008333, 0.106250" IsPassive="T" Tint="255, 255, 255, 0" RelativeScale="1.3" Expansion="1.000000, 0.744000">
+            <Animations>
+                <Animation Name="CloseFormTrigger">
+                    <Track ID="11" Type="1">
+                        <TrackKey ID="0" Time="0.196875" Value="0.457292, 0.943750" />
+                        <TrackKey ID="1" Time="0.446875" Value="0.457292, 1.084375" />
+                    </Track>
+                    <Track ID="12" Type="11">
+                        <TrackKey ID="0" Time="0.20625" Value="1" />
+                        <TrackKey ID="1" Time="0.740625" Value="1.25" />
+                    </Track>
+                </Animation>
+                <Animation Name="OpenForm">
+                    <Track ID="8" Type="1">
+                        <TrackKey ID="0" Time="0.390625" Value="0.457292, 1.084375" />
+                        <TrackKey ID="1" Time="0.484375" Value="0.457292, 0.943750" />
+                    </Track>
+                    <Track ID="9" Type="11">
+                        <TrackKey ID="0" Time="0" Value="1.3" />
+                        <TrackKey ID="1" Time="0.484375" Value="1" />
+                    </Track>
+                </Animation>
+            </Animations>
+            <Element Type="2" Name="CloseButtonGroup" ID="99" Anchor="0.444791, 0.000000" Dimension="0.072917, 0.109375" IsPassive="T" Tint="255, 255, 255, 0" Expansion="1.000000, 1.000000" Margin="2">
+                <Element TextureFilename="SlotClose.png" Type="2" Name="Slot" ID="100" Dimension="0.075622, 0.111979" IsPassive="T" PixelFormat="2" />
+                <Element PressedTextureFilename="Button02_Pressed.png" HighlightedTextureFilename="Button02_Glow.png" TextureFilename="Button02.png" Type="3" Name="XButton" ID="101" Dimension="0.067708, 0.098438" Expansion="1.000000, 1.000000" HorizontalScale="1.4" VerticalScale="1.44444">
+                    <Animations>
+                        <Animation Name="CloseFormTrigger">
+                            <Track ID="1" Type="9">
+                                <TrackKey ID="0" Time="0" Value="playuianimation top CloseForm" />
+                                <TrackKey ID="1" Time="1" Value="popform | popform" />
+                            </Track>
+                        </Animation>
+                    </Animations>
+                    <SoundMapRoot>
+                        <SoundEvent EventTrigger="Touches Began (UI Only)" SoundEventFullPath="UI/Menu/Button_Press_Down" />
+                        <SoundEvent EventTrigger="Touches Ended (UI Only)" SoundEventFullPath="UI/Menu/Button_Press_Back" />
+                    </SoundMapRoot>
+                </Element>
+            </Element>
+            <Element Type="2" Name="MetalBarGroup" ID="102" Dimension="1.114583, 0.090625" IsPassive="T" Tint="255, 255, 255, 0" Margin="1">
+                <Element TextureFilename="TabBG.png" Type="2" Name="MetalBar" ID="103" Anchor="-0.202083, 0.000000" Dimension="0.669791, 0.114063" IsPassive="T" Margin="2" PixelFormat="2" />
+                <Element TextureFilename="TabBG02.png" Type="2" Name="02" ID="104" Anchor="0.256250, 0.000000" Dimension="0.266667, 0.114063" IsPassive="T" PixelFormat="2" />
+            </Element>
+            <Element Type="2" Name="TabDownGroup" ID="105" Anchor="-0.021875, -0.007812" Dimension="0.839584, 0.121875" IsPassive="T" Tint="255, 255, 255, 0" Margin="8">
+                <Element TextureFilename="Trans.png" Type="2" Name="GlobalDownGroup" ID="106" Anchor="0.232291, 0.000000" Dimension="0.273611, 0.138542" IsPassive="T">
+                    <Element TextureFilename="TabDown.png" Type="3" Name="GlobalDownButton" ID="107" Anchor="0.000000, 0.018750" Dimension="0.291667, 0.092188" Expansion="-0.128000, 0.872000">
+                        <Animations>
+                            <Animation Name="GlobalTrigger">
+                                <Track ID="4" Type="9">
+                                    <TrackKey ID="0" Time="0" Value="applyuiformargs ScoresNav.form Global" />
+                                </Track>
+                            </Animation>
+                        </Animations>
+                        <SoundMapRoot>
+                            <SoundEvent EventTrigger="Touches Ended (UI Only)" SoundEventFullPath="UI/Menu/Button_Tab" />
+                        </SoundMapRoot>
+                    </Element>
+                    <Element Text="$(GlobalScoresText)" TextScale="0.6" Type="1" Name="GlobalDownLabel" ID="108" Anchor="0.000000, -0.006250" Dimension="0.283553, 0.046875" IsPassive="T" Tint="192, 192, 192, 255" Tracking="-11" Leading="47" TranslateOnce="T" Font="StencilYellow10.asc" />
+                </Element>
+                <Element TextureFilename="Trans.png" Type="2" Name="LocalDownGroup" ID="109" Anchor="-0.041666, 0.000000" Dimension="0.290278, 0.138542" IsPassive="T">
+                    <Element TextureFilename="TabDown.png" Type="3" Name="LocalDownButton" ID="110" Anchor="0.000000, 0.018750" Dimension="0.291667, 0.092188" Expansion="-0.128000, 0.821000">
+                        <Animations>
+                            <Animation Name="LocalTrigger">
+                                <Track ID="3" Type="9">
+                                    <TrackKey ID="0" Time="0" Value="applyuiformargs ScoresNav.form Local" />
+                                </Track>
+                            </Animation>
+                        </Animations>
+                        <SoundMapRoot>
+                            <SoundEvent EventTrigger="Touches Ended (UI Only)" SoundEventFullPath="UI/Menu/Button_Tab" />
+                        </SoundMapRoot>
+                    </Element>
+                    <Element Text="$(LocalScoresText)" TextScale="0.6" Type="1" Name="LocalDownLabel" ID="111" Anchor="0.000000, -0.006250" Dimension="0.229387, 0.046875" IsPassive="T" Tint="192, 192, 192, 255" Tracking="-11" Leading="47" TranslateOnce="T" Font="StencilYellow10.asc" />
+                </Element>
+                <Element TextureFilename="Trans.png" Type="2" Name="CardsDownGroup" ID="112" Anchor="-0.297916, 0.000000" Dimension="0.256945, 0.134375" IsPassive="T">
+                    <Element TextureFilename="TabDown.png" Type="3" Name="CardsDownButton" ID="113" Anchor="0.000000, 0.018750" Dimension="0.252084, 0.092188" Expansion="-0.231000, 0.872000">
+                        <Animations>
+                            <Animation Name="CardsTrigger">
+                                <Track ID="2" Type="9">
+                                    <TrackKey ID="0" Time="0" Value="applyuiformargs ScoresNav.form Cards" />
+                                </Track>
+                            </Animation>
+                        </Animations>
+                        <SoundMapRoot>
+                            <SoundEvent EventTrigger="Touches Ended (UI Only)" SoundEventFullPath="UI/Menu/Button_Tab" />
+                        </SoundMapRoot>
+                    </Element>
+                    <Element Text="$(CardsText)" TextScale="0.6" Type="1" Name="CardsDownLabel" ID="114" Anchor="0.000000, -0.006250" Dimension="0.229387, 0.046875" IsPassive="T" Tint="192, 192, 192, 255" Tracking="-11" Leading="47" TranslateOnce="T" Font="StencilYellow10.asc" />
+                </Element>
+            </Element>
+            <Element Type="2" Name="TabUpGroup" ID="115" Anchor="-0.013542, -0.023437" Dimension="0.847917, 0.151042" IsPassive="T" Tint="255, 255, 255, 0" Margin="8">
+                <Element Type="2" Name="GlobalUpGroup" ID="116" Anchor="0.222917, 0.000000" Dimension="0.275000, 0.170833" IsPassive="T" Tint="255, 255, 255, 0">
+                    <Element TextureFilename="TabUp.png" Type="3" Name="GlobalUpButton" ID="117" Anchor="0.000000, 0.023438" Dimension="0.278125, 0.112500" IsPassive="T" Expansion="-0.051000, 0.000000" Dithered="T" />
+                    <Element Text="$(GlobalScoresText)" TextScale="0.6" Type="1" Name="GlobalUpLabel" ID="118" Anchor="0.000000, 0.014063" Dimension="0.259778, 0.046875" IsPassive="T" Tracking="-11" Leading="47" TranslateOnce="T" Font="StencilYellow10.asc" />
+                </Element>
+                <Element Type="2" Name="LocalUpGroup" ID="119" Anchor="-0.052084, 0.000000" Dimension="0.277083, 0.189583" IsPassive="T" Tint="255, 255, 255, 0">
+                    <Element TextureFilename="TabUp.png" Type="3" Name="LocalUpButton" ID="120" Anchor="0.000000, 0.023438" Dimension="0.278125, 0.112500" IsPassive="T" Expansion="-0.077000, 0.000000" Dithered="T" />
+                    <Element Text="$(LocalScoresText)" TextScale="0.6" Type="1" Name="LocalUpLabel" ID="121" Anchor="0.000000, 0.010937" Dimension="0.286458, 0.046903" IsPassive="T" Tracking="-11" Leading="47" TranslateOnce="T" Font="StencilYellow10.asc" />
+                </Element>
+                <Element Type="2" Name="CardsUpGroup" ID="122" Anchor="-0.307292, 0.000000" Dimension="0.238443, 0.172917" IsPassive="T" Tint="255, 255, 255, 0">
+                    <Element TextureFilename="TabUp.png" Type="3" Name="CardsUpButton" ID="123" Anchor="0.000000, 0.023438" Dimension="0.240625, 0.112500" IsPassive="T" Expansion="-0.077000, 0.000000" Dithered="T" />
+                    <Element Text="$(CardsText)" TextScale="0.6" Type="1" Name="CardsUpLabel" ID="124" Anchor="0.000000, 0.010937" Dimension="0.226042, 0.046875" IsPassive="T" Tracking="-11" Leading="47" TranslateOnce="T" Font="StencilYellow10.asc" />
+                </Element>
+            </Element>
+        </Element>
+        <Element TextureFilename="Trans.png" Type="2" Name="Glows" ID="125" Anchor="0.500000, 0.500000" Dimension="1.000000, 1.000000" IsPassive="T" Tint="255, 255, 255, 0" ResizeBias="0">
+            <Animations>
+                <Animation Name="OpenForm">
+                    <Track ID="92" Type="9">
+                        <TrackKey ID="0" Time="0" Value="playuianimation IdleGlows" />
+                    </Track>
+                </Animation>
+                <Animation Name="IdleGlows">
+                    <Track ID="91" Type="9">
+                        <TrackKey ID="0" Time="5.9" Value="playuianimation IdleGlows" />
+                    </Track>
+                </Animation>
+            </Animations>
+            <Element TextureFilename="Glow_Orange.JPG" Type="2" Name="OrangeGlow" ID="126" Anchor="0.173958, -0.223438" Dimension="0.654167, 0.560938" IsPassive="T" Tint="255, 255, 255, 0" BlendState="5" ResizeBias="0" Margin="4">
+                <Animations>
+                    <Animation Name="CloseFormTrigger">
+                        <Track ID="94" Type="1">
+                            <TrackKey ID="0" Time="0" Value="0.173958, -0.223438" />
+                            <TrackKey ID="1" Time="0.35625" Value="0.808333, -0.810938" />
+                        </Track>
+                    </Animation>
+                    <Animation Name="IdleGlows">
+                        <Track ID="88" Type="1">
+                            <TrackKey ID="0" Time="0" Value="0.173958, -0.223438" />
+                        </Track>
+                        <Track ID="89" Type="5">
+                            <TrackKey ID="0" Time="0" />
+                            <TrackKey ID="1" Time="3" Value="255" />
+                            <TrackKey ID="2" Time="6" />
+                        </Track>
+                    </Animation>
+                </Animations>
+            </Element>
+            <Element TextureFilename="Glow_Blue.JPG" Type="2" Name="BlueGlow" ID="127" Anchor="-0.019792, -0.018750" Dimension="0.958333, 1.046875" IsPassive="T" Tint="255, 255, 255, 0" BlendState="5" ResizeBias="0" Margin="8">
+                <Animations>
+                    <Animation Name="CloseFormTrigger">
+                        <Track ID="95" Type="1">
+                            <TrackKey ID="0" Time="0" Value="-0.019792, -0.018750" />
+                            <TrackKey ID="1" Time="0.365625" Value="-0.875001, 1.070313" />
+                        </Track>
+                    </Animation>
+                    <Animation Name="IdleGlows">
+                        <Track ID="90" Type="5">
+                            <TrackKey ID="0" Time="0" />
+                            <TrackKey ID="1" Time="3" Value="255" />
+                            <TrackKey ID="2" Time="6" />
+                        </Track>
+                        <Track ID="96" Type="1">
+                            <TrackKey ID="0" Time="0" Value="-0.019792, -0.018750" />
+                        </Track>
+                    </Animation>
+                </Animations>
+            </Element>
+        </Element>
+    </FormRoot>
+    <AnimationTriggers>
+        <AnimationTrigger Event="Touch Clicked (UI Only)" Data="101" Animation="CloseFormTrigger" />
+        <AnimationTrigger Event="Touch Clicked (UI Only)" Data="107" Animation="GlobalTrigger" />
+        <AnimationTrigger Event="Touch Clicked (UI Only)" Data="110" Animation="LocalTrigger" />
+        <AnimationTrigger Event="Touch Clicked (UI Only)" Data="113" Animation="CardsTrigger" />
+    </AnimationTriggers>
+</Form>

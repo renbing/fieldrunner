@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<ui>
+	<!--ENERGY,GOLD,CASH,LEVEL-->
+	<!--
+	<control type="button" name="global_energy_panel" background="energyPanel" x="472" y="-2" addchild="0" />		
+	-->
+	
+	<control type="dialog" name="global_top_button_dialog" addchild="1" >
+			<control type="static" name="yellow_diamond_gift_perday_icon" background="everyday_diamond_icon_1" addchild="1" x="3" y="40" playbg="1" >
+			<function evttype="click" callback="OnYellowDiamondGiftPerdayBtn" />
+		</control>
+		
+		<control type="static" name="yellow_diamond_gift_perday_icon_close" background="everyday_diamond_icon_2" addchild="1" x="3" y="40" >
+		<function evttype="click" callback="OnYellowDiamondGiftPerdayFinishBtn" />		
+		</control>
+		
+		<control type="static" name="yellow_diamond_gift_newcomer_icon" background="novice_diamond_icon_1" addchild="1" x="3" y="40" playbg="1" >
+			<function evttype="click" callback="OnYellowDiamondGiftNewComerBtn" />		
+		</control>		
+		<control type="static" name="yellow_diamond_gift_newcomer_icon_close" background="novice_diamond_icon_2" addchild="1" x="3" y="40" >
+			<function evttype="click" callback="OnYellowDiamondGiftNewComerFinishBtn" />
+		</control>
+	
+	<control type="button" name="global_panel_bg" background="globalPanel_bg" x="1" y="3" addchild="1" >
+	</control>
+	
+	<control type="button" name="global_level_panel" background="levelPanel" x="2" y="1" addchild="1" >
+		<!--	
+		<text mainname="levelText" subname="" filtercolor="0" textcolor="0xffffff" />
+		-->
+		<function evttype="rollOver" callback="OnRollOverGlobalPanel" />
+		<function evttype="rollOut" callback="OnRollOutGlobalPanel" />
+	</control>
+	
+	<control type="button" name="global_food_panel" background="foodPanel" x="273" y="10" addchild="1" >		
+		<!--
+		<text mainname="foodText" subname="" filtercolor="0" textcolor="0xffffff" />
+		-->
+		<function evttype="rollOver" callback="OnRollOverGlobalPanel" />
+		<function evttype="rollOut" callback="OnRollOutGlobalPanel" />
+	</control>
+	<control type="button" name="global_gold_panel" background="goldPanel" x="135" y="8" addchild="1" >
+		<!--
+		<text mainname="goldText" subname="" filtercolor="0" textcolor="0xffffff" />
+		-->
+		<function evttype="rollOver" callback="OnRollOverGlobalPanel" />
+		<function evttype="rollOut" callback="OnRollOutGlobalPanel" />
+	</control>
+	<control type="button" name="global_cash_panel" background="cashPanel" x="150" y="8" addchild="1" >
+		<!--	
+		<text mainname="cashText" subname="" filtercolor="0" textcolor="0xffffff" />
+		-->
+		<function evttype="rollOver" callback="OnRollOverGlobalPanel" />
+		<function evttype="rollOut" callback="OnRollOutGlobalPanel" />
+	</control>
+	
+	
+	
+	<control type="dialog" name="global_power_panel" background="energyPanel" x="658" y="3" addchild="1" >	
+		<!--	
+		<text mainname="energyText" subname="" filtercolor="0" textcolor="0xffffff" />
+		-->
+		<function evttype="rollOver" callback="OnRollOverGlobalPanel" />
+		<function evttype="rollOut" callback="OnRollOutGlobalPanel" />
+	</control>
+	
+	<control type="dialog" name="global_population_panel" background="populousPanel" x="366" y="10" addchild="1" >		
+	    <!--
+		<control type="static" name="global_population_btn2" background="populousBtn2" x="108.6" y="2.8" addchild="1" buttonmode="1" />		
+		<control type="static" name="global_population_btn1" background="populousBtn1" x="108.6" y="2.8" addchild="1" buttonmode="1" />
+		<function evttype="click" callback="OnClickGlobalPopulationPanel" />
+		<text mainname="populousText" subname="" select="0" filtercolor="0" textcolor="0xffffff" />
+		-->
+		<function evttype="rollOver" callback="OnRollOverGlobalPanel" />
+		<function evttype="rollOut" callback="OnRollOutGlobalPanel" />
+	</control>
+	<control type="static" name="global_soldier_panel" background="soldierPanel" x="463" y="10" addchild="1" >
+		<!--
+		<text mainname="soldierText" subname="" select="0" filtercolor="0" textcolor="0xffffff" />
+		<text mainname="bruiseText" subname="" select="0" filtercolor="0" textcolor="0xffffff" />		
+		-->
+		<function evttype="rollOver" callback="OnRollOverGlobalPanel" />
+		<function evttype="rollOut" callback="OnRollOutGlobalPanel" />
+	</control>
+	
+	<control type="button" name="global_paycash_btn" background="icon_paycash" x="30" y="50" addchild="0" >	
+		<function evttype="click" callback="OnPayCashButton" />
+	</control>
+	
+	</control>
+	<!--
+	<control type="button" name="global_getEnergy_btn" background="icon_getEnergy" x="472" y="50" addchild="0" >
+		<function evttype="click" callback="OnGetEnergyButton" />
+	</control>
+	-->
+	<control type="dialog" name="globa_bottom_button_dialog" addchild="0" >
+	
+	<control type="button" name="global_build_btn" background="icon_build" x="409" y="496" addchild="1" buttonmode="1" >	
+		<function evttype="click" callback="OnGlobalBuildButton" />
+	</control>
+	<control type="button" name="global_hero_btn" background="icon_hero" x="449" y="492" addchild="1" buttonmode="1" >	
+		<function evttype="click" callback="OnGlobalHeroButton" />
+	</control>
+	<control type="button" name="global_fighting_btn" background="icon_fighting" x="491" y="496" addchild="1" buttonmode="1" >	
+		<function evttype="click" callback="OnGlobalFightingButton" />
+	</control>
+	<control type="button" name="global_shop_btn" background="icon_shop" x="532" y="501" addchild="1" buttonmode="1" >	
+		<function evttype="click" callback="OnGlobalShopButton" />
+	</control>
+	<control type="button" name="global_item_btn" background="icon_goods" x="573" y="498" addchild="1" buttonmode="1" >	
+		<function evttype="click" callback="OnGlobalItemButton" />	
+	</control>	
+	<control type="button" name="global_mining_btn" background="icon_mining" x="658" y="502" addchild="1" buttonmode="1" >	
+		<function evttype="click" callback="OnGlobalMiningButton" />
+	</control>
+	<control type="button" name="global_battle_report_btn" background="battle_report_icon" x="619" y="502" addchild="1" buttonmode="1" >	
+		<function evttype="click" callback="OnGlobalBattleReportButton" />
+	</control>
+	<control type="button" name="global_announce_btn" background="announcement_btn" x="620" y="43" addchild="1" buttonmode="1" >	
+		<function evttype="click" callback="OnGlobalAnnounceButton" />
+	</control>
+	<control type="button" name="global_home_btn" background="icon_home" x="630" y="482" addchild="1" anibutton="1" buttonmode="1" >	
+		<function evttype="click" callback="OnGlobalHomeButton" />
+	</control>
+	<control type="button" name="global_message_btn" background="messageIcon" x="580" y="482" addchild="1" buttonmode="1" >	
+		<function evttype="click" callback="OnGlobalMessageButton" />
+	</control>
+	</control>
+	
+	<control type="dialog" name="globa_side_button_dialog" addchild="0" >
+	<control type="button" name="global_zoom_out_btn" background="zoomOut_1" x="737" y="59" addchild="1" buttonmode="1" >	
+		<function evttype="click" callback="OnGlobalZoomOut" />	
+		<function evttype="rollOver" callback="OnRollOverGlobalButton" />
+		<function evttype="rollOut" callback="OnRollOutGlobalButton" />
+	</control>
+	<control type="button" name="global_zoom_in_btn" background="zoomIn_1" x="737" y="59" addchild="1" buttonmode="1" >	
+		<function evttype="click" callback="OnGlobalZoomIn" />	
+		<function evttype="rollOver" callback="OnRollOverGlobalButton" />
+		<function evttype="rollOut" callback="OnRollOutGlobalButton" />
+	</control>
+	<control type="button" name="global_fullscreen_btn" background="fullScreen" x="737" y="80" addchild="1" buttonmode="1" >	
+		<function evttype="click" callback="OnSwitchWindow" />	
+		<function evttype="rollOver" callback="OnRollOverGlobalButton" />
+		<function evttype="rollOut" callback="OnRollOutGlobalButton" />
+	</control>
+	<control type="button" name="global_window_btn" background="offFullScreen" x="737" y="80" addchild="1" buttonmode="1" >	
+		<function evttype="click" callback="OnSwitchWindow" />	
+		<function evttype="rollOver" callback="OnRollOverGlobalButton" />
+		<function evttype="rollOut" callback="OnRollOutGlobalButton" />
+	</control>
+	<control type="button" name="global_music_btn" background="music" x="737" y="101" addchild="1" buttonmode="1" >	
+		<function evttype="click" callback="OnSwitchMusic" />	
+		<function evttype="rollOver" callback="OnRollOverGlobalButton" />
+		<function evttype="rollOut" callback="OnRollOutGlobalButton" />
+	</control>
+	<control type="button" name="global_off_music_btn" background="offMusic" x="737" y="101" addchild="1" buttonmode="1" >	
+		<function evttype="click" callback="OnSwitchMusic" />	
+		<function evttype="rollOver" callback="OnRollOverGlobalButton" />
+		<function evttype="rollOut" callback="OnRollOutGlobalButton" />
+	</control>
+	<control type="button" name="global_sfx_music_btn" background="sfxMusic" x="737" y="121" addchild="1" buttonmode="1" >	
+		<function evttype="click" callback="OnSwitchSFX" />	
+		<function evttype="rollOver" callback="OnRollOverGlobalButton" />
+		<function evttype="rollOut" callback="OnRollOutGlobalButton" />
+	</control>
+	<control type="button" name="global_off_sfx_music_btn" background="offSfxMusic" x="737" y="121" addchild="1" buttonmode="1" >	
+		<function evttype="click" callback="OnSwitchSFX" />	
+		<function evttype="rollOver" callback="OnRollOverGlobalButton" />
+		<function evttype="rollOut" callback="OnRollOutGlobalButton" />
+	</control>
+	</control>
+	<!-- End -->	
+	
+	<!--MESSAGEBOX-->	
+	<control type="dialog" name="messagebox_dialog" background="common_messagebox" x="0" y="0" width="300" height="260" bgcolor="0xcccccc" addchild="0" >
+		<text mainname="messagebox_text" subname="" textcolor="0" align="left" />
+		<control type="text" name="messagebox_content" x="30" y="60" width="315" height="100" fontsize="18" bgcolor="0xcccccc" textcolor="0x753002" align="left" font="" addchild="1" filter="0" filtercolor="0" drawrect="0" mouseenable="0" mousechild="0"/>
+	</control> 
+	
+	<control type="dialog" name="global_population_panel_tip" width="280" height="20" drawrect="1" bgcolor="0xcccccc" addchild="0" mouseenable="0" mousechild="0" >
+		<control type="text" name="global_population_panel_tip_content" content="" x="5" y="0" width="280" height="20" fontsize="16" bgcolor="0xcccccc" textcolor="0xffffff" filtercolor="0xff000000" align="left" font="" addchild="1" filter="1" />
+	</control>
+	<!--End-->	
+	
+	<!--Round Menu -->
+	<control type="dialog" name="round_menu_dialog" background="ringBg" x="" y="" width="250" height="250" drawrect="0" addchild="0" >
+		<control type="text" name="round_menu_dialog_content" content="" background="" x="0" y="60" fontsize="16" textcolor="0xffffff" filtercolor="0" width="160" height="20" multiline="1" addchild="1" align="center" font="" filter="1" />
+		<control type="text" name="round_menu_dialog_hint" content="" background="" x="20" y="80" fontsize="13" textcolor="0xffffff" filtercolor="0x0" width="120" height="20" multiline="1" addchild="1" align="center" font="" filter="1" />
+		
+		<function evttype="click" callback="OnClickButtonNull" />
+	</control>
+	
+	<control type="dialog" name="loading_dialog" background="ringBg" x="" y="" width="250" height="250" drawrect="0" addchild="0" >				
+		<control type="text" name="loading_dialog_content" content="" background="" x="30" y="200" fontsize="16" textcolor="0" filtercolor="0xffffff" width="180" height="70" multiline="1" addchild="1" align="center" font="" pos="center" filter="1" />
+	</control>
+	
+	<!--End-->
+	
+	<!--Round Menu Icon-->	
+	<control type="button" name="extra_harvest_icon" background="addHarvestIcon" x="300" y="300" addchild="0" >
+		<function evttype="click" callback="OnClickBuildingRoundMenuButton" />
+		<function evttype="rollOver" callback="OnRollOverRounMenuButton" />
+		<function evttype="rollOut" callback="OnRollOutRounMenuButton" />
+	</control>
+	<control type="button" name="harvest_hurryup_icon" background="preemptiveIcon" x="100" y="200" addchild="0" >
+		<function evttype="click" callback="OnClickBuildingRoundMenuButton" />
+		<function evttype="rollOver" callback="OnRollOverRounMenuButton" />
+		<function evttype="rollOut" callback="OnRollOutRounMenuButton" />
+	</control>
+	
+	<control type="button" name="garrison_icon" background="garrisonIcon" x="200" y="100" addchild="0" >
+		<function evttype="click" callback="OnClickBuildingRoundMenuButton" />
+		<function evttype="rollOver" callback="OnRollOverRounMenuButton" />
+		<function evttype="rollOut" callback="OnRollOutRounMenuButton" />
+	</control>
+	
+	<control type="button" name="retreat_icon" background="garrisonIcon" x="200" y="100" addchild="0" >
+		<function evttype="click" callback="OnClickBuildingRoundMenuButton" />
+		<function evttype="rollOver" callback="OnRollOverRounMenuButton" />
+		<function evttype="rollOut" callback="OnRollOutRounMenuButton" />
+	</control>
+	
+	<control type="button" name="retreat_icon" background="retreatIcon" x="200" y="100" addchild="0" >
+		<function evttype="click" callback="OnClickBuildingRoundMenuButton" />
+		<function evttype="rollOver" callback="OnRollOverRounMenuButton" />
+		<function evttype="rollOut" callback="OnRollOutRounMenuButton" />
+	</control>
+	
+		<control type="button" name="resist_icon" background="resistIcon" x="200" y="100" addchild="0" >
+		<function evttype="click" callback="OnClickBuildingRoundMenuButton" />
+		<function evttype="rollOver" callback="OnRollOverRounMenuButton" />
+		<function evttype="rollOut" callback="OnRollOutRounMenuButton" />
+	</control>
+	
+	<control type="button" name="train_soldier_icon" background="drillIcon" x="200" y="200" addchild="0" >
+		<function evttype="click" callback="OnClickBuildingRoundMenuButton" />
+		<function evttype="rollOver" callback="OnRollOverRounMenuButton" />
+		<function evttype="rollOut" callback="OnRollOutRounMenuButton" />
+	</control>  
+	
+	<control type="button" name="enter_building_icon" background="enterIcon" x="" y="" addchild="0" >
+		<function evttype="click" callback="OnClickBuildingRoundMenuButton" />
+		<function evttype="rollOver" callback="OnRollOverRounMenuButton" />
+		<function evttype="rollOut" callback="OnRollOutRounMenuButton" />
+	</control>
+	
+	<control type="button" name="treat_soldier_icon" background="treatIcon" x="200" y="200" addchild="0" >
+		<function evttype="click" callback="OnClickBuildingRoundMenuButton" />
+		<function evttype="rollOver" callback="OnRollOverRounMenuButton" />
+		<function evttype="rollOut" callback="OnRollOutRounMenuButton" />
+	</control>
+	
+	<control type="button" name="plant_building_icon" background="growIcon" x="" y="" addchild="0" >
+		<function evttype="click" callback="OnClickBuildingRoundMenuButton" />
+		<function evttype="rollOver" callback="OnRollOverRounMenuButton" />
+		<function evttype="rollOut" callback="OnRollOutRounMenuButton" />
+	</control>
+	
+	<control type="button" name="plant_building_icon" background="growIcon" x="" y="" addchild="0" >
+		<function evttype="click" callback="OnClickBuildingRoundMenuButton" />
+		<function evttype="rollOver" callback="OnRollOverRounMenuButton" />
+		<function evttype="rollOut" callback="OnRollOutRounMenuButton" />
+	</control>
+	
+	<control type="button" name="recover_crop_icon" background="saveplantIcon" x="" y="" addchild="0" >
+		<function evttype="click" callback="OnClickBuildingRoundMenuButton" />
+		<function evttype="rollOver" callback="OnRollOverRounMenuButton" />
+		<function evttype="rollOut" callback="OnRollOutRounMenuButton" />
+	</control>
+	
+	<control type="button" name="clear_crop_icon" background="cleanIcon" x="200" y="200" addchild="0" >
+		<function evttype="click" callback="OnClickBuildingRoundMenuButton" />
+		<function evttype="rollOver" callback="OnRollOverRounMenuButton" />
+		<function evttype="rollOut" callback="OnRollOutRounMenuButton" />
+	</control> 
+	
+	<control type="button" name="harvest_population_icon" background="recruitIcon" x="200" y="300" addchild="0" >
+		<function evttype="click" callback="OnClickBuildingRoundMenuButton" />
+		<function evttype="rollOver" callback="OnRollOverRounMenuButton" />
+		<function evttype="rollOut" callback="OnRollOutRounMenuButton" />
+	</control>
+			
+	<control type="button" name="levelup_icon" background="upIcon" x="300" y="100" addchild="0" >
+			<function evttype="click" callback="OnClickBuildingRoundMenuButton" />
+			<function evttype="rollOver" callback="OnRollOverRounMenuButton" />
+			<function evttype="rollOut" callback="OnRollOutRounMenuButton" />
+	</control>
+	
+	<control type="button" name="leveldown_icon" background="downIcon" x="300" y="100" addchild="0" >
+			<function evttype="click" callback="OnClickBuildingRoundMenuButton" />
+			<function evttype="rollOver" callback="OnRollOverRounMenuButton" />
+			<function evttype="rollOut" callback="OnRollOutRounMenuButton" />
+	</control>
+	
+	<control type="button" name="business_icon" background="businessIcon" x="300" y="100" addchild="0" >
+			<function evttype="click" callback="OnClickBuildingRoundMenuButton" />
+			<function evttype="rollOver" callback="OnRollOverRounMenuButton" />
+			<function evttype="rollOut" callback="OnRollOutRounMenuButton" />
+	</control>
+	
+	<control type="button" name="scout_icon" background="scoutIcon" x="300" y="100" addchild="0" >
+			<function evttype="click" callback="OnClickBuildingRoundMenuButton" />
+			<function evttype="rollOver" callback="OnRollOverRounMenuButton" />
+			<function evttype="rollOut" callback="OnRollOutRounMenuButton" />
+	</control>
+	
+	<control type="button" name="occupy_icon" background="occupantIcon2" x="300" y="100" addchild="0" >
+			<function evttype="click" callback="OnClickBuildingRoundMenuButton" />
+			<function evttype="rollOver" callback="OnRollOverRounMenuButton" />
+			<function evttype="rollOut" callback="OnRollOutRounMenuButton" />
+	</control>
+
+	<control type="button" name="save_icon" background="saveIcon" x="300" y="100" addchild="0" >
+			<function evttype="click" callback="OnClickBuildingRoundMenuButton" />
+			<function evttype="rollOver" callback="OnRollOverRounMenuButton" />
+			<function evttype="rollOut" callback="OnRollOutRounMenuButton" />
+	</control>
+
+	<control type="button" name="plunder_icon" background="plunderIcon" x="300" y="100" addchild="0" >
+			<function evttype="click" callback="OnClickBuildingRoundMenuButton" />
+			<function evttype="rollOver" callback="OnRollOverRounMenuButton" />
+			<function evttype="rollOut" callback="OnRollOutRounMenuButton" />
+	</control>
+	
+	<control type="button" name="drive_icon" background="driveIcon" x="300" y="100" addchild="0" >
+			<function evttype="click" callback="OnClickBuildingRoundMenuButton" />
+			<function evttype="rollOver" callback="OnRollOverRounMenuButton" />
+			<function evttype="rollOut" callback="OnRollOutRounMenuButton" />
+	</control>
+
+	<!-- not used-->
+	<control type="button" name="balance_icon" background="balanceIcon" x="300" y="100" addchild="0" />
+	<control type="button" name="fight_icon" background="fightIcon" x="300" y="100" addchild="0" />
+	<control type="button" name="occupy_panel" background="occupantPanel" x="300" y="100" addchild="0" />			
+	
+	<!--	drop icon
+	<control type="button" name="harvest_population_icon" background="harvestPopulousIcon" x="300" y="100" addchild="0" />
+	<control type="button" name="harvest_soldier_icon" background="harvestSoldierIcon" x="300" y="100" addchild="0" />
+	<control type="button" name="harvest_coinbag_icon" background="harvestPocketIcon" x="300" y="100" addchild="0" />
+	<control type="button" name="harvest_energy_icon" background="harvestEnergyIcon" x="300" y="100" addchild="0" />
+	<control type="button" name="harvest_coin_icon" background="harvestGoldIcon2" x="300" y="100" addchild="0" />
+	<control type="button" name="harvest_xp_icon" background="levelIcon1" x="300" y="100" addchild="0" />
+	 -->
+	  
+	<control type="static" name="harvest_resident" background="Npc07revenuePeople" x="0" y="0" addchild="0" />			
+	
+	<!-- End -->
+	<control type="dialog" name="global_building_tip" background="tipsPanel" width="200" height="60" drawrect="0" bgcolor="0xf0f0f0" addchild="0" mouseenable="0" mousechild="0" >
+		<text mainname="tipsText1" subname="" textcolor="0xffffffff" filtercolor="0" />
+		<text mainname="tipsText2" subname="" textcolor="0xffffffff" filtercolor="0" />
+		<text mainname="tipsText3" subname="" textcolor="0xffffffff" filtercolor="0" />	
+	</control>	
+	<control type="dialog" name="global_building_tip1" background="tipsPanel1" width="200" height="40" drawrect="0" bgcolor="0xf0f0f0" addchild="0" mouseenable="0" mousechild="0" >
+		<text mainname="tipsText1" subname="" textcolor="0xffffffff" filtercolor="0" />
+		<text mainname="tipsText2" subname="" textcolor="0xffffffff" filtercolor="0" />
+	</control>	
+	
+	<control type="dialog" name="global_panel_tips" background="global_panel_tips" x="" y="" width="170" height="60" addchild="0" drawrect="0" bgcolor="0xffffff" >
+		<control type="text" name="global_panel_tips_content" background="" x="5" y="2" width="160" height="55" addchild="1" drawrect="0" multiline="1" fontsize="13" textcolor="0" align="left" />		
+	</control>
+
+	<control type="dialog" name="global_panel_tips_power" background="global_panel_tips_power" x="" y="" width="170" height="125" addchild="0" drawrect="0" bgcolor="0xffffff" >
+		<control type="text" name="global_panel_tips_content" background="" x="5" y="2" width="160" height="120" addchild="1" drawrect="0" multiline="1" fontsize="13" textcolor="0" align="left" />		
+	</control>
+	
+	<control type="static" name="global_button_name_tip" background="tiny_tips" x="" y="" width="70" height="20" addchild="0" drawrect="0" bgcolor="0x90ffff" textcolor="0xffffff" fontsize="13" align="center" filter="1" >		
+	</control>
+	
+	<control type="dialog" name="plunder_button_name_tip" background="" x="" y="" width="160" height="74" addchild="0" drawrect="3" bgcolor="0xf0efe0" >
+		<control type="text" name="plunder_button_name_tip_content" background="" x="5" y="2" width="150" height="70" addchild="1" drawrect="0" bgcolor="0x90ffff" textcolor="0" fontsize="13" align="center" multiline="1" filter="0" />	
+	</control>	
+	
+	<control type="dialog" name="drive_button_name_tip" background="" x="" y="" width="100" height="44" addchild="0" drawrect="3" bgcolor="0xf0efe0" >
+		<control type="text" name="drive_button_name_tip_content" background="" x="5" y="2" width="90" height="40" addchild="1" drawrect="0" bgcolor="0x90ffff" textcolor="0" fontsize="13" align="center" multiline="1" filter="0" />
+	</control>
+	
+	<control type="dialog" name="harvest_combo" background="" x="" y="" width="120" height="44" addchild="0" drawrect="3" bgcolor="0xf0f0f0" >
+		<control type="text" name="harvest_combo_rank_text" background="" x="5" y="2" width="110" height="40" addchild="1" drawrect="0" bgcolor="0x90ffff" textcolor="0" fontsize="14" align="center" multiline="1" filter="1" filtercolor="0xff00" />
+	</control>
+	
+	<control type="static" name="notice_farm" background="notice_farm" addchild="0" buttonmode="1" />
+	<control type="static" name="notice_house" background="notice_house" addchild="0" buttonmode="1" />
+	<control type="static" name="notice_barrack" background="notice_barrack" addchild="0" buttonmode="1" />
+	<control type="static" name="notice_prison" background="notice_prison" addchild="0" buttonmode="1" />
+	<control type="static" name="notice_trainingfield" background="notice_trainingfield" addchild="0" buttonmode="1" />
+	<control type="static" name="notice_church" background="notice_church" addchild="0" buttonmode="1" />
+	
+	<control type="static" name="notice_tips" background="notice_tips" addchild="0" />
+	
+	<control type="dialog" name="yellow_diamond_gift_perday_dlg" background="everyday_present_panel_1" addchild="0" >
+		<control type="static" name="yellow_diamond_gift_perday_1" background="present_item_1" x="113" y="170" />
+		<control type="static" name="yellow_diamond_gift_perday_2" background="present_item_1" x="113" y="170" />
+		<control type="static" name="yellow_diamond_gift_perday_3" background="present_item_1" x="113" y="170" />
+		<control type="static" name="yellow_diamond_gift_perday_extra" background="present_item_1" x="371" y="170" />
+		<control type="button" name="" background="closeIcon" x="500" y="0" addchild="1" >
+			<function evttype="click" callback="OnCloseYellowDiamondGiftPerdayDlg" />
+		</control>
+	</control>
+	
+	<control type="dialog" name="yellow_diamond_gift_newcomer_dlg" background="novice_present_panel" addchild="0" >	
+		<control type="button" name="" background="closeIcon" x="480" y="0" addchild="1" >
+			<function evttype="click" callback="OnCloseYellowDiamondGiftPerdayDlg" />
+		</control>
+	</control>
+	
+	<control type="dialog" name="yellow_diamond_gift_tips_dlg" background="privilege_present_panel" addchild="0" >
+		<control type="button" name="" background="closeIcon" x="500" y="0" addchild="1" >
+			<function evttype="click" callback="OnCloseYellowDiamondGiftPerdayDlg" />
+		</control>
+	</control>
+	
+	<control type="dialog" name="yellow_diamond_gift_lvup_dlg" background="uplevel_present_panel" addchild="0" >
+		<control type="button" name="" background="closeIcon" x="450" y="0" addchild="1" >
+			<function evttype="click" callback="OnCloseYellowDiamondGiftPerdayDlg" />
+		</control>
+	</control>
+</ui>

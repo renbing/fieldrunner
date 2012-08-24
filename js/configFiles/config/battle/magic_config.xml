@@ -1,0 +1,1015 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+	<cardtype itemtype="9" itemid="1001" minlv="20" maxlv="29" cardnumber="3" cashtype="10" cashid="1" tip="使部队魔化为冰熊战士,并增加13点部队基础攻击力（非英雄攻击）,使用时效7天。">
+		<effect type="1" value="13"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1001" minlv="30" maxlv="39" cardnumber="5" cashtype="10" cashid="1" tip="使部队魔化为冰熊战士,并增加16点部队基础攻击力（非英雄攻击）,使用时效7天。">
+		<effect type="1" value="16"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1001" minlv="40" maxlv="49" cardnumber="7" cashtype="10" cashid="1" tip="使部队魔化为冰熊战士,并增加19点部队基础攻击力（非英雄攻击）,使用时效7天。">
+		<effect type="1" value="19"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1001" minlv="50" maxlv="59" cardnumber="9" cashtype="10" cashid="1" tip="使部队魔化为冰熊战士,并增加22点部队基础攻击力（非英雄攻击）,使用时效7天。">
+		<effect type="1" value="22"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1001" minlv="60" maxlv="69" cardnumber="11" cashtype="10" cashid="1" tip="使部队魔化为冰熊战士,并增加25点部队基础攻击力（非英雄攻击）,使用时效7天。">
+		<effect type="1" value="25"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1001" minlv="70" maxlv="79" cardnumber="13" cashtype="10" cashid="1" tip="使部队魔化为冰熊战士,并增加27点部队基础攻击力（非英雄攻击）,使用时效7天。">
+		<effect type="1" value="27"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1001" minlv="80" maxlv="89" cardnumber="15" cashtype="10" cashid="1" tip="使部队魔化为冰熊战士,并增加30点部队基础攻击力（非英雄攻击）,使用时效7天。">
+		<effect type="1" value="30"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1001" minlv="90" maxlv="99" cardnumber="17" cashtype="10" cashid="1" tip="使部队魔化为冰熊战士,并增加32点部队基础攻击力（非英雄攻击）,使用时效7天。">
+		<effect type="1" value="32"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1001" minlv="100" maxlv="109" cardnumber="19" cashtype="10" cashid="1" tip="使部队魔化为冰熊战士,并增加34点部队基础攻击力（非英雄攻击）,使用时效7天。">
+		<effect type="1" value="34"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1001" minlv="110" maxlv="119" cardnumber="21" cashtype="10" cashid="1" tip="使部队魔化为冰熊战士,并增加36点部队基础攻击力（非英雄攻击）,使用时效7天。">
+		<effect type="1" value="36"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1012" minlv="20" maxlv="29" cardnumber="3" cashtype="10" cashid="1" tip="使部队魔化为魔龙刀兵,并增加13点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="13"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1012" minlv="30" maxlv="39" cardnumber="5" cashtype="10" cashid="1" tip="使部队魔化为魔龙刀兵,并增加16点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="16"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1012" minlv="40" maxlv="49" cardnumber="7" cashtype="10" cashid="1" tip="使部队魔化为魔龙刀兵,并增加19点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="19"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1012" minlv="50" maxlv="59" cardnumber="9" cashtype="10" cashid="1" tip="使部队魔化为魔龙刀兵,并增加22点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="22"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1012" minlv="60" maxlv="69" cardnumber="11" cashtype="10" cashid="1" tip="使部队魔化为魔龙刀兵,并增加25点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="25"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1012" minlv="70" maxlv="79" cardnumber="13" cashtype="10" cashid="1" tip="使部队魔化为魔龙刀兵,并增加27点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="27"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1012" minlv="80" maxlv="89" cardnumber="15" cashtype="10" cashid="1" tip="使部队魔化为魔龙刀兵,并增加30点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="30"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1012" minlv="90" maxlv="99" cardnumber="17" cashtype="10" cashid="1" tip="使部队魔化为魔龙刀兵,并增加32点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="32"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1012" minlv="100" maxlv="109" cardnumber="19" cashtype="10" cashid="1" tip="使部队魔化为魔龙刀兵,并增加34点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="34"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1012" minlv="110" maxlv="119" cardnumber="21" cashtype="10" cashid="1" tip="使部队魔化为魔龙刀兵,并增加36点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="36"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1023" minlv="30" maxlv="39" cardnumber="5" cashtype="10" cashid="1" tip="使部队魔化为巨斧骷髅,并增加16点部队基础攻击力（非英雄攻击）,使用时效7天。">
+		<effect type="1" value="16"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1023" minlv="40" maxlv="49" cardnumber="7" cashtype="10" cashid="1" tip="使部队魔化为巨斧骷髅,并增加19点部队基础攻击力（非英雄攻击）,使用时效7天。">
+		<effect type="1" value="19"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1023" minlv="50" maxlv="59" cardnumber="9" cashtype="10" cashid="1" tip="使部队魔化为巨斧骷髅,并增加22点部队基础攻击力（非英雄攻击）,使用时效7天。">
+		<effect type="1" value="22"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1023" minlv="60" maxlv="69" cardnumber="11" cashtype="10" cashid="1" tip="使部队魔化为巨斧骷髅,并增加25点部队基础攻击力（非英雄攻击）,使用时效7天。">
+		<effect type="1" value="25"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1023" minlv="70" maxlv="79" cardnumber="13" cashtype="10" cashid="1" tip="使部队魔化为巨斧骷髅,并增加27点部队基础攻击力（非英雄攻击）,使用时效7天。">
+		<effect type="1" value="27"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1023" minlv="80" maxlv="89" cardnumber="15" cashtype="10" cashid="1" tip="使部队魔化为巨斧骷髅,并增加30点部队基础攻击力（非英雄攻击）,使用时效7天。">
+		<effect type="1" value="30"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1023" minlv="90" maxlv="99" cardnumber="17" cashtype="10" cashid="1" tip="使部队魔化为巨斧骷髅,并增加32点部队基础攻击力（非英雄攻击）,使用时效7天。">
+		<effect type="1" value="32"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1023" minlv="100" maxlv="109" cardnumber="19" cashtype="10" cashid="1" tip="使部队魔化为巨斧骷髅,并增加34点部队基础攻击力（非英雄攻击）,使用时效7天。">
+		<effect type="1" value="34"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1023" minlv="110" maxlv="119" cardnumber="21" cashtype="10" cashid="1" tip="使部队魔化为巨斧骷髅,并增加36点部队基础攻击力（非英雄攻击）,使用时效7天。">
+		<effect type="1" value="36"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1033" minlv="30" maxlv="39" cardnumber="5" cashtype="10" cashid="1" tip="使部队魔化为拉科斯特,并增加16点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="16"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1033" minlv="40" maxlv="49" cardnumber="7" cashtype="10" cashid="1" tip="使部队魔化为拉科斯特,并增加19点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="19"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1033" minlv="50" maxlv="59" cardnumber="9" cashtype="10" cashid="1" tip="使部队魔化为拉科斯特,并增加22点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="22"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1033" minlv="60" maxlv="69" cardnumber="11" cashtype="10" cashid="1" tip="使部队魔化为拉科斯特,并增加25点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="25"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1033" minlv="70" maxlv="79" cardnumber="13" cashtype="10" cashid="1" tip="使部队魔化为拉科斯特,并增加27点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="27"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1033" minlv="80" maxlv="89" cardnumber="15" cashtype="10" cashid="1" tip="使部队魔化为拉科斯特,并增加30点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="30"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1033" minlv="90" maxlv="99" cardnumber="17" cashtype="10" cashid="1" tip="使部队魔化为拉科斯特,并增加32点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="32"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1033" minlv="100" maxlv="109" cardnumber="19" cashtype="10" cashid="1" tip="使部队魔化为拉科斯特,并增加34点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="34"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1033" minlv="110" maxlv="119" cardnumber="21" cashtype="10" cashid="1" tip="使部队魔化为拉科斯特,并增加36点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="36"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1043" minlv="40" maxlv="49" cardnumber="7" cashtype="10" cashid="1" tip="使部队魔化为白银步兵,并增加19点部队基础攻击力（非英雄攻击）,使用时效7天。">
+		<effect type="1" value="19"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1043" minlv="50" maxlv="59" cardnumber="9" cashtype="10" cashid="1" tip="使部队魔化为白银步兵,并增加22点部队基础攻击力（非英雄攻击）,使用时效7天。">
+		<effect type="1" value="22"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1043" minlv="60" maxlv="69" cardnumber="11" cashtype="10" cashid="1" tip="使部队魔化为白银步兵,并增加25点部队基础攻击力（非英雄攻击）,使用时效7天。">
+		<effect type="1" value="25"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1043" minlv="70" maxlv="79" cardnumber="13" cashtype="10" cashid="1" tip="使部队魔化为白银步兵,并增加27点部队基础攻击力（非英雄攻击）,使用时效7天。">
+		<effect type="1" value="27"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1043" minlv="80" maxlv="89" cardnumber="15" cashtype="10" cashid="1" tip="使部队魔化为白银步兵,并增加30点部队基础攻击力（非英雄攻击）,使用时效7天。">
+		<effect type="1" value="30"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1043" minlv="90" maxlv="99" cardnumber="17" cashtype="10" cashid="1" tip="使部队魔化为白银步兵,并增加32点部队基础攻击力（非英雄攻击）,使用时效7天。">
+		<effect type="1" value="32"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1043" minlv="100" maxlv="109" cardnumber="19" cashtype="10" cashid="1" tip="使部队魔化为白银步兵,并增加34点部队基础攻击力（非英雄攻击）,使用时效7天。">
+		<effect type="1" value="34"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1043" minlv="110" maxlv="119" cardnumber="21" cashtype="10" cashid="1" tip="使部队魔化为白银步兵,并增加36点部队基础攻击力（非英雄攻击）,使用时效7天。">
+		<effect type="1" value="36"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1052" minlv="40" maxlv="49" cardnumber="7" cashtype="10" cashid="1" tip="使部队魔化为黄金步兵,并增加19点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="19"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1052" minlv="50" maxlv="59" cardnumber="9" cashtype="10" cashid="1" tip="使部队魔化为黄金步兵,并增加22点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="22"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1052" minlv="60" maxlv="69" cardnumber="11" cashtype="10" cashid="1" tip="使部队魔化为黄金步兵,并增加25点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="25"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1052" minlv="70" maxlv="79" cardnumber="13" cashtype="10" cashid="1" tip="使部队魔化为黄金步兵,并增加27点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="27"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1052" minlv="80" maxlv="89" cardnumber="15" cashtype="10" cashid="1" tip="使部队魔化为黄金步兵,并增加30点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="30"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1052" minlv="90" maxlv="99" cardnumber="17" cashtype="10" cashid="1" tip="使部队魔化为黄金步兵,并增加32点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="32"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1052" minlv="100" maxlv="109" cardnumber="19" cashtype="10" cashid="1" tip="使部队魔化为黄金步兵,并增加34点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="34"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1052" minlv="110" maxlv="119" cardnumber="21" cashtype="10" cashid="1" tip="使部队魔化为黄金步兵,并增加36点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="36"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1061" minlv="50" maxlv="59" cardnumber="9" cashtype="10" cashid="1" tip="使部队魔化为亡灵刺客,并增加22点部队基础攻击力（非英雄攻击）,使用时效7天。">
+		<effect type="1" value="22"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1061" minlv="60" maxlv="69" cardnumber="11" cashtype="10" cashid="1" tip="使部队魔化为亡灵刺客,并增加25点部队基础攻击力（非英雄攻击）,使用时效7天。">
+		<effect type="1" value="25"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1061" minlv="70" maxlv="79" cardnumber="13" cashtype="10" cashid="1" tip="使部队魔化为亡灵刺客,并增加27点部队基础攻击力（非英雄攻击）,使用时效7天。">
+		<effect type="1" value="27"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1061" minlv="80" maxlv="89" cardnumber="15" cashtype="10" cashid="1" tip="使部队魔化为亡灵刺客,并增加30点部队基础攻击力（非英雄攻击）,使用时效7天。">
+		<effect type="1" value="30"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1061" minlv="90" maxlv="99" cardnumber="17" cashtype="10" cashid="1" tip="使部队魔化为亡灵刺客,并增加32点部队基础攻击力（非英雄攻击）,使用时效7天。">
+		<effect type="1" value="32"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1061" minlv="100" maxlv="109" cardnumber="19" cashtype="10" cashid="1" tip="使部队魔化为亡灵刺客,并增加34点部队基础攻击力（非英雄攻击）,使用时效7天。">
+		<effect type="1" value="34"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1061" minlv="110" maxlv="119" cardnumber="21" cashtype="10" cashid="1" tip="使部队魔化为亡灵刺客,并增加36点部队基础攻击力（非英雄攻击）,使用时效7天。">
+		<effect type="1" value="36"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1069" minlv="50" maxlv="59" cardnumber="9" cashtype="10" cashid="1" tip="使部队魔化为恶魔刺客,并增加22点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="22"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1069" minlv="60" maxlv="69" cardnumber="11" cashtype="10" cashid="1" tip="使部队魔化为恶魔刺客,并增加25点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="25"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1069" minlv="70" maxlv="79" cardnumber="13" cashtype="10" cashid="1" tip="使部队魔化为恶魔刺客,并增加27点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="27"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1069" minlv="80" maxlv="89" cardnumber="15" cashtype="10" cashid="1" tip="使部队魔化为恶魔刺客,并增加30点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="30"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1069" minlv="90" maxlv="99" cardnumber="17" cashtype="10" cashid="1" tip="使部队魔化为恶魔刺客,并增加32点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="32"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1069" minlv="100" maxlv="109" cardnumber="19" cashtype="10" cashid="1" tip="使部队魔化为恶魔刺客,并增加34点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="34"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1069" minlv="110" maxlv="119" cardnumber="21" cashtype="10" cashid="1" tip="使部队魔化为恶魔刺客,并增加36点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="36"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1077" minlv="20" maxlv="29" cardnumber="3" cashtype="10" cashid="1" tip="使部队魔化为蓝蜥戟兵,并增加13点部队基础攻击力（非英雄攻击）,使用时效7天。">
+		<effect type="1" value="13"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1077" minlv="30" maxlv="39" cardnumber="5" cashtype="10" cashid="1" tip="使部队魔化为蓝蜥戟兵,并增加16点部队基础攻击力（非英雄攻击）,使用时效7天。">
+		<effect type="1" value="16"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1077" minlv="40" maxlv="49" cardnumber="7" cashtype="10" cashid="1" tip="使部队魔化为蓝蜥戟兵,并增加19点部队基础攻击力（非英雄攻击）,使用时效7天。">
+		<effect type="1" value="19"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1077" minlv="50" maxlv="59" cardnumber="9" cashtype="10" cashid="1" tip="使部队魔化为蓝蜥戟兵,并增加22点部队基础攻击力（非英雄攻击）,使用时效7天。">
+		<effect type="1" value="22"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1077" minlv="60" maxlv="69" cardnumber="11" cashtype="10" cashid="1" tip="使部队魔化为蓝蜥戟兵,并增加25点部队基础攻击力（非英雄攻击）,使用时效7天。">
+		<effect type="1" value="25"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1077" minlv="70" maxlv="79" cardnumber="13" cashtype="10" cashid="1" tip="使部队魔化为蓝蜥戟兵,并增加27点部队基础攻击力（非英雄攻击）,使用时效7天。">
+		<effect type="1" value="27"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1077" minlv="80" maxlv="89" cardnumber="15" cashtype="10" cashid="1" tip="使部队魔化为蓝蜥戟兵,并增加30点部队基础攻击力（非英雄攻击）,使用时效7天。">
+		<effect type="1" value="30"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1077" minlv="90" maxlv="99" cardnumber="17" cashtype="10" cashid="1" tip="使部队魔化为蓝蜥戟兵,并增加32点部队基础攻击力（非英雄攻击）,使用时效7天。">
+		<effect type="1" value="32"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1077" minlv="100" maxlv="109" cardnumber="19" cashtype="10" cashid="1" tip="使部队魔化为蓝蜥戟兵,并增加34点部队基础攻击力（非英雄攻击）,使用时效7天。">
+		<effect type="1" value="34"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1077" minlv="110" maxlv="119" cardnumber="21" cashtype="10" cashid="1" tip="使部队魔化为蓝蜥戟兵,并增加36点部队基础攻击力（非英雄攻击）,使用时效7天。">
+		<effect type="1" value="36"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1088" minlv="20" maxlv="29" cardnumber="3" cashtype="10" cashid="1" tip="使部队魔化为草莓蛙,并增加13点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="13"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1088" minlv="30" maxlv="39" cardnumber="5" cashtype="10" cashid="1" tip="使部队魔化为草莓蛙,并增加16点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="16"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1088" minlv="40" maxlv="49" cardnumber="7" cashtype="10" cashid="1" tip="使部队魔化为草莓蛙,并增加19点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="19"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1088" minlv="50" maxlv="59" cardnumber="9" cashtype="10" cashid="1" tip="使部队魔化为草莓蛙,并增加22点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="22"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1088" minlv="60" maxlv="69" cardnumber="11" cashtype="10" cashid="1" tip="使部队魔化为草莓蛙,并增加25点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="25"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1088" minlv="70" maxlv="79" cardnumber="13" cashtype="10" cashid="1" tip="使部队魔化为草莓蛙,并增加27点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="27"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1088" minlv="80" maxlv="89" cardnumber="15" cashtype="10" cashid="1" tip="使部队魔化为草莓蛙,并增加30点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="30"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1088" minlv="90" maxlv="99" cardnumber="17" cashtype="10" cashid="1" tip="使部队魔化为草莓蛙,并增加32点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="32"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1088" minlv="100" maxlv="109" cardnumber="19" cashtype="10" cashid="1" tip="使部队魔化为草莓蛙,并增加34点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="34"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1088" minlv="110" maxlv="119" cardnumber="21" cashtype="10" cashid="1" tip="使部队魔化为草莓蛙,并增加36点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="36"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1099" minlv="20" maxlv="29" cardnumber="3" cashtype="10" cashid="1" tip="使部队魔化为木盾兵,并增加13点部队基础攻击力（非英雄攻击）,使用时效7天。">
+		<effect type="1" value="13"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1099" minlv="30" maxlv="39" cardnumber="5" cashtype="10" cashid="1" tip="使部队魔化为木盾兵,并增加16点部队基础攻击力（非英雄攻击）,使用时效7天。">
+		<effect type="1" value="16"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1099" minlv="40" maxlv="49" cardnumber="7" cashtype="10" cashid="1" tip="使部队魔化为木盾兵,并增加19点部队基础攻击力（非英雄攻击）,使用时效7天。">
+		<effect type="1" value="19"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1099" minlv="50" maxlv="59" cardnumber="9" cashtype="10" cashid="1" tip="使部队魔化为木盾兵,并增加22点部队基础攻击力（非英雄攻击）,使用时效7天。">
+		<effect type="1" value="22"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1099" minlv="60" maxlv="69" cardnumber="11" cashtype="10" cashid="1" tip="使部队魔化为木盾兵,并增加25点部队基础攻击力（非英雄攻击）,使用时效7天。">
+		<effect type="1" value="25"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1099" minlv="70" maxlv="79" cardnumber="13" cashtype="10" cashid="1" tip="使部队魔化为木盾兵,并增加27点部队基础攻击力（非英雄攻击）,使用时效7天。">
+		<effect type="1" value="27"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1099" minlv="80" maxlv="89" cardnumber="15" cashtype="10" cashid="1" tip="使部队魔化为木盾兵,并增加30点部队基础攻击力（非英雄攻击）,使用时效7天。">
+		<effect type="1" value="30"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1099" minlv="90" maxlv="99" cardnumber="17" cashtype="10" cashid="1" tip="使部队魔化为木盾兵,并增加32点部队基础攻击力（非英雄攻击）,使用时效7天。">
+		<effect type="1" value="32"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1099" minlv="100" maxlv="109" cardnumber="19" cashtype="10" cashid="1" tip="使部队魔化为木盾兵,并增加34点部队基础攻击力（非英雄攻击）,使用时效7天。">
+		<effect type="1" value="34"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1099" minlv="110" maxlv="119" cardnumber="21" cashtype="10" cashid="1" tip="使部队魔化为木盾兵,并增加36点部队基础攻击力（非英雄攻击）,使用时效7天。">
+		<effect type="1" value="36"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1110" minlv="20" maxlv="29" cardnumber="3" cashtype="10" cashid="1" tip="使部队魔化为沼泽盾兵,并增加13点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="13"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1110" minlv="30" maxlv="39" cardnumber="5" cashtype="10" cashid="1" tip="使部队魔化为沼泽盾兵,并增加16点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="16"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1110" minlv="40" maxlv="49" cardnumber="7" cashtype="10" cashid="1" tip="使部队魔化为沼泽盾兵,并增加19点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="19"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1110" minlv="50" maxlv="59" cardnumber="9" cashtype="10" cashid="1" tip="使部队魔化为沼泽盾兵,并增加22点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="22"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1110" minlv="60" maxlv="69" cardnumber="11" cashtype="10" cashid="1" tip="使部队魔化为沼泽盾兵,并增加25点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="25"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1110" minlv="70" maxlv="79" cardnumber="13" cashtype="10" cashid="1" tip="使部队魔化为沼泽盾兵,并增加27点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="27"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1110" minlv="80" maxlv="89" cardnumber="15" cashtype="10" cashid="1" tip="使部队魔化为沼泽盾兵,并增加30点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="30"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1110" minlv="90" maxlv="99" cardnumber="17" cashtype="10" cashid="1" tip="使部队魔化为沼泽盾兵,并增加32点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="32"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1110" minlv="100" maxlv="109" cardnumber="19" cashtype="10" cashid="1" tip="使部队魔化为沼泽盾兵,并增加34点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="34"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1110" minlv="110" maxlv="119" cardnumber="21" cashtype="10" cashid="1" tip="使部队魔化为沼泽盾兵,并增加36点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="36"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1121" minlv="40" maxlv="49" cardnumber="7" cashtype="10" cashid="1" tip="使部队魔化为芥末蛙,并增加19点部队基础攻击力（非英雄攻击）,使用时效7天。">
+		<effect type="1" value="19"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1121" minlv="50" maxlv="59" cardnumber="9" cashtype="10" cashid="1" tip="使部队魔化为芥末蛙,并增加22点部队基础攻击力（非英雄攻击）,使用时效7天。">
+		<effect type="1" value="22"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1121" minlv="60" maxlv="69" cardnumber="11" cashtype="10" cashid="1" tip="使部队魔化为芥末蛙,并增加25点部队基础攻击力（非英雄攻击）,使用时效7天。">
+		<effect type="1" value="25"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1121" minlv="70" maxlv="79" cardnumber="13" cashtype="10" cashid="1" tip="使部队魔化为芥末蛙,并增加27点部队基础攻击力（非英雄攻击）,使用时效7天。">
+		<effect type="1" value="27"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1121" minlv="80" maxlv="89" cardnumber="15" cashtype="10" cashid="1" tip="使部队魔化为芥末蛙,并增加30点部队基础攻击力（非英雄攻击）,使用时效7天。">
+		<effect type="1" value="30"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1121" minlv="90" maxlv="99" cardnumber="17" cashtype="10" cashid="1" tip="使部队魔化为芥末蛙,并增加32点部队基础攻击力（非英雄攻击）,使用时效7天。">
+		<effect type="1" value="32"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1121" minlv="100" maxlv="109" cardnumber="19" cashtype="10" cashid="1" tip="使部队魔化为芥末蛙,并增加34点部队基础攻击力（非英雄攻击）,使用时效7天。">
+		<effect type="1" value="34"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1121" minlv="110" maxlv="119" cardnumber="21" cashtype="10" cashid="1" tip="使部队魔化为芥末蛙,并增加36点部队基础攻击力（非英雄攻击）,使用时效7天。">
+		<effect type="1" value="36"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1130" minlv="40" maxlv="49" cardnumber="7" cashtype="10" cashid="1" tip="使部队魔化为远古巨魔,并增加19点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="19"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1130" minlv="50" maxlv="59" cardnumber="9" cashtype="10" cashid="1" tip="使部队魔化为远古巨魔,并增加22点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="22"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1130" minlv="60" maxlv="69" cardnumber="11" cashtype="10" cashid="1" tip="使部队魔化为远古巨魔,并增加25点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="25"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1130" minlv="70" maxlv="79" cardnumber="13" cashtype="10" cashid="1" tip="使部队魔化为远古巨魔,并增加27点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="27"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1130" minlv="80" maxlv="89" cardnumber="15" cashtype="10" cashid="1" tip="使部队魔化为远古巨魔,并增加30点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="30"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1130" minlv="90" maxlv="99" cardnumber="17" cashtype="10" cashid="1" tip="使部队魔化为远古巨魔,并增加32点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="32"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1130" minlv="100" maxlv="109" cardnumber="19" cashtype="10" cashid="1" tip="使部队魔化为远古巨魔,并增加34点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="34"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1130" minlv="110" maxlv="119" cardnumber="21" cashtype="10" cashid="1" tip="使部队魔化为远古巨魔,并增加36点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="36"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1139" minlv="70" maxlv="79" cardnumber="13" cashtype="10" cashid="1" tip="使部队魔化为怒吼战车,并增加27点部队基础攻击力（非英雄攻击）,使用时效7天。">
+		<effect type="1" value="27"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1139" minlv="80" maxlv="89" cardnumber="15" cashtype="10" cashid="1" tip="使部队魔化为怒吼战车,并增加30点部队基础攻击力（非英雄攻击）,使用时效7天。">
+		<effect type="1" value="30"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1139" minlv="90" maxlv="99" cardnumber="17" cashtype="10" cashid="1" tip="使部队魔化为怒吼战车,并增加32点部队基础攻击力（非英雄攻击）,使用时效7天。">
+		<effect type="1" value="32"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1139" minlv="100" maxlv="109" cardnumber="19" cashtype="10" cashid="1" tip="使部队魔化为怒吼战车,并增加34点部队基础攻击力（非英雄攻击）,使用时效7天。">
+		<effect type="1" value="34"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1139" minlv="110" maxlv="119" cardnumber="21" cashtype="10" cashid="1" tip="使部队魔化为怒吼战车,并增加36点部队基础攻击力（非英雄攻击）,使用时效7天。">
+		<effect type="1" value="36"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1145" minlv="70" maxlv="79" cardnumber="13" cashtype="10" cashid="1" tip="使部队魔化为魔龙铁卫,并增加27点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="27"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1145" minlv="80" maxlv="89" cardnumber="15" cashtype="10" cashid="1" tip="使部队魔化为魔龙铁卫,并增加30点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="30"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1145" minlv="90" maxlv="99" cardnumber="17" cashtype="10" cashid="1" tip="使部队魔化为魔龙铁卫,并增加32点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="32"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1145" minlv="100" maxlv="109" cardnumber="19" cashtype="10" cashid="1" tip="使部队魔化为魔龙铁卫,并增加34点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="34"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1145" minlv="110" maxlv="119" cardnumber="21" cashtype="10" cashid="1" tip="使部队魔化为魔龙铁卫,并增加36点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="36"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1151" minlv="20" maxlv="29" cardnumber="3" cashtype="10" cashid="1" tip="使部队魔化为铁甲马,并增加13点部队基础攻击力（非英雄攻击）,使用时效7天。">
+		<effect type="1" value="13"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1151" minlv="30" maxlv="39" cardnumber="5" cashtype="10" cashid="1" tip="使部队魔化为铁甲马,并增加16点部队基础攻击力（非英雄攻击）,使用时效7天。">
+		<effect type="1" value="16"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1151" minlv="40" maxlv="49" cardnumber="7" cashtype="10" cashid="1" tip="使部队魔化为铁甲马,并增加19点部队基础攻击力（非英雄攻击）,使用时效7天。">
+		<effect type="1" value="19"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1151" minlv="50" maxlv="59" cardnumber="9" cashtype="10" cashid="1" tip="使部队魔化为铁甲马,并增加22点部队基础攻击力（非英雄攻击）,使用时效7天。">
+		<effect type="1" value="22"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1151" minlv="60" maxlv="69" cardnumber="11" cashtype="10" cashid="1" tip="使部队魔化为铁甲马,并增加25点部队基础攻击力（非英雄攻击）,使用时效7天。">
+		<effect type="1" value="25"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1151" minlv="70" maxlv="79" cardnumber="13" cashtype="10" cashid="1" tip="使部队魔化为铁甲马,并增加27点部队基础攻击力（非英雄攻击）,使用时效7天。">
+		<effect type="1" value="27"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1151" minlv="80" maxlv="89" cardnumber="15" cashtype="10" cashid="1" tip="使部队魔化为铁甲马,并增加30点部队基础攻击力（非英雄攻击）,使用时效7天。">
+		<effect type="1" value="30"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1151" minlv="90" maxlv="99" cardnumber="17" cashtype="10" cashid="1" tip="使部队魔化为铁甲马,并增加32点部队基础攻击力（非英雄攻击）,使用时效7天。">
+		<effect type="1" value="32"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1151" minlv="100" maxlv="109" cardnumber="19" cashtype="10" cashid="1" tip="使部队魔化为铁甲马,并增加34点部队基础攻击力（非英雄攻击）,使用时效7天。">
+		<effect type="1" value="34"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1151" minlv="110" maxlv="119" cardnumber="21" cashtype="10" cashid="1" tip="使部队魔化为铁甲马,并增加36点部队基础攻击力（非英雄攻击）,使用时效7天。">
+		<effect type="1" value="36"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1162" minlv="20" maxlv="29" cardnumber="3" cashtype="10" cashid="1" tip="使部队魔化为星光战马,并增加13点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="13"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1162" minlv="30" maxlv="39" cardnumber="5" cashtype="10" cashid="1" tip="使部队魔化为星光战马,并增加16点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="16"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1162" minlv="40" maxlv="49" cardnumber="7" cashtype="10" cashid="1" tip="使部队魔化为星光战马,并增加19点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="19"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1162" minlv="50" maxlv="59" cardnumber="9" cashtype="10" cashid="1" tip="使部队魔化为星光战马,并增加22点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="22"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1162" minlv="60" maxlv="69" cardnumber="11" cashtype="10" cashid="1" tip="使部队魔化为星光战马,并增加25点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="25"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1162" minlv="70" maxlv="79" cardnumber="13" cashtype="10" cashid="1" tip="使部队魔化为星光战马,并增加27点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="27"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1162" minlv="80" maxlv="89" cardnumber="15" cashtype="10" cashid="1" tip="使部队魔化为星光战马,并增加30点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="30"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1162" minlv="90" maxlv="99" cardnumber="17" cashtype="10" cashid="1" tip="使部队魔化为星光战马,并增加32点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="32"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1162" minlv="100" maxlv="109" cardnumber="19" cashtype="10" cashid="1" tip="使部队魔化为星光战马,并增加34点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="34"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1162" minlv="110" maxlv="119" cardnumber="21" cashtype="10" cashid="1" tip="使部队魔化为星光战马,并增加36点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="36"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1173" minlv="20" maxlv="29" cardnumber="3" cashtype="10" cashid="1" tip="使部队魔化为无头骑士,并增加13点部队基础攻击力（非英雄攻击）,使用时效7天。">
+		<effect type="1" value="13"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1173" minlv="30" maxlv="39" cardnumber="5" cashtype="10" cashid="1" tip="使部队魔化为无头骑士,并增加16点部队基础攻击力（非英雄攻击）,使用时效7天。">
+		<effect type="1" value="16"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1173" minlv="40" maxlv="49" cardnumber="7" cashtype="10" cashid="1" tip="使部队魔化为无头骑士,并增加19点部队基础攻击力（非英雄攻击）,使用时效7天。">
+		<effect type="1" value="19"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1173" minlv="50" maxlv="59" cardnumber="9" cashtype="10" cashid="1" tip="使部队魔化为无头骑士,并增加22点部队基础攻击力（非英雄攻击）,使用时效7天。">
+		<effect type="1" value="22"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1173" minlv="60" maxlv="69" cardnumber="11" cashtype="10" cashid="1" tip="使部队魔化为无头骑士,并增加25点部队基础攻击力（非英雄攻击）,使用时效7天。">
+		<effect type="1" value="25"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1173" minlv="70" maxlv="79" cardnumber="13" cashtype="10" cashid="1" tip="使部队魔化为无头骑士,并增加27点部队基础攻击力（非英雄攻击）,使用时效7天。">
+		<effect type="1" value="27"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1173" minlv="80" maxlv="89" cardnumber="15" cashtype="10" cashid="1" tip="使部队魔化为无头骑士,并增加30点部队基础攻击力（非英雄攻击）,使用时效7天。">
+		<effect type="1" value="30"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1173" minlv="90" maxlv="99" cardnumber="17" cashtype="10" cashid="1" tip="使部队魔化为无头骑士,并增加32点部队基础攻击力（非英雄攻击）,使用时效7天。">
+		<effect type="1" value="32"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1173" minlv="100" maxlv="109" cardnumber="19" cashtype="10" cashid="1" tip="使部队魔化为无头骑士,并增加34点部队基础攻击力（非英雄攻击）,使用时效7天。">
+		<effect type="1" value="34"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1173" minlv="110" maxlv="119" cardnumber="21" cashtype="10" cashid="1" tip="使部队魔化为无头骑士,并增加36点部队基础攻击力（非英雄攻击）,使用时效7天。">
+		<effect type="1" value="36"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1184" minlv="20" maxlv="29" cardnumber="3" cashtype="10" cashid="1" tip="使部队魔化为柯鲁吉斯,并增加13点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="13"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1184" minlv="30" maxlv="39" cardnumber="5" cashtype="10" cashid="1" tip="使部队魔化为柯鲁吉斯,并增加16点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="16"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1184" minlv="40" maxlv="49" cardnumber="7" cashtype="10" cashid="1" tip="使部队魔化为柯鲁吉斯,并增加19点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="19"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1184" minlv="50" maxlv="59" cardnumber="9" cashtype="10" cashid="1" tip="使部队魔化为柯鲁吉斯,并增加22点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="22"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1184" minlv="60" maxlv="69" cardnumber="11" cashtype="10" cashid="1" tip="使部队魔化为柯鲁吉斯,并增加25点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="25"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1184" minlv="70" maxlv="79" cardnumber="13" cashtype="10" cashid="1" tip="使部队魔化为柯鲁吉斯,并增加27点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="27"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1184" minlv="80" maxlv="89" cardnumber="15" cashtype="10" cashid="1" tip="使部队魔化为柯鲁吉斯,并增加30点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="30"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1184" minlv="90" maxlv="99" cardnumber="17" cashtype="10" cashid="1" tip="使部队魔化为柯鲁吉斯,并增加32点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="32"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1184" minlv="100" maxlv="109" cardnumber="19" cashtype="10" cashid="1" tip="使部队魔化为柯鲁吉斯,并增加34点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="34"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1184" minlv="110" maxlv="119" cardnumber="21" cashtype="10" cashid="1" tip="使部队魔化为柯鲁吉斯,并增加36点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="36"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1195" minlv="40" maxlv="49" cardnumber="7" cashtype="10" cashid="1" tip="使部队魔化为炎阳球,并增加19点部队基础攻击力（非英雄攻击）,使用时效7天。">
+		<effect type="1" value="19"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1195" minlv="50" maxlv="59" cardnumber="9" cashtype="10" cashid="1" tip="使部队魔化为炎阳球,并增加22点部队基础攻击力（非英雄攻击）,使用时效7天。">
+		<effect type="1" value="22"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1195" minlv="60" maxlv="69" cardnumber="11" cashtype="10" cashid="1" tip="使部队魔化为炎阳球,并增加25点部队基础攻击力（非英雄攻击）,使用时效7天。">
+		<effect type="1" value="25"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1195" minlv="70" maxlv="79" cardnumber="13" cashtype="10" cashid="1" tip="使部队魔化为炎阳球,并增加27点部队基础攻击力（非英雄攻击）,使用时效7天。">
+		<effect type="1" value="27"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1195" minlv="80" maxlv="89" cardnumber="15" cashtype="10" cashid="1" tip="使部队魔化为炎阳球,并增加30点部队基础攻击力（非英雄攻击）,使用时效7天。">
+		<effect type="1" value="30"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1195" minlv="90" maxlv="99" cardnumber="17" cashtype="10" cashid="1" tip="使部队魔化为炎阳球,并增加32点部队基础攻击力（非英雄攻击）,使用时效7天。">
+		<effect type="1" value="32"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1195" minlv="100" maxlv="109" cardnumber="19" cashtype="10" cashid="1" tip="使部队魔化为炎阳球,并增加34点部队基础攻击力（非英雄攻击）,使用时效7天。">
+		<effect type="1" value="34"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1195" minlv="110" maxlv="119" cardnumber="21" cashtype="10" cashid="1" tip="使部队魔化为炎阳球,并增加36点部队基础攻击力（非英雄攻击）,使用时效7天。">
+		<effect type="1" value="36"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1204" minlv="40" maxlv="49" cardnumber="7" cashtype="10" cashid="1" tip="使部队魔化为空袭虫,并增加19点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="19"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1204" minlv="50" maxlv="59" cardnumber="9" cashtype="10" cashid="1" tip="使部队魔化为空袭虫,并增加22点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="22"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1204" minlv="60" maxlv="69" cardnumber="11" cashtype="10" cashid="1" tip="使部队魔化为空袭虫,并增加25点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="25"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1204" minlv="70" maxlv="79" cardnumber="13" cashtype="10" cashid="1" tip="使部队魔化为空袭虫,并增加27点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="27"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1204" minlv="80" maxlv="89" cardnumber="15" cashtype="10" cashid="1" tip="使部队魔化为空袭虫,并增加30点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="30"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1204" minlv="90" maxlv="99" cardnumber="17" cashtype="10" cashid="1" tip="使部队魔化为空袭虫,并增加32点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="32"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1204" minlv="100" maxlv="109" cardnumber="19" cashtype="10" cashid="1" tip="使部队魔化为空袭虫,并增加34点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="34"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1204" minlv="110" maxlv="119" cardnumber="21" cashtype="10" cashid="1" tip="使部队魔化为空袭虫,并增加36点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="36"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1213" minlv="60" maxlv="69" cardnumber="11" cashtype="10" cashid="1" tip="使部队魔化为摄魂马,并增加25点部队基础攻击力（非英雄攻击）,使用时效7天。">
+		<effect type="1" value="25"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1213" minlv="70" maxlv="79" cardnumber="13" cashtype="10" cashid="1" tip="使部队魔化为摄魂马,并增加27点部队基础攻击力（非英雄攻击）,使用时效7天。">
+		<effect type="1" value="27"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1213" minlv="80" maxlv="89" cardnumber="15" cashtype="10" cashid="1" tip="使部队魔化为摄魂马,并增加30点部队基础攻击力（非英雄攻击）,使用时效7天。">
+		<effect type="1" value="30"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1213" minlv="90" maxlv="99" cardnumber="17" cashtype="10" cashid="1" tip="使部队魔化为摄魂马,并增加32点部队基础攻击力（非英雄攻击）,使用时效7天。">
+		<effect type="1" value="32"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1213" minlv="100" maxlv="109" cardnumber="19" cashtype="10" cashid="1" tip="使部队魔化为摄魂马,并增加34点部队基础攻击力（非英雄攻击）,使用时效7天。">
+		<effect type="1" value="34"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1213" minlv="110" maxlv="119" cardnumber="21" cashtype="10" cashid="1" tip="使部队魔化为摄魂马,并增加36点部队基础攻击力（非英雄攻击）,使用时效7天。">
+		<effect type="1" value="36"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1220" minlv="60" maxlv="69" cardnumber="11" cashtype="10" cashid="1" tip="使部队魔化为暗黑骑士,并增加25点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="25"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1220" minlv="70" maxlv="79" cardnumber="13" cashtype="10" cashid="1" tip="使部队魔化为暗黑骑士,并增加27点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="27"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1220" minlv="80" maxlv="89" cardnumber="15" cashtype="10" cashid="1" tip="使部队魔化为暗黑骑士,并增加30点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="30"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1220" minlv="90" maxlv="99" cardnumber="17" cashtype="10" cashid="1" tip="使部队魔化为暗黑骑士,并增加32点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="32"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1220" minlv="100" maxlv="109" cardnumber="19" cashtype="10" cashid="1" tip="使部队魔化为暗黑骑士,并增加34点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="34"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1220" minlv="110" maxlv="119" cardnumber="21" cashtype="10" cashid="1" tip="使部队魔化为暗黑骑士,并增加36点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="36"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1227" minlv="20" maxlv="29" cardnumber="3" cashtype="10" cashid="1" tip="使部队魔化为蘑菇弓兵,并增加13点部队基础攻击力（非英雄攻击）,使用时效7天。">
+		<effect type="1" value="13"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1227" minlv="30" maxlv="39" cardnumber="5" cashtype="10" cashid="1" tip="使部队魔化为蘑菇弓兵,并增加16点部队基础攻击力（非英雄攻击）,使用时效7天。">
+		<effect type="1" value="16"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1227" minlv="40" maxlv="49" cardnumber="7" cashtype="10" cashid="1" tip="使部队魔化为蘑菇弓兵,并增加19点部队基础攻击力（非英雄攻击）,使用时效7天。">
+		<effect type="1" value="19"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1227" minlv="50" maxlv="59" cardnumber="9" cashtype="10" cashid="1" tip="使部队魔化为蘑菇弓兵,并增加22点部队基础攻击力（非英雄攻击）,使用时效7天。">
+		<effect type="1" value="22"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1227" minlv="60" maxlv="69" cardnumber="11" cashtype="10" cashid="1" tip="使部队魔化为蘑菇弓兵,并增加25点部队基础攻击力（非英雄攻击）,使用时效7天。">
+		<effect type="1" value="25"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1227" minlv="70" maxlv="79" cardnumber="13" cashtype="10" cashid="1" tip="使部队魔化为蘑菇弓兵,并增加27点部队基础攻击力（非英雄攻击）,使用时效7天。">
+		<effect type="1" value="27"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1227" minlv="80" maxlv="89" cardnumber="15" cashtype="10" cashid="1" tip="使部队魔化为蘑菇弓兵,并增加30点部队基础攻击力（非英雄攻击）,使用时效7天。">
+		<effect type="1" value="30"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1227" minlv="90" maxlv="99" cardnumber="17" cashtype="10" cashid="1" tip="使部队魔化为蘑菇弓兵,并增加32点部队基础攻击力（非英雄攻击）,使用时效7天。">
+		<effect type="1" value="32"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1227" minlv="100" maxlv="109" cardnumber="19" cashtype="10" cashid="1" tip="使部队魔化为蘑菇弓兵,并增加34点部队基础攻击力（非英雄攻击）,使用时效7天。">
+		<effect type="1" value="34"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1227" minlv="110" maxlv="119" cardnumber="21" cashtype="10" cashid="1" tip="使部队魔化为蘑菇弓兵,并增加36点部队基础攻击力（非英雄攻击）,使用时效7天。">
+		<effect type="1" value="36"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1238" minlv="20" maxlv="29" cardnumber="3" cashtype="10" cashid="1" tip="使部队魔化为毒孢子魔,并增加13点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="13"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1238" minlv="30" maxlv="39" cardnumber="5" cashtype="10" cashid="1" tip="使部队魔化为毒孢子魔,并增加16点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="16"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1238" minlv="40" maxlv="49" cardnumber="7" cashtype="10" cashid="1" tip="使部队魔化为毒孢子魔,并增加19点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="19"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1238" minlv="50" maxlv="59" cardnumber="9" cashtype="10" cashid="1" tip="使部队魔化为毒孢子魔,并增加22点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="22"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1238" minlv="60" maxlv="69" cardnumber="11" cashtype="10" cashid="1" tip="使部队魔化为毒孢子魔,并增加25点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="25"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1238" minlv="70" maxlv="79" cardnumber="13" cashtype="10" cashid="1" tip="使部队魔化为毒孢子魔,并增加27点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="27"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1238" minlv="80" maxlv="89" cardnumber="15" cashtype="10" cashid="1" tip="使部队魔化为毒孢子魔,并增加30点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="30"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1238" minlv="90" maxlv="99" cardnumber="17" cashtype="10" cashid="1" tip="使部队魔化为毒孢子魔,并增加32点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="32"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1238" minlv="100" maxlv="109" cardnumber="19" cashtype="10" cashid="1" tip="使部队魔化为毒孢子魔,并增加34点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="34"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1238" minlv="110" maxlv="119" cardnumber="21" cashtype="10" cashid="1" tip="使部队魔化为毒孢子魔,并增加36点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="36"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1249" minlv="20" maxlv="29" cardnumber="3" cashtype="10" cashid="1" tip="使部队魔化为铁面弩手,并增加13点部队基础攻击力（非英雄攻击）,使用时效7天。">
+		<effect type="1" value="13"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1249" minlv="30" maxlv="39" cardnumber="5" cashtype="10" cashid="1" tip="使部队魔化为铁面弩手,并增加16点部队基础攻击力（非英雄攻击）,使用时效7天。">
+		<effect type="1" value="16"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1249" minlv="40" maxlv="49" cardnumber="7" cashtype="10" cashid="1" tip="使部队魔化为铁面弩手,并增加19点部队基础攻击力（非英雄攻击）,使用时效7天。">
+		<effect type="1" value="19"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1249" minlv="50" maxlv="59" cardnumber="9" cashtype="10" cashid="1" tip="使部队魔化为铁面弩手,并增加22点部队基础攻击力（非英雄攻击）,使用时效7天。">
+		<effect type="1" value="22"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1249" minlv="60" maxlv="69" cardnumber="11" cashtype="10" cashid="1" tip="使部队魔化为铁面弩手,并增加25点部队基础攻击力（非英雄攻击）,使用时效7天。">
+		<effect type="1" value="25"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1249" minlv="70" maxlv="79" cardnumber="13" cashtype="10" cashid="1" tip="使部队魔化为铁面弩手,并增加27点部队基础攻击力（非英雄攻击）,使用时效7天。">
+		<effect type="1" value="27"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1249" minlv="80" maxlv="89" cardnumber="15" cashtype="10" cashid="1" tip="使部队魔化为铁面弩手,并增加30点部队基础攻击力（非英雄攻击）,使用时效7天。">
+		<effect type="1" value="30"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1249" minlv="90" maxlv="99" cardnumber="17" cashtype="10" cashid="1" tip="使部队魔化为铁面弩手,并增加32点部队基础攻击力（非英雄攻击）,使用时效7天。">
+		<effect type="1" value="32"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1249" minlv="100" maxlv="109" cardnumber="19" cashtype="10" cashid="1" tip="使部队魔化为铁面弩手,并增加34点部队基础攻击力（非英雄攻击）,使用时效7天。">
+		<effect type="1" value="34"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1249" minlv="110" maxlv="119" cardnumber="21" cashtype="10" cashid="1" tip="使部队魔化为铁面弩手,并增加36点部队基础攻击力（非英雄攻击）,使用时效7天。">
+		<effect type="1" value="36"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1260" minlv="20" maxlv="29" cardnumber="3" cashtype="10" cashid="1" tip="使部队魔化为藤刺弩手,并增加13点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="13"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1260" minlv="30" maxlv="39" cardnumber="5" cashtype="10" cashid="1" tip="使部队魔化为藤刺弩手,并增加16点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="16"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1260" minlv="40" maxlv="49" cardnumber="7" cashtype="10" cashid="1" tip="使部队魔化为藤刺弩手,并增加19点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="19"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1260" minlv="50" maxlv="59" cardnumber="9" cashtype="10" cashid="1" tip="使部队魔化为藤刺弩手,并增加22点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="22"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1260" minlv="60" maxlv="69" cardnumber="11" cashtype="10" cashid="1" tip="使部队魔化为藤刺弩手,并增加25点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="25"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1260" minlv="70" maxlv="79" cardnumber="13" cashtype="10" cashid="1" tip="使部队魔化为藤刺弩手,并增加27点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="27"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1260" minlv="80" maxlv="89" cardnumber="15" cashtype="10" cashid="1" tip="使部队魔化为藤刺弩手,并增加30点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="30"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1260" minlv="90" maxlv="99" cardnumber="17" cashtype="10" cashid="1" tip="使部队魔化为藤刺弩手,并增加32点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="32"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1260" minlv="100" maxlv="109" cardnumber="19" cashtype="10" cashid="1" tip="使部队魔化为藤刺弩手,并增加34点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="34"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1260" minlv="110" maxlv="119" cardnumber="21" cashtype="10" cashid="1" tip="使部队魔化为藤刺弩手,并增加36点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="36"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1271" minlv="40" maxlv="49" cardnumber="7" cashtype="10" cashid="1" tip="使部队魔化为花尾蝎,并增加19点部队基础攻击力（非英雄攻击）,使用时效7天。">
+		<effect type="1" value="19"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1271" minlv="50" maxlv="59" cardnumber="9" cashtype="10" cashid="1" tip="使部队魔化为花尾蝎,并增加22点部队基础攻击力（非英雄攻击）,使用时效7天。">
+		<effect type="1" value="22"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1271" minlv="60" maxlv="69" cardnumber="11" cashtype="10" cashid="1" tip="使部队魔化为花尾蝎,并增加25点部队基础攻击力（非英雄攻击）,使用时效7天。">
+		<effect type="1" value="25"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1271" minlv="70" maxlv="79" cardnumber="13" cashtype="10" cashid="1" tip="使部队魔化为花尾蝎,并增加27点部队基础攻击力（非英雄攻击）,使用时效7天。">
+		<effect type="1" value="27"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1271" minlv="80" maxlv="89" cardnumber="15" cashtype="10" cashid="1" tip="使部队魔化为花尾蝎,并增加30点部队基础攻击力（非英雄攻击）,使用时效7天。">
+		<effect type="1" value="30"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1271" minlv="90" maxlv="99" cardnumber="17" cashtype="10" cashid="1" tip="使部队魔化为花尾蝎,并增加32点部队基础攻击力（非英雄攻击）,使用时效7天。">
+		<effect type="1" value="32"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1271" minlv="100" maxlv="109" cardnumber="19" cashtype="10" cashid="1" tip="使部队魔化为花尾蝎,并增加34点部队基础攻击力（非英雄攻击）,使用时效7天。">
+		<effect type="1" value="34"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1271" minlv="110" maxlv="119" cardnumber="21" cashtype="10" cashid="1" tip="使部队魔化为花尾蝎,并增加36点部队基础攻击力（非英雄攻击）,使用时效7天。">
+		<effect type="1" value="36"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1280" minlv="40" maxlv="49" cardnumber="7" cashtype="10" cashid="1" tip="使部队魔化为地龙,并增加19点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="19"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1280" minlv="50" maxlv="59" cardnumber="9" cashtype="10" cashid="1" tip="使部队魔化为地龙,并增加22点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="22"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1280" minlv="60" maxlv="69" cardnumber="11" cashtype="10" cashid="1" tip="使部队魔化为地龙,并增加25点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="25"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1280" minlv="70" maxlv="79" cardnumber="13" cashtype="10" cashid="1" tip="使部队魔化为地龙,并增加27点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="27"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1280" minlv="80" maxlv="89" cardnumber="15" cashtype="10" cashid="1" tip="使部队魔化为地龙,并增加30点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="30"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1280" minlv="90" maxlv="99" cardnumber="17" cashtype="10" cashid="1" tip="使部队魔化为地龙,并增加32点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="32"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1280" minlv="100" maxlv="109" cardnumber="19" cashtype="10" cashid="1" tip="使部队魔化为地龙,并增加34点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="34"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1280" minlv="110" maxlv="119" cardnumber="21" cashtype="10" cashid="1" tip="使部队魔化为地龙,并增加36点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="36"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1289" minlv="60" maxlv="69" cardnumber="11" cashtype="10" cashid="1" tip="使部队魔化为古火枪,并增加25点部队基础攻击力（非英雄攻击）,使用时效7天。">
+		<effect type="1" value="25"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1289" minlv="70" maxlv="79" cardnumber="13" cashtype="10" cashid="1" tip="使部队魔化为古火枪,并增加27点部队基础攻击力（非英雄攻击）,使用时效7天。">
+		<effect type="1" value="27"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1289" minlv="80" maxlv="89" cardnumber="15" cashtype="10" cashid="1" tip="使部队魔化为古火枪,并增加30点部队基础攻击力（非英雄攻击）,使用时效7天。">
+		<effect type="1" value="30"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1289" minlv="90" maxlv="99" cardnumber="17" cashtype="10" cashid="1" tip="使部队魔化为古火枪,并增加32点部队基础攻击力（非英雄攻击）,使用时效7天。">
+		<effect type="1" value="32"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1289" minlv="100" maxlv="109" cardnumber="19" cashtype="10" cashid="1" tip="使部队魔化为古火枪,并增加34点部队基础攻击力（非英雄攻击）,使用时效7天。">
+		<effect type="1" value="34"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1289" minlv="110" maxlv="119" cardnumber="21" cashtype="10" cashid="1" tip="使部队魔化为古火枪,并增加36点部队基础攻击力（非英雄攻击）,使用时效7天。">
+		<effect type="1" value="36"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1296" minlv="60" maxlv="69" cardnumber="11" cashtype="10" cashid="1" tip="使部队魔化为赤孢子魔,并增加25点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="25"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1296" minlv="70" maxlv="79" cardnumber="13" cashtype="10" cashid="1" tip="使部队魔化为赤孢子魔,并增加27点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="27"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1296" minlv="80" maxlv="89" cardnumber="15" cashtype="10" cashid="1" tip="使部队魔化为赤孢子魔,并增加30点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="30"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1296" minlv="90" maxlv="99" cardnumber="17" cashtype="10" cashid="1" tip="使部队魔化为赤孢子魔,并增加32点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="32"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1296" minlv="100" maxlv="109" cardnumber="19" cashtype="10" cashid="1" tip="使部队魔化为赤孢子魔,并增加34点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="34"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1296" minlv="110" maxlv="119" cardnumber="21" cashtype="10" cashid="1" tip="使部队魔化为赤孢子魔,并增加36点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="36"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1303" minlv="20" maxlv="29" cardnumber="3" cashtype="10" cashid="1" tip="使部队魔化为枯木法师,并增加13点部队基础攻击力（非英雄攻击）,使用时效7天。">
+		<effect type="1" value="13"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1303" minlv="30" maxlv="39" cardnumber="5" cashtype="10" cashid="1" tip="使部队魔化为枯木法师,并增加16点部队基础攻击力（非英雄攻击）,使用时效7天。">
+		<effect type="1" value="16"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1303" minlv="40" maxlv="49" cardnumber="7" cashtype="10" cashid="1" tip="使部队魔化为枯木法师,并增加19点部队基础攻击力（非英雄攻击）,使用时效7天。">
+		<effect type="1" value="19"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1303" minlv="50" maxlv="59" cardnumber="9" cashtype="10" cashid="1" tip="使部队魔化为枯木法师,并增加22点部队基础攻击力（非英雄攻击）,使用时效7天。">
+		<effect type="1" value="22"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1303" minlv="60" maxlv="69" cardnumber="11" cashtype="10" cashid="1" tip="使部队魔化为枯木法师,并增加25点部队基础攻击力（非英雄攻击）,使用时效7天。">
+		<effect type="1" value="25"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1303" minlv="70" maxlv="79" cardnumber="13" cashtype="10" cashid="1" tip="使部队魔化为枯木法师,并增加27点部队基础攻击力（非英雄攻击）,使用时效7天。">
+		<effect type="1" value="27"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1303" minlv="80" maxlv="89" cardnumber="15" cashtype="10" cashid="1" tip="使部队魔化为枯木法师,并增加30点部队基础攻击力（非英雄攻击）,使用时效7天。">
+		<effect type="1" value="30"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1303" minlv="90" maxlv="99" cardnumber="17" cashtype="10" cashid="1" tip="使部队魔化为枯木法师,并增加32点部队基础攻击力（非英雄攻击）,使用时效7天。">
+		<effect type="1" value="32"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1303" minlv="100" maxlv="109" cardnumber="19" cashtype="10" cashid="1" tip="使部队魔化为枯木法师,并增加34点部队基础攻击力（非英雄攻击）,使用时效7天。">
+		<effect type="1" value="34"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1303" minlv="110" maxlv="119" cardnumber="21" cashtype="10" cashid="1" tip="使部队魔化为枯木法师,并增加36点部队基础攻击力（非英雄攻击）,使用时效7天。">
+		<effect type="1" value="36"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1314" minlv="20" maxlv="29" cardnumber="3" cashtype="10" cashid="1" tip="使部队魔化为巫术枯叶,并增加13点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="13"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1314" minlv="30" maxlv="39" cardnumber="5" cashtype="10" cashid="1" tip="使部队魔化为巫术枯叶,并增加16点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="16"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1314" minlv="40" maxlv="49" cardnumber="7" cashtype="10" cashid="1" tip="使部队魔化为巫术枯叶,并增加19点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="19"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1314" minlv="50" maxlv="59" cardnumber="9" cashtype="10" cashid="1" tip="使部队魔化为巫术枯叶,并增加22点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="22"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1314" minlv="60" maxlv="69" cardnumber="11" cashtype="10" cashid="1" tip="使部队魔化为巫术枯叶,并增加25点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="25"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1314" minlv="70" maxlv="79" cardnumber="13" cashtype="10" cashid="1" tip="使部队魔化为巫术枯叶,并增加27点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="27"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1314" minlv="80" maxlv="89" cardnumber="15" cashtype="10" cashid="1" tip="使部队魔化为巫术枯叶,并增加30点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="30"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1314" minlv="90" maxlv="99" cardnumber="17" cashtype="10" cashid="1" tip="使部队魔化为巫术枯叶,并增加32点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="32"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1314" minlv="100" maxlv="109" cardnumber="19" cashtype="10" cashid="1" tip="使部队魔化为巫术枯叶,并增加34点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="34"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1314" minlv="110" maxlv="119" cardnumber="21" cashtype="10" cashid="1" tip="使部队魔化为巫术枯叶,并增加36点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="36"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1325" minlv="20" maxlv="29" cardnumber="3" cashtype="10" cashid="1" tip="使部队魔化为血蜥鼓手,并增加13点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="13"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1325" minlv="30" maxlv="39" cardnumber="5" cashtype="10" cashid="1" tip="使部队魔化为血蜥鼓手,并增加16点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="16"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1325" minlv="40" maxlv="49" cardnumber="7" cashtype="10" cashid="1" tip="使部队魔化为血蜥鼓手,并增加19点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="19"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1325" minlv="50" maxlv="59" cardnumber="9" cashtype="10" cashid="1" tip="使部队魔化为血蜥鼓手,并增加22点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="22"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1325" minlv="60" maxlv="69" cardnumber="11" cashtype="10" cashid="1" tip="使部队魔化为血蜥鼓手,并增加25点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="25"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1325" minlv="70" maxlv="79" cardnumber="13" cashtype="10" cashid="1" tip="使部队魔化为血蜥鼓手,并增加27点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="27"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1325" minlv="80" maxlv="89" cardnumber="15" cashtype="10" cashid="1" tip="使部队魔化为血蜥鼓手,并增加30点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="30"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1325" minlv="90" maxlv="99" cardnumber="17" cashtype="10" cashid="1" tip="使部队魔化为血蜥鼓手,并增加32点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="32"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1325" minlv="100" maxlv="109" cardnumber="19" cashtype="10" cashid="1" tip="使部队魔化为血蜥鼓手,并增加34点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="34"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1325" minlv="110" maxlv="119" cardnumber="21" cashtype="10" cashid="1" tip="使部队魔化为血蜥鼓手,并增加36点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="36"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1336" minlv="30" maxlv="39" cardnumber="5" cashtype="10" cashid="1" tip="使部队魔化为沼泽萨满,并增加16点部队基础攻击力（非英雄攻击）,使用时效7天。">
+		<effect type="1" value="16"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1336" minlv="40" maxlv="49" cardnumber="7" cashtype="10" cashid="1" tip="使部队魔化为沼泽萨满,并增加19点部队基础攻击力（非英雄攻击）,使用时效7天。">
+		<effect type="1" value="19"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1336" minlv="50" maxlv="59" cardnumber="9" cashtype="10" cashid="1" tip="使部队魔化为沼泽萨满,并增加22点部队基础攻击力（非英雄攻击）,使用时效7天。">
+		<effect type="1" value="22"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1336" minlv="60" maxlv="69" cardnumber="11" cashtype="10" cashid="1" tip="使部队魔化为沼泽萨满,并增加25点部队基础攻击力（非英雄攻击）,使用时效7天。">
+		<effect type="1" value="25"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1336" minlv="70" maxlv="79" cardnumber="13" cashtype="10" cashid="1" tip="使部队魔化为沼泽萨满,并增加27点部队基础攻击力（非英雄攻击）,使用时效7天。">
+		<effect type="1" value="27"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1336" minlv="80" maxlv="89" cardnumber="15" cashtype="10" cashid="1" tip="使部队魔化为沼泽萨满,并增加30点部队基础攻击力（非英雄攻击）,使用时效7天。">
+		<effect type="1" value="30"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1336" minlv="90" maxlv="99" cardnumber="17" cashtype="10" cashid="1" tip="使部队魔化为沼泽萨满,并增加32点部队基础攻击力（非英雄攻击）,使用时效7天。">
+		<effect type="1" value="32"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1336" minlv="100" maxlv="109" cardnumber="19" cashtype="10" cashid="1" tip="使部队魔化为沼泽萨满,并增加34点部队基础攻击力（非英雄攻击）,使用时效7天。">
+		<effect type="1" value="34"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1336" minlv="110" maxlv="119" cardnumber="21" cashtype="10" cashid="1" tip="使部队魔化为沼泽萨满,并增加36点部队基础攻击力（非英雄攻击）,使用时效7天。">
+		<effect type="1" value="36"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1346" minlv="30" maxlv="39" cardnumber="5" cashtype="10" cashid="1" tip="使部队魔化为死亡藤蔓,并增加16点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="16"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1346" minlv="40" maxlv="49" cardnumber="7" cashtype="10" cashid="1" tip="使部队魔化为死亡藤蔓,并增加19点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="19"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1346" minlv="50" maxlv="59" cardnumber="9" cashtype="10" cashid="1" tip="使部队魔化为死亡藤蔓,并增加22点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="22"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1346" minlv="60" maxlv="69" cardnumber="11" cashtype="10" cashid="1" tip="使部队魔化为死亡藤蔓,并增加25点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="25"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1346" minlv="70" maxlv="79" cardnumber="13" cashtype="10" cashid="1" tip="使部队魔化为死亡藤蔓,并增加27点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="27"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1346" minlv="80" maxlv="89" cardnumber="15" cashtype="10" cashid="1" tip="使部队魔化为死亡藤蔓,并增加30点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="30"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1346" minlv="90" maxlv="99" cardnumber="17" cashtype="10" cashid="1" tip="使部队魔化为死亡藤蔓,并增加32点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="32"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1346" minlv="100" maxlv="109" cardnumber="19" cashtype="10" cashid="1" tip="使部队魔化为死亡藤蔓,并增加34点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="34"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1346" minlv="110" maxlv="119" cardnumber="21" cashtype="10" cashid="1" tip="使部队魔化为死亡藤蔓,并增加36点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="36"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1356" minlv="50" maxlv="59" cardnumber="9" cashtype="10" cashid="1" tip="使部队魔化为雷电法师,并增加22点部队基础攻击力（非英雄攻击）,使用时效7天。">
+		<effect type="1" value="22"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1356" minlv="60" maxlv="69" cardnumber="11" cashtype="10" cashid="1" tip="使部队魔化为雷电法师,并增加25点部队基础攻击力（非英雄攻击）,使用时效7天。">
+		<effect type="1" value="25"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1356" minlv="70" maxlv="79" cardnumber="13" cashtype="10" cashid="1" tip="使部队魔化为雷电法师,并增加27点部队基础攻击力（非英雄攻击）,使用时效7天。">
+		<effect type="1" value="27"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1356" minlv="80" maxlv="89" cardnumber="15" cashtype="10" cashid="1" tip="使部队魔化为雷电法师,并增加30点部队基础攻击力（非英雄攻击）,使用时效7天。">
+		<effect type="1" value="30"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1356" minlv="90" maxlv="99" cardnumber="17" cashtype="10" cashid="1" tip="使部队魔化为雷电法师,并增加32点部队基础攻击力（非英雄攻击）,使用时效7天。">
+		<effect type="1" value="32"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1356" minlv="100" maxlv="109" cardnumber="19" cashtype="10" cashid="1" tip="使部队魔化为雷电法师,并增加34点部队基础攻击力（非英雄攻击）,使用时效7天。">
+		<effect type="1" value="34"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1356" minlv="110" maxlv="119" cardnumber="21" cashtype="10" cashid="1" tip="使部队魔化为雷电法师,并增加36点部队基础攻击力（非英雄攻击）,使用时效7天。">
+		<effect type="1" value="36"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1364" minlv="50" maxlv="59" cardnumber="9" cashtype="10" cashid="1" tip="使部队魔化为赤血电魔,并增加22点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="22"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1364" minlv="60" maxlv="69" cardnumber="11" cashtype="10" cashid="1" tip="使部队魔化为赤血电魔,并增加25点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="25"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1364" minlv="70" maxlv="79" cardnumber="13" cashtype="10" cashid="1" tip="使部队魔化为赤血电魔,并增加27点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="27"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1364" minlv="80" maxlv="89" cardnumber="15" cashtype="10" cashid="1" tip="使部队魔化为赤血电魔,并增加30点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="30"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1364" minlv="90" maxlv="99" cardnumber="17" cashtype="10" cashid="1" tip="使部队魔化为赤血电魔,并增加32点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="32"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1364" minlv="100" maxlv="109" cardnumber="19" cashtype="10" cashid="1" tip="使部队魔化为赤血电魔,并增加34点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="34"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1364" minlv="110" maxlv="119" cardnumber="21" cashtype="10" cashid="1" tip="使部队魔化为赤血电魔,并增加36点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="36"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1372" minlv="70" maxlv="79" cardnumber="13" cashtype="10" cashid="1" tip="使部队魔化为光龙,并增加27点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="27"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1372" minlv="80" maxlv="89" cardnumber="15" cashtype="10" cashid="1" tip="使部队魔化为光龙,并增加30点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="30"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1372" minlv="90" maxlv="99" cardnumber="17" cashtype="10" cashid="1" tip="使部队魔化为光龙,并增加32点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="32"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1372" minlv="100" maxlv="109" cardnumber="19" cashtype="10" cashid="1" tip="使部队魔化为光龙,并增加34点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="34"/>
+	</cardtype>
+	<cardtype itemtype="9" itemid="1372" minlv="110" maxlv="119" cardnumber="21" cashtype="10" cashid="1" tip="使部队魔化为光龙,并增加36点部队基础防御力（非英雄防御）,使用时效7天。">
+		<effect type="2" value="36"/>
+	</cardtype>
+</root>

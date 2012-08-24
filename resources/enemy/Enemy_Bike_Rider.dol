@@ -1,0 +1,10 @@
+<Doll>
+    <Sprites defaultAnimationSetName="default" defaultAnimationName="death" dithered="F">
+        <Sprite filename="Enemy_Bike_Rider.asc" attachToTag="" sortToParentDepth="F">
+            <Particles />
+        </Sprite>
+    </Sprites>
+    <Sounds>
+        <Sound type="0" soundpath="Enemies/Enemy_Soldier_Light/Death" replacePrevSoundInstance="T" actorEvent="-1" actorEventParameter="" animation="death" animationSet="default" animationFrameIndex="7" />
+    </Sounds>
+</Doll>

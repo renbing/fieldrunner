@@ -1,0 +1,94 @@
+<!--Copyright 2012 Subatomic Studios, LLC. All rights reserved.-->
+<Form Name="" BasePlatform="2" Version="74" FormType="2">
+    <FormRoot Name="Element">
+        <Element TextureFilename="BGTint.png" Type="2" Name="BG" ID="9" Anchor="0.500000, 0.500000" Dimension="1.000000, 1.000000" BlendState="3" ResizeBias="0">
+            <Animations>
+                <Animation Name="CloseCommand">
+                    <Track ID="2" Type="9">
+                        <TrackKey ID="0" Time="0" Value="popForm" />
+                    </Track>
+                </Animation>
+            </Animations>
+        </Element>
+        <Element Type="2" Name="MapRewardGroup" ID="1" Anchor="0.500000, 0.581250" Dimension="0.520833, 0.675253" Visible="F" IsPassive="T" Tint="255, 255, 255, 0">
+            <Element Text="$(UnlockMapText)" Type="1" Name="MapRewardLabel" ID="5" Anchor="0.000000, -0.264062" Dimension="0.808333, 0.088570" IsPassive="T" Tracking="-6" Leading="47" TranslateOnce="T" Font="StencilYellow10.asc" />
+            <Element Text="$(UnlockMapText)" TextScale="0.8" Type="1" Name="MapNameLabel" ID="6" Anchor="-0.000002, -0.342187" Dimension="0.981250, 0.088570" IsPassive="T" Tracking="-9" Leading="47" TranslateOnce="T" Font="StencilGray01.asc" />
+            <Element Type="7" Name="GlowParticle" ID="3" Dimension="1.738422, 1.510883" IsPassive="T" Filename="UI_Light_Rays002.fx">
+                <Animations>
+                    <Animation Name="PlayGlow">
+                        <Track ID="0" Type="8">
+                            <TrackKey ID="0" Time="0" />
+                            <TrackKey ID="1" Time="0" />
+                        </Track>
+                    </Animation>
+                </Animations>
+            </Element>
+            <Element TextureFilename="G2t.png" Type="2" Name="MapThumbnail" ID="2" Dimension="0.300000, 0.320834" IsPassive="T">
+                <Animations>
+                    <Animation Name="PlayGlow">
+                        <Track ID="4" Type="9">
+                            <TrackKey ID="0" Time="0.0125" Value="playsound UI/In_Game/Reward_Earned" />
+                        </Track>
+                    </Animation>
+                </Animations>
+            </Element>
+            <Element TextureFilename="MapReward.png" Type="2" Name="MapThumbFrame" ID="4" Dimension="0.465688, 0.556250" IsPassive="T" BlendState="5" />
+            <Element Text="$(TapToContinue)&#x0D;&#x0A;" TextScale="0.8" Type="1" Name="TapToContinue" ID="35" Anchor="0.000000, -0.535937" Dimension="0.557083, 0.053153" IsPassive="T" Tint="187, 189, 198, 255" Tracking="-7" Leading="35" TranslateOnce="T" Font="ArialWhite05.asc" TextEffect="AlphaPulse" />
+        </Element>
+        <Element Type="2" Name="TowerRewardGroup" ID="10" Anchor="0.500000, 0.581250" Dimension="0.562957, 0.828864" Visible="F" IsPassive="T" Tint="255, 255, 255, 0">
+            <Element Text="$(UnlockItemText)" Type="1" Name="TowerRewardLabel" ID="11" Anchor="0.000000, -0.264062" Dimension="0.750000, 0.088570" IsPassive="T" Tracking="-7" Leading="47" TranslateOnce="T" Font="StencilYellow10.asc" />
+            <Element Text="The Nuke Tower" TextScale="0.8" Type="1" Name="TowerNameLabel" ID="12" Anchor="0.000000, -0.342187" Dimension="1.006250, 0.088570" IsPassive="T" Tracking="-9" Leading="47" TranslateOnce="T" Font="StencilGray01.asc" />
+            <Element Type="7" Name="GlowParticle" ID="13" Dimension="0.606097, 0.758801" IsPassive="T" Filename="UI_Light_Rays002.fx">
+                <Animations>
+                    <Animation Name="PlayGlow">
+                        <Track ID="0" Type="8">
+                            <TrackKey ID="0" Time="0" />
+                            <TrackKey ID="1" Time="0" />
+                        </Track>
+                    </Animation>
+                </Animations>
+            </Element>
+            <Element TextureFilename="Icon_Expendable_Fire_Off.jpg" Type="2" Name="TowerIcon" ID="14" Dimension="0.133333, 0.200000" IsPassive="T" PixelFormat="2" Dithered="T" />
+            <Element TextureFilename="Item_Glow.jpg" Type="2" Name="TowerIconFrame" ID="15" Dimension="0.141752, 0.200000" IsPassive="T" BlendState="5" PixelFormat="2" />
+            <Element Text="$(TapToContinue)&#x0D;&#x0A;" TextScale="0.8" Type="1" Name="TapToContinue" ID="16" Anchor="0.000000, -0.535937" Dimension="0.557083, 0.053153" IsPassive="T" Tint="187, 189, 198, 255" Tracking="-7" Leading="35" TranslateOnce="T" Font="ArialWhite05.asc" TextEffect="AlphaPulse" />
+        </Element>
+        <Element Type="2" Name="SlotRewardGroup" ID="17" Anchor="0.500000, 0.581250" Dimension="0.562957, 0.828864" Visible="F" IsPassive="T" Tint="255, 255, 255, 0">
+            <Element Text="$(UnlockItemSlotText)" TextScale="0.8" Type="1" Name="SlotRewardLabel" ID="18" Anchor="0.000000, -0.342187" Dimension="0.920833, 0.088570" IsPassive="T" Tracking="-9" Leading="47" TranslateOnce="T" Font="StencilGray01.asc" />
+            <Element Text="$(ItemSlotText)" Type="1" Name="SlotLabel" ID="19" Anchor="0.000000, -0.264062" Dimension="1.006250, 0.088570" IsPassive="T" Tracking="-5" Leading="47" TranslateOnce="T" Font="StencilYellow10.asc" />
+            <Element Type="7" Name="GlowParticle" ID="20" Dimension="0.902937, 0.981717" IsPassive="T" Filename="UI_Light_Rays002.fx">
+                <Animations>
+                    <Animation Name="PlayGlow">
+                        <Track ID="0" Type="8">
+                            <TrackKey ID="0" Time="0" />
+                            <TrackKey ID="1" Time="0" />
+                        </Track>
+                    </Animation>
+                </Animations>
+            </Element>
+            <Element TextureFilename="ItemReward.png" Type="2" Name="TowerIcon" ID="21" Dimension="0.181944, 0.272915" IsPassive="T" PixelFormat="2" Dithered="T" />
+            <Element TextureFilename="ItemReward_Glow.jpg" Type="2" Name="Panel::30" ID="30" Dimension="0.191135, 0.272915" IsPassive="T" BlendState="5" />
+            <Element Text="$(TapToContinue)&#x0D;&#x0A;" TextScale="0.8" Type="1" Name="TapToContinue" ID="33" Anchor="0.000000, -0.535937" Dimension="0.557083, 0.053153" IsPassive="T" Tint="187, 189, 198, 255" Tracking="-7" Leading="35" TranslateOnce="T" Font="ArialWhite05.asc" TextEffect="AlphaPulse" />
+        </Element>
+        <Element Type="2" Name="AirstrikeRewardGroup" ID="24" Anchor="0.500000, 0.581250" Dimension="0.562957, 0.828864" Visible="F" IsPassive="T" Tint="255, 255, 255, 0">
+            <Element Text="$(UnlockAirstrikeText)" TextScale="0.8" Type="1" Name="AirstrikeRewardLabel" ID="25" Anchor="0.000000, -0.265625" Dimension="0.931250, 0.088570" IsPassive="T" Tracking="-5" Leading="47" TranslateOnce="T" Font="StencilYellow10.asc" />
+            <Element Text="$(AirstrikeText)" Type="1" Name="SlotLabel" ID="26" Anchor="0.000000, -0.328125" Dimension="1.006250, 0.088570" IsPassive="T" Tracking="-5" Leading="47" TranslateOnce="T" Font="StencilYellow10.asc" />
+            <Element Type="7" Name="GlowParticle" ID="27" Dimension="1.702998, 1.258801" IsPassive="T" Filename="UI_Light_Rays002.fx">
+                <Animations>
+                    <Animation Name="PlayGlow">
+                        <Track ID="0" Type="8">
+                            <TrackKey ID="0" Time="0" />
+                            <TrackKey ID="1" Time="0" />
+                        </Track>
+                    </Animation>
+                </Animations>
+            </Element>
+            <Element TextureFilename="Airstrike_Background.png" Type="2" Name="AirstrikeIcon" ID="28" Dimension="0.308333, 0.221875" IsPassive="T" PixelFormat="2" />
+            <Element TextureFilename="Airstrike_Shine.jpg" Type="2" Name="Shine" ID="32" Dimension="0.308333, 0.221875" IsPassive="T" PixelFormat="2" />
+            <Element TextureFilename="Airstrike_Glow.jpg" Type="2" Name="Glow" ID="31" Dimension="0.320833, 0.239063" IsPassive="T" BlendState="5" />
+            <Element Text="$(TapToContinue)&#x0D;&#x0A;" TextScale="0.8" Type="1" Name="TapToContinue" ID="34" Anchor="0.000000, -0.535937" Dimension="0.557083, 0.053153" IsPassive="T" Tint="187, 189, 198, 255" Tracking="-7" Leading="35" TranslateOnce="T" Font="ArialWhite05.asc" TextEffect="AlphaPulse" />
+        </Element>
+    </FormRoot>
+    <AnimationTriggers>
+        <AnimationTrigger Event="Touches Ended (UI Only)" Data="9" Animation="CloseCommand" />
+    </AnimationTriggers>
+</Form>

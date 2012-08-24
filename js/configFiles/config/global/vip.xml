@@ -1,0 +1,86 @@
+<root>
+  <vip>
+    <!-- 黄钻登陆奖励 isyear表示年费黄钻才有 0表示都有-->  
+    <loginrewards>
+  	<items viplevel="1" >
+  		<item type="0" id="1" count="2" isyear="0"/>
+  		
+  		<item type="0" id="28" count="1" isyear="1"/>
+  	</items>
+  	<items viplevel="2" >
+  		<item type="0" id="1" count="2" isyear="0"/>
+  		<item type="0" id="2" count="1" isyear="0"/>
+  		
+  		<item type="0" id="28" count="1" isyear="1"/>
+  	</items>
+  	<items viplevel="3" >
+  		<item type="0" id="1" count="2" isyear="0"/>
+  		<item type="0" id="2" count="2" isyear="0"/>
+  		
+  		<item type="0" id="28" count="1" isyear="1"/>
+  	</items>
+  	<items viplevel="4" >
+  		<item type="0" id="1" count="2" isyear="0"/>
+  		<item type="0" id="2" count="3" isyear="0"/>
+  		
+  		<item type="0" id="28" count="1" isyear="1"/>
+  	</items>
+  	<items viplevel="5" >
+  		<item type="0" id="1" count="2" isyear="0"/>
+  		<item type="0" id="2" count="3" isyear="0"/>
+  		<item type="0" id="3" count="1" isyear="0"/>
+  		<item type="0" id="28" count="1" isyear="1"/>
+  	</items>
+  	<items viplevel="6" >
+  		<item type="0" id="1" count="2" isyear="0"/>
+  		<item type="0" id="2" count="3" isyear="0"/>
+  		<item type="0" id="3" count="2" isyear="0"/>
+  		<item type="0" id="28" count="1" isyear="1"/>
+  	</items>
+  	<items viplevel="7" >
+  		<item type="0" id="1" count="2" isyear="0"/>
+  		<item type="0" id="2" count="3" isyear="0"/>
+  		<item type="0" id="3" count="3" isyear="0"/>
+  		<item type="0" id="28" count="1" isyear="1"/>
+  	</items>
+  	<items viplevel="8" >
+  		<item type="0" id="1" count="3" isyear="0"/>
+  		<item type="0" id="2" count="3" isyear="0"/>
+  		<item type="0" id="3" count="3" isyear="0"/>
+  		<item type="0" id="28" count="1" isyear="1"/>
+  	</items>
+    </loginrewards>
+  
+    <!-- 黄钻新手奖励  -->  
+    <newbierewards>
+  	<items>
+  		<item type="0" id="1" count="50" />
+  		<item type="0" id="21" count="2" />
+  		<item type="0" id="29" count="1" />
+  	</items>
+    </newbierewards>
+  
+    <!-- 黄钻升级奖励  -->  
+    <upgraderewards>
+  	<items>
+  		<item type="0" id="2" count="2" />
+  	</items>
+    </upgraderewards>
+  </vip>
+    <!-- qq cdkey 奖励-->
+  <cdkey1>
+  <items>
+  		<item type="0" id="91" count="1" />
+  </items>
+  </cdkey1>
+  <cdkey2>
+  <items>
+  		<item type="0" id="90" count="1" />
+  </items>
+  </cdkey2>
+  <cdkey3>
+  <items>
+  		<item type="0" id="78" count="1" />
+  </items>
+  </cdkey3>
+</root>

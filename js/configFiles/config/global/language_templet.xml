@@ -1,0 +1,793 @@
+<!-- 前端程序代码输出信息语言包
+
+	中文->？文
+	
+	key		中文关键字（PS：$[xxx]是相关变量，翻译需保留）
+	value	翻译内容
+	--> 
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+	<!-- SDK--> 
+	<!-- SDK.GameManager.GameResMng.as --> 
+	<Item key="剩余$[count]个资源加载中，当前" value="Remaining $[count] resources.Loading..."/>
+	
+	<!-- Building -->
+	<!-- RoseKnight.Code.Building.ArmorShopBuilding.as --> 
+	<Item key="防具作坊" value="Armors workshop"/>
+	<Item key="点击进入防具作坊" value="Enter into the armors workshop"/>
+	<Item key="全兵系" value="For all units"/>
+	<Item key="步兵系" value="For infantry"/>
+	<Item key="枪兵系" value="For spearman"/>
+	<Item key="骑兵系" value="For cavalry"/>
+	<Item key="射手系" value="For archer"/>
+	<Item key="法师系" value="For mage"/>
+	<Item key="未选择要合成的防具" value="Not selected to be synthesis of Armor"/>
+	<Item key="合成所需要$[number]金币不足。\n" value="Synthesis required for $[number]coins of less than.\n"/>
+	<Item key="（通过城堡收税，爱心臣民，占领金矿等途径增加金币收入）" value="(Increase revenue by increasing the castle tax ,loving subjects, and the occupation of gold.)"/>
+	<Item key="装备材料不足无法合成\n" value="Can not synthesize because shortage of materials.\n"/>
+	<Item key="（挑战野外关卡可以获得材料）" value="(Challenging field barriers can be obtained materials)"/>
+	<Item key="合成防具中" value="Synthesizeing the armor."/>
+	<Item key="恭喜您，成功打造了" value="Congratulations, you successfully created the"/>
+	<Item key="合成防具失败" value="Synthesized armors failed."/>
+	<Item key="$[name]的防具作坊" value="$[name]'s armors workshop."/>
+	<Item key="防具作坊可以打造防具" value="Armors workshop can synthesize armors."/>
+	<Item key="打造该装备需要城堡达到Lv$[level]" value="To synthese this equipment needs of the castle to the Lv$[level]."/>
+	
+	<!-- RoseKnight.Code.Building.WeaponShopBuilding.as --> 
+	<Item key="武器作坊" value="Weapons workshop"/>
+	<Item key="点击进入武器作坊" value="Click to enter the weapons workshop."/>
+	<Item key="$[name]的武器作坊" value="$[name]'s weapons workshop."/>
+	<Item key="武器作坊可以打造武器" value="Weapons workshop can synthesize weapons."/>
+	<Item key="未选择要合成的武器" value="Not selected to be synthesized of weapons."/>
+	<Item key="合成武器中" value="Synthetic weapons"/>
+	<Item key="合成武器失败" value="Synthetic weapons failed."/>
+	
+	<!-- RoseKnight.Code.Building.BankBuilding.as --> 
+	<Item key="国库" value="Treasury"/>
+	<Item key="金币最大上限" value="Coins the maximum limit."/>
+	<Item key="点击后可以升级国库" value="Click to upgrade the treasury."/>
+	<Item key="$[name]的国库" value="$[name]'s Treasury."/>
+	<Item key="国库可以增加金币上限" value="Treasury can increase the upper limit of coins."/>
+	
+	<!-- RoseKnight.Code.Building.BankBuilding.as --> 
+	<Item key="兵营" value="Barracks"/>
+	<Item key="分钟" value="Minute"/>
+	<Item key="小时" value="Hour"/>
+	<Item key="$[name]的兵营" value="$[name]'s barracks."/>
+	<Item key="兵营可以生产士兵" value="Barracks can production soldiers."/>
+	<Item key="点击收获好友士兵" value="Click harvest soldier from your friends. "/>
+	<Item key="训练中 " value="Training"/>
+	<Item key="点击加速训练士兵" value="Click to accelerate the training of soldiers."/>
+	<Item key="点击让$[count]新兵入伍" value="Click Let $[count] recruits."/>
+	<Item key="点击可开始训练士兵" value="Click to start training soldiers."/>
+	<Item key="训练士兵实行中" value="Implementation of training soldiers."/>
+	<Item key="训练士兵实行失败" value="Implementation of training soldiers failed."/>
+	<Item key="训练士兵完成中" value="Completion of training soldiers."/>
+	<Item key="士兵" value="Soldiers"/>
+	<Item key="训练士兵完成失败" value="Failed to complete the training soldiers."/>
+	<Item key="训练士兵加速中" value="Accelerate the training of soldiers."/>
+	<Item key="训练士兵加速失败" value="Failed to accelerate the training soldiers."/>
+	<Item key="他不是你的好友不能分享资源，只有占领后才能分享资源" value="He is not your friend can not share resources. Only occupation in order to share resources "/>
+	<Item key="好友被占领无法拿取物资" value="Can not pick up the material because the friend was occupied."/>
+	<Item key="您是高贵的骑士不是罗宾汉，每天从其他领地分享的物资不能超过$[times]次哦" value="You are a noble knight is not Robin Hood. Supplies from other territories to share every day can not exceed $[times] times."/>
+	<Item key="资源已经不多了，留给主人一些吧，下次请早！" value="There are few remaining resources, please left them to the owner. Please come earlier next time!"/>
+	<Item key="征收好友士兵失败" value="Collection soldiers from friends failed."/>
+	<Item key="征收好友士兵中" value="Collection soldiers from friends."/>
+	
+	<!-- RoseKnight.Code.Building.BuildingList.as --> 
+	<Item key="不能再升级了！" value="Can not be upgraded!"/>
+	<Item key="需" value="need"/>
+	
+	<!-- RoseKnight.Code.Building.CastleBuilding.as --> 
+	<Item key="$[name]的城堡" value="$[name]'s castle"/>
+	<Item key="今日收获已经到上限" value="Today harvest has come to limit."/>
+	<Item key="点击加速收获" value="Click on accelerated harvest."/>
+	<Item key="点击收获金币" value="Click to harvest coins."/>
+	<Item key="点击解救$[name]" value="Click to save $[name]."/>
+	<Item key="点击占领$[name]" value="Click to occupy $[name]."/>
+	<Item key="收税中 " value="Collect taxes"/>
+	<Item key="被$[name]占领,点击反抗" value="Be occupied by $[name], Click to resist!"/>
+	<Item key="国库已满无法收获金币" value="Unable to harvest coins because the treasury is full."/>
+	<Item key="国库已满" value="The treasury is full."/>
+	<Item key="无法收获金币" value="Unable to harvest coins."/>
+	<Item key="点击加速收获金币" value="Click to accelerate the harvest coins."/>
+	<Item key="点击可驻防军队" value="Click to garrisoned troops."/>
+	<Item key="点击收取$[gold]金币" value="Click to receive $[gold] coins."/>
+	<Item key="点击可选择加收金币" value="Click optional additional coins."/>
+	<Item key="占领$[name]等待收获中" value="Occupation of the $[name] to wait for the harvest"/>
+	<Item key="获得" value="Harvest"/>
+	<Item key="征收好友城堡税收失败" value="Collection of friends castle tax failed."/>
+	<Item key="征收好友城堡税收中" value="Collect the taxes from friend's castle."/>
+	<Item key="占领征收失败" value="Occupation of expropriation failed."/>
+	<Item key="占领征收中" value="Occupation of expropriation."/>
+	<Item key="无需加速收获" value="No need to accelerate the harvest."/>
+	<Item key="不足\n需要数量" value=""/>
+	<Item key="\n当前数量" value="The current number of \n."/>
+	<Item key="国库的空间不足，不能继续收金币了，赶快去升级国库或者多多消费吧！" value="Treasury  can not continue to collect the coins because lack of space. Hurry to upgrade to the treasury or a lot of consumer."/>
+	<Item key="城堡征收中" value="Castle imposed"/>
+	<Item key="税收" value="tax"/>
+	<Item key="征收失败" value="imposed failed"/>
+	<Item key="自动免战时间，可攻击其他领主" value="Automatically war-free time, you can attack other lords."/>
+	<Item key="主动免战时间，攻击其他领主会解除保护时间" value="Take the initiative to avoid war, attack other lords will unprotect time."/>
+	
+	<!-- RoseKnight.Code.Building.ChurchBuilding.as --> 
+	<Item key="教堂" value="Church"/>
+	<Item key="无伤兵可以恢复" value="No wounded soldiers can be restored."/>
+	<Item key="未选择要恢复的伤兵数量" value="You haven't select the number of wounded who need to restore."/>
+	<Item key="伤兵不足所选择的" value="Wounded less than the selected."/>
+	<Item key="金币不足治疗伤兵所需的" value="The coins of treatment of wounded soldiers is not enough."/>
+	<Item key="治疗伤兵实行中" value="Treatment of wounded soldiers"/>
+	<Item key="治疗伤兵实行失败" value="Treatement of wounded soldiers failed."/>
+	<Item key="$[name]的教堂" value="$[name]'s church"/>
+	<Item key="教堂可治疗伤兵" value="The church to treat wounded soldiers."/>
+	<Item key="点击收获好友士兵" value="Click harvest Friends soldiers"/>
+	<Item key="点击加速治疗伤兵" value="Click to accelerate the treatment of wounded soldiers."/>
+	<Item key="治疗伤兵中 " value="Treatment of wounded soldiers"/>
+	<Item key="点击士兵归队" value="Click soldiers rejoin"/>
+	<Item key="点击可治疗伤兵" value="Click to treat wounded soldiers."/>
+	<Item key="治疗伤兵完成中" value="Treatment of wounded soldiers is almost complete."/>
+	<Item key="治疗伤兵完成失败" value="Treatment of wounded soldiers to complete failed."/>
+	<Item key="治疗伤兵加速中" value="Acceleration of the treatment of wounded soldiers."/>
+	<Item key="治疗伤兵加速失败" value="Acceleration of the treatment of wounded soldiers failed."/>
+	
+	<!-- RoseKnight.Code.Building.FarmBuilding.as --> 
+	<Item key="农田" value="Farmland"/>
+	<Item key="金币不足种植所需" value="The coins lack of planting required."/>
+	<Item key="种植作物中" value="Planting crops"/>
+	<Item key="种植作物失败" value="Planting crops failed."/>
+	<Item key="农田可以生产粮食" value="Farmland can produce food."/>
+	<Item key="点击收取好友粮食" value="Click to receive friends food."/>
+	<Item key="点击帮助好友免费复活" value="Click to help friend resurrection free."/>
+	<Item key="点击收取好友粮食" value="Click to receive friends food"/>
+	<Item key="农田可以生产粮食" value="Farmland can produce food"/>
+	<Item key="距离枯萎时间" value="Distance time of wither."/>
+	<Item key="点击收获粮食" value="Click to harvest grain."/>
+	<Item key="$[name]的农田" value="$[name]'s farmland."/>
+	<Item key="作物" value="Crop"/>
+	<Item key="生长中" value="Growing"/>
+	<Item key="点击加速$[name]成熟" value="Click to accelerate $[name] mature."/>
+	<Item key="点击复活或清除" value="Click on the resurrection or clear."/>
+	<Item key="点击可种植作物" value="Click for planting crops."/>
+	<Item key="好友被占领无法操作" value="Friends of the occupied can not operate."/>
+	<Item key="征收好友粮食失败" value="Harvest friend's food failed."/>
+	<Item key="征收好友粮食中" value="Harvest friend's food."/>
+	<Item key="收获作物中" value="Harvest crops"/>
+	<Item key="种植作物加速中" value="Acceleration of the growing crops."/>
+	<Item key="种植作物加速失败" value="Acceleration of the growing crops failed."/>
+	<Item key="清除作物中" value="Clearing the crop."/>
+	<Item key="清除作物失败" value="Clear the crop failed."/>
+	<Item key="不能操作非好友的农田" value="Can not operate a non-friend of farmland."/>
+	<Item key="复活好友作物失败" value="Resurrection of friend crop failed."/>
+	<Item key="恢复好友作物中" value="Recovery Friends crops"/>
+	<Item key="复活农作物所需要$[gold]金币不足,无法复活。" value="The resurrection of the crops need $[gold].The coins is not enough to resurrected."/>
+	<Item key="恢复作物中" value="Recovery crops"/>
+	<Item key="复活作物失败" value="Recovery crops failed."/>
+	<Item key="粮食" value="Food"/>
+	<Item key="收获作物失败" value="Harvest the crops failed."/>
+	
+	<!-- RoseKnight.Code.Building.HouseBuilding.as --> 
+	<Item key="民房" value="House"/>
+	<Item key="$[name]的民房" value="$[name]'s house"/>
+	<Item key="民房可以招募臣民" value="Houses can recruit subjects."/>
+	<Item key="点击收获好友臣民" value="Click harvest Friends subjects"/>
+	<Item key="招募臣民中 " value="Recruiting subjects."/>
+	<Item key="点击加速臣民招募" value="Click to accelerate the subjects recruit."/>
+	<Item key="点击增加臣民" value="Click to increase the subjects."/>
+	<Item key="点击招募臣民" value="Click to recruit subjects"/>
+	<Item key="招募臣民完成中" value="Recruit subjects is almost complete"/>
+	<Item key="人口" value="Population"/>
+	<Item key="招募臣民失败" value="The recruit of subjects failed."/>
+	<Item key="招募臣民实行中" value="The recruit of subjects."/>
+	<Item key="招募臣民实行失败" value="The implementation of recruit subjects."/>
+	<Item key="招募臣民加速中" value="The implementation of recruit subjects failed."/>
+	<Item key="征收好友人口失败" value="Imposed the population of friends failed."/>
+	<Item key="征收好友人口中" value="Imposed the population of Friends."/>
+	
+	<!-- RoseKnight.Code.Building.MarketBuilding.as --> 
+	<Item key="$[name]的商会" value="$[name]'s Chamber of Commerce"/>
+	<Item key="可与好友商会交易" value="Transactions by friends Chamber of Commerce."/>
+	<Item key="商会" value="Chamber of Commerce"/>
+	<Item key="单次最大交易额度" value="The single largest transaction amount"/>
+	<Item key="通商额度" value="International Trade and the amount of"/>
+	<Item key="单次最大额度" value="Maximum amount of single."/>
+	
+	<!-- RoseKnight.Code.Building.PrisonBuilding.as --> 
+	<Item key="无收益" value="No income"/>
+	<Item key="收益时间:" value="Gains time"/>
+	<Item key="$[name]的监狱" value="$[name]'s prison."/>
+	<Item key="监狱可监禁占领的玩家" value="Prison imprisonment occupation players."/>
+	<Item key="监狱" value="Prison"/>
+	<Item key="点击打开监狱面板" value="Click to open the prison panel."/>
+	
+	<!-- RoseKnight.Code.Building.TavernBuilding.as --> 
+	<Item key="召唤英雄中" value="Calling heroes"/>
+	<Item key="酒馆中现在有个超级英雄，您确定不要雇佣的话，请再次选择“举行派对”" value="There is a super-hero in the tavern now. If sure that you do not hire ，please click the [Have a party]."/>
+	<Item key="无法举行派对" value="Not be able to have a party."/>
+	<Item key="发展领地需要不少金币，还是留下一些，下次再来请客吧！" value="The development of the territory needs a lot of coins, or leave some next treat it!"/>
+	<Item key="举行派对所需$[gold]金币不足\n" value="Have a party required for $[gold]coins of less than.\n"/>
+	<Item key="举行派对中" value="Having a party."/>
+	<Item key="获得了" value="Obtained"/>
+	<Item key="凑齐$[count]张碎片可获得" value="Cobble together $[count] fragments can obtained"/>
+	<Item key="使用此卡可以立即招募到超级英雄" value="Use this card can be immediately recruit to the super hero"/>
+	<Item key="召唤英雄失败" value="Call of the hero failed"/>
+	<Item key="失败" value="failed"/>
+	<Item key="拥有英雄的数量达到上限" value="Has a number of heroes reach limit"/>
+	<Item key="雇佣英雄所需要的$[gold]金币不足，无法雇佣。\n" value="Hire a hero required of $[number]coins.Lack of coins, can not be hired.\n"/>
+	<Item key="雇佣英雄中" value="Hire the hero."/>
+	<Item key="雇佣英雄失败" value="Hire the hero failed."/>
+	<Item key="酒馆" value="Tavern"/>
+	<Item key="$[name]的酒馆" value="$[name]'s tavern"/>
+	<Item key="酒馆可招募英雄" value="Tavern can recruit hero"/>
+	<Item key="点击进入酒馆招募英雄" value="Click to enter a tavern to recruit the hero"/>
+	<Item key="热闹度" value="Degree of excitement"/>
+	<Item key="下次热闹度到$[value]的时候会增加高级英雄2%的出现率" value="The next excitement to the $[value] will increase the emergence rate of 2% for a high-level heroes"/>
+	<Item key="超级英雄" value="Super hero"/>
+	<Item key="普通英雄" value="Ordinary heroes"/>
+	<Item key="攻击" value="Attack"/>
+	<Item key="防御" value="Defense"/>
+	<Item key="幸运" value="Lucky"/>
+	<Item key="兵种" value="Arms"/>
+	<Item key="雇佣价格" value="Employment price"/>
+	
+	<!-- RoseKnight.Code.Building.TrainingFieldBuilding.as --> 
+	<Item key="$[name]的训练场" value="$[name]'s training field"/>
+	<Item key="训练场是训练英雄的地方" value="Training ground is the place of the training a hero."/>
+	<Item key="训练场" value="Training field"/>
+	<Item key="有$[hascount]/$[totalcount]英雄训练中" value="$[Hascount] / [totalcount] hero in training"/>
+	<Item key="点击训练英雄" value="Click on Training hero"/>
+	<Item key="点击进入训练场" value="Click to enter the training field"/>
+	<Item key="当前已经无法再开启训练位" value="Has been unable to open training spaces."/>
+	<Item key="训练位不足，无法训练英雄。\n" value="Lack of the training space, can not train a hero.\n"/>
+	<Item key="（可以通过邀请好友或消耗Q点来开启更多的训练位置）" value="(By inviting friends or consumption GC points to open more training spaces.)"/>
+	<Item key="英雄等级已经达到城堡等级无法继续训练。\n" value="The level of hero has reached the castle grade unable to continue training.\n"/>
+	<Item key="(完成任务，参加战斗可以获得经验提升城堡等级。)" value="(Complete the task, to take part in combat can gain experience to upgrade the level of castle.)"/>
+	<Item key="训练所需金币不足" value="Insufficient of training required for coins"/>
+	<Item key="着手训练英雄" value="Begin training hero"/>
+	<Item key="本功能即将开放" value="This function is about to open"/>
+	<Item key="训练英雄失败" value="Training hero failed"/>
+	<Item key="英雄训练加速中" value="Accelerate the hero training"/>
+	<Item key="英雄训练加速失败" value="Accelerate the hero training failed"/>
+	<Item key="终止训练不返回训练花费" value="Termination of training will not be returned to the spend of training."/>
+	<Item key="结束训练英雄" value="The end of training hero"/>
+	<Item key="等级提升" value="Level-up"/>
+	<Item key="英雄当前受城堡等级限制不能继续获得经验，请升级您的城堡。" value="By Castle Level restrictions hero can not continue to gain experience.Please upgrade your castle."/>
+	<Item key="获得经验" value="To gain experience"/>
+	<Item key="结束训练失败" value="The end of training failed"/>
+	<Item key="可统率士兵" value="Can be commanded soldiers"/>
+	<Item key="需要拥有$[count]位$[level]级以上的好友" value="Need to have $[count] more friends of level$[level]."/>
+	<Item key="再多好友也无法帮你开启训练位了" value="Even more friends can not help you open the training space."/>
+	<Item key="Q点" value="GC point"/>
+	<Item key="训练场等级不足，无法增加训练位" value="The level of training field is insufficient to increase the training space."/>
+	<Item key="好友不足，无法增加训练位" value="The number of friends is not enough to increase the training space."/>
+	<Item key="增加训练位中" value="Increase the training space."/>
+	<Item key="训练位已达到极限" value="Training space has reached its limit"/>
+	<Item key="增加训练位失败" value="Increase the training space failed."/>
+	
+	
+	<!-- Data -->
+	<!-- RoseKnight.Code.Data.PlayerDataMng.as --> 
+	<Item key="由于被占领减少$[count]$[typename]" value="Reduce $[count]$[typename] because the occupied."/>
+	<Item key="被$[playername]拿走$[count]$[typename]" value="$[playname] take away $[count]$[typename]"/>
+	<Item key="最终收获$[count]$[typename]" value="Final harvest $[count]$[typename]"/>
+	
+	<!-- RoseKnight.Code.Data.Battle.BattleStatus.as --> 
+	<Item key="无法行动" value="Unable to move"/>
+	<Item key="技能限制" value="Skills limit"/>
+	<Item key="士气低落" value="Low morale"/>
+	<Item key="格挡" value="Block"/>
+	<Item key="持续伤害" value="Continuing injury"/>
+	<Item key="自疗" value="Self-treatment"/>
+	<Item key="鼓舞" value="Inspire"/>
+	<Item key="回避技能" value="Evasive skills"/>
+	<Item key="伤害吸收" value="Damage absorption"/>
+	<Item key="距离加成H" value="Distance Addition of H"/>
+	<Item key="距离加成V" value="Distance Addition of V"/>
+	<Item key="打断技能" value="Interrupted by skills"/>
+	<Item key="未知状态" value="Unknown state"/>
+	<Item key="状态【$[status]】效果触发" value="Trigger the effect of 【$[status]】"/>
+	
+	<!-- RoseKnight.Code.Data.Battle.BattleTroop.as --> 
+	<Item key="技能需要升级" value="Skills needed to upgrade"/>
+	<Item key="缺少装备" value="Lack of equipment"/>
+	<Item key="装备等级低" value="Level of equipment is low"/>
+	
+	<!-- RoseKnight.Code.Data.Battle.HeroData.as --> 
+	<Item key="驻防" value="quarter"/>
+	<Item key="占领" value="occupy"/>
+	<Item key="空闲" value="free"/>
+	
+	<!-- RoseKnight.Code.Data.City.MapNPC.as --> 
+	<Item key="超过国库上限无法收税" value="Unable to collect taxes because the limit of treasury."/>
+	
+	
+	<!-- Extern --> 
+	<!-- RoseKnight.Code.Extern.ExternAchivementDialog.as --> 
+	<Item key="英雄" value="Heros"/>
+	<Item key="显示你拥有的超级英雄" value="Show the super heros that you have"/>
+	<Item key="装备" value="Equipment"/>
+	<Item key="显示你拥有的稀有装备" value="Show the rare equipment that you have"/>
+	<Item key="成就" value="Achievement"/>
+	<Item key="显示你当前的成就" value="Display your current achievements"/>
+	<Item key="制作人员" value="production staff"/>
+	<Item key="显示玫瑰骑士团制作人员名单" value="Display the production staff list for [The Kinghts of Rose]"/>
+	<Item key="功勋值" value="Meritorious value"/>
+	<Item key="已经到达最高功勋" value="Has reached the highest meritorious"/>
+	<Item key="还差$[score]点功勋可以获得下一称谓" value="Short of $[score] points feats can get the next title."/>
+	<Item key="即将开放" value="Is about to open"/>
+	
+	<!-- RoseKnight.Code.Extern.ExternBatchBuyDialog.as --> 
+	<Item key="要购买的数量必须大于0" value="The number you want to purchase must be greater than 0"/>
+	
+	<!-- RoseKnight.Code.Extern.ExternCDKPanel.as --> 
+	<Item key="领取礼包中" value="Receive goodie bags"/>
+	<Item key="领取礼包失败" value="Receive goodie bags failed"/>
+	
+	<!-- RoseKnight.Code.Extern.ExternDailyTask.as --> 
+	<Item key="需要积分$[score]可开启\n" value="Requires $[score]points to open\n"/>
+	<Item key="金币" value="Coins"/>
+	<Item key="经验" value="Experience"/>
+	<Item key="军令" value="Military orders"/>
+	<Item key="积分" value="Integral"/>
+	<Item key="【已开启】" value="[Has been open]"/>
+	<Item key="【未开启】" value="[Not open]"/>
+	<Item key="开启宝箱失败" value="Open the chest failed"/>
+	
+	<!-- RoseKnight.Code.Extern.ExternFCMDialog.as --> 
+	<Item key="请输入正确的名字" value="Please enter the correct name"/>
+	<Item key="请输入正确的身份证号" value="Please enter the correct ID number"/>
+	
+	<!-- RoseKnight.Code.Extern.ExternFlyBoxPool.as --> 
+	<Item key="获得$[item]x$[count]" value="obtained $[item]x$[count]"/>
+	<Item key="射击宝箱失败" value="Shooting chest failed"/>
+	
+	<!-- RoseKnight.Code.Extern.ExternFriendGroupPanel.as --> 
+	<Item key="好友" value="Friends"/>
+	<Item key="仇人" value="Enemy"/>
+	<Item key="家族" value="Family"/>
+	<Item key="城堡无免战" value="Castle no free war"/>
+	<Item key="男" value="Man"/>
+	<Item key="女" value="Female"/>
+	<Item key="删除仇人失败" value="Remove the enemy failed"/>
+	<Item key="删除仇人中" value="Removeing the enemy"/>
+	
+	<!-- RoseKnight.Code.Extern.ExternGoodsPanel.as --> 
+	<Item key="普通道具" value="Ordinary props"/>
+	<Item key="技能卡" value="Skills card"/>
+	<Item key="兵种卡" value="Soldiers card"/>
+	<Item key="防具" value="armor"/>
+	<Item key="武器" value="weapon"/>
+	<Item key="防具零件" value="armor parts"/>
+	<Item key="武器零件" value="weapon parts"/>
+	<Item key="魔化卡片" value="monster shape card"/>
+	<Item key="贩卖物品失败" value="Sale goods failed"/>
+	<Item key="物品需要$[level]级以后才能使用" value="Use this item need level$[level]"/>
+	<Item key="使用物品中" value="Used"/>
+	<Item key="每天最多可以通过军令包打开$[openlimit]个军令\n您申请使用$[usecount]个$[item]，有效打开$[realcount]个" value="You can get $[openlimit] military orders per day through open military orders package.
+\n You apply for the use of $[usecount]$[item],$[realcount] is valid."/>
+	<Item key="使用物品失败" value="Use the item fails"/>
+	<Item key="卖出物品中" value="Sell the items"/>
+	<Item key="该物品无法出售" value="The items can not be sold"/>
+	
+	<!-- RoseKnight.Code.Extern.ExternGuide.as --> 
+	<Item key="请拖动距离大一些" value="Drag from the larger"/>
+	<Item key="保存军团配置失败" value="Failed to save the Legion configuration"/>
+	<Item key="完成指导失败" value="Failed to Completion of the guidance"/>
+	<Item key="开始指导失败" value="Failed to start guidance"/>
+	
+	<!-- RoseKnight.Code.Extern.ExternPrisonPanel.as --> 
+	<Item key="没有房间刷新卡了" value="There is no room-refresh card"/>
+	<Item key="监狱刷新中" value=" Refreshing the prison"/>
+	<Item key="监狱刷新失败" value="Refresh the prison failed"/>
+	
+	<!-- RoseKnight.Code.Extern.ExternShootBoxPanel.as --> 
+	<Item key="金钱不够" value="Coins is not enough"/>
+	
+	<!-- RoseKnight.Code.Extern.ExternShopPanel.as --> 
+	<Item key="购买物品中" value="Purchaseing"/>
+	<Item key="购买道具完成" value="Completion of the purchase props"/>
+	<Item key="购买物品失败" value="Completion of the purchase props failed"/>
+	<Item key="需$[level]级可用" value="Need Lv$[level] to use"/>
+	
+	<!-- RoseKnight.Code.Extern.ExternTaskDoneDialog.as --> 
+	<Item key="每日任务" value="Daily tasks"/>
+	<Item key="奖励" value="Reward"/>
+	
+	<!-- RoseKnight.Code.Extern.ExternUtil.as --> 
+	<Item key="您本次消费满$[qpoint]Q点，获得$[gold]金币！感谢您参与春节消费活动！" value="You have spend more than $[qpoint]GC point for that you will get $[gold]coins. Thank for participation in the Spring Festival consumption activities."/>
+	<Item key="领取大礼包中" value="collecting the gift package"/>
+	<Item key="领取大礼包失败" value="collect the gift package failed"/>
+	<Item key="领取新年红包中" value="collect the cash gift of the New Year"/>
+	<Item key="领取新年红包失败" value="collect the cash gift of the New Year failed"/>
+	<Item key="兑换奖品" value="Exchange awards"/>
+	
+	
+	<!-- Scene --> 
+	<!-- RoseKnight.Code.Scene.BattleFieldScene.as -->
+	<Item key="金币不足，无法立即结束战斗" value="It could not immediately end the fighting without enough coins."/>
+	<Item key="结束战斗" value="To end the fighting"/>
+	<Item key="无法结束战斗" value="Unable to end the fighting"/>
+	<Item key="驻守军团无法出战" value="The stationed soldiers can not be battled"/>
+	<Item key="战报版本【$[version1]】与当前版本【$[version2]】不符" value="The battlefield version【$[version1]】 is different from the current version 【$[version2]】"/>
+	<Item key="载入战报失败" value="battlefield  loading failed"/>
+	<Item key="当前军令为0，无法战斗\n" value="Unalbe to fight with 0 military orders.\n"/>
+	<Item key="升级城堡或使用军令道具将会补充军令" value="Upgrade the castle or the use of military orders props will complement the military orders."/>
+	<Item key="士兵数为0无法战斗，请返回城堡招募士兵吧。" value="O of soldiers can not fight.Please return the castle to recruit soldiers."/>
+	<Item key="战斗准备中" value="combat ready"/>
+	<Item key="无法进行战斗" value="Unable to fight"/>
+	<Item key="暂不支持金矿战侦查功能" value="The detection function is not supported for use in goldmine"/>
+	<Item key="当前地域军情已知,无需侦查" value="The current regional military is known, no need to detection"/>
+	<Item key="没有$[itemname],无法侦查军情" value="Unable to detection military without $[itemname]"/>
+	<Item key="侦查军情中" value="Detctioning military"/>
+	<Item key="无法侦查军情" value="Unable to detection military"/>
+	<Item key="战斗力" value="Combat effectiveness"/>
+	<Item key="士兵数" value="Number of soldiers"/>
+	<Item key="兵力比" value="Ratio of troops"/>
+	<Item key="军令数不足，无法再战" value="Can not be re-battles because the military order is not enough"/>
+	<Item key="自动战斗第$[cur]/$[max]次" value="Auto Combat $[cur]/$[max]time."/>
+	<Item key="双方平局" value="Draw"/>
+	<Item key="获胜" value="Win"/>
+	<Item key="士兵数量不满，唯恐失利，无法再战。" value="Can not be re-battles because the number of soldiers is not enough."/>
+	<Item key="反击" value="Counterattack"/>
+	<Item key="对方等级过高，防御无效" value="The defense is invalid becasue the level of other person involved is too high. "/>
+	<Item key="冲撞失败" value="Crash failed"/>
+	
+	<!-- RoseKnight.Code.Scene.ChallengeScene.as -->
+	<Item key="当前军令为0，无法出征\n升级城堡或使用军令道具将会补充军令" value="Unalbe to fight with no military orders.\nUpgrade the castle or the use of military orders props will complement the military orders"/>
+	<Item key="罕见" value="uncommon"/>
+	<Item key="极少" value="rarely"/>
+	<Item key="稀少" value="few"/>
+	<Item key="少" value="less"/>
+	<Item key="一般" value="ordinary"/>
+	<Item key="较多" value="more"/>
+	<Item key="城堡$[level]级以后才能进入金矿。\n" value=" To enter the goldmine need  LV$[level] castle.\n"/>
+	<Item key="(可以通过完成任务，参加战斗可以获得经验提升城堡等级)" value="(Gain experience to upgrade the castle by completing tasks and take part in combat.)"/>
+	<Item key="军团战即将开放" value="Corps war is about to open"/>
+	<Item key="骑士大赛即将开放" value="The Contest of knight is about to open"/>
+	<Item key="骑士大赛" value="Competition of knight."/>
+	<Item key="金矿战" value="Goldmine War"/>
+	<Item key="军团战" value="Corps war"/>
+	
+	<!-- RoseKnight.Code.Scene.LoadingScene.as -->
+	<Item key="待下载" value="Wait for the download"/>
+	<Item key="当前" value="Current"/>
+	<Item key="登陆游戏失败" value="Landing the game failed"/>
+	
+	<!-- RoseKnight.Code.Scene.MineCraftScene.as -->
+	<Item key="金矿说明" value="Gold instructions"/>
+	<Item key="正在获取金矿数据" value="Loading the date of the goldmine"/>
+	<Item key="金矿占领结束，获得金币" value="End of the occupation, get the coins"/>
+	<Item key="获取金矿数据失败" value="Failed to loading the goldmine data"/>
+	<Item key="房间转换卡道具数量不足\n" value="Insufficient number of the room conversion card.\n"/>
+	<Item key="（可通过每日任务获得或商城直接购买）" value="（It can be taken by the daily taske or purchase in mall.）"/>
+	<Item key="可掠夺金币" value="The coins can be plundered"/>
+	<Item key="今天剩余时间不足5分钟，无法获得收益" value="The remaining time is less than five minutes, unable to gain coins"/>
+	<Item key="第$[hours]轮坚守$[timeDesc]\n额外获得$[total]金币奖励" value="The $[hours]round have held out for $[timeDesc] minutes.\nAdditional $[total]coins award."/>
+	
+	
+	<!-- UI --> 
+	<!-- RoseKnight.Code.UI.BattleReportUI.as -->
+	<Item key="天前" value="days ago"/>
+	<Item key="今天" value="today"/>
+	
+	<!-- RoseKnight.Code.UI.ChristmasWishUI.as -->
+	<Item key="你是喜欢打仗的好小孩吗？给我一件装备和2个幸运草就可以在我这里参加礼物许愿抽奖活动了！" value="Do you like to fight? An equipment and two Clover can I participate in a gift Wishing sweepstakes"/>
+	<Item key="心里默念你想要的东西，选一个吧，如果你人品好，就会实现心愿哦。" value="Mind meditation the things you want and chose the one.You will achieve a wish!
+If you're lucky!"/>
+	<Item key="恭喜你获得奖品" value="Congratulations, you win a prize"/>
+	<Item key="祈祷中" value="Praying"/>
+	<Item key="祈祷失败" value="Prayer failed"/>
+	<Item key="幸运草可以从单机关卡掉落和每日任务宝箱中获得" value="Clover can fall from the stand-alone barriers and daily tasks chest"/>
+	<Item key="今天不能再许愿了" value="Can no make a wish today."/>
+	<Item key="没有可许愿的装备" value="No equipment can make a wish"/>
+	
+	<!-- RoseKnight.Code.UI.City.as -->
+	<Item key="的成就" value=""/>
+	<Item key="点击打开成就面板" value=""/>
+	<Item key="城堡Lv$[level]建设完成" value="Construction completion of the LV$[level] Castle"/>
+	<Item key="民房Lv$[level]建设完成" value="Construction completion of the LV$[level] House"/>
+	<Item key="兵营Lv$[level]建设完成" value="Construction completion of the LV$[level] Barrack"/>
+	<Item key="酒馆Lv$[level]建设完成" value="Construction completion of the LV$[level] Tavern"/>
+	<Item key="教堂Lv$[level]建设完成" value="Construction completion of the LV$[level] Church"/>
+	<Item key="国库Lv$[level]建设完成" value="Construction completion of the LV$[level] Treasury"/>
+	<Item key="训练场Lv$[level]建设完成" value="Construction completion of the LV$[level] Training field"/>
+	<Item key="武器作坊Lv$[level]建设完成" value="Construction completion of the LV$[level] Weapons workshop"/>
+	<Item key="防具作坊Lv$[level]建设完成" value="Construction completion of the LV$[level] Armors workshop"/>
+	<Item key="农田Lv$[level]建设完成" value="Construction completion of the LV$[level] Farmland"/>
+	<Item key="商会Lv$[level]建设完成" value="Construction completion of the LV$[level] Chamber of commerce"/>
+	
+	<!-- RoseKnight.Code.UI.FriendPanelUI.as -->
+	<Item key="访问好友失败" value="Visit friends failed"/>
+	<Item key="访问好友中" value="Visiting friends"/>
+	<Item key="$[playername]的领地" value="Territory of $[playname]"/>
+	
+	<!-- RoseKnight.Code.UI.GlobalUI.as -->
+	<Item key="建筑" value="build"/>
+	<Item key="英雄" value="heros"/>
+	<Item key="商店" value="mall"/>
+	<Item key="物品" value="item"/>
+	<Item key="回家" value="return home"/>
+	<Item key="出征" value="expedition"/>
+	<Item key="金矿" value="goldmine"/>
+	<Item key="战报" value="battlefield"/>
+	<Item key="最新公告" value="announcement"/>
+	<Item key="满足升级条件" value="meet upgrade conditions"/>
+	<Item key="不满足升级条件" value="not meet upgrade conditions"/>
+	<Item key="已达到顶级" value="Have reached the top"/>
+	<Item key="升级冷却时间中" value="the cooldown of upgrade "/>
+	<Item key="无法掠夺，剩余保护时间$[time]" value="Can not be predatory because there is $[time] of the protection time remaining."/>
+	<Item key="发放完毕" value="Payment is completed"/>
+	<Item key="获取军令失败" value="Access to military orders failed"/>
+	<Item key="城堡$[level]级以后才能进入金矿。\n" value="To enter the goldmine need  LV$[level] castle.\n"/>
+	<Item key="(可以通过完成任务，参加战斗可以获得经验提升城堡等级)" value="(Gain experience to upgrade the castle by completing tasks and take part in combat.)"/>
+	<Item key="没有雇佣英雄" value="No hero"/>
+	<Item key="请先建造酒馆雇佣英雄" value="To hire a hero you need build the tavern first."/>
+	<Item key="需要雇佣英雄，才能组建军团出征" value="You need to hire a hero in order to set up the corps。"/>
+	<Item key="一小斑斑" value="A small stained"/>
+	<Item key="感觉良好" value="Feel good"/>
+	<Item key="表现优秀" value="Outstanding"/>
+	<Item key="速度惊人" value="At an alarming rate"/>
+	<Item key="反应卓越" value="Reaction of excellence"/>
+	<Item key="滑鼠专家" value="Mouse expert"/>
+	<Item key="控鼠怪才" value="Control mice geeks"/>
+	<Item key="游戏狂人" value="Game crazy"/>
+	<Item key="锐不可当" value="Unstoppable"/>
+	<Item key="云雀大师" value=" Lark Masters"/>
+	<Item key="升级" value="upgrade"/>
+	<Item key="驻防" value="stationed in"/>
+	<Item key="撤军" value="withdrawal"/>
+	<Item key="反抗" value="resist"/>
+	<Item key="加速" value="accelerate"/>
+	<Item key="加收金币" value="additional coins"/>
+	<Item key="加收次数到达上限" value="the times of additional cions was reach the upper limit"/>
+	<Item key="征收" value="levy"/>
+	<Item key="可征收金币" value="The coins can levy"/>
+	<Item key="招募" value="recruit"/>
+	<Item key="加速招募" value="accelerated recruitment"/>
+	<Item key="加速成熟" value="accelerated growth"/>
+	<Item key="种植" value="planting"/>
+	<Item key="清除作物" value="clear crop"/>
+	<Item key="复活作物" value="resurrection crop"/>
+	<Item key="需金币$[gold]" value="need $[gold] coins"/>
+	<Item key="训练" value="training"/>
+	<Item key="加速练兵" value="accelerated training"/>
+	<Item key="治疗" value="treatment"/>
+	<Item key="加速治疗" value="accelerated treatment"/>
+	<Item key="进入" value="enter"/>
+	<Item key="通商" value="trade"/>
+	<Item key="并继承当前矿主的$[gold]金币" value="And you will rob $[gold]coinsby the player who owns the mine operational."/>
+	<Item key="掠夺失败则会被扣除$[gold]金币" value="You have to give away $[gold]coins in case of failure."/>
+	<Item key="武力占领金矿" value="occupy by force"/>
+	<Item key="武力驱赶矿主" value="expel by force"/>
+	<Item key="失败无惩罚" value="failure without punishment"/>
+	<Item key="解救" value="save"/>
+	<Item key="驻守" value="stationed"/>
+	<Item key="当前没有监狱，请先建造监狱" value="No prison. Please build the prisons first."/>
+	<Item key="监狱满了，不能再占领更多的玩家" value="You can no occupy more players because the prison is full."/>
+	<Item key="您自己的城堡还有$[lefttime]时间的主动保护期，如果选择攻占其他玩家则会立即解除主动保护，您确定吗？" value=""/>
+	<Item key="当前没有雇佣英雄，无法驻守城堡!" value="Can not be stationed at the castle because no employment hero!"/>
+	<Item key="需要$[level]级以后才能驻防!" value="The stationed needs to Level $[level]."/>
+	<Item key="升级冷却中，无法升级!" value="Can not be upgraded beacuse the cooldown."/>
+	<Item key="$[name]已至顶级，无法升级" value="$[name] has been to the top, can not be upgraded."/>
+	<Item key="城堡等级不足无法升级建筑。\n" value="Can not to upgrade the building because insufficient of Castle Level.\n"/>
+	<Item key="（完成任务，参加战斗可以获得经验提升城堡等级。）" value="（Gain experience to upgrade the castle by completing tasks and take part in combat.）"/>
+	<Item key="建造所需要$[number]金币不足。\n" value="There is less than $[number] coins to build it.\n"/>
+	<Item key="城堡所需要的升级经验不足，无法升级。\n" value="The castle can not be upgraded because lack of the experience.\n"/>
+	<Item key="（完成任务，参加战斗可以获得经验）" value="（Gain experience by completing tasks and take part in combat.）"/>
+	<Item key="$[itemname]不足\n需要数量$[needcount]\n当前数量$[hascount]" value=""/>
+	<Item key="正在加速升级时间" value="accelerating the upgrade time"/>
+	<Item key="正在升级" value="Being upgraded"/>
+	<Item key="升级失败" value="Upgrade failed"/>
+	<Item key="城堡无需加速" value="Castle no need to accelerate"/>
+	<Item key="确认要使用$[count]个$[name]" value="To confirm that you want to use $[count] of $[name]."/>
+	<Item key="城堡征收加速中" value="Castle levy in the acceleration"/>
+	<Item key="城堡征收加速失败" value="Castle levy in the acceleration failed."/>
+	<Item key="城堡无需加收" value="Castle no need additional."/>
+	<Item key="城堡本日加收次数已到上限" value="This additional times of castles has come to limit;"/>
+	<Item key="加收道具数量不足\n" value="Additional props is not enough.\n"/>
+	<Item key="（可通过每日任务获得，或在商城中购买）" value="（It can be taken by the daily taske or purchase in mall.）"/>
+	<Item key="城堡加收中" value="Castle additional"/>
+	<Item key="城堡加收失败" value="Castle additional failed"/>
+	<Item key="民房无需加速" value="Houses do not need accelerated"/>
+	<Item key="兵营无需加速" value="Barracks do not need accelerated"/>
+	<Item key="教堂无需加速" value="Church do not need accelerated"/>
+	<Item key="农田无需加速" value="Farmland do not need accelerated"/>
+	<Item key="请先撤兵才能占领新矿" value="Please withdraw its troops to occupy the new mine."/>
+	<Item key="当前军令为0，无法掠夺他人金矿\n升级城堡或使用军令道具将会补充军令" value="Can not robbing the mine of others with 0 military orders.\nUpgrade the castle or the use of military orders props will complement the military orders."/>
+	<Item key="金矿处于保护状态中，无法进行攻击。" value="The mine is protected and can not attack"/>
+	<Item key="参加此金矿掠夺所需要的保证金不足。无法进行掠夺。\n" value="Can not robbing the mine because no sufficient margin.\n"/>
+	<Item key="金矿处于保护状态中，无法进行攻击。" value="The mine is protected and can not attack"/>
+	<Item key="当前军令为0，无法驱逐金矿拥有者\n升级城堡或使用道具将会补充军令" value="Can not robbing the mine of others with 0 military orders.\nUpgrade the castle or the use of military orders props will complement the military orders."/>
+	<Item key="金矿正处于保护状态无法攻击" value="The mine is protected and can not attack"/>
+	<Item key="伤兵" value="Wounded"/>
+	<Item key="臣民" value="Subjects"/>
+	<Item key="使用道具-00" value="Using props -00"/>
+	<Item key="返回领地失败" value="Return to the territory failed."/>
+	<Item key="访问好友失败" value="Visit the friend failed."/>
+	<Item key="返回领地中" value="Return to the territory."/>
+	<Item key="访问好友中" value="Visit the friend"/>
+	<Item key="访问$[name]中" value="Visit $[name]"/>
+	<Item key="城堡Lv" value="Castle Lv"/>
+	<Item key="城堡已升至顶级，God Like!" value="Castle has been upgraded to the top.God Like!"/>
+	<Item key="城堡升级仍需经验$[levelupexp]" value="There still need $[levelupexp] of experience to upgrade the castle."/>
+	<Item key="已经满足城堡升级经验" value="The experience is enough to upgrade the castle."/>
+	<Item key="，在野外战胜怪兽可以获得经验。" value="Can gain experience from monsters in the wild"/>
+	<Item key="士兵&伤兵" value="Soldiers & wounded"/>
+	<Item key="用于基本功能，国库存放金币上限" value="For the basic functions. The upper limit of coins deposited in the treasury."/>
+	<Item key="战斗攻击的时候都会消耗1军令，每天6点后会获得新的军令，随着时间也会有所补充，完成每日任务，射落好友家的宝箱都有军令。" value="Fighting attack will consume 1 military order.New military orders after 6:00 every day and automatically added to over time.Can get military orders from the completion of daily tasks and shooting chest home from a friend."/>
+	<Item key="用来招募人口，城堡中最基础的资源" value="Used to recruit population that is the most basic resources in the castle."/>
+	<Item key="可以用来购买特殊道具，增强建筑功能等" value="Can be used to purchase special props and architectural enhancements etc."/>
+	<Item key="用来训练士兵，臣民是城堡的根本" value="Subjects is a fundamental of the castle who can train soldiers."/>
+	<Item key="士兵用于作战，治疗伤兵可补充士兵" value="Soldiers to be used in combat.Treatment of the wounded can add to the soldiers."/>
+	<Item key="画质优先" value="Quality priority"/>
+	<Item key="性能优先" value="Performance priority"/>
+	<Item key="切换窗口" value="Switching window"/>
+	<Item key="切换全屏" value="Toggle full screen"/>
+	<Item key="关闭音乐" value="Turn off music"/>
+	<Item key="开启音乐" value="Open the music"/>
+	<Item key="关闭音效" value="Sounds off"/>
+	<Item key="开启音效" value="Sounds on"/>
+	<Item key="收税失败" value="Taxes fail"/>
+	
+	<!-- RoseKnight.Code.UI.HeroUI.as -->
+	<Item key="魔化剩余:$[count]天" value="Monster shape less than $[count]day."/>
+	<Item key="英雄等级不够武器等级" value="Hero's level is not enough to weapons-grade."/>
+	<Item key="英雄统率兵种无法装备此武器" value="The hero command of the arms can not equip this weapon."/>
+	<Item key="英雄装备中" value="Wear equipment"/>
+	<Item key="英雄等级不够防具等级" value="Hero's level is not enough to armor-grade."/>
+	<Item key="英雄统率兵种无法装备此防具" value="The hero command of the arms can not equip this armor."/>
+	<Item key="步兵" value="infantry"/>
+	<Item key="枪兵" value="spearmen"/>
+	<Item key="骑兵" value="cavalry"/>
+	<Item key="射手" value="archer"/>
+	<Item key="当前未选择任何英雄" value="Have not choose any hero currently"/>
+	<Item key="驻守/占领/训练中的英雄无法被解雇" value="The hero can not be dismissed when he was station ,occupation or training."/>
+	<Item key="穿戴装备的英雄无法解雇!" value="The hero can not be dismissed when he has wear the equipment."/>
+	<Item key="您确认要解雇$[level]级的$[name]?" value="Are you sure that you want to dismiss $[name] of Lv$[level]."/>
+	<Item key="解雇失败" value="Dismissal failed."/>
+	<Item key="英雄未达到第$[times]次转生要求的等级" value="The hero does not meet the level that $[times] time reincarnation of the requirements."/>
+	<Item key="英雄未达到转生要求的等级$[level]" value="The hero does not meet the reincarnation of the requirements of Lv$[level]."/>
+	<Item key="等级$[herolevel]的英雄$[heroname]转生后可获得一定攻防属性提升，但等级将降为$[afterlevel]" value="The Lv$[herolevel] hero names $[heroname] whose ability of ATK and DEF would be enhanced after reincarnation but the Level will be downgraded to $[afterlevel]."/>
+	<Item key="恭喜你！您的英雄“$[heroname]”提升品级成功！" value="Congratulations!Your hero [$[heroname]] enhance grade successful."/>
+	<Item key="升阶失败" value="Ascending Order failed."/>
+	<Item key="恭喜你！您的英雄“$[heroname]”转生成功，\n攻击 +$[ability]\n防御 +$[ability]" value="Congratulations! Your hero [$[heroname]] reincarnation successful.\nATK +$[ability]\nDEF +$[ability]"/>
+	<Item key="转生失败" value="Reincarnation failed."/>
+	<Item key="脱下装备中" value="Take off the equipment"/>
+	<Item key="可统帅士兵数" value="Number of command the soldiers."/>
+	<Item key="购买物品失败" value="Purchase item failed."/>
+	<Item key="转职失败" value="Transfer failure."/>
+	<Item key="升级所需的金币不足。可以通过城堡税收、占领他人城堡、抢占金矿获得金币" value="The coins was insufficient for upgrade. Increase revenue by increasing the castle tax ,loving subjects, and the occupation of gold."/>
+	<Item key="英雄等级不够，可以通过战斗和训练场来提高英雄等级" value="Enough level of the hero. You can improve the Level by the fighting and the training ground."/>
+	<Item key="技能等级已升至最高" value="The skill level has risen to the highest."/>
+	<Item key="技能升级中" value="Skills upgrading"/>
+	<Item key="技能卡片不足无法升级，战胜野外怪物军团有概率获得技能卡片" value="Can not be upgraded because lack of skill cards.You can get them overcome the wild monster probability."/>
+	<Item key="Q点不足" value="GC point not enough"/>
+	<Item key="购买技能卡片中" value="Purchase the skills card"/>
+	<Item key="部队转职中" value="Troops transfer"/>
+	<Item key="暂不开放" value="Temporarily open"/>
+	<Item key="装备武器失败" value="Equipped weapon failed"/>
+	<Item key="装备防具失败" value="Equipped armor failed"/>
+	<Item key="卸载武器失败" value="Unload weapon failed"/>
+	<Item key="卸载防具失败" value="Unload armor failed"/>
+	<Item key="解雇英雄中" value=""/>
+	<Item key="SS 级英雄已经无法提升品级了！" value="The hero Lv SS has been unable to improve the grade."/>
+	<Item key="英雄提升品级中" value="Improve the grade."/>
+	<Item key="英雄当前属性不足或酒馆等级不够，无法提升品级！请通过“洗属性”或“转生”来获得更多的英雄属性！" value="Can not raise the hero's grade because the current property.insufficient or tavern Level insufficient. Please get more attributes by [wash property] or[reincarnation]."/>
+	<Item key="穿戴装备的英雄无法转生" value="he hero can not be reincarnation when he has wear the equipment."/>
+	<Item key="驻守/占领/训练中的英雄无法转生" value="The hero can not be reincarnation when he was station ,occupation or training."/>
+	<Item key="英雄转生中" value="Hero reincarnation"/>
+	<Item key="未选择英雄，无法提升能力！" value="Impossible to increase the ability because no hero was be selected."/>
+	<Item key="SS 级英雄已经无法提升品级了！" value="The hero LvSS has been unable to improve the grade."/>
+	<Item key="当 $[lt]font color='$[color1]'$[gt]$[herograde]$[lt]/font$[gt] 级英雄不穿装备的攻防属性值都超过 $[lt]font color='#FFCC00' $[gt]$[gradeupattr]$[lt]/font$[gt] 以后，就可以提升品级到 $[lt]font color='$[color2]'$[gt]$[herograde2]$[lt]/font$[gt] 级了！" value="You can enhanced to level $[lt]font color='$[color2]'$[gt]$[herograde2]$[lt]/font$[gt] when the level $[lt]font color='$[color1]'$[gt]$[herograde]$[lt]/font$[gt] hero's attribute values of ATK and DEF are more than $[lt]font color='#FFCC00' $[gt]$[gradeupattr]$[lt]/font$[gt] without weaponry. "/>
+	<Item key="您缺少洗点圣水，英雄当前无法洗属性" value="The hero can not changed property because without the holy water."/>
+	<Item key="英雄洗属性失败" value="Change property failed"/>
+	<Item key="英雄洗属性中" value="Change property"/>
+	<Item key="亲,要放弃刚洗出的新属性么?比原来的属性总和要好哦!" value=""/>
+	
+	<!-- RoseKnight.Code.UI.ItemBagUI.as -->
+	<Item key="当前道具不可出售" value="Current props can not be sold"/>
+	<Item key="出售道具$[itemname],获得金币$[sellprice]" value="Sale of props $[itemname], get $[sellprice]coins."/>
+	<Item key="需$[level]级" value="need Lv$[level]"/>
+	<Item key="当前金币$[gold]不足购买所需的数量$[count]" value="The $[gold]coins is not enough for buy "/>
+	<Item key="购买了道具$[itemname],花费金币$[price]" value="Spend $[price] coins to purchase the $[itemname]."/>
+	<Item key="当前$[gold]不足购买所需的数量$[count]" value="$[gold]coins is insufficient to purchas $[count] of the props."/>
+	<Item key="购买了道具$[itemname],花费Q点$[price]" value="Spend $[price] GC points to purchase the $[itemname]."/>
+	
+	<!-- RoseKnight.Code.UI.LegionEditUI.as -->
+	<Item key="攻击力" value="ATK"/>
+	<Item key="防御力" value="DEF"/>
+	<Item key="可以出战" value="Can battle"/>
+	<Item key="不可出战" value="Shalt not"/>
+	<Item key="金币不足，开启新军团需要金币$[gold]" value="Coins insufficient,open a new corps need $[gold] coins"/>
+	<Item key="开启新军团需要金币$[gold]，请确认是否开启？" value="Please confirm whether the open the new corps which need $[gold] coins."/>
+	<Item key="开启新军团中" value="Open a new corps."/>
+	<Item key="开启新军团失败" value="Open the new corps failed."/>
+	<Item key="驻防军团至少要有一个英雄" value="Stationed in the corps at least one hero."/>
+	<Item key="占领军团至少需要一个英雄" value="Occupation of the corps at least need a hero."/>
+	<Item key="当前军团英雄数量达到上限" value="Corps hero reached the upper limit."/>
+	<Item key="出战" value="Battle"/>
+	<Item key="保存军团配置中" value="Saved in the Legion configuration."/>
+	<Item key="保存军团配置失败" value="Saved in the Legion configuration failed."/>
+	<Item key="军团撤军中" value="Legion troop withdrawal."/>
+	<Item key="军团撤军失败" value="Legion troop withdrawal failed."/>
+	<Item key="兵力为0时不能驻守，点击撤军按钮将直接撤防" value="Can not be stationed because strength of 0.Click on the withdrawal of troops button will directly disarm"/>
+	<Item key="军团驻守中" value="Stationed Legion"/>
+	<Item key="军团驻守失败" value="Stationed Legion failed."/>
+	
+	<!-- RoseKnight.Code.UI.MagicHeroUI.as -->
+	<Item key="部队魔化中" value="Troop change the shape of the monster."/>
+	<Item key="部队魔化失败" value="Troop change the shape of the monster failed."/>
+	
+	<!-- RoseKnight.Code.UI.SkyBox.as -->
+	<Item key="时" value="Time"/>
+	
+	<!-- RoseKnight.Code.UI.YellowDiamondGift.as -->
+	<Item key="续费" value="Renewals"/>
+	<Item key="续年费" value="Continued annual fee"/>
+	<Item key="缴一年的费啊" value="To pay one year fee."/>
+	<Item key="领取礼包奖励中" value="Receive in the packs to reward"/>
+	<Item key="续费一年" value="Renewal year"/>
+	<Item key="开通黄钻" value="Opened VIP"/>
+	<Item key="开通年费黄钻" value="Opening of the annual fee VIP"/>
+	<Item key="开通升级黄钻" value="Opened to upgrade the VIP of the annual fee"/>
+	<Item key="续费升级黄钻" value="Renew VIP"/>
+	<Item key="领取奖励失败" value="Receiving reward failure"/>
+	
+	
+	<!-- Util --> 
+	<!-- RoseKnight.Code.Util.RoseKnightDebug.as -->
+	<Item key="增加朋友中" value="Increase friends."/>
+	<Item key="换天中" value="Change days"/>
+	<Item key="重置玩家数据中" value="Reset the player data."/>
+	<Item key="重置玩家任务中" value="Reset the player the task."/>
+	<Item key="GM功能中" value="GM features"/>
+	<Item key="增加朋友结束" value="The end of the increase in friends."/>
+	<Item key="增加朋友失败" value="Increase friends fail."/>
+	<Item key="重置玩家数据结束" value="The end of the reset player data."/>
+	<Item key="重置玩家数据失败" value="Reset the player data failed."/>
+	<Item key="重置任务结束" value="The end of the reset task."/>
+	<Item key="重置任务失败" value="Reset task failure."/>
+	<Item key="换天结束" value="The end of change days."/>
+	<Item key="换天失败" value="Change days failed."/>
+	
+	<!-- 新增 --> 
+	<Item key="$[lt]u$[gt]$[value1]$[lt]/u$[gt]率军疯狂地攻下了你的城堡。" value=""/>
+	<Item key="$[lt]u$[gt]$[value1]$[lt]/u$[gt]率军来犯，但受到我军顽强抵抗，落败而逃。" value=""/>
+	<Item key="我军一举攻下$[lt]u$[gt]$[value1]$[lt]/u$[gt]的城堡。" value=""/>
+	<Item key="我军进攻$[lt]u$[gt]$[value1]$[lt]/u$[gt]的城堡，无奈失利而归。" value=""/>
+	<Item key="您解救了$[lt]u$[gt]$[value1]$[lt]/u$[gt]，TA感恩戴德痛哭流涕。" value=""/>
+	<Item key="您率正义之师去解救$[lt]u$[gt]$[value1]$[lt]/u$[gt]，不料受挫，遭到了嘲笑。" value=""/>
+	<Item key="您的好友$[lt]u$[gt]$[value1]$[lt]/u$[gt]真够朋友，将您从统治者的魔爪下救出。" value=""/>
+	<Item key="您的好友$[lt]u$[gt]$[value1]$[lt]/u$[gt]您两肋插刀挑战统治者，但落败而归" value=""/>
+	<Item key="$[lt]u$[gt]$[value1]$[lt]/u$[gt]的好友为其挺身而出，但也没能推翻您的统治。" value=""/>
+	<Item key="$[lt]u$[gt]$[value1]$[lt]/u$[gt]的好友实力不凡，帮其一举推翻了您的统治。" value=""/>
+	<Item key="您推翻$[lt]u$[gt]$[value1]$[lt]/u$[gt]的统治勇气可嘉，但革命尚未成功。" value=""/>
+	<Item key="在您的大举反攻下，$[lt]u$[gt]$[value1]$[lt]/u$[gt]占据您领地的妄想破灭了。" value=""/>
+	<Item key="$[lt]u$[gt]$[value1]$[lt]/u$[gt]竟然想反抗您的统治，被您的军队无情地镇压了。" value=""/>
+	<Item key="$[lt]u$[gt]$[value1]$[lt]/u$[gt]举兵推翻了您的统治。" value=""/>
+	<Item key="$[lt]u$[gt]$[value1]$[lt]/u$[gt]对您的金矿伸出黑手，不但没得逞还赔了您$[value2]金币。" value=""/>
+	<Item key="$[lt]u$[gt]$[value1]$[lt]/u$[gt]掠夺了您的金矿，慌乱中您只拿走了$[value2]金币。" value=""/>
+	<Item key="我军掠夺$[lt]u$[gt]$[value1]$[lt]/u$[gt]的金矿，没想到遇到顽强的抵抗，赔了$[value2]金币。" value=""/>
+	<Item key="$[lt]u$[gt]$[value1]$[lt]/u$[gt]的金矿被我军掠夺，$[value2]金币落入我军手中。" value=""/>
+	<Item key="$[lt]u$[gt]$[value1]$[lt]/u$[gt]想将您从金矿赶走，真是自不量力。" value=""/>
+	<Item key="$[lt]u$[gt]$[value1]$[lt]/u$[gt]抢走了您的金矿，幸好您带走了收获的$[value2]金币。" value=""/>
+	<Item key="我军驱赶$[lt]u$[gt]$[value1]$[lt]/u$[gt]的金矿守军，结果折戟而归。" value=""/>
+	<Item key="我军势如破竹，$[lt]u$[gt]$[value1]$[lt]/u$[gt]的金矿守军仓皇逃窜。" value=""/>
+	<Item key="我军占领$[lt]u$[gt]$[value1]$[lt]/u$[gt]领地良久，荣誉而归。" value=""/>
+	<Item key="我军久占金矿无人能敌，获得$[value1]金币，凯旋而归。" value=""/>
+	<Item key="我军从金矿撤军，$[value1]金币收入囊中。" value=""/>
+	<Item key="您推荐来的好友$[lt]u$[gt]$[value1]$[lt]/u$[gt]成功升级到了$[value2]级，国王送来奖赏$[value3]金币。" value=""/>
+	<Item key="当前部队已魔化，确认重新魔化吗？（原魔化剩余时间不继承）" value=""/>
+	<Item key="$[buildname]无法再降级了" value=""/>
+	<Item key="降级所需要$[number]金币不足。\n" value=""/>
+	<Item key="确认要花费$[number]金币将$[buildname]降到$[level]级" value=""/>
+	<Item key="正在降级" value=""/>
+	<Item key="降级失败" value=""/>
+	<Item key="降级" value=""/>
+	<Item key="满足降级条件" value=""/>
+	<Item key="不满足降级条件" value=""/>
+	<Item key="冷却时间中" value=""/>
+	
+	<Item key="转职将清除魔化，确认转职吗？" value=""/>
+	<Item key="成功合成一张$[name]" value=""/>
+	
+</root>

@@ -1,0 +1,90 @@
+<root>
+<!-- 全局配置数据定义
+	-->
+  <globaldata>
+  <!-- 酒馆刷新时间小时	-->
+  <pub refreshhour="6" /> 
+  <!-- 监狱刷新时间小时	-->
+  <jail refreshhour="4" limit="3" /> 
+  <!-- 初始建筑列表	-->
+  <initbuild type = "0" level = "1" /> 
+  <initbuild type = "5" level = "1" /> 
+  <initbuild type = "9" level = "1" />
+   <!-- 偷取原始比率	-->
+  <steal rate = "5" />
+  <!-- 新手奖励 -->
+  <player gold = "10000" cash = "0" food = "600" exp="500" people="600" soldier="5000" herovalue = "140" >
+	<items>
+		<item type="0" id="1" count="15"/>
+		<item type="0" id="2" count="10"/>
+		<item type="1" id="31" count="1"/> 
+		<item type="3" id="31" count="1"/>
+		<item type="0" id="100" count="1" gameflag = "1" />
+	</items>
+  </player>
+  <!-- 登陆奖励 -->
+  <loginrewards gold="10">
+	<items>
+		<item type="0" id="4" count="1" />
+	</items>
+  </loginrewards>
+  
+
+  <!-- 访问好友奖励 -->
+  <visitedrewards gold="10" battlenumber="1" >
+	<items>
+		<item type="0" id="5" count="1" />
+	</items>
+  </visitedrewards>
+  
+   <!-- 内测玩家奖励 minScore时为大于等于该值，maxScore时为小于该值 -->
+   <bonus minScore = "0" maxScore = "10">
+	   <items>
+		  <item type="0" id="47" count="1" />
+	   </items>
+   </bonus>
+   <bonus minScore = "10" maxScore = "55">
+	   <items>
+	   		 <item type="0" id="47" count="1" />
+		     <item type="0" id="37" count="1" />
+	   </items>
+   </bonus>
+   <bonus minScore = "55" maxScore = "110">
+	   <items>
+		  <item type="0" id="47" count="1" />
+		  <item type="0" id="38" count="1" />
+	   </items>
+   </bonus>
+   <bonus minScore = "110" maxScore = "165">
+	   <items>
+		  <item type="0" id="47" count="1" />
+		  <item type="0" id="39" count="1" />
+ 	   </items>
+  </bonus>
+   <bonus minScore = "165" maxScore = "220">
+	   <items>
+		  <item type="0" id="47" count="1" />
+		  <item type="0" id="40" count="1" />
+	   </items>
+   </bonus>
+   <bonus minScore = "220" maxScore = "275">
+	   <items>
+		  <item type="0" id="47" count="1" />
+		  <item type="0" id="41" count="1" />
+	   </items>
+   </bonus>
+   <bonus minScore = "275" maxScore = "300">
+	   <items>
+		  <item type="0" id="47" count="1" />
+		  <item type="0" id="42" count="1" />
+	   </items>
+   </bonus>
+    <bonus minScore = "300" maxScore = "10000">
+	   <items>
+		  <item type="0" id="47" count="1" />
+		  <item type="0" id="43" count="1" />
+	   </items>
+   </bonus>
+  </globaldata>
+</root>
+

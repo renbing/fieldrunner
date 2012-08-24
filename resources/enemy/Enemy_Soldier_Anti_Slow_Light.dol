@@ -1,0 +1,11 @@
+<Doll>
+    <Sprites defaultAnimationSetName="default" defaultAnimationName="run">
+        <Sprite filename="Enemy_Soldier_Anti_Slow_Light.asc" attachToTag="" sortToParentDepth="F">
+            <Particles />
+        </Sprite>
+    </Sprites>
+    <Sounds>
+        <Sound type="1" soundpath="Common/Enemy/Special/Death" replacePrevSoundInstance="T" actorEvent="0" actorEventParameter="" animation="" animationSet="" />
+        <Sound type="1" soundpath="Common/Enemy/Special/Spawn" replacePrevSoundInstance="T" actorEvent="3" actorEventParameter="" animation="" animationSet="" />
+    </Sounds>
+</Doll>

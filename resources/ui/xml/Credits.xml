@@ -1,0 +1,98 @@
+<!--Copyright 2012 Subatomic Studios, LLC. All rights reserved.-->
+<Form Name="Credits" BasePlatform="2" Version="77" FormType="1" ClassType="24">
+    <FormRoot Name="Element">
+        <Element TextureFilename="BGBlack.jpg" Type="2" Name="BG" ID="49" Anchor="0.500000, 0.500000" Dimension="1.000000, 1.000000" Tint="255, 255, 255, 0" ResizeBias="0">
+            <Animations>
+                <Animation Name="OpenForm">
+                    <Track ID="3" Type="5">
+                        <TrackKey ID="0" Time="0" />
+                        <TrackKey ID="1" Time="0.246875" Value="200" />
+                    </Track>
+                    <Track ID="8" Type="9">
+                        <TrackKey ID="0" Time="0.278125" Value="playuianimation ScrollCredits" />
+                    </Track>
+                </Animation>
+                <Animation Name="CloseForm">
+                    <Track ID="5" Type="5">
+                        <TrackKey ID="0" Time="0" Value="200" />
+                        <TrackKey ID="1" Time="0.2375" />
+                    </Track>
+                    <Track ID="7" Type="9">
+                        <TrackKey ID="0" Time="0.253125" Value="popform" />
+                    </Track>
+                </Animation>
+            </Animations>
+        </Element>
+        <Element TextureFilename="Trans.png" ClipChildren="T" Type="6" Name="CreditsRoot" ID="1" Anchor="0.500000, 0.500000" Dimension="1.000000, 1.000000" IsPassive="T" Tint="255, 255, 255, 0" ResizeBias="2" SetChildrenAlpha="T">
+            <Animations>
+                <Animation Name="OpenForm">
+                    <Track ID="10" Type="5">
+                        <TrackKey ID="0" Time="0" />
+                        <TrackKey ID="1" Time="0.196875" Value="255" />
+                    </Track>
+                </Animation>
+                <Animation Name="CloseForm">
+                    <Track ID="9" Type="5">
+                        <TrackKey ID="0" Time="0" Value="255" />
+                        <TrackKey ID="1" Time="0.21875" />
+                    </Track>
+                </Animation>
+            </Animations>
+            <Element TextureFilename="Trans.png" Type="6" Name="CreditsSlider" ID="50" Anchor="-0.012500, 0.000000" Dimension="0.975000, 1.004167" IsPassive="T" Tint="255, 255, 255, 0" ResizeBias="2" SliderInverted="F" SliderVertical="T" ScrollWithTouch="T">
+                <Animations>
+                    <Animation Name="ScrollCredits">
+                        <Track ID="1" Type="12">
+                            <TrackKey ID="0" Time="0.41875" />
+                            <TrackKey ID="1" Time="80" Value="1" />
+                            <TrackKey ID="2" Time="87" Value="1" />
+                        </Track>
+                        <Track ID="2" Type="9">
+                            <TrackKey ID="0" Time="87" Value="playuianimation ScrollCredits" />
+                        </Track>
+                    </Animation>
+                </Animations>
+                <Element TextureFilename="Trans.png" Type="2" Name="Panel::60" ID="60" Anchor="0.000000, -0.451868" Dimension="0.066667, 0.100000" Visible="F" IsPassive="T" Tint="255, 255, 255, 0" />
+                <Element TextureFilename="Trans.png" Type="3" Name="CreditsSelectionPanel" ID="53" Anchor="0.000000, 0.405208" Dimension="0.985417, 0.193750" IsPassive="T" Tint="255, 255, 255, 0" ResizeBias="2">
+                    <Element TextureFilename="Trans.png" Type="2" Name="TopBuffer" ID="65" Anchor="0.000000, -0.407813" Dimension="0.001042, 1.009896" IsPassive="T" Tint="255, 255, 255, 0" ResizeBias="2">
+                        <Element TextureFilename="Trans.png" Type="2" Name="Footer" ID="77" Dimension="0.669792, 0.159896" IsPassive="T" Tint="255, 255, 255, 0">
+                            <Element Text="$(CreditsTopText)" TextScale="0.9" Type="1" Name="Whip" ID="78" Anchor="0.000000, 0.023438" Dimension="0.586250, 0.059403" IsPassive="T" Tint="200, 205, 220, 0" Tracking="-7" Leading="35" TranslateOnce="T" Font="ArialWhite05.asc" />
+                        </Element>
+                        <Element Text="$(Fieldrunners2Text)" TextScale="1.3" Type="1" Name="Title" ID="68" Anchor="0.000000, 0.084375" Dimension="0.967425, 0.155236" IsPassive="T" Tint="255, 255, 255, 0" Tracking="-7" Leading="47" TranslateOnce="T" Font="StencilYellow10.asc">
+                            <Element Text="$(BundleVersion)" TextScale="0.8" Type="1" Name="VersionNumber" ID="71" Anchor="0.000000, -0.242188" Dimension="0.586250, 0.059403" IsPassive="T" Tint="200, 205, 220, 0" Tracking="-5" Leading="35" TranslateOnce="T" Font="ArialWhite05.asc" />
+                        </Element>
+                    </Element>
+                    <Element TextureFilename="Trans.png" Type="2" Name="Section" ID="54" Anchor="0.000000, -1.460938" Dimension="0.625000, 0.158334" IsPassive="T" Tint="0, 0, 255, 0">
+                        <Element Text="Position" TextScale="0.8" Type="1" Name="Header" ID="55" Anchor="0.000000, 0.054687" Dimension="0.480000, 0.123987" IsPassive="T" Tint="253, 177, 38, 0" VerticalAlignment="2" Tracking="-7" Leading="38" TranslateOnce="T" Font="ArialWhite05.asc" />
+                        <Element TextureFilename="Trans.png" Type="2" Name="Entries" ID="57" Anchor="0.000000, -0.037500" Dimension="0.625000, 0.046875" IsPassive="T" Tint="0, 255, 0, 0">
+                            <Element Text="Name" TextScale="0.7" Type="1" Name="Entry" ID="59" Dimension="0.884166, 0.046875" IsPassive="T" Tint="193, 198, 202, 0" VerticalAlignment="1" Tracking="-7" Leading="38" TranslateOnce="T" Font="ArialWhite05.asc" />
+                        </Element>
+                    </Element>
+                </Element>
+            </Element>
+        </Element>
+        <Element TextureFilename="ScreenShadow.jpg" Type="2" Name="FrameShadow" ID="61" Anchor="0.500000, 0.500000" Dimension="1.015278, 1.010417" IsPassive="T" RelativeScale="1.45" BlendState="3" ResizeBias="0">
+            <Animations>
+                <Animation Name="OpenForm">
+                    <Track ID="4" Type="11">
+                        <TrackKey ID="0" Time="0" Value="1.65" />
+                        <TrackKey ID="1" Time="0.246875" Value="1" />
+                    </Track>
+                </Animation>
+                <Animation Name="CloseForm">
+                    <Track ID="6" Type="11">
+                        <TrackKey ID="0" Time="0" Value="1" />
+                        <TrackKey ID="1" Time="0.234375" Value="1.45" />
+                    </Track>
+                </Animation>
+            </Animations>
+            <Element TextureFilename="ScreenShadow.jpg" Type="2" Name="FrameShadow" ID="66" Dimension="1.015278, 1.010417" IsPassive="T" BlendState="3" ResizeBias="0" />
+        </Element>
+    </FormRoot>
+    <AnimationTriggers>
+        <AnimationTrigger Event="Form Opened (UI Only)" Data="1073741824" Animation="OpenForm" />
+        <AnimationTrigger Event="Touch Clicked (UI Only)" Data="49" Animation="CloseForm" />
+    </AnimationTriggers>
+    <ResettableAnimations>
+        <ResetAnimation Name="ScrollCredits" />
+    </ResettableAnimations>
+</Form>

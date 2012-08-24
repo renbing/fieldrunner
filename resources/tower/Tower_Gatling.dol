@@ -1,0 +1,21 @@
+<Doll>
+    <Sprites defaultAnimationSetName="level1" defaultAnimationName="run" dithered="T">
+        <Sprite filename="Tower_Gatling_Turret.asc" attachToTag="" sortToParentDepth="T">
+            <Particles>
+                <ParticleSystem type="1" filename="Tower_Gatling_Attack_Muzzle.fx" attachToTag="muzzleL1_01" actorEvent="3" actorEventParameter="Attack" animation="" animationSet="level1" animationFrameIndex="-1" renderQueueOffset="1" removeOnSetChange="F" />
+                <ParticleSystem type="1" filename="Tower_Gatling_Attack_Muzzle.fx" attachToTag="muzzleL2_01" actorEvent="3" actorEventParameter="Attack" animation="" animationSet="level2" animationFrameIndex="-1" renderQueueOffset="1" removeOnSetChange="F" />
+                <ParticleSystem type="1" filename="Tower_Gatling_Attack_Muzzle.fx" attachToTag="muzzleL2_02" actorEvent="3" actorEventParameter="Attack" animation="" animationSet="level2" animationFrameIndex="-1" renderQueueOffset="1" removeOnSetChange="F" />
+                <ParticleSystem type="1" filename="Tower_Gatling_Attack_Muzzle.fx" attachToTag="muzzleL3_01" actorEvent="3" actorEventParameter="Attack" animation="" animationSet="level3" animationFrameIndex="-1" renderQueueOffset="1" removeOnSetChange="F" />
+                <ParticleSystem type="1" filename="Tower_Gatling_Attack_Muzzle.fx" attachToTag="muzzleL3_02" actorEvent="3" actorEventParameter="Attack" animation="" animationSet="level3" animationFrameIndex="-1" renderQueueOffset="1" removeOnSetChange="F" />
+                <ParticleSystem type="1" filename="Tower_Gatling_Attack_Muzzle.fx" attachToTag="muzzleL3_03" actorEvent="3" actorEventParameter="Attack" animation="" animationSet="level3" animationFrameIndex="-1" renderQueueOffset="1" removeOnSetChange="F" />
+                <ParticleSystem type="1" filename="Tower_Transition_Placed.fx" attachToTag="anchor" actorEvent="3" actorEventParameter="" animation="" animationSet="" animationFrameIndex="-1" renderQueueOffset="-1" removeOnSetChange="F" />
+                <ParticleSystem type="1" filename="Tower_Transition_Upgrade.fx" attachToTag="anchor" actorEvent="5" actorEventParameter="" animation="" animationSet="" animationFrameIndex="-1" renderQueueOffset="1" removeOnSetChange="F" />
+            </Particles>
+        </Sprite>
+    </Sprites>
+    <Sounds>
+        <Sound type="1" soundpath="Towers/Tower_Gatling/Attack1" replacePrevSoundInstance="T" actorEvent="3" actorEventParameter="Attack" animation="" animationSet="level1" />
+        <Sound type="1" soundpath="Towers/Tower_Gatling/Attack2" replacePrevSoundInstance="T" actorEvent="3" actorEventParameter="Attack" animation="" animationSet="level2" />
+        <Sound type="1" soundpath="Towers/Tower_Gatling/Attack3" replacePrevSoundInstance="T" actorEvent="3" actorEventParameter="Attack" animation="" animationSet="level3" />
+    </Sounds>
+</Doll>

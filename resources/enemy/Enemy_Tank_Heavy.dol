@@ -1,0 +1,16 @@
+<Doll>
+    <Sprites defaultAnimationSetName="default" defaultAnimationName="run" dithered="F">
+        <Sprite filename="Enemy_Tank_Heavy.asc" attachToTag="" sortToParentDepth="F">
+            <Particles>
+                <ParticleSystem type="1" filename="Enemy_Air_Death_Explosion.fx" attachToTag="attack" actorEvent="0" actorEventParameter="" animation="" animationSet="" animationFrameIndex="-1" renderQueueOffset="1" removeOnSetChange="F" />
+                <ParticleSystem type="1" filename="Dust_Trail_Medium.fx" attachToTag="dust_RR" actorEvent="3" actorEventParameter="" animation="" animationSet="" animationFrameIndex="-1" renderQueueOffset="0" removeOnSetChange="T" />
+                <ParticleSystem type="1" filename="Dust_Trail_Medium.fx" attachToTag="dust_RL" actorEvent="3" actorEventParameter="" animation="" animationSet="" animationFrameIndex="-1" renderQueueOffset="0" removeOnSetChange="T" />
+            </Particles>
+        </Sprite>
+    </Sprites>
+    <Sounds>
+        <Sound type="0" soundpath="Common/Explosions/Explosion_Machine_Large" replacePrevSoundInstance="T" actorEvent="-1" actorEventParameter="" animation="death" animationSet="default" animationFrameIndex="8" />
+        <Sound type="1" soundpath="Enemies/Enemy_Tank_Heavy/Spawn" replacePrevSoundInstance="T" actorEvent="3" actorEventParameter="" animation="" animationSet="" />
+        <Sound type="1" soundpath="Common/Explosions/Explosion_Large" replacePrevSoundInstance="T" actorEvent="0" actorEventParameter="" animation="" animationSet="" />
+    </Sounds>
+</Doll>

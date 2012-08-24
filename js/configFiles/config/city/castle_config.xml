@@ -1,0 +1,176 @@
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<data>
+	<!--
+  王城
+  level 等级
+  goldincome 每次收税产出金币
+  xpincome   每次收税
+  harvesttime 每次收税需要时间 这个数值是不变的 单位秒
+  harvestlimit 每日正常收获限制次数
+  occupyharvestlimit 占领军每日正常收获限制次数
+  occupyharvesttime 占领军每次收税需要时间
+  occupyday 占领的天数
+  sharenumber 每天玩家分享别人的总次数限制
+  xpincome   每次收税得到的经验值
+  extraitem 使用的增收道具个数对应当天增收次数的用量
+  taxpeople 每次臣民收税的金币数值
+  taxperiod 验证用的臣民收税平均时间单位 秒
+  taxnumber 验证用的臣民收税次数
+  troop 表示王城决定的队伍中英雄个数 castlelevel王城等级 heronumber军团中英雄个数
+  garrisonlv 驻防需要的最低等级(大于此值)
+  buildsteallimit 每个建筑的偷盗次数
+  battlenumberupgrade 每次升级得到的军令值
+  wishlimit 圣诞许愿次数限制
+	-->
+	<config harvestlimit="3" freespeed="0" harvesttime="3600" xpincome="0" taxnumber="20" taxperiod="300" occupyharvestlimit="3" occupyharvesttime="3600" occupyday="2" sharenumber="50" garrisonlv="8" buildsteallimit="8" battlenumbertop="50" battlenumberinterval="300" battlenumberupgrade="10" openbattlelimit="50" maxherocount="80" wishlimit="30"/>
+	<troop castlelevel="1" heronumber="1"/>
+	<troop castlelevel="4" heronumber="2"/>
+	<troop castlelevel="9" heronumber="3"/>
+	<troop castlelevel="18" heronumber="4"/>
+	<troop castlelevel="25" heronumber="5"/>
+	<troop castlelevel="40" heronumber="6"/>
+	<troop castlelevel="60" heronumber="7"/>
+	<castle level="1" goldincome="2680" taxpeople="225" occupygold="1210" helpgold="0"/>
+	<castle level="2" goldincome="2710" taxpeople="230" occupygold="1220" helpgold="0"/>
+	<castle level="3" goldincome="2730" taxpeople="230" occupygold="1230" helpgold="0"/>
+	<castle level="4" goldincome="2750" taxpeople="230" occupygold="1240" helpgold="0"/>
+	<castle level="5" goldincome="2770" taxpeople="235" occupygold="1250" helpgold="0"/>
+	<castle level="6" goldincome="2800" taxpeople="235" occupygold="1260" helpgold="0"/>
+	<castle level="7" goldincome="2820" taxpeople="235" occupygold="1270" helpgold="0"/>
+	<castle level="8" goldincome="2840" taxpeople="240" occupygold="1280" helpgold="0"/>
+	<castle level="9" goldincome="2870" taxpeople="240" occupygold="1290" helpgold="0"/>
+	<castle level="10" goldincome="2890" taxpeople="240" occupygold="1300" helpgold="0"/>
+	<castle level="11" goldincome="2910" taxpeople="245" occupygold="1310" helpgold="0"/>
+	<castle level="12" goldincome="2940" taxpeople="245" occupygold="1330" helpgold="0"/>
+	<castle level="13" goldincome="2960" taxpeople="250" occupygold="1340" helpgold="0"/>
+	<castle level="14" goldincome="2990" taxpeople="250" occupygold="1350" helpgold="0"/>
+	<castle level="15" goldincome="3010" taxpeople="250" occupygold="1360" helpgold="0"/>
+	<castle level="16" goldincome="3030" taxpeople="255" occupygold="1370" helpgold="0"/>
+	<castle level="17" goldincome="3060" taxpeople="255" occupygold="1380" helpgold="0"/>
+	<castle level="18" goldincome="3090" taxpeople="260" occupygold="1390" helpgold="0"/>
+	<castle level="19" goldincome="3110" taxpeople="260" occupygold="1400" helpgold="0"/>
+	<castle level="20" goldincome="3140" taxpeople="260" occupygold="1420" helpgold="0"/>
+	<castle level="21" goldincome="3160" taxpeople="265" occupygold="1430" helpgold="0"/>
+	<castle level="22" goldincome="3190" taxpeople="265" occupygold="1440" helpgold="0"/>
+	<castle level="23" goldincome="3210" taxpeople="270" occupygold="1450" helpgold="0"/>
+	<castle level="24" goldincome="3240" taxpeople="270" occupygold="1460" helpgold="0"/>
+	<castle level="25" goldincome="3270" taxpeople="275" occupygold="1480" helpgold="0"/>
+	<castle level="26" goldincome="3290" taxpeople="275" occupygold="1490" helpgold="0"/>
+	<castle level="27" goldincome="3320" taxpeople="275" occupygold="1500" helpgold="0"/>
+	<castle level="28" goldincome="3350" taxpeople="280" occupygold="1510" helpgold="0"/>
+	<castle level="29" goldincome="3380" taxpeople="280" occupygold="1530" helpgold="0"/>
+	<castle level="30" goldincome="3400" taxpeople="285" occupygold="1540" helpgold="0"/>
+	<castle level="31" goldincome="3430" taxpeople="285" occupygold="1550" helpgold="0"/>
+	<castle level="32" goldincome="3460" taxpeople="290" occupygold="1570" helpgold="0"/>
+	<castle level="33" goldincome="3490" taxpeople="290" occupygold="1580" helpgold="0"/>
+	<castle level="34" goldincome="3520" taxpeople="295" occupygold="1590" helpgold="0"/>
+	<castle level="35" goldincome="3550" taxpeople="295" occupygold="1600" helpgold="0"/>
+	<castle level="36" goldincome="3580" taxpeople="300" occupygold="1620" helpgold="0"/>
+	<castle level="37" goldincome="3610" taxpeople="300" occupygold="1630" helpgold="0"/>
+	<castle level="38" goldincome="3630" taxpeople="300" occupygold="1640" helpgold="0"/>
+	<castle level="39" goldincome="3660" taxpeople="305" occupygold="1660" helpgold="0"/>
+	<castle level="40" goldincome="3700" taxpeople="305" occupygold="1670" helpgold="0"/>
+	<castle level="41" goldincome="3730" taxpeople="310" occupygold="1690" helpgold="0"/>
+	<castle level="42" goldincome="3760" taxpeople="310" occupygold="1700" helpgold="0"/>
+	<castle level="43" goldincome="3790" taxpeople="315" occupygold="1710" helpgold="0"/>
+	<castle level="44" goldincome="3820" taxpeople="315" occupygold="1730" helpgold="0"/>
+	<castle level="45" goldincome="3850" taxpeople="320" occupygold="1740" helpgold="0"/>
+	<castle level="46" goldincome="3880" taxpeople="320" occupygold="1760" helpgold="0"/>
+	<castle level="47" goldincome="3910" taxpeople="325" occupygold="1770" helpgold="0"/>
+	<castle level="48" goldincome="3950" taxpeople="325" occupygold="1790" helpgold="0"/>
+	<castle level="49" goldincome="3980" taxpeople="330" occupygold="1800" helpgold="0"/>
+	<castle level="50" goldincome="4010" taxpeople="335" occupygold="1820" helpgold="0"/>
+	<castle level="51" goldincome="4040" taxpeople="335" occupygold="1830" helpgold="0"/>
+	<castle level="52" goldincome="4080" taxpeople="340" occupygold="1850" helpgold="0"/>
+	<castle level="53" goldincome="4110" taxpeople="340" occupygold="1860" helpgold="0"/>
+	<castle level="54" goldincome="4140" taxpeople="345" occupygold="1880" helpgold="0"/>
+	<castle level="55" goldincome="4180" taxpeople="345" occupygold="1890" helpgold="0"/>
+	<castle level="56" goldincome="4210" taxpeople="350" occupygold="1910" helpgold="0"/>
+	<castle level="57" goldincome="4250" taxpeople="350" occupygold="1930" helpgold="0"/>
+	<castle level="58" goldincome="4280" taxpeople="355" occupygold="1940" helpgold="0"/>
+	<castle level="59" goldincome="4320" taxpeople="355" occupygold="1960" helpgold="0"/>
+	<castle level="60" goldincome="4350" taxpeople="360" occupygold="1970" helpgold="0"/>
+	<castle level="61" goldincome="4390" taxpeople="365" occupygold="1990" helpgold="0"/>
+	<castle level="62" goldincome="4430" taxpeople="365" occupygold="2010" helpgold="0"/>
+	<castle level="63" goldincome="4460" taxpeople="370" occupygold="2020" helpgold="0"/>
+	<castle level="64" goldincome="4500" taxpeople="370" occupygold="2040" helpgold="0"/>
+	<castle level="65" goldincome="4540" taxpeople="375" occupygold="2060" helpgold="0"/>
+	<castle level="66" goldincome="4570" taxpeople="375" occupygold="2080" helpgold="0"/>
+	<castle level="67" goldincome="4610" taxpeople="380" occupygold="2090" helpgold="0"/>
+	<castle level="68" goldincome="4650" taxpeople="385" occupygold="2110" helpgold="0"/>
+	<castle level="69" goldincome="4690" taxpeople="385" occupygold="2130" helpgold="0"/>
+	<castle level="70" goldincome="4730" taxpeople="390" occupygold="2150" helpgold="0"/>
+	<castle level="71" goldincome="4760" taxpeople="395" occupygold="2160" helpgold="0"/>
+	<castle level="72" goldincome="4800" taxpeople="395" occupygold="2180" helpgold="0"/>
+	<castle level="73" goldincome="4840" taxpeople="400" occupygold="2200" helpgold="0"/>
+	<castle level="74" goldincome="4880" taxpeople="400" occupygold="2220" helpgold="0"/>
+	<castle level="75" goldincome="4920" taxpeople="405" occupygold="2240" helpgold="0"/>
+	<castle level="76" goldincome="4960" taxpeople="410" occupygold="2250" helpgold="0"/>
+	<castle level="77" goldincome="5000" taxpeople="410" occupygold="2270" helpgold="0"/>
+	<castle level="78" goldincome="5050" taxpeople="415" occupygold="2290" helpgold="0"/>
+	<castle level="79" goldincome="5090" taxpeople="420" occupygold="2310" helpgold="0"/>
+	<castle level="80" goldincome="5130" taxpeople="420" occupygold="2330" helpgold="0"/>
+	<castle level="81" goldincome="5170" taxpeople="425" occupygold="2350" helpgold="0"/>
+	<castle level="82" goldincome="5210" taxpeople="430" occupygold="2370" helpgold="0"/>
+	<castle level="83" goldincome="5260" taxpeople="430" occupygold="2390" helpgold="0"/>
+	<castle level="84" goldincome="5300" taxpeople="435" occupygold="2410" helpgold="0"/>
+	<castle level="85" goldincome="5340" taxpeople="440" occupygold="2430" helpgold="0"/>
+	<castle level="86" goldincome="5390" taxpeople="440" occupygold="2450" helpgold="0"/>
+	<castle level="87" goldincome="5430" taxpeople="445" occupygold="2470" helpgold="0"/>
+	<castle level="88" goldincome="5480" taxpeople="450" occupygold="2490" helpgold="0"/>
+	<castle level="89" goldincome="5520" taxpeople="455" occupygold="2510" helpgold="0"/>
+	<castle level="90" goldincome="5570" taxpeople="455" occupygold="2530" helpgold="0"/>
+	<castle level="91" goldincome="5610" taxpeople="460" occupygold="2550" helpgold="0"/>
+	<castle level="92" goldincome="5660" taxpeople="465" occupygold="2580" helpgold="0"/>
+	<castle level="93" goldincome="5710" taxpeople="465" occupygold="2600" helpgold="0"/>
+	<castle level="94" goldincome="5750" taxpeople="470" occupygold="2620" helpgold="0"/>
+	<castle level="95" goldincome="5800" taxpeople="475" occupygold="2640" helpgold="0"/>
+	<castle level="96" goldincome="5850" taxpeople="480" occupygold="2660" helpgold="0"/>
+	<castle level="97" goldincome="5900" taxpeople="480" occupygold="2680" helpgold="0"/>
+	<castle level="98" goldincome="5950" taxpeople="485" occupygold="2710" helpgold="0"/>
+	<castle level="99" goldincome="5990" taxpeople="490" occupygold="2730" helpgold="0"/>
+	<castle level="100" goldincome="6040" taxpeople="495" occupygold="2750" helpgold="0"/>
+	<castle level="101" goldincome="6090" taxpeople="500" occupygold="2770" helpgold="0"/>
+	<castle level="102" goldincome="6140" taxpeople="500" occupygold="2800" helpgold="0"/>
+	<castle level="103" goldincome="6190" taxpeople="505" occupygold="2820" helpgold="0"/>
+	<castle level="104" goldincome="6250" taxpeople="510" occupygold="2840" helpgold="0"/>
+	<castle level="105" goldincome="6300" taxpeople="515" occupygold="2870" helpgold="0"/>
+	<castle level="106" goldincome="6350" taxpeople="520" occupygold="2890" helpgold="0"/>
+	<castle level="107" goldincome="6400" taxpeople="520" occupygold="2920" helpgold="0"/>
+	<castle level="108" goldincome="6450" taxpeople="525" occupygold="2940" helpgold="0"/>
+	<castle level="109" goldincome="6510" taxpeople="530" occupygold="2970" helpgold="0"/>
+	<castle level="110" goldincome="6560" taxpeople="535" occupygold="2990" helpgold="0"/>
+	<castle level="111" goldincome="6610" taxpeople="540" occupygold="3020" helpgold="0"/>
+	<castle level="112" goldincome="6670" taxpeople="545" occupygold="3040" helpgold="0"/>
+	<castle level="113" goldincome="6720" taxpeople="545" occupygold="3070" helpgold="0"/>
+	<castle level="114" goldincome="6780" taxpeople="550" occupygold="3090" helpgold="0"/>
+	<castle level="115" goldincome="6830" taxpeople="555" occupygold="3120" helpgold="0"/>
+	<castle level="116" goldincome="6890" taxpeople="560" occupygold="3140" helpgold="0"/>
+	<castle level="117" goldincome="6950" taxpeople="565" occupygold="3170" helpgold="0"/>
+	<castle level="118" goldincome="7000" taxpeople="570" occupygold="3200" helpgold="0"/>
+	<castle level="119" goldincome="7060" taxpeople="575" occupygold="3220" helpgold="0"/>
+	<castle level="120" goldincome="7120" taxpeople="580" occupygold="3250" helpgold="0"/>
+	<extraitem id="1" number="0"/>
+	<extraitem id="2" number="1"/>
+	<extraitem id="3" number="1"/>
+	<extraitem id="4" number="1"/>
+	<extraitem id="5" number="1"/>
+	<extraitem id="6" number="1"/>
+	<extraitem id="7" number="1"/>
+	<extraitem id="8" number="1"/>
+	<extraitem id="9" number="1"/>
+	<extraitem id="10" number="2"/>
+	<extraitem id="11" number="2"/>
+	<extraitem id="12" number="2"/>
+	<extraitem id="13" number="2"/>
+	<extraitem id="14" number="2"/>
+	<extraitem id="15" number="2"/>
+	<extraitem id="16" number="2"/>
+	<extraitem id="17" number="2"/>
+	<extraitem id="18" number="2"/>
+	<extraitem id="19" number="2"/>
+	<extraitem id="20" number="2"/>
+	<extraitem id="21" number="2"/>
+</data>

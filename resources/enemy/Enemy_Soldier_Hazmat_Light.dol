@@ -1,0 +1,14 @@
+<Doll>
+    <Sprites defaultAnimationSetName="default" defaultAnimationName="run">
+        <Sprite filename="Enemy_Soldier_Hazmat_Light.asc" attachToTag="" sortToParentDepth="F">
+            <Particles>
+                <ParticleSystem type="1" filename="Enemy_Status_Healing.fx" attachToTag="health" actorEvent="4" actorEventParameter="Speed" animation="" animationSet="default" animationFrameIndex="-1" />
+                <ParticleSystem type="1" filename="Enemy_Status_Speed_Up.fx" attachToTag="dust" actorEvent="4" actorEventParameter="speedboost" animation="" animationSet="default" animationFrameIndex="-1" />
+            </Particles>
+        </Sprite>
+    </Sprites>
+    <Sounds>
+        <Sound type="1" soundpath="Common/Enemy/Special/Death" replacePrevSoundInstance="T" actorEvent="0" actorEventParameter="" animation="" animationSet="" />
+        <Sound type="1" soundpath="Common/Enemy/Special/Spawn" replacePrevSoundInstance="T" actorEvent="3" actorEventParameter="" animation="" animationSet="" />
+    </Sounds>
+</Doll>

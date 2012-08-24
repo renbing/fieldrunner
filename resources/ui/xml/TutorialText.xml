@@ -1,0 +1,52 @@
+<!--Copyright 2012 Subatomic Studios, LLC. All rights reserved.-->
+<Form Name="" BasePlatform="2" Version="38" FormType="2" ClassType="9">
+    <FormRoot Name="Element">
+        <Element TextureFilename="HighlightBG_Green.png" Type="2" Name="PanelBG" ID="13" Anchor="0.501042, 0.571875" Dimension="0.595833, 0.281250" Tint="255, 255, 255, 201" />
+        <Element PanelSkin="HighlightPanel.asc" Type="10" Name="EntryPanel" ID="2" Anchor="0.500000, 0.571875" Dimension="0.618750, 0.316667" PixelFormat="2">
+            <Animations>
+                <Animation Name="FormExit">
+                    <Track ID="1" Type="9">
+                        <TrackKey ID="1" Time="0" Value="pause off | popform" />
+                    </Track>
+                </Animation>
+                <Animation Name="FormEntry">
+                    <Track ID="0" Type="9">
+                        <TrackKey ID="0" Time="0" Value="pause on" />
+                    </Track>
+                </Animation>
+            </Animations>
+            <Element Text="$(TutorialText0)" TextScale="0.9" Type="1" Name="Text" ID="3" Anchor="0.000000, 0.034375" Dimension="0.560078, 0.171904" IsPassive="T" Tracking="1" Leading="30" Font="ArialWhite03.asc">
+                <Animations>
+                    <Animation Name="ShowEntryText">
+                        <Track ID="2" Type="9">
+                            <TrackKey ID="2" Time="0.01875" Value="showeelement EntryText" />
+                        </Track>
+                    </Animation>
+                </Animations>
+                <Element Text="$(TapToContinue)" TextScale="0.7" Type="1" Name="Tap To Continue..." ID="14" Anchor="0.000000, -0.141666" Dimension="0.371812, 0.051070" IsPassive="T" Tracking="-10" Leading="34" Font="StencilWhite01.asc">
+                    <Animations>
+                        <Animation Name="ShowEntryText">
+                            <Track ID="2" Type="9">
+                                <TrackKey ID="2" Time="0.01875" Value="showeelement EntryText" />
+                            </Track>
+                        </Animation>
+                    </Animations>
+                </Element>
+            </Element>
+        </Element>
+        <Element TextureFilename="Trans.png" Type="2" Name="VictoryClick" ID="17" Anchor="0.495833, 0.578125" Dimension="0.795833, 0.346875" IsPassive="T">
+            <Animations>
+                <Animation Name="FormVictory">
+                    <Track ID="0" Type="9">
+                        <TrackKey ID="0" Time="0" Value="returnitems | pushform WorldMap.form 0 1" />
+                    </Track>
+                </Animation>
+            </Animations>
+        </Element>
+    </FormRoot>
+    <AnimationTriggers>
+        <AnimationTrigger Event="Touches Ended (UI Only)" Data="2" Animation="FormExit" />
+        <AnimationTrigger Event="Form Activated (UI Only)" Data="1073741824" Animation="FormEntry" />
+        <AnimationTrigger Event="Touches Ended (UI Only)" Data="17" Animation="FormVictory" />
+    </AnimationTriggers>
+</Form>

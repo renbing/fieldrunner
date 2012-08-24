@@ -1,0 +1,501 @@
+<!--Copyright 2012 Subatomic Studios, LLC. All rights reserved.-->
+<Form Name="" BasePlatform="2" Version="74" PassTouches="T" FormType="2" ClassType="9">
+    <FormRoot Name="Element">
+        <Element TextureFilename="Trans.png" Type="2" Name="Tutorial2Group" ID="567" Anchor="0.500000, 0.500000" Dimension="1.000000, 1.000000" IsPassive="T" ResizeBias="2">
+            <Element TextureFilename="Trans.png" Type="2" Name="GatlingHighlight" ID="608" Anchor="0.428125, -0.229687" Dimension="0.125000, 0.187500" IsPassive="T" Tint="255, 255, 255, 0" SetChildrenAlpha="T">
+                <Animations>
+                    <Animation Name="ShowGatlingPrompt">
+                        <Track ID="157" Type="5">
+                            <TrackKey ID="0" Time="0.5" />
+                            <TrackKey ID="1" Time="1" Value="255" />
+                        </Track>
+                        <Track ID="253" Type="9">
+                            <TrackKey ID="0" Time="0" Value="setelementpassive GatlingHighlight off" />
+                        </Track>
+                        <Track ID="270" Type="1">
+                            <TrackKey ID="0" Time="0" Value="0.428125, -0.229687" />
+                        </Track>
+                    </Animation>
+                    <Animation Name="Tutorial2ClearAll">
+                        <Track ID="173" Type="5">
+                            <TrackKey ID="0" Time="0" />
+                        </Track>
+                        <Track ID="233" Type="1">
+                            <TrackKey ID="0" Time="0" Value="0.319792, 1.250000" />
+                        </Track>
+                    </Animation>
+                    <Animation Name="DismissGatlingPrompt">
+                        <Track ID="254" Type="9">
+                            <TrackKey ID="0" Time="0" Value="setelementpassive GatlingPanel | playsound UI/In_Game/Tower_Drag_Cancel" />
+                        </Track>
+                        <Track ID="271" Type="5">
+                            <TrackKey ID="0" Time="0" Value="255" />
+                            <TrackKey ID="1" Time="0.24375" />
+                        </Track>
+                    </Animation>
+                    <Animation Name="HideGatlingPrompt">
+                        <Track ID="161" Type="5">
+                            <TrackKey ID="0" Time="0.003125" Value="255" />
+                            <TrackKey ID="1" Time="0.2" />
+                        </Track>
+                    </Animation>
+                </Animations>
+                <Element TextureFilename="ArrowCurvedHighlight.jpg" Type="2" Name="Gatling Arrow" ID="609" Dimension="0.117708, 0.176563" IsPassive="T" Tint="255, 255, 255, 0" PixelFormat="2" Dithered="T" />
+            </Element>
+            <Element PanelSkin="UnitNoteBox.asc" Type="10" Name="GatlingPanel" ID="587" Anchor="0.000000, 0.688224" Dimension="0.548751, 0.220833" Margin="1" PixelFormat="2" SetChildrenAlpha="T">
+                <Animations>
+                    <Animation Name="ShowGatlingPrompt">
+                        <Track ID="152" Type="5">
+                            <TrackKey ID="0" Time="0" Value="255" />
+                        </Track>
+                        <Track ID="194" Type="9">
+                            <TrackKey ID="0" Time="0" Value="setelementpassive GatlingPanel off" />
+                            <TrackKey ID="1" Time="0.215625" Value="playuianimation Tutorial2.form NeutralGatlingPrompt" />
+                        </Track>
+                        <Track ID="249" Type="1">
+                            <TrackKey ID="0" Time="0" Value="0.000000, 0.781250" />
+                            <TrackKey ID="1" Time="0.2125" Value="0.000000, 0.375724" />
+                        </Track>
+                    </Animation>
+                    <Animation Name="NeutralGatlingPrompt">
+                        <Track ID="225" Type="9">
+                            <TrackKey ID="0" Time="10" Value="playuianimation Tutorial2.form HideGatlingPrompt" />
+                        </Track>
+                    </Animation>
+                    <Animation Name="Tutorial2ClearAll">
+                        <Track ID="175" Type="5">
+                            <TrackKey ID="0" Time="0" />
+                        </Track>
+                        <Track ID="234" Type="1">
+                            <TrackKey ID="0" Time="0" Value="0.004166, 1.250000" />
+                        </Track>
+                    </Animation>
+                    <Animation Name="DismissGatlingPrompt">
+                        <Track ID="262" Type="1">
+                            <TrackKey ID="0" Time="0" Value="0.000000, 0.375724" />
+                            <TrackKey ID="1" Time="0.240625" Value="0.000000, 0.688224" />
+                        </Track>
+                    </Animation>
+                    <Animation Name="HideGatlingPrompt">
+                        <Track ID="147" Type="5">
+                            <TrackKey ID="0" Time="0" Value="255" />
+                            <TrackKey ID="1" Time="0.25625" />
+                        </Track>
+                        <Track ID="240" Type="9">
+                            <TrackKey ID="0" Time="0" Value="setelementpassive GatlingPanel" />
+                            <TrackKey ID="1" Time="0.2625" Value="playuianimation Tutorial2.form Tutorial2ClearAll" />
+                        </Track>
+                    </Animation>
+                </Animations>
+                <Element Text="$(TutorialGatlingText)" TextScale="0.7" Type="1" Name="Text" ID="619" Anchor="0.076042, 0.001562" Dimension="0.321667, 0.078153" IsPassive="T" Tint="207, 220, 235, 255" Alignment="0" Tracking="-7" Leading="38" TranslateOnce="T" Font="ArialWhite05.asc" />
+                <Element TextureFilename="Icon_Tower_Gatling.png" Type="2" Name="GatlingIcon" ID="645" Anchor="-0.179166, 0.000000" Dimension="0.097222, 0.145834" IsPassive="T" PixelFormat="2" />
+            </Element>
+            <Element TextureFilename="Trans.png" Type="2" Name="UpgradeGroup" ID="632" Anchor="-0.018750, 1.250000" Dimension="0.604579, 0.228125" SetChildrenAlpha="T">
+                <Animations>
+                    <Animation Name="HideUpgradePrompt">
+                        <Track ID="198" Type="5">
+                            <TrackKey ID="0" Time="0" Value="255" />
+                            <TrackKey ID="1" Time="0.5" />
+                        </Track>
+                        <Track ID="241" Type="9">
+                            <TrackKey ID="0" Time="0" Value="setelementpassive UpgradeGroup" />
+                            <TrackKey ID="1" Time="0.5" Value="playuianimation Tutorial2.form Tutorial2ClearAll" />
+                        </Track>
+                    </Animation>
+                    <Animation Name="NeutralUpgradePrompt">
+                        <Track ID="226" Type="9">
+                            <TrackKey ID="0" Time="10" Value="playuianimation Tutorial2.form HideUpgradePrompt" />
+                        </Track>
+                    </Animation>
+                    <Animation Name="ShowUpgrade">
+                        <Track ID="195" Type="5">
+                            <TrackKey ID="0" Time="0.003125" Value="255" />
+                        </Track>
+                        <Track ID="200" Type="9">
+                            <TrackKey ID="0" Time="0" Value="setelementpassive UpgradeGroup off" />
+                            <TrackKey ID="1" Time="0.2625" Value="playuianimation Tutorial2.form NeutralUpgradePrompt" />
+                        </Track>
+                        <Track ID="247" Type="1">
+                            <TrackKey ID="0" Time="0" Value="0.000000, 0.781250" />
+                            <TrackKey ID="1" Time="0.253125" Value="0.000000, 0.354997" />
+                        </Track>
+                    </Animation>
+                    <Animation Name="DismissUpgradePrompt">
+                        <Track ID="260" Type="9">
+                            <TrackKey ID="0" Time="0" Value="setelementpassive UpgradeGroup  |  playsound UI/In_Game/Tower_Drag_Cancel" />
+                        </Track>
+                        <Track ID="263" Type="1">
+                            <TrackKey ID="0" Time="0" Value="0.000000, 0.354997" />
+                            <TrackKey ID="1" Time="0.240625" Value="0.000000, 0.683122" />
+                        </Track>
+                    </Animation>
+                    <Animation Name="Tutorial2ClearAll">
+                        <Track ID="235" Type="1">
+                            <TrackKey ID="0" Time="0" Value="-0.018750, 1.250000" />
+                        </Track>
+                    </Animation>
+                </Animations>
+                <Element PanelSkin="UnitNoteBox.asc" Type="10" Name="UpgradePanel" ID="640" Dimension="0.601040, 0.268750" IsPassive="T" PixelFormat="2" SetChildrenAlpha="T" />
+                <Element TextureFilename="TowerSelect.png" Type="2" Name="Upgrade" ID="633" Anchor="-0.166666, -0.004688" Dimension="0.144060, 0.195313" IsPassive="T" Margin="1" PixelFormat="2" SetChildrenAlpha="T" />
+                <Element Text="$(TutorialUpgradeText)" TextScale="0.7" Type="1" Name="Text" ID="641" Anchor="0.092709, -0.010937" Dimension="0.284167, 0.132320" IsPassive="T" Tint="207, 220, 235, 255" Alignment="0" Tracking="-7" Leading="38" TranslateOnce="T" Font="ArialWhite05.asc" />
+            </Element>
+            <Element PanelSkin="UnitNoteBox.asc" Type="10" Name="SlowText" ID="588" Anchor="-0.001041, 1.250000" Dimension="0.545833, 0.223958" Tint="255, 255, 255, 0" Margin="1" PixelFormat="2" SetChildrenAlpha="T">
+                <Animations>
+                    <Animation Name="DismissGluePrompt">
+                        <Track ID="255" Type="9">
+                            <TrackKey ID="0" Time="0" Value="setelementpassive SlowText  |  playsound UI/In_Game/Tower_Drag_Cancel" />
+                        </Track>
+                        <Track ID="264" Type="1">
+                            <TrackKey ID="0" Time="0" Value="0.000000, 0.376325" />
+                            <TrackKey ID="1" Time="0.253125" Value="0.000000, 0.657575" />
+                        </Track>
+                    </Animation>
+                    <Animation Name="ShowGluePrompt">
+                        <Track ID="153" Type="5">
+                            <TrackKey ID="0" Time="0" Value="255" />
+                        </Track>
+                        <Track ID="201" Type="9">
+                            <TrackKey ID="0" Time="0" Value="setelementpassive SlowText off" />
+                            <TrackKey ID="1" Time="0.29375" Value="playuianimation Tutorial2.form NeutralGluePrompt" />
+                        </Track>
+                        <Track ID="251" Type="1">
+                            <TrackKey ID="0" Time="0" Value="0.000000, 0.781250" />
+                            <TrackKey ID="1" Time="0.284375" Value="0.000000, 0.376325" />
+                        </Track>
+                    </Animation>
+                    <Animation Name="NeutralGluePrompt">
+                        <Track ID="227" Type="9">
+                            <TrackKey ID="0" Time="10" Value="playuianimation Tutorial2.form HideGluePrompt" />
+                        </Track>
+                    </Animation>
+                    <Animation Name="Tutorial2ClearAll">
+                        <Track ID="176" Type="5">
+                            <TrackKey ID="0" Time="0" />
+                        </Track>
+                        <Track ID="236" Type="1">
+                            <TrackKey ID="0" Time="0" Value="-0.001041, 1.250000" />
+                        </Track>
+                    </Animation>
+                    <Animation Name="HideGluePrompt">
+                        <Track ID="148" Type="5">
+                            <TrackKey ID="0" Time="0" Value="255" />
+                            <TrackKey ID="1" Time="0.5" />
+                        </Track>
+                        <Track ID="242" Type="9">
+                            <TrackKey ID="0" Time="0" Value="setelementpassive SlowText" />
+                            <TrackKey ID="1" Time="0.503125" Value="playuianimation Tutorial2.form Tutorial2ClearAll" />
+                        </Track>
+                    </Animation>
+                </Animations>
+                <Element Text="$(TutorialSlowText)" TextScale="0.7" Type="1" Name="SlowLabel" ID="621" Anchor="0.080208, -0.004689" Dimension="0.330000, 0.094820" IsPassive="T" Tint="207, 220, 235, 0" Alignment="0" Tracking="-7" Leading="38" TranslateOnce="T" Font="ArialWhite05.asc" />
+                <Element TextureFilename="Icon_Tower_Glue.png" Type="2" Name="GlueIcon" ID="647" Anchor="-0.177084, 0.000000" Dimension="0.096875, 0.145834" IsPassive="T" Tint="255, 255, 255, 0" />
+            </Element>
+            <Element TextureFilename="Trans.png" Type="2" Name="MazeGroup" ID="636" Anchor="-0.015625, 1.250000" Dimension="0.743056, 0.236458" Margin="1" SetChildrenAlpha="T">
+                <Animations>
+                    <Animation Name="ShowMaze">
+                        <Track ID="202" Type="5">
+                            <TrackKey ID="0" Time="0" Value="255" />
+                        </Track>
+                        <Track ID="204" Type="9">
+                            <TrackKey ID="0" Time="0" Value="setelementpassive MazeGroup off" />
+                            <TrackKey ID="1" Time="0.25625" Value="playuianimation Tutorial2.form NeutralMazePrompt" />
+                        </Track>
+                        <Track ID="252" Type="1">
+                            <TrackKey ID="0" Time="0.0125" Value="0.000000, 0.781250" />
+                            <TrackKey ID="1" Time="0.240625" Value="0.000000, 0.370329" />
+                        </Track>
+                    </Animation>
+                    <Animation Name="HideMazePrompt">
+                        <Track ID="208" Type="5">
+                            <TrackKey ID="0" Time="0" Value="255" />
+                            <TrackKey ID="1" Time="0.5" />
+                        </Track>
+                        <Track ID="243" Type="9">
+                            <TrackKey ID="0" Time="0" Value="setelementpassive MazeGroup" />
+                            <TrackKey ID="1" Time="0.5" Value="playuianimation Tutorial2.form Tutorial2ClearAll" />
+                        </Track>
+                    </Animation>
+                    <Animation Name="NeutralMazePrompt">
+                        <Track ID="228" Type="9">
+                            <TrackKey ID="0" Time="10" Value="playuianimation Tutorial2.form HideMazePrompt" />
+                        </Track>
+                    </Animation>
+                    <Animation Name="DismissMaze">
+                        <Track ID="257" Type="9">
+                            <TrackKey ID="0" Time="0" Value="setelementpassive MazeGroup  |  playsound UI/In_Game/Tower_Drag_Cancel" />
+                        </Track>
+                        <Track ID="265" Type="1">
+                            <TrackKey ID="0" Time="0" Value="0.000000, 0.370329" />
+                            <TrackKey ID="1" Time="0.25" Value="0.000000, 0.667204" />
+                        </Track>
+                    </Animation>
+                    <Animation Name="Tutorial2ClearAll">
+                        <Track ID="237" Type="1">
+                            <TrackKey ID="0" Time="0" Value="-0.015625, 1.250000" />
+                        </Track>
+                    </Animation>
+                </Animations>
+                <Element PanelSkin="UnitNoteBox.asc" Type="10" Name="Maze Background" ID="637" Dimension="0.628076, 0.232319" IsPassive="T" Margin="1" PixelFormat="2" SetChildrenAlpha="T">
+                    <Animations>
+                        <Animation Name="Tutorial2ClearAll">
+                            <Track ID="177" Type="5">
+                                <TrackKey ID="0" Time="0" />
+                            </Track>
+                        </Animation>
+                    </Animations>
+                </Element>
+                <Element TextureFilename="TutorialMaze.png" Type="2" Name="BuildMaze" ID="642" Anchor="-0.186458, 0.000000" Dimension="0.156250, 0.215625" IsPassive="T" />
+                <Element Text="$(TutorialMazeText)" TextScale="0.7" Type="1" Name="MazeLabel" ID="643" Anchor="0.092708, 0.000000" Dimension="0.369583, 0.080236" IsPassive="T" Tint="207, 220, 235, 255" Alignment="0" Tracking="-7" Leading="38" TranslateOnce="T" Font="ArialWhite05.asc" />
+            </Element>
+            <Element PanelSkin="UnitNoteBox.asc" Type="10" Name="GoGoGo" ID="626" Anchor="-0.000001, 1.250000" Dimension="0.430001, 0.122917" Margin="1" PixelFormat="2" SetChildrenAlpha="T">
+                <Animations>
+                    <Animation Name="NeutralGoGoGo">
+                        <Track ID="229" Type="9">
+                            <TrackKey ID="0" Time="10" Value="playuianimation Tutorial2.form HideGoGoGo" />
+                        </Track>
+                    </Animation>
+                    <Animation Name="HideGoGoGo">
+                        <Track ID="193" Type="5">
+                            <TrackKey ID="0" Time="0" Value="255" />
+                            <TrackKey ID="1" Time="0.4875" />
+                        </Track>
+                        <Track ID="244" Type="9">
+                            <TrackKey ID="0" Time="0" Value="setelementpassive GoGoGo" />
+                            <TrackKey ID="1" Time="0.49375" Value="playuianimation Tutorial2.form Tutorial2ClearAll" />
+                        </Track>
+                    </Animation>
+                    <Animation Name="ShowGoGoGo">
+                        <Track ID="170" Type="5">
+                            <TrackKey ID="0" Time="0" Value="255" />
+                        </Track>
+                        <Track ID="206" Type="9">
+                            <TrackKey ID="0" Time="0" Value="setelementpassive GoGoGo off" />
+                            <TrackKey ID="1" Time="0.2875" Value="playuianimation Tutorial2.form NeutralGoGoGo" />
+                        </Track>
+                        <Track ID="248" Type="1">
+                            <TrackKey ID="0" Time="0" Value="0.000000, 0.781250" />
+                            <TrackKey ID="1" Time="0.234375" Value="0.000000, 0.408683" />
+                        </Track>
+                    </Animation>
+                    <Animation Name="Tutorial2ClearAll">
+                        <Track ID="190" Type="5">
+                            <TrackKey ID="0" Time="0" Value="255" />
+                        </Track>
+                        <Track ID="238" Type="1">
+                            <TrackKey ID="0" Time="0" Value="-0.000001, 1.250000" />
+                        </Track>
+                    </Animation>
+                    <Animation Name="HideGatlingPrompt">
+                        <Track ID="147" Type="5">
+                            <TrackKey ID="0" Time="0" Value="255" />
+                            <TrackKey ID="1" Time="0.75" />
+                        </Track>
+                    </Animation>
+                    <Animation Name="DismissGoGoGo">
+                        <Track ID="256" Type="9">
+                            <TrackKey ID="0" Time="0" Value="setelementpassive GoGoGo  |  playsound UI/In_Game/Tower_Drag_Cancel" />
+                        </Track>
+                        <Track ID="266" Type="1">
+                            <TrackKey ID="0" Time="0" Value="0.000000, 0.408683" />
+                            <TrackKey ID="1" Time="0.24375" Value="0.000000, 0.674308" />
+                        </Track>
+                    </Animation>
+                </Animations>
+                <Element Text="$(TutorialYouRockText)" TextScale="0.8" Type="1" Name="Text" ID="627" Anchor="0.031250, 0.000000" Dimension="0.334168, 0.040653" IsPassive="T" Tint="207, 220, 235, 255" Tracking="-7" Leading="38" TranslateOnce="T" Font="ArialWhite05.asc" />
+                <Element TextureFilename="ShellStar.png" Type="2" Name="Panel::653" ID="653" Anchor="-0.151042, -0.001562" Dimension="0.073611, 0.110417" PixelFormat="2" Dithered="T" />
+            </Element>
+            <Element PanelSkin="UnitNoteBox.asc" Type="10" Name="UpgradeReminder" ID="630" Anchor="-0.001041, 1.250000" Dimension="0.545833, 0.221875" Tint="255, 255, 255, 0" Margin="1" PixelFormat="2" SetChildrenAlpha="T">
+                <Animations>
+                    <Animation Name="ShowUpgrade2">
+                        <Track ID="179" Type="5">
+                            <TrackKey ID="0" Time="0" Value="255" />
+                        </Track>
+                        <Track ID="215" Type="9">
+                            <TrackKey ID="0" Time="0" Value="setelementpassive UpgradeReminder off" />
+                            <TrackKey ID="1" Time="0.5" Value="playuianimation Tutorial2.form NeutralUpgrade2" />
+                        </Track>
+                        <Track ID="246" Type="1">
+                            <TrackKey ID="0" Time="0.046875" Value="-0.001041, 0.781250" />
+                            <TrackKey ID="1" Time="0.303125" Value="-0.001041, 0.372185" />
+                        </Track>
+                    </Animation>
+                    <Animation Name="DismissUpgrade2">
+                        <Track ID="259" Type="9">
+                            <TrackKey ID="0" Time="0" Value="setelementpassive UpgradeReminder  |  UI/In_Game/Tower_Drag_Cancel" />
+                        </Track>
+                        <Track ID="267" Type="1">
+                            <TrackKey ID="0" Time="0" Value="-0.001041, 0.372185" />
+                            <TrackKey ID="1" Time="0.25" Value="-0.001041, 0.684685" />
+                        </Track>
+                    </Animation>
+                    <Animation Name="NeutralUpgrade2">
+                        <Track ID="230" Type="9">
+                            <TrackKey ID="0" Time="10" Value="playuianimation Tutorial2.form HideUpgrade2" />
+                        </Track>
+                    </Animation>
+                    <Animation Name="HideUpgrade2">
+                        <Track ID="191" Type="5">
+                            <TrackKey ID="0" Time="0" Value="255" />
+                            <TrackKey ID="1" Time="0.5" />
+                        </Track>
+                        <Track ID="245" Type="9">
+                            <TrackKey ID="0" Time="0" Value="setelementpassive UpgradeReminder" />
+                            <TrackKey ID="1" Time="0.50625" Value="playuianimation Tutorial2.form Tutorial2ClearAll" />
+                        </Track>
+                    </Animation>
+                    <Animation Name="Tutorial2ClearAll">
+                        <Track ID="176" Type="5">
+                            <TrackKey ID="0" Time="0" />
+                        </Track>
+                        <Track ID="239" Type="1">
+                            <TrackKey ID="0" Time="0" Value="-0.001041, 1.250000" />
+                        </Track>
+                    </Animation>
+                </Animations>
+                <Element Text="$(TutorialUpgradeRemindText)" TextScale="0.7" Type="1" Name="UpgradeText" ID="631" Anchor="0.080209, 0.006250" Dimension="0.327916, 0.073987" IsPassive="T" Tint="207, 220, 235, 0" Alignment="0" Tracking="-7" Leading="38" TranslateOnce="T" Font="ArialWhite05.asc" />
+                <Element TextureFilename="icon_upgrade.png" Type="2" Name="GatlingIcon" ID="648" Anchor="-0.175000, 0.000000" Dimension="0.096875, 0.145834" IsPassive="T" Tint="255, 255, 255, 0" PixelFormat="2" />
+            </Element>
+            <Element TextureFilename="Trans.png" Type="2" Name="HealthWarning" ID="604" Anchor="0.372037, 0.356393" Dimension="0.362153, 0.174479" IsPassive="T" Tint="255, 255, 255, 0" Margin="1" SetChildrenAlpha="T">
+                <Animations>
+                    <Animation Name="Tutorial2HealthLoss">
+                        <Track ID="154" Type="5">
+                            <TrackKey ID="0" Time="0" />
+                            <TrackKey ID="1" Time="0.015625" Value="255" />
+                            <TrackKey ID="2" Time="3.99688" Value="255" />
+                            <TrackKey ID="3" Time="5.99687" />
+                        </Track>
+                        <Track ID="155" Type="1">
+                            <TrackKey ID="0" Time="0.0875" Value="0.502083, 0.453125" />
+                            <TrackKey ID="1" Time="0.253125" Value="-0.004167, 0.076562" />
+                        </Track>
+                    </Animation>
+                </Animations>
+                <Element TextureFilename="HUD_Heart.png" Type="2" Name="Heart" ID="605" Anchor="-0.057292, 0.046875" Dimension="0.090625, 0.132813" IsPassive="T" Tint="255, 255, 255, 0" PixelFormat="2">
+                    <Element Text="0" TextScale="0.8" Type="1" Name="0" ID="606" Anchor="0.000000, -0.001562" Dimension="0.098750, 0.063570" IsPassive="T" Tint="255, 255, 255, 0" Tracking="-7" Leading="40" TranslateOnce="T" Font="ImpactYellow06.asc" />
+                </Element>
+                <Element TextureFilename="DeathImage.png" Type="2" Name="Dead" ID="607" Anchor="0.062500, 0.046875" Dimension="0.083333, 0.109375" IsPassive="T" Tint="255, 255, 255, 0" PixelFormat="2" />
+                <Element Text="$(TutorialHealthText)" TextScale="0.7" Type="1" Name="HealthLabel" ID="625" Anchor="0.000000, -0.046875" Dimension="0.380000, 0.038570" IsPassive="T" Tint="255, 255, 255, 0" Tracking="-7" Leading="38" TranslateOnce="T" Font="ArialWhite05.asc" />
+                <Element Text="=" Type="1" Name="Equals" ID="652" Anchor="0.000000, 0.040625" Dimension="0.057083, 0.048986" IsPassive="T" Tint="255, 255, 255, 0" Tracking="-7" Leading="38" TranslateOnce="T" Font="ArialWhite05.asc" />
+            </Element>
+            <Element TextureFilename="Trans.png" Type="2" Name="RangeGroup" ID="654" Anchor="-0.018750, 1.250000" Dimension="0.687912, 0.292708" Margin="1" SetChildrenAlpha="T">
+                <Animations>
+                    <Animation Name="NeutralRangePrompt">
+                        <Track ID="226" Type="9">
+                            <TrackKey ID="0" Time="10" Value="playuianimation Tutorial2.form HideRangePrompt" />
+                        </Track>
+                    </Animation>
+                    <Animation Name="HideRangePrompt">
+                        <Track ID="198" Type="5">
+                            <TrackKey ID="0" Time="0" Value="255" />
+                            <TrackKey ID="1" Time="0.5" />
+                        </Track>
+                        <Track ID="241" Type="9">
+                            <TrackKey ID="0" Time="0" Value="setelementpassive RangeGroup" />
+                            <TrackKey ID="1" Time="0.5" Value="playuianimation Tutorial2.form Tutorial2ClearAll" />
+                        </Track>
+                    </Animation>
+                    <Animation Name="ShowRangePrompt">
+                        <Track ID="195" Type="5">
+                            <TrackKey ID="0" Time="0.003125" Value="255" />
+                        </Track>
+                        <Track ID="200" Type="9">
+                            <TrackKey ID="0" Time="0" Value="setelementpassive RangeGroup off" />
+                            <TrackKey ID="1" Time="0.278125" Value="playuianimation Tutorial2.form NeutralRangePrompt" />
+                        </Track>
+                        <Track ID="247" Type="1">
+                            <TrackKey ID="0" Time="0" Value="0.000000, 0.781250" />
+                            <TrackKey ID="1" Time="0.25625" Value="0.000000, 0.349735" />
+                        </Track>
+                    </Animation>
+                    <Animation Name="DismissRangePrompt">
+                        <Track ID="258" Type="9">
+                            <TrackKey ID="0" Time="0" Value="setelementpassive RangeGroup  |  playsound UI/In_Game/Tower_Drag_Cancel" />
+                        </Track>
+                        <Track ID="269" Type="1">
+                            <TrackKey ID="0" Time="0" Value="0.000000, 0.349735" />
+                            <TrackKey ID="1" Time="0.246875" Value="0.000000, 0.787235" />
+                        </Track>
+                    </Animation>
+                    <Animation Name="Tutorial2ClearAll">
+                        <Track ID="235" Type="1">
+                            <TrackKey ID="0" Time="0" Value="-0.018750, 1.250000" />
+                        </Track>
+                    </Animation>
+                </Animations>
+                <Element PanelSkin="UnitNoteBox.asc" Type="10" Name="UpgradePanel" ID="655" Dimension="0.601040, 0.268750" IsPassive="T" PixelFormat="2" SetChildrenAlpha="T" />
+                <Element TextureFilename="TowerSelect.png" Type="2" Name="Upgrade" ID="656" Anchor="-0.166666, -0.004688" Dimension="0.144060, 0.195313" IsPassive="T" Margin="1" PixelFormat="2" Dithered="T" SetChildrenAlpha="T" />
+                <Element Text="$(TutorialRangeText)" TextScale="0.7" Type="1" Name="Text" ID="657" Anchor="0.092709, -0.009374" Dimension="0.334167, 0.132320" IsPassive="T" Tint="207, 220, 235, 255" Alignment="0" Tracking="-7" Leading="38" TranslateOnce="T" Font="ArialWhite05.asc" />
+            </Element>
+            <Element PanelSkin="UnitNoteBox.asc" Type="10" Name="MissileGroup" ID="658" Anchor="0.000000, 0.781250" Dimension="0.545833, 0.223958" Margin="1" PixelFormat="2" SetChildrenAlpha="T">
+                <Animations>
+                    <Animation Name="DismissMissilePrompt">
+                        <Track ID="255" Type="9">
+                            <TrackKey ID="0" Time="0" Value="setelementpassive SlowText  |  playsound UI/In_Game/Tower_Drag_Cancel" />
+                        </Track>
+                        <Track ID="264" Type="1">
+                            <TrackKey ID="0" Time="0" Value="0.000000, 0.376325" />
+                            <TrackKey ID="1" Time="0.253125" Value="0.000000, 0.657575" />
+                        </Track>
+                    </Animation>
+                    <Animation Name="HideMissilePrompt">
+                        <Track ID="148" Type="5">
+                            <TrackKey ID="0" Time="0" Value="255" />
+                            <TrackKey ID="1" Time="0.5" />
+                        </Track>
+                        <Track ID="242" Type="9">
+                            <TrackKey ID="0" Time="0" Value="setelementpassive SlowText" />
+                            <TrackKey ID="1" Time="0.503125" Value="playuianimation Tutorial2.form Tutorial2ClearAll" />
+                        </Track>
+                    </Animation>
+                    <Animation Name="NeutralMissilePrompt">
+                        <Track ID="227" Type="9">
+                            <TrackKey ID="0" Time="10" Value="playuianimation Tutorial2.form HideMissilePrompt" />
+                        </Track>
+                    </Animation>
+                    <Animation Name="Tutorial2ClearAll">
+                        <Track ID="176" Type="5">
+                            <TrackKey ID="0" Time="0" />
+                        </Track>
+                        <Track ID="236" Type="1">
+                            <TrackKey ID="0" Time="0" Value="-0.001041, 1.250000" />
+                        </Track>
+                    </Animation>
+                    <Animation Name="ShowMissilePrompt">
+                        <Track ID="153" Type="5">
+                            <TrackKey ID="0" Time="0" Value="255" />
+                        </Track>
+                        <Track ID="201" Type="9">
+                            <TrackKey ID="0" Time="0" Value="setelementpassive SlowText off" />
+                            <TrackKey ID="1" Time="0.29375" Value="playuianimation Tutorial2.form NeutralMissilePrompt" />
+                        </Track>
+                        <Track ID="251" Type="1">
+                            <TrackKey ID="0" Time="0" Value="0.000000, 0.781250" />
+                            <TrackKey ID="1" Time="0.284375" Value="0.000000, 0.376325" />
+                        </Track>
+                    </Animation>
+                </Animations>
+                <Element Text="$(TutorialMissileText)" TextScale="0.7" Type="1" Name="SlowLabel" ID="659" Anchor="0.080208, -0.004689" Dimension="0.363333, 0.134403" IsPassive="T" Tint="207, 220, 235, 255" Alignment="0" Tracking="-7" Leading="38" TranslateOnce="T" Font="ArialWhite05.asc" />
+                <Element TextureFilename="Icon_Tower_Missile.jpg" Type="2" Name="GlueIcon" ID="660" Anchor="-0.186459, 0.000000" Dimension="0.133333, 0.200000" IsPassive="T" />
+            </Element>
+        </Element>
+    </FormRoot>
+    <AnimationTriggers>
+        <AnimationTrigger Event="Touches Began (UI Only)" Data="587" Animation="DismissGatlingPrompt" />
+        <AnimationTrigger Event="Touches Began (UI Only)" Data="632" Animation="DismissUpgradePrompt" />
+        <AnimationTrigger Event="Touches Began (UI Only)" Data="588" Animation="DismissGluePrompt" />
+        <AnimationTrigger Event="Touches Began (UI Only)" Data="636" Animation="DismissMaze" />
+        <AnimationTrigger Event="Touches Began (UI Only)" Data="626" Animation="DismissGoGoGo" />
+        <AnimationTrigger Event="Touches Began (UI Only)" Data="630" Animation="DismissUpgrade2" />
+        <AnimationTrigger Event="Touches Began (UI Only)" Data="654" Animation="DismissRangePrompt" />
+        <AnimationTrigger Event="Touches Began (UI Only)" Data="658" Animation="DismissMissilePrompt" />
+    </AnimationTriggers>
+    <ResettableAnimations>
+        <ResetAnimation Name="ShowGatlingPrompt" />
+        <ResetAnimation Name="ShowGluePrompt" />
+        <ResetAnimation Name="ShowGoGoGo" />
+        <ResetAnimation Name="ShowMaze" />
+        <ResetAnimation Name="ShowRangePrompt" />
+        <ResetAnimation Name="ShowUpgrade" />
+        <ResetAnimation Name="ShowUpgrade2" />
+    </ResettableAnimations>
+</Form>

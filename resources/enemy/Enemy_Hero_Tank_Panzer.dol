@@ -1,0 +1,11 @@
+<Doll>
+    <Sprites defaultAnimationSetName="default" defaultAnimationName="run">
+        <Sprite filename="Enemy_Hero_Tank_Panzer.asc" attachToTag="" sortToParentDepth="F">
+            <Particles />
+        </Sprite>
+    </Sprites>
+    <Sounds>
+        <Sound type="1" soundpath="Enemies/Enemy_Tank_Heavy/Spawn" replacePrevSoundInstance="T" actorEvent="3" actorEventParameter="" animation="" animationSet="" />
+        <Sound type="1" soundpath="Enemies/Enemy_Hero/Death" replacePrevSoundInstance="T" actorEvent="0" actorEventParameter="" animation="" animationSet="" />
+    </Sounds>
+</Doll>

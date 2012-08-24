@@ -1,0 +1,1365 @@
+<!--Copyright 2012 Subatomic Studios, LLC. All rights reserved.-->
+<Form Name="" BasePlatform="2" Version="77" PassTouches="T" FormType="1" ClassType="3">
+    <FormRoot Name="Element">
+        <Animations>
+            <Animation Name="OpenForm">
+                <Track ID="36" Type="9">
+                    <TrackKey ID="0" Time="0.003125" Value="playsound UI/Menu/Shell_Move_2" />
+                    <TrackKey ID="1" Time="0.45" Value="playsound UI/Menu/Button_Tab" />
+                    <TrackKey ID="2" Time="0.65" Value="playsound UI/Menu/Shell_Move_2" />
+                    <TrackKey ID="3" Time="1.1" Value="playsound UI/Menu/Button_Tab" />
+                    <TrackKey ID="4" Time="1.3" Value="playmusic Music_Theme.mp3" />
+                    <TrackKey ID="5" Time="1.6" Value="playsound UI/Menu/Shell_Startup" />
+                </Track>
+            </Animation>
+        </Animations>
+        <Element TextureFilename="FR2Title.jpg" Type="2" Name="BackgroundImage" ID="945" Anchor="0.500000, 0.500000" Dimension="1.000000, 1.000000" IsPassive="T" ResizeBias="0" />
+        <Element TextureFilename="Trans.png" Type="2" Name="Glows" ID="888" Anchor="0.500000, 0.500000" Dimension="1.000000, 1.000000" Visible="F" IsPassive="T" ResizeBias="0" Dithered="T">
+            <Animations>
+                <Animation Name="NewMissionTrigger">
+                    <Track ID="58" Type="9">
+                        <TrackKey ID="0" Time="0" Value="playsound UI/Menu/Shell_Move_2" />
+                        <TrackKey ID="1" Time="0.390625" Value="playsound UI/Menu/Shell_Move_2" />
+                    </Track>
+                </Animation>
+            </Animations>
+            <Element Type="7" Name="Glows" ID="889" Anchor="-0.268750, 0.141639" Dimension="0.100000, 0.100000" IsPassive="T" Filename="UI_Title_Flame.fx">
+                <Animations>
+                    <Animation Name="OpenForm">
+                        <Track ID="64" Type="8">
+                            <TrackKey ID="0" Time="0.00625" Value="1" />
+                            <TrackKey ID="1" Time="0.05" />
+                        </Track>
+                    </Animation>
+                    <Animation Name="NewMissionTrigger">
+                        <Track ID="65" Type="8">
+                            <TrackKey ID="0" Time="0.040625" Value="1" />
+                        </Track>
+                    </Animation>
+                </Animations>
+            </Element>
+            <Element Type="7" Name="Glows" ID="890" Anchor="-0.224623, 0.131716" Dimension="0.100000, 0.100000" IsPassive="T" Filename="UI_Title_Flame.fx">
+                <Animations>
+                    <Animation Name="OpenForm">
+                        <Track ID="64" Type="8">
+                            <TrackKey ID="0" Time="0.00625" Value="1" />
+                            <TrackKey ID="1" Time="0.1625" />
+                        </Track>
+                    </Animation>
+                    <Animation Name="NewMissionTrigger">
+                        <Track ID="65" Type="8">
+                            <TrackKey ID="0" Time="0.040625" Value="1" />
+                        </Track>
+                    </Animation>
+                </Animations>
+            </Element>
+            <Element Type="7" Name="Glows" ID="891" Anchor="-0.253889, 0.177494" Dimension="0.100000, 0.100000" IsPassive="T" Filename="UI_Title_Flame.fx">
+                <Animations>
+                    <Animation Name="OpenForm">
+                        <Track ID="64" Type="8">
+                            <TrackKey ID="0" Time="0.00625" Value="1" />
+                            <TrackKey ID="1" Time="0.05" />
+                        </Track>
+                    </Animation>
+                    <Animation Name="NewMissionTrigger">
+                        <Track ID="65" Type="8">
+                            <TrackKey ID="0" Time="0.040625" Value="1" />
+                        </Track>
+                    </Animation>
+                </Animations>
+            </Element>
+            <Element Type="7" Name="Glows" ID="892" Anchor="-0.220833, 0.169298" Dimension="0.100000, 0.100000" IsPassive="T" Filename="UI_Title_Flame.fx">
+                <Animations>
+                    <Animation Name="OpenForm">
+                        <Track ID="64" Type="8">
+                            <TrackKey ID="0" Time="0.00625" Value="1" />
+                            <TrackKey ID="1" Time="0.265625" />
+                        </Track>
+                    </Animation>
+                    <Animation Name="NewMissionTrigger">
+                        <Track ID="65" Type="8">
+                            <TrackKey ID="0" Time="0.040625" Value="1" />
+                        </Track>
+                    </Animation>
+                </Animations>
+            </Element>
+            <Element Type="7" Name="Glows" ID="893" Anchor="-0.270645, 0.178975" Dimension="0.100000, 0.100000" IsPassive="T" Filename="UI_Title_Flame.fx">
+                <Animations>
+                    <Animation Name="OpenForm">
+                        <Track ID="64" Type="8">
+                            <TrackKey ID="0" Time="0.00625" Value="1" />
+                            <TrackKey ID="1" Time="0.05" />
+                        </Track>
+                    </Animation>
+                    <Animation Name="NewMissionTrigger">
+                        <Track ID="65" Type="8">
+                            <TrackKey ID="0" Time="0.040625" Value="1" />
+                        </Track>
+                    </Animation>
+                </Animations>
+            </Element>
+            <Element Type="7" Name="Glows" ID="894" Anchor="-0.268562, 0.045778" Dimension="0.100000, 0.100000" IsPassive="T" Filename="UI_Title_Flame.fx">
+                <Animations>
+                    <Animation Name="OpenForm">
+                        <Track ID="64" Type="8">
+                            <TrackKey ID="0" Time="0.00625" Value="1" />
+                            <TrackKey ID="1" Time="0.05" />
+                        </Track>
+                    </Animation>
+                    <Animation Name="NewMissionTrigger">
+                        <Track ID="65" Type="8">
+                            <TrackKey ID="0" Time="0.040625" Value="1" />
+                        </Track>
+                    </Animation>
+                </Animations>
+            </Element>
+            <Element Type="7" Name="Glows" ID="895" Anchor="-0.228036, 0.048438" Dimension="0.100000, 0.100000" IsPassive="T" Filename="UI_Title_Flame.fx">
+                <Animations>
+                    <Animation Name="OpenForm">
+                        <Track ID="64" Type="8">
+                            <TrackKey ID="0" Time="0.00625" Value="1" />
+                            <TrackKey ID="1" Time="0.25625" />
+                        </Track>
+                    </Animation>
+                    <Animation Name="NewMissionTrigger">
+                        <Track ID="65" Type="8">
+                            <TrackKey ID="0" Time="0.040625" Value="1" />
+                        </Track>
+                    </Animation>
+                </Animations>
+            </Element>
+            <Element Type="7" Name="Glows" ID="896" Anchor="0.226419, 0.242571" Dimension="0.100000, 0.100000" IsPassive="T" Filename="UI_Title_Flame.fx">
+                <Animations>
+                    <Animation Name="OpenForm">
+                        <Track ID="64" Type="8">
+                            <TrackKey ID="0" Time="0.00625" Value="1" />
+                            <TrackKey ID="1" Time="0.171875" />
+                        </Track>
+                    </Animation>
+                    <Animation Name="NewMissionTrigger">
+                        <Track ID="65" Type="8">
+                            <TrackKey ID="0" Time="0.040625" Value="1" />
+                        </Track>
+                    </Animation>
+                </Animations>
+            </Element>
+            <Element Type="7" Name="Glows" ID="897" Anchor="0.201895, 0.227577" Dimension="0.100000, 0.100000" IsPassive="T" Filename="UI_Title_Flame.fx">
+                <Animations>
+                    <Animation Name="OpenForm">
+                        <Track ID="64" Type="8">
+                            <TrackKey ID="0" Time="0.00625" Value="1" />
+                            <TrackKey ID="1" Time="0.175" />
+                        </Track>
+                    </Animation>
+                    <Animation Name="NewMissionTrigger">
+                        <Track ID="65" Type="8">
+                            <TrackKey ID="0" Time="0.040625" Value="1" />
+                        </Track>
+                    </Animation>
+                </Animations>
+            </Element>
+            <Element Type="7" Name="GlowsSmall" ID="898" Anchor="-0.479643, 0.004989" Dimension="0.100000, 0.100000" IsPassive="T" Filename="UI_Title_FlameSmall.fx">
+                <Animations>
+                    <Animation Name="OpenForm">
+                        <Track ID="64" Type="8">
+                            <TrackKey ID="0" Time="0.00625" Value="1" />
+                            <TrackKey ID="1" Time="0.146875" />
+                        </Track>
+                    </Animation>
+                    <Animation Name="NewMissionTrigger">
+                        <Track ID="65" Type="8">
+                            <TrackKey ID="0" Time="0.040625" Value="1" />
+                        </Track>
+                    </Animation>
+                </Animations>
+            </Element>
+            <Element Type="7" Name="GlowsSmall" ID="899" Anchor="-0.466290, -0.025548" Dimension="0.100000, 0.100000" IsPassive="T" Filename="UI_Title_FlameSmall.fx">
+                <Animations>
+                    <Animation Name="OpenForm">
+                        <Track ID="64" Type="8">
+                            <TrackKey ID="0" Time="0.00625" Value="1" />
+                            <TrackKey ID="1" Time="0.3" />
+                        </Track>
+                    </Animation>
+                    <Animation Name="NewMissionTrigger">
+                        <Track ID="65" Type="8">
+                            <TrackKey ID="0" Time="0.040625" Value="1" />
+                        </Track>
+                    </Animation>
+                </Animations>
+            </Element>
+            <Element Type="7" Name="GlowsSmall" ID="900" Anchor="-0.459475, 0.067105" Dimension="0.100000, 0.100000" IsPassive="T" Filename="UI_Title_FlameSmall.fx">
+                <Animations>
+                    <Animation Name="OpenForm">
+                        <Track ID="64" Type="8">
+                            <TrackKey ID="0" Time="0.00625" Value="1" />
+                            <TrackKey ID="1" Time="0.175" />
+                        </Track>
+                    </Animation>
+                    <Animation Name="NewMissionTrigger">
+                        <Track ID="65" Type="8">
+                            <TrackKey ID="0" Time="0.040625" Value="1" />
+                        </Track>
+                    </Animation>
+                </Animations>
+            </Element>
+            <Element Type="7" Name="GlowsSmall" ID="901" Anchor="-0.476419, 0.179057" Dimension="0.100000, 0.100000" IsPassive="T" Filename="UI_Title_FlameSmall.fx">
+                <Animations>
+                    <Animation Name="OpenForm">
+                        <Track ID="64" Type="8">
+                            <TrackKey ID="0" Time="0.00625" Value="1" />
+                            <TrackKey ID="1" Time="0.13125" />
+                        </Track>
+                    </Animation>
+                    <Animation Name="NewMissionTrigger">
+                        <Track ID="65" Type="8">
+                            <TrackKey ID="0" Time="0.040625" Value="1" />
+                        </Track>
+                    </Animation>
+                </Animations>
+            </Element>
+            <Element Type="7" Name="GlowsSmall" ID="902" Anchor="-0.497728, 0.167188" Dimension="0.100000, 0.100000" IsPassive="T" Filename="UI_Title_FlameSmall.fx">
+                <Animations>
+                    <Animation Name="OpenForm">
+                        <Track ID="64" Type="8">
+                            <TrackKey ID="0" Time="0.00625" Value="1" />
+                            <TrackKey ID="1" Time="0.1625" />
+                        </Track>
+                    </Animation>
+                    <Animation Name="NewMissionTrigger">
+                        <Track ID="65" Type="8">
+                            <TrackKey ID="0" Time="0.040625" Value="1" />
+                        </Track>
+                    </Animation>
+                </Animations>
+            </Element>
+            <Element Type="7" Name="GlowsSmall" ID="903" Anchor="-0.491478, 0.109924" Dimension="0.100000, 0.100000" IsPassive="T" Filename="UI_Title_FlameSmall.fx">
+                <Animations>
+                    <Animation Name="OpenForm">
+                        <Track ID="64" Type="8">
+                            <TrackKey ID="0" Time="0.00625" Value="1" />
+                            <TrackKey ID="1" Time="0.221875" />
+                        </Track>
+                    </Animation>
+                    <Animation Name="NewMissionTrigger">
+                        <Track ID="65" Type="8">
+                            <TrackKey ID="0" Time="0.040625" Value="1" />
+                        </Track>
+                    </Animation>
+                </Animations>
+            </Element>
+            <Element Type="7" Name="GlowsSmall" ID="904" Anchor="-0.469415, 0.060307" Dimension="0.100000, 0.100000" IsPassive="T" Filename="UI_Title_FlameSmall.fx">
+                <Animations>
+                    <Animation Name="OpenForm">
+                        <Track ID="64" Type="8">
+                            <TrackKey ID="0" Time="0.00625" Value="1" />
+                            <TrackKey ID="1" Time="0.05" />
+                        </Track>
+                    </Animation>
+                    <Animation Name="NewMissionTrigger">
+                        <Track ID="65" Type="8">
+                            <TrackKey ID="0" Time="0.040625" Value="1" />
+                        </Track>
+                    </Animation>
+                </Animations>
+            </Element>
+            <Element Type="7" Name="GlowsSmall" ID="905" Anchor="-0.476042, 0.048437" Dimension="0.100000, 0.100000" IsPassive="T" Filename="UI_Title_FlameSmall.fx">
+                <Animations>
+                    <Animation Name="OpenForm">
+                        <Track ID="64" Type="8">
+                            <TrackKey ID="0" Time="0.00625" Value="1" />
+                            <TrackKey ID="1" Time="0.328125" />
+                        </Track>
+                    </Animation>
+                    <Animation Name="NewMissionTrigger">
+                        <Track ID="65" Type="8">
+                            <TrackKey ID="0" Time="0.040625" Value="1" />
+                        </Track>
+                    </Animation>
+                </Animations>
+            </Element>
+            <Element Type="7" Name="GlowsSmall" ID="906" Anchor="-0.485705, 0.126727" Dimension="0.100000, 0.100000" IsPassive="T" Filename="UI_Title_FlameSmall.fx">
+                <Animations>
+                    <Animation Name="OpenForm">
+                        <Track ID="64" Type="8">
+                            <TrackKey ID="0" Time="0.00625" Value="1" />
+                            <TrackKey ID="1" Time="0.371875" />
+                        </Track>
+                    </Animation>
+                    <Animation Name="NewMissionTrigger">
+                        <Track ID="65" Type="8">
+                            <TrackKey ID="0" Time="0.040625" Value="1" />
+                        </Track>
+                    </Animation>
+                </Animations>
+            </Element>
+            <Element Type="7" Name="GlowsSmall" ID="907" Anchor="0.434186, 0.357812" Dimension="0.100000, 0.100000" IsPassive="T" Filename="UI_Title_FlameSmall.fx">
+                <Animations>
+                    <Animation Name="OpenForm">
+                        <Track ID="64" Type="8">
+                            <TrackKey ID="0" Time="0.00625" Value="1" />
+                            <TrackKey ID="1" Time="0.746875" />
+                        </Track>
+                    </Animation>
+                    <Animation Name="NewMissionTrigger">
+                        <Track ID="65" Type="8">
+                            <TrackKey ID="0" Time="0.040625" Value="1" />
+                        </Track>
+                    </Animation>
+                </Animations>
+            </Element>
+            <Element Type="7" Name="GlowsSmall" ID="908" Anchor="0.407292, 0.378125" Dimension="0.100000, 0.100000" IsPassive="T" Filename="UI_Title_FlameSmall.fx">
+                <Animations>
+                    <Animation Name="OpenForm">
+                        <Track ID="64" Type="8">
+                            <TrackKey ID="0" Time="0.00625" Value="1" />
+                            <TrackKey ID="1" Time="0.325" />
+                        </Track>
+                    </Animation>
+                    <Animation Name="NewMissionTrigger">
+                        <Track ID="65" Type="8">
+                            <TrackKey ID="0" Time="0.040625" Value="1" />
+                        </Track>
+                    </Animation>
+                </Animations>
+            </Element>
+            <Element Type="7" Name="GlowsSmall" ID="909" Anchor="0.432291, 0.377110" Dimension="0.100000, 0.100000" IsPassive="T" Filename="UI_Title_FlameSmall.fx">
+                <Animations>
+                    <Animation Name="OpenForm">
+                        <Track ID="64" Type="8">
+                            <TrackKey ID="0" Time="0.00625" Value="1" />
+                            <TrackKey ID="1" Time="0.275" />
+                        </Track>
+                    </Animation>
+                    <Animation Name="NewMissionTrigger">
+                        <Track ID="65" Type="8">
+                            <TrackKey ID="0" Time="0.040625" Value="1" />
+                        </Track>
+                    </Animation>
+                </Animations>
+            </Element>
+            <Element Type="7" Name="GlowsSmall" ID="910" Anchor="0.469792, 0.373437" Dimension="0.100000, 0.100000" IsPassive="T" Filename="UI_Title_FlameSmall.fx">
+                <Animations>
+                    <Animation Name="OpenForm">
+                        <Track ID="64" Type="8">
+                            <TrackKey ID="0" Time="0.00625" Value="1" />
+                            <TrackKey ID="1" Time="0.20625" />
+                        </Track>
+                    </Animation>
+                    <Animation Name="NewMissionTrigger">
+                        <Track ID="65" Type="8">
+                            <TrackKey ID="0" Time="0.040625" Value="1" />
+                        </Track>
+                    </Animation>
+                </Animations>
+            </Element>
+            <Element Type="7" Name="GlowsSmall" ID="911" Anchor="0.449058, 0.329770" Dimension="0.100000, 0.100000" IsPassive="T" Filename="UI_Title_FlameSmall.fx">
+                <Animations>
+                    <Animation Name="OpenForm">
+                        <Track ID="64" Type="8">
+                            <TrackKey ID="0" Time="0.00625" Value="1" />
+                            <TrackKey ID="1" Time="0.45625" />
+                        </Track>
+                    </Animation>
+                    <Animation Name="NewMissionTrigger">
+                        <Track ID="65" Type="8">
+                            <TrackKey ID="0" Time="0.040625" Value="1" />
+                        </Track>
+                    </Animation>
+                </Animations>
+            </Element>
+            <Element Type="7" Name="GlowsSmall" ID="912" Anchor="0.463542, 0.371875" Dimension="0.100000, 0.100000" IsPassive="T" Filename="UI_Title_FlameSmall.fx">
+                <Animations>
+                    <Animation Name="OpenForm">
+                        <Track ID="64" Type="8">
+                            <TrackKey ID="0" Time="0.00625" Value="1" />
+                            <TrackKey ID="1" Time="0.05" />
+                        </Track>
+                    </Animation>
+                    <Animation Name="NewMissionTrigger">
+                        <Track ID="65" Type="8">
+                            <TrackKey ID="0" Time="0.040625" Value="1" />
+                        </Track>
+                    </Animation>
+                </Animations>
+            </Element>
+            <Element Type="7" Name="GlowsSmall" ID="913" Anchor="0.426042, 0.414063" Dimension="0.100000, 0.100000" IsPassive="T" Filename="UI_Title_FlameSmall.fx">
+                <Animations>
+                    <Animation Name="OpenForm">
+                        <Track ID="64" Type="8">
+                            <TrackKey ID="0" Time="0.00625" Value="1" />
+                            <TrackKey ID="1" Time="0.221875" />
+                        </Track>
+                    </Animation>
+                    <Animation Name="NewMissionTrigger">
+                        <Track ID="65" Type="8">
+                            <TrackKey ID="0" Time="0.040625" Value="1" />
+                        </Track>
+                    </Animation>
+                </Animations>
+            </Element>
+            <Element Type="7" Name="GlowsSmall" ID="914" Anchor="0.132292, 0.359375" Dimension="0.100000, 0.100000" IsPassive="T" Filename="UI_Title_FlameSmall.fx">
+                <Animations>
+                    <Animation Name="OpenForm">
+                        <Track ID="64" Type="8">
+                            <TrackKey ID="0" Time="0.00625" Value="1" />
+                            <TrackKey ID="1" Time="0.20625" />
+                        </Track>
+                    </Animation>
+                    <Animation Name="NewMissionTrigger">
+                        <Track ID="65" Type="8">
+                            <TrackKey ID="0" Time="0.040625" Value="1" />
+                        </Track>
+                    </Animation>
+                </Animations>
+            </Element>
+            <Element Type="7" Name="GlowsSmall" ID="915" Anchor="0.134375, 0.332812" Dimension="0.100000, 0.100000" IsPassive="T" Filename="UI_Title_FlameSmall.fx">
+                <Animations>
+                    <Animation Name="OpenForm">
+                        <Track ID="64" Type="8">
+                            <TrackKey ID="0" Time="0.00625" Value="1" />
+                            <TrackKey ID="1" Time="0.415625" />
+                        </Track>
+                    </Animation>
+                    <Animation Name="NewMissionTrigger">
+                        <Track ID="65" Type="8">
+                            <TrackKey ID="0" Time="0.040625" Value="1" />
+                        </Track>
+                    </Animation>
+                </Animations>
+            </Element>
+            <Element Type="7" Name="GlowsBlue" ID="916" Anchor="-0.078978, 0.277577" Dimension="0.100000, 0.100000" IsPassive="T" Filename="UI_Title_SkyGlow.fx">
+                <Animations>
+                    <Animation Name="OpenForm">
+                        <Track ID="64" Type="8">
+                            <TrackKey ID="0" Time="0.00625" Value="1" />
+                            <TrackKey ID="1" Time="0.528125" />
+                        </Track>
+                    </Animation>
+                    <Animation Name="NewMissionTrigger">
+                        <Track ID="65" Type="8">
+                            <TrackKey ID="0" Time="0.040625" Value="1" />
+                        </Track>
+                    </Animation>
+                </Animations>
+            </Element>
+            <Element Type="7" Name="GlowsBlue" ID="917" Anchor="-0.103690, 0.280153" Dimension="0.100000, 0.100000" IsPassive="T" Filename="UI_Title_SkyGlow.fx">
+                <Animations>
+                    <Animation Name="OpenForm">
+                        <Track ID="64" Type="8">
+                            <TrackKey ID="0" Time="0.00625" Value="1" />
+                            <TrackKey ID="1" Time="1.09375" />
+                        </Track>
+                    </Animation>
+                    <Animation Name="NewMissionTrigger">
+                        <Track ID="65" Type="8">
+                            <TrackKey ID="0" Time="0.040625" Value="1" />
+                        </Track>
+                    </Animation>
+                </Animations>
+            </Element>
+            <Element Type="7" Name="GlowsBlue" ID="918" Anchor="-0.120268, 0.322890" Dimension="0.100000, 0.100000" IsPassive="T" Filename="UI_Title_SkyGlow.fx">
+                <Animations>
+                    <Animation Name="OpenForm">
+                        <Track ID="64" Type="8">
+                            <TrackKey ID="0" Time="0.00625" Value="1" />
+                            <TrackKey ID="1" Time="0.15625" />
+                        </Track>
+                    </Animation>
+                    <Animation Name="NewMissionTrigger">
+                        <Track ID="65" Type="8">
+                            <TrackKey ID="0" Time="0.040625" Value="1" />
+                        </Track>
+                    </Animation>
+                </Animations>
+            </Element>
+            <Element Type="7" Name="GlowsBlue" ID="919" Anchor="-0.144226, 0.286952" Dimension="0.100000, 0.100000" IsPassive="T" Filename="UI_Title_SkyGlow.fx">
+                <Animations>
+                    <Animation Name="OpenForm">
+                        <Track ID="64" Type="8">
+                            <TrackKey ID="0" Time="0.00625" Value="1" />
+                            <TrackKey ID="1" Time="0.36875" />
+                        </Track>
+                    </Animation>
+                    <Animation Name="NewMissionTrigger">
+                        <Track ID="65" Type="8">
+                            <TrackKey ID="0" Time="0.040625" Value="1" />
+                        </Track>
+                    </Animation>
+                </Animations>
+            </Element>
+            <Element Type="7" Name="GlowsBlue" ID="920" Anchor="-0.182491, 0.324370" Dimension="0.100000, 0.100000" IsPassive="T" Filename="UI_Title_SkyGlow.fx">
+                <Animations>
+                    <Animation Name="OpenForm">
+                        <Track ID="64" Type="8">
+                            <TrackKey ID="0" Time="0.00625" Value="1" />
+                            <TrackKey ID="1" Time="0.990625" />
+                        </Track>
+                    </Animation>
+                    <Animation Name="NewMissionTrigger">
+                        <Track ID="65" Type="8">
+                            <TrackKey ID="0" Time="0.040625" Value="1" />
+                        </Track>
+                    </Animation>
+                </Animations>
+            </Element>
+            <Element Type="7" Name="GlowsBlue" ID="921" Anchor="-0.200853, 0.310855" Dimension="0.100000, 0.100000" IsPassive="T" Filename="UI_Title_SkyGlow.fx">
+                <Animations>
+                    <Animation Name="OpenForm">
+                        <Track ID="64" Type="8">
+                            <TrackKey ID="0" Time="0.00625" Value="1" />
+                            <TrackKey ID="1" Time="0.05" />
+                        </Track>
+                    </Animation>
+                    <Animation Name="NewMissionTrigger">
+                        <Track ID="65" Type="8">
+                            <TrackKey ID="0" Time="0.040625" Value="1" />
+                        </Track>
+                    </Animation>
+                </Animations>
+            </Element>
+            <Element Type="7" Name="GlowsBlue" ID="922" Anchor="-0.246310, 0.370230" Dimension="0.100000, 0.100000" IsPassive="T" Filename="UI_Title_SkyGlow.fx">
+                <Animations>
+                    <Animation Name="OpenForm">
+                        <Track ID="64" Type="8">
+                            <TrackKey ID="0" Time="0.00625" Value="1" />
+                            <TrackKey ID="1" Time="0.18125" />
+                        </Track>
+                    </Animation>
+                    <Animation Name="NewMissionTrigger">
+                        <Track ID="65" Type="8">
+                            <TrackKey ID="0" Time="0.040625" Value="1" />
+                        </Track>
+                    </Animation>
+                </Animations>
+            </Element>
+            <Element Type="7" Name="GlowsBlue" ID="923" Anchor="-0.330020, 0.311952" Dimension="0.100000, 0.100000" IsPassive="T" Filename="UI_Title_SkyGlow.fx">
+                <Animations>
+                    <Animation Name="OpenForm">
+                        <Track ID="64" Type="8">
+                            <TrackKey ID="0" Time="0.00625" Value="1" />
+                            <TrackKey ID="1" Time="0.490625" />
+                        </Track>
+                    </Animation>
+                    <Animation Name="NewMissionTrigger">
+                        <Track ID="65" Type="8">
+                            <TrackKey ID="0" Time="0.040625" Value="1" />
+                        </Track>
+                    </Animation>
+                </Animations>
+            </Element>
+            <Element Type="7" Name="GlowsBlue" ID="924" Anchor="-0.357291, 0.361403" Dimension="0.100000, 0.100000" IsPassive="T" Filename="UI_Title_SkyGlow.fx">
+                <Animations>
+                    <Animation Name="OpenForm">
+                        <Track ID="64" Type="8">
+                            <TrackKey ID="0" Time="0.00625" Value="1" />
+                            <TrackKey ID="1" Time="0.209375" />
+                        </Track>
+                    </Animation>
+                    <Animation Name="NewMissionTrigger">
+                        <Track ID="65" Type="8">
+                            <TrackKey ID="0" Time="0.040625" Value="1" />
+                        </Track>
+                    </Animation>
+                </Animations>
+            </Element>
+            <Element Type="7" Name="GlowsBlue" ID="925" Anchor="-0.378601, 0.306168" Dimension="0.100000, 0.100000" IsPassive="T" Filename="UI_Title_SkyGlow.fx">
+                <Animations>
+                    <Animation Name="OpenForm">
+                        <Track ID="64" Type="8">
+                            <TrackKey ID="0" Time="0.00625" Value="1" />
+                            <TrackKey ID="1" Time="0.278125" />
+                        </Track>
+                    </Animation>
+                    <Animation Name="NewMissionTrigger">
+                        <Track ID="65" Type="8">
+                            <TrackKey ID="0" Time="0.040625" Value="1" />
+                        </Track>
+                    </Animation>
+                </Animations>
+            </Element>
+            <Element Type="7" Name="GlowsBlue" ID="926" Anchor="-0.402937, 0.288597" Dimension="0.100000, 0.100000" IsPassive="T" Filename="UI_Title_SkyGlow.fx">
+                <Animations>
+                    <Animation Name="OpenForm">
+                        <Track ID="64" Type="8">
+                            <TrackKey ID="0" Time="0.00625" Value="1" />
+                            <TrackKey ID="1" Time="0.171875" />
+                        </Track>
+                    </Animation>
+                    <Animation Name="NewMissionTrigger">
+                        <Track ID="65" Type="8">
+                            <TrackKey ID="0" Time="0.040625" Value="1" />
+                        </Track>
+                    </Animation>
+                </Animations>
+            </Element>
+            <Element Type="7" Name="GlowsBlue" ID="927" Anchor="-0.427559, 0.328043" Dimension="0.100000, 0.100000" IsPassive="T" Filename="UI_Title_SkyGlow.fx">
+                <Animations>
+                    <Animation Name="OpenForm">
+                        <Track ID="64" Type="8">
+                            <TrackKey ID="0" Time="0.00625" Value="1" />
+                            <TrackKey ID="1" Time="0.115625" />
+                        </Track>
+                    </Animation>
+                    <Animation Name="NewMissionTrigger">
+                        <Track ID="65" Type="8">
+                            <TrackKey ID="0" Time="0.040625" Value="1" />
+                        </Track>
+                    </Animation>
+                </Animations>
+            </Element>
+            <Element Type="7" Name="GlowsBlue" ID="928" Anchor="-0.050000, 0.212500" Dimension="0.100000, 0.100000" IsPassive="T" Filename="UI_Title_SkyGlow.fx">
+                <Animations>
+                    <Animation Name="OpenForm">
+                        <Track ID="64" Type="8">
+                            <TrackKey ID="0" Time="0.00625" Value="1" />
+                            <TrackKey ID="1" Time="0.478125" />
+                        </Track>
+                    </Animation>
+                    <Animation Name="NewMissionTrigger">
+                        <Track ID="65" Type="8">
+                            <TrackKey ID="0" Time="0.040625" Value="1" />
+                        </Track>
+                    </Animation>
+                </Animations>
+            </Element>
+            <Element Type="7" Name="GlowsBlue" ID="929" Anchor="0.002083, 0.173438" Dimension="0.100000, 0.100000" IsPassive="T" Filename="UI_Title_SkyGlow.fx">
+                <Animations>
+                    <Animation Name="OpenForm">
+                        <Track ID="64" Type="8">
+                            <TrackKey ID="0" Time="0.00625" Value="1" />
+                            <TrackKey ID="1" Time="0.553125" />
+                        </Track>
+                    </Animation>
+                    <Animation Name="NewMissionTrigger">
+                        <Track ID="65" Type="8">
+                            <TrackKey ID="0" Time="0.040625" Value="1" />
+                        </Track>
+                    </Animation>
+                </Animations>
+            </Element>
+            <Element Type="7" Name="GlowsBlue" ID="930" Anchor="0.044792, 0.184375" Dimension="0.100000, 0.100000" IsPassive="T" Filename="UI_Title_SkyGlow.fx">
+                <Animations>
+                    <Animation Name="OpenForm">
+                        <Track ID="64" Type="8">
+                            <TrackKey ID="0" Time="0.00625" Value="1" />
+                            <TrackKey ID="1" Time="0.2625" />
+                        </Track>
+                    </Animation>
+                    <Animation Name="NewMissionTrigger">
+                        <Track ID="65" Type="8">
+                            <TrackKey ID="0" Time="0.040625" Value="1" />
+                        </Track>
+                    </Animation>
+                </Animations>
+            </Element>
+            <Element Type="7" Name="GlowsBlue" ID="931" Anchor="0.095833, 0.240625" Dimension="0.100000, 0.100000" IsPassive="T" Filename="UI_Title_SkyGlow.fx">
+                <Animations>
+                    <Animation Name="OpenForm">
+                        <Track ID="64" Type="8">
+                            <TrackKey ID="0" Time="0.00625" Value="1" />
+                            <TrackKey ID="1" Time="0.2125" />
+                        </Track>
+                    </Animation>
+                    <Animation Name="NewMissionTrigger">
+                        <Track ID="65" Type="8">
+                            <TrackKey ID="0" Time="0.040625" Value="1" />
+                        </Track>
+                    </Animation>
+                </Animations>
+            </Element>
+            <Element Type="7" Name="GlowsBlue" ID="932" Anchor="0.155208, 0.287500" Dimension="0.100000, 0.100000" IsPassive="T" Filename="UI_Title_SkyGlow.fx">
+                <Animations>
+                    <Animation Name="OpenForm">
+                        <Track ID="64" Type="8">
+                            <TrackKey ID="0" Time="0.00625" Value="1" />
+                            <TrackKey ID="1" Time="0.05" />
+                        </Track>
+                    </Animation>
+                    <Animation Name="NewMissionTrigger">
+                        <Track ID="65" Type="8">
+                            <TrackKey ID="0" Time="0.040625" Value="1" />
+                        </Track>
+                    </Animation>
+                </Animations>
+            </Element>
+            <Element Type="7" Name="GlowsBlue" ID="933" Anchor="0.015625, 0.203125" Dimension="0.100000, 0.100000" IsPassive="T" Filename="UI_Title_SkyGlow.fx">
+                <Animations>
+                    <Animation Name="OpenForm">
+                        <Track ID="64" Type="8">
+                            <TrackKey ID="0" Time="0.00625" Value="1" />
+                            <TrackKey ID="1" Time="0.184375" />
+                        </Track>
+                    </Animation>
+                    <Animation Name="NewMissionTrigger">
+                        <Track ID="65" Type="8">
+                            <TrackKey ID="0" Time="0.040625" Value="1" />
+                        </Track>
+                    </Animation>
+                </Animations>
+            </Element>
+            <Element Type="7" Name="GlowsBlue" ID="934" Anchor="0.169792, 0.301562" Dimension="0.100000, 0.100000" IsPassive="T" Filename="UI_Title_SkyGlow.fx">
+                <Animations>
+                    <Animation Name="OpenForm">
+                        <Track ID="64" Type="8">
+                            <TrackKey ID="0" Time="0.00625" Value="1" />
+                            <TrackKey ID="1" Time="0.1625" />
+                        </Track>
+                    </Animation>
+                    <Animation Name="NewMissionTrigger">
+                        <Track ID="65" Type="8">
+                            <TrackKey ID="0" Time="0.040625" Value="1" />
+                        </Track>
+                    </Animation>
+                </Animations>
+            </Element>
+            <Element Type="7" Name="GlowsBlue" ID="935" Anchor="0.039583, 0.184375" Dimension="0.100000, 0.100000" IsPassive="T" Filename="UI_Title_SkyGlow.fx">
+                <Animations>
+                    <Animation Name="OpenForm">
+                        <Track ID="64" Type="8">
+                            <TrackKey ID="0" Time="0.00625" Value="1" />
+                            <TrackKey ID="1" Time="0.85" />
+                        </Track>
+                    </Animation>
+                    <Animation Name="NewMissionTrigger">
+                        <Track ID="65" Type="8">
+                            <TrackKey ID="0" Time="0.040625" Value="1" />
+                        </Track>
+                    </Animation>
+                </Animations>
+            </Element>
+            <Element Type="7" Name="Glows" ID="936" Anchor="0.056538, 0.089994" Dimension="0.100000, 0.100000" IsPassive="T" RelativeScale="1.4" Filename="UI_Title_FlameSmall.fx">
+                <Animations>
+                    <Animation Name="OpenForm">
+                        <Track ID="64" Type="8">
+                            <TrackKey ID="0" Time="0.00625" Value="1" />
+                            <TrackKey ID="1" Time="0.321875" />
+                        </Track>
+                    </Animation>
+                    <Animation Name="NewMissionTrigger">
+                        <Track ID="65" Type="8">
+                            <TrackKey ID="0" Time="0.040625" Value="1" />
+                        </Track>
+                    </Animation>
+                </Animations>
+            </Element>
+            <Element Type="7" Name="Glows" ID="937" Anchor="0.068274, 0.070395" Dimension="0.100000, 0.100000" IsPassive="T" RelativeScale="1.4" Filename="UI_Title_FlameSmall.fx">
+                <Animations>
+                    <Animation Name="OpenForm">
+                        <Track ID="64" Type="8">
+                            <TrackKey ID="0" Time="0.00625" Value="1" />
+                            <TrackKey ID="1" Time="0.05" />
+                        </Track>
+                    </Animation>
+                    <Animation Name="NewMissionTrigger">
+                        <Track ID="65" Type="8">
+                            <TrackKey ID="0" Time="0.040625" Value="1" />
+                        </Track>
+                    </Animation>
+                </Animations>
+            </Element>
+            <Element Type="7" Name="Glows" ID="938" Anchor="0.075565, 0.056250" Dimension="0.100000, 0.100000" IsPassive="T" RelativeScale="1.4" Filename="UI_Title_FlameSmall.fx">
+                <Animations>
+                    <Animation Name="OpenForm">
+                        <Track ID="64" Type="8">
+                            <TrackKey ID="0" Time="0.00625" Value="1" />
+                            <TrackKey ID="1" Time="0.58125" />
+                        </Track>
+                    </Animation>
+                    <Animation Name="NewMissionTrigger">
+                        <Track ID="65" Type="8">
+                            <TrackKey ID="0" Time="0.040625" Value="1" />
+                        </Track>
+                    </Animation>
+                </Animations>
+            </Element>
+            <Element Type="7" Name="Glows" ID="939" Anchor="0.191955, 0.023355" Dimension="0.100000, 0.100000" IsPassive="T" RelativeScale="1.4" Filename="UI_Title_FlameSmall.fx">
+                <Animations>
+                    <Animation Name="OpenForm">
+                        <Track ID="64" Type="8">
+                            <TrackKey ID="0" Time="0.00625" Value="1" />
+                            <TrackKey ID="1" Time="0.521875" />
+                        </Track>
+                    </Animation>
+                    <Animation Name="NewMissionTrigger">
+                        <Track ID="65" Type="8">
+                            <TrackKey ID="0" Time="0.040625" Value="1" />
+                        </Track>
+                    </Animation>
+                </Animations>
+            </Element>
+            <Element Type="7" Name="Glows" ID="940" Anchor="0.187976, 0.048986" Dimension="0.100000, 0.100000" IsPassive="T" RelativeScale="1.4" Filename="UI_Title_FlameSmall.fx">
+                <Animations>
+                    <Animation Name="OpenForm">
+                        <Track ID="64" Type="8">
+                            <TrackKey ID="0" Time="0.00625" Value="1" />
+                            <TrackKey ID="1" Time="0.05" />
+                        </Track>
+                    </Animation>
+                    <Animation Name="NewMissionTrigger">
+                        <Track ID="65" Type="8">
+                            <TrackKey ID="0" Time="0.040625" Value="1" />
+                        </Track>
+                    </Animation>
+                </Animations>
+            </Element>
+            <Element Type="7" Name="Glows" ID="941" Anchor="-0.194038, -0.037500" Dimension="0.100000, 0.100000" IsPassive="T" RelativeScale="1.4" Filename="UI_Title_Flame.fx">
+                <Animations>
+                    <Animation Name="OpenForm">
+                        <Track ID="64" Type="8">
+                            <TrackKey ID="0" Time="0.00625" Value="1" />
+                            <TrackKey ID="1" Time="0.178125" />
+                        </Track>
+                    </Animation>
+                    <Animation Name="NewMissionTrigger">
+                        <Track ID="65" Type="8">
+                            <TrackKey ID="0" Time="0.040625" Value="1" />
+                        </Track>
+                    </Animation>
+                </Animations>
+            </Element>
+            <Element Type="7" Name="Glows" ID="942" Anchor="-0.287788, -0.029688" Dimension="0.100000, 0.100000" IsPassive="T" RelativeScale="1.4" Filename="UI_Title_Flame.fx">
+                <Animations>
+                    <Animation Name="OpenForm">
+                        <Track ID="64" Type="8">
+                            <TrackKey ID="0" Time="0.00625" Value="1" />
+                            <TrackKey ID="1" Time="0.384375" />
+                        </Track>
+                    </Animation>
+                    <Animation Name="NewMissionTrigger">
+                        <Track ID="65" Type="8">
+                            <TrackKey ID="0" Time="0.040625" Value="1" />
+                        </Track>
+                    </Animation>
+                </Animations>
+            </Element>
+            <Element Type="7" Name="Glows" ID="943" Anchor="-0.373581, -0.006249" Dimension="0.100000, 0.100000" IsPassive="T" RelativeScale="1.4" Filename="UI_Title_FlameSmall.fx">
+                <Animations>
+                    <Animation Name="OpenForm">
+                        <Track ID="64" Type="8">
+                            <TrackKey ID="0" Time="0.00625" Value="1" />
+                            <TrackKey ID="1" Time="0.15625" />
+                        </Track>
+                    </Animation>
+                    <Animation Name="NewMissionTrigger">
+                        <Track ID="65" Type="8">
+                            <TrackKey ID="0" Time="0.040625" Value="1" />
+                        </Track>
+                    </Animation>
+                </Animations>
+            </Element>
+        </Element>
+        <Element Type="2" Name="BoltedBar" ID="813" Anchor="0.500000, 0.021876" Dimension="1.112500, 0.050000" IsPassive="T" Tint="255, 255, 255, 0" MirrorMode="2" Margin="5">
+            <Element TextureFilename="Occlusion_Gradient.jpg" Type="2" Name="Shadow" ID="814" Anchor="0.000000, 0.021875" Dimension="1.035417, 0.033333" IsPassive="T" MirrorMode="2" BlendState="3" ResizeBias="2" />
+            <Element TextureFilename="BoltedBar.jpg" Type="2" Name="bar" ID="815" Anchor="-0.378125, 0.000000" Dimension="0.246875, 0.042188" IsPassive="T" MirrorMode="3" />
+            <Element TextureFilename="BoltedBar.jpg" Type="2" Name="bar" ID="816" Anchor="-0.134375, 0.000000" Dimension="0.246875, 0.042188" IsPassive="T" MirrorMode="3" />
+            <Element TextureFilename="BoltedBar.jpg" Type="2" Name="bar" ID="817" Anchor="0.109375, 0.000000" Dimension="0.246875, 0.042188" IsPassive="T" MirrorMode="3" />
+            <Element TextureFilename="BoltedBar.jpg" Type="2" Name="bar" ID="818" Anchor="0.348958, 0.000000" Dimension="0.246875, 0.042188" IsPassive="T" MirrorMode="3" />
+            <Element TextureFilename="BoltedBar.jpg" Type="2" Name="bar" ID="819" Anchor="0.591667, 0.000000" Dimension="0.246875, 0.042188" IsPassive="T" MirrorMode="3" />
+        </Element>
+        <Element Type="2" Name="BottomParent" ID="709" Anchor="0.500000, -0.109374" Dimension="1.000000, 0.218750" IsPassive="T" Tint="255, 255, 255, 0" ResizeBias="2" Margin="5">
+            <Animations>
+                <Animation Name="OpenForm">
+                    <Track ID="24" Type="1">
+                        <TrackKey ID="0" Time="0.253125" Value="0.500000, -0.109374" />
+                        <TrackKey ID="1" Time="0.459375" Value="0.500000, 0.117188" />
+                        <TrackKey ID="2" Time="0.50625" Value="0.500000, 0.110938" />
+                    </Track>
+                </Animation>
+                <Animation Name="NewMissionTrigger">
+                    <Track ID="51" Type="1">
+                        <TrackKey ID="0" Time="0.415625" Value="0.500000, 0.110938" />
+                        <TrackKey ID="1" Time="0.596875" Value="0.500000, -0.115625" />
+                    </Track>
+                </Animation>
+            </Animations>
+            <Element TextureFilename="MainMenu_LeftBG.png" Type="2" Name="LeftGroup" ID="714" Anchor="-0.437037, -0.003819" Dimension="0.657484, 0.211111" IsPassive="T" Margin="6">
+                <Animations>
+                    <Animation Name="OpenForm">
+                        <Track ID="26" Type="1">
+                            <TrackKey ID="0" Time="0.890625" Value="-0.437037, -0.003819" />
+                            <TrackKey ID="1" Time="1.10312" Value="-0.190741, -0.003819" />
+                            <TrackKey ID="2" Time="1.14688" Value="-0.200000, -0.003819" />
+                        </Track>
+                    </Animation>
+                    <Animation Name="NewMissionTrigger">
+                        <Track ID="49" Type="1">
+                            <TrackKey ID="0" Time="0" Value="-0.200000, -0.003819" />
+                            <TrackKey ID="1" Time="0.215625" Value="-0.397917, -0.003819" />
+                        </Track>
+                    </Animation>
+                </Animations>
+                <Element Type="2" Name="bolts and shit" ID="722" Anchor="-0.266667, 0.000000" Dimension="0.120371, 0.194444" IsPassive="T" Tint="255, 255, 255, 0">
+                    <Element TextureFilename="Vents01.jpg" Type="2" Name="Panel::723" ID="723" Anchor="0.011111, -0.012500" Dimension="0.051807, 0.168518" IsPassive="T">
+                        <Element Type="7" Name="ParticleSystem::764" ID="767" Anchor="0.000000, 0.063889" Dimension="0.088889, 0.088889" IsPassive="T" Filename="UI_Steam.fx">
+                            <Animations>
+                                <Animation Name="Steam">
+                                    <Track ID="22" Type="8">
+                                        <TrackKey ID="0" Time="0" />
+                                    </Track>
+                                </Animation>
+                            </Animations>
+                        </Element>
+                        <Element Type="7" Name="ParticleSystem::764" ID="768" Dimension="0.088889, 0.088889" IsPassive="T" Filename="UI_Steam.fx">
+                            <Animations>
+                                <Animation Name="Steam">
+                                    <Track ID="22" Type="8">
+                                        <TrackKey ID="0" Time="0" />
+                                    </Track>
+                                </Animation>
+                            </Animations>
+                        </Element>
+                        <Element Type="7" Name="ParticleSystem::764" ID="769" Anchor="-0.000000, -0.059723" Dimension="0.088889, 0.088889" IsPassive="T" Filename="UI_Steam.fx">
+                            <Animations>
+                                <Animation Name="Steam">
+                                    <Track ID="22" Type="8">
+                                        <TrackKey ID="0" Time="0" />
+                                    </Track>
+                                </Animation>
+                            </Animations>
+                        </Element>
+                    </Element>
+                    <Element TextureFilename="Bolt01.jpg" Type="2" Name="Panel::724" ID="724" Anchor="-0.024074, 0.061111" Dimension="0.014815, 0.022222" IsPassive="T" PixelFormat="2" />
+                    <Element TextureFilename="Bolt01.jpg" Type="2" Name="Panel::724" ID="725" Anchor="-0.024074, -0.081945" Dimension="0.014815, 0.022222" IsPassive="T" PixelFormat="2" />
+                    <Element TextureFilename="Bolt01.jpg" Type="2" Name="Panel::724" ID="761" Anchor="0.115740, 0.061111" Dimension="0.014815, 0.022222" IsPassive="T" PixelFormat="2" />
+                    <Element TextureFilename="Bolt01.jpg" Type="2" Name="Panel::724" ID="762" Anchor="0.116667, -0.019444" Dimension="0.014815, 0.022222" IsPassive="T" PixelFormat="2" />
+                </Element>
+                <Element TextureFilename="SlotClose.jpg" Type="2" Name="GamecenterButtonGroup" ID="715" Anchor="-0.194444, 0.020834" Dimension="0.079777, 0.109260" IsPassive="T" Tint="255, 255, 255, 0" Expansion="1.000000, 1.000000">
+                    <Element TextureFilename="Button02_Shadow.jpg" Type="2" Name="shadow" ID="747" Anchor="0.000000, -0.004166" Dimension="0.062500, 0.093750" IsPassive="T" BlendState="3" />
+                    <Element PressedTextureFilename="GamecenterOn.png" HighlightedTextureFilename="Gamecenter_Glow.jpg" TextureFilename="GamecenterOff.png" Type="3" Name="GamecenterButton" ID="716" Dimension="0.057292, 0.085938" Expansion="1.000000, 1.000000" HorizontalScale="1.34375" VerticalScale="1.38095">
+                        <SoundMapRoot>
+                            <SoundEvent EventTrigger="Touches Began (UI Only)" SoundEventFullPath="UI/Menu/Button_Press_Advance" />
+                        </SoundMapRoot>
+                    </Element>
+                    <Element Text="$(Score_Profile_Name)" TextScale="0.533333" Type="1" Name="GamecenterName" ID="758" Anchor="0.130556, -0.092883" Dimension="0.315668, 0.039840" IsPassive="T" Tint="230, 158, 2, 255" Alignment="0" Tracking="-14" Leading="37" TranslateOnce="T" Font="StencilWhite01.asc" />
+                </Element>
+                <Element TextureFilename="MainMenu_LeftShadow.jpg" Type="2" Name="shadow" ID="744" Anchor="-0.069444, -0.001389" Dimension="0.487963, 0.211111" IsPassive="T" BlendState="3" />
+                <Element Type="7" Name="ParticleSystem::770" ID="770" Anchor="-0.256482, 0.002778" Dimension="0.665394, 0.894907" IsPassive="T" Filename="UI_Steam.fx">
+                    <Animations>
+                        <Animation Name="OpenForm">
+                            <Track ID="30" Type="8">
+                                <TrackKey ID="0" Time="0.921875" />
+                            </Track>
+                        </Animation>
+                    </Animations>
+                </Element>
+                <Element Type="7" Name="ParticleSystem::770" ID="771" Anchor="-0.257407, -0.077256" Dimension="0.580197, 0.780324" IsPassive="T" Filename="UI_Steam.fx">
+                    <Animations>
+                        <Animation Name="OpenForm">
+                            <Track ID="30" Type="8">
+                                <TrackKey ID="0" Time="0" Value="1" />
+                                <TrackKey ID="1" Time="0.921875" />
+                            </Track>
+                        </Animation>
+                    </Animations>
+                </Element>
+            </Element>
+            <Element TextureFilename="MainMenu_RightBG.png" Type="2" Name="RightGroup" ID="730" Anchor="0.460187, -0.005208" Dimension="0.595371, 0.214352" IsPassive="T" Margin="4">
+                <Animations>
+                    <Animation Name="OpenForm">
+                        <Track ID="25" Type="1">
+                            <TrackKey ID="0" Time="0.90625" Value="0.460187, -0.005208" />
+                            <TrackKey ID="1" Time="1.09375" Value="0.215742, -0.005208" />
+                            <TrackKey ID="2" Time="1.15" Value="0.225002, -0.005208" />
+                        </Track>
+                    </Animation>
+                    <Animation Name="NewMissionTrigger">
+                        <Track ID="50" Type="1">
+                            <TrackKey ID="0" Time="0" Value="0.225002, -0.005208" />
+                            <TrackKey ID="1" Time="0.23125" Value="0.460419, -0.005208" />
+                        </Track>
+                    </Animation>
+                </Animations>
+                <Element Type="2" Name="bolts and shit" ID="735" Anchor="0.237963, -0.002778" Dimension="0.120371, 0.194444" IsPassive="T" Tint="255, 255, 255, 0">
+                    <Element TextureFilename="Vents01.jpg" Type="2" Name="Panel::723" ID="736" Anchor="-0.011111, -0.012500" Dimension="0.051852, 0.169908" IsPassive="T">
+                        <Element Type="7" Name="ParticleSystem::764" ID="764" Anchor="-0.000926, 0.056944" Dimension="0.088889, 0.088889" IsPassive="T" Filename="UI_Steam.fx">
+                            <Animations>
+                                <Animation Name="Steam">
+                                    <Track ID="22" Type="8">
+                                        <TrackKey ID="0" Time="0" />
+                                    </Track>
+                                </Animation>
+                            </Animations>
+                        </Element>
+                        <Element Type="7" Name="ParticleSystem::764" ID="765" Anchor="-0.000000, -0.061111" Dimension="0.088889, 0.088889" IsPassive="T" Filename="UI_Steam.fx">
+                            <Animations>
+                                <Animation Name="Steam">
+                                    <Track ID="22" Type="8">
+                                        <TrackKey ID="0" Time="0" />
+                                    </Track>
+                                </Animation>
+                            </Animations>
+                        </Element>
+                        <Element Type="7" Name="ParticleSystem::764" ID="766" Anchor="0.000000, 0.012500" Dimension="0.088889, 0.088889" IsPassive="T" Filename="UI_Steam.fx">
+                            <Animations>
+                                <Animation Name="Steam">
+                                    <Track ID="22" Type="8">
+                                        <TrackKey ID="0" Time="0" />
+                                    </Track>
+                                </Animation>
+                            </Animations>
+                        </Element>
+                    </Element>
+                    <Element TextureFilename="Bolt01.jpg" Type="2" Name="Panel::724" ID="737" Anchor="0.024074, 0.062500" Dimension="0.014815, 0.022222" IsPassive="T" PixelFormat="2" />
+                    <Element TextureFilename="Bolt01.jpg" Type="2" Name="Panel::724" ID="738" Anchor="0.024074, -0.083333" Dimension="0.014815, 0.022222" IsPassive="T" PixelFormat="2" />
+                    <Element TextureFilename="Bolt01.jpg" Type="2" Name="Panel::724" ID="739" Anchor="-0.116667, 0.066666" Dimension="0.014815, 0.022222" IsPassive="T" PixelFormat="2" />
+                    <Element TextureFilename="Bolt01.jpg" Type="2" Name="Panel::724" ID="740" Anchor="-0.207407, -0.051389" Dimension="0.014815, 0.022222" IsPassive="T" PixelFormat="2" />
+                </Element>
+                <Element TextureFilename="SlotClose.jpg" Type="2" Name="SocialButtonGroup" ID="731" Anchor="0.093518, -0.051389" Dimension="0.068625, 0.100926" IsPassive="T">
+                    <Element TextureFilename="Button02_Shadow.jpg" Type="2" Name="Panel::763" ID="763" Anchor="0.000000, -0.002778" Dimension="0.062660, 0.094444" IsPassive="T" BlendState="3" />
+                    <Element PressedTextureFilename="Button14_Pressed.png" HighlightedTextureFilename="Button14_Glow.jpg" TextureFilename="Button14.jpg" Type="3" Name="SocialButton" ID="732" Dimension="0.057737, 0.085185" Expansion="0.333000, 0.179000" HorizontalScale="1.39344" VerticalScale="1.36667">
+                        <Animations>
+                            <Animation Name="SocialButtonTrigger">
+                                <Track ID="19" Type="9">
+                                    <TrackKey ID="0" Time="0" Value="pushform Social.form" />
+                                </Track>
+                            </Animation>
+                        </Animations>
+                        <SoundMapRoot>
+                            <SoundEvent EventTrigger="Touches Began (UI Only)" SoundEventFullPath="UI/Menu/Button_Press_Down" />
+                        </SoundMapRoot>
+                    </Element>
+                </Element>
+                <Element TextureFilename="SlotCircle.png" Type="2" Name="SettingsButtonGroup" ID="733" Anchor="0.165741, 0.019444" Dimension="0.064815, 0.097222" IsPassive="T">
+                    <Element TextureFilename="Button13_Shadow.jpg" Type="2" Name="Panel::745" ID="746" Anchor="0.000000, -0.005556" Dimension="0.058487, 0.087731" IsPassive="T" BlendState="3" />
+                    <Element PressedTextureFilename="Button13_Pressed.png" HighlightedTextureFilename="Button13_Glow.jpg" TextureFilename="Button13.png" Type="3" Name="SettingsButton" ID="734" Dimension="0.052315, 0.078472" Expansion="0.179000, 0.231000" HorizontalScale="1.35938" VerticalScale="1.375">
+                        <Animations>
+                            <Animation Name="OptionsTrigger">
+                                <Track ID="16" Type="9">
+                                    <TrackKey ID="0" Time="0" Value="pushform Options.form" />
+                                </Track>
+                            </Animation>
+                        </Animations>
+                        <SoundMapRoot>
+                            <SoundEvent EventTrigger="Touches Began (UI Only)" SoundEventFullPath="UI/Menu/Button_Press_Down" />
+                        </SoundMapRoot>
+                    </Element>
+                </Element>
+                <Element TextureFilename="MainMenu_RightShadow.jpg" Type="2" Name="shadow" ID="743" Dimension="0.595371, 0.212500" IsPassive="T" BlendState="3" />
+                <Element Type="7" Name="ParticleSystem::770" ID="772" Anchor="0.227778, 0.001388" Dimension="0.597236, 0.803240" IsPassive="T" Filename="UI_Steam.fx">
+                    <Animations>
+                        <Animation Name="OpenForm">
+                            <Track ID="30" Type="8">
+                                <TrackKey ID="0" Time="0.921875" />
+                            </Track>
+                        </Animation>
+                    </Animations>
+                </Element>
+                <Element Type="7" Name="ParticleSystem::770" ID="773" Anchor="0.228704, -0.070833" Dimension="0.584844, 0.786573" IsPassive="T" Filename="UI_Steam.fx">
+                    <Animations>
+                        <Animation Name="OpenForm">
+                            <Track ID="30" Type="8">
+                                <TrackKey ID="0" Time="0" Value="1" />
+                                <TrackKey ID="1" Time="0.921875" />
+                            </Track>
+                        </Animation>
+                    </Animations>
+                </Element>
+            </Element>
+            <Element TextureFilename="Trans.png" Type="2" Name="PlayButtonGroup" ID="710" Anchor="0.000000, -0.030208" Dimension="0.349075, 0.168056" IsPassive="T" Margin="5">
+                <Animations>
+                    <Animation Name="OpenForm">
+                        <Track ID="27" Type="1">
+                            <TrackKey ID="0" Time="1.10312" Value="0.000000, -0.030208" />
+                            <TrackKey ID="1" Time="1.15313" Value="0.000000, -0.027430" />
+                            <TrackKey ID="2" Time="1.19687" Value="0.000000, -0.030208" />
+                        </Track>
+                    </Animation>
+                </Animations>
+                <Element Type="2" Name="Joints" ID="718" Dimension="0.314815, 0.198148" IsPassive="T" Tint="255, 255, 255, 0" MirrorMode="1">
+                    <Element TextureFilename="Joint01B.jpg" Type="2" Name="Panel::719" ID="719" Anchor="0.170254, 0.049305" Dimension="0.022917, 0.082813" Rotation="0.519145" IsPassive="T" />
+                    <Element TextureFilename="Joint01B.jpg" Type="2" Name="Panel::719" ID="720" Anchor="-0.168403, 0.052430" Dimension="0.022917, 0.082813" Rotation="2.62714" IsPassive="T" />
+                    <Element TextureFilename="Joint01B.jpg" Type="2" Name="Panel::727" ID="727" Anchor="0.162847, -0.045833" Dimension="0.022917, 0.053646" IsPassive="T" />
+                    <Element TextureFilename="Joint01B.jpg" Type="2" Name="Panel::727" ID="728" Anchor="-0.161805, -0.045833" Dimension="0.022917, 0.059896" IsPassive="T" MirrorMode="1" />
+                </Element>
+                <Element TextureFilename="MainMenu_PlayShadow.jpg" Type="2" Name="shadow" ID="742" Anchor="-0.002083, 0.000000" Dimension="0.408333, 0.184375" IsPassive="T" BlendState="3" />
+                <Element TextureFilename="MainMenu_PlayShadow02.jpg" Type="2" Name="Shadow2" ID="759" Dimension="0.342593, 0.181945" IsPassive="T" BlendState="3" />
+                <Element TextureFilename="MainMenu_PlayBG.png" Type="2" Name="bg" ID="717" Dimension="0.389583, 0.193750" IsPassive="T">
+                    <Element Type="7" Name="PanelSteamOpen" ID="822" Anchor="0.195833, 0.067187" Dimension="0.383333, 0.383333" IsPassive="T" Filename="UI_Panel_Hit.fx">
+                        <Animations>
+                            <Animation Name="OpenForm">
+                                <Track ID="59" Type="8">
+                                    <TrackKey ID="0" Time="0.303125" Value="1" />
+                                    <TrackKey ID="1" Time="0.4" />
+                                </Track>
+                            </Animation>
+                            <Animation Name="NewMissionTrigger">
+                                <Track ID="61" Type="8">
+                                    <TrackKey ID="0" Time="0" Value="1" />
+                                </Track>
+                            </Animation>
+                        </Animations>
+                    </Element>
+                    <Element Type="7" Name="PanelSteamOpen" ID="823" Anchor="-0.191667, 0.049999" Dimension="0.385417, 0.385416" Rotation="0.499339" IsPassive="T" MirrorMode="1" Filename="UI_Panel_Hit.fx">
+                        <Animations>
+                            <Animation Name="OpenForm">
+                                <Track ID="59" Type="8">
+                                    <TrackKey ID="0" Time="0.29375" Value="1" />
+                                    <TrackKey ID="1" Time="0.4" />
+                                </Track>
+                            </Animation>
+                            <Animation Name="NewMissionTrigger">
+                                <Track ID="62" Type="8">
+                                    <TrackKey ID="0" Time="0" Value="1" />
+                                </Track>
+                            </Animation>
+                        </Animations>
+                    </Element>
+                </Element>
+                <Element TextureFilename="Button07Shaddow.jpg" Type="2" Name="shadow" ID="774" Anchor="-0.001042, -0.007812" Dimension="0.295453, 0.129629" IsPassive="T" BlendState="3" />
+                <Element PressedTextureFilename="Button12_Pressed.png" HighlightedTextureFilename="Button12_Glow.jpg" TextureFilename="Button12.png" Type="3" Name="PlayButton" ID="711" Anchor="0.000000, -0.008333" Dimension="0.274647, 0.116204" Expansion="0.103000, 0.179000" HorizontalScale="1.09402" VerticalScale="1.45833">
+                    <Animations>
+                        <Animation Name="NewMissionTrigger">
+                            <Track ID="17" Type="9">
+                                <TrackKey ID="0" Time="1.2375" Value="pushform WorldMap.form" />
+                            </Track>
+                        </Animation>
+                        <Animation Name="NewTutorialTrigger">
+                            <Track ID="37" Type="9">
+                                <TrackKey ID="0" Time="0" Value="saveprofile | removeInactiveForms | setForm Loading.form  HUD.form  preloadForms ingame  loadMap City_Map0.map  postload startGame" />
+                            </Track>
+                        </Animation>
+                        <Animation Name="NewMissionConfirmationTrigger">
+                            <Track ID="18" Type="9">
+                                <TrackKey ID="0" Time="0" Value="pushform NotificationBox.form ResumeConfirm" />
+                            </Track>
+                        </Animation>
+                    </Animations>
+                    <SoundMapRoot>
+                        <SoundEvent EventTrigger="Touches Began (UI Only)" SoundEventFullPath="UI/Menu/Button_Press_Down" />
+                        <SoundEvent EventTrigger="Touches Ended (UI Only)" SoundEventFullPath="UI/Menu/Button_Press_Advance" />
+                    </SoundMapRoot>
+                    <Element Text="$(PlayText)" Type="1" Name="ButtonLabel" ID="713" Dimension="0.230680, 0.072015" IsPassive="T" Tracking="-2" Leading="43" TranslateOnce="T" Font="StencilYellow10.asc" />
+                </Element>
+            </Element>
+        </Element>
+        <Element Type="2" Name="FootGroup" ID="753" Anchor="0.500000, 0.500000" Dimension="1.000000, 1.000000" IsPassive="T" Tint="255, 255, 255, 0" ResizeBias="0">
+            <Element TextureFilename="FootShadow.png" Type="2" Name="foot shadow" ID="754" Anchor="0.053905, -0.706249" Dimension="0.161300, 0.190105" IsPassive="T" Tint="255, 255, 255, 0" ResizeBias="0" PixelFormat="2">
+                <Animations>
+                    <Animation Name="OpenForm">
+                        <Track ID="44" Type="1">
+                            <TrackKey ID="0" Time="0.21875" Value="0.053905, -0.706249" />
+                            <TrackKey ID="1" Time="0.45" Value="0.053905, -0.362500" />
+                        </Track>
+                        <Track ID="60" Type="5">
+                            <TrackKey ID="0" Time="0.4125" />
+                            <TrackKey ID="1" Time="0.45625" Value="255" />
+                        </Track>
+                    </Animation>
+                    <Animation Name="NewMissionTrigger">
+                        <Track ID="52" Type="1">
+                            <TrackKey ID="0" Time="0.409375" Value="0.053905, -0.370312" />
+                            <TrackKey ID="1" Time="0.5875" Value="0.053905, -0.614062" />
+                        </Track>
+                        <Track ID="66" Type="5">
+                            <TrackKey ID="0" Time="0.415625" Value="255" />
+                            <TrackKey ID="1" Time="0.446875" />
+                        </Track>
+                    </Animation>
+                </Animations>
+            </Element>
+            <Element TextureFilename="FootOverlay.png" Type="2" Name="foot" ID="755" Anchor="0.063021, -0.290430" Dimension="0.138542, 0.231250" IsPassive="T" ResizeBias="0" PixelFormat="2">
+                <Animations>
+                    <Animation Name="OpenForm">
+                        <Track ID="35" Type="5">
+                            <TrackKey ID="0" Time="0" Value="255" />
+                        </Track>
+                    </Animation>
+                </Animations>
+            </Element>
+        </Element>
+        <Element Type="2" Name="TopParent" ID="775" Anchor="0.500000, 0.823438" Dimension="1.008333, 0.354167" IsPassive="T" Tint="255, 255, 255, 0" ResizeBias="2" Margin="1">
+            <Animations>
+                <Animation Name="OpenForm">
+                    <Track ID="43" Type="1">
+                        <TrackKey ID="0" Time="0.45" Value="0.500000, 0.823438" />
+                        <TrackKey ID="1" Time="0.5" Value="0.500000, 0.818751" />
+                        <TrackKey ID="2" Time="0.546875" Value="0.500000, 0.823438" />
+                        <TrackKey ID="3" Time="1.10312" Value="0.500000, 0.823438" />
+                        <TrackKey ID="4" Time="1.15313" Value="0.500000, 0.818751" />
+                        <TrackKey ID="5" Time="1.20938" Value="0.500000, 0.823438" />
+                    </Track>
+                </Animation>
+            </Animations>
+            <Element Type="2" Name="BoltedBar" ID="779" Anchor="0.000000, 0.157812" Dimension="1.112500, 0.050000" IsPassive="T" Tint="255, 255, 255, 0" ResizeBias="2">
+                <Element TextureFilename="Occlusion_Gradient.jpg" Type="2" Name="Shadow" ID="812" Anchor="0.000000, -0.018750" Dimension="1.035417, 0.033333" IsPassive="T" BlendState="3" ResizeBias="2" />
+                <Element TextureFilename="BoltedBar.jpg" Type="2" Name="bar" ID="780" Anchor="-0.378125, 0.000000" Dimension="0.246875, 0.042188" IsPassive="T" MirrorMode="1" ResizeBias="2" />
+                <Element TextureFilename="BoltedBar.jpg" Type="2" Name="bar" ID="796" Anchor="-0.134375, 0.000000" Dimension="0.246875, 0.042188" IsPassive="T" MirrorMode="1" ResizeBias="2" />
+                <Element TextureFilename="BoltedBar.jpg" Type="2" Name="bar" ID="797" Anchor="0.109375, 0.000000" Dimension="0.246875, 0.042188" IsPassive="T" MirrorMode="1" ResizeBias="2" />
+                <Element TextureFilename="BoltedBar.jpg" Type="2" Name="bar" ID="798" Anchor="0.348958, 0.000000" Dimension="0.246875, 0.042188" IsPassive="T" MirrorMode="1" ResizeBias="2" />
+                <Element TextureFilename="BoltedBar.jpg" Type="2" Name="bar" ID="799" Anchor="0.591667, 0.000000" Dimension="0.246875, 0.042188" IsPassive="T" MirrorMode="1" ResizeBias="2" />
+            </Element>
+            <Element TextureFilename="FieldrunnersTitle02.jpg" Type="2" Name="FIeldrunners2Group" ID="776" Anchor="0.000000, 0.335938" Dimension="0.173958, 0.170312" IsPassive="T" Tint="255, 255, 255, 0" ResizeBias="0">
+                <Animations>
+                    <Animation Name="OpenForm">
+                        <Track ID="39" Type="1">
+                            <TrackKey ID="0" Time="0" Value="0.000000, 0.335938" />
+                            <TrackKey ID="1" Time="0.8875" Value="0.000000, 0.148438" />
+                            <TrackKey ID="2" Time="1.15937" Value="0.000000, -0.039743" />
+                            <TrackKey ID="3" Time="1.2" Value="0.000000, -0.030368" />
+                        </Track>
+                    </Animation>
+                    <Animation Name="NewMissionTrigger">
+                        <Track ID="47" Type="1">
+                            <TrackKey ID="0" Time="0" Value="0.000000, -0.030368" />
+                            <TrackKey ID="1" Time="0.13125" Value="0.000000, 0.157132" />
+                            <TrackKey ID="2" Time="0.30625" Value="0.000000, 0.157132" />
+                            <TrackKey ID="3" Time="0.3875" Value="0.000000, 0.313382" />
+                        </Track>
+                    </Animation>
+                </Animations>
+                <Element TextureFilename="FieldrunnersTitle02_Shadow.png" Type="2" Name="Shadow" ID="789" Anchor="0.000000, -0.009375" Dimension="0.181122, 0.193229" IsPassive="T" BlendState="3" ResizeBias="0" />
+                <Element TextureFilename="FieldrunnersTitle02.png" Type="2" Name="Title2BG" ID="804" Dimension="0.173958, 0.170312" IsPassive="T" ResizeBias="0" />
+                <Element TextureFilename="Fieldrunners2OutterGlow.jpg" Type="2" Name="2GlowOutter" ID="805" Anchor="0.001042, 0.009375" Dimension="0.162500, 0.260938" IsPassive="T" Tint="255, 255, 255, 0" BlendState="5" ResizeBias="0" SetChildrenAlpha="T">
+                    <Animations>
+                        <Animation Name="OpenForm">
+                            <Track ID="42" Type="5">
+                                <TrackKey ID="0" Time="0" />
+                                <TrackKey ID="1" Time="1.59687" />
+                                <TrackKey ID="2" Time="1.66562" Value="120" />
+                                <TrackKey ID="3" Time="1.69375" />
+                                <TrackKey ID="4" Time="1.83125" Value="195" />
+                                <TrackKey ID="5" Time="1.90937" />
+                                <TrackKey ID="6" Time="2.0125" Value="255" />
+                            </Track>
+                        </Animation>
+                    </Animations>
+                    <Element TextureFilename="Fieldrunners2Glow.png" Type="2" Name="2GlowMask" ID="808" Dimension="0.075000, 0.125000" IsPassive="T" Tint="255, 255, 255, 0" ResizeBias="0" PixelFormat="2">
+                        <Animations>
+                            <Animation Name="OpenForm">
+                                <Track ID="41" Type="5">
+                                    <TrackKey ID="0" Time="0" />
+                                    <TrackKey ID="1" Time="1.23438" />
+                                    <TrackKey ID="2" Time="1.29688" Value="134" />
+                                    <TrackKey ID="3" Time="1.35625" />
+                                    <TrackKey ID="4" Time="1.39063" />
+                                    <TrackKey ID="5" Time="1.56875" Value="154" />
+                                    <TrackKey ID="6" Time="1.65" />
+                                    <TrackKey ID="7" Time="1.79688" Value="255" />
+                                </Track>
+                            </Animation>
+                        </Animations>
+                    </Element>
+                </Element>
+                <Element Type="7" Name="2GlowParticle" ID="807" Dimension="1.147917, 1.147917" IsPassive="T" ResizeBias="0" Filename="UI_MainMenu2Glow.fx">
+                    <Animations>
+                        <Animation Name="OpenForm">
+                            <Track ID="38" Type="8">
+                                <TrackKey ID="0" Time="0.040625" Value="1" />
+                                <TrackKey ID="1" Time="1.9625" />
+                            </Track>
+                        </Animation>
+                    </Animations>
+                </Element>
+                <Element Type="7" Name="SparkParticle" ID="852" Anchor="0.022173, -0.031691" Dimension="0.410417, 0.410417" IsPassive="T" ResizeBias="0" Filename="UI_Spark.fx">
+                    <Animations>
+                        <Animation Name="OpenForm">
+                            <Track ID="38" Type="8">
+                                <TrackKey ID="0" Time="0.040625" Value="1" />
+                                <TrackKey ID="1" Time="1.8125" />
+                            </Track>
+                        </Animation>
+                    </Animations>
+                </Element>
+                <Element Type="7" Name="SparkParticle" ID="853" Anchor="0.000893, -0.032133" Dimension="0.397917, 0.397917" IsPassive="T" ResizeBias="0" Filename="UI_Spark.fx">
+                    <Animations>
+                        <Animation Name="OpenForm">
+                            <Track ID="38" Type="8">
+                                <TrackKey ID="0" Time="0.040625" Value="1" />
+                                <TrackKey ID="1" Time="1.84375" />
+                            </Track>
+                        </Animation>
+                    </Animations>
+                </Element>
+                <Element Type="7" Name="SparkParticle" ID="854" Anchor="-0.019345, -0.028770" Dimension="0.206250, 0.206250" IsPassive="T" ResizeBias="0" Filename="UI_Spark.fx">
+                    <Animations>
+                        <Animation Name="OpenForm">
+                            <Track ID="38" Type="8">
+                                <TrackKey ID="0" Time="0.040625" Value="1" />
+                                <TrackKey ID="1" Time="1.89063" />
+                            </Track>
+                        </Animation>
+                    </Animations>
+                </Element>
+            </Element>
+            <Element Type="2" Name="FIeldrunenrsTitleGroup" ID="777" Anchor="0.000000, 0.404688" Dimension="0.733333, 0.222917" IsPassive="T" Tint="255, 255, 255, 0" ResizeBias="0">
+                <Animations>
+                    <Animation Name="OpenForm">
+                        <Track ID="40" Type="1">
+                            <TrackKey ID="0" Time="0" Value="0.000000, 0.404688" />
+                            <TrackKey ID="1" Time="0.31875" Value="0.000000, 0.217188" />
+                            <TrackKey ID="2" Time="0.48125" Value="0.000000, 0.107813" />
+                            <TrackKey ID="3" Time="0.51875" Value="0.000000, 0.115625" />
+                        </Track>
+                    </Animation>
+                    <Animation Name="NewMissionTrigger">
+                        <Track ID="48" Type="1">
+                            <TrackKey ID="0" Time="0" Value="0.000000, 0.117188" />
+                            <TrackKey ID="1" Time="0.1" Value="0.000000, 0.116182" />
+                            <TrackKey ID="2" Time="0.125" Value="0.000000, 0.121875" />
+                            <TrackKey ID="3" Time="0.14375" Value="0.000000, 0.116273" />
+                            <TrackKey ID="4" Time="0.4125" Value="0.000000, 0.115625" />
+                            <TrackKey ID="5" Time="0.5875" Value="0.000000, 0.287500" />
+                        </Track>
+                    </Animation>
+                </Animations>
+                <Element TextureFilename="FieldrunnersTitle_Shadow.png" Type="2" Name="Shadow" ID="790" Anchor="0.000000, -0.009374" Dimension="0.624660, 0.159375" IsPassive="T" BlendState="3" ResizeBias="0" />
+                <Element TextureFilename="Joint01B.jpg" Type="2" Name="Bolt" ID="801" Anchor="0.283334, -0.023437" Dimension="0.020034, 0.072396" Rotation="-0.55165" IsPassive="T" ResizeBias="0" />
+                <Element TextureFilename="Joint01B.jpg" Type="2" Name="Bolt" ID="802" Anchor="-0.283333, -0.023438" Dimension="0.020034, 0.072396" Rotation="-2.60119" IsPassive="T" MirrorMode="2" ResizeBias="0" />
+                <Element TextureFilename="FieldrunnersTitle.jpg" Type="2" Name="TitlePanel" ID="800" Dimension="0.603110, 0.122396" IsPassive="T" ResizeBias="0">
+                    <Element Type="7" Name="PanelSteamOpen" ID="848" Anchor="0.309852, -0.040159" Dimension="0.708333, 0.708333" Rotation="-2.03495" IsPassive="T" ResizeBias="0" Filename="UI_Panel_Hit.fx">
+                        <Animations>
+                            <Animation Name="OpenForm">
+                                <Track ID="59" Type="8">
+                                    <TrackKey ID="0" Time="0.303125" Value="1" />
+                                    <TrackKey ID="1" Time="0.4" />
+                                </Track>
+                            </Animation>
+                            <Animation Name="NewMissionTrigger">
+                                <Track ID="61" Type="8">
+                                    <TrackKey ID="0" Time="0.00625" Value="1" />
+                                </Track>
+                            </Animation>
+                        </Animations>
+                    </Element>
+                    <Element Type="7" Name="PanelSteamOpen" ID="849" Anchor="-0.309663, -0.041722" Dimension="0.852083, 0.852083" Rotation="2.19515" IsPassive="T" ResizeBias="0" Filename="UI_Panel_Hit.fx">
+                        <Animations>
+                            <Animation Name="OpenForm">
+                                <Track ID="59" Type="8">
+                                    <TrackKey ID="0" Time="0.303125" Value="1" />
+                                    <TrackKey ID="1" Time="0.4" />
+                                </Track>
+                            </Animation>
+                            <Animation Name="NewMissionTrigger">
+                                <Track ID="61" Type="8">
+                                    <TrackKey ID="0" Time="0" Value="1" />
+                                </Track>
+                            </Animation>
+                        </Animations>
+                    </Element>
+                </Element>
+            </Element>
+            <Element TextureFilename="Trans.png" Type="3" Name="CreditsButton" ID="944" Anchor="0.000000, 0.337500" Dimension="0.222917, 0.264583">
+                <Animations>
+                    <Animation Name="CreditsTrigger">
+                        <Track ID="70" Type="9">
+                            <TrackKey ID="0" Time="0" Value="pushform Credits.form" />
+                        </Track>
+                    </Animation>
+                    <Animation Name="OpenForm">
+                        <Track ID="69" Type="1">
+                            <TrackKey ID="0" Time="0.2875" Value="0.000000, 0.337500" />
+                            <TrackKey ID="1" Time="0.85625" Value="0.000000, 0.025000" />
+                        </Track>
+                    </Animation>
+                </Animations>
+            </Element>
+        </Element>
+    </FormRoot>
+    <AnimationTriggers>
+        <AnimationTrigger Event="Touch Clicked (UI Only)" Data="734" Animation="OptionsTrigger" />
+        <AnimationTrigger Event="Touch Clicked (UI Only)" Data="732" Animation="SocialButtonTrigger" />
+        <AnimationTrigger Event="Form Opened (UI Only)" Data="1073741824" Animation="OpenForm" />
+        <AnimationTrigger Event="Touch Clicked (UI Only)" Data="944" Animation="CreditsTrigger" />
+    </AnimationTriggers>
+</Form>

@@ -1,0 +1,133 @@
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<data>
+	<!--
+	ability 兵种战斗力
+		level 等级
+		atk 攻击力
+		soldier 人数
+		exp 经验
+	-->
+	<ability level="1" atk="23" hp="96" exp="0" soldier="200"/>
+	<ability level="2" atk="25" hp="108" exp="0" soldier="230"/>
+	<ability level="3" atk="28" hp="119" exp="0" soldier="260"/>
+	<ability level="4" atk="31" hp="130" exp="0" soldier="290"/>
+	<ability level="5" atk="33" hp="142" exp="0" soldier="320"/>
+	<ability level="6" atk="36" hp="153" exp="0" soldier="350"/>
+	<ability level="7" atk="39" hp="164" exp="0" soldier="380"/>
+	<ability level="8" atk="41" hp="175" exp="0" soldier="410"/>
+	<ability level="9" atk="44" hp="186" exp="0" soldier="440"/>
+	<ability level="10" atk="46" hp="197" exp="0" soldier="470"/>
+	<ability level="11" atk="49" hp="208" exp="0" soldier="500"/>
+	<ability level="12" atk="51" hp="218" exp="0" soldier="530"/>
+	<ability level="13" atk="54" hp="229" exp="0" soldier="560"/>
+	<ability level="14" atk="56" hp="240" exp="0" soldier="590"/>
+	<ability level="15" atk="59" hp="250" exp="0" soldier="620"/>
+	<ability level="16" atk="61" hp="261" exp="0" soldier="650"/>
+	<ability level="17" atk="64" hp="271" exp="0" soldier="680"/>
+	<ability level="18" atk="66" hp="282" exp="0" soldier="710"/>
+	<ability level="19" atk="69" hp="292" exp="0" soldier="740"/>
+	<ability level="20" atk="71" hp="303" exp="0" soldier="770"/>
+	<ability level="21" atk="74" hp="313" exp="0" soldier="800"/>
+	<ability level="22" atk="76" hp="323" exp="0" soldier="830"/>
+	<ability level="23" atk="78" hp="333" exp="0" soldier="860"/>
+	<ability level="24" atk="81" hp="343" exp="0" soldier="890"/>
+	<ability level="25" atk="83" hp="353" exp="0" soldier="920"/>
+	<ability level="26" atk="85" hp="363" exp="0" soldier="950"/>
+	<ability level="27" atk="88" hp="373" exp="0" soldier="980"/>
+	<ability level="28" atk="90" hp="383" exp="0" soldier="1010"/>
+	<ability level="29" atk="92" hp="393" exp="0" soldier="1040"/>
+	<ability level="30" atk="95" hp="402" exp="0" soldier="1070"/>
+	<ability level="31" atk="97" hp="412" exp="0" soldier="1100"/>
+	<ability level="32" atk="99" hp="422" exp="0" soldier="1130"/>
+	<ability level="33" atk="101" hp="431" exp="0" soldier="1160"/>
+	<ability level="34" atk="104" hp="441" exp="0" soldier="1190"/>
+	<ability level="35" atk="106" hp="450" exp="0" soldier="1220"/>
+	<ability level="36" atk="108" hp="460" exp="0" soldier="1250"/>
+	<ability level="37" atk="110" hp="469" exp="0" soldier="1280"/>
+	<ability level="38" atk="112" hp="478" exp="0" soldier="1310"/>
+	<ability level="39" atk="115" hp="487" exp="0" soldier="1340"/>
+	<ability level="40" atk="117" hp="496" exp="0" soldier="1370"/>
+	<ability level="41" atk="119" hp="505" exp="0" soldier="1400"/>
+	<ability level="42" atk="121" hp="514" exp="0" soldier="1430"/>
+	<ability level="43" atk="123" hp="523" exp="0" soldier="1460"/>
+	<ability level="44" atk="125" hp="532" exp="0" soldier="1490"/>
+	<ability level="45" atk="127" hp="541" exp="0" soldier="1520"/>
+	<ability level="46" atk="129" hp="550" exp="0" soldier="1550"/>
+	<ability level="47" atk="131" hp="559" exp="0" soldier="1580"/>
+	<ability level="48" atk="133" hp="567" exp="0" soldier="1610"/>
+	<ability level="49" atk="135" hp="576" exp="0" soldier="1640"/>
+	<ability level="50" atk="138" hp="584" exp="0" soldier="1670"/>
+	<ability level="51" atk="139" hp="593" exp="0" soldier="1700"/>
+	<ability level="52" atk="141" hp="601" exp="0" soldier="1730"/>
+	<ability level="53" atk="143" hp="610" exp="0" soldier="1760"/>
+	<ability level="54" atk="145" hp="618" exp="0" soldier="1790"/>
+	<ability level="55" atk="147" hp="626" exp="0" soldier="1820"/>
+	<ability level="56" atk="149" hp="634" exp="0" soldier="1850"/>
+	<ability level="57" atk="151" hp="642" exp="0" soldier="1880"/>
+	<ability level="58" atk="153" hp="650" exp="0" soldier="1910"/>
+	<ability level="59" atk="155" hp="658" exp="0" soldier="1940"/>
+	<ability level="60" atk="157" hp="666" exp="0" soldier="1970"/>
+	<ability level="61" atk="159" hp="674" exp="0" soldier="2000"/>
+	<ability level="62" atk="160" hp="682" exp="0" soldier="2030"/>
+	<ability level="63" atk="162" hp="690" exp="0" soldier="2060"/>
+	<ability level="64" atk="164" hp="698" exp="0" soldier="2090"/>
+	<ability level="65" atk="166" hp="705" exp="0" soldier="2120"/>
+	<ability level="66" atk="168" hp="713" exp="0" soldier="2150"/>
+	<ability level="67" atk="169" hp="720" exp="0" soldier="2180"/>
+	<ability level="68" atk="171" hp="728" exp="0" soldier="2210"/>
+	<ability level="69" atk="173" hp="735" exp="0" soldier="2240"/>
+	<ability level="70" atk="175" hp="742" exp="0" soldier="2270"/>
+	<ability level="71" atk="176" hp="750" exp="0" soldier="2300"/>
+	<ability level="72" atk="178" hp="757" exp="0" soldier="2330"/>
+	<ability level="73" atk="180" hp="764" exp="0" soldier="2360"/>
+	<ability level="74" atk="181" hp="771" exp="0" soldier="2390"/>
+	<ability level="75" atk="183" hp="778" exp="0" soldier="2420"/>
+	<ability level="76" atk="185" hp="785" exp="0" soldier="2450"/>
+	<ability level="77" atk="186" hp="792" exp="0" soldier="2480"/>
+	<ability level="78" atk="188" hp="799" exp="0" soldier="2510"/>
+	<ability level="79" atk="190" hp="806" exp="0" soldier="2540"/>
+	<ability level="80" atk="191" hp="813" exp="0" soldier="2570"/>
+	<ability level="81" atk="193" hp="819" exp="0" soldier="2600"/>
+	<ability level="82" atk="194" hp="826" exp="0" soldier="2630"/>
+	<ability level="83" atk="196" hp="832" exp="0" soldier="2660"/>
+	<ability level="84" atk="197" hp="839" exp="0" soldier="2690"/>
+	<ability level="85" atk="199" hp="845" exp="0" soldier="2720"/>
+	<ability level="86" atk="200" hp="852" exp="0" soldier="2750"/>
+	<ability level="87" atk="202" hp="858" exp="0" soldier="2780"/>
+	<ability level="88" atk="203" hp="864" exp="0" soldier="2810"/>
+	<ability level="89" atk="205" hp="871" exp="0" soldier="2840"/>
+	<ability level="90" atk="206" hp="877" exp="0" soldier="2870"/>
+	<ability level="91" atk="208" hp="883" exp="0" soldier="2900"/>
+	<ability level="92" atk="209" hp="889" exp="0" soldier="2930"/>
+	<ability level="93" atk="211" hp="895" exp="0" soldier="2960"/>
+	<ability level="94" atk="212" hp="901" exp="0" soldier="2990"/>
+	<ability level="95" atk="213" hp="907" exp="0" soldier="3020"/>
+	<ability level="96" atk="215" hp="912" exp="0" soldier="3050"/>
+	<ability level="97" atk="216" hp="918" exp="0" soldier="3080"/>
+	<ability level="98" atk="217" hp="924" exp="0" soldier="3110"/>
+	<ability level="99" atk="219" hp="929" exp="0" soldier="3140"/>
+	<ability level="100" atk="220" hp="935" exp="0" soldier="3170"/>
+	<ability level="101" atk="221" hp="940" exp="0" soldier="3200"/>
+	<ability level="102" atk="223" hp="946" exp="0" soldier="3230"/>
+	<ability level="103" atk="224" hp="951" exp="0" soldier="3260"/>
+	<ability level="104" atk="225" hp="957" exp="0" soldier="3290"/>
+	<ability level="105" atk="226" hp="962" exp="0" soldier="3320"/>
+	<ability level="106" atk="228" hp="967" exp="0" soldier="3350"/>
+	<ability level="107" atk="229" hp="972" exp="0" soldier="3380"/>
+	<ability level="108" atk="230" hp="977" exp="0" soldier="3410"/>
+	<ability level="109" atk="231" hp="982" exp="0" soldier="3440"/>
+	<ability level="110" atk="232" hp="987" exp="0" soldier="3470"/>
+	<ability level="111" atk="233" hp="992" exp="0" soldier="3500"/>
+	<ability level="112" atk="235" hp="997" exp="0" soldier="3530"/>
+	<ability level="113" atk="236" hp="1002" exp="0" soldier="3560"/>
+	<ability level="114" atk="237" hp="1007" exp="0" soldier="3590"/>
+	<ability level="115" atk="238" hp="1011" exp="0" soldier="3620"/>
+	<ability level="116" atk="239" hp="1016" exp="0" soldier="3650"/>
+	<ability level="117" atk="240" hp="1020" exp="0" soldier="3680"/>
+	<ability level="118" atk="241" hp="1025" exp="0" soldier="3710"/>
+	<ability level="119" atk="242" hp="1029" exp="0" soldier="3740"/>
+	<ability level="120" atk="243" hp="1034" exp="0" soldier="3770"/>
+</data>

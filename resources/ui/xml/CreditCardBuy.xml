@@ -1,0 +1,35 @@
+<!--Copyright 2012 Subatomic Studios, LLC. All rights reserved.-->
+<Form Name="CreditBuy" BasePlatform="2" Version="52" FormType="1" ClassType="19">
+    <FormRoot Name="Element">
+        <Element Type="10" Name="CreditCardResizablePanel" ID="1" Anchor="0.496094, 0.488281" Dimension="0.797969, 0.415740" IsPassive="T" />
+        <Element Text="Purchasing Item: " Type="1" Name="ItemNameLabel" ID="2" Anchor="0.412109, 0.657552" Dimension="0.591370, 0.025414" IsPassive="T" Alignment="0" Tracking="0" Leading="0" TranslateOnce="T" />
+        <Element Text="Item Price:" Type="1" Name="PriceLabel" ID="13" Anchor="0.412109, 0.622396" Dimension="0.591370, 0.025414" IsPassive="T" Alignment="0" Tracking="0" Leading="0" TranslateOnce="T" />
+        <Element Type="2" Name="CardInfoPanel" ID="3" Anchor="0.500000, 0.433593" Dimension="0.056641, 0.075521" IsPassive="T" Tint="255, 255, 255, 0">
+            <Element Text="Credit Card Info:" Type="1" Name="CreditCardInfoLabel" ID="4" Anchor="-0.296875, 0.122396" Dimension="0.182422, 0.019555" IsPassive="T" Alignment="0" Tracking="0" Leading="0" TranslateOnce="T" />
+            <Element Text="Name: Jamie Gotch" Type="1" Name="CreditName" ID="5" Anchor="-0.295898, 0.096354" Dimension="0.182422, 0.019555" IsPassive="T" Alignment="0" Tracking="0" Leading="0" TranslateOnce="T" />
+            <Element Text="Card: xxxx-xxxx-xxxx-1234" Type="1" Name="CreditName" ID="6" Anchor="-0.247070, 0.069010" Dimension="0.280078, 0.021508" IsPassive="T" Alignment="0" Tracking="0" Leading="0" TranslateOnce="T" />
+        </Element>
+        <Element Type="2" Name="SubaStorePanel" ID="9" Anchor="0.500000, 0.500000" Dimension="0.056641, 0.075521" IsPassive="T" Tint="255, 255, 255, 0">
+            <Element TextureFilename="Button08.png" Type="2" Name="SubaLogo" ID="10" Anchor="0.049805, 0.117188" Dimension="0.097168, 0.129557" IsPassive="T" />
+            <Element Text="Subatomic Studios Store" TextScale="0.8" Type="1" Name="SubaStoreLabel" ID="11" Anchor="0.238281, 0.127604" Dimension="0.274410, 0.058617" IsPassive="T" Tracking="-20" Leading="34" TranslateOnce="T" Font="StencilYellow10.asc" />
+        </Element>
+        <Element Type="2" Name="Purchase Buttons" ID="12" Anchor="0.500000, 0.500000" Dimension="0.808594, 0.434896" IsPassive="T" Tint="255, 255, 255, 0">
+            <Element TextureFilename="Button08.png" Type="3" Name="PurchaseButton" ID="15" Anchor="-0.280273, -0.139323" Dimension="0.182351, 0.101563">
+                <SoundMapRoot />
+                <Element Text="Purchase" TextScale="0.6" Type="1" Name="PurchaseLabel" ID="20" Dimension="0.154235, 0.039086" IsPassive="T" Tracking="-20" Leading="34" TranslateOnce="T" Font="StencilYellow10.asc" />
+            </Element>
+            <Element TextureFilename="Button08.png" Type="3" Name="ErrorButton" ID="16" Anchor="-0.088867, -0.139323" Dimension="0.182351, 0.101563">
+                <SoundMapRoot />
+                <Element Text="Error" TextScale="0.6" Type="1" Name="ErrorLabel" ID="21" Dimension="0.154235, 0.039086" IsPassive="T" Tracking="-20" Leading="34" TranslateOnce="T" Font="StencilYellow10.asc" />
+            </Element>
+            <Element TextureFilename="Button08.png" Type="3" Name="RestoreButton" ID="17" Anchor="0.099609, -0.138021" Dimension="0.182351, 0.101563">
+                <SoundMapRoot />
+                <Element Text="Restore" TextScale="0.6" Type="1" Name="RestoreLabel" ID="22" Dimension="0.154235, 0.039086" IsPassive="T" Tracking="-20" Leading="34" TranslateOnce="T" Font="StencilYellow10.asc" />
+            </Element>
+            <Element TextureFilename="Button08.png" Type="3" Name="CancelButton" ID="23" Anchor="0.287109, -0.136719" Dimension="0.182351, 0.101563">
+                <SoundMapRoot />
+                <Element Text="Cancel" TextScale="0.6" Type="1" Name="CancelLabel" ID="24" Dimension="0.154235, 0.039086" IsPassive="T" Tracking="-20" Leading="34" TranslateOnce="T" Font="StencilYellow10.asc" />
+            </Element>
+        </Element>
+    </FormRoot>
+</Form>

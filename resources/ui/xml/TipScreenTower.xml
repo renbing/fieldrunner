@@ -1,0 +1,78 @@
+<!--Copyright 2012 Subatomic Studios, LLC. All rights reserved.-->
+<Form Name="TipScreenTower" BasePlatform="2" Version="74">
+    <FormRoot Name="Element">
+        <Element TextureFilename="BGBlack.png" Type="2" Name="Tint" ID="21" Anchor="0.500000, 0.500000" Dimension="1.000000, 1.000000" IsPassive="T" Tint="0, 0, 0, 0" ResizeBias="2" MaximumAlpha="192">
+            <Animations>
+                <Animation Name="FormExit">
+                    <Track ID="10" Type="5">
+                        <TrackKey ID="0" Time="0" Value="194" />
+                        <TrackKey ID="1" Time="0.246875" />
+                    </Track>
+                </Animation>
+                <Animation Name="FormEntry">
+                    <Track ID="7" Type="5">
+                        <TrackKey ID="0" Time="0" />
+                        <TrackKey ID="1" Time="0.74375" Value="192" />
+                    </Track>
+                </Animation>
+            </Animations>
+        </Element>
+        <Element TextureFilename="Trans.png" Type="2" Name="VictoryClick" ID="17" Anchor="0.500000, 0.496875" Dimension="1.000000, 1.000000" ResizeBias="2">
+            <Animations>
+                <Animation Name="FormExit">
+                    <Track ID="2" Type="9">
+                        <TrackKey ID="0" Time="0" Value="playsound UI/In_Game/Tower_Drag_Cancel" />
+                        <TrackKey ID="1" Time="0.25" Value="popform" />
+                    </Track>
+                </Animation>
+            </Animations>
+        </Element>
+        <Element PanelSkin="UnitNoteBox.asc" Type="10" Name="EntryPanel" ID="2" Anchor="0.497917, 1.250000" Dimension="0.618750, 0.313019" Rotation="-0.16974" IsPassive="T" Margin="1" PixelFormat="2">
+            <Animations>
+                <Animation Name="FormExit">
+                    <Track ID="8" Type="1">
+                        <TrackKey ID="0" Time="0" Value="0.497917, 0.625000" />
+                        <TrackKey ID="1" Time="0.24375" Value="0.497917, 1.250000" />
+                    </Track>
+                    <Track ID="9" Type="2">
+                        <TrackKey ID="0" Time="0" />
+                        <TrackKey ID="1" Time="0.246875" Value="-0.144152" />
+                    </Track>
+                </Animation>
+                <Animation Name="FormEntry">
+                    <Track ID="0" Type="9">
+                        <TrackKey ID="0" Time="0" Value="pause on" />
+                    </Track>
+                    <Track ID="5" Type="1">
+                        <TrackKey ID="0" Time="0" Value="0.497917, 1.250000" />
+                        <TrackKey ID="1" Time="0.25" Value="0.497917, 0.625000" />
+                    </Track>
+                    <Track ID="6" Type="2">
+                        <TrackKey ID="0" Time="0" Value="-0.16974" />
+                        <TrackKey ID="1" Time="0.25" />
+                    </Track>
+                </Animation>
+            </Animations>
+            <Element Text="$(TipTowersText)" TextScale="0.7" Type="1" Name="Text 1" ID="3" Anchor="0.067708, 0.021876" Dimension="0.416667, 0.176070" IsPassive="T" Tint="205, 220, 230, 255" Alignment="0" Tracking="-7" Leading="38" Font="ArialWhite05.asc" />
+            <Element Text="$(TipTowers2Text)" TextScale="0.7" Type="1" Name="Text 2" ID="23" Anchor="0.067708, -0.104688" Dimension="0.416667, 0.176070" IsPassive="T" Tint="205, 220, 230, 255" Alignment="0" Tracking="-7" Leading="38" Font="ArialWhite05.asc" />
+            <Element TextureFilename="ShellStar.jpg" Type="2" Name="Image" ID="18" Anchor="-0.220833, 0.001562" Dimension="0.133333, 0.200000" IsPassive="T" PixelFormat="2" Dithered="T" />
+            <Element Text="$(TipTowersTitle)" TextScale="0.8" Type="1" Name="Title" ID="19" Anchor="0.003125, 0.179686" Dimension="0.559123, 0.067736" IsPassive="T" Tracking="-11" Leading="47" TranslateOnce="T" Font="StencilYellow10.asc" />
+            <Element Text="$(TapToContinue)" TextScale="0.6" Type="1" Name="Tap To Continue..." ID="20" Anchor="0.105208, -0.119790" Dimension="0.371812, 0.026070" IsPassive="T" Tint="205, 220, 230, 255" Alignment="2" Tracking="-7" Leading="38" Font="ArialWhite05.asc" TextEffect="AlphaPulse" />
+        </Element>
+        <Element TextureFilename="Trans.png" Type="2" Name="InitialClick" ID="22" Anchor="0.500000, 0.500000" Dimension="2.083333, 3.125000" ResizeBias="2">
+            <Animations>
+                <Animation Name="FormEntry">
+                    <Track ID="11" Type="1">
+                        <TrackKey ID="0" Time="0" Value="0.500000, 0.500000" />
+                        <TrackKey ID="1" Time="0.015625" Value="0.500000, 7.812500" />
+                    </Track>
+                </Animation>
+            </Animations>
+        </Element>
+    </FormRoot>
+    <AnimationTriggers>
+        <AnimationTrigger Event="Touches Ended (UI Only)" Data="2" Animation="FormExit" />
+        <AnimationTrigger Event="Touches Ended (UI Only)" Data="17" Animation="FormExit" />
+        <AnimationTrigger Event="Form Opened (UI Only)" Data="1073741824" Animation="FormEntry" />
+    </AnimationTriggers>
+</Form>

@@ -1,0 +1,335 @@
+<!--Copyright 2012 Subatomic Studios, LLC. All rights reserved.-->
+<Form Name="" BasePlatform="2" Version="77" PassTouches="T" ClassType="20">
+    <FormRoot Name="Element">
+        <Element TextureFilename="Trans.png" Type="2" Name="C1TipGroup" ID="18" Anchor="0.500000, 1.156250" Dimension="0.497883, 0.204427" Margin="1" SetChildrenAlpha="T">
+            <Animations>
+                <Animation Name="WaitC1Tip">
+                    <Track ID="19" Type="9">
+                        <TrackKey ID="0" Time="5" Value="playuianimation GameTips.form HideC1Tip" />
+                    </Track>
+                </Animation>
+                <Animation Name="HideC1Tip">
+                    <Track ID="10" Type="9">
+                        <TrackKey ID="0" Time="0.009375" Value="setelementpassive C1TipGroup on" />
+                    </Track>
+                    <Track ID="11" Type="5">
+                        <TrackKey ID="0" Time="0" Value="255" />
+                        <TrackKey ID="1" Time="0.25" />
+                    </Track>
+                </Animation>
+                <Animation Name="ShowC1Tip">
+                    <Track ID="8" Type="9">
+                        <TrackKey ID="0" Time="0" Value="setelementpassive UseMoneyGroup off" />
+                        <TrackKey ID="1" Time="0.25" Value="playuianimation GameTips.form WaitC1Tip" />
+                    </Track>
+                    <Track ID="24" Type="5">
+                        <TrackKey ID="0" Time="0" Value="255" />
+                    </Track>
+                    <Track ID="26" Type="1">
+                        <TrackKey ID="0" Time="0" Value="0.500000, 1.156250" />
+                        <TrackKey ID="1" Time="0.246875" Value="0.500000, 0.875000" />
+                    </Track>
+                </Animation>
+                <Animation Name="MoveC1Tip">
+                    <Track ID="16" Type="9">
+                        <TrackKey ID="0" Time="0" Value="setelementpassive C1TipGroup on | playsound UI/In_Game/Tower_Drag_Cancel" />
+                        <TrackKey ID="1" Time="0.23125" Value="" />
+                    </Track>
+                    <Track ID="33" Type="1">
+                        <TrackKey ID="0" Time="0" Value="0.500000, 0.875000" />
+                        <TrackKey ID="1" Time="0.225" Value="0.500000, 1.171875" />
+                    </Track>
+                </Animation>
+            </Animations>
+            <Element PanelSkin="UnitNoteBox.asc" Type="10" Name="UseMoneyPanel" ID="19" Dimension="0.488834, 0.197657" IsPassive="T" PixelFormat="2">
+                <Element Text="$(TipC1StepsText)" TextScale="0.7" Type="1" Name="UseMoneyText" ID="20" Anchor="0.003906, -0.031770" Dimension="0.354954, 0.070336" IsPassive="T" Tint="207, 220, 230, 255" Tracking="-6" Leading="34" TranslateOnce="T" Font="ArialWhite05.asc" />
+                <Element Text="$(TipC1StepsTitle)" TextScale="0.7" Type="1" Name="UseMoneyTitle" ID="21" Anchor="0.000977, 0.032291" Dimension="0.384641, 0.070336" IsPassive="T" Tracking="-11" Leading="47" TranslateOnce="T" Font="StencilYellow10.asc" />
+            </Element>
+        </Element>
+        <Element TextureFilename="Trans.png" Type="2" Name="C2TipGroup3" ID="36" Anchor="0.500000, 1.140625" Dimension="0.493717, 0.204427" Margin="1" SetChildrenAlpha="T">
+            <Animations>
+                <Animation Name="WaitC2For1Tip">
+                    <Track ID="20" Type="9">
+                        <TrackKey ID="0" Time="5" Value="playuianimation GameTips.form HideC2For1Tip" />
+                    </Track>
+                </Animation>
+                <Animation Name="HideC2For1Tip">
+                    <Track ID="10" Type="9">
+                        <TrackKey ID="0" Time="0.00625" Value="setelementpassive C2TipGroup3 on" />
+                    </Track>
+                    <Track ID="11" Type="5">
+                        <TrackKey ID="0" Time="0" Value="255" />
+                        <TrackKey ID="1" Time="0.25" />
+                    </Track>
+                </Animation>
+                <Animation Name="ShowC2For1Tip">
+                    <Track ID="8" Type="9">
+                        <TrackKey ID="0" Time="0" Value="setelementpassive C2TipGroup3 off" />
+                        <TrackKey ID="1" Time="0.253125" Value="playuianimation GameTips.form WaitC2For1Tip" />
+                    </Track>
+                    <Track ID="23" Type="5">
+                        <TrackKey ID="0" Time="0" Value="255" />
+                    </Track>
+                    <Track ID="32" Type="1">
+                        <TrackKey ID="0" Time="0" Value="0.500000, 1.140625" />
+                        <TrackKey ID="1" Time="0.240625" Value="0.500000, 0.875000" />
+                    </Track>
+                </Animation>
+                <Animation Name="MoveC2For1Tip">
+                    <Track ID="16" Type="9">
+                        <TrackKey ID="0" Time="0" Value="setelementpassive C2TipGroup3 on | playsound UI/In_Game/Tower_Drag_Cancel" />
+                    </Track>
+                    <Track ID="34" Type="1">
+                        <TrackKey ID="0" Time="0" Value="0.500000, 0.875000" />
+                        <TrackKey ID="1" Time="0.246875" Value="0.500000, 1.171875" />
+                    </Track>
+                </Animation>
+            </Animations>
+            <Element PanelSkin="UnitNoteBox.asc" Type="10" Name="2For1" ID="37" Dimension="0.463574, 0.203777" IsPassive="T" PixelFormat="2">
+                <Element Text="$(TipC2For1Text)" TextScale="0.7" Type="1" Name="UseMoneyText" ID="38" Anchor="0.053645, -0.034114" Dimension="0.332427, 0.089867" IsPassive="T" Tint="207, 220, 230, 255" Alignment="0" Tracking="-7" Leading="34" TranslateOnce="T" Font="ArialWhite05.asc" />
+                <Element TextureFilename="Icon_SuddenDeath.jpg" Type="2" Name="UseMoneyIcon" ID="39" Anchor="-0.167838, -0.015886" Dimension="0.125000, 0.166667" IsPassive="T" RelativeScale="0.65" PixelFormat="2">
+                    <Element TextureFilename="Icon_SuddenDeath.jpg" Type="2" Name="UseMoneyIcon" ID="41" Anchor="0.027043, -0.030048" Dimension="0.125000, 0.166667" IsPassive="T" PixelFormat="2" Dithered="T" />
+                </Element>
+                <Element Text="$(TipC2For1Title)" TextScale="0.7" Type="1" Name="SellTowerTitle" ID="40" Anchor="0.000000, 0.047396" Dimension="0.459766, 0.052628" IsPassive="T" Tracking="-11" Leading="47" TranslateOnce="T" Font="StencilYellow10.asc" />
+            </Element>
+        </Element>
+        <Element TextureFilename="Trans.png" Type="2" Name="C2TipGroup2" ID="31" Anchor="0.500000, 1.120312" Dimension="0.652050, 0.204427" Margin="1" SetChildrenAlpha="T">
+            <Animations>
+                <Animation Name="HideC2TimingTip">
+                    <Track ID="10" Type="9">
+                        <TrackKey ID="0" Time="0.00625" Value="setelementpassive C2TipGroup2 on" />
+                    </Track>
+                    <Track ID="11" Type="5">
+                        <TrackKey ID="0" Time="0" Value="255" />
+                        <TrackKey ID="1" Time="0.25" />
+                    </Track>
+                </Animation>
+                <Animation Name="ShowC2TimingTip">
+                    <Track ID="8" Type="9">
+                        <TrackKey ID="0" Time="0" Value="setelementpassive C2TipGroup2 off" />
+                        <TrackKey ID="1" Time="0.253125" Value="playuianimation GameTips.form WaitC2TimingTip" />
+                    </Track>
+                    <Track ID="23" Type="5">
+                        <TrackKey ID="0" Time="0" Value="255" />
+                    </Track>
+                    <Track ID="31" Type="1">
+                        <TrackKey ID="0" Time="0" Value="0.500000, 1.120312" />
+                        <TrackKey ID="1" Time="0.2375" Value="0.500000, 0.885937" />
+                    </Track>
+                </Animation>
+                <Animation Name="MoveC2TimingTip">
+                    <Track ID="16" Type="9">
+                        <TrackKey ID="0" Time="0" Value="setelementpassive C2TipGroup2 on | playsound UI/In_Game/Tower_Drag_Cancel" />
+                    </Track>
+                    <Track ID="35" Type="1">
+                        <TrackKey ID="0" Time="0" Value="0.500000, 0.885937" />
+                        <TrackKey ID="1" Time="0.225" Value="0.500000, 1.198437" />
+                    </Track>
+                </Animation>
+                <Animation Name="WaitC2TimingTip">
+                    <Track ID="20" Type="9">
+                        <TrackKey ID="0" Time="5" Value="playuianimation GameTips.form HideC2TimingTip" />
+                    </Track>
+                </Animation>
+            </Animations>
+            <Element PanelSkin="UnitNoteBox.asc" Type="10" Name="Timing is Everything" ID="32" Dimension="0.596125, 0.179558" IsPassive="T" PixelFormat="2">
+                <Element Text="$(TipC2TimingText)" TextScale="0.7" Type="1" Name="UseMoneyText" ID="33" Anchor="0.001953, -0.054947" Dimension="0.552610, 0.071117" IsPassive="T" Tint="207, 220, 230, 255" Tracking="-7" Leading="34" TranslateOnce="T" Font="ArialWhite05.asc" />
+                <Element Text="$(TipC2TimingTitle)" TextScale="0.7" Type="1" Name="SellTowerTitle" ID="35" Anchor="0.000000, 0.014583" Dimension="0.668750, 0.077628" IsPassive="T" Tracking="-8" Leading="47" TranslateOnce="T" Font="StencilYellow10.asc" />
+            </Element>
+        </Element>
+        <Element TextureFilename="Trans.png" Type="2" Name="C2TipGroup" ID="26" Anchor="0.500000, 1.139062" Dimension="0.547883, 0.204427" Margin="1" SetChildrenAlpha="T">
+            <Animations>
+                <Animation Name="HideC2Tip">
+                    <Track ID="10" Type="9">
+                        <TrackKey ID="0" Time="0.00625" Value="setelementpassive C2TipGroup on" />
+                    </Track>
+                    <Track ID="11" Type="5">
+                        <TrackKey ID="0" Time="0" Value="255" />
+                        <TrackKey ID="1" Time="0.25" />
+                    </Track>
+                </Animation>
+                <Animation Name="WaitC2Tip">
+                    <Track ID="20" Type="9">
+                        <TrackKey ID="0" Time="5" Value="playuianimation GameTips.form HideC2Tip" />
+                    </Track>
+                </Animation>
+                <Animation Name="MoveC2Tip">
+                    <Track ID="16" Type="9">
+                        <TrackKey ID="0" Time="0" Value="setelementpassive C2TipGroup on | playsound UI/In_Game/Tower_Drag_Cancel" />
+                    </Track>
+                    <Track ID="36" Type="1">
+                        <TrackKey ID="0" Time="0" Value="0.500000, 0.873437" />
+                        <TrackKey ID="1" Time="0.2375" Value="0.500000, 1.154687" />
+                    </Track>
+                </Animation>
+                <Animation Name="ShowC2Tip">
+                    <Track ID="8" Type="9">
+                        <TrackKey ID="0" Time="0" Value="setelementpassive C2TipGroup off" />
+                        <TrackKey ID="1" Time="0.253125" Value="playuianimation GameTips.form WaitC2Tip" />
+                    </Track>
+                    <Track ID="23" Type="5">
+                        <TrackKey ID="0" Time="0" Value="255" />
+                    </Track>
+                    <Track ID="30" Type="1">
+                        <TrackKey ID="0" Time="0" Value="0.500000, 1.139062" />
+                        <TrackKey ID="1" Time="0.253125" Value="0.500000, 0.873437" />
+                    </Track>
+                </Animation>
+            </Animations>
+            <Element PanelSkin="UnitNoteBox.asc" Type="10" Name="SellTowersPanel" ID="27" Dimension="0.532063, 0.201694" IsPassive="T" PixelFormat="2">
+                <Element Text="$(TipC2SellText)" TextScale="0.7" Type="1" Name="UseMoneyText" ID="28" Anchor="0.056120, 0.000015" Dimension="0.348443, 0.106534" IsPassive="T" Tint="207, 220, 230, 255" Alignment="0" Tracking="-7" Leading="34" TranslateOnce="T" Font="ArialWhite05.asc" />
+                <Element TextureFilename="icon_sell.jpg" Type="2" Name="UseMoneyIcon" ID="29" Anchor="-0.179687, 0.000000" Dimension="0.133333, 0.200000" IsPassive="T" RelativeScale="0.65" PixelFormat="2" />
+            </Element>
+        </Element>
+        <Element TextureFilename="Trans.png" Type="2" Name="D2TipGroup" ID="22" Anchor="0.500000, 1.173437" Dimension="0.510383, 0.204427" Margin="1" SetChildrenAlpha="T">
+            <Animations>
+                <Animation Name="ShowD2Tip">
+                    <Track ID="8" Type="9">
+                        <TrackKey ID="0" Time="0" Value="setelementpassive UseMoneyGroup off" />
+                        <TrackKey ID="1" Time="0.24375" Value="playuianimation GameTips.form WaitD2Tip" />
+                    </Track>
+                    <Track ID="25" Type="5">
+                        <TrackKey ID="0" Time="0" Value="255" />
+                    </Track>
+                    <Track ID="27" Type="1">
+                        <TrackKey ID="0" Time="0" Value="0.500000, 1.173437" />
+                        <TrackKey ID="1" Time="0.240625" Value="0.500000, 0.876562" />
+                    </Track>
+                </Animation>
+                <Animation Name="WaitD2Tip">
+                    <Track ID="18" Type="9">
+                        <TrackKey ID="0" Time="5" Value="playuianimation GameTips.form HideD2Tip" />
+                    </Track>
+                </Animation>
+                <Animation Name="MoveD2Tip">
+                    <Track ID="16" Type="9">
+                        <TrackKey ID="0" Time="0" Value="setelementpassive D2TipGroup on | playsound UI/In_Game/Tower_Drag_Cancel" />
+                    </Track>
+                    <Track ID="37" Type="1">
+                        <TrackKey ID="0" Time="0" Value="0.500000, 0.876562" />
+                        <TrackKey ID="1" Time="0.240625" Value="0.500000, 1.157812" />
+                    </Track>
+                </Animation>
+                <Animation Name="HideD2Tip">
+                    <Track ID="10" Type="9">
+                        <TrackKey ID="0" Time="0.00625" Value="setelementpassive D2TipGroup on" />
+                    </Track>
+                    <Track ID="11" Type="5">
+                        <TrackKey ID="0" Time="0" Value="255" />
+                        <TrackKey ID="1" Time="0.25" />
+                    </Track>
+                </Animation>
+            </Animations>
+            <Element PanelSkin="UnitNoteBox.asc" Type="10" Name="UseMoneyPanel" ID="23" Dimension="0.490917, 0.195574" IsPassive="T" PixelFormat="2">
+                <Element Text="$(TipD2LoopText)" TextScale="0.7" Type="1" Name="UseMoneyText" ID="24" Anchor="0.003906, -0.028645" Dimension="0.414199, 0.070336" IsPassive="T" Tint="207, 220, 230, 255" Tracking="-6" Leading="34" TranslateOnce="T" Font="ArialWhite05.asc" />
+                <Element Text="$(TipD2LoopTitle)" TextScale="0.7" Type="1" Name="UseMoneyTitle" ID="25" Anchor="0.000977, 0.033854" Dimension="0.384641, 0.070336" IsPassive="T" Tracking="-11" Leading="47" TranslateOnce="T" Font="StencilYellow10.asc" />
+            </Element>
+        </Element>
+        <Element TextureFilename="Trans.png" Type="2" Name="UpgradeGroup" ID="10" Anchor="0.500000, 1.148772" Dimension="0.648405, 0.204427" Margin="1" SetChildrenAlpha="T">
+            <Animations>
+                <Animation Name="HideUpgradeInfo">
+                    <Track ID="10" Type="9">
+                        <TrackKey ID="0" Time="0.00625" Value="setelementpassive UpgradeGroup on" />
+                    </Track>
+                    <Track ID="11" Type="5">
+                        <TrackKey ID="0" Time="0" Value="255" />
+                        <TrackKey ID="1" Time="0.25" />
+                    </Track>
+                </Animation>
+                <Animation Name="MoveUpgradeInfo">
+                    <Track ID="15" Type="9">
+                        <TrackKey ID="0" Time="0" Value="setelementpassive UpgradeGroup on | playsound UI/In_Game/Tower_Drag_Cancel" />
+                    </Track>
+                    <Track ID="38" Type="1">
+                        <TrackKey ID="0" Time="0" Value="0.500000, 0.867522" />
+                        <TrackKey ID="1" Time="0.240625" Value="0.500000, 1.133147" />
+                    </Track>
+                </Animation>
+                <Animation Name="ShowUpgradeInfo">
+                    <Track ID="8" Type="9">
+                        <TrackKey ID="0" Time="0" Value="setelementpassive UpgradeGroup off" />
+                        <TrackKey ID="1" Time="0.25" Value="playuianimation GameTips.form WaitUpgradeInfo" />
+                    </Track>
+                    <Track ID="21" Type="5">
+                        <TrackKey ID="0" Time="0" Value="255" />
+                    </Track>
+                    <Track ID="28" Type="1">
+                        <TrackKey ID="0" Time="0.096875" Value="0.500000, 1.148772" />
+                        <TrackKey ID="1" Time="0.246875" Value="0.500000, 0.867522" />
+                    </Track>
+                </Animation>
+                <Animation Name="WaitUpgradeInfo">
+                    <Track ID="22" Type="9">
+                        <TrackKey ID="0" Time="5" Value="playuianimation GameTips.form HideUpgradeInfo" />
+                    </Track>
+                </Animation>
+            </Animations>
+            <Element PanelSkin="UnitNoteBox.asc" Type="10" Name="UpgradePanel" ID="11" Dimension="0.650813, 0.219011" IsPassive="T" PixelFormat="2">
+                <Element Text="$(TipUpgradeText)" TextScale="0.7" Type="1" Name="UpgradeText" ID="12" Anchor="0.083073, -0.001041" Dimension="0.464199, 0.148461" IsPassive="T" Tint="207, 220, 230, 255" Alignment="0" VerticalAlignment="1" Tracking="-7" Leading="34" TranslateOnce="T" Font="ArialWhite05.asc" />
+                <Element TextureFilename="TowerSelect.png" Type="2" Name="UpgradeIcon" ID="13" Anchor="-0.234375, 0.000000" Dimension="0.147641, 0.177865" IsPassive="T" PixelFormat="2" />
+            </Element>
+        </Element>
+        <Element TextureFilename="Trans.png" Type="2" Name="UseMoneyGroup" ID="14" Anchor="0.500000, 1.128125" Dimension="0.545800, 0.204427" Margin="1" SetChildrenAlpha="T">
+            <Animations>
+                <Animation Name="HideUseMoneyReminder">
+                    <Track ID="10" Type="9">
+                        <TrackKey ID="0" Time="0.00625" Value="setelementpassive UseMoneyGroup on" />
+                    </Track>
+                    <Track ID="11" Type="5">
+                        <TrackKey ID="0" Time="0" Value="255" />
+                        <TrackKey ID="1" Time="0.25" />
+                    </Track>
+                </Animation>
+                <Animation Name="WaitUseMoneyReminder">
+                    <Track ID="20" Type="9">
+                        <TrackKey ID="0" Time="5" Value="playuianimation GameTips.form HideUseMoneyReminder" />
+                    </Track>
+                </Animation>
+                <Animation Name="MoveUseMoneyReminder">
+                    <Track ID="16" Type="9">
+                        <TrackKey ID="0" Time="0" Value="setelementpassive UseMoneyGroup on | playsound UI/In_Game/Tower_Drag_Cancel" />
+                    </Track>
+                    <Track ID="39" Type="1">
+                        <TrackKey ID="0" Time="0" Value="0.500000, 0.862500" />
+                        <TrackKey ID="1" Time="0.234375" Value="0.500000, 1.221875" />
+                    </Track>
+                </Animation>
+                <Animation Name="ShowUseMoneyReminder">
+                    <Track ID="8" Type="9">
+                        <TrackKey ID="0" Time="0" Value="setelementpassive UseMoneyGroup off" />
+                        <TrackKey ID="1" Time="0" Value="" />
+                        <TrackKey ID="2" Time="0.253125" Value="playuianimation GameTips.form WaitUseMoneyGroup" />
+                    </Track>
+                    <Track ID="23" Type="5">
+                        <TrackKey ID="0" Time="0" Value="255" />
+                    </Track>
+                    <Track ID="29" Type="1">
+                        <TrackKey ID="0" Time="0" Value="0.500000, 1.128125" />
+                        <TrackKey ID="1" Time="0.24375" Value="0.500000, 0.862500" />
+                    </Track>
+                </Animation>
+            </Animations>
+            <Element PanelSkin="UnitNoteBox.asc" Type="10" Name="UseMoneyPanel" ID="15" Anchor="0.000000, 0.022135" Dimension="0.538313, 0.181641" IsPassive="T" PixelFormat="2">
+                <Element Text="$(TipMoneyText)" TextScale="0.7" Type="1" Name="UseMoneyText" ID="16" Anchor="0.050325, 0.019010" Dimension="0.384641, 0.072419" IsPassive="T" Tint="207, 220, 230, 255" Alignment="0" Tracking="-7" Leading="34" TranslateOnce="T" Font="ArialWhite05.asc" />
+                <Element TextureFilename="HUD_Dollar.jpg" Type="2" Name="UseMoneyIcon" ID="17" Anchor="-0.203645, 0.000000" Dimension="0.125000, 0.166667" IsPassive="T" PixelFormat="2" />
+            </Element>
+        </Element>
+    </FormRoot>
+    <AnimationTriggers>
+        <AnimationTrigger Event="Touches Began (UI Only)" Data="10" Animation="MoveUpgradeInfo" />
+        <AnimationTrigger Event="Touches Began (UI Only)" Data="14" Animation="MoveUseMoneyReminder" />
+        <AnimationTrigger Event="Touches Began (UI Only)" Data="18" Animation="MoveC1Tip" />
+        <AnimationTrigger Event="Touches Began (UI Only)" Data="22" Animation="MoveD2Tip" />
+        <AnimationTrigger Event="Touches Began (UI Only)" Data="31" Animation="MoveC2For1Tip" />
+        <AnimationTrigger Event="Touches Began (UI Only)" Data="36" Animation="MoveC2TimingTip" />
+    </AnimationTriggers>
+    <ResettableAnimations>
+        <ResetAnimation Name="ShowC1Tip" />
+        <ResetAnimation Name="ShowC2For1Tip" />
+        <ResetAnimation Name="ShowC2TimingTip" />
+        <ResetAnimation Name="ShowC2Tip" />
+        <ResetAnimation Name="ShowD2Tip" />
+        <ResetAnimation Name="ShowUpgradeInfo" />
+        <ResetAnimation Name="ShowUseMoneyReminder" />
+    </ResettableAnimations>
+</Form>

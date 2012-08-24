@@ -1,0 +1,146 @@
+<!--Copyright 2012 Subatomic Studios, LLC. All rights reserved.-->
+<Form Name="" BasePlatform="2" Version="77" FormType="1" ClassType="8">
+    <FormRoot Name="Element">
+        <Animations>
+            <Animation Name="CloseFormTrigger">
+                <Track ID="8" Type="9">
+                    <TrackKey ID="0" Time="0" Value="playsound UI/Menu/Button_Press_Back_Big" />
+                </Track>
+            </Animation>
+            <Animation Name="OpenForm">
+                <Track ID="7" Type="9">
+                    <TrackKey ID="0" Time="0" Value="playsound UI/Menu/Button_Press_Advance_Big" />
+                </Track>
+            </Animation>
+        </Animations>
+        <Element TextureFilename="BGBlack.jpg" Type="2" Name="Tint" ID="42" Anchor="0.500000, 0.500000" Dimension="1.125000, 1.125000" IsPassive="T" Tint="255, 255, 255, 0" ResizeBias="0">
+            <Animations>
+                <Animation Name="CloseFormTrigger">
+                    <Track ID="4" Type="5">
+                        <TrackKey ID="0" Time="0" Value="182" />
+                        <TrackKey ID="1" Time="0.196875" />
+                    </Track>
+                </Animation>
+                <Animation Name="OpenForm">
+                    <Track ID="5" Type="5">
+                        <TrackKey ID="0" Time="0" />
+                        <TrackKey ID="1" Time="0.125" Value="182" />
+                    </Track>
+                </Animation>
+            </Animations>
+        </Element>
+        <Element TextureFilename="OptionsPanel.jpg" Type="2" Name="Parent" ID="1" Anchor="0.500000, 1.410938" Dimension="0.466667, 0.753704" IsPassive="T" Margin="1">
+            <Animations>
+                <Animation Name="CloseFormTrigger">
+                    <Track ID="3" Type="1">
+                        <TrackKey ID="0" Time="0" Value="0.500000, 0.493750" />
+                        <TrackKey ID="1" Time="0.246875" Value="0.500000, -0.401563" />
+                    </Track>
+                </Animation>
+                <Animation Name="OpenForm">
+                    <Track ID="6" Type="1">
+                        <TrackKey ID="0" Time="0" Value="0.500000, 1.410938" />
+                        <TrackKey ID="1" Time="0.2125" Value="0.500000, 0.462500" />
+                        <TrackKey ID="2" Time="0.315625" Value="0.500000, 0.493750" />
+                    </Track>
+                </Animation>
+            </Animations>
+            <Element TextureFilename="Trans.png" Type="2" Name="RateButtonGroup" ID="2" Anchor="0.000000, 0.176737" Dimension="0.347839, 0.105093" IsPassive="T" BlendState="3">
+                <Element TextureFilename="ButtonSlot02.png" Type="2" Name="Panel::50" ID="50" Dimension="0.353125, 0.110937" IsPassive="T" PixelFormat="2" />
+                <Element TextureFilename="Button15_Shadow.jpg" Type="2" Name="Panel::17" ID="17" Anchor="0.000000, -0.005034" Dimension="0.340670, 0.112731" IsPassive="T" BlendState="3" />
+                <Element PressedTextureFilename="Button15_Pressed.png" HighlightedTextureFilename="Button15_Glow.jpg" TextureFilename="Button15.png" Type="3" Name="RateButton" ID="11" Dimension="0.341667, 0.097222" HorizontalScale="1.07027" VerticalScale="1.31429">
+                    <SoundMapRoot>
+                        <SoundEvent EventTrigger="Touches Began (UI Only)" SoundEventFullPath="UI/Menu/Button_Press_Down" />
+                    </SoundMapRoot>
+                </Element>
+                <Element Text="$(Rate5StarsText)" TextScale="0.533333" Type="1" Name="Label::16" ID="16" Dimension="0.320777, 0.045396" IsPassive="T" Tracking="-11" Leading="47" TranslateOnce="T" Font="StencilYellow10.asc" />
+            </Element>
+            <Element TextureFilename="SlotClose.jpg" Type="2" Name="FacebookButtonGroup" ID="3" Anchor="-0.140740, -0.297222" Dimension="0.070371, 0.105556" IsPassive="T" Expansion="1.000000, 1.000000">
+                <Element TextureFilename="Button02_Shadow.jpg" Type="2" Name="Panel::18" ID="18" Anchor="0.000000, -0.002778" Dimension="0.060880, 0.100000" IsPassive="T" BlendState="3" />
+                <Element PressedTextureFilename="Facebook_pressed.jpg" HighlightedTextureFilename="Social_Glow.jpg" TextureFilename="Facebook.png" Type="3" Name="FacebookButton" ID="8" Dimension="0.058333, 0.088889" Expansion="1.000000, 0.410000" HorizontalScale="1.34921" VerticalScale="1.34375">
+                    <SoundMapRoot>
+                        <SoundEvent EventTrigger="Touches Began (UI Only)" SoundEventFullPath="UI/Menu/Button_Press_Down" />
+                    </SoundMapRoot>
+                </Element>
+            </Element>
+            <Element TextureFilename="SlotClose.jpg" Type="2" Name="TwitterButtonGroup" ID="19" Anchor="0.000000, -0.297222" Dimension="0.070371, 0.105556" IsPassive="T" Expansion="1.000000, 1.000000">
+                <Element TextureFilename="Button02_Shadow.jpg" Type="2" Name="Panel::18" ID="21" Anchor="0.000000, -0.002778" Dimension="0.060880, 0.100000" IsPassive="T" BlendState="3" />
+                <Element PressedTextureFilename="Twitter_pressed.jpg" HighlightedTextureFilename="Social_Glow.jpg" TextureFilename="Twitter.png" Type="3" Name="TwitterButton" ID="20" Dimension="0.058333, 0.088889" Expansion="1.000000, 0.513000" HorizontalScale="1.34921" VerticalScale="1.34375">
+                    <SoundMapRoot>
+                        <SoundEvent EventTrigger="Touches Began (UI Only)" SoundEventFullPath="UI/Menu/Button_Press_Down" />
+                    </SoundMapRoot>
+                </Element>
+            </Element>
+            <Element TextureFilename="SlotClose.jpg" Type="2" Name="SubatomicButtonGroup" ID="22" Anchor="0.141667, -0.297222" Dimension="0.070371, 0.105556" IsPassive="T" Expansion="1.000000, 1.000000">
+                <Element TextureFilename="Button02_Shadow.jpg" Type="2" Name="Panel::18" ID="24" Anchor="0.000000, -0.002778" Dimension="0.060880, 0.100000" IsPassive="T" BlendState="3" />
+                <Element PressedTextureFilename="Subatomic_pressed.jpg" HighlightedTextureFilename="Social_Glow.jpg" TextureFilename="Subatomic.png" Type="3" Name="SubaButton" ID="23" Anchor="0.000000, -0.000781" Dimension="0.058333, 0.089531" Expansion="1.000000, 0.615000" HorizontalScale="1.34921" VerticalScale="1.34375">
+                    <SoundMapRoot>
+                        <SoundEvent EventTrigger="Touches Began (UI Only)" SoundEventFullPath="UI/Menu/Button_Press_Down" />
+                    </SoundMapRoot>
+                </Element>
+            </Element>
+            <Element TextureFilename="Trans.png" Type="2" Name="FR1ButtonGroup" ID="6" Anchor="0.000000, -0.042188" Dimension="0.356944, 0.291667" IsPassive="T" Tint="255, 255, 255, 0">
+                <Element PressedTextureFilename="Trans.png" HighlightedTextureFilename="BuyFieldrunners_Glow.jpg" TextureFilename="BuyFieldrunners.JPG" Type="3" Name="GetFieldrunnersButton" ID="27" Anchor="0.000000, -0.048437" Dimension="0.352083, 0.287500" HorizontalScale="1.04142" VerticalScale="1.08152">
+                    <SoundMapRoot>
+                        <SoundEvent EventTrigger="Touches Began (UI Only)" SoundEventFullPath="UI/Menu/Button_Press_Down" />
+                    </SoundMapRoot>
+                </Element>
+                <Element Text="$(GetFR1Text)" TextScale="0.55" Type="1" Name="Label::28" ID="28" Anchor="0.000000, 0.119964" Dimension="0.324418, 0.038682" Rotation="-0.00189111" IsPassive="T" Tracking="-9" Leading="47" TranslateOnce="T" Font="StencilGray01.asc" />
+            </Element>
+            <Element TextureFilename="SlotClose.jpg" Type="2" Name="CloseButtonGroup" ID="12" Anchor="0.174074, 0.298612" Dimension="0.069135, 0.103703" IsPassive="T" Expansion="1.000000, 1.000000">
+                <Element TextureFilename="Button02_Shadow.jpg" Type="2" Name="Panel::29" ID="29" Anchor="0.000000, -0.002778" Dimension="0.062500, 0.098148" IsPassive="T" BlendState="3" />
+                <Element PressedTextureFilename="Button02_Pressed.jpg" HighlightedTextureFilename="Button02_Glow.jpg" TextureFilename="Button02.jpg" Type="3" Name="CloseButton" ID="13" Dimension="0.060185, 0.087500" Expansion="1.000000, 1.000000" HorizontalScale="1.33846" VerticalScale="1.34921">
+                    <Animations>
+                        <Animation Name="CloseFormTrigger">
+                            <Track ID="1" Type="9">
+                                <TrackKey ID="0" Time="0.26875" Value="popform" />
+                            </Track>
+                        </Animation>
+                    </Animations>
+                    <SoundMapRoot>
+                        <SoundEvent EventTrigger="Touches Began (UI Only)" SoundEventFullPath="UI/Menu/Button_Press_Down" />
+                    </SoundMapRoot>
+                </Element>
+            </Element>
+            <Element Type="2" Name="buttonsandshit" ID="14" Dimension="0.480250, 0.720370" IsPassive="T" Tint="255, 255, 255, 0">
+                <Element TextureFilename="Bolt01.jpg" Type="2" Name="Panel::15" ID="31" Anchor="-0.203704, 0.227778" Dimension="0.014815, 0.022222" IsPassive="T" PixelFormat="2" />
+                <Element TextureFilename="Bolt01.jpg" Type="2" Name="Panel::15" ID="32" Anchor="-0.204629, -0.065278" Dimension="0.014815, 0.022222" IsPassive="T" PixelFormat="2" />
+                <Element TextureFilename="Bolt01.jpg" Type="2" Name="Panel::15" ID="33" Anchor="-0.203704, -0.343056" Dimension="0.014815, 0.022222" IsPassive="T" PixelFormat="2" />
+                <Element TextureFilename="Bolt01.jpg" Type="2" Name="Panel::15" ID="34" Anchor="0.203704, -0.344444" Dimension="0.014815, 0.022222" IsPassive="T" PixelFormat="2" />
+                <Element TextureFilename="Bolt01.jpg" Type="2" Name="Panel::15" ID="35" Anchor="0.202778, -0.063889" Dimension="0.014815, 0.022222" IsPassive="T" PixelFormat="2" />
+                <Element TextureFilename="Bolt01.jpg" Type="2" Name="Panel::15" ID="37" Anchor="0.202778, 0.226388" Dimension="0.014815, 0.022222" IsPassive="T" PixelFormat="2" />
+            </Element>
+            <Element TextureFilename="Title02.jpg" Type="2" Name="Panel::49" ID="49" Anchor="-0.035417, 0.298438" Dimension="0.340132, 0.095833" IsPassive="T" />
+            <Element Text="$(SocialTitle)&#x0D;&#x0A;" TextScale="0.711111" Type="1" Name="TitleLabel" ID="30" Anchor="-0.028010, 0.300347" Dimension="0.330139, 0.047247" IsPassive="T" Alignment="0" Tracking="-8" Leading="47" TranslateOnce="T" Font="StencilYellow10.asc" />
+            <Element TextureFilename="OptionsPanelShadow.jpg" Type="2" Name="shadow" ID="41" Anchor="0.000000, -0.006945" Dimension="0.506172, 0.825925" IsPassive="T" BlendState="3" />
+            <Element TextureFilename="Trans.png" Type="2" Name="Panel::53" ID="53" Anchor="0.000000, 0.085938" Dimension="0.456250, 0.322917" IsPassive="T">
+                <Element Type="7" Name="ParticleSystem::54" ID="54" Anchor="-0.242708, 0.000000" Dimension="0.972917, 0.972917" Rotation="1.37111" IsPassive="T" Filename="UI_Panel_Hit.fx">
+                    <Animations>
+                        <Animation Name="OpenForm">
+                            <Track ID="9" Type="8">
+                                <TrackKey ID="0" Time="0" Value="3" />
+                                <TrackKey ID="1" Time="0.146875" Value="1" />
+                                <TrackKey ID="2" Time="0.2125" />
+                            </Track>
+                        </Animation>
+                    </Animations>
+                </Element>
+                <Element Type="7" Name="ParticleSystem::54" ID="55" Anchor="0.242708, -0.007813" Dimension="0.972917, 0.972917" Rotation="-1.37111" IsPassive="T" Filename="UI_Panel_Hit.fx">
+                    <Animations>
+                        <Animation Name="OpenForm">
+                            <Track ID="9" Type="8">
+                                <TrackKey ID="0" Time="0" Value="3" />
+                                <TrackKey ID="1" Time="0.14375" Value="1" />
+                                <TrackKey ID="2" Time="0.2125" />
+                            </Track>
+                        </Animation>
+                    </Animations>
+                </Element>
+            </Element>
+        </Element>
+    </FormRoot>
+    <AnimationTriggers>
+        <AnimationTrigger Event="Touch Clicked (UI Only)" Data="13" Animation="CloseFormTrigger" />
+        <AnimationTrigger Event="Form Activated (UI Only)" Data="1073741824" Animation="OpenForm" />
+    </AnimationTriggers>
+</Form>

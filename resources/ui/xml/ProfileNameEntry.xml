@@ -1,0 +1,113 @@
+<!--Copyright 2012 Subatomic Studios, LLC. All rights reserved.-->
+<Form Name="" BasePlatform="2" Version="55" FormType="1">
+    <FormRoot Name="Element">
+        <Element TextureFilename="BGTint.png" Type="2" Name="BGTint" ID="374" Anchor="0.500000, 0.500000" Dimension="1.000000, 1.000000" IsPassive="T" BlendState="3" ResizeBias="0" />
+        <Element TextureFilename="Editor_Element.png" Type="2" Name="CreateProfileGroup" ID="296" Anchor="0.514583, 0.782813" Dimension="0.743425, 0.803386" IsPassive="T" Tint="255, 255, 255, 0">
+            <Element TextureFilename="Occlusion_Square.png" Type="2" Name="PanelShadow" ID="297" Anchor="0.020833, -0.134376" Dimension="0.818750, 0.360417" IsPassive="T" BlendState="3" />
+            <Element PressedTextureFilename="Editor_Element.png" TextureFilename="Editor_Element.png" Type="3" Name="NoButtonGroup" ID="318" Anchor="0.187501, -0.332292" Dimension="0.265625, 0.127604" IsPassive="T" Tint="255, 255, 255, 0">
+                <Animations>
+                    <Animation Name="NoTrigger">
+                        <Track ID="0" Type="9">
+                            <TrackKey ID="0" Time="0.00625" Value="preselectprofile -1" />
+                            <TrackKey ID="1" Time="0.034375" Value="popform" />
+                        </Track>
+                    </Animation>
+                </Animations>
+                <Element TextureFilename="OptionsButtonShadow.png" Type="2" Name="ButtonShadow" ID="319" Anchor="0.000000, -0.028125" Dimension="0.318750, 0.153125" IsPassive="T" BlendState="3" />
+                <Element Type="2" Name="Structure" ID="320" Anchor="0.000000, 0.021875" Dimension="0.218750, 0.151042" IsPassive="T" Tint="255, 255, 255, 0">
+                    <Element TextureFilename="Joint02B.png" Type="2" Name="Panel::407" ID="408" Anchor="0.122917, -0.026562" Dimension="0.058333, 0.053125" IsPassive="T" MirrorMode="1" />
+                    <Element TextureFilename="Joint02B.png" Type="2" Name="Panel::407" ID="407" Anchor="-0.120833, -0.026562" Dimension="0.058333, 0.053125" IsPassive="T" />
+                    <Element TextureFilename="Joint02.png" Type="2" Name="Panel::403" ID="403" Anchor="-0.121875, -0.023438" Dimension="0.025000, 0.090625" IsPassive="T" />
+                    <Element TextureFilename="Joint02.png" Type="2" Name="Panel::403" ID="404" Anchor="0.125000, -0.023438" Dimension="0.025000, 0.090625" IsPassive="T" MirrorMode="1" />
+                    <Element TextureFilename="Joint01A.png" Type="2" Name="Panel::410" ID="410" Anchor="0.000000, 0.081250" Dimension="0.060417, 0.117188" Rotation="1.5708" IsPassive="T" />
+                    <Element TextureFilename="Lamp_Glow.png" Type="2" Name="NoLamp_Left_Glow" ID="411" Anchor="0.163625, -0.022748" Dimension="0.159307, 0.254167" IsPassive="T" Tint="255, 255, 255, 0" MirrorMode="1" BlendState="5" />
+                    <Element TextureFilename="Lamp_Glow.png" Type="2" Name="NoLamp_Left_Glow" ID="412" Anchor="-0.159292, -0.021186" Dimension="0.159307, 0.254167" IsPassive="T" Tint="255, 255, 255, 0" BlendState="5" />
+                </Element>
+                <Element PressedTextureFilename="Button07_Pressed.png" HighlightedTextureFilename="Button07_Glow.png" TextureFilename="Button07.png" Type="3" Name="NoButton" ID="329" Dimension="0.234375, 0.134375" HorizontalScale="1.07111" VerticalScale="1.2093">
+                    <Animations>
+                        <Animation Name="NoTrigger">
+                            <Track ID="0" Type="9">
+                                <TrackKey ID="0" Time="0" Value="selectprofile last | popform | toggleprofilemenu" />
+                            </Track>
+                        </Animation>
+                    </Animations>
+                    <Element Text="$(CancelText)" TextScale="0.8" Type="1" Name="NoButtonLabel" ID="400" Anchor="0.000000, 0.001563" Dimension="0.240417, 0.055237" IsPassive="T" Tracking="-7" Leading="47" Font="StencilYellow10.asc" />
+                </Element>
+            </Element>
+            <Element PressedTextureFilename="Editor_Element.png" TextureFilename="Editor_Element.png" Type="3" Name="YesButtonGroup" ID="340" Anchor="-0.186458, -0.332292" Dimension="0.265625, 0.127604" IsPassive="T" Tint="255, 255, 255, 0">
+                <Animations>
+                    <Animation Name="NoTrigger">
+                        <Track ID="0" Type="9">
+                            <TrackKey ID="0" Time="0.00625" Value="preselectprofile -1" />
+                            <TrackKey ID="1" Time="0.034375" Value="popform" />
+                        </Track>
+                    </Animation>
+                </Animations>
+                <Element TextureFilename="OptionsButtonShadow.png" Type="2" Name="ButtonShadow" ID="422" Anchor="0.000000, -0.028125" Dimension="0.318750, 0.153125" IsPassive="T" BlendState="3" />
+                <Element Type="2" Name="Structure" ID="414" Anchor="0.000000, 0.021875" Dimension="0.218750, 0.151042" IsPassive="T" Tint="255, 255, 255, 0">
+                    <Element TextureFilename="Joint02B.png" Type="2" Name="Panel::407" ID="415" Anchor="0.122917, -0.026562" Dimension="0.058333, 0.053125" IsPassive="T" MirrorMode="1" />
+                    <Element TextureFilename="Joint02B.png" Type="2" Name="Panel::407" ID="416" Anchor="-0.120833, -0.026562" Dimension="0.058333, 0.053125" IsPassive="T" />
+                    <Element TextureFilename="Joint02.png" Type="2" Name="Panel::403" ID="417" Anchor="-0.121875, -0.023438" Dimension="0.025000, 0.090625" IsPassive="T" />
+                    <Element TextureFilename="Joint02.png" Type="2" Name="Panel::403" ID="418" Anchor="0.125000, -0.023438" Dimension="0.025000, 0.090625" IsPassive="T" MirrorMode="1" />
+                    <Element TextureFilename="Joint01A.png" Type="2" Name="Panel::410" ID="419" Anchor="0.000000, 0.081250" Dimension="0.060417, 0.117188" Rotation="1.5708" IsPassive="T" />
+                    <Element TextureFilename="Lamp_Glow.png" Type="2" Name="NoLamp_Left_Glow" ID="420" Anchor="0.163625, -0.022748" Dimension="0.159307, 0.254167" IsPassive="T" Tint="255, 255, 255, 0" MirrorMode="1" BlendState="5" />
+                    <Element TextureFilename="Lamp_Glow.png" Type="2" Name="NoLamp_Left_Glow" ID="421" Anchor="-0.159292, -0.021186" Dimension="0.159307, 0.254167" IsPassive="T" Tint="255, 255, 255, 0" BlendState="5" />
+                </Element>
+                <Element PressedTextureFilename="Button08_Pressed.png" HighlightedTextureFilename="Button07_Glow.png" TextureFilename="Button08.png" Type="3" Name="YesButton" ID="351" Anchor="0.000000, 0.001562" Dimension="0.234375, 0.134375" HorizontalScale="1.07111" VerticalScale="1.2093">
+                    <Animations>
+                        <Animation Name="CreateButton">
+                            <Track ID="1" Type="9">
+                                <TrackKey ID="0" Time="0" Value="setplayername $(UIElement_NameEntry_Text) | popform | toggleprofilemenu" />
+                            </Track>
+                        </Animation>
+                    </Animations>
+                    <Element Text="$(CreateText)" TextScale="0.8" Type="1" Name="YesButtonlabel" ID="413" Dimension="0.236250, 0.057320" IsPassive="T" Tracking="-7" Leading="47" Font="StencilYellow10.asc" />
+                </Element>
+            </Element>
+            <Element PanelSkin="Scale9Form001.asc" Type="10" Name="PanelBackground" ID="298" Anchor="0.000000, -0.054688" Dimension="0.678561, 0.345834" IsPassive="T" TileSides="T" />
+            <Element Text="$(CreateProfileText)" TextScale="0.7" Type="1" Name="CreateProfileLabel" ID="317" Anchor="-0.000846, -0.001043" Dimension="0.641875, 0.106250" IsPassive="T" Tracking="-7" Leading="47" Font="StencilGray01.asc">
+                <Element TextureFilename="Vents02.png" Type="2" Name="Panel::424" ID="424" Anchor="0.277083, -0.164063" Dimension="0.086458, 0.068750" IsPassive="T" />
+                <Element TextureFilename="Vents02.png" Type="2" Name="Panel::424" ID="425" Anchor="-0.279167, -0.167188" Dimension="0.086458, 0.068750" IsPassive="T" />
+                <Element Type="2" Name="Panel::427" ID="427" Dimension="0.697916, 0.269792" IsPassive="T" Tint="255, 255, 255, 0">
+                    <Element TextureFilename="Bolt01.png" Type="2" Name="Panel::428" ID="428" Anchor="-0.312500, 0.082812" Dimension="0.018750, 0.028125" IsPassive="T" PixelFormat="2" />
+                    <Element TextureFilename="Bolt01.png" Type="2" Name="Panel::428" ID="429" Anchor="-0.168750, -0.189063" Dimension="0.018750, 0.028125" IsPassive="T" PixelFormat="2" />
+                    <Element TextureFilename="Bolt01.png" Type="2" Name="Panel::428" ID="430" Anchor="-0.198958, -0.189064" Dimension="0.018750, 0.028125" IsPassive="T" PixelFormat="2" />
+                    <Element TextureFilename="Bolt01.png" Type="2" Name="Panel::428" ID="431" Anchor="0.205208, -0.190625" Dimension="0.018750, 0.028125" IsPassive="T" PixelFormat="2" />
+                    <Element TextureFilename="Bolt01.png" Type="2" Name="Panel::428" ID="432" Anchor="0.175000, -0.190625" Dimension="0.018750, 0.028125" IsPassive="T" PixelFormat="2" />
+                </Element>
+            </Element>
+            <Element Type="2" Name="ProfileInputGroup" ID="370" Anchor="0.000000, -0.076563" Dimension="0.479167, 0.090625" IsPassive="T" Tint="255, 255, 255, 0">
+                <Element TextureFilename="Arm_Shadow.png" Type="2" Name="Panel::399" ID="399" Dimension="0.089931, 0.535417" Rotation="-1.5708" Visible="F" BlendState="3" />
+                <Element TextureFilename="SlotMoney02.png" Type="2" Name="InputBG" ID="371" Anchor="0.000000, -0.003125" Dimension="0.337500, 0.114063" IsPassive="T">
+                    <Animations>
+                        <Animation Name="SetTextFocus">
+                            <Track ID="0" Type="9">
+                                <TrackKey ID="0" Time="0" Value="focustextbox NameEntry" />
+                            </Track>
+                        </Animation>
+                    </Animations>
+                </Element>
+                <Element PanelSkin="SliderFrame.asc" Type="10" Name="InputFrame" ID="369" Anchor="0.000000, -0.001563" Dimension="0.337500, 0.112500" Visible="F" IsPassive="T" />
+                <Element TextScale="0.9" Type="1" Name="NameEntry" ID="372" Anchor="0.000000, -0.007813" Dimension="0.305001, 0.063570" IsPassive="T" Alignment="0" Enterable="T" MaxChars="10" Tracking="-7" Leading="47" NumericCommas="F" TranslateOnce="T" Font="StencilYellow10.asc">
+                    <Animations>
+                        <Animation Name="SetTextFocus">
+                            <Track ID="0" Type="9">
+                                <TrackKey ID="0" Time="0" Value="focustextbox NameEntry" />
+                            </Track>
+                        </Animation>
+                    </Animations>
+                </Element>
+            </Element>
+            <Element Type="2" Name="CancelButtonGroup" ID="362" Anchor="0.282291, 0.032813" Dimension="0.060417, 0.090625" IsPassive="T" Tint="255, 255, 255, 0">
+                <Element TextureFilename="SlotClose.png" Type="2" Name="Panel::423" ID="423" Dimension="0.081250, 0.120312" IsPassive="T" PixelFormat="2" />
+                <Element PressedTextureFilename="Button02_Pressed.png" HighlightedTextureFilename="Button02_Glow.png" TextureFilename="Button02.png" Type="3" Name="CancelButton" ID="364" Dimension="0.067708, 0.098438" HorizontalScale="1.30769" VerticalScale="1.31746" />
+            </Element>
+        </Element>
+    </FormRoot>
+    <AnimationTriggers>
+        <AnimationTrigger Event="Form Activated (UI Only)" Data="1073741824" Animation="SetTextFocus" />
+        <AnimationTrigger Event="Touches Ended (UI Only)" Data="351" Animation="CreateButton" />
+        <AnimationTrigger Event="Touches Ended (UI Only)" Data="329" Animation="NoTrigger" />
+        <AnimationTrigger Event="Touches Ended (UI Only)" Data="364" Animation="NoTrigger" />
+    </AnimationTriggers>
+</Form>

@@ -1,0 +1,13 @@
+<Doll>
+    <Sprites defaultAnimationSetName="default" defaultAnimationName="run">
+        <Sprite filename="Enemy_Air_Helicopter_Transport_Medium.asc" attachToTag="" sortToParentDepth="F">
+            <Particles>
+                <ParticleSystem type="0" filename="Enemy_Bike_Death_Explosion.fx" attachToTag="attack" actorEvent="-1" actorEventParameter="" animation="death" animationSet="default" animationFrameIndex="30" />
+            </Particles>
+            <Sprite filename="Enemy_Air_Helicopter_Propeller.asc" attachToTag="prop" sortToParentDepth="F">
+                <Particles />
+            </Sprite>
+        </Sprite>
+    </Sprites>
+    <Sounds />
+</Doll>

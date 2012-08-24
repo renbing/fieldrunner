@@ -1,0 +1,28 @@
+﻿<ui>
+	<control type="dialog" name="recycleequip_dialog" background="weapon_retrieve_panel" x="" y="" width="450" height="320" addchild="0" drawrect="0" bgcolor="0x44cc44" >
+		<!--
+		<control type="static" name="recycleequip_npc_photo" x="0" y="0" width="120" height="120" addchild="1" drawrect="2" />
+		<control type="text" name="recycleequip_npc_dialogue" x="120" y="10" width="300" height="100" drawrect="1" fontsize="18" bgcolor="0xcccccc" textcolor="0x753002" align="left" font="黑体" addchild="1" filter="0" filtercolor="0" mouseenable="0" mousechild="0"/>
+		
+		<control type="static" name="recycleequip_equip_pic_1" x="80" y="140" addchild="1" dawrect="0" bgcolor="0xcccccc" />
+		<control type="static" name="recycleequip_equip_pic_2" x="130" y="140" addchild="1" dawrect="0" bgcolor="0xcccccc" />
+		<control type="static" name="recycleequip_equip_pic_3" x="180" y="140" addchild="1" dawrect="0" bgcolor="0xcccccc" />
+		<control type="static" name="recycleequip_equip_pic_4" x="230" y="140" addchild="1" dawrect="0" bgcolor="0xcccccc" />
+		<control type="static" name="recycleequip_equip_pic_5" x="280" y="140" addchild="1" dawrect="0" bgcolor="0xcccccc" />
+		<control type="static" name="recycleequip_equip_select" x="180" y="140" addchild="1" dawrect="0" bgcolor="0xcccccc" />
+		
+		<control type="text" name="recycleequip_name" x="40" y="200" width="150" height="30" drawrect="0" fontsize="14" bgcolor="0xcccccc" textcolor="0x753002" align="left" font="黑体" addchild="1" filter="0" filtercolor="0" mouseenable="0" mousechild="0"/>
+		<control type="text" name="recycleequip_desc" x="200" y="200" width="150" height="30" drawrect="" fontsize="14" bgcolor="0xcccccc" textcolor="0x753002" align="left" font="黑体" addchild="1" filter="0" filtercolor="0" mouseenable="0" mousechild="0"/>
+		<control type="text" name="recycleequip_standard_price" x="40" y="240" width="150" height="30" drawrect="" fontsize="16" bgcolor="0xcccccc" textcolor="0x753002" align="left" font="黑体" addchild="1" filter="0" filtercolor="0" mouseenable="0" mousechild="0"/>
+		<control type="text" name="recycleequip_ask_price" x="200" y="240" width="150" height="30" drawrect="" fontsize="16" bgcolor="0xcccccc" textcolor="0x753002" align="left" font="黑体" addchild="1" filter="0" filtercolor="0" mouseenable="0" mousechild="0"/>
+		
+		<control type="button" name="recycleequip_hero_left_arrow" background="leftBtn" x="50" y="150" addchild="1" />
+		<control type="button" name="recycleequip_hero_right_arrow" background="rightBtn" x="380" y="150" addchild="1" />
+		
+		<control type="button" name="recycleequip_sell_btn" content="卖出" background="" x="20" y="260" drawrect="1" width="60" height="40" addchild="1" bgcolor="0xcccccc" />
+		<control type="button" name="recycleequip_askprice_btn" content="议价" background="" x="110" y="260" drawrect="1" width="60" height="40" addchild="1" bgcolor="0xcccccc" />
+		<control type="button" name="recycleequip_wait_btn" content="等会再说" background="" x="220" y="260" drawrect="1" width="80" height="40" addchild="1" bgcolor="0xcccccc" />
+		<control type="button" name="recycleequip_active_cancel_btn" content="不卖了" background="" x="330" y="260" drawrect="1" width="80" height="40" addchild="1" bgcolor="0xcccccc" />		
+		-->
+	</control>
+</ui>

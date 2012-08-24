@@ -1,0 +1,389 @@
+<!--Copyright 2012 Subatomic Studios, LLC. All rights reserved.-->
+<Form Name="Highscores" BasePlatform="2" Version="77" FormType="1" ClassType="7">
+    <FormRoot Name="Element">
+        <Element TextureFilename="Trans.png" Type="2" Name="ScreenBG" ID="153" Anchor="0.500000, 0.500000" Dimension="1.000000, 1.000000" IsPassive="T" Tint="255, 255, 255, 0" ResizeBias="2" SetChildrenAlpha="T">
+            <Animations>
+                <Animation Name="OpenForm">
+                    <Track ID="5" Type="5">
+                        <TrackKey ID="0" Time="0" />
+                        <TrackKey ID="1" Time="0.403125" Value="255" />
+                    </Track>
+                    <Track ID="23" Type="9">
+                        <TrackKey ID="0" Time="0.196875" Value="playsound UI/Menu/Shell_Move_2" />
+                        <TrackKey ID="1" Time="0.703125" Value="playsound UI/Menu/Shell_Move_2" />
+                    </Track>
+                </Animation>
+                <Animation Name="CloseForm">
+                    <Track ID="12" Type="5">
+                        <TrackKey ID="0" Time="0" Value="253" />
+                        <TrackKey ID="1" Time="0.4" />
+                    </Track>
+                    <Track ID="24" Type="9">
+                        <TrackKey ID="0" Time="0.2" Value="playsound UI/Menu/Shell_Move_2" />
+                    </Track>
+                </Animation>
+            </Animations>
+            <Element TextureFilename="ScreenBG.png" Type="2" Name="BG" ID="285" Dimension="1.000000, 1.000000" IsPassive="T" Tint="255, 255, 255, 0" ResizeBias="2" />
+        </Element>
+        <Element TextureFilename="Trans.png" Type="2" Name="ProductRoot" ID="1" Anchor="0.500000, 0.459375" Dimension="0.837033, 0.553124" IsPassive="T" Tint="255, 255, 255, 0" ResizeBias="2" Margin="1" SetChildrenAlpha="T">
+            <Animations>
+                <Animation Name="OpenForm">
+                    <Track ID="11" Type="1">
+                        <TrackKey ID="0" Time="0.659375" Value="0.500000, -0.443750" />
+                        <TrackKey ID="1" Time="0.76875" Value="0.500000, -0.303125" />
+                        <TrackKey ID="2" Time="1.05" Value="0.500000, 0.490625" />
+                        <TrackKey ID="3" Time="1.10312" Value="0.500000, 0.459375" />
+                    </Track>
+                </Animation>
+                <Animation Name="CloseForm">
+                    <Track ID="17" Type="5">
+                        <TrackKey ID="0" Time="0" Value="255" />
+                        <TrackKey ID="1" Time="0.134375" />
+                    </Track>
+                </Animation>
+            </Animations>
+            <Element TextureFilename="Trans.png" Type="6" Name="ProductSlider" ID="2" Anchor="0.000000, -0.029689" Dimension="0.841667, 0.480989" Tint="255, 255, 255, 0" ResizeBias="2" Margin="1" SliderInverted="F" SliderVertical="T">
+                <Element TextureFilename="Trans.png" Type="2" Name="SlidingNub" ID="3" Anchor="0.000000, -0.204296" Dimension="0.048264, 0.072396" IsPassive="T" Tint="255, 255, 255, 0" ResizeBias="0">
+                    <Element TextureFilename="Trans.png" Type="2" Name="ShowMoreTop" ID="388" Dimension="0.820834, 0.072917" IsPassive="T" Tint="255, 255, 255, 0" SetChildrenAlpha="T">
+                        <Element Text="$(ReleaseToRefreshText)" TextScale="0.7" Type="1" Name="ShowMoreLabelTop" ID="389" Anchor="0.000000, 0.020313" Dimension="0.488333, 0.028153" IsPassive="T" Tint="255, 255, 255, 0" Tracking="-7" Leading="35" TranslateOnce="T" Font="ArialWhite05.asc" />
+                        <Element Text="$(LoadingText)" TextScale="0.7" Type="1" Name="LoadingLabelTop" ID="392" Anchor="0.000000, 0.020313" Dimension="0.680000, 0.028153" IsPassive="T" Tint="194, 202, 205, 0" Tracking="-7" Leading="38" TranslateOnce="T" Font="ArialWhite05.asc" TextEffect="AlphaPulse" />
+                    </Element>
+                    <Element TextureFilename="Trans.png" Type="2" Name="ShowMoreBottom" ID="390" Dimension="0.820834, 0.072917" IsPassive="T" Tint="255, 255, 255, 0" SetChildrenAlpha="T">
+                        <Element Text="$(ReleaseToRefreshText)" TextScale="0.7" Type="1" Name="ShowMoreLabelBottom" ID="391" Anchor="0.000000, 0.020313" Dimension="0.711250, 0.028153" IsPassive="T" Tint="255, 255, 255, 0" Tracking="-7" Leading="35" TranslateOnce="T" Font="ArialWhite05.asc" />
+                        <Element Text="$(LoadingText)" TextScale="0.7" Type="1" Name="LoadingLabelBottom" ID="393" Anchor="0.000000, 0.020313" Dimension="0.680000, 0.028153" IsPassive="T" Tint="194, 202, 205, 0" Tracking="-7" Leading="38" TranslateOnce="T" Font="ArialWhite05.asc" TextEffect="AlphaPulse" />
+                    </Element>
+                </Element>
+                <Element TextureFilename="Trans.png" Type="8" Name="ProductSliderRoot" ID="4" Anchor="0.000000, 0.213932" Dimension="0.833333, 0.053124" IsPassive="T" Tint="255, 255, 255, 0" ResizeBias="2" Margin="1">
+                    <Element TextureFilename="Trans.png" Type="2" Name="ProductRow" ID="5" Dimension="0.854167, 0.054688" IsPassive="T" Tint="255, 255, 255, 0" Margin="1">
+                        <Element TextureFilename="BGWhite.jpg" Type="2" Name="ProductBGPanel" ID="235" Dimension="0.804167, 0.046875" IsPassive="T" Tint="0, 0, 0, 0" MaximumAlpha="50" />
+                        <Element TextureFilename="Trans.png" Type="2" Name="LocalScoresGroup" ID="236" Anchor="0.000000, -0.001563" Dimension="0.818750, 0.055208" Visible="F" IsPassive="T" Tint="255, 255, 255, 0" Margin="7">
+                            <Element Text="That Other Tower" TextScale="0.7" Type="1" Name="MapLabel" ID="237" Anchor="-0.245833, 0.003125" Dimension="0.298750, 0.034375" IsPassive="T" Tint="192, 192, 192, 0" Alignment="0" Tracking="-7" Leading="38" TranslateOnce="T" Font="ArialWhite05.asc" />
+                            <Element Text="100/100" TextScale="0.7" Type="1" Name="ProgressionLabel" ID="238" Anchor="0.342708, 0.001563" Dimension="0.169584, 0.034375" IsPassive="T" Tint="192, 192, 192, 0" Alignment="0" Tracking="-7" Leading="38" TranslateOnce="T" Font="ArialWhite05.asc" />
+                            <Element Text="88,888,888" TextScale="0.7" Type="1" Name="ScoreLabel" ID="239" Anchor="0.179166, 0.000000" Dimension="0.209167, 0.029166" IsPassive="T" Tint="253, 183, 36, 0" Alignment="0" Tracking="1" Leading="34" TranslateOnce="T" Font="ArialWhite03.asc" />
+                            <Element Text="}}}" TextScale="0.6" Type="1" Name="StarsLabel" ID="349" Anchor="-0.052084, 0.000000" Dimension="0.084167, 0.043750" IsPassive="T" Tint="255, 255, 255, 0" Alignment="0" Tracking="-3" Leading="47" TranslateOnce="T" Font="StencilYellow10.asc" />
+                            <Element Text="88/88" TextScale="0.7" Type="1" Name="StarProgress" ID="350" Anchor="-0.022917, 0.000000" Dimension="0.069583, 0.029166" IsPassive="T" Tint="253, 183, 36, 0" Alignment="0" Tracking="1" Leading="34" TranslateOnce="T" Font="ArialWhite03.asc" />
+                        </Element>
+                        <Element TextureFilename="Trans.png" Type="2" Name="GlobalScoresGroup" ID="241" Anchor="0.000000, -0.001563" Dimension="0.818750, 0.055208" IsPassive="T" Tint="255, 255, 255, 0" Margin="7">
+                            <Element Text="1. DunkinButtSack" TextScale="0.65" Type="1" Name="ProfileName" ID="242" Anchor="-0.203125, 0.000000" Dimension="0.388333, 0.031250" IsPassive="T" Tint="192, 192, 192, 0" Alignment="0" Tracking="-7" Leading="38" TranslateOnce="T" Font="ArialWhite05.asc" />
+                            <Element Text="88,888,888" TextScale="0.7" Type="1" Name="ScoreLabel" ID="243" Anchor="0.251041, 0.000000" Dimension="0.288334, 0.029167" IsPassive="T" Tint="253, 183, 36, 0" Alignment="0" Tracking="1" Leading="34" TranslateOnce="T" Font="ArialWhite03.asc" />
+                        </Element>
+                    </Element>
+                </Element>
+            </Element>
+            <Element TextureFilename="Trans.png" Type="2" Name="LoginGroup" ID="327" Anchor="0.000000, 0.087500" Dimension="0.660069, 0.268229" Visible="F" IsPassive="T" Tint="255, 255, 255, 0">
+                <Element Text="$(SignInGameCenterText)" TextScale="0.7" Type="1" Name="LoginLabel" ID="328" Dimension="0.655000, 0.053153" IsPassive="T" Tint="170, 180, 185, 0" Tracking="-7" Leading="38" TranslateOnce="T" Font="ArialWhite05.asc" />
+                <Element TextureFilename="Button02_Shadow.jpg" Type="2" Name="Shadow" ID="330" Anchor="0.000000, -0.090625" Dimension="0.071615, 0.104167" IsPassive="T" Tint="255, 255, 255, 0" BlendState="3" />
+                <Element PressedTextureFilename="GamecenterOn.jpg" HighlightedTextureFilename="Gamecenter_Glow.jpg" TextureFilename="GamecenterOff.jpg" Type="3" Name="LoginButton" ID="329" Anchor="0.000000, -0.081250" Dimension="0.066667, 0.100000" IsPassive="T" Tint="255, 255, 255, 0" PixelFormat="2" HorizontalScale="1.34375" VerticalScale="1.38095">
+                    <SoundMapRoot>
+                        <SoundEvent EventTrigger="Touches Began (UI Only)" SoundEventFullPath="UI/Menu/Button_Press_Down" />
+                        <SoundEvent EventTrigger="Touches Ended (UI Only)" SoundEventFullPath="UI/Menu/Button_Press_Advance" />
+                    </SoundMapRoot>
+                </Element>
+            </Element>
+        </Element>
+        <Element Type="2" Name="Frames" ID="250" Anchor="0.500000, 0.503125" Dimension="1.000000, 1.000000" IsPassive="T" Tint="255, 255, 255, 0" RelativeScale="2.5" ResizeBias="2" Margin="1" PixelFormat="2">
+            <Animations>
+                <Animation Name="OpenForm">
+                    <Track ID="6" Type="11">
+                        <TrackKey ID="0" Time="0.1625" Value="2.5" />
+                        <TrackKey ID="1" Time="0.490625" Value="1" />
+                    </Track>
+                </Animation>
+                <Animation Name="CloseForm">
+                    <Track ID="13" Type="11">
+                        <TrackKey ID="0" Time="0.24375" Value="1" />
+                        <TrackKey ID="1" Time="0.70625" Value="2.5" />
+                    </Track>
+                </Animation>
+            </Animations>
+            <Element Type="2" Name="Headers" ID="373" Anchor="0.000000, 0.296875" Dimension="0.866667, 0.100000" Tint="255, 255, 255, 0" Margin="1">
+                <Animations>
+                    <Animation Name="OpenForm">
+                        <Track ID="25" Type="1">
+                            <TrackKey ID="0" Time="0.60625" Value="0.000000, 0.320313" />
+                            <TrackKey ID="1" Time="0.715625" Value="0.000000, 0.195313" />
+                            <TrackKey ID="2" Time="0.75" Value="0.000000, 0.203125" />
+                        </Track>
+                    </Animation>
+                    <Animation Name="CloseForm">
+                        <Track ID="26" Type="1">
+                            <TrackKey ID="0" Time="0" Value="0.000000, 0.203125" />
+                            <TrackKey ID="1" Time="0.1" Value="0.000000, 0.296875" />
+                        </Track>
+                    </Animation>
+                </Animations>
+                <Element TextureFilename="Trans.png" Type="2" Name="GlobalHeaderRow" ID="374" Dimension="0.818750, 0.069791" IsPassive="T" Margin="5">
+                    <Element TextureFilename="Occlusion_Gradient.jpg" Type="2" Name="HeaderBottomShadow" ID="375" Anchor="0.000000, -0.037500" Dimension="0.841667, 0.075000" IsPassive="T" BlendState="3" />
+                    <Element TextureFilename="ProductPanel.jpg" Type="2" Name="HeaderLeftBackground" ID="376" Anchor="-0.201042, 0.010937" Dimension="0.833333, 0.078125" IsPassive="T" Tint="217, 210, 208, 255" />
+                    <Element TextureFilename="ProductPanel.jpg" Type="2" Name="HeaderRightBackground" ID="377" Anchor="0.265625, 0.010937" Dimension="0.833333, 0.078125" IsPassive="T" Tint="217, 210, 208, 255" MirrorMode="1" />
+                    <Element Text="$(UserText)" TextScale="0.8" Type="1" Name="GlobalUserHeaderLabel" ID="378" Anchor="-0.245833, 0.004688" Dimension="0.298750, 0.046875" IsPassive="T" Alignment="0" Tracking="-7" Leading="35" TranslateOnce="T" Font="ArialWhite05.asc" />
+                    <Element Text="$(ScoreText)" TextScale="0.8" Type="1" Name="GlobalScoreHeaderLabel" ID="379" Anchor="0.187500, 0.004688" Dimension="0.165417, 0.046875" IsPassive="T" Alignment="0" Tracking="-7" Leading="38" TranslateOnce="T" Font="ArialWhite05.asc" />
+                </Element>
+                <Element TextureFilename="Trans.png" Type="2" Name="LocalHeaderRow" ID="380" Dimension="0.818750, 0.069791" Visible="F" IsPassive="T" Margin="7">
+                    <Element TextureFilename="Occlusion_Gradient.jpg" Type="2" Name="HeaderBottomShadow" ID="381" Anchor="0.000000, -0.037500" Dimension="0.841667, 0.075000" IsPassive="T" BlendState="3" />
+                    <Element TextureFilename="ProductPanel.jpg" Type="2" Name="HeaderLeftBackground" ID="382" Anchor="-0.201042, 0.010937" Dimension="0.833333, 0.078125" IsPassive="T" Tint="217, 210, 208, 255" />
+                    <Element TextureFilename="ProductPanel.jpg" Type="2" Name="HeaderRightBackground" ID="383" Anchor="0.265625, 0.010937" Dimension="0.833333, 0.078125" IsPassive="T" Tint="217, 210, 208, 255" MirrorMode="1" />
+                    <Element Text="$(MapText)" TextScale="0.8" Type="1" Name="MapLabel" ID="384" Anchor="-0.245833, 0.004688" Dimension="0.298750, 0.046875" IsPassive="T" Alignment="0" Tracking="-7" Leading="35" TranslateOnce="T" Font="ArialWhite05.asc" />
+                    <Element Text="$(RoundText)" TextScale="0.8" Type="1" Name="ProgressionLabel" ID="385" Anchor="0.340625, 0.004688" Dimension="0.165417, 0.046875" IsPassive="T" Alignment="0" Tracking="-7" Leading="38" TranslateOnce="T" Font="ArialWhite05.asc" />
+                    <Element Text="$(StarsText)" TextScale="0.8" Type="1" Name="StarsLabel" ID="386" Anchor="-0.066666, 0.004688" Dimension="0.102917, 0.046875" IsPassive="T" Alignment="2" Tracking="-7" Leading="35" TranslateOnce="T" Font="ArialWhite05.asc" />
+                    <Element Text="$(ScoreText)" TextScale="0.8" Type="1" Name="ScoreLabel" ID="387" Anchor="0.137500, 0.004688" Dimension="0.132084, 0.046875" IsPassive="T" Alignment="0" Tracking="-7" Leading="35" TranslateOnce="T" Font="ArialWhite05.asc" />
+                </Element>
+            </Element>
+            <Element PanelSkin="ResizeableFrame01.asc" Type="10" Name="Inner" ID="251" Anchor="0.000000, -0.059373" Dimension="1.054167, 0.930208" IsPassive="T" ResizeBias="2" Margin="1" RenderFlags="510">
+                <Element PanelSkin="Test_InnerShadow.asc" Type="10" Name="Shadow" ID="394" Dimension="1.054167, 0.929688" IsPassive="T" BlendState="3" ResizeBias="2" />
+            </Element>
+            <Element PanelSkin="ResizeableFrame02.asc" Type="10" Name="Outer" ID="255" Anchor="0.000000, -0.014062" Dimension="1.054167, 1.020833" IsPassive="T" ResizeBias="2" RenderFlags="238">
+                <Element TextureFilename="Trans.png" Type="2" Name="BottomLeft" ID="256" Anchor="-0.494791, -0.390625" Dimension="0.094792, 0.189063" IsPassive="T" Tint="255, 255, 255, 0" ResizeBias="2" Margin="6">
+                    <Element TextureFilename="Vents02.png" Type="2" Name="BottomLeftVents" ID="257" Anchor="0.000000, -0.039062" Dimension="0.086458, 0.068750" IsPassive="T" ResizeBias="2" PixelFormat="2" />
+                </Element>
+                <Element TextureFilename="Trans.png" Type="2" Name="BottomRight" ID="258" Anchor="0.493750, -0.392188" Dimension="0.094792, 0.189063" IsPassive="T" Tint="255, 255, 255, 0" ResizeBias="2" Margin="6">
+                    <Element TextureFilename="Vents02.png" Type="2" Name="BottomLeftVents" ID="259" Anchor="0.000000, -0.039062" Dimension="0.086458, 0.068750" IsPassive="T" ResizeBias="2" PixelFormat="2" />
+                </Element>
+                <Element PanelSkin="FrameShadow01.asc" Type="10" Name="Shadow" ID="274" Dimension="0.435964, 0.415104" IsPassive="T" RelativeScale="2.4" BlendState="3" ResizeBias="2" RenderFlags="238" />
+                <Element TextureFilename="Trans.png" Type="2" Name="Left" ID="395" Anchor="-0.468750, 0.020312" Dimension="0.053125, 0.258855" IsPassive="T" Tint="255, 255, 255, 0" Margin="7">
+                    <Element TextureFilename="Vents01.png" Type="2" Name="LeftVents" ID="396" Anchor="0.000000, -0.003125" Dimension="0.048958, 0.175000" IsPassive="T" PixelFormat="2" />
+                    <Element Type="2" Name="BoltRoot" ID="397" Anchor="0.010417, 0.000000" Dimension="0.029963, 0.260417" IsPassive="T" Tint="255, 255, 255, 0">
+                        <Element TextureFilename="Bolt01.png" Type="2" Name="Bolt" ID="398" Anchor="0.000000, 0.101563" Dimension="0.018750, 0.028125" IsPassive="T" PixelFormat="2" />
+                        <Element TextureFilename="Bolt01.png" Type="2" Name="Bolt" ID="399" Anchor="0.000000, -0.106249" Dimension="0.018750, 0.028125" IsPassive="T" PixelFormat="2" />
+                    </Element>
+                </Element>
+                <Element TextureFilename="Trans.png" Type="2" Name="Left" ID="400" Anchor="0.468750, 0.020312" Dimension="0.053125, 0.258855" IsPassive="T" Tint="255, 255, 255, 0" Margin="7">
+                    <Element TextureFilename="Vents01.png" Type="2" Name="LeftVents" ID="401" Anchor="0.000000, -0.003125" Dimension="0.048958, 0.175000" IsPassive="T" PixelFormat="2" />
+                    <Element Type="2" Name="BoltRoot" ID="402" Anchor="-0.010417, 0.000000" Dimension="0.029963, 0.260417" IsPassive="T" Tint="255, 255, 255, 0">
+                        <Element TextureFilename="Bolt01.png" Type="2" Name="Bolt" ID="403" Anchor="0.000000, 0.101563" Dimension="0.018750, 0.028125" IsPassive="T" PixelFormat="2" />
+                        <Element TextureFilename="Bolt01.png" Type="2" Name="Bolt" ID="404" Anchor="0.000000, -0.106249" Dimension="0.018750, 0.028125" IsPassive="T" PixelFormat="2" />
+                    </Element>
+                </Element>
+            </Element>
+        </Element>
+        <Element Type="2" Name="ProfileButtonGroups" ID="79" Anchor="0.500000, -0.093750" Dimension="0.997917, 0.134375" IsPassive="T" Tint="255, 255, 255, 0" Expansion="0.000000, 0.744000" Margin="5" PixelFormat="2">
+            <Animations>
+                <Animation Name="OpenForm">
+                    <Track ID="7" Type="1">
+                        <TrackKey ID="0" Time="0.378125" Value="0.500000, -0.100000" />
+                        <TrackKey ID="1" Time="0.49375" Value="0.500000, 0.068750" />
+                    </Track>
+                </Animation>
+                <Animation Name="CloseForm">
+                    <Track ID="16" Type="1">
+                        <TrackKey ID="0" Time="0.24375" Value="0.500000, 0.068750" />
+                        <TrackKey ID="1" Time="0.35" Value="0.500000, -0.093750" />
+                    </Track>
+                </Animation>
+            </Animations>
+            <Element Type="2" Name="Profile1ButtonGroup" ID="80" Anchor="-0.250000, 0.000001" Dimension="0.404167, 0.144792" IsPassive="T" Tint="255, 255, 255, 0" PixelFormat="2">
+                <Element TextureFilename="Title02.jpg" Type="2" Name="ProfileBG1" ID="81" Dimension="0.382292, 0.108333" IsPassive="T" />
+                <Element Text="Profile1" TextScale="0.7" Type="1" Name="ProfileNameLabel" ID="82" Dimension="0.341696, 0.051069" IsPassive="T" Tracking="-7" Leading="47" TranslateOnce="T" Font="StencilYellow10.asc" />
+                <Element PressedTextureFilename="Button09_Pressed.png" HighlightedTextureFilename="Button06_Glow.png" TextureFilename="Button09.png" Type="3" Name="ProfileRightButton" ID="171" Anchor="0.154167, 0.000000" Dimension="0.071181, 0.106771" Visible="F" IsPassive="T" PixelFormat="2" HorizontalScale="1.18947" VerticalScale="1.20455">
+                    <Animations>
+                        <Animation Name="NextProfileTrigger">
+                            <Track ID="1" Type="9">
+                                <TrackKey ID="0" Time="0" Value="applyuiformargs ScoresList.form NextProfile" />
+                            </Track>
+                        </Animation>
+                    </Animations>
+                    <SoundMapRoot>
+                        <SoundEvent EventTrigger="Touches Began (UI Only)" SoundEventFullPath="UI/Menu/Button_Press_Down" />
+                    </SoundMapRoot>
+                    <Element TextureFilename="Button02_Shadow.jpg" Type="2" Name="shadow" ID="200" Anchor="0.000000, -0.001563" Dimension="0.072656, 0.108333" IsPassive="T" BlendState="3" />
+                </Element>
+                <Element PressedTextureFilename="Button09_Pressed.png" HighlightedTextureFilename="Button06_Glow.png" TextureFilename="Button09.png" Type="3" Name="ProfileLeftButton" ID="173" Anchor="-0.153125, 0.000000" Dimension="0.071146, 0.106719" Visible="F" IsPassive="T" MirrorMode="1" PixelFormat="2" HorizontalScale="1.18947" VerticalScale="1.20455">
+                    <Animations>
+                        <Animation Name="PreviousProfileTrigger">
+                            <Track ID="2" Type="9">
+                                <TrackKey ID="0" Time="0" Value="applyuiformargs ScoresList.form PreviousProfile" />
+                            </Track>
+                        </Animation>
+                    </Animations>
+                    <SoundMapRoot>
+                        <SoundEvent EventTrigger="Touches Began (UI Only)" SoundEventFullPath="UI/Menu/Button_Press_Down" />
+                    </SoundMapRoot>
+                    <Element TextureFilename="Button02_Shadow.jpg" Type="2" Name="shadow" ID="276" Dimension="0.072656, 0.108333" IsPassive="T" BlendState="3" />
+                </Element>
+            </Element>
+            <Element Type="2" Name="RegionButtonGroup" ID="91" Anchor="0.228126, 0.001563" Dimension="0.458334, 0.144792" IsPassive="T" Tint="255, 255, 255, 0" Expansion="1.000000, 1.000000" PixelFormat="2">
+                <Element TextureFilename="Title01.jpg" Type="2" Name="Profile4Button" ID="93" Dimension="0.272222, 0.108333" IsPassive="T" />
+                <Element Text="Grasslands" TextScale="0.7" Type="1" Name="CurrentZoneLabel" ID="95" Dimension="0.250030, 0.051069" IsPassive="T" Tracking="-7" Leading="47" TranslateOnce="T" Font="StencilYellow10.asc" />
+                <Element TextureFilename="" Type="2" Name="Structure" ID="278" Dimension="0.389583, 0.194792" IsPassive="T" Tint="255, 255, 255, 0">
+                    <Element TextureFilename="SlotClose.jpg" Type="2" Name="Panel::179" ID="279" Anchor="0.179167, 0.000000" Dimension="0.079167, 0.114583" IsPassive="T" PixelFormat="2" />
+                    <Element TextureFilename="SlotClose.jpg" Type="2" Name="Panel::179" ID="280" Anchor="-0.179167, 0.000000" Dimension="0.079167, 0.114583" IsPassive="T" PixelFormat="2" />
+                </Element>
+                <Element PressedTextureFilename="Button09_Pressed.png" HighlightedTextureFilename="Button06_Glow.png" TextureFilename="Button09.png" Type="3" Name="RegionRightButton" ID="189" Anchor="0.180209, 0.000000" Dimension="0.071146, 0.106719" Expansion="1.000000, 1.000000" PixelFormat="2" HorizontalScale="1.12632" VerticalScale="1.13636">
+                    <Animations>
+                        <Animation Name="NextZoneTrigger">
+                            <Track ID="3" Type="9">
+                                <TrackKey ID="0" Time="0" Value="applyuiformargs ScoresList.form NextZone" />
+                            </Track>
+                        </Animation>
+                    </Animations>
+                    <SoundMapRoot>
+                        <SoundEvent EventTrigger="Touches Began (UI Only)" SoundEventFullPath="UI/Menu/Button_Press_Down" />
+                    </SoundMapRoot>
+                    <Element TextureFilename="Button02_Shadow.jpg" Type="2" Name="shadow" ID="282" Anchor="0.000000, -0.003125" Dimension="0.072656, 0.108333" IsPassive="T" BlendState="3" />
+                </Element>
+                <Element PressedTextureFilename="Button09_Pressed.png" HighlightedTextureFilename="Button06_Glow.png" TextureFilename="Button09.png" Type="3" Name="RegionLeftButton" ID="190" Anchor="-0.179166, 0.000000" Dimension="0.071146, 0.106719" Expansion="1.000000, 1.000000" MirrorMode="1" PixelFormat="2" HorizontalScale="1.18947" VerticalScale="1.20455">
+                    <Animations>
+                        <Animation Name="PreviousZoneTrigger">
+                            <Track ID="4" Type="9">
+                                <TrackKey ID="0" Time="0" Value="applyuiformargs ScoresList.form PreviousZone" />
+                            </Track>
+                        </Animation>
+                    </Animations>
+                    <SoundMapRoot>
+                        <SoundEvent EventTrigger="Touches Began (UI Only)" SoundEventFullPath="UI/Menu/Button_Press_Down" />
+                    </SoundMapRoot>
+                    <Element TextureFilename="Button02_Shadow.jpg" Type="2" Name="shadow" ID="281" Anchor="0.000000, -0.003125" Dimension="0.072656, 0.108333" IsPassive="T" BlendState="3" />
+                </Element>
+            </Element>
+        </Element>
+        <Element TextureFilename="Trans.png" Type="2" Name="ScoreLabelsGroup" ID="244" Anchor="0.500000, 1.062500" Dimension="0.868750, 0.173905" IsPassive="T" RelativeScale="1.2" Margin="1">
+            <Animations>
+                <Animation Name="OpenForm">
+                    <Track ID="9" Type="11">
+                        <TrackKey ID="0" Time="0.228125" Value="1.25" />
+                        <TrackKey ID="1" Time="0.5" Value="1" />
+                        <TrackKey ID="2" Time="0.50625" Value="1" />
+                    </Track>
+                    <Track ID="10" Type="1">
+                        <TrackKey ID="0" Time="0.2125" Value="0.500000, 1.109375" />
+                        <TrackKey ID="1" Time="0.496875" Value="0.500000, 0.796875" />
+                    </Track>
+                </Animation>
+                <Animation Name="CloseForm">
+                    <Track ID="14" Type="11">
+                        <TrackKey ID="0" Time="0.253125" Value="1" />
+                        <TrackKey ID="1" Time="0.7125" Value="1.2" />
+                    </Track>
+                    <Track ID="15" Type="1">
+                        <TrackKey ID="0" Time="0.246875" Value="0.500000, 0.796875" />
+                        <TrackKey ID="1" Time="0.559375" Value="0.500000, 1.062500" />
+                    </Track>
+                </Animation>
+            </Animations>
+            <Element Type="2" Name="GlobalRank" ID="245" Anchor="0.000000, 0.009375" Dimension="0.850000, 0.080208" IsPassive="T" Tint="255, 255, 255, 0" Margin="5" PixelFormat="2">
+                <Element Text="$(RankText) 10,020,229" Type="1" Name="GlobalRankLabel" ID="246" Anchor="-0.019792, 0.000000" Dimension="0.807083, 0.078153" IsPassive="T" Margin="7" Alignment="0" Tracking="-7" Leading="34" TranslateOnce="T" Font="StencilYellow10.asc" />
+            </Element>
+            <Element Type="2" Name="LocalTotalScoreGroup" ID="247" Anchor="0.000000, 0.009375" Dimension="0.850000, 0.080208" IsPassive="T" Tint="255, 255, 255, 0" Margin="5" PixelFormat="2">
+                <Element Text="$(ScoreText): %s" Type="1" Name="TotalScoreLabel" ID="248" Anchor="-0.111459, 0.000000" Dimension="0.619583, 0.078153" IsPassive="T" Margin="7" Alignment="0" Tracking="-6" Leading="47" TranslateOnce="T" Font="StencilYellow10.asc" />
+                <Element Text="}40/50" TextScale="0.85" Type="1" Name="TotalStarsLabel" ID="249" Anchor="0.299999, 0.000000" Dimension="0.244583, 0.059403" IsPassive="T" Margin="3" Alignment="2" Tracking="-11" Leading="47" TranslateOnce="T" Font="StencilYellow10.asc" />
+            </Element>
+        </Element>
+        <Element Type="2" Name="NavGroup" ID="297" Anchor="0.463542, 1.084375" Dimension="1.008333, 0.106250" Visible="F" IsPassive="T" Tint="255, 255, 255, 0" RelativeScale="1.6" PixelFormat="2">
+            <Animations>
+                <Animation Name="CloseFormTrigger">
+                    <Track ID="7" Type="1">
+                        <TrackKey ID="0" Time="0.25" Value="0.457292, 0.943750" />
+                        <TrackKey ID="1" Time="0.5" Value="0.457292, 1.100000" />
+                    </Track>
+                </Animation>
+                <Animation Name="OpenForm">
+                    <Track ID="6" Type="1">
+                        <TrackKey ID="0" Time="0.396875" Value="0.457292, 1.084375" />
+                        <TrackKey ID="1" Time="0.49375" Value="0.457292, 0.943750" />
+                    </Track>
+                    <Track ID="20" Type="11">
+                        <TrackKey ID="0" Time="0" Value="1.3" />
+                        <TrackKey ID="1" Time="0.496875" Value="1" />
+                    </Track>
+                </Animation>
+                <Animation Name="CloseForm">
+                    <Track ID="18" Type="1">
+                        <TrackKey ID="0" Time="0.246875" Value="0.463542, 0.943750" />
+                        <TrackKey ID="1" Time="0.3625" Value="0.463542, 1.084375" />
+                    </Track>
+                    <Track ID="19" Type="11">
+                        <TrackKey ID="0" Time="0.246875" Value="1" />
+                        <TrackKey ID="1" Time="0.75" Value="1.6" />
+                    </Track>
+                </Animation>
+            </Animations>
+            <Element Type="2" Name="CloseButtonGroup" ID="298" Anchor="0.444791, 0.000000" Dimension="0.072917, 0.109375" IsPassive="T" Tint="255, 255, 255, 0" Margin="2" PixelFormat="2">
+                <Element TextureFilename="SlotClose.png" Type="2" Name="Slot" ID="299" Dimension="0.075622, 0.111979" IsPassive="T" PixelFormat="2" />
+                <Element PressedTextureFilename="Button02_Pressed.png" HighlightedTextureFilename="Button02_Glow.png" TextureFilename="Button02.png" Type="3" Name="XButton" ID="300" Dimension="0.067708, 0.098438" IsPassive="T" Expansion="1.000000, 1.000000" PixelFormat="2" HorizontalScale="1.33846" VerticalScale="1.34921">
+                    <Animations>
+                        <Animation Name="CloseFormTrigger">
+                            <Track ID="1" Type="9">
+                                <TrackKey ID="0" Time="0" Value="popform | popform | setform WorldMap.form" />
+                            </Track>
+                        </Animation>
+                    </Animations>
+                    <SoundMapRoot>
+                        <SoundEvent EventTrigger="Touches Began (UI Only)" SoundEventFullPath="UI/Menu/Button_Press_Down" />
+                        <SoundEvent EventTrigger="Touches Ended (UI Only)" SoundEventFullPath="UI/Menu/Button_Press_Back" />
+                    </SoundMapRoot>
+                </Element>
+            </Element>
+            <Element Type="2" Name="MetalBarGroup" ID="301" Dimension="1.114583, 0.090625" IsPassive="T" Tint="255, 255, 255, 0" Margin="1" PixelFormat="2">
+                <Element TextureFilename="TabBG.png" Type="2" Name="MetalBar" ID="302" Anchor="-0.202083, 0.000000" Dimension="0.669791, 0.114063" IsPassive="T" Margin="2" PixelFormat="2" />
+                <Element TextureFilename="TabBG02.png" Type="2" Name="02" ID="303" Anchor="0.256250, 0.000000" Dimension="0.266667, 0.114063" IsPassive="T" PixelFormat="2" />
+            </Element>
+            <Element Type="2" Name="TabDownGroup" ID="304" Anchor="-0.021875, -0.007812" Dimension="0.839584, 0.121875" IsPassive="T" Tint="255, 255, 255, 0" Margin="8" PixelFormat="2">
+                <Element TextureFilename="Trans.png" Type="2" Name="GlobalDownGroup" ID="305" Anchor="0.232291, 0.000000" Dimension="0.273611, 0.138542" IsPassive="T">
+                    <Element TextureFilename="TabDown.png" Type="3" Name="GlobalDownButton" ID="306" Anchor="0.000000, 0.018750" Dimension="0.291667, 0.092188" IsPassive="T" Expansion="-0.128000, 0.872000" PixelFormat="2">
+                        <Animations>
+                            <Animation Name="GlobalTrigger">
+                                <Track ID="4" Type="9">
+                                    <TrackKey ID="0" Time="0" Value="applyuiformargs ScoresNav.form Global" />
+                                </Track>
+                            </Animation>
+                        </Animations>
+                        <SoundMapRoot>
+                            <SoundEvent EventTrigger="Touches Ended (UI Only)" SoundEventFullPath="UI/Menu/Button_Tab" />
+                        </SoundMapRoot>
+                    </Element>
+                    <Element Text="$(GlobalScoresText)" TextScale="0.6" Type="1" Name="GlobalDownLabel" ID="307" Anchor="0.000000, -0.006250" Dimension="0.283553, 0.046875" IsPassive="T" Tint="192, 192, 192, 255" Tracking="-11" Leading="47" TranslateOnce="T" Font="StencilYellow10.asc" />
+                </Element>
+                <Element TextureFilename="Trans.png" Type="2" Name="LocalDownGroup" ID="308" Anchor="-0.041666, 0.000000" Dimension="0.290278, 0.138542" IsPassive="T">
+                    <Element TextureFilename="TabDown.png" Type="3" Name="LocalDownButton" ID="309" Anchor="0.000000, 0.018750" Dimension="0.291667, 0.092188" IsPassive="T" Expansion="-0.128000, 0.821000" PixelFormat="2">
+                        <Animations>
+                            <Animation Name="LocalTrigger">
+                                <Track ID="3" Type="9">
+                                    <TrackKey ID="0" Time="0" Value="applyuiformargs ScoresNav.form Local" />
+                                </Track>
+                            </Animation>
+                        </Animations>
+                        <SoundMapRoot>
+                            <SoundEvent EventTrigger="Touches Ended (UI Only)" SoundEventFullPath="UI/Menu/Button_Tab" />
+                        </SoundMapRoot>
+                    </Element>
+                    <Element Text="$(LocalScoresText)" TextScale="0.6" Type="1" Name="LocalDownLabel" ID="310" Anchor="0.000000, -0.006250" Dimension="0.229387, 0.046875" IsPassive="T" Tint="192, 192, 192, 255" Tracking="-11" Leading="47" TranslateOnce="T" Font="StencilYellow10.asc" />
+                </Element>
+                <Element TextureFilename="Trans.png" Type="2" Name="CardsDownGroup" ID="311" Anchor="-0.297916, 0.000000" Dimension="0.256945, 0.134375" IsPassive="T">
+                    <Element TextureFilename="TabDown.png" Type="3" Name="CardsDownButton" ID="312" Anchor="0.000000, 0.018750" Dimension="0.252084, 0.092188" IsPassive="T" Expansion="-0.231000, 0.872000" PixelFormat="2">
+                        <Animations>
+                            <Animation Name="CardsTrigger">
+                                <Track ID="2" Type="9">
+                                    <TrackKey ID="0" Time="0" Value="applyuiformargs ScoresNav.form Cards" />
+                                </Track>
+                            </Animation>
+                        </Animations>
+                        <SoundMapRoot>
+                            <SoundEvent EventTrigger="Touches Ended (UI Only)" SoundEventFullPath="UI/Menu/Button_Tab" />
+                        </SoundMapRoot>
+                    </Element>
+                    <Element Text="$(CardsText)" TextScale="0.6" Type="1" Name="CardsDownLabel" ID="313" Anchor="0.000000, -0.006250" Dimension="0.229387, 0.046875" IsPassive="T" Tint="192, 192, 192, 255" Tracking="-11" Leading="47" TranslateOnce="T" Font="StencilYellow10.asc" />
+                </Element>
+            </Element>
+            <Element Type="2" Name="TabUpGroup" ID="314" Anchor="-0.013542, -0.023437" Dimension="0.847917, 0.151042" IsPassive="T" Tint="255, 255, 255, 0" Margin="8" PixelFormat="2">
+                <Element Type="2" Name="GlobalUpGroup" ID="315" Anchor="0.222917, 0.000000" Dimension="0.275000, 0.170833" IsPassive="T" Tint="255, 255, 255, 0" PixelFormat="2">
+                    <Element TextureFilename="TabUp.png" Type="3" Name="GlobalUpButton" ID="316" Anchor="0.000000, 0.023438" Dimension="0.278125, 0.112500" IsPassive="T" Expansion="-0.051000, 0.000000" PixelFormat="2" />
+                    <Element Text="$(GlobalScoresText)" TextScale="0.6" Type="1" Name="GlobalUpLabel" ID="317" Anchor="0.000000, 0.014063" Dimension="0.259778, 0.046875" IsPassive="T" Tracking="-11" Leading="47" TranslateOnce="T" Font="StencilYellow10.asc" />
+                </Element>
+                <Element Type="2" Name="LocalUpGroup" ID="318" Anchor="-0.052084, 0.000000" Dimension="0.277083, 0.189583" IsPassive="T" Tint="255, 255, 255, 0" PixelFormat="2">
+                    <Element TextureFilename="TabUp.png" Type="3" Name="LocalUpButton" ID="319" Anchor="0.000000, 0.023438" Dimension="0.278125, 0.112500" IsPassive="T" Expansion="-0.077000, 0.000000" PixelFormat="2" />
+                    <Element Text="$(LocalScoresText)" TextScale="0.6" Type="1" Name="LocalUpLabel" ID="320" Anchor="0.000000, 0.010937" Dimension="0.286458, 0.046903" IsPassive="T" Tracking="-11" Leading="47" TranslateOnce="T" Font="StencilYellow10.asc" />
+                </Element>
+                <Element Type="2" Name="CardsUpGroup" ID="321" Anchor="-0.307292, 0.000000" Dimension="0.238443, 0.172917" IsPassive="T" Tint="255, 255, 255, 0" PixelFormat="2">
+                    <Element TextureFilename="TabUp.png" Type="3" Name="CardsUpButton" ID="322" Anchor="0.000000, 0.023438" Dimension="0.240625, 0.112500" IsPassive="T" Expansion="-0.077000, 0.000000" PixelFormat="2" />
+                    <Element Text="$(CardsText)" TextScale="0.6" Type="1" Name="CardsUpLabel" ID="323" Anchor="0.000000, 0.010937" Dimension="0.226042, 0.046875" IsPassive="T" Tracking="-11" Leading="47" TranslateOnce="T" Font="StencilYellow10.asc" />
+                </Element>
+            </Element>
+        </Element>
+    </FormRoot>
+    <AnimationTriggers>
+        <AnimationTrigger Event="Touch Clicked (UI Only)" Data="189" Animation="NextZoneTrigger" />
+        <AnimationTrigger Event="Touch Clicked (UI Only)" Data="190" Animation="PreviousZoneTrigger" />
+        <AnimationTrigger Event="Touch Clicked (UI Only)" Data="171" Animation="NextProfileTrigger" />
+        <AnimationTrigger Event="Touch Clicked (UI Only)" Data="173" Animation="PreviousProfileTrigger" />
+    </AnimationTriggers>
+</Form>

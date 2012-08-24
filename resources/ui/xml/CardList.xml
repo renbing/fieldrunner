@@ -1,0 +1,277 @@
+<!--Copyright 2012 Subatomic Studios, LLC. All rights reserved.-->
+<Form Name="" BasePlatform="2" Version="77" FormType="1" ClassType="13">
+    <FormRoot Name="Element">
+        <Element TextureFilename="BGTint.png" Type="2" Name="BGTint" ID="597" Anchor="0.500000, 0.500000" Dimension="1.000000, 1.000000" Visible="F" IsPassive="T" BlendState="3" ResizeBias="0" MaximumAlpha="0" />
+        <Element TextureFilename="Trans.png" Type="2" Name="BGTextureGroup" ID="1447" Anchor="0.500000, 0.500000" Dimension="1.000000, 1.000000" ResizeBias="2" SetChildrenAlpha="T">
+            <Animations>
+                <Animation Name="CloseForm">
+                    <Track ID="3" Type="5">
+                        <TrackKey ID="0" Time="0.2" Value="255" />
+                        <TrackKey ID="1" Time="0.496875" />
+                    </Track>
+                </Animation>
+            </Animations>
+            <Element TextureFilename="ScreenBG.png" Type="2" Name="BG" ID="1480" Dimension="1.043372, 1.001042" IsPassive="T" ResizeBias="0" />
+            <Element TextureFilename="ScreenShadow.jpg" Type="2" Name="Panel::1532" ID="1532" Anchor="-0.001042, 0.007813" Dimension="0.864583, 0.727083" BlendState="3" ResizeBias="2">
+                <Animations>
+                    <Animation Name="CloseForm">
+                        <Track ID="2" Type="3">
+                            <TrackKey ID="0" Time="0.2375" Value="0.864583, 0.727083" />
+                            <TrackKey ID="1" Time="0.503125" Value="1.897627, 1.595833" />
+                        </Track>
+                    </Animation>
+                </Animations>
+            </Element>
+        </Element>
+        <Element TextureFilename="Trans.png" Type="2" Name="CardsGroup" ID="105" Anchor="0.500001, 0.507813" Dimension="1.001065, 0.632813" ResizeBias="0" Margin="1" MaximumAlpha="0">
+            <Element TextureFilename="Trans.png" Type="2" Name="Card0" ID="1434" Anchor="0.000000, -0.004688" Dimension="0.321888, 0.665625" IsPassive="T" Tint="128, 64, 0, 255" ResizeBias="0" SetChildrenAlpha="T">
+                <Animations>
+                    <Animation Name="CloseForm">
+                        <Track ID="6" Type="5">
+                            <TrackKey ID="0" Time="0" Value="255" />
+                            <TrackKey ID="1" Time="0.1625" />
+                        </Track>
+                    </Animation>
+                </Animations>
+                <Element TextureFilename="CardShadow.png" Type="2" Name="Shadow" ID="1465" Dimension="0.310374, 0.622916" IsPassive="T" BlendState="3" ResizeBias="0">
+                    <Animations>
+                        <Animation Name="CloseForm">
+                            <Track ID="7" Type="3">
+                                <TrackKey ID="0" Time="0" Value="0.310374, 0.622916" />
+                                <TrackKey ID="1" Time="0.0625" Value="0.007266, 0.014582" />
+                            </Track>
+                            <Track ID="8" Type="5">
+                                <TrackKey ID="0" Time="0" Value="255" />
+                                <TrackKey ID="1" Time="0.06875" />
+                            </Track>
+                        </Animation>
+                    </Animations>
+                </Element>
+                <Element TextureFilename="EmptyStars.png" Type="2" Name="StarsEmpty" ID="1509" Anchor="-0.001042, -0.228125" Dimension="0.234375, 0.056250" IsPassive="T" ResizeBias="0" />
+                <Element TextureFilename="FullStars.jpg" Type="2" Name="StarsFull" ID="1511" Anchor="0.000000, -0.229688" Dimension="0.234375, 0.056250" IsPassive="T" ResizeBias="0" />
+                <Element TextureFilename="CardProgressFill.png" Type="2" Name="CardProgressBarBackground" ID="1478" Anchor="-0.001042, -0.228125" Dimension="0.234028, 0.056250" IsPassive="T" Tint="24, 18, 12, 255" ResizeBias="0" />
+                <Element TextureFilename="CardProgressFill.png" Type="2" Name="CardProgressBar" ID="1462" Anchor="-0.001042, -0.228125" Dimension="0.234375, 0.056250" IsPassive="T" ResizeBias="0" />
+                <Element TextureFilename="Trans.png" Type="2" Name="CardProgress" ID="1460" Anchor="0.000000, -0.229687" Dimension="0.238194, 0.055209" IsPassive="T" ResizeBias="0" />
+                <Element TextureFilename="CardBG.png" Type="2" Name="CardBG" ID="1435" Dimension="0.272917, 0.570313" IsPassive="T" ResizeBias="0" />
+                <Element TextureFilename="Card_IDxx.jpg" Type="2" Name="CardIcon" ID="1436" Anchor="-0.001042, 0.070313" Dimension="0.250000, 0.247656" IsPassive="T" ResizeBias="0" />
+                <Element Text="Card Name&#x0D;&#x0A;" TextScale="0.5" Type="1" Name="CardName" ID="1437" Anchor="0.000000, 0.228125" Dimension="0.269584, 0.038570" IsPassive="T" Tint="225, 217, 189, 255" ResizeBias="0" Tracking="-14" Leading="37" TranslateOnce="T" Font="StencilWhite01.asc" />
+                <Element Text="This is what a card is supposed to look like, maybe. Some day youll be big like me." TextScale="0.52" Type="1" Name="CardDescription" ID="1438" Anchor="0.000000, -0.123437" Dimension="0.215670, 0.107320" IsPassive="T" Tint="95, 81, 69, 255" ResizeBias="0" VerticalAlignment="1" Tracking="0" Leading="32" TranslateOnce="T" Font="ArialWhite03.asc" />
+                <Element Text="0/0 }" TextScale="0.75" Type="1" Name="CardProgressText" ID="1457" Anchor="0.001042, -0.228125" Dimension="0.246698, 0.040653" Visible="F" IsPassive="T" Tint="4, 7, 9, 255" ResizeBias="0" TextureEnvironmentMode="0" Tracking="-5" Leading="35" TranslateOnce="T" Font="ArialWhite05.asc" />
+                <Element TextureFilename="Card_CoinReward.jpg" Type="2" Name="CoinUnrewardGroup" ID="1569" Anchor="-0.001042, 0.070313" Dimension="0.250000, 0.247656" Visible="F" IsPassive="T" ResizeBias="0">
+                    <Element TextureFilename="ShellSubacoin_off.png" Type="2" Name="CoinUnrewardIcon" ID="1570" Anchor="0.002083, 0.014062" Dimension="0.081945, 0.122917" IsPassive="T" ResizeBias="0" PixelFormat="2" />
+                    <Element Text="+1,000" TextScale="0.7" Type="1" Name="CoinUnrewardAmount" ID="1571" Anchor="0.000000, -0.067188" Dimension="0.215670, 0.048986" IsPassive="T" Tint="134, 121, 125, 255" ResizeBias="0" Tracking="-14" Leading="37" TranslateOnce="T" Font="StencilWhite01.asc" />
+                </Element>
+                <Element TextureFilename="Card_ItemReward.jpg" Type="2" Name="ItemUnrewardGroup" ID="1574" Anchor="-0.001042, 0.070313" Dimension="0.250000, 0.247656" Visible="F" IsPassive="T" ResizeBias="0">
+                    <Element TextureFilename="Icon_Expendable_Mine_Off.jpg" Type="2" Name="ItemUnrewardIcon" ID="1575" Anchor="0.002083, 0.020313" Dimension="0.087500, 0.131250" IsPassive="T" ResizeBias="0" PixelFormat="2" />
+                    <Element Text="+5" TextScale="0.7" Type="1" Name="ItemUnrewardAmount" ID="1576" Anchor="0.000000, -0.065625" Dimension="0.215670, 0.048986" IsPassive="T" Tint="137, 126, 130, 255" ResizeBias="0" Tracking="-14" Leading="37" TranslateOnce="T" Font="StencilWhite01.asc" />
+                </Element>
+                <Element TextureFilename="Card_UnitBG.jpg" Type="2" Name="UnitCardObjectiveBG" ID="1579" Anchor="-0.001042, 0.070313" Dimension="0.250000, 0.247656" Visible="F" IsPassive="T" ResizeBias="0">
+                    <Element Text="Defeat 2000 Scrappy Runners" TextScale="0.55" Type="1" Name="UnitCardObjective" ID="1580" Anchor="0.000000, -0.048437" Dimension="0.203170, 0.084403" IsPassive="T" Tint="134, 121, 125, 255" ResizeBias="0" VerticalAlignment="1" Tracking="0" Leading="36" TranslateOnce="T" Font="ArialWhite03.asc" />
+                </Element>
+            </Element>
+        </Element>
+        <Element TextureFilename="Trans.png" Type="2" Name="CoinRewardGroup" ID="1581" Anchor="0.500000, 0.571875" Dimension="1.034251, 1.158333" IsPassive="T" Tint="255, 255, 255, 246">
+            <Element TextureFilename="BGBlack.jpg" Type="2" Name="BGTint" ID="1582" Anchor="0.000000, -0.007812" Dimension="0.884722, 0.764583" IsPassive="T" Tint="255, 255, 255, 0" MaximumAlpha="200">
+                <Animations>
+                    <Animation Name="CoinRewarded">
+                        <Track ID="21" Type="5">
+                            <TrackKey ID="0" Time="0.6125" />
+                            <TrackKey ID="1" Time="1.5" Value="202" />
+                        </Track>
+                    </Animation>
+                    <Animation Name="CoinsAquired">
+                        <Track ID="32" Type="5">
+                            <TrackKey ID="0" Time="0" Value="200" />
+                            <TrackKey ID="1" Time="0.34375" />
+                        </Track>
+                    </Animation>
+                </Animations>
+            </Element>
+            <Element Type="7" Name="Particle" ID="1583" Anchor="0.002083, 0.017187" Dimension="0.687500, 0.687499" IsPassive="T" Tint="255, 255, 255, 246" Filename="UI_Light_Rays002.fx">
+                <Animations>
+                    <Animation Name="CoinRewarded">
+                        <Track ID="19" Type="8">
+                            <TrackKey ID="0" Time="0" Value="3" />
+                            <TrackKey ID="1" Time="0.475" />
+                        </Track>
+                    </Animation>
+                    <Animation Name="CoinsAquired">
+                        <Track ID="28" Type="3">
+                            <TrackKey ID="0" Time="0" Value="0.687500, 0.687499" />
+                            <TrackKey ID="1" Time="0.28125" Value="0.127083, 0.127083" />
+                        </Track>
+                        <Track ID="29" Type="8">
+                            <TrackKey ID="0" Time="0.071875" Value="1" />
+                        </Track>
+                    </Animation>
+                </Animations>
+            </Element>
+            <Element TextureFilename="ShellSubacoin.jpg" Type="2" Name="RewardIcon" ID="1584" Anchor="0.001042, 0.015625" Dimension="0.104167, 0.156250" IsPassive="T" Tint="255, 255, 255, 0" PixelFormat="2">
+                <Animations>
+                    <Animation Name="CoinRewarded">
+                        <Track ID="14" Type="3">
+                            <TrackKey ID="0" Time="0" Value="0.104167, 0.156250" />
+                            <TrackKey ID="1" Time="0.296875" Value="0.166666, 0.249999" />
+                            <TrackKey ID="2" Time="0.3375" Value="0.147222, 0.220833" />
+                        </Track>
+                        <Track ID="16" Type="5">
+                            <TrackKey ID="0" Time="0" />
+                            <TrackKey ID="1" Time="0.203125" Value="255" />
+                        </Track>
+                    </Animation>
+                    <Animation Name="CoinsAquired">
+                        <Track ID="26" Type="3">
+                            <TrackKey ID="0" Time="0" Value="0.147222, 0.220833" />
+                            <TrackKey ID="1" Time="0.2375" Value="0.033333, 0.050000" />
+                        </Track>
+                        <Track ID="27" Type="5">
+                            <TrackKey ID="0" Time="0" Value="255" />
+                            <TrackKey ID="1" Time="0.203125" />
+                        </Track>
+                    </Animation>
+                </Animations>
+            </Element>
+            <Element TextureFilename="Circle_Glow.jpg" Type="2" Name="RimLight" ID="1585" Anchor="0.001042, 0.015625" Dimension="0.143634, 0.215625" IsPassive="T" Tint="255, 255, 255, 0" BlendState="5">
+                <Animations>
+                    <Animation Name="CoinRewarded">
+                        <Track ID="17" Type="5">
+                            <TrackKey ID="0" Time="0.43125" />
+                            <TrackKey ID="1" Time="0.88125" Value="246" />
+                        </Track>
+                    </Animation>
+                    <Animation Name="CoinsAquired">
+                        <Track ID="30" Type="3">
+                            <TrackKey ID="0" Time="0" Value="0.143634, 0.215625" />
+                            <TrackKey ID="1" Time="0.2375" Value="0.046490, 0.069791" />
+                        </Track>
+                        <Track ID="31" Type="5">
+                            <TrackKey ID="0" Time="0" Value="246" />
+                            <TrackKey ID="1" Time="0.078125" />
+                        </Track>
+                    </Animation>
+                </Animations>
+            </Element>
+            <Element Text="Tap to collect {1,000!" TextScale="0.7" Type="1" Name="RewardDescripLabel" ID="1586" Anchor="0.000000, -0.204688" Dimension="0.563333, 0.130237" IsPassive="T" Tint="255, 255, 255, 0" Tracking="-11" Leading="47" TranslateOnce="T" Font="StencilYellow10.asc">
+                <Animations>
+                    <Animation Name="CoinRewarded">
+                        <Track ID="23" Type="5">
+                            <TrackKey ID="0" Time="1.15313" />
+                            <TrackKey ID="1" Time="1.74688" Value="255" />
+                        </Track>
+                    </Animation>
+                    <Animation Name="CoinsAquired">
+                        <Track ID="34" Type="5">
+                            <TrackKey ID="0" Time="0" Value="255" />
+                            <TrackKey ID="1" Time="0.184375" />
+                        </Track>
+                    </Animation>
+                </Animations>
+            </Element>
+            <Element Text="Grunt Deck Collected!" TextScale="0.7" Type="1" Name="DeckCompletedLabel" ID="1587" Anchor="0.000000, -0.231250" Dimension="0.761250, 0.059403" IsPassive="T" Tint="255, 255, 255, 0" Tracking="-9" Leading="47" TranslateOnce="T" Font="StencilGray01.asc">
+                <Animations>
+                    <Animation Name="CoinRewarded">
+                        <Track ID="22" Type="5">
+                            <TrackKey ID="0" Time="1.15625" />
+                            <TrackKey ID="1" Time="1.75937" Value="246" />
+                        </Track>
+                    </Animation>
+                    <Animation Name="CoinsAquired">
+                        <Track ID="33" Type="5">
+                            <TrackKey ID="0" Time="0" Value="246" />
+                            <TrackKey ID="1" Time="0.159375" />
+                        </Track>
+                    </Animation>
+                </Animations>
+            </Element>
+            <Element Type="7" Name="Coins" ID="1588" Dimension="0.912500, 0.912500" IsPassive="T" Filename="Coins.fx">
+                <Animations>
+                    <Animation Name="CoinsAquired">
+                        <Track ID="25" Type="8">
+                            <TrackKey ID="0" Time="0" Value="1" />
+                            <TrackKey ID="1" Time="0.0375" />
+                        </Track>
+                    </Animation>
+                </Animations>
+            </Element>
+            <Element Type="7" Name="Coins" ID="1589" Anchor="0.021875, 0.007813" Dimension="0.912500, 0.912500" IsPassive="T" Filename="Coins.fx">
+                <Animations>
+                    <Animation Name="CoinsAquired">
+                        <Track ID="25" Type="8">
+                            <TrackKey ID="0" Time="0" Value="1" />
+                            <TrackKey ID="1" Time="0.0375" />
+                        </Track>
+                    </Animation>
+                </Animations>
+            </Element>
+            <Element Type="7" Name="Coins" ID="1590" Anchor="-0.038542, 0.000000" Dimension="0.918750, 0.918750" IsPassive="T" Filename="Coins.fx">
+                <Animations>
+                    <Animation Name="CoinsAquired">
+                        <Track ID="25" Type="8">
+                            <TrackKey ID="0" Time="0" Value="1" />
+                            <TrackKey ID="1" Time="0.0375" />
+                        </Track>
+                    </Animation>
+                </Animations>
+            </Element>
+        </Element>
+        <Element Type="2" Name="Frames" ID="1482" Anchor="0.500000, 0.503125" Dimension="1.000000, 1.000000" IsPassive="T" Tint="255, 255, 255, 0" ResizeBias="2" Margin="1">
+            <Animations>
+                <Animation Name="CloseForm">
+                    <Track ID="1" Type="11">
+                        <TrackKey ID="0" Time="0.253125" Value="1" />
+                        <TrackKey ID="1" Time="0.496875" Value="2.3" />
+                    </Track>
+                </Animation>
+            </Animations>
+            <Element PanelSkin="ResizeableFrame01.asc" Type="10" Name="Inner" ID="1483" Anchor="0.000000, -0.012500" Dimension="1.054167, 1.017708" IsPassive="T" ResizeBias="2" RenderFlags="510">
+                <Element PanelSkin="Test_InnerShadow.asc" Type="10" Name="Shadow" ID="1593" Dimension="1.054167, 1.017187" IsPassive="T" BlendState="3" ResizeBias="2" />
+            </Element>
+            <Element PanelSkin="ResizeableFrame02.asc" Type="10" Name="Outer" ID="1512" Anchor="0.000000, -0.014063" Dimension="1.054167, 1.020833" IsPassive="T" ResizeBias="2" RenderFlags="238">
+                <Element TextureFilename="Trans.png" Type="2" Name="BottomLeft" ID="1513" Anchor="-0.453124, -0.390625" Dimension="0.094792, 0.189063" IsPassive="T" Tint="255, 255, 255, 0" ResizeBias="2" Margin="6">
+                    <Element TextureFilename="Vents02.png" Type="2" Name="BottomLeftVents" ID="1514" Anchor="0.000000, -0.039062" Dimension="0.086458, 0.068750" IsPassive="T" ResizeBias="2" PixelFormat="2" />
+                </Element>
+                <Element TextureFilename="Trans.png" Type="2" Name="BottomRight" ID="1515" Anchor="0.451041, -0.392188" Dimension="0.094792, 0.189063" IsPassive="T" Tint="255, 255, 255, 0" ResizeBias="2" Margin="6">
+                    <Element TextureFilename="Vents02.png" Type="2" Name="BottomLeftVents" ID="1516" Anchor="0.000000, -0.039062" Dimension="0.086458, 0.068750" IsPassive="T" ResizeBias="2" PixelFormat="2" />
+                </Element>
+                <Element PanelSkin="FrameShadow01.asc" Type="10" Name="Shadow" ID="1531" Dimension="0.435937, 0.415000" IsPassive="T" RelativeScale="2.4" BlendState="3" ResizeBias="2" RenderFlags="238" />
+                <Element TextureFilename="Trans.png" Type="2" Name="Left" ID="1594" Anchor="-0.468750, 0.020312" Dimension="0.053125, 0.258855" IsPassive="T" Tint="255, 255, 255, 0" Margin="7">
+                    <Element TextureFilename="Vents01.png" Type="2" Name="LeftVents" ID="1595" Anchor="0.000000, -0.003125" Dimension="0.048958, 0.175000" IsPassive="T" PixelFormat="2" />
+                    <Element Type="2" Name="BoltRoot" ID="1596" Anchor="0.010417, 0.000000" Dimension="0.029963, 0.260417" IsPassive="T" Tint="255, 255, 255, 0">
+                        <Element TextureFilename="Bolt01.png" Type="2" Name="Bolt" ID="1597" Anchor="0.000000, 0.101563" Dimension="0.018750, 0.028125" IsPassive="T" PixelFormat="2" />
+                        <Element TextureFilename="Bolt01.png" Type="2" Name="Bolt" ID="1598" Anchor="0.000000, -0.106249" Dimension="0.018750, 0.028125" IsPassive="T" PixelFormat="2" />
+                    </Element>
+                </Element>
+                <Element TextureFilename="Trans.png" Type="2" Name="Right" ID="1599" Anchor="0.468750, 0.020312" Dimension="0.053125, 0.258855" IsPassive="T" Tint="255, 255, 255, 0" Margin="7">
+                    <Element TextureFilename="Vents01.png" Type="2" Name="LeftVents" ID="1600" Anchor="0.000000, -0.003125" Dimension="0.048958, 0.175000" IsPassive="T" PixelFormat="2" />
+                    <Element Type="2" Name="BoltRoot" ID="1601" Anchor="-0.010417, 0.000000" Dimension="0.029963, 0.260417" IsPassive="T" Tint="255, 255, 255, 0">
+                        <Element TextureFilename="Bolt01.png" Type="2" Name="Bolt" ID="1602" Anchor="0.000000, 0.101563" Dimension="0.018750, 0.028125" IsPassive="T" PixelFormat="2" />
+                        <Element TextureFilename="Bolt01.png" Type="2" Name="Bolt" ID="1603" Anchor="0.000000, -0.106249" Dimension="0.018750, 0.028125" IsPassive="T" PixelFormat="2" />
+                    </Element>
+                </Element>
+            </Element>
+        </Element>
+        <Element TextureFilename="Trans.png" Type="2" Name="DeckSliderGroup" ID="1426" Anchor="0.500000, 0.109375" Dimension="0.972917, 0.244791" Margin="5">
+            <Animations>
+                <Animation Name="CloseForm">
+                    <Track ID="4" Type="1">
+                        <TrackKey ID="0" Time="0" Value="0.500000, 0.109375" />
+                        <TrackKey ID="1" Time="0.253125" Value="0.500000, -0.142187" />
+                    </Track>
+                </Animation>
+            </Animations>
+            <Element TextureFilename="Trans.png" Type="6" Name="DeckSlider" ID="1427" Anchor="0.001042, 0.000000" Dimension="0.968750, 0.248958">
+                <Element TextureFilename="Trans.png" Type="3" Name="DeckSliderButton" ID="1428" Anchor="-0.401389, 0.000000" Dimension="0.165972, 0.238541" />
+                <Element TextureFilename="Trans.png" Type="2" Name="DeckMoveGroup" ID="1429" Anchor="-0.002156, -0.043750" Dimension="0.964439, 0.146875">
+                    <Element TextureFilename="Trans.png" Type="2" Name="DeckGroup" ID="1430" Anchor="-0.409375, -0.020312" Dimension="0.137237, 0.213542">
+                        <Element TextureFilename="CardBacking.png" Type="2" Name="DeckArt" ID="1431" Anchor="0.000000, -0.068750" Dimension="0.144749, 0.302084" IsPassive="T">
+                            <Element TextureFilename="CardShadow.png" Type="2" Name="DeckArt" ID="1508" Dimension="0.161458, 0.328125" IsPassive="T" BlendState="3" />
+                            <Element TextureFilename="CardBacking.png" Type="2" Name="DeckArt" ID="1507" Dimension="0.144749, 0.302084" IsPassive="T" />
+                            <Element Text="UILabel" TextScale="0.5" Type="1" Name="DeckLabel" ID="1433" Anchor="-0.001042, 0.096874" Dimension="0.175833, 0.076070" IsPassive="T" Tint="210, 210, 210, 255" Tracking="-14" Leading="37" TranslateOnce="T" Font="StencilWhite01.asc" />
+                            <Element Text="Deck" TextScale="0.5" Type="1" Name="Type" ID="1463" Anchor="0.000000, 0.068749" Dimension="0.175833, 0.076070" IsPassive="T" Tint="205, 205, 205, 255" Tracking="-14" Leading="37" TranslateOnce="T" Font="StencilWhite01.asc" />
+                        </Element>
+                    </Element>
+                </Element>
+            </Element>
+        </Element>
+    </FormRoot>
+</Form>

@@ -1,0 +1,11 @@
+<Doll>
+    <Sprites defaultAnimationSetName="default" defaultAnimationName="run">
+        <Sprite filename="Enemy_Soldier_Medic.asc" attachToTag="" sortToParentDepth="F">
+            <Particles />
+        </Sprite>
+    </Sprites>
+    <Sounds>
+        <Sound type="1" soundpath="Enemies/Enemy_Soldier_Light/Death" replacePrevSoundInstance="T" actorEvent="0" actorEventParameter="" animation="" animationSet="" />
+        <Sound type="1" soundpath="Enemies/Enemy_Soldier_Medic/Special" replacePrevSoundInstance="F" actorEvent="3" actorEventParameter="Special" animation="" animationSet="" />
+    </Sounds>
+</Doll>

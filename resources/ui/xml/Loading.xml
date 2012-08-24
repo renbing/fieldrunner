@@ -1,0 +1,45 @@
+<!--Copyright 2012 Subatomic Studios, LLC. All rights reserved.-->
+<Form Name="" BasePlatform="2" Version="73" ClassType="12">
+    <FormRoot Name="Element">
+        <Animations>
+            <Animation Name="OpenForm">
+                <Track ID="1" Type="9">
+                    <TrackKey ID="0" Time="0" Value="pausemusic on 1000" />
+                </Track>
+            </Animation>
+        </Animations>
+        <Element TextureFilename="LoadingTemp.jpg" Type="2" Name="BG" ID="9" Anchor="0.499999, 0.500000" Dimension="1.000000, 1.000000" IsPassive="T" ResizeBias="0" />
+        <Element Type="2" Name="Tup" ID="10" Anchor="0.500000, 0.979688" Dimension="1.112500, 0.062500" IsPassive="T" Tint="255, 255, 255, 0" ResizeBias="2" Margin="1">
+            <Element TextureFilename="Occlusion_Gradient.jpg" Type="2" Name="Shadow" ID="11" Anchor="0.000000, -0.025000" Dimension="1.035417, 0.033333" IsPassive="T" BlendState="3" ResizeBias="2" />
+            <Element TextureFilename="BoltedBar.jpg" Type="2" Name="bar" ID="12" Anchor="-0.378125, 0.000000" Dimension="0.246875, 0.042188" IsPassive="T" MirrorMode="1" ResizeBias="2" />
+            <Element TextureFilename="BoltedBar.jpg" Type="2" Name="bar" ID="13" Anchor="-0.134375, 0.000000" Dimension="0.246875, 0.042188" IsPassive="T" MirrorMode="1" ResizeBias="2" />
+            <Element TextureFilename="BoltedBar.jpg" Type="2" Name="bar" ID="14" Anchor="0.109375, 0.000000" Dimension="0.246875, 0.042188" IsPassive="T" MirrorMode="1" ResizeBias="2" />
+            <Element TextureFilename="BoltedBar.jpg" Type="2" Name="bar" ID="15" Anchor="0.348958, 0.000000" Dimension="0.246875, 0.042188" IsPassive="T" MirrorMode="1" ResizeBias="2" />
+            <Element TextureFilename="BoltedBar.jpg" Type="2" Name="bar" ID="16" Anchor="0.591667, 0.000000" Dimension="0.246875, 0.042188" IsPassive="T" MirrorMode="1" ResizeBias="2" />
+            <Element TextureFilename="Glow_Blue.JPG" ClipChildren="T" Type="2" Name="Panel::40" ID="40" Dimension="1.050000, 0.043750" IsPassive="T" Tint="255, 255, 255, 0" BlendState="5">
+                <Element TextureFilename="Glow_Blue.JPG" Type="2" Name="Panel::40" ID="41" Anchor="-0.235417, -0.237500" Dimension="0.958333, 1.046875" IsPassive="T" BlendState="5" />
+            </Element>
+        </Element>
+        <Element Type="2" Name="Buttum" ID="17" Anchor="0.481250, 0.020312" Dimension="1.112500, 0.050000" IsPassive="T" Tint="255, 255, 255, 0" ResizeBias="2" Margin="5">
+            <Element TextureFilename="Occlusion_Gradient.jpg" Type="2" Name="Shadow" ID="18" Anchor="0.000000, 0.017188" Dimension="1.035417, 0.033333" IsPassive="T" MirrorMode="2" BlendState="3" ResizeBias="2" />
+            <Element TextureFilename="BoltedBar.jpg" Type="2" Name="bar" ID="19" Anchor="-0.378125, 0.000000" Dimension="0.246875, 0.042188" IsPassive="T" MirrorMode="3" ResizeBias="2" />
+            <Element TextureFilename="BoltedBar.jpg" Type="2" Name="bar" ID="20" Anchor="-0.134375, 0.000000" Dimension="0.246875, 0.042188" IsPassive="T" MirrorMode="3" ResizeBias="2" />
+            <Element TextureFilename="BoltedBar.jpg" Type="2" Name="bar" ID="21" Anchor="0.109375, 0.000000" Dimension="0.246875, 0.042188" IsPassive="T" MirrorMode="3" ResizeBias="2" />
+            <Element TextureFilename="BoltedBar.jpg" Type="2" Name="bar" ID="22" Anchor="0.348958, 0.000000" Dimension="0.246875, 0.042188" IsPassive="T" MirrorMode="3" ResizeBias="2" />
+            <Element TextureFilename="BoltedBar.jpg" Type="2" Name="bar" ID="23" Anchor="0.591667, 0.000000" Dimension="0.246875, 0.042188" IsPassive="T" MirrorMode="3" ResizeBias="2" />
+            <Element TextureFilename="Glow_Orange.JPG" ClipChildren="T" Type="2" Name="Panel::39" ID="39" Dimension="1.035416, 0.040104" IsPassive="T" Tint="255, 255, 255, 0" BlendState="5">
+                <Element TextureFilename="Glow_Orange.JPG" Type="2" Name="Panel::39" ID="42" Anchor="0.195833, 0.000000" Dimension="0.654167, 0.560938" IsPassive="T" BlendState="5" />
+            </Element>
+        </Element>
+        <Element TextureFilename="LoadingTipsBG.png" Type="2" Name="TipGroup" ID="30" Anchor="0.500000, 0.931250" Dimension="0.700000, 0.139062" IsPassive="T" Tint="255, 255, 255, 0" Margin="1">
+            <Element TextureFilename="FieldrunnersTitle_Shadow.jpg" Type="2" Name="Outershadow" ID="38" Anchor="0.001042, -0.006250" Dimension="0.726497, 0.203645" IsPassive="T" BlendState="3" />
+            <Element TextureFilename="MainMenu_PlayShadow.jpg" Type="2" Name="Dropshadow" ID="33" Anchor="0.004167, 0.026563" Dimension="0.772917, 0.100000" IsPassive="T" MirrorMode="2" BlendState="3" />
+            <Element TextureFilename="LoadingTipsBG.png" Type="2" Name="BG" ID="34" Dimension="0.700000, 0.139062" IsPassive="T" />
+            <Element Text="$(LoadingScreenTip)" TextScale="0.68" Type="1" Name="Tip" ID="31" Anchor="0.000000, 0.010938" Dimension="0.572916, 0.077084" IsPassive="T" Tint="207, 225, 239, 254" VerticalAlignment="1" Tracking="-7" Leading="38" TranslateOnce="T" Font="ArialWhite05.asc" />
+        </Element>
+        <Element Text="$(LoadingText)" TextScale="0.7" Type="1" Name="LoadingLabel" ID="44" Anchor="0.500000, 0.065625" Dimension="0.289739, 0.076070" IsPassive="T" Tracking="-8" Leading="47" TranslateOnce="T" Font="StencilYellow10.asc" TextEffect="VerticalScrollWithInitialWait" />
+    </FormRoot>
+    <AnimationTriggers>
+        <AnimationTrigger Event="Form Activated (UI Only)" Data="1073741824" Animation="OpenForm" />
+    </AnimationTriggers>
+</Form>

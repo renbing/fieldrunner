@@ -1,0 +1,27 @@
+<!--Copyright 2012 Subatomic Studios, LLC. All rights reserved.-->
+<Form Name="ComicForm" BasePlatform="2" Version="77" ClassType="23">
+    <FormRoot Name="Element">
+        <Element TextureFilename="Trans.png" Type="2" Name="ComicGroup" ID="1" Anchor="0.500000, 0.500000" Dimension="1.000000, 1.000000" BlendState="3" SetChildrenAlpha="T">
+            <Animations>
+                <Animation Name="CloseForm">
+                    <Track ID="2" Type="5">
+                        <TrackKey ID="0" Time="0" Value="255" />
+                        <TrackKey ID="1" Time="0.24375" />
+                    </Track>
+                    <Track ID="3" Type="9">
+                        <TrackKey ID="0" Time="0.265625" Value="popform" />
+                    </Track>
+                </Animation>
+            </Animations>
+            <Element TextureFilename="Comic0.jpg" Type="2" Name="Comic" ID="5" Anchor="0.000000, -0.003125" Dimension="1.000000, 1.125000" IsPassive="T" />
+            <Element Text="NEWSFLASH! Fieldrunners plunder clonning machine!" TextScale="0.7" Type="1" Name="ComicTitle" ID="13" Anchor="0.000000, 0.448438" Dimension="0.829227, 0.046903" IsPassive="T" Tint="210, 215, 230, 255" Margin="1" Tracking="-7" Leading="35" TranslateOnce="T" Font="ArialWhite05.asc" />
+            <Element Text="$(TapToContinue)" TextScale="0.7" Type="1" Name="TapLabel" ID="15" Anchor="0.000000, -0.426562" Dimension="0.265417, 0.036486" IsPassive="T" Tint="209, 214, 228, 255" Margin="5" Tracking="-6" Leading="35" TranslateOnce="T" Font="ArialWhite05.asc" TextEffect="AlphaPulse" />
+        </Element>
+    </FormRoot>
+    <AnimationTriggers>
+        <AnimationTrigger Event="Touch Clicked (UI Only)" Data="1" Animation="CloseForm" />
+    </AnimationTriggers>
+    <ResettableAnimations>
+        <ResetAnimation Name="CloseForm" />
+    </ResettableAnimations>
+</Form>

@@ -1,0 +1,16 @@
+<config>
+	<drop centerx="100" centery="50" />
+	<house id="1" minute="1" costgold="10" population="10" exp="1" limitlevel="0" />
+	<house id="2" minute="10" costgold="20" population="20" exp="5" limitlevel="0" />
+	<house id="3" minute="30" costgold="40" population="40" exp="10" limitlevel="5" />
+	<house id="4" minute="60" costgold="80" population="80" exp="20" limitlevel="10" />
+	<house id="5" minute="120" costgold="160" population="160" exp="40" limitlevel="20" />
+	<house id="6" minute="240" costgold="320" population="320" exp="60" limitlevel="30" />	
+	<house id="7" minute="480" costgold="640" population="640" exp="80" limitlevel="40" />	
+	
+	<levelup value="1" needgold="0" background="houseBuilding1" />
+	<levelup value="2" needgold="200" background="houseBuilding2" />
+	<levelup value="3" needgold="400" background="houseBuilding3" />
+	<levelup value="4" needgold="800" background="houseBuilding4" />
+	<levelup value="5" needgold="1600" background="houseBuilding4" />
+</config>

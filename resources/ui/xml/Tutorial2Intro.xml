@@ -1,0 +1,469 @@
+<!--Copyright 2012 Subatomic Studios, LLC. All rights reserved.-->
+<Form Name="" BasePlatform="2" Version="74" FormType="2">
+    <FormRoot Name="Element">
+        <Element TextureFilename="BGBlack.jpg" Type="2" Name="Dim" ID="86" Anchor="0.500000, 0.500000" Dimension="1.000000, 1.000000" Tint="255, 255, 255, 192" ResizeBias="2" MaximumAlpha="200" />
+        <Element TextureFilename="Trans.png" Type="2" Name="VictoryClick" ID="17" Anchor="0.500000, 0.500000" Dimension="1.000000, 1.000000" ResizeBias="2">
+            <Animations>
+                <Animation Name="FormExit">
+                    <Track ID="2" Type="9">
+                        <TrackKey ID="0" Time="0" Value="pause off" />
+                    </Track>
+                </Animation>
+            </Animations>
+        </Element>
+        <Element PanelSkin="UnitNoteBox.asc" Type="10" Name="EntryPanel" ID="2" Anchor="0.488542, 0.482813" Dimension="0.703027, 0.747917" Margin="1" PixelFormat="2">
+            <Animations>
+                <Animation Name="GroupOutput">
+                    <Track ID="56" Type="9">
+                        <TrackKey ID="0" Time="4.25" Value="playuianimation Tutorial2Intro.form SoloOutput" />
+                    </Track>
+                </Animation>
+                <Animation Name="FormExit">
+                    <Track ID="1" Type="9">
+                        <TrackKey ID="0" Time="0" Value="pause off | popform" />
+                    </Track>
+                </Animation>
+                <Animation Name="SoloOutput">
+                    <Track ID="37" Type="9">
+                        <TrackKey ID="0" Time="3.25" Value="playuianimation Tutorial2Intro.form GroupOutput" />
+                    </Track>
+                </Animation>
+                <Animation Name="FormEntry">
+                    <Track ID="0" Type="9">
+                        <TrackKey ID="0" Time="0" Value="pause on | playuianimation Tutorial2Intro.form SoloOutput" />
+                        <TrackKey ID="1" Time="4" Value="playuianimation Tutorial2Intro.form TapToContinue" />
+                    </Track>
+                </Animation>
+            </Animations>
+            <Element Text="$(TutorialIntroTitle)" TextScale="0.7" Type="1" Name="What is Fieldrunners?" ID="24" Anchor="0.000000, 0.401563" Dimension="0.608407, 0.061487" IsPassive="T" Tracking="-6" Leading="47" Font="StencilYellow10.asc" />
+            <Element Text="$(TutorialIntroSoloText)" TextScale="0.7" Type="1" Name="1st Text" ID="3" Anchor="0.000000, 0.312500" Dimension="0.658334, 0.042737" IsPassive="T" Tint="205, 220, 230, 0" Tracking="-7" Leading="38" Font="ArialWhite05.asc">
+                <Animations>
+                    <Animation Name="SoloOutput">
+                        <Track ID="54" Type="5">
+                            <TrackKey ID="0" Time="0" />
+                            <TrackKey ID="1" Time="0.240625" Value="255" />
+                            <TrackKey ID="2" Time="2.73438" Value="255" />
+                            <TrackKey ID="3" Time="2.99375" />
+                        </Track>
+                    </Animation>
+                </Animations>
+            </Element>
+            <Element Text="$(TutorialIntroGroupText)" TextScale="0.7" Type="1" Name="2nd Text" ID="20" Anchor="0.000000, 0.312500" Dimension="0.660417, 0.036487" IsPassive="T" Tint="205, 220, 230, 0" Tracking="-7" Leading="38" Font="ArialWhite05.asc">
+                <Animations>
+                    <Animation Name="GroupOutput">
+                        <Track ID="55" Type="5">
+                            <TrackKey ID="0" Time="0" />
+                            <TrackKey ID="1" Time="0.240625" Value="255" />
+                            <TrackKey ID="2" Time="3.25312" Value="255" />
+                            <TrackKey ID="3" Time="3.49375" />
+                        </Track>
+                    </Animation>
+                </Animations>
+            </Element>
+            <Element Text="$(TapToContinue)" TextScale="0.7" Type="1" Name="Tap To Continue..." ID="19" Anchor="0.000000, -0.523438" Dimension="0.371812, 0.051070" IsPassive="T" Tint="205, 220, 230, 255" Tracking="-7" Leading="38" Font="ArialWhite05.asc" TextEffect="AlphaPulse">
+                <Animations>
+                    <Animation Name="TapToContinue">
+                        <Track ID="57" Type="1">
+                            <TrackKey ID="0" Time="3.06875" Value="0.000000, -0.523438" />
+                            <TrackKey ID="1" Time="3.25312" Value="0.000000, -0.414063" />
+                        </Track>
+                    </Animation>
+                </Animations>
+            </Element>
+            <Element TextureFilename="Icon_Tower_Gatling.png" Type="2" Name="Gatling" ID="28" Anchor="0.308333, -0.348437" Dimension="0.133333, 0.200000" IsPassive="T" PixelFormat="2">
+                <Animations>
+                    <Animation Name="GroupOutput">
+                        <Track ID="44" Type="11">
+                            <TrackKey ID="0" Time="0" Value="1" />
+                            <TrackKey ID="1" Time="0.046875" Value="0.7" />
+                            <TrackKey ID="2" Time="0.09375" Value="1" />
+                            <TrackKey ID="3" Time="0.24375" Value="1" />
+                            <TrackKey ID="4" Time="0.29375" Value="0.7" />
+                            <TrackKey ID="5" Time="0.34375" Value="1" />
+                            <TrackKey ID="6" Time="0.49375" Value="1" />
+                            <TrackKey ID="7" Time="0.54375" Value="0.7" />
+                            <TrackKey ID="8" Time="0.590625" Value="1" />
+                            <TrackKey ID="9" Time="0.74375" Value="1" />
+                            <TrackKey ID="10" Time="0.790625" Value="0.7" />
+                            <TrackKey ID="11" Time="0.84375" Value="1" />
+                            <TrackKey ID="12" Time="0.996875" Value="1" />
+                            <TrackKey ID="13" Time="1.04062" Value="0.7" />
+                            <TrackKey ID="14" Time="1.09687" Value="1" />
+                            <TrackKey ID="15" Time="1.24375" Value="1" />
+                            <TrackKey ID="16" Time="1.30313" Value="0.7" />
+                            <TrackKey ID="17" Time="1.34063" Value="1" />
+                            <TrackKey ID="18" Time="1.4875" Value="1" />
+                            <TrackKey ID="19" Time="1.55313" Value="0.7" />
+                            <TrackKey ID="20" Time="1.59687" Value="1" />
+                            <TrackKey ID="21" Time="1.74063" Value="1" />
+                            <TrackKey ID="22" Time="1.79688" Value="0.7" />
+                            <TrackKey ID="23" Time="1.84375" Value="1" />
+                        </Track>
+                    </Animation>
+                    <Animation Name="SoloOutput">
+                        <Track ID="33" Type="11">
+                            <TrackKey ID="0" Time="0.896875" Value="1" />
+                            <TrackKey ID="1" Time="0.990625" Value="0.7" />
+                            <TrackKey ID="2" Time="0.990625" Value="0.7" />
+                            <TrackKey ID="3" Time="1.09375" Value="1" />
+                        </Track>
+                    </Animation>
+                </Animations>
+            </Element>
+            <Element TextureFilename="Trans.png" Type="2" Name="Anim Field" ID="37" Anchor="-0.094792, -0.017188" Dimension="0.001042, 0.001563" IsPassive="T">
+                <Element TextureFilename="TutorialTower.png" Type="2" Name="1,1" ID="39" Anchor="0.394791, -0.334375" Dimension="0.131250, 0.179688" IsPassive="T" Tint="255, 255, 255, 0" RelativeScale="0.8">
+                    <Animations>
+                        <Animation Name="GroupOutput">
+                            <Track ID="20" Type="1">
+                                <TrackKey ID="0" Time="0.05" Value="0.394791, -0.334375" />
+                                <TrackKey ID="1" Time="0.25" Value="-0.102084, 0.140626" />
+                            </Track>
+                            <Track ID="42" Type="5">
+                                <TrackKey ID="0" Time="0" />
+                                <TrackKey ID="1" Time="0.05" />
+                                <TrackKey ID="2" Time="0.10625" Value="255" />
+                            </Track>
+                        </Animation>
+                        <Animation Name="SoloOutput">
+                            <Track ID="26" Type="1">
+                                <TrackKey ID="0" Time="0" Value="4.166667, 0.140626" />
+                            </Track>
+                        </Animation>
+                        <Animation Name="FormEntry">
+                            <Track ID="6" Type="1" />
+                        </Animation>
+                    </Animations>
+                </Element>
+                <Element TextureFilename="TutorialTower.png" Type="2" Name="1,2" ID="48" Anchor="0.392709, -0.332812" Dimension="0.131250, 0.179688" IsPassive="T" Tint="255, 255, 255, 0" RelativeScale="0.8">
+                    <Animations>
+                        <Animation Name="GroupOutput">
+                            <Track ID="21" Type="1">
+                                <TrackKey ID="0" Time="0.3" Value="0.392709, -0.332812" />
+                                <TrackKey ID="1" Time="0.5" Value="-0.100000, 0.018750" />
+                            </Track>
+                            <Track ID="41" Type="5">
+                                <TrackKey ID="0" Time="0" />
+                                <TrackKey ID="1" Time="0.3" />
+                                <TrackKey ID="2" Time="0.346875" Value="255" />
+                            </Track>
+                        </Animation>
+                        <Animation Name="SoloOutput">
+                            <Track ID="27" Type="1">
+                                <TrackKey ID="0" Time="0" Value="-4.166667, -0.012500" />
+                            </Track>
+                        </Animation>
+                        <Animation Name="FormEntry">
+                            <Track ID="7" Type="1" />
+                        </Animation>
+                    </Animations>
+                </Element>
+                <Element TextureFilename="TutorialTower.png" Type="2" Name="1,3" ID="87" Anchor="0.392709, -0.332812" Dimension="0.131250, 0.179688" IsPassive="T" Tint="255, 255, 255, 0" RelativeScale="0.8">
+                    <Animations>
+                        <Animation Name="GroupOutput">
+                            <Track ID="21" Type="1">
+                                <TrackKey ID="0" Time="0.55" Value="0.392709, -0.332812" />
+                                <TrackKey ID="1" Time="0.75" Value="-0.100000, -0.104687" />
+                            </Track>
+                            <Track ID="41" Type="5">
+                                <TrackKey ID="0" Time="0" />
+                                <TrackKey ID="1" Time="0.55" />
+                                <TrackKey ID="2" Time="0.6" Value="255" />
+                            </Track>
+                        </Animation>
+                        <Animation Name="SoloOutput">
+                            <Track ID="27" Type="1">
+                                <TrackKey ID="0" Time="0" Value="-4.166667, -0.012500" />
+                            </Track>
+                        </Animation>
+                        <Animation Name="FormEntry">
+                            <Track ID="7" Type="1" />
+                        </Animation>
+                    </Animations>
+                </Element>
+                <Element TextureFilename="BGBlack.png" ClipChildren="T" Type="2" Name="UnitClipping" ID="77" Anchor="0.095833, 0.014062" Dimension="0.687500, 0.703125" IsPassive="T" Tint="255, 255, 255, 0">
+                    <Element TextureFilename="Icon_SuddenDeath.png" Type="2" Name="Unit2" ID="79" Anchor="-0.438462, -0.212321" Dimension="0.104167, 0.156250" Rotation="0.080065" IsPassive="T">
+                        <Animations>
+                            <Animation Name="GroupOutput">
+                                <Track ID="48" Type="1">
+                                    <TrackKey ID="0" Time="2.00312" Value="-0.438462, -0.212321" />
+                                    <TrackKey ID="1" Time="2.25312" Value="-0.163881, -0.158801" />
+                                    <TrackKey ID="2" Time="2.64375" Value="-0.064583, 0.121875" />
+                                    <TrackKey ID="3" Time="2.75312" Value="-0.002396, 0.129688" />
+                                    <TrackKey ID="4" Time="2.87812" Value="-0.035043, 0.215048" />
+                                    <TrackKey ID="5" Time="3" Value="-0.070833, 0.087500" />
+                                </Track>
+                                <Track ID="49" Type="5">
+                                    <TrackKey ID="0" Time="3" Value="255" />
+                                    <TrackKey ID="1" Time="3.25312" />
+                                </Track>
+                                <Track ID="50" Type="2">
+                                    <TrackKey ID="0" Time="1.99688" Value="0.080065" />
+                                    <TrackKey ID="1" Time="2.24375" Value="-0.316977" />
+                                    <TrackKey ID="2" Time="2.49688" Value="0.16137" />
+                                    <TrackKey ID="3" Time="2.74688" Value="-0.250781" />
+                                    <TrackKey ID="4" Time="3" Value="1.5708" />
+                                </Track>
+                            </Animation>
+                            <Animation Name="SoloOutput">
+                                <Track ID="18" Type="1">
+                                    <TrackKey ID="0" Time="0" Value="-1.041667, -0.162500" />
+                                </Track>
+                            </Animation>
+                        </Animations>
+                    </Element>
+                    <Element TextureFilename="Icon_SuddenDeath.png" Type="2" Name="Unit1" ID="78" Anchor="-0.423125, -0.170312" Dimension="0.104167, 0.156250" IsPassive="T">
+                        <Animations>
+                            <Animation Name="GroupOutput">
+                                <Track ID="45" Type="1">
+                                    <TrackKey ID="0" Time="0" Value="-0.423125, -0.170312" />
+                                    <TrackKey ID="1" Time="2.00312" Value="-0.423125, -0.170312" />
+                                    <TrackKey ID="2" Time="2.24375" Value="-0.110625, -0.170312" />
+                                    <TrackKey ID="3" Time="2.4" Value="-0.123290, -0.082915" />
+                                    <TrackKey ID="4" Time="2.49375" Value="-0.128498, -0.178227" />
+                                </Track>
+                                <Track ID="46" Type="5">
+                                    <TrackKey ID="0" Time="0.015625" Value="255" />
+                                    <TrackKey ID="1" Time="2.49688" Value="255" />
+                                    <TrackKey ID="2" Time="2.75312" />
+                                </Track>
+                                <Track ID="47" Type="2">
+                                    <TrackKey ID="0" Time="1.95" />
+                                    <TrackKey ID="1" Time="2.09687" Value="-0.173584" />
+                                    <TrackKey ID="2" Time="2.25" />
+                                    <TrackKey ID="3" Time="2.50312" Value="1.5708" />
+                                </Track>
+                            </Animation>
+                            <Animation Name="SoloOutput">
+                                <Track ID="17" Type="1">
+                                    <TrackKey ID="0" Time="0" Value="-0.415625, 0.000000" />
+                                    <TrackKey ID="1" Time="1.81875" Value="0.083265, 0.000000" />
+                                    <TrackKey ID="2" Time="2.05312" Value="0.064901, 0.103991" />
+                                    <TrackKey ID="3" Time="2.23438" Value="0.040416, -0.045313" />
+                                    <TrackKey ID="4" Time="2.23438" Value="0.040416, -0.045313" />
+                                </Track>
+                                <Track ID="35" Type="2">
+                                    <TrackKey ID="0" Time="0.003125" />
+                                    <TrackKey ID="1" Time="0.24375" Value="0.142753" />
+                                    <TrackKey ID="2" Time="0.49375" Value="-0.141426" />
+                                    <TrackKey ID="3" Time="0.746875" Value="0.0832711" />
+                                    <TrackKey ID="4" Time="0.990625" Value="-0.0738099" />
+                                    <TrackKey ID="5" Time="1.24688" Value="0.0864923" />
+                                    <TrackKey ID="6" Time="1.49688" Value="-0.16481" />
+                                    <TrackKey ID="7" Time="1.75" Value="0.140544" />
+                                    <TrackKey ID="8" Time="1.84063" />
+                                    <TrackKey ID="9" Time="2.24062" Value="1.57672" />
+                                </Track>
+                                <Track ID="36" Type="5">
+                                    <TrackKey ID="0" Time="2.24688" Value="255" />
+                                    <TrackKey ID="1" Time="2.73125" />
+                                </Track>
+                            </Animation>
+                        </Animations>
+                    </Element>
+                    <Element TextureFilename="Icon_SuddenDeath.png" Type="2" Name="Unit3" ID="80" Anchor="-0.477083, -0.196875" Dimension="0.104167, 0.156250" Rotation="-0.196085" IsPassive="T">
+                        <Animations>
+                            <Animation Name="GroupOutput">
+                                <Track ID="51" Type="1">
+                                    <TrackKey ID="0" Time="2.02187" Value="-0.477083, -0.196875" />
+                                    <TrackKey ID="1" Time="2.25625" Value="-0.188542, -0.196875" />
+                                    <TrackKey ID="2" Time="2.46875" Value="-0.096875, -0.087500" />
+                                    <TrackKey ID="3" Time="2.725" Value="-0.068750, 0.117188" />
+                                    <TrackKey ID="4" Time="3" Value="0.066667, 0.110938" />
+                                    <TrackKey ID="5" Time="3.23125" Value="0.111138, -0.119671" />
+                                    <TrackKey ID="6" Time="3.39375" Value="0.098000, -0.010179" />
+                                    <TrackKey ID="7" Time="3.5" Value="0.088008, -0.141710" />
+                                </Track>
+                                <Track ID="52" Type="5">
+                                    <TrackKey ID="0" Time="3.49688" Value="255" />
+                                    <TrackKey ID="1" Time="3.75312" />
+                                </Track>
+                                <Track ID="53" Type="2">
+                                    <TrackKey ID="0" Time="0" Value="-0.196085" />
+                                    <TrackKey ID="1" Time="2.14063" Value="0.0711901" />
+                                    <TrackKey ID="2" Time="2.37812" Value="-0.211527" />
+                                    <TrackKey ID="3" Time="2.62812" Value="0.345326" />
+                                    <TrackKey ID="4" Time="2.87188" Value="-0.288052" />
+                                    <TrackKey ID="5" Time="3.125" Value="0.367257" />
+                                    <TrackKey ID="6" Time="3.24375" />
+                                    <TrackKey ID="7" Time="3.5" Value="1.5708" />
+                                </Track>
+                            </Animation>
+                            <Animation Name="SoloOutput">
+                                <Track ID="19" Type="1">
+                                    <TrackKey ID="0" Time="0" Value="-1.041667, -0.156250" />
+                                </Track>
+                            </Animation>
+                        </Animations>
+                    </Element>
+                </Element>
+                <Element TextureFilename="TutorialTower.png" Type="2" Name="2,1" ID="41" Anchor="0.392708, -0.329688" Dimension="0.131250, 0.179688" IsPassive="T" Tint="255, 255, 255, 0" RelativeScale="0.8">
+                    <Animations>
+                        <Animation Name="GroupOutput">
+                            <Track ID="22" Type="1">
+                                <TrackKey ID="0" Time="1.30313" Value="0.392708, -0.329688" />
+                                <TrackKey ID="1" Time="1.50312" Value="0.095833, 0.017188" />
+                            </Track>
+                            <Track ID="40" Type="5">
+                                <TrackKey ID="0" Time="0" />
+                                <TrackKey ID="1" Time="1.30625" />
+                                <TrackKey ID="2" Time="1.35312" Value="255" />
+                            </Track>
+                        </Animation>
+                        <Animation Name="SoloOutput">
+                            <Track ID="28" Type="1">
+                                <TrackKey ID="0" Time="0" Value="4.166667, -0.012500" />
+                            </Track>
+                        </Animation>
+                        <Animation Name="FormEntry">
+                            <Track ID="9" Type="1">
+                                <TrackKey ID="0" Time="0.71875" Value="0.396874, -0.323438" />
+                                <TrackKey ID="1" Time="1.00312" Value="0.095833, -0.012500" />
+                            </Track>
+                        </Animation>
+                    </Animations>
+                </Element>
+                <Element TextureFilename="TutorialTower.png" Type="2" Name="2,2" ID="43" Anchor="0.393750, -0.329688" Dimension="0.131250, 0.179688" IsPassive="T" Tint="255, 255, 255, 0" RelativeScale="0.8">
+                    <Animations>
+                        <Animation Name="GroupOutput">
+                            <Track ID="23" Type="1">
+                                <TrackKey ID="0" Time="1.05313" Value="0.393750, -0.329688" />
+                                <TrackKey ID="1" Time="1.24688" Value="0.095833, -0.107812" />
+                            </Track>
+                            <Track ID="39" Type="5">
+                                <TrackKey ID="0" Time="0" />
+                                <TrackKey ID="1" Time="1.05625" />
+                                <TrackKey ID="2" Time="1.09687" Value="255" />
+                            </Track>
+                        </Animation>
+                        <Animation Name="SoloOutput">
+                            <Track ID="29" Type="1">
+                                <TrackKey ID="0" Time="0" Value="4.166667, -0.170312" />
+                            </Track>
+                        </Animation>
+                        <Animation Name="FormEntry">
+                            <Track ID="11" Type="1" />
+                        </Animation>
+                    </Animations>
+                </Element>
+                <Element TextureFilename="TutorialTower.png" Type="2" Name="2,3" ID="88" Anchor="0.393750, -0.329688" Dimension="0.131250, 0.179688" IsPassive="T" Tint="255, 255, 255, 0" RelativeScale="0.8">
+                    <Animations>
+                        <Animation Name="GroupOutput">
+                            <Track ID="23" Type="1">
+                                <TrackKey ID="0" Time="0.8" Value="0.393750, -0.329688" />
+                                <TrackKey ID="1" Time="1" Value="0.095833, -0.232812" />
+                            </Track>
+                            <Track ID="39" Type="5">
+                                <TrackKey ID="0" Time="0.75" />
+                                <TrackKey ID="1" Time="0.80625" />
+                                <TrackKey ID="2" Time="0.853125" Value="255" />
+                            </Track>
+                        </Animation>
+                        <Animation Name="SoloOutput">
+                            <Track ID="29" Type="1">
+                                <TrackKey ID="0" Time="0" Value="4.166667, -0.170312" />
+                            </Track>
+                        </Animation>
+                        <Animation Name="FormEntry">
+                            <Track ID="11" Type="1" />
+                        </Animation>
+                    </Animations>
+                </Element>
+                <Element TextureFilename="TutorialTower.png" Type="2" Name="3,1" ID="46" Anchor="0.406250, -0.329688" Dimension="0.131250, 0.179688" IsPassive="T" Tint="255, 255, 255, 0" RelativeScale="0.8">
+                    <Animations>
+                        <Animation Name="GroupOutput">
+                            <Track ID="24" Type="1">
+                                <TrackKey ID="0" Time="1.55313" Value="0.406250, -0.329688" />
+                                <TrackKey ID="1" Time="1.75" Value="0.287500, 0.142188" />
+                            </Track>
+                            <Track ID="38" Type="5">
+                                <TrackKey ID="0" Time="1.5" />
+                                <TrackKey ID="1" Time="1.55625" />
+                                <TrackKey ID="2" Time="1.6" Value="255" />
+                            </Track>
+                        </Animation>
+                        <Animation Name="SoloOutput">
+                            <Track ID="30" Type="1">
+                                <TrackKey ID="0" Time="0" Value="4.166667, 0.142188" />
+                            </Track>
+                        </Animation>
+                        <Animation Name="FormEntry">
+                            <Track ID="14" Type="1">
+                                <TrackKey ID="0" Time="1.24375" Value="0.394792, -0.331250" />
+                                <TrackKey ID="1" Time="1.50312" Value="0.244792, 0.100000" />
+                            </Track>
+                        </Animation>
+                    </Animations>
+                </Element>
+                <Element TextureFilename="TutorialTower.png" Type="2" Name="3,2" ID="89" Anchor="0.406250, -0.329688" Dimension="0.131250, 0.179688" IsPassive="T" Tint="255, 255, 255, 0" RelativeScale="0.8">
+                    <Animations>
+                        <Animation Name="GroupOutput">
+                            <Track ID="24" Type="1">
+                                <TrackKey ID="0" Time="1.80625" Value="0.406250, -0.329688" />
+                                <TrackKey ID="1" Time="1.99688" Value="0.287500, 0.017188" />
+                            </Track>
+                            <Track ID="38" Type="5">
+                                <TrackKey ID="0" Time="1.75312" />
+                                <TrackKey ID="1" Time="1.80625" />
+                                <TrackKey ID="2" Time="1.84687" Value="255" />
+                            </Track>
+                        </Animation>
+                        <Animation Name="SoloOutput">
+                            <Track ID="30" Type="1">
+                                <TrackKey ID="0" Time="0" Value="4.166667, 0.142188" />
+                            </Track>
+                        </Animation>
+                        <Animation Name="FormEntry">
+                            <Track ID="14" Type="1">
+                                <TrackKey ID="0" Time="1.24375" Value="0.394792, -0.331250" />
+                                <TrackKey ID="1" Time="1.50312" Value="0.244792, 0.100000" />
+                            </Track>
+                        </Animation>
+                    </Animations>
+                </Element>
+                <Element TextureFilename="TutorialTower.png" Type="2" Name="StartGatling" ID="47" Anchor="0.286459, -0.010937" Dimension="0.131250, 0.179688" IsPassive="T" Tint="255, 255, 255, 0">
+                    <Animations>
+                        <Animation Name="GroupOutput">
+                            <Track ID="25" Type="1">
+                                <TrackKey ID="0" Time="0" Value="0.286459, -0.010937" />
+                                <TrackKey ID="1" Time="0.05625" Value="0.286459, -0.106250" />
+                            </Track>
+                            <Track ID="59" Type="11">
+                                <TrackKey ID="0" Time="0.009375" Value="1" />
+                                <TrackKey ID="1" Time="0.25625" Value="0.8" />
+                            </Track>
+                        </Animation>
+                        <Animation Name="SoloOutput">
+                            <Track ID="31" Type="1">
+                                <TrackKey ID="0" Time="1.00312" Value="0.391667, -0.326562" />
+                                <TrackKey ID="1" Time="1.50312" Value="0.286459, -0.010937" />
+                            </Track>
+                            <Track ID="34" Type="5">
+                                <TrackKey ID="0" Time="0" />
+                                <TrackKey ID="1" Time="0.9875" />
+                                <TrackKey ID="2" Time="1.04375" Value="255" />
+                            </Track>
+                            <Track ID="58" Type="11">
+                                <TrackKey ID="0" Time="0.00625" Value="1" />
+                            </Track>
+                        </Animation>
+                        <Animation Name="FormEntry">
+                            <Track ID="15" Type="1">
+                                <TrackKey ID="0" Time="1.49375" Value="0.397917, -0.323437" />
+                                <TrackKey ID="1" Time="1.75312" Value="0.244792, -0.010937" />
+                            </Track>
+                        </Animation>
+                    </Animations>
+                </Element>
+            </Element>
+        </Element>
+    </FormRoot>
+    <AnimationTriggers>
+        <AnimationTrigger Event="Touches Ended (UI Only)" Data="2" Animation="FormExit" />
+        <AnimationTrigger Event="Form Activated (UI Only)" Data="1073741824" Animation="FormEntry" />
+        <AnimationTrigger Event="Touches Ended (UI Only)" Data="17" Animation="FormExit" />
+    </AnimationTriggers>
+    <ResettableAnimations>
+        <ResetAnimation Name="GroupOutput" />
+        <ResetAnimation Name="SoloOutput" />
+    </ResettableAnimations>
+</Form>

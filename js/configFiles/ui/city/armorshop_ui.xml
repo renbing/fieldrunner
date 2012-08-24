@@ -1,0 +1,33 @@
+<ui>
+	<control type="dialog" name="armorshop_panel_dialog" background="armorshop_panel" x="50" y="50" addchild="0" >
+		<text mainname="stuff_name_text_1" subname="" filtercolor="0" />
+		<text mainname="stuff_name_text_2" subname="" filtercolor="0" />
+		<text mainname="stuff_aim_text_1" subname="" filtercolor="0" />
+		<text mainname="stuff_aim_text_2" subname="" filtercolor="0" />
+		<text mainname="stuff_name_text_1" subname="" filtercolor="0" />
+		<text mainname="armorshop_name_text" subname="" filtercolor="0" />
+		<text mainname="gold_text" subname="" filtercolor="0" />
+		
+		<text mainname="armorshop_attr_item_1" subname="armorshop_name_text" filtercolor="0" />
+		<text mainname="armorshop_attr_item_1" subname="armor_atk_text" filtercolor="0" />
+		<text mainname="armorshop_attr_item_1" subname="level_text" filtercolor="0" />	
+		<text mainname="armorshop_attr_item_2" subname="armorshop_name_text" filtercolor="0" />
+		<text mainname="armorshop_attr_item_2" subname="armor_atk_text" filtercolor="0" />
+		<text mainname="armorshop_attr_item_2" subname="level_text" filtercolor="0" />	
+		<text mainname="armorshop_attr_item_3" subname="armorshop_name_text" filtercolor="0" />
+		<text mainname="armorshop_attr_item_3" subname="armor_atk_text" filtercolor="0" />
+		<text mainname="armorshop_attr_item_3" subname="level_text" filtercolor="0" />	
+	
+		<control type="button" name="armorshop_panel_list_left_arrow" background="leftBtn" x="11" y="120" addchild="1" />
+		<control type="button" name="armorshop_panel_list_right_arrow" background="rightBtn" x="696" y="120" addchild="1" />		
+		
+		<control type="button" name="" background="closeIcon" x="685" y="28" addchild="1" >
+			<function evttype="click" callback="OnCloseObjectAtDialog" />
+		</control>
+	</control>
+	<control type="dialog" name="armorshop_hint_tips" background="" x="" y="" width="120" height="40" addchild="0" drawrect="3" bgcolor="0xf0efe0" >
+		<control type="text" name="armorshop_hint_tips_content" background="" x="5" y="2" width="110" height="36" addchild="1" drawrect="0" bgcolor="0x90ffff" textcolor="0xff0000" fontsize="14" align="center" multiline="1" filter="0" />	
+	</control>
+	
+		<control type="dialog" name="armor_forge_dialog" background="stuff_finish_panel" />
+</ui>

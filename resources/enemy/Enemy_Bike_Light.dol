@@ -1,0 +1,16 @@
+<Doll>
+    <Sprites defaultAnimationSetName="default" defaultAnimationName="run">
+        <Sprite filename="Enemy_Bike_Light.asc" attachToTag="" sortToParentDepth="F">
+            <Particles>
+                <ParticleSystem type="1" filename="Enemy_Bike_Death_Explosion.fx" attachToTag="attack" actorEvent="0" actorEventParameter="" animation="" animationSet="" animationFrameIndex="-1" removeOnSetChange="F" />
+                <ParticleSystem type="1" filename="Enemy_Bike_Light_Exhaust.fx" attachToTag="dust" actorEvent="3" actorEventParameter="" animation="" animationSet="" animationFrameIndex="-1" removeOnSetChange="T" />
+            </Particles>
+        </Sprite>
+    </Sprites>
+    <Sounds>
+        <Sound type="0" soundpath="Common/Explosions/Explosion_Machine_Smaller" replacePrevSoundInstance="F" actorEvent="-1" actorEventParameter="" animation="death" animationSet="default" animationFrameIndex="13" />
+        <Sound type="0" soundpath="Common/Explosions/Explosion_Machine_SmallerBounce" replacePrevSoundInstance="T" actorEvent="-1" actorEventParameter="" animation="death" animationSet="default" animationFrameIndex="27" />
+        <Sound type="1" soundpath="Enemies/Enemy_Bike_Light/Spawn" replacePrevSoundInstance="T" actorEvent="3" actorEventParameter="" animation="" animationSet="" />
+        <Sound type="1" soundpath="Common/Explosions/Explosion_Weapon" replacePrevSoundInstance="T" actorEvent="0" actorEventParameter="" animation="" animationSet="" />
+    </Sounds>
+</Doll>

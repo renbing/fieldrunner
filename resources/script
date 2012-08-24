@@ -1,0 +1,1 @@
+ls -lhS ~/private/fieldrunner/*.jpg | grep K | awk '{if(int($5) >= 300) print $9}' | while read line; do cp $line .; done

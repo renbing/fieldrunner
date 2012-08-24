@@ -1,0 +1,24 @@
+<Doll>
+    <Sprites defaultAnimationSetName="level1" defaultAnimationName="idle" dithered="F">
+        <Sprite filename="Tower_Spark_Base.asc" attachToTag="" sortToParentDepth="F">
+            <Particles>
+                <ParticleSystem type="1" filename="Tower_Transition_Placed.fx" attachToTag="anchor" actorEvent="3" actorEventParameter="" animation="" animationSet="" animationFrameIndex="-1" renderQueueOffset="1" removeOnSetChange="F" />
+                <ParticleSystem type="1" filename="Tower_Transition_Upgrade.fx" attachToTag="anchor" actorEvent="5" actorEventParameter="" animation="" animationSet="" animationFrameIndex="-1" renderQueueOffset="1" removeOnSetChange="F" />
+            </Particles>
+            <Sprite filename="Tower_Spark_Turret.asc" attachToTag="anchor" sortToParentDepth="F">
+                <Particles>
+                    <ParticleSystem type="1" filename="Tower_Transition_Placed.fx" attachToTag="anchor" actorEvent="3" actorEventParameter="" animation="" animationSet="" animationFrameIndex="-1" renderQueueOffset="1" removeOnSetChange="F" />
+                    <ParticleSystem type="1" filename="Tower_Transition_Upgrade.fx" attachToTag="anchor" actorEvent="5" actorEventParameter="" animation="" animationSet="" animationFrameIndex="-1" renderQueueOffset="1" removeOnSetChange="F" />
+                </Particles>
+            </Sprite>
+        </Sprite>
+    </Sprites>
+    <Sounds>
+        <Sound type="0" soundpath="Towers/Tower_Spark/Attack" replacePrevSoundInstance="T" actorEvent="-1" actorEventParameter="" animation="attack1" animationSet="level1" animationFrameIndex="0" />
+        <Sound type="0" soundpath="Towers/Tower_Spark/Attack" replacePrevSoundInstance="T" actorEvent="-1" actorEventParameter="" animation="attack2" animationSet="level1" animationFrameIndex="0" />
+        <Sound type="0" soundpath="Towers/Tower_Spark/Attack" replacePrevSoundInstance="T" actorEvent="-1" actorEventParameter="" animation="attack1" animationSet="level2" animationFrameIndex="0" />
+        <Sound type="0" soundpath="Towers/Tower_Spark/Attack" replacePrevSoundInstance="T" actorEvent="-1" actorEventParameter="" animation="attack2" animationSet="level2" animationFrameIndex="0" />
+        <Sound type="0" soundpath="Towers/Tower_Spark/Attack" replacePrevSoundInstance="T" actorEvent="-1" actorEventParameter="" animation="attack1" animationSet="level3" animationFrameIndex="0" />
+        <Sound type="0" soundpath="Towers/Tower_Spark/Attack" replacePrevSoundInstance="T" actorEvent="-1" actorEventParameter="" animation="attack2" animationSet="level3" animationFrameIndex="0" />
+    </Sounds>
+</Doll>

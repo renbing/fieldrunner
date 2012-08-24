@@ -1,0 +1,55 @@
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<root>
+	<!-- 全局配置数据定义
+英雄头像id与男女
+	-->
+	<hero id="1" ismale="0"/>
+	<hero id="2" ismale="0"/>
+	<hero id="3" ismale="0"/>
+	<hero id="4" ismale="0"/>
+	<hero id="5" ismale="0"/>
+	<hero id="6" ismale="0"/>
+	<hero id="7" ismale="0"/>
+	<hero id="8" ismale="0"/>
+	<hero id="9" ismale="1"/>
+	<hero id="10" ismale="1"/>
+	<hero id="11" ismale="1"/>
+	<hero id="12" ismale="1"/>
+	<hero id="13" ismale="1"/>
+	<hero id="14" ismale="1"/>
+	<hero id="15" ismale="1"/>
+	<hero id="16" ismale="1"/>
+	<hero id="17" ismale="1"/>
+	<hero id="18" ismale="1"/>
+	<hero id="19" ismale="1"/>
+	<hero id="20" ismale="1"/>
+	<hero id="21" ismale="1"/>
+	<hero id="22" ismale="1"/>
+	<hero id="23" ismale="1"/>
+	<hero id="24" ismale="1"/>
+	<hero id="25" ismale="1"/>
+	<hero id="26" ismale="1"/>
+	<hero id="27" ismale="1"/>
+	<hero id="28" ismale="1"/>
+	<hero id="29" ismale="0"/>
+	<hero id="30" ismale="0"/>
+	<hero id="31" ismale="0"/>
+	<hero id="32" ismale="0"/>
+	<hero id="33" ismale="0"/>
+	<hero id="34" ismale="0"/>
+	<hero id="35" ismale="1"/>
+	<hero id="36" ismale="1"/>
+	<hero id="37" ismale="1"/>
+	<hero id="38" ismale="1"/>
+	<hero id="39" ismale="1"/>
+	<hero id="40" ismale="1"/>
+	<hero id="41" ismale="1"/>
+	<hero id="42" ismale="1"/>
+	<hero id="43" ismale="1"/>
+	<hero id="44" ismale="1"/>
+	<hero id="45" ismale="1"/>
+	<hero id="46" ismale="1"/>
+	<hero id="47" ismale="1"/>
+	<hero id="48" ismale="1"/>
+</root>

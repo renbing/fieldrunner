@@ -1,0 +1,14 @@
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<achivement>
+	<score name="骑士侍从" value="0" photo="knight_1" x="611" y="229"/>
+	<score name="见习骑士" value="60" photo="knight_2" x="599" y="206"/>
+	<score name="青铜骑士" value="173" photo="knight_3" x="618" y="146"/>
+	<score name="黑铁骑士" value="340" photo="knight_4" x="608" y="174"/>
+	<score name="白银骑士" value="560" photo="knight_5" x="611" y="146"/>
+	<score name="黄金骑士" value="834" photo="knight_6" x="592" y="156"/>
+	<score name="男爵" value="1161" photo="knight_7" x="569" y="160"/>
+	<score name="子爵" value="1541" photo="knight_8" x="581" y="112"/>
+	<score name="伯爵" value="1975" photo="knight_9" x="569" y="119"/>
+	<score name="侯爵" value="2462" photo="knight_10" x="559" y="77"/>
+	<score name="公爵" value="3000" photo="knight_11" x="480" y="61"/>
+</achivement>

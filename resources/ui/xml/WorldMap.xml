@@ -1,0 +1,1478 @@
+<!--Copyright 2012 Subatomic Studios, LLC. All rights reserved.-->
+<Form Name="WorldMap" BasePlatform="2" Version="77" FormType="1" UseUICamera="T" ClassType="1">
+    <FormRoot Name="Element">
+        <Element TextureFilename="Trans.png" Type="2" Name="WorldMapBackground" ID="1" Anchor="0.498958, 0.498437" Dimension="1.000000, 1.000000" ResizeBias="0">
+            <Animations>
+                <Animation Name="PlayMusic">
+                    <Track ID="25" Type="9">
+                        <TrackKey ID="0" Time="0" Value="playmusic Music_Theme.mp3" />
+                    </Track>
+                </Animation>
+            </Animations>
+            <Element Type="2" Name="WorldMapPieces" ID="625" Dimension="1.000000, 1.000000" IsPassive="T" Tint="255, 255, 255, 0" ResizeBias="0">
+                <Element TextureFilename="Worldmap_Sky.jpg" Type="2" Name="Sky" ID="322376542" Anchor="0.000000, 0.296875" Dimension="1.149998, 0.431250" IsPassive="T" Expansion="0.026000, 0.000000" ResizeBias="0" Dithered="T">
+                    <Element Type="7" Name="Stars" ID="322376543" Anchor="0.141483, 0.096843" Dimension="0.379166, 0.379167" IsPassive="T" ResizeBias="0" Filename="UI_World_Stars.fx">
+                        <Animations>
+                            <Animation Name="openmenuoptions">
+                                <Track ID="19" Type="8">
+                                    <TrackKey ID="0" Time="0" />
+                                </Track>
+                            </Animation>
+                        </Animations>
+                    </Element>
+                    <Element Type="7" Name="Moon_GlowBottom" ID="322376681" Anchor="0.443750, 0.034374" Dimension="0.289583, 0.289584" IsPassive="T" RelativeScale="1.85" ResizeBias="0" Filename="UI_Moon_Glow.fx">
+                        <Animations>
+                            <Animation Name="openmenuoptions">
+                                <Track ID="19" Type="8">
+                                    <TrackKey ID="0" Time="0" />
+                                </Track>
+                            </Animation>
+                        </Animations>
+                    </Element>
+                    <Element Type="7" Name="Moon" ID="322376679" Anchor="0.443750, 0.032812" Dimension="0.289583, 0.289584" IsPassive="T" RelativeScale="1.34" ResizeBias="0" Filename="UI_Moon.fx">
+                        <Animations>
+                            <Animation Name="openmenuoptions">
+                                <Track ID="19" Type="8">
+                                    <TrackKey ID="0" Time="0" />
+                                </Track>
+                            </Animation>
+                        </Animations>
+                    </Element>
+                    <Element Type="7" Name="Background_CloudLarge" ID="322376544" Anchor="0.000000, 0.064062" Dimension="0.100000, 0.100000" IsPassive="T" RelativeScale="2" ResizeBias="0" Margin="1" Dithered="T" Filename="UI_Worldmap_CloudLarge_Back.fx">
+                        <Animations>
+                            <Animation Name="openmenuoptions">
+                                <Track ID="20" Type="8">
+                                    <TrackKey ID="0" Time="0" />
+                                </Track>
+                            </Animation>
+                        </Animations>
+                    </Element>
+                    <Element Type="7" Name="Background_CloudLargeStarter" ID="322376707" Anchor="-0.001044, 0.003125" Dimension="0.100000, 0.100000" IsPassive="T" RelativeScale="2" ResizeBias="0" Margin="1" Dithered="T" Filename="UI_Worldmap_CloudLarge_BackStarter.fx">
+                        <Animations>
+                            <Animation Name="openmenuoptions">
+                                <Track ID="20" Type="8">
+                                    <TrackKey ID="0" Time="0" />
+                                </Track>
+                            </Animation>
+                        </Animations>
+                    </Element>
+                    <Element Type="7" Name="Moon_GlowTop" ID="322376680" Anchor="0.440625, 0.032812" Dimension="0.289583, 0.289584" IsPassive="T" RelativeScale="1.85" ResizeBias="0" Filename="UI_Moon_Glow.fx">
+                        <Animations>
+                            <Animation Name="openmenuoptions">
+                                <Track ID="19" Type="8">
+                                    <TrackKey ID="0" Time="0" />
+                                </Track>
+                            </Animation>
+                        </Animations>
+                    </Element>
+                    <Element TextureFilename="Cloud_Large_02.jpg" Type="2" Name="Preload_Cloud_Large_02" ID="322376723" Dimension="0.533333, 0.645312" Visible="F" ResizeBias="0" PixelFormat="2" Dithered="T" />
+                    <Element TextureFilename="Cloud_Large_01.jpg" Type="2" Name="Preload_Cloud_Large_01" ID="322376724" Dimension="0.533333, 0.507813" Visible="F" ResizeBias="0" PixelFormat="2" Dithered="T" />
+                </Element>
+                <Element TextureFilename="Worldmap_Background.jpg" Type="2" Name="Image" ID="696" Anchor="0.000000, -0.028125" Dimension="1.053125, 0.950000" IsPassive="T" ResizeBias="0">
+                    <Element Type="7" Name="Foreground_CloudSmallFront" ID="322376546" Anchor="0.000914, 0.336513" Dimension="0.100000, 0.100000" IsPassive="T" RelativeScale="1.65" ResizeBias="0" Filename="UI_Worldmap_CloudSmall_Front.fx">
+                        <Animations>
+                            <Animation Name="openmenuoptions">
+                                <Track ID="20" Type="8">
+                                    <TrackKey ID="0" Time="0" />
+                                </Track>
+                            </Animation>
+                        </Animations>
+                    </Element>
+                    <Element Type="7" Name="Foreground_CloudMid" ID="322376547" Anchor="0.001912, 0.313775" Dimension="0.114583, 0.114583" IsPassive="T" RelativeScale="1.8" ResizeBias="0" Filename="UI_Worldmap_CloudLarge_FrontMid.fx">
+                        <Animations>
+                            <Animation Name="openmenuoptions">
+                                <Track ID="20" Type="8">
+                                    <TrackKey ID="0" Time="0" />
+                                </Track>
+                            </Animation>
+                        </Animations>
+                    </Element>
+                    <Element TextureFilename="Worldmap_CloudLarge.jpg" Type="2" Name="Preload_Worldmap_CloudLarge" ID="322376693" Dimension="0.533333, 0.185937" Visible="F" ResizeBias="0" PixelFormat="2" Dithered="T" />
+                    <Element TextureFilename="FR2_WM_Clouds1.jpg" Type="2" Name="Preload_FR2_WM_Clouds1" ID="234789" Dimension="0.533333, 0.185937" Visible="F" ResizeBias="0" PixelFormat="2" Dithered="T" />
+                    <Element TextureFilename="FR2_WM_Clouds_SM2.jpg" Type="2" Name="Preload_FR2_WM_Clouds_SM2" ID="24234" Dimension="0.533333, 0.185937" Visible="F" ResizeBias="0" PixelFormat="2" Dithered="T" />
+                    <Element TextureFilename="FR2_WM_Clouds_SM1.jpg" Type="2" Name="Preload_FR2_WM_Clouds_SM1" ID="1123523" Dimension="0.533333, 0.185937" Visible="F" ResizeBias="0" PixelFormat="2" Dithered="T" />
+                    <Element TextureFilename="Cloud_Top_02.jpg" Type="2" Name="Preload_Cloud_Top_02" ID="322376725" Dimension="0.533333, 0.528125" Visible="F" ResizeBias="0" PixelFormat="2" Dithered="T" />
+                    <Element TextureFilename="Cloud_Top_01.jpg" Type="2" Name="Preload_Cloud_Top_01" ID="322376726" Dimension="0.533333, 0.379687" Visible="F" ResizeBias="0" PixelFormat="2" Dithered="T" />
+                    <Element TextureFilename="Cloud_Large_02.jpg" Type="2" Name="Preload_Cloud_Large_02" ID="322376727" Dimension="0.533333, 0.645312" Visible="F" ResizeBias="0" PixelFormat="2" Dithered="T" />
+                    <Element TextureFilename="Cloud_Large_01.jpg" Type="2" Name="Preload_Cloud_Large_01" ID="322376728" Dimension="0.533333, 0.507813" Visible="F" ResizeBias="0" PixelFormat="2" Dithered="T" />
+                    <Element TextureFilename="Cloud_Bottom_02.jpg" Type="2" Name="Preload_Cloud_Bottom_02" ID="322376729" Dimension="0.533333, 0.464063" Visible="F" ResizeBias="0" PixelFormat="2" Dithered="T" />
+                    <Element TextureFilename="Cloud_Bottom_01.jpg" Type="2" Name="Preload_Cloud_Bottom_01" ID="322376730" Dimension="0.533333, 0.400000" Visible="F" ResizeBias="0" PixelFormat="2" Dithered="T" />
+                </Element>
+                <Element Type="2" Name="Ambient Eagle Sound" ID="688" Anchor="-0.178125, 0.246875" Dimension="0.060417, 0.090625" IsPassive="T" Tint="255, 255, 255, 0" ResizeBias="0">
+                    <SoundMapRoot>
+                        <SoundEvent EventTrigger="Form Activated (UI Only)" SoundEventFullPath="Ambients/World/Birds" />
+                    </SoundMapRoot>
+                </Element>
+                <Element Type="2" Name="Ambient Grasslands Sound" ID="689" Anchor="-0.290625, -0.050000" Dimension="0.060417, 0.090625" IsPassive="T" ResizeBias="0">
+                    <SoundMapRoot>
+                        <SoundEvent EventTrigger="Form Activated (UI Only)" SoundEventFullPath="Ambients/World/Grasslands UI Ambients" />
+                    </SoundMapRoot>
+                </Element>
+                <Element Type="2" Name="Ambient City Sound" ID="690" Anchor="0.000000, 0.131250" Dimension="0.060417, 0.090625" IsPassive="T" ResizeBias="0">
+                    <SoundMapRoot>
+                        <SoundEvent EventTrigger="Form Activated (UI Only)" SoundEventFullPath="Ambients/World/City UI Ambients" />
+                    </SoundMapRoot>
+                </Element>
+                <Element Type="2" Name="Ambient Drylands Sound" ID="691" Anchor="0.000000, -0.306250" Dimension="0.060417, 0.090625" IsPassive="T" ResizeBias="0">
+                    <SoundMapRoot>
+                        <SoundEvent EventTrigger="Form Activated (UI Only)" SoundEventFullPath="Ambients/World/Drylands UI Ambients" />
+                    </SoundMapRoot>
+                </Element>
+                <Element Type="2" Name="Ambient Lavaflow Sound" ID="692" Anchor="0.259375, 0.000000" Dimension="0.060417, 0.090625" IsPassive="T" ResizeBias="0">
+                    <SoundMapRoot>
+                        <SoundEvent EventTrigger="Form Activated (UI Only)" SoundEventFullPath="Ambients/World/Lavaflow UI Ambients" />
+                    </SoundMapRoot>
+                </Element>
+                <Element TextureFilename="" Type="2" Name="Ripples" ID="322376584" Anchor="-0.006250, -0.004687" Dimension="0.075000, 0.112500" IsPassive="T" Tint="255, 255, 255, 0" ResizeBias="0">
+                    <Element Type="7" Name="Ripples" ID="322376585" Anchor="0.002083, -0.010937" Dimension="0.787500, 0.787500" IsPassive="T" RelativeScale="0.96" ResizeBias="0" Filename="UI_Ripples.fx">
+                        <Animations>
+                            <Animation Name="openmenuoptions">
+                                <Track ID="19" Type="8">
+                                    <TrackKey ID="0" Time="0" />
+                                </Track>
+                            </Animation>
+                        </Animations>
+                    </Element>
+                </Element>
+                <Element TextureFilename="Worldmap_Island.png" Type="2" Name="Island" ID="322376514" Anchor="-0.010417, -0.068750" Dimension="0.833333, 0.810938" IsPassive="T" ResizeBias="0" />
+                <Element TextureFilename="" Type="2" Name="Particles" ID="322376550" Anchor="-0.011459, -0.057813" Dimension="0.802084, 0.802083" IsPassive="T" Tint="255, 255, 255, 0" RelativeScale="0.45" Expansion="-0.026000, 0.000000" ResizeBias="0">
+                    <Element Type="7" Name="Window" ID="322376551" Anchor="0.025474, 0.660585" Dimension="0.100000, 0.100000" IsPassive="T" ResizeBias="0" Filename="UI_World_Windows.fx">
+                        <Animations>
+                            <Animation Name="openmenuoptions">
+                                <Track ID="19" Type="8">
+                                    <TrackKey ID="0" Time="0" />
+                                </Track>
+                            </Animation>
+                        </Animations>
+                    </Element>
+                    <Element Type="7" Name="Window" ID="322376552" Anchor="-0.062004, 0.592933" Dimension="0.100000, 0.100000" IsPassive="T" ResizeBias="0" Filename="UI_World_Windows.fx">
+                        <Animations>
+                            <Animation Name="openmenuoptions">
+                                <Track ID="19" Type="8">
+                                    <TrackKey ID="0" Time="0" />
+                                </Track>
+                            </Animation>
+                        </Animations>
+                    </Element>
+                    <Element Type="7" Name="Window" ID="322376553" Anchor="0.140532, 0.577131" Dimension="0.100000, 0.100000" IsPassive="T" ResizeBias="0" Filename="UI_World_Windows.fx">
+                        <Animations>
+                            <Animation Name="openmenuoptions">
+                                <Track ID="19" Type="8">
+                                    <TrackKey ID="0" Time="0" />
+                                </Track>
+                            </Animation>
+                        </Animations>
+                    </Element>
+                    <Element Type="7" Name="Window" ID="322376554" Anchor="-0.004140, 0.527905" Dimension="0.100000, 0.100000" IsPassive="T" ResizeBias="0" Filename="UI_World_Windows.fx">
+                        <Animations>
+                            <Animation Name="openmenuoptions">
+                                <Track ID="19" Type="8">
+                                    <TrackKey ID="0" Time="0" />
+                                </Track>
+                            </Animation>
+                        </Animations>
+                    </Element>
+                    <Element Type="7" Name="Window" ID="322376555" Anchor="0.051120, 0.525257" Dimension="0.100000, 0.100000" IsPassive="T" ResizeBias="0" Filename="UI_World_Windows.fx">
+                        <Animations>
+                            <Animation Name="openmenuoptions">
+                                <Track ID="19" Type="8">
+                                    <TrackKey ID="0" Time="0" />
+                                </Track>
+                            </Animation>
+                        </Animations>
+                    </Element>
+                    <Element Type="7" Name="Window" ID="322376556" Anchor="-0.138079, 0.531502" Dimension="0.100000, 0.100000" IsPassive="T" ResizeBias="0" Filename="UI_World_Windows.fx">
+                        <Animations>
+                            <Animation Name="openmenuoptions">
+                                <Track ID="19" Type="8">
+                                    <TrackKey ID="0" Time="0" />
+                                </Track>
+                            </Animation>
+                        </Animations>
+                    </Element>
+                    <Element Type="7" Name="Window" ID="322376557" Anchor="0.203932, 0.444189" Dimension="0.100000, 0.100000" IsPassive="T" ResizeBias="0" Filename="UI_World_Windows.fx">
+                        <Animations>
+                            <Animation Name="openmenuoptions">
+                                <Track ID="19" Type="8">
+                                    <TrackKey ID="0" Time="0" />
+                                </Track>
+                            </Animation>
+                        </Animations>
+                    </Element>
+                    <Element Type="7" Name="Window" ID="322376558" Anchor="0.181809, 0.152395" Dimension="0.100000, 0.100000" IsPassive="T" ResizeBias="0" Filename="UI_World_Windows.fx">
+                        <Animations>
+                            <Animation Name="openmenuoptions">
+                                <Track ID="19" Type="8">
+                                    <TrackKey ID="0" Time="0" />
+                                </Track>
+                            </Animation>
+                        </Animations>
+                    </Element>
+                    <Element Type="7" Name="Window" ID="322376559" Anchor="0.273506, 0.215904" Dimension="0.100000, 0.100000" IsPassive="T" ResizeBias="0" Filename="UI_World_Windows.fx">
+                        <Animations>
+                            <Animation Name="openmenuoptions">
+                                <Track ID="19" Type="8">
+                                    <TrackKey ID="0" Time="0" />
+                                </Track>
+                            </Animation>
+                        </Animations>
+                    </Element>
+                    <Element Type="7" Name="FireVolcano" ID="322376565" Anchor="0.736970, -0.188995" Dimension="0.647916, 0.647917" IsPassive="T" RelativeScale="0.6" ResizeBias="0" Filename="UI_Lava.fx">
+                        <Animations>
+                            <Animation Name="openmenuoptions">
+                                <Track ID="19" Type="8">
+                                    <TrackKey ID="0" Time="0" />
+                                </Track>
+                            </Animation>
+                        </Animations>
+                    </Element>
+                    <Element Type="7" Name="FireVolcano" ID="322376566" Anchor="0.600433, -0.265288" Dimension="2.054167, 2.054166" IsPassive="T" RelativeScale="0.35" ResizeBias="0" Filename="UI_Lava.fx">
+                        <Animations>
+                            <Animation Name="openmenuoptions">
+                                <Track ID="19" Type="8">
+                                    <TrackKey ID="0" Time="0" />
+                                </Track>
+                            </Animation>
+                        </Animations>
+                    </Element>
+                    <Element Type="7" Name="FireVolcano" ID="322376567" Anchor="0.530744, 0.206316" Dimension="1.029167, 1.029166" IsPassive="T" RelativeScale="0.55" ResizeBias="0" Filename="UI_Lava.fx">
+                        <Animations>
+                            <Animation Name="openmenuoptions">
+                                <Track ID="19" Type="8">
+                                    <TrackKey ID="0" Time="0" />
+                                </Track>
+                            </Animation>
+                        </Animations>
+                    </Element>
+                    <Element Type="7" Name="FireVolcano" ID="322376568" Anchor="0.653670, 0.104364" Dimension="0.862500, 0.862500" IsPassive="T" RelativeScale="0.55" ResizeBias="0" Filename="UI_Lava.fx">
+                        <Animations>
+                            <Animation Name="openmenuoptions">
+                                <Track ID="19" Type="8">
+                                    <TrackKey ID="0" Time="0" />
+                                </Track>
+                            </Animation>
+                        </Animations>
+                    </Element>
+                    <Element Type="7" Name="FireVolcano" ID="322376570" Anchor="0.597454, -0.180555" Dimension="0.629167, 0.629166" IsPassive="T" RelativeScale="0.55" ResizeBias="0" Filename="UI_Lava.fx">
+                        <Animations>
+                            <Animation Name="openmenuoptions">
+                                <Track ID="19" Type="8">
+                                    <TrackKey ID="0" Time="0" />
+                                </Track>
+                            </Animation>
+                        </Animations>
+                    </Element>
+                    <Element Type="7" Name="FireVolcano" ID="322376571" Anchor="0.565047, -0.222222" Dimension="0.866666, 0.866666" IsPassive="T" RelativeScale="0.4" ResizeBias="0" Filename="UI_Lava.fx">
+                        <Animations>
+                            <Animation Name="openmenuoptions">
+                                <Track ID="19" Type="8">
+                                    <TrackKey ID="0" Time="0" />
+                                </Track>
+                            </Animation>
+                        </Animations>
+                    </Element>
+                    <Element Type="7" Name="FireVolcano" ID="322376572" Anchor="0.669213, -0.156250" Dimension="1.452083, 1.452081" IsPassive="T" RelativeScale="0.4" ResizeBias="0" Filename="UI_Lava.fx">
+                        <Animations>
+                            <Animation Name="openmenuoptions">
+                                <Track ID="19" Type="8">
+                                    <TrackKey ID="0" Time="0" />
+                                </Track>
+                            </Animation>
+                        </Animations>
+                    </Element>
+                    <Element Type="7" Name="FireVolcano" ID="322376573" Anchor="0.703704, -0.222570" Dimension="0.691667, 0.691667" IsPassive="T" RelativeScale="0.4" ResizeBias="0" Filename="UI_Lava.fx">
+                        <Animations>
+                            <Animation Name="openmenuoptions">
+                                <Track ID="19" Type="8">
+                                    <TrackKey ID="0" Time="0" />
+                                </Track>
+                            </Animation>
+                        </Animations>
+                    </Element>
+                    <Element Type="7" Name="FireVolcano" ID="322376574" Anchor="0.620371, 0.038195" Dimension="3.320833, 3.320831" IsPassive="T" RelativeScale="0.4" ResizeBias="0" Filename="UI_Lava.fx">
+                        <Animations>
+                            <Animation Name="openmenuoptions">
+                                <Track ID="19" Type="8">
+                                    <TrackKey ID="0" Time="0" />
+                                </Track>
+                            </Animation>
+                        </Animations>
+                    </Element>
+                    <Element Type="7" Name="FireVolcano" ID="322376575" Anchor="0.613425, 0.097222" Dimension="2.900000, 2.899997" IsPassive="T" RelativeScale="0.4" ResizeBias="0" Filename="UI_Lava.fx">
+                        <Animations>
+                            <Animation Name="openmenuoptions">
+                                <Track ID="19" Type="8">
+                                    <TrackKey ID="0" Time="0" />
+                                </Track>
+                            </Animation>
+                        </Animations>
+                    </Element>
+                    <Element Type="7" Name="FireVolcano" ID="322376576" Anchor="0.643519, 0.072917" Dimension="1.989583, 1.989583" IsPassive="T" RelativeScale="0.4" ResizeBias="0" Filename="UI_Lava.fx">
+                        <Animations>
+                            <Animation Name="openmenuoptions">
+                                <Track ID="19" Type="8">
+                                    <TrackKey ID="0" Time="0" />
+                                </Track>
+                            </Animation>
+                        </Animations>
+                    </Element>
+                    <Element Type="7" Name="FireVolcano" ID="322376731" Anchor="0.809722, -0.322916" Dimension="1.943750, 1.943750" IsPassive="T" RelativeScale="0.4" ResizeBias="0" Filename="UI_Lava.fx">
+                        <Animations>
+                            <Animation Name="openmenuoptions">
+                                <Track ID="19" Type="8">
+                                    <TrackKey ID="0" Time="0" />
+                                </Track>
+                            </Animation>
+                        </Animations>
+                    </Element>
+                    <Element Type="7" Name="VolcanoFire" ID="322376677" Anchor="0.665162, 0.029688" Dimension="1.618750, 1.618752" IsPassive="T" RelativeScale="0.6" ResizeBias="0" Filename="Ambient_Lava_Swirl.fx">
+                        <Animations>
+                            <Animation Name="openmenuoptions">
+                                <Track ID="19" Type="8">
+                                    <TrackKey ID="0" Time="0" />
+                                </Track>
+                            </Animation>
+                        </Animations>
+                    </Element>
+                    <Element Type="7" Name="VolcanoFire" ID="322376678" Anchor="0.604745, -0.003472" Dimension="1.618750, 1.618752" IsPassive="T" RelativeScale="0.7" ResizeBias="0" Filename="Ambient_Lava_Swirl.fx">
+                        <Animations>
+                            <Animation Name="openmenuoptions">
+                                <Track ID="19" Type="8">
+                                    <TrackKey ID="0" Time="0" />
+                                </Track>
+                            </Animation>
+                        </Animations>
+                    </Element>
+                </Element>
+                <Element TextureFilename="" Type="2" Name="Shore_Bottom" ID="322376586" Anchor="-0.004167, -0.004688" Dimension="0.075000, 0.112500" IsPassive="T" Tint="255, 255, 255, 0" ResizeBias="0">
+                    <Element Type="7" Name="Shore" ID="322376589" Anchor="-0.090625, -0.425000" Dimension="0.268750, 0.268750" Rotation="-3.67226" IsPassive="T" RelativeScale="0.96" ResizeBias="0" Filename="UI_Shore.fx">
+                        <Animations>
+                            <Animation Name="openmenuoptions">
+                                <Track ID="19" Type="8">
+                                    <TrackKey ID="0" Time="0" />
+                                </Track>
+                            </Animation>
+                        </Animations>
+                    </Element>
+                    <Element Type="7" Name="Shore" ID="322376588" Anchor="-0.068750, -0.435937" Dimension="0.333333, 0.333333" Rotation="-3.37959" IsPassive="T" RelativeScale="0.96" ResizeBias="0" Filename="UI_Shore.fx">
+                        <Animations>
+                            <Animation Name="openmenuoptions">
+                                <Track ID="19" Type="8">
+                                    <TrackKey ID="0" Time="0" />
+                                </Track>
+                            </Animation>
+                        </Animations>
+                    </Element>
+                    <Element Type="7" Name="Shore" ID="322376591" Anchor="-0.052083, -0.445313" Dimension="0.333333, 0.333333" Rotation="-3.2679" IsPassive="T" RelativeScale="0.96" ResizeBias="0" Filename="UI_Shore.fx">
+                        <Animations>
+                            <Animation Name="openmenuoptions">
+                                <Track ID="19" Type="8">
+                                    <TrackKey ID="0" Time="0" />
+                                </Track>
+                            </Animation>
+                        </Animations>
+                    </Element>
+                    <Element Type="7" Name="Shore" ID="322376587" Anchor="-0.022917, -0.448437" Dimension="0.333333, 0.333333" Rotation="-3.19937" IsPassive="T" RelativeScale="0.96" ResizeBias="0" Filename="UI_Shore2.fx">
+                        <Animations>
+                            <Animation Name="openmenuoptions">
+                                <Track ID="19" Type="8">
+                                    <TrackKey ID="0" Time="0" />
+                                </Track>
+                            </Animation>
+                        </Animations>
+                    </Element>
+                    <Element Type="7" Name="Shore" ID="322376590" Anchor="0.011458, -0.448438" Dimension="0.287500, 0.287500" Rotation="-3.31613" IsPassive="T" RelativeScale="0.96" ResizeBias="0" Filename="UI_Shore2.fx">
+                        <Animations>
+                            <Animation Name="openmenuoptions">
+                                <Track ID="19" Type="8">
+                                    <TrackKey ID="0" Time="0" />
+                                </Track>
+                            </Animation>
+                        </Animations>
+                    </Element>
+                    <Element Type="7" Name="Shore" ID="322376592" Anchor="0.038542, -0.453125" Dimension="0.287500, 0.287500" Rotation="3.17737" IsPassive="T" RelativeScale="0.96" ResizeBias="0" Filename="UI_Shore.fx">
+                        <Animations>
+                            <Animation Name="openmenuoptions">
+                                <Track ID="19" Type="8">
+                                    <TrackKey ID="0" Time="0" />
+                                </Track>
+                            </Animation>
+                        </Animations>
+                    </Element>
+                    <Element Type="7" Name="Shore" ID="322376593" Anchor="0.065625, -0.451563" Dimension="0.287500, 0.287500" Rotation="3.52878" IsPassive="T" RelativeScale="0.96" ResizeBias="0" Filename="UI_Shore.fx">
+                        <Animations>
+                            <Animation Name="openmenuoptions">
+                                <Track ID="19" Type="8">
+                                    <TrackKey ID="0" Time="0" />
+                                </Track>
+                            </Animation>
+                        </Animations>
+                    </Element>
+                    <Element Type="7" Name="Shore" ID="322376605" Anchor="0.092708, -0.456251" Dimension="0.206250, 0.206250" Rotation="2.91758" IsPassive="T" RelativeScale="0.96" ResizeBias="0" Filename="UI_Shore.fx">
+                        <Animations>
+                            <Animation Name="openmenuoptions">
+                                <Track ID="19" Type="8">
+                                    <TrackKey ID="0" Time="0" />
+                                </Track>
+                            </Animation>
+                        </Animations>
+                    </Element>
+                    <Element Type="7" Name="Shore" ID="322376594" Anchor="0.107292, -0.460938" Dimension="0.306250, 0.306250" Rotation="-3.05581" IsPassive="T" RelativeScale="0.96" ResizeBias="0" Filename="UI_Shore.fx">
+                        <Animations>
+                            <Animation Name="openmenuoptions">
+                                <Track ID="19" Type="8">
+                                    <TrackKey ID="0" Time="0" />
+                                </Track>
+                            </Animation>
+                        </Animations>
+                    </Element>
+                </Element>
+                <Element TextureFilename="" Type="2" Name="Shore_BottomLeft" ID="322376595" Anchor="-0.004167, 0.000000" Dimension="0.075000, 0.112500" IsPassive="T" Tint="255, 255, 255, 0" ResizeBias="0">
+                    <Element Type="7" Name="Shore" ID="322376596" Anchor="-0.118749, -0.439063" Dimension="0.268750, 0.268750" Rotation="0.3966" IsPassive="T" RelativeScale="0.96" ResizeBias="0" Filename="UI_Shore2.fx">
+                        <Animations>
+                            <Animation Name="openmenuoptions">
+                                <Track ID="19" Type="8">
+                                    <TrackKey ID="0" Time="0" />
+                                </Track>
+                            </Animation>
+                        </Animations>
+                    </Element>
+                    <Element Type="7" Name="Shore" ID="322376599" Anchor="-0.141667, -0.445312" Dimension="0.333333, 0.333333" Rotation="-6.27602" IsPassive="T" RelativeScale="0.96" ResizeBias="0" Filename="UI_Shore2.fx">
+                        <Animations>
+                            <Animation Name="openmenuoptions">
+                                <Track ID="19" Type="8">
+                                    <TrackKey ID="0" Time="0" />
+                                </Track>
+                            </Animation>
+                        </Animations>
+                    </Element>
+                    <Element Type="7" Name="Shore" ID="322376597" Anchor="-0.182291, -0.431250" Dimension="0.333333, 0.333333" Rotation="-3.37959" IsPassive="T" RelativeScale="0.96" ResizeBias="0" Filename="UI_Shore.fx">
+                        <Animations>
+                            <Animation Name="openmenuoptions">
+                                <Track ID="19" Type="8">
+                                    <TrackKey ID="0" Time="0" />
+                                </Track>
+                            </Animation>
+                        </Animations>
+                    </Element>
+                    <Element Type="7" Name="Shore" ID="322376598" Anchor="-0.194791, -0.414063" Dimension="0.235416, 0.235416" Rotation="-4.03749" IsPassive="T" RelativeScale="0.96" ResizeBias="0" Filename="UI_Shore.fx">
+                        <Animations>
+                            <Animation Name="openmenuoptions">
+                                <Track ID="19" Type="8">
+                                    <TrackKey ID="0" Time="0" />
+                                </Track>
+                            </Animation>
+                        </Animations>
+                    </Element>
+                    <Element Type="7" Name="Shore" ID="322376600" Anchor="-0.204167, -0.389063" Dimension="0.202083, 0.202084" Rotation="-4.35626" IsPassive="T" RelativeScale="0.96" ResizeBias="0" Filename="UI_Shore2.fx">
+                        <Animations>
+                            <Animation Name="openmenuoptions">
+                                <Track ID="19" Type="8">
+                                    <TrackKey ID="0" Time="0" />
+                                </Track>
+                            </Animation>
+                        </Animations>
+                    </Element>
+                    <Element Type="7" Name="Shore" ID="322376601" Anchor="-0.210416, -0.362500" Dimension="0.170833, 0.170834" Rotation="1.81197" IsPassive="T" RelativeScale="0.96" ResizeBias="0" Filename="UI_Shore.fx">
+                        <Animations>
+                            <Animation Name="openmenuoptions">
+                                <Track ID="19" Type="8">
+                                    <TrackKey ID="0" Time="0" />
+                                </Track>
+                            </Animation>
+                        </Animations>
+                    </Element>
+                    <Element Type="7" Name="Shore" ID="322376604" Anchor="-0.213542, -0.331250" Dimension="0.202083, 0.202084" Rotation="-10.8653" IsPassive="T" RelativeScale="0.96" ResizeBias="0" Filename="UI_Shore2.fx">
+                        <Animations>
+                            <Animation Name="openmenuoptions">
+                                <Track ID="19" Type="8">
+                                    <TrackKey ID="0" Time="0" />
+                                </Track>
+                            </Animation>
+                        </Animations>
+                    </Element>
+                    <Element Type="7" Name="Shore" ID="322376602" Anchor="-0.267708, -0.267188" Dimension="0.208333, 0.208334" Rotation="3.12204" IsPassive="T" RelativeScale="0.96" ResizeBias="0" Filename="UI_Shore.fx">
+                        <Animations>
+                            <Animation Name="openmenuoptions">
+                                <Track ID="19" Type="8">
+                                    <TrackKey ID="0" Time="0" />
+                                </Track>
+                            </Animation>
+                        </Animations>
+                    </Element>
+                    <Element Type="7" Name="Shore" ID="322376603" Anchor="-0.291667, -0.278125" Dimension="0.191667, 0.191667" Rotation="2.98861" IsPassive="T" RelativeScale="0.96" ResizeBias="0" Filename="UI_Shore.fx">
+                        <Animations>
+                            <Animation Name="openmenuoptions">
+                                <Track ID="19" Type="8">
+                                    <TrackKey ID="0" Time="0" />
+                                </Track>
+                            </Animation>
+                        </Animations>
+                    </Element>
+                </Element>
+                <Element TextureFilename="" Type="2" Name="Shore_Left" ID="322376606" Dimension="0.075000, 0.112500" IsPassive="T" Tint="255, 255, 255, 0" ResizeBias="0">
+                    <Element Type="7" Name="Shore" ID="322376614" Anchor="-0.267708, -0.267188" Dimension="0.208333, 0.208334" Rotation="3.12204" IsPassive="T" RelativeScale="0.96" ResizeBias="0" Filename="UI_Shore.fx">
+                        <Animations>
+                            <Animation Name="openmenuoptions">
+                                <Track ID="19" Type="8">
+                                    <TrackKey ID="0" Time="0" />
+                                </Track>
+                            </Animation>
+                        </Animations>
+                    </Element>
+                    <Element Type="7" Name="Shore" ID="322376615" Anchor="-0.291667, -0.278125" Dimension="0.191667, 0.191667" Rotation="2.98861" IsPassive="T" RelativeScale="0.96" ResizeBias="0" Filename="UI_Shore.fx">
+                        <Animations>
+                            <Animation Name="openmenuoptions">
+                                <Track ID="19" Type="8">
+                                    <TrackKey ID="0" Time="0" />
+                                </Track>
+                            </Animation>
+                        </Animations>
+                    </Element>
+                    <Element Type="7" Name="Shore" ID="322376616" Anchor="-0.330209, -0.259375" Dimension="0.172916, 0.172918" Rotation="3.03754" IsPassive="T" RelativeScale="0.96" ResizeBias="0" Filename="UI_Shore.fx">
+                        <Animations>
+                            <Animation Name="openmenuoptions">
+                                <Track ID="19" Type="8">
+                                    <TrackKey ID="0" Time="0" />
+                                </Track>
+                            </Animation>
+                        </Animations>
+                    </Element>
+                    <Element Type="7" Name="Shore" ID="322376617" Anchor="-0.348959, -0.245313" Dimension="0.179166, 0.179167" Rotation="2.55032" IsPassive="T" RelativeScale="0.96" ResizeBias="0" Filename="UI_Shore.fx">
+                        <Animations>
+                            <Animation Name="openmenuoptions">
+                                <Track ID="19" Type="8">
+                                    <TrackKey ID="0" Time="0" />
+                                </Track>
+                            </Animation>
+                        </Animations>
+                    </Element>
+                    <Element Type="7" Name="Shore" ID="322376618" Anchor="-0.367708, -0.201562" Dimension="0.179166, 0.179167" Rotation="2.55032" IsPassive="T" RelativeScale="0.96" ResizeBias="0" Filename="UI_Shore.fx">
+                        <Animations>
+                            <Animation Name="openmenuoptions">
+                                <Track ID="19" Type="8">
+                                    <TrackKey ID="0" Time="0" />
+                                </Track>
+                            </Animation>
+                        </Animations>
+                    </Element>
+                    <Element Type="7" Name="Shore" ID="322376619" Anchor="-0.386458, -0.195313" Dimension="0.191667, 0.191667" Rotation="3.18512" IsPassive="T" RelativeScale="0.96" ResizeBias="0" Filename="UI_Shore.fx">
+                        <Animations>
+                            <Animation Name="openmenuoptions">
+                                <Track ID="19" Type="8">
+                                    <TrackKey ID="0" Time="0" />
+                                </Track>
+                            </Animation>
+                        </Animations>
+                    </Element>
+                    <Element Type="7" Name="Shore" ID="322376620" Anchor="-0.401042, -0.193750" Dimension="0.158334, 0.158334" Rotation="3.06718" IsPassive="T" RelativeScale="0.96" ResizeBias="0" Filename="UI_Shore.fx">
+                        <Animations>
+                            <Animation Name="openmenuoptions">
+                                <Track ID="19" Type="8">
+                                    <TrackKey ID="0" Time="0" />
+                                </Track>
+                            </Animation>
+                        </Animations>
+                    </Element>
+                    <Element Type="7" Name="Shore" ID="322376621" Anchor="-0.419792, -0.176562" Dimension="0.235417, 0.235416" Rotation="2.84635" IsPassive="T" RelativeScale="0.96" ResizeBias="0" Filename="UI_Shore.fx">
+                        <Animations>
+                            <Animation Name="openmenuoptions">
+                                <Track ID="19" Type="8">
+                                    <TrackKey ID="0" Time="0" />
+                                </Track>
+                            </Animation>
+                        </Animations>
+                    </Element>
+                </Element>
+                <Element TextureFilename="" Type="2" Name="Shore_BottomRight" ID="322376622" Dimension="0.075000, 0.112500" IsPassive="T" Tint="255, 255, 255, 0" ResizeBias="0">
+                    <Element Type="7" Name="Shore" ID="322376623" Anchor="0.145833, -0.343750" Dimension="0.156250, 0.156250" Rotation="-2.87287" IsPassive="T" RelativeScale="0.96" ResizeBias="0" Filename="UI_Shore_Dark.fx">
+                        <Animations>
+                            <Animation Name="openmenuoptions">
+                                <Track ID="19" Type="8">
+                                    <TrackKey ID="0" Time="0" />
+                                </Track>
+                            </Animation>
+                        </Animations>
+                    </Element>
+                    <Element Type="7" Name="Shore" ID="322376624" Anchor="0.168750, -0.337500" Dimension="0.212500, 0.212500" Rotation="-3.13164" IsPassive="T" RelativeScale="0.96" ResizeBias="0" Filename="UI_Shore_Dark.fx">
+                        <Animations>
+                            <Animation Name="openmenuoptions">
+                                <Track ID="19" Type="8">
+                                    <TrackKey ID="0" Time="0" />
+                                </Track>
+                            </Animation>
+                        </Animations>
+                    </Element>
+                    <Element Type="7" Name="Shore" ID="322376626" Anchor="0.184375, -0.318750" Dimension="0.137500, 0.137500" Rotation="-1.98282" IsPassive="T" RelativeScale="0.96" ResizeBias="0" Filename="UI_Shore_Dark.fx">
+                        <Animations>
+                            <Animation Name="openmenuoptions">
+                                <Track ID="19" Type="8">
+                                    <TrackKey ID="0" Time="0" />
+                                </Track>
+                            </Animation>
+                        </Animations>
+                    </Element>
+                    <Element Type="7" Name="Shore" ID="322376625" Anchor="0.191667, -0.301563" Dimension="0.133333, 0.133333" Rotation="-2.28331" IsPassive="T" RelativeScale="0.96" ResizeBias="0" Filename="UI_Shore_Dark.fx">
+                        <Animations>
+                            <Animation Name="openmenuoptions">
+                                <Track ID="19" Type="8">
+                                    <TrackKey ID="0" Time="0" />
+                                </Track>
+                            </Animation>
+                        </Animations>
+                    </Element>
+                    <Element Type="7" Name="Shore" ID="322376628" Anchor="0.220834, -0.250000" Dimension="0.231250, 0.231250" Rotation="3.17737" IsPassive="T" RelativeScale="0.96" ResizeBias="0" Filename="UI_Shore_Dark.fx">
+                        <Animations>
+                            <Animation Name="openmenuoptions">
+                                <Track ID="19" Type="8">
+                                    <TrackKey ID="0" Time="0" />
+                                </Track>
+                            </Animation>
+                        </Animations>
+                    </Element>
+                    <Element Type="7" Name="Shore" ID="322376627" Anchor="0.244791, -0.251563" Dimension="0.287500, 0.287500" Rotation="-3.31613" IsPassive="T" RelativeScale="0.96" ResizeBias="0" Filename="UI_Shore_Dark.fx">
+                        <Animations>
+                            <Animation Name="openmenuoptions">
+                                <Track ID="19" Type="8">
+                                    <TrackKey ID="0" Time="0" />
+                                </Track>
+                            </Animation>
+                        </Animations>
+                    </Element>
+                    <Element Type="7" Name="Shore" ID="322376629" Anchor="0.269792, -0.256250" Dimension="0.287500, 0.287500" Rotation="3.32275" IsPassive="T" RelativeScale="0.96" ResizeBias="0" Filename="UI_Shore_Dark.fx">
+                        <Animations>
+                            <Animation Name="openmenuoptions">
+                                <Track ID="19" Type="8">
+                                    <TrackKey ID="0" Time="0" />
+                                </Track>
+                            </Animation>
+                        </Animations>
+                    </Element>
+                    <Element Type="7" Name="Shore" ID="322376630" Anchor="0.298958, -0.248438" Dimension="0.206250, 0.206250" Rotation="3.29495" IsPassive="T" RelativeScale="0.96" ResizeBias="0" Filename="UI_Shore_Dark.fx">
+                        <Animations>
+                            <Animation Name="openmenuoptions">
+                                <Track ID="19" Type="8">
+                                    <TrackKey ID="0" Time="0" />
+                                </Track>
+                            </Animation>
+                        </Animations>
+                    </Element>
+                    <Element Type="7" Name="Shore" ID="322376631" Anchor="0.332292, -0.248438" Dimension="0.306250, 0.306250" Rotation="-3.2702" IsPassive="T" RelativeScale="0.96" ResizeBias="0" Filename="UI_Shore_Dark.fx">
+                        <Animations>
+                            <Animation Name="openmenuoptions">
+                                <Track ID="19" Type="8">
+                                    <TrackKey ID="0" Time="0" />
+                                </Track>
+                            </Animation>
+                        </Animations>
+                    </Element>
+                    <Element Type="7" Name="Shore" ID="322376632" Anchor="0.384375, -0.239063" Dimension="0.306250, 0.306250" Rotation="-2.69242" IsPassive="T" RelativeScale="0.96" ResizeBias="0" Filename="UI_Shore_Dark.fx">
+                        <Animations>
+                            <Animation Name="openmenuoptions">
+                                <Track ID="19" Type="8">
+                                    <TrackKey ID="0" Time="0" />
+                                </Track>
+                            </Animation>
+                        </Animations>
+                    </Element>
+                    <Element Type="7" Name="Shore" ID="322376633" Anchor="0.402083, -0.215625" Dimension="0.306250, 0.306250" Rotation="-2.1742" IsPassive="T" RelativeScale="0.96" ResizeBias="0" Filename="UI_Shore.fx">
+                        <Animations>
+                            <Animation Name="openmenuoptions">
+                                <Track ID="19" Type="8">
+                                    <TrackKey ID="0" Time="0" />
+                                </Track>
+                            </Animation>
+                        </Animations>
+                    </Element>
+                </Element>
+                <Element TextureFilename="" Type="2" Name="Volcano_Lava" ID="322376668" Anchor="0.348958, 0.000000" Dimension="0.075000, 0.112500" IsPassive="T" Tint="255, 255, 255, 0" ResizeBias="0">
+                    <Element Type="7" Name="LavaFalls" ID="322376669" Anchor="0.000000, -0.151562" Dimension="0.268750, 0.268750" Rotation="-0.174533" IsPassive="T" RelativeScale="0.9" ResizeBias="0" Filename="UI_LavaWaterfall.fx">
+                        <Animations>
+                            <Animation Name="openmenuoptions">
+                                <Track ID="19" Type="8">
+                                    <TrackKey ID="0" Time="0" />
+                                </Track>
+                            </Animation>
+                        </Animations>
+                    </Element>
+                    <Element Type="7" Name="LavaFalls" ID="322376670" Anchor="0.001042, -0.146875" Dimension="0.268750, 0.268750" IsPassive="T" ResizeBias="0" Filename="UI_LavaWaterfall.fx">
+                        <Animations>
+                            <Animation Name="openmenuoptions">
+                                <Track ID="19" Type="8">
+                                    <TrackKey ID="0" Time="0" />
+                                </Track>
+                            </Animation>
+                        </Animations>
+                    </Element>
+                    <Element Type="7" Name="LavaFalls" ID="322376671" Anchor="0.005208, -0.142188" Dimension="0.268750, 0.268750" Rotation="-0.0872665" IsPassive="T" RelativeScale="0.9" ResizeBias="0" Filename="UI_LavaWaterfall.fx">
+                        <Animations>
+                            <Animation Name="openmenuoptions">
+                                <Track ID="19" Type="8">
+                                    <TrackKey ID="0" Time="0" />
+                                </Track>
+                            </Animation>
+                        </Animations>
+                    </Element>
+                    <Element Type="7" Name="LavaFalls" ID="322376672" Anchor="0.025000, -0.129688" Dimension="0.268750, 0.268750" Rotation="-0.0872665" IsPassive="T" ResizeBias="0" Filename="UI_LavaWaterfall.fx">
+                        <Animations>
+                            <Animation Name="openmenuoptions">
+                                <Track ID="19" Type="8">
+                                    <TrackKey ID="0" Time="0" />
+                                </Track>
+                            </Animation>
+                        </Animations>
+                    </Element>
+                    <Element Type="7" Name="LavaFalls" ID="322376673" Anchor="0.025000, -0.126563" Dimension="0.268750, 0.268750" Rotation="-0.0872665" IsPassive="T" ResizeBias="0" Filename="UI_LavaWaterfall.fx">
+                        <Animations>
+                            <Animation Name="openmenuoptions">
+                                <Track ID="19" Type="8">
+                                    <TrackKey ID="0" Time="0" />
+                                </Track>
+                            </Animation>
+                        </Animations>
+                    </Element>
+                    <Element Type="7" Name="LavaFalls" ID="322376674" Anchor="-0.039583, -0.071875" Dimension="0.268750, 0.268750" Rotation="6.68928" IsPassive="T" ResizeBias="0" Filename="UI_LavaWaterfall2.fx">
+                        <Animations>
+                            <Animation Name="openmenuoptions">
+                                <Track ID="19" Type="8">
+                                    <TrackKey ID="0" Time="0" />
+                                </Track>
+                            </Animation>
+                        </Animations>
+                    </Element>
+                    <Element Type="7" Name="LavaFalls" ID="322376675" Anchor="-0.035417, -0.076562" Dimension="0.268750, 0.268750" Rotation="0.580627" IsPassive="T" ResizeBias="0" Filename="UI_LavaWaterfall2.fx">
+                        <Animations>
+                            <Animation Name="openmenuoptions">
+                                <Track ID="19" Type="8">
+                                    <TrackKey ID="0" Time="0" />
+                                </Track>
+                            </Animation>
+                        </Animations>
+                    </Element>
+                    <Element Type="7" Name="LavaFalls" ID="322376676" Anchor="-0.033333, -0.081250" Dimension="0.268750, 0.268750" Rotation="0.406094" IsPassive="T" ResizeBias="0" Filename="UI_LavaWaterfall2.fx">
+                        <Animations>
+                            <Animation Name="openmenuoptions">
+                                <Track ID="19" Type="8">
+                                    <TrackKey ID="0" Time="0" />
+                                </Track>
+                            </Animation>
+                        </Animations>
+                    </Element>
+                    <Element Type="7" Name="LavaRipples" ID="322376732" Anchor="0.016667, -0.190625" Dimension="0.358333, 0.358333" Rotation="3.56362" IsPassive="T" ResizeBias="0" Filename="UI_Lava_Ripples.fx">
+                        <Animations>
+                            <Animation Name="openmenuoptions">
+                                <Track ID="19" Type="8">
+                                    <TrackKey ID="0" Time="0" />
+                                </Track>
+                            </Animation>
+                        </Animations>
+                    </Element>
+                    <Element Type="7" Name="LavaRipples" ID="322376733" Anchor="-0.004167, -0.115625" Dimension="0.254167, 0.254166" Rotation="3.56362" IsPassive="T" ResizeBias="0" Filename="UI_Lava_Ripples.fx">
+                        <Animations>
+                            <Animation Name="openmenuoptions">
+                                <Track ID="19" Type="8">
+                                    <TrackKey ID="0" Time="0" />
+                                </Track>
+                            </Animation>
+                        </Animations>
+                    </Element>
+                </Element>
+                <Element TextureFilename="" Type="2" Name="Wave_Crashes" ID="322376634" Anchor="0.104167, -0.467187" Dimension="0.075000, 0.112500" IsPassive="T" Tint="255, 255, 255, 0" ResizeBias="0">
+                    <Element Type="7" Name="WaveCrash" ID="322376635" Anchor="-0.209375, 0.050000" Dimension="0.060417, 0.060417" IsPassive="T" ResizeBias="0" Filename="UI_Wave_Crash.fx">
+                        <Animations>
+                            <Animation Name="openmenuoptions">
+                                <Track ID="19" Type="8">
+                                    <TrackKey ID="0" Time="0" />
+                                </Track>
+                            </Animation>
+                        </Animations>
+                    </Element>
+                    <Element Type="7" Name="WaveCrash" ID="322376636" Anchor="-0.201041, 0.042187" Dimension="0.060417, 0.059375" IsPassive="T" RelativeScale="1.2" ResizeBias="0" Filename="UI_Wave_Crash.fx">
+                        <Animations>
+                            <Animation Name="openmenuoptions">
+                                <Track ID="19" Type="8">
+                                    <TrackKey ID="0" Time="0" />
+                                </Track>
+                            </Animation>
+                        </Animations>
+                    </Element>
+                    <Element Type="7" Name="WaveCrash" ID="322376637" Anchor="-0.189584, 0.029688" Dimension="0.060417, 0.059375" Rotation="-0.174533" IsPassive="T" RelativeScale="1.5" ResizeBias="0" Filename="UI_Wave_Crash.fx">
+                        <Animations>
+                            <Animation Name="openmenuoptions">
+                                <Track ID="19" Type="8">
+                                    <TrackKey ID="0" Time="0" />
+                                </Track>
+                            </Animation>
+                        </Animations>
+                    </Element>
+                    <Element Type="7" Name="WaveCrash" ID="322376638" Anchor="-0.180208, 0.025000" Dimension="0.060417, 0.059375" Rotation="-0.174533" IsPassive="T" RelativeScale="1.1" ResizeBias="0" Filename="UI_Wave_Crash.fx">
+                        <Animations>
+                            <Animation Name="openmenuoptions">
+                                <Track ID="19" Type="8">
+                                    <TrackKey ID="0" Time="0" />
+                                </Track>
+                            </Animation>
+                        </Animations>
+                    </Element>
+                    <Element Type="7" Name="WaveCrash" ID="322376639" Anchor="-0.163542, 0.018750" Dimension="0.060417, 0.059375" Rotation="-0.174533" IsPassive="T" RelativeScale="1.1" ResizeBias="0" Filename="UI_Wave_Crash.fx">
+                        <Animations>
+                            <Animation Name="openmenuoptions">
+                                <Track ID="19" Type="8">
+                                    <TrackKey ID="0" Time="0" />
+                                </Track>
+                            </Animation>
+                        </Animations>
+                    </Element>
+                    <Element Type="7" Name="WaveCrash" ID="322376640" Anchor="-0.147917, 0.017188" Dimension="0.060417, 0.059375" Rotation="0.174533" IsPassive="T" RelativeScale="1.05" ResizeBias="0" Filename="UI_Wave_Crash.fx">
+                        <Animations>
+                            <Animation Name="openmenuoptions">
+                                <Track ID="19" Type="8">
+                                    <TrackKey ID="0" Time="0" />
+                                </Track>
+                            </Animation>
+                        </Animations>
+                    </Element>
+                    <Element Type="7" Name="WaveCrash" ID="322376641" Anchor="-0.129167, 0.015625" Dimension="0.060417, 0.059375" IsPassive="T" RelativeScale="1.3" ResizeBias="0" Filename="UI_Wave_Crash.fx">
+                        <Animations>
+                            <Animation Name="openmenuoptions">
+                                <Track ID="19" Type="8">
+                                    <TrackKey ID="0" Time="0" />
+                                </Track>
+                            </Animation>
+                        </Animations>
+                    </Element>
+                    <Element Type="7" Name="WaveCrash" ID="322376642" Anchor="-0.107292, 0.014063" Dimension="0.060417, 0.059375" Rotation="0.174533" IsPassive="T" ResizeBias="0" Filename="UI_Wave_Crash.fx">
+                        <Animations>
+                            <Animation Name="openmenuoptions">
+                                <Track ID="19" Type="8">
+                                    <TrackKey ID="0" Time="0" />
+                                </Track>
+                            </Animation>
+                        </Animations>
+                    </Element>
+                    <Element Type="7" Name="WaveCrash" ID="322376643" Anchor="-0.097917, 0.015625" Dimension="0.060417, 0.059375" IsPassive="T" RelativeScale="1.6" ResizeBias="0" Filename="UI_Wave_Crash.fx">
+                        <Animations>
+                            <Animation Name="openmenuoptions">
+                                <Track ID="19" Type="8">
+                                    <TrackKey ID="0" Time="0" />
+                                </Track>
+                            </Animation>
+                        </Animations>
+                    </Element>
+                    <Element Type="7" Name="WaveCrash" ID="322376644" Anchor="-0.080208, 0.006250" Dimension="0.060417, 0.059375" Rotation="-0.174533" IsPassive="T" RelativeScale="1.4" ResizeBias="0" Filename="UI_Wave_Crash.fx">
+                        <Animations>
+                            <Animation Name="openmenuoptions">
+                                <Track ID="19" Type="8">
+                                    <TrackKey ID="0" Time="0" />
+                                </Track>
+                            </Animation>
+                        </Animations>
+                    </Element>
+                    <Element Type="7" Name="WaveCrash" ID="322376645" Anchor="-0.059375, 0.006250" Dimension="0.060417, 0.059375" Rotation="0.174533" IsPassive="T" RelativeScale="1.8" ResizeBias="0" Filename="UI_Wave_Crash.fx">
+                        <Animations>
+                            <Animation Name="openmenuoptions">
+                                <Track ID="19" Type="8">
+                                    <TrackKey ID="0" Time="0" />
+                                </Track>
+                            </Animation>
+                        </Animations>
+                    </Element>
+                    <Element Type="7" Name="WaveCrash" ID="322376646" Anchor="-0.050000, 0.007813" Dimension="0.060417, 0.059375" IsPassive="T" RelativeScale="1.2" ResizeBias="0" Filename="UI_Wave_Crash.fx">
+                        <Animations>
+                            <Animation Name="openmenuoptions">
+                                <Track ID="19" Type="8">
+                                    <TrackKey ID="0" Time="0" />
+                                </Track>
+                            </Animation>
+                        </Animations>
+                    </Element>
+                    <Element Type="7" Name="WaveCrash" ID="322376647" Anchor="-0.038542, 0.010937" Dimension="0.079496, 0.078125" Rotation="0.174533" IsPassive="T" RelativeScale="1.3" ResizeBias="0" Filename="UI_Wave_Crash.fx">
+                        <Animations>
+                            <Animation Name="openmenuoptions">
+                                <Track ID="19" Type="8">
+                                    <TrackKey ID="0" Time="0" />
+                                </Track>
+                            </Animation>
+                        </Animations>
+                    </Element>
+                    <Element Type="7" Name="WaveCrash" ID="322376648" Anchor="-0.022917, 0.010937" Dimension="0.085855, 0.084375" IsPassive="T" ResizeBias="0" Filename="UI_Wave_Crash.fx">
+                        <Animations>
+                            <Animation Name="openmenuoptions">
+                                <Track ID="19" Type="8">
+                                    <TrackKey ID="0" Time="0" />
+                                </Track>
+                            </Animation>
+                        </Animations>
+                    </Element>
+                    <Element Type="7" Name="WaveCrash" ID="322376649" Anchor="-0.012500, 0.003125" Dimension="0.079496, 0.078125" Rotation="-0.174533" IsPassive="T" RelativeScale="1.3" ResizeBias="0" Filename="UI_Wave_Crash.fx">
+                        <Animations>
+                            <Animation Name="openmenuoptions">
+                                <Track ID="19" Type="8">
+                                    <TrackKey ID="0" Time="0" />
+                                </Track>
+                            </Animation>
+                        </Animations>
+                    </Element>
+                    <Element Type="7" Name="WaveCrash" ID="322376650" Anchor="0.005208, 0.001563" Dimension="0.083735, 0.082292" Rotation="0.349066" IsPassive="T" RelativeScale="1.25" ResizeBias="0" Filename="UI_Wave_Crash.fx">
+                        <Animations>
+                            <Animation Name="openmenuoptions">
+                                <Track ID="19" Type="8">
+                                    <TrackKey ID="0" Time="0" />
+                                </Track>
+                            </Animation>
+                        </Animations>
+                    </Element>
+                    <Element Type="7" Name="WaveCrash" ID="322376651" Anchor="0.042708, 0.121875" Dimension="0.083735, 0.082292" IsPassive="T" ResizeBias="0" Filename="UI_Wave_Crash.fx">
+                        <Animations>
+                            <Animation Name="openmenuoptions">
+                                <Track ID="19" Type="8">
+                                    <TrackKey ID="0" Time="0" />
+                                </Track>
+                            </Animation>
+                        </Animations>
+                    </Element>
+                    <Element Type="7" Name="WaveCrash" ID="322376652" Anchor="0.052083, 0.126563" Dimension="0.083735, 0.082292" Rotation="0.174533" IsPassive="T" RelativeScale="1.1" ResizeBias="0" Filename="UI_Wave_Crash.fx">
+                        <Animations>
+                            <Animation Name="openmenuoptions">
+                                <Track ID="19" Type="8">
+                                    <TrackKey ID="0" Time="0" />
+                                </Track>
+                            </Animation>
+                        </Animations>
+                    </Element>
+                    <Element Type="7" Name="WaveCrash" ID="322376653" Anchor="0.063542, 0.128125" Dimension="0.083735, 0.082292" IsPassive="T" RelativeScale="1.2" ResizeBias="0" Filename="UI_Wave_Crash.fx">
+                        <Animations>
+                            <Animation Name="openmenuoptions">
+                                <Track ID="19" Type="8">
+                                    <TrackKey ID="0" Time="0" />
+                                </Track>
+                            </Animation>
+                        </Animations>
+                    </Element>
+                    <Element Type="7" Name="WaveCrash" ID="322376654" Anchor="0.079167, 0.135937" Dimension="0.083735, 0.082292" Rotation="0.349066" IsPassive="T" RelativeScale="1.25" ResizeBias="0" Filename="UI_Wave_Crash.fx">
+                        <Animations>
+                            <Animation Name="openmenuoptions">
+                                <Track ID="19" Type="8">
+                                    <TrackKey ID="0" Time="0" />
+                                </Track>
+                            </Animation>
+                        </Animations>
+                    </Element>
+                    <Element Type="7" Name="WaveCrash" ID="322376655" Anchor="0.091666, 0.164063" Dimension="0.083735, 0.082292" Rotation="0.698132" IsPassive="T" RelativeScale="1.25" ResizeBias="0" Filename="UI_Wave_Crash.fx">
+                        <Animations>
+                            <Animation Name="openmenuoptions">
+                                <Track ID="19" Type="8">
+                                    <TrackKey ID="0" Time="0" />
+                                </Track>
+                            </Animation>
+                        </Animations>
+                    </Element>
+                    <Element Type="7" Name="WaveCrash" ID="322376656" Anchor="0.114584, 0.217187" Dimension="0.083735, 0.082292" IsPassive="T" RelativeScale="1.2" ResizeBias="0" Filename="UI_Wave_Crash.fx">
+                        <Animations>
+                            <Animation Name="openmenuoptions">
+                                <Track ID="19" Type="8">
+                                    <TrackKey ID="0" Time="0" />
+                                </Track>
+                            </Animation>
+                        </Animations>
+                    </Element>
+                    <Element Type="7" Name="WaveCrash" ID="322376657" Anchor="0.142709, 0.212500" Dimension="0.083735, 0.082292" Rotation="-0.174533" IsPassive="T" RelativeScale="1.3" ResizeBias="0" Filename="UI_Wave_Crash.fx">
+                        <Animations>
+                            <Animation Name="openmenuoptions">
+                                <Track ID="19" Type="8">
+                                    <TrackKey ID="0" Time="0" />
+                                </Track>
+                            </Animation>
+                        </Animations>
+                    </Element>
+                    <Element Type="7" Name="WaveCrash" ID="322376658" Anchor="0.157292, 0.209375" Dimension="0.083735, 0.082292" IsPassive="T" RelativeScale="1.5" ResizeBias="0" Filename="UI_Wave_Crash.fx">
+                        <Animations>
+                            <Animation Name="openmenuoptions">
+                                <Track ID="19" Type="8">
+                                    <TrackKey ID="0" Time="0" />
+                                </Track>
+                            </Animation>
+                        </Animations>
+                    </Element>
+                    <Element Type="7" Name="WaveCrash" ID="322376659" Anchor="0.204167, 0.221875" Dimension="0.083735, 0.082292" IsPassive="T" RelativeScale="1.2" ResizeBias="0" Filename="UI_Wave_Crash.fx">
+                        <Animations>
+                            <Animation Name="openmenuoptions">
+                                <Track ID="19" Type="8">
+                                    <TrackKey ID="0" Time="0" />
+                                </Track>
+                            </Animation>
+                        </Animations>
+                    </Element>
+                    <Element Type="7" Name="WaveCrash" ID="322376660" Anchor="0.228125, 0.215625" Dimension="0.083735, 0.082292" IsPassive="T" RelativeScale="1.2" ResizeBias="0" Filename="UI_Wave_Crash.fx">
+                        <Animations>
+                            <Animation Name="openmenuoptions">
+                                <Track ID="19" Type="8">
+                                    <TrackKey ID="0" Time="0" />
+                                </Track>
+                            </Animation>
+                        </Animations>
+                    </Element>
+                    <Element Type="7" Name="WaveCrash" ID="322376661" Anchor="0.242708, 0.215625" Dimension="0.083735, 0.082292" IsPassive="T" RelativeScale="1.4" ResizeBias="0" Filename="UI_Wave_Crash.fx">
+                        <Animations>
+                            <Animation Name="openmenuoptions">
+                                <Track ID="19" Type="8">
+                                    <TrackKey ID="0" Time="0" />
+                                </Track>
+                            </Animation>
+                        </Animations>
+                    </Element>
+                    <Element Type="7" Name="WaveCrash" ID="322376662" Anchor="0.255208, 0.215625" Dimension="0.083735, 0.082292" IsPassive="T" RelativeScale="1.2" ResizeBias="0" Filename="UI_Wave_Crash.fx">
+                        <Animations>
+                            <Animation Name="openmenuoptions">
+                                <Track ID="19" Type="8">
+                                    <TrackKey ID="0" Time="0" />
+                                </Track>
+                            </Animation>
+                        </Animations>
+                    </Element>
+                    <Element Type="7" Name="WaveCrash" ID="322376663" Anchor="0.272917, 0.218750" Dimension="0.083735, 0.082292" Rotation="0.174533" IsPassive="T" RelativeScale="1.5" ResizeBias="0" Filename="UI_Wave_Crash.fx">
+                        <Animations>
+                            <Animation Name="openmenuoptions">
+                                <Track ID="19" Type="8">
+                                    <TrackKey ID="0" Time="0" />
+                                </Track>
+                            </Animation>
+                        </Animations>
+                    </Element>
+                    <Element Type="7" Name="WaveCrash" ID="322376664" Anchor="0.296875, 0.243750" Dimension="0.083735, 0.082292" Rotation="0.349066" IsPassive="T" RelativeScale="1.2" ResizeBias="0" Filename="UI_Wave_Crash.fx">
+                        <Animations>
+                            <Animation Name="openmenuoptions">
+                                <Track ID="19" Type="8">
+                                    <TrackKey ID="0" Time="0" />
+                                </Track>
+                            </Animation>
+                        </Animations>
+                    </Element>
+                    <Element Type="7" Name="WaveCrash" ID="322376665" Anchor="-0.528125, 0.285937" Dimension="0.083735, 0.082292" Rotation="-0.349066" IsPassive="T" RelativeScale="1.5" ResizeBias="0" Filename="UI_Wave_Crash.fx">
+                        <Animations>
+                            <Animation Name="openmenuoptions">
+                                <Track ID="19" Type="8">
+                                    <TrackKey ID="0" Time="0" />
+                                </Track>
+                            </Animation>
+                        </Animations>
+                    </Element>
+                    <Element Type="7" Name="WaveCrash" ID="322376666" Anchor="-0.515625, 0.275000" Dimension="0.083735, 0.082292" Rotation="-0.349066" IsPassive="T" RelativeScale="1.2" ResizeBias="0" Filename="UI_Wave_Crash.fx">
+                        <Animations>
+                            <Animation Name="openmenuoptions">
+                                <Track ID="19" Type="8">
+                                    <TrackKey ID="0" Time="0" />
+                                </Track>
+                            </Animation>
+                        </Animations>
+                    </Element>
+                    <Element Type="7" Name="WaveCrash" ID="322376667" Anchor="-0.476042, 0.267188" Dimension="0.083735, 0.082292" Rotation="-0.349066" IsPassive="T" RelativeScale="1.2" ResizeBias="0" Filename="UI_Wave_Crash.fx">
+                        <Animations>
+                            <Animation Name="openmenuoptions">
+                                <Track ID="19" Type="8">
+                                    <TrackKey ID="0" Time="0" />
+                                </Track>
+                            </Animation>
+                        </Animations>
+                    </Element>
+                </Element>
+                <Element TextureFilename="" Type="2" Name="Drylands_Sandstorms" ID="322376683" Dimension="0.075000, 0.112500" IsPassive="T" Tint="255, 255, 255, 0" ResizeBias="0">
+                    <Element Type="7" Name="Sandstorm" ID="322376684" Anchor="0.123958, -0.296875" Dimension="0.629167, 0.629166" IsPassive="T" RelativeScale="0.9" ResizeBias="0" Filename="UI_Worldmap_Sandstorm.fx">
+                        <Animations>
+                            <Animation Name="openmenuoptions">
+                                <Track ID="19" Type="8">
+                                    <TrackKey ID="0" Time="0" />
+                                </Track>
+                            </Animation>
+                        </Animations>
+                    </Element>
+                    <Element Type="7" Name="Sandstorm" ID="322376687" Anchor="0.120834, -0.323438" Dimension="0.550000, 0.550000" IsPassive="T" ResizeBias="0" Filename="UI_Worldmap_Sandstorm.fx">
+                        <Animations>
+                            <Animation Name="openmenuoptions">
+                                <Track ID="19" Type="8">
+                                    <TrackKey ID="0" Time="0" />
+                                </Track>
+                            </Animation>
+                        </Animations>
+                    </Element>
+                    <Element Type="7" Name="Sandstorm" ID="322376688" Anchor="0.084375, -0.375000" Dimension="0.768750, 0.768750" IsPassive="T" ResizeBias="0" Filename="UI_Worldmap_Sandstorm.fx">
+                        <Animations>
+                            <Animation Name="openmenuoptions">
+                                <Track ID="19" Type="8">
+                                    <TrackKey ID="0" Time="0" />
+                                </Track>
+                            </Animation>
+                        </Animations>
+                    </Element>
+                    <Element Type="7" Name="Sandstorm" ID="322376709" Anchor="0.039583, -0.248437" Dimension="0.414583, 0.414583" IsPassive="T" ResizeBias="0" Filename="UI_Worldmap_Sandstorm.fx">
+                        <Animations>
+                            <Animation Name="openmenuoptions">
+                                <Track ID="19" Type="8">
+                                    <TrackKey ID="0" Time="0" />
+                                </Track>
+                            </Animation>
+                        </Animations>
+                    </Element>
+                    <Element Type="7" Name="Sandstorm" ID="322376689" Anchor="0.057292, -0.223438" Dimension="0.414583, 0.414583" IsPassive="T" ResizeBias="0" Filename="UI_Worldmap_Sandstorm.fx">
+                        <Animations>
+                            <Animation Name="openmenuoptions">
+                                <Track ID="19" Type="8">
+                                    <TrackKey ID="0" Time="0" />
+                                </Track>
+                            </Animation>
+                        </Animations>
+                    </Element>
+                    <Element Type="7" Name="Sandstorm" ID="322376690" Anchor="0.135417, -0.260938" Dimension="0.550000, 0.550000" IsPassive="T" ResizeBias="0" Filename="UI_Worldmap_Sandstorm.fx">
+                        <Animations>
+                            <Animation Name="openmenuoptions">
+                                <Track ID="19" Type="8">
+                                    <TrackKey ID="0" Time="0" />
+                                </Track>
+                            </Animation>
+                        </Animations>
+                    </Element>
+                    <Element Type="7" Name="Sandstorm" ID="322376691" Anchor="0.191666, -0.209375" Dimension="0.550000, 0.550000" IsPassive="T" ResizeBias="0" Filename="UI_Worldmap_Sandstorm.fx">
+                        <Animations>
+                            <Animation Name="openmenuoptions">
+                                <Track ID="19" Type="8">
+                                    <TrackKey ID="0" Time="0" />
+                                </Track>
+                            </Animation>
+                        </Animations>
+                    </Element>
+                    <Element Type="7" Name="Sandstorm" ID="322376692" Anchor="-0.001042, -0.373437" Dimension="0.768750, 0.768750" IsPassive="T" ResizeBias="0" Filename="UI_Worldmap_Sandstorm.fx">
+                        <Animations>
+                            <Animation Name="openmenuoptions">
+                                <Track ID="19" Type="8">
+                                    <TrackKey ID="0" Time="0" />
+                                </Track>
+                            </Animation>
+                        </Animations>
+                    </Element>
+                    <Element Type="7" Name="Tornadoe" ID="322376710" Anchor="-0.027084, -0.335937" Dimension="0.335416, 0.335417" IsPassive="T" ResizeBias="0" Filename="UI_Worldmap_Tornadoe.fx">
+                        <Animations>
+                            <Animation Name="openmenuoptions">
+                                <Track ID="19" Type="8">
+                                    <TrackKey ID="0" Time="0" />
+                                </Track>
+                            </Animation>
+                        </Animations>
+                    </Element>
+                    <Element Type="7" Name="Tornadoe" ID="322376713" Anchor="0.090625, -0.287500" Dimension="0.252083, 0.252084" IsPassive="T" ResizeBias="0" Filename="UI_Worldmap_Tornadoe.fx">
+                        <Animations>
+                            <Animation Name="openmenuoptions">
+                                <Track ID="19" Type="8">
+                                    <TrackKey ID="0" Time="0" />
+                                </Track>
+                            </Animation>
+                        </Animations>
+                    </Element>
+                    <Element Type="7" Name="Tornadoe" ID="322376714" Anchor="-0.162500, -0.382813" Dimension="0.252083, 0.252084" IsPassive="T" ResizeBias="0" Filename="UI_Worldmap_Tornadoe.fx">
+                        <Animations>
+                            <Animation Name="openmenuoptions">
+                                <Track ID="19" Type="8">
+                                    <TrackKey ID="0" Time="0" />
+                                </Track>
+                            </Animation>
+                        </Animations>
+                    </Element>
+                </Element>
+                <Element Type="2" Name="ShoreWaves1" ID="322376698" Anchor="-0.327083, -0.335938" Dimension="0.066667, 0.100000" IsPassive="T" Tint="255, 255, 255, 0" ResizeBias="0">
+                    <SoundMapRoot>
+                        <SoundEvent EventTrigger="Form Activated (UI Only)" SoundEventFullPath="Ambients/World/SameTimeTriggerOK/Ocean_Crash" />
+                    </SoundMapRoot>
+                </Element>
+                <Element Type="2" Name="ShoreWaves2" ID="322376699" Anchor="-0.023958, -0.506250" Dimension="0.066667, 0.100000" IsPassive="T" Tint="255, 255, 255, 0" ResizeBias="0">
+                    <SoundMapRoot>
+                        <SoundEvent EventTrigger="Form Activated (UI Only)" SoundEventFullPath="Ambients/World/SameTimeTriggerOK/Ocean_Crash" />
+                    </SoundMapRoot>
+                </Element>
+                <Element Type="2" Name="ShoreWaves3" ID="322376700" Anchor="0.285417, -0.356250" Dimension="0.066667, 0.100000" IsPassive="T" Tint="255, 255, 255, 0" ResizeBias="0">
+                    <SoundMapRoot>
+                        <SoundEvent EventTrigger="Form Activated (UI Only)" SoundEventFullPath="Ambients/World/SameTimeTriggerOK/Ocean_Crash" />
+                    </SoundMapRoot>
+                </Element>
+                <Element Type="2" Name="Desert_Wind" ID="322376701" Anchor="0.161458, -0.265625" Dimension="0.066667, 0.100000" IsPassive="T" Tint="255, 255, 255, 0" ResizeBias="0">
+                    <SoundMapRoot>
+                        <SoundEvent EventTrigger="Form Activated (UI Only)" SoundEventFullPath="Ambients/World/Wind" />
+                    </SoundMapRoot>
+                </Element>
+                <Element TextureFilename="" Type="2" Name="Boats" ID="322376715" Dimension="0.075000, 0.112500" IsPassive="T" Tint="255, 255, 255, 0" ResizeBias="0">
+                    <Element Type="7" Name="Boat1" ID="322376718" Anchor="-0.285416, -0.287500" Dimension="0.333333, 0.333333" IsPassive="T" RelativeScale="0.65" ResizeBias="0" Filename="UI_Worldmap_Boat1.fx">
+                        <Animations>
+                            <Animation Name="openmenuoptions">
+                                <Track ID="19" Type="8">
+                                    <TrackKey ID="0" Time="0" />
+                                </Track>
+                            </Animation>
+                        </Animations>
+                    </Element>
+                    <Element Type="7" Name="Boat2" ID="322376719" Anchor="-0.333334, -0.296875" Dimension="0.333333, 0.333333" IsPassive="T" RelativeScale="0.65" ResizeBias="0" Filename="UI_Worldmap_Boat2.fx">
+                        <Animations>
+                            <Animation Name="openmenuoptions">
+                                <Track ID="19" Type="8">
+                                    <TrackKey ID="0" Time="0" />
+                                </Track>
+                            </Animation>
+                        </Animations>
+                    </Element>
+                    <Element Type="7" Name="Boat2" ID="322376720" Anchor="-0.351042, -0.260937" Dimension="0.333333, 0.333333" IsPassive="T" RelativeScale="0.62" ResizeBias="0" Filename="UI_Worldmap_Boat2.fx">
+                        <Animations>
+                            <Animation Name="openmenuoptions">
+                                <Track ID="19" Type="8">
+                                    <TrackKey ID="0" Time="0" />
+                                </Track>
+                            </Animation>
+                        </Animations>
+                    </Element>
+                    <Element Type="7" Name="Boat4" ID="322376722" Anchor="-0.373958, -0.240625" Dimension="0.333333, 0.333333" IsPassive="T" RelativeScale="0.8" ResizeBias="0" Filename="UI_Worldmap_Boat4.fx">
+                        <Animations>
+                            <Animation Name="openmenuoptions">
+                                <Track ID="19" Type="8">
+                                    <TrackKey ID="0" Time="0" />
+                                </Track>
+                            </Animation>
+                        </Animations>
+                    </Element>
+                    <Element Type="7" Name="Boat3" ID="322376721" Anchor="-0.368750, -0.270313" Dimension="0.333333, 0.333333" IsPassive="T" RelativeScale="0.62" ResizeBias="0" Filename="UI_Worldmap_Boat3.fx">
+                        <Animations>
+                            <Animation Name="openmenuoptions">
+                                <Track ID="19" Type="8">
+                                    <TrackKey ID="0" Time="0" />
+                                </Track>
+                            </Animation>
+                        </Animations>
+                    </Element>
+                </Element>
+                <Element Type="7" Name="Fireworks" ID="322376734" Anchor="-0.043634, 0.069504" Dimension="0.216667, 0.216667" IsPassive="T" ResizeBias="0" Filename="UI_Worldmap_Fireworks_Green.fx">
+                    <Animations>
+                        <Animation Name="openmenuoptions">
+                            <Track ID="19" Type="8">
+                                <TrackKey ID="0" Time="0" />
+                            </Track>
+                        </Animation>
+                    </Animations>
+                </Element>
+            </Element>
+            <Element TextureFilename="Trans.png" Type="2" Name="Zone3" ID="5" Anchor="0.265625, -0.046874" Dimension="0.280209, 0.384896" IsPassive="T" Tint="255, 255, 255, 0" ResizeBias="0">
+                <Element TextureFilename="Trans.png" Type="3" Name="ZoneButton1" ID="674" Anchor="-0.081248, -0.087502" Dimension="0.021528, 0.065625" Expansion="1.000000, 1.000000" ResizeBias="0">
+                    <SoundMapRoot>
+                        <SoundEvent EventTrigger="Touches Ended (UI Only)" SoundEventFullPath="UI/Menu/Button_World_Map" />
+                    </SoundMapRoot>
+                    <Element Type="4" Name="ZoneFlag" ID="675" Anchor="0.000000, -0.020312" Dimension="0.066667, 0.100000" IsPassive="T" RelativeScale="0.7" ResizeBias="0" SpriteFilename="World_Flag.dol" AnimationName="default" />
+                </Element>
+                <Element TextureFilename="Trans.png" Type="3" Name="ZoneButton2" ID="676" Anchor="0.015626, -0.095314" Dimension="0.021875, 0.065625" Expansion="1.000000, 1.000000" ResizeBias="0">
+                    <SoundMapRoot>
+                        <SoundEvent EventTrigger="Touches Ended (UI Only)" SoundEventFullPath="UI/Menu/Button_World_Map" />
+                    </SoundMapRoot>
+                    <Element Type="4" Name="ZoneFlag" ID="677" Anchor="0.000000, -0.020312" Dimension="0.066667, 0.100000" IsPassive="T" RelativeScale="0.7" ResizeBias="0" SpriteFilename="World_Flag.dol" AnimationName="default" />
+                </Element>
+                <Element TextureFilename="Trans.png" Type="3" Name="ZoneButton3" ID="678" Anchor="0.108334, -0.037503" Dimension="0.021528, 0.065625" Expansion="1.000000, 1.000000" ResizeBias="0">
+                    <SoundMapRoot>
+                        <SoundEvent EventTrigger="Touches Ended (UI Only)" SoundEventFullPath="UI/Menu/Button_World_Map" />
+                    </SoundMapRoot>
+                    <Element Type="4" Name="ZoneFlag" ID="679" Anchor="0.000000, -0.020312" Dimension="0.066667, 0.100000" IsPassive="T" RelativeScale="0.7" ResizeBias="0" SpriteFilename="World_Flag.dol" AnimationName="default" />
+                </Element>
+                <Element TextureFilename="Trans.png" Type="3" Name="ZoneButton4" ID="680" Anchor="0.022918, 0.104685" Dimension="0.021528, 0.065625" Expansion="1.000000, 1.000000" ResizeBias="0">
+                    <SoundMapRoot>
+                        <SoundEvent EventTrigger="Touches Ended (UI Only)" SoundEventFullPath="UI/Menu/Button_World_Map" />
+                    </SoundMapRoot>
+                    <Element Type="4" Name="ZoneFlag" ID="681" Anchor="0.000000, -0.020312" Dimension="0.066667, 0.100000" IsPassive="T" RelativeScale="0.7" ResizeBias="0" SpriteFilename="World_Flag.dol" AnimationName="default" />
+                </Element>
+                <Element TextureFilename="Trans.png" Type="3" Name="ZoneButton5" ID="322376711" Anchor="-0.034375, -0.112500" Dimension="0.021528, 0.065625" Expansion="1.000000, 1.000000" ResizeBias="0">
+                    <SoundMapRoot>
+                        <SoundEvent EventTrigger="Touches Ended (UI Only)" SoundEventFullPath="UI/Menu/Button_World_Map" />
+                    </SoundMapRoot>
+                    <Element Type="4" Name="ZoneFlag" ID="322376712" Anchor="0.000000, -0.020312" Dimension="0.066667, 0.100000" IsPassive="T" RelativeScale="0.7" ResizeBias="0" SpriteFilename="World_Flag_Bonus.dol" AnimationName="default" />
+                </Element>
+                <Element Type="2" Name="ZoomTarget" ID="624" Anchor="0.094793, -0.032814" Dimension="0.060417, 0.090625" Enabled="F" Visible="F" IsPassive="T" ResizeBias="0" MaximumAlpha="241" />
+            </Element>
+            <Element TextureFilename="Trans.png" Type="2" Name="Zone0" ID="2" Anchor="-0.254166, -0.073437" Dimension="-0.322236, -0.350520" IsPassive="T" Tint="255, 255, 255, 0" ResizeBias="0">
+                <SoundMapRoot>
+                    <SoundEvent EventTrigger="Touches Began (UI Only)" SoundEventFullPath="UI/Menu/Blank" />
+                </SoundMapRoot>
+                <Element TextureFilename="Trans.png" Type="3" Name="ZoneButton1" ID="6" Anchor="0.075001, 0.103121" Dimension="0.021528, 0.065625" Expansion="1.000000, 1.000000" ResizeBias="0">
+                    <SoundMapRoot>
+                        <SoundEvent EventTrigger="Touches Ended (UI Only)" SoundEventFullPath="UI/Menu/Button_World_Map" />
+                    </SoundMapRoot>
+                    <Element Type="4" Name="ZoneFlag" ID="635" Anchor="0.000000, -0.020312" Dimension="0.066667, 0.100000" IsPassive="T" RelativeScale="0.7" ResizeBias="0" SpriteFilename="World_Flag.dol" AnimationName="default" />
+                </Element>
+                <Element TextureFilename="Trans.png" Type="3" Name="ZoneButton2" ID="636" Anchor="0.017708, 0.076560" Dimension="0.021528, 0.065625" Expansion="1.000000, 1.000000" ResizeBias="0">
+                    <SoundMapRoot>
+                        <SoundEvent EventTrigger="Touches Ended (UI Only)" SoundEventFullPath="UI/Menu/Button_World_Map" />
+                    </SoundMapRoot>
+                    <Element Type="4" Name="ZoneFlag" ID="637" Anchor="0.000000, -0.020312" Dimension="0.066667, 0.100000" IsPassive="T" RelativeScale="0.7" ResizeBias="0" SpriteFilename="World_Flag.dol" AnimationName="default" />
+                </Element>
+                <Element TextureFilename="Trans.png" Type="3" Name="ZoneButton3" ID="638" Anchor="-0.034375, 0.123436" Dimension="0.021528, 0.065625" Expansion="1.000000, 1.000000" ResizeBias="0">
+                    <SoundMapRoot>
+                        <SoundEvent EventTrigger="Touches Ended (UI Only)" SoundEventFullPath="UI/Menu/Button_World_Map" />
+                    </SoundMapRoot>
+                    <Element Type="4" Name="ZoneFlag" ID="639" Anchor="0.000000, -0.020312" Dimension="0.066667, 0.100000" IsPassive="T" RelativeScale="0.7" ResizeBias="0" SpriteFilename="World_Flag_Bonus.dol" AnimationName="default" />
+                </Element>
+                <Element TextureFilename="Trans.png" Type="3" Name="ZoneButton4" ID="640" Anchor="-0.092708, 0.079685" Dimension="0.021528, 0.065625" Expansion="1.000000, 1.000000" ResizeBias="0">
+                    <SoundMapRoot>
+                        <SoundEvent EventTrigger="Touches Ended (UI Only)" SoundEventFullPath="UI/Menu/Button_World_Map" />
+                    </SoundMapRoot>
+                    <Element Type="4" Name="ZoneFlag" ID="641" Anchor="0.000000, -0.020312" Dimension="0.066667, 0.100000" IsPassive="T" RelativeScale="0.7" ResizeBias="0" SpriteFilename="World_Flag.dol" AnimationName="default" />
+                </Element>
+                <Element TextureFilename="Trans.png" Type="3" Name="ZoneButton5" ID="648" Anchor="-0.135416, -0.006252" Dimension="0.021528, 0.065625" Expansion="1.000000, 1.000000" ResizeBias="0">
+                    <SoundMapRoot>
+                        <SoundEvent EventTrigger="Touches Ended (UI Only)" SoundEventFullPath="UI/Menu/Button_World_Map" />
+                    </SoundMapRoot>
+                    <Element Type="4" Name="ZoneFlag" ID="649" Anchor="0.000000, -0.020312" Dimension="0.066667, 0.100000" IsPassive="T" RelativeScale="0.7" ResizeBias="0" SpriteFilename="World_Flag.dol" AnimationName="default" />
+                </Element>
+                <Element TextureFilename="Trans.png" Type="3" Name="ZoneButton6" ID="642" Anchor="-0.081250, -0.089064" Dimension="0.021528, 0.065625" Expansion="1.000000, 1.000000" ResizeBias="0">
+                    <SoundMapRoot>
+                        <SoundEvent EventTrigger="Touches Ended (UI Only)" SoundEventFullPath="UI/Menu/Button_World_Map" />
+                    </SoundMapRoot>
+                    <Element Type="4" Name="ZoneFlag" ID="643" Anchor="0.000000, -0.020312" Dimension="0.066667, 0.100000" IsPassive="T" RelativeScale="0.7" ResizeBias="0" SpriteFilename="World_Flag.dol" AnimationName="default" />
+                </Element>
+                <Element TextureFilename="Trans.png" Type="3" Name="ZoneButton7" ID="644" Anchor="-0.018750, -0.151564" Dimension="0.021528, 0.065625" Expansion="1.000000, 1.000000" ResizeBias="0">
+                    <SoundMapRoot>
+                        <SoundEvent EventTrigger="Touches Ended (UI Only)" SoundEventFullPath="UI/Menu/Button_World_Map" />
+                    </SoundMapRoot>
+                    <Element Type="4" Name="ZoneFlag" ID="645" Anchor="0.000000, -0.020312" Dimension="0.066667, 0.100000" IsPassive="T" RelativeScale="0.7" ResizeBias="0" SpriteFilename="World_Flag_Bonus.dol" AnimationName="default" />
+                </Element>
+                <Element Type="2" Name="ZoomTarget" ID="621" Anchor="-0.170834, -0.071875" Dimension="0.060417, 0.090625" Enabled="F" Visible="F" IsPassive="T" ResizeBias="0" MaximumAlpha="241" />
+            </Element>
+            <Element TextureFilename="Trans.png" Type="2" Name="Zone2" ID="3" Anchor="-0.004166, -0.292188" Dimension="0.403820, 0.605730" IsPassive="T" Tint="255, 255, 255, 0" ResizeBias="0">
+                <Element TextureFilename="Trans.png" Type="3" Name="ZoneButton1" ID="650" Anchor="-0.156249, -0.018753" Dimension="0.021528, 0.065625" Expansion="1.000000, 1.000000" ResizeBias="0">
+                    <SoundMapRoot>
+                        <SoundEvent EventTrigger="Touches Ended (UI Only)" SoundEventFullPath="UI/Menu/Button_World_Map" />
+                    </SoundMapRoot>
+                    <Element Type="4" Name="ZoneFlag" ID="651" Anchor="0.000000, -0.020312" Dimension="0.066667, 0.100000" IsPassive="T" RelativeScale="0.7" ResizeBias="0" SpriteFilename="World_Flag.dol" AnimationName="default" />
+                </Element>
+                <Element TextureFilename="Trans.png" Type="3" Name="ZoneButton2" ID="652" Anchor="-0.095832, 0.148435" Dimension="0.021528, 0.065625" Expansion="1.000000, 1.000000" ResizeBias="0">
+                    <SoundMapRoot>
+                        <SoundEvent EventTrigger="Touches Ended (UI Only)" SoundEventFullPath="UI/Menu/Button_World_Map" />
+                    </SoundMapRoot>
+                    <Element Type="4" Name="ZoneFlag" ID="653" Anchor="0.000000, -0.020312" Dimension="0.066667, 0.100000" IsPassive="T" RelativeScale="0.7" ResizeBias="0" SpriteFilename="World_Flag.dol" AnimationName="default" />
+                </Element>
+                <Element TextureFilename="Trans.png" Type="3" Name="ZoneButton3" ID="654" Anchor="-0.029165, 0.078123" Dimension="0.021528, 0.065625" Expansion="1.000000, 1.000000" ResizeBias="0">
+                    <SoundMapRoot>
+                        <SoundEvent EventTrigger="Touches Ended (UI Only)" SoundEventFullPath="UI/Menu/Button_World_Map" />
+                    </SoundMapRoot>
+                    <Element Type="4" Name="ZoneFlag" ID="655" Anchor="0.000000, -0.020312" Dimension="0.066667, 0.100000" IsPassive="T" RelativeScale="0.7" ResizeBias="0" SpriteFilename="World_Flag.dol" AnimationName="default" />
+                </Element>
+                <Element TextureFilename="Trans.png" Type="3" Name="ZoneButton4" ID="656" Anchor="0.028126, 0.118748" Dimension="0.021528, 0.065625" Expansion="1.000000, 1.000000" ResizeBias="0">
+                    <SoundMapRoot>
+                        <SoundEvent EventTrigger="Touches Ended (UI Only)" SoundEventFullPath="UI/Menu/Button_World_Map" />
+                    </SoundMapRoot>
+                    <Element Type="4" Name="ZoneFlag" ID="657" Anchor="0.000000, -0.020312" Dimension="0.066667, 0.100000" IsPassive="T" RelativeScale="0.7" ResizeBias="0" SpriteFilename="World_Flag_Bonus.dol" AnimationName="default" />
+                </Element>
+                <Element TextureFilename="Trans.png" Type="3" Name="ZoneButton5" ID="658" Anchor="0.054168, -0.017190" Dimension="0.021528, 0.065625" Expansion="1.000000, 1.000000" ResizeBias="0">
+                    <SoundMapRoot>
+                        <SoundEvent EventTrigger="Touches Ended (UI Only)" SoundEventFullPath="UI/Menu/Button_World_Map" />
+                    </SoundMapRoot>
+                    <Element Type="4" Name="ZoneFlag" ID="659" Anchor="0.000000, -0.020312" Dimension="0.066667, 0.100000" IsPassive="T" RelativeScale="0.7" ResizeBias="0" SpriteFilename="World_Flag.dol" AnimationName="default" />
+                </Element>
+                <Element TextureFilename="Trans.png" Type="3" Name="ZoneButton6" ID="660" Anchor="0.136459, 0.098435" Dimension="0.021528, 0.065625" Expansion="1.000000, 1.000000" ResizeBias="0">
+                    <SoundMapRoot>
+                        <SoundEvent EventTrigger="Touches Ended (UI Only)" SoundEventFullPath="UI/Menu/Button_World_Map" />
+                    </SoundMapRoot>
+                    <Element Type="4" Name="ZoneFlag" ID="661" Anchor="0.000000, -0.020312" Dimension="0.066667, 0.100000" IsPassive="T" RelativeScale="0.7" ResizeBias="0" SpriteFilename="World_Flag.dol" AnimationName="default" />
+                </Element>
+                <Element Type="2" Name="ZoomTarget" ID="622" Anchor="0.006250, -0.123438" Dimension="0.060417, 0.090625" Enabled="F" Visible="F" IsPassive="T" ResizeBias="0" MaximumAlpha="241" />
+            </Element>
+            <Element TextureFilename="Trans.png" Type="2" Name="Zone1" ID="4" Anchor="0.007292, 0.123439" Dimension="0.266320, 0.399479" IsPassive="T" Tint="255, 255, 255, 0" ResizeBias="0">
+                <Element TextureFilename="Trans.png" Type="3" Name="ZoneButton1" ID="664" Anchor="-0.003125, -0.134378" Dimension="0.020845, 0.063542" Expansion="0.564000, 0.538000" ResizeBias="0">
+                    <SoundMapRoot>
+                        <SoundEvent EventTrigger="Touches Ended (UI Only)" SoundEventFullPath="UI/Menu/Button_World_Map" />
+                    </SoundMapRoot>
+                    <Element Type="4" Name="ZoneFlag" ID="665" Anchor="0.000000, -0.020312" Dimension="0.066667, 0.100000" IsPassive="T" RelativeScale="0.7" ResizeBias="0" SpriteFilename="World_Flag_Bonus.dol" AnimationName="default" />
+                </Element>
+                <Element TextureFilename="Trans.png" Type="3" Name="ZoneButton2" ID="666" Anchor="0.031251, -0.076564" Dimension="0.021528, 0.065625" Expansion="0.462000, 1.000000" ResizeBias="0">
+                    <SoundMapRoot>
+                        <SoundEvent EventTrigger="Touches Ended (UI Only)" SoundEventFullPath="UI/Menu/Button_World_Map" />
+                    </SoundMapRoot>
+                    <Element Type="4" Name="ZoneFlag" ID="667" Anchor="0.000000, -0.020312" Dimension="0.066667, 0.100000" IsPassive="T" RelativeScale="0.7" ResizeBias="0" SpriteFilename="World_Flag_Bonus.dol" AnimationName="default" />
+                </Element>
+                <Element TextureFilename="Trans.png" Type="3" Name="ZoneButton3" ID="668" Anchor="0.063543, 0.010934" Dimension="0.021528, 0.065625" Expansion="0.385000, 1.000000" ResizeBias="0">
+                    <SoundMapRoot>
+                        <SoundEvent EventTrigger="Touches Ended (UI Only)" SoundEventFullPath="UI/Menu/Button_World_Map" />
+                    </SoundMapRoot>
+                    <Element Type="4" Name="ZoneFlag" ID="669" Anchor="0.000000, -0.020312" Dimension="0.066667, 0.100000" IsPassive="T" RelativeScale="0.7" ResizeBias="0" SpriteFilename="World_Flag_Bonus.dol" AnimationName="default" />
+                </Element>
+                <Element TextureFilename="Trans.png" Type="3" Name="ZoneButton4" ID="670" Anchor="-0.003124, 0.035936" Dimension="0.021875, 0.065625" Expansion="1.000000, 1.000000" ResizeBias="0">
+                    <SoundMapRoot>
+                        <SoundEvent EventTrigger="Touches Ended (UI Only)" SoundEventFullPath="UI/Menu/Button_World_Map" />
+                    </SoundMapRoot>
+                    <Element Type="4" Name="ZoneFlag" ID="671" Anchor="0.000000, -0.020312" Dimension="0.066667, 0.100000" IsPassive="T" RelativeScale="0.7" ResizeBias="0" SpriteFilename="World_Flag_Bonus.dol" AnimationName="default" />
+                </Element>
+                <Element TextureFilename="Trans.png" Type="3" Name="ZoneButton5" ID="672" Anchor="-0.054166, 0.023436" Dimension="0.021528, 0.065625" Expansion="0.564000, 0.564000" ResizeBias="0">
+                    <SoundMapRoot>
+                        <SoundEvent EventTrigger="Touches Ended (UI Only)" SoundEventFullPath="UI/Menu/Button_World_Map" />
+                    </SoundMapRoot>
+                    <Element Type="4" Name="ZoneFlag" ID="673" Anchor="0.000000, -0.020312" Dimension="0.066667, 0.100000" IsPassive="T" RelativeScale="0.7" ResizeBias="0" SpriteFilename="World_Flag_Bonus.dol" AnimationName="default" />
+                </Element>
+                <Element TextureFilename="Trans.png" Type="3" Name="ZoneButton6" ID="693" Anchor="-0.038541, -0.087502" Dimension="0.021528, 0.065625" Expansion="0.744000, 0.410000" ResizeBias="0">
+                    <SoundMapRoot>
+                        <SoundEvent EventTrigger="Touches Ended (UI Only)" SoundEventFullPath="UI/Menu/Button_World_Map" />
+                    </SoundMapRoot>
+                    <Element Type="4" Name="ZoneFlag" ID="694" Anchor="0.000000, -0.020312" Dimension="0.066667, 0.100000" IsPassive="T" RelativeScale="0.7" ResizeBias="0" SpriteFilename="World_Flag_Bonus.dol" AnimationName="default" />
+                </Element>
+                <Element Type="2" Name="ZoomTarget" ID="623" Anchor="-0.004167, 0.064063" Dimension="0.060417, 0.090625" Enabled="F" Visible="F" IsPassive="T" ResizeBias="0" MaximumAlpha="241" />
+            </Element>
+            <Element TextureFilename="Trans.png" Type="2" Name="ShadowRoot" ID="322376579" Anchor="-0.333334, 0.060938" Dimension="0.052083, 0.078125" IsPassive="T" Tint="255, 255, 255, 0" ResizeBias="0" SetChildrenAlpha="T">
+                <Animations>
+                    <Animation Name="ShadowFadeOut">
+                        <Track ID="22" Type="5">
+                            <TrackKey ID="0" Time="0" Value="255" />
+                            <TrackKey ID="1" Time="0.103125" />
+                        </Track>
+                    </Animation>
+                    <Animation Name="ShadowFadeIn">
+                        <Track ID="21" Type="5">
+                            <TrackKey ID="0" Time="0" />
+                            <TrackKey ID="1" Time="0.078125" Value="255" />
+                        </Track>
+                    </Animation>
+                </Animations>
+                <Element TextureFilename="Worldmap_Shadow.png" Type="2" Name="OverlayShadow" ID="322376580" Anchor="0.012500, 0.076562" Dimension="0.210416, 0.132292" IsPassive="T" Tint="255, 255, 255, 0" ResizeBias="0" PixelFormat="2" />
+                <Element Type="7" Name="BehindFlagGlow" ID="322376581" Dimension="0.295833, 0.295833" IsPassive="T" Tint="255, 255, 255, 0" RelativeScale="0.65" ResizeBias="0" Filename="UI_Light_Rays002.fx" />
+            </Element>
+            <Element TextureFilename="Trans.png" Type="2" Name="SunGlows" ID="322376694" Dimension="1.000000, 1.000000" IsPassive="T" RelativeScale="1.3" MirrorMode="3" BlendState="5" ResizeBias="2">
+                <Element TextureFilename="Glow_Blue.JPG" Type="2" Name="Bottom" ID="322376697" Anchor="0.221153, 0.086539" Dimension="0.484722, 0.727084" Visible="F" IsPassive="T" MirrorMode="1" BlendState="5" ResizeBias="2" Margin="7" PixelFormat="2" />
+                <Element Type="7" Name="Birds" ID="322376702" Anchor="-0.196314, -0.074519" Dimension="0.300000, 0.300000" IsPassive="T" RelativeScale="1.45" ResizeBias="2" Filename="UI_Worldmap_Birds.fx">
+                    <Animations>
+                        <Animation Name="openmenuoptions">
+                            <Track ID="19" Type="8">
+                                <TrackKey ID="0" Time="0" />
+                            </Track>
+                        </Animation>
+                    </Animations>
+                </Element>
+                <Element Type="7" Name="BirdOfPrey" ID="322376703" Anchor="-0.007212, -0.176683" Dimension="0.233333, 0.233334" IsPassive="T" RelativeScale="1.45" ResizeBias="2" Filename="UI_Worldmap_BirdOfPrey.fx">
+                    <Animations>
+                        <Animation Name="openmenuoptions">
+                            <Track ID="19" Type="8">
+                                <TrackKey ID="0" Time="0" />
+                            </Track>
+                        </Animation>
+                    </Animations>
+                </Element>
+                <Element TextureFilename="Button_Glow.jpg" Type="2" Name="Top" ID="322376696" Anchor="-0.374199, 0.133413" Dimension="1.863889, 0.543750" IsPassive="T" Tint="83, 41, 0, 255" MirrorMode="1" BlendState="5" ResizeBias="2" Margin="3" />
+            </Element>
+        </Element>
+        <Element Type="7" Name="NextMissionIndicator" ID="695" Anchor="0.500000, 0.509375" Dimension="0.354167, 0.354167" IsPassive="T" Filename="Map_Pointer.fx">
+            <Animations>
+                <Animation Name="IndicatorOn">
+                    <Track ID="16" Type="8">
+                        <TrackKey ID="0" Time="0" />
+                    </Track>
+                </Animation>
+                <Animation Name="IndicatorOff">
+                    <Track ID="17" Type="8">
+                        <TrackKey ID="0" Time="0" Value="1" />
+                    </Track>
+                </Animation>
+            </Animations>
+            <Element TextureFilename="ArrowEnemy.jpg" Type="2" Name="Preload_Arrow" ID="32874" Dimension="0.533333, 0.645312" Visible="F" IsPassive="T" ResizeBias="0" PixelFormat="2" Dithered="T" />
+        </Element>
+    </FormRoot>
+    <AnimationTriggers>
+        <AnimationTrigger Event="Form Activated (UI Only)" Data="1073741824" Animation="openmenuoptions" />
+        <AnimationTrigger Event="Form Opened (UI Only)" Data="1073741824" Animation="PlayMusic" />
+        <AnimationTrigger Event="Form Activated (UI Only)" Data="690" Animation="PlayMusic" />
+    </AnimationTriggers>
+</Form>

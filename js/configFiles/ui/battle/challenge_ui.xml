@@ -1,0 +1,83 @@
+﻿<ui>
+	<control type="static" name="battle_map_tips" background="map_tips" x="" y="" addchild="0" >
+		<text mainname="title_text" subname="" filtercolor="0xffffff" textcolor="0xff0000" />
+		<text mainname="level_text" subname="" filtercolor="0" textcolor="0xffffff" />
+		<text mainname="army_text" subname="" filtercolor="0" textcolor="0xffffff" />
+		<text mainname="goods_text_1" subname="" filtercolor="0x00ff" textcolor="0xffffff" />
+		<text mainname="goods_text_2" subname="" filtercolor="0x0ff" textcolor="0xffffff" />
+	</control>
+	
+		
+	<control type="dialog" name="battle_map_3_dialog" background="battle_map_3" x="0" y="0" width="0" height="0" bgcolor="0xcccccc" addchild="0" scale="1" >		
+		<control type="button" name="changemap" background="battle_map_50_icon" x="522" y="356" addchild="1" anibutton="1" setdata="1" buttonmode="1" >	
+			<function evttype="click" callback="OnChangeMap" />	
+		</control>	
+		
+		<control type="button" name="changemap" background="dragon_leave_btn" x="687" y="600" addchild="1" anibutton="1" setdata="1" buttonmode="1" >	
+			<function evttype="click" callback="OnChangeMap" />	
+		</control>
+	</control> 
+	
+	<control type="dialog" name="battle_map_2_dialog" background="battle_map_2_dialog" x="0" y="0" width="0" height="0" bgcolor="0xcccccc" addchild="0" scale="1" >		
+		<control type="button" name="changemap" background="battle_map_2_icon" x="312" y="295" addchild="1" anibutton="1" setdata="1" buttonmode="1" >	
+			<function evttype="click" callback="OnChangeMap" />	
+		</control>	
+		
+		<control type="button" name="changemap" background="dragon_leave_btn" x="687" y="600" addchild="1" anibutton="1" setdata="1" buttonmode="1" >	
+			<function evttype="click" callback="OnChangeMap" />	
+		</control>
+	</control>
+	
+	<control type="dialog" name="battle_map_1_dialog" background="island_1_map_bg" x="0" y="0" width="0" height="0" bgcolor="0xcccccc" addchild="0" scale="1" >		
+		<control type="static" name="map_part" background="island_1_map_1" x="30" y="479" addchild="1" setdata="1" />
+		<control type="static" name="map_part" background="island_1_map_2" x="20" y="330" addchild="1" setdata="2" />
+		<control type="static" name="map_part" background="island_1_map_3" x="29" y="174" addchild="1" setdata="3" />
+		<control type="static" name="map_part" background="island_1_map_4" x="39" y="57" addchild="1" setdata="4" />
+		<control type="static" name="map_part" background="island_1_map_5" x="229" y="194" addchild="1" setdata="5" />
+		<control type="static" name="map_part" background="island_1_map_6" x="278" y="131" addchild="1" setdata="6" />
+		<control type="static" name="map_part" background="island_1_map_7" x="421" y="91" addchild="1" setdata="7" />
+		<control type="static" name="map_part" background="island_1_map_8" x="407" y="17" addchild="1" setdata="8" />
+		<control type="static" name="map_part" background="island_1_map_9" x="202" y="418" addchild="1" setdata="9" />
+		<control type="static" name="map_part" background="island_1_map_10" x="430" y="289" addchild="1" setdata="10" />
+		<control type="static" name="map_part" background="island_1_map_11" x="484" y="412" addchild="1" setdata="11" />
+		<control type="static" name="map_part" background="island_1_map_12" x="633" y="266" addchild="1" setdata="12" />
+		
+		<!--
+		<control type="button" name="" background="icon_fighting" x="200" y="355" addchild="1" setdata="1" >
+			<function evttype="click" callback="OnClickChallengeMapBattle" />
+		</control>
+		-->	
+		<control type="button" name="changemap" background="island_1_map_dragon" x="10" y="288" addchild="1" anibutton="1" setdata="2" buttonmode="1" tips="龙岛(LV21~50)" tinytip="0" tipoffx="0" tipoffy="-20" >	
+			<function evttype="click" callback="OnChangeMap" />	
+		</control>	
+		
+		<control type="button" name="changemap" background="island_1_map_dragon50" x="326" y="28" addchild="1" anibutton="1" setdata="3" buttonmode="1" tips="月岛(LV51~80)" tinytip="0" tipoffx="0" tipoffy="-20" >	
+			<function evttype="click" callback="OnChangeMap" />	
+		</control>	
+		
+		<control type="button" name="battle_map_1_mine" background="island_1_map_minecraft" x="6" y="484" addchild="1" playbg="1" btnstyle="4" buttonmode="1" setdata="10" >
+			<function evttype="click" callback="OnClickMapMine" />	
+		</control>
+		<control type="button" name="battle_map_1_legion" background="island_1_map_corps" x="151" y="411" addchild="1" playbg="1" btnstyle="4" buttonmode="1" setdata="999" >
+			<function evttype="click" callback="OnClickLegionBattle" />	
+		</control>
+		<control type="button" name="battle_map_1_pk" background="island_1_map_PK" x="8" y="314" addchild="1" playbg="1" btnstyle="4" buttonmode="1" setdata="999" >
+			<function evttype="click" callback="OnClickPKBattle" />	
+		</control>
+	</control>
+	
+	<control type="button" name="challenge_battle_report_btn" background="battle_report_icon" x="158" y="17" addchild="1" buttonmode="1" >	
+			<function evttype="click" callback="OnChallengeBattleReportButton" />
+	</control>
+	
+	<control type="button" name="challenge_back_home" background="icon_home" x="670" y="550" addchild="1" anibutton="1" buttonmode="1" >	
+		<function evttype="click" callback="OnGoBackHomeButton" />	
+		</control>	
+		
+	<control type="static" name="challenge_map_info" background="challenge_map_info" addchild="0" >
+		<text mainname="name_text" subname="" filtercolor="0" />
+		<text mainname="challenge_text" subname="" filtercolor="0" />
+		<text mainname="soldier_text" subname="" filtercolor="0" />
+		<text mainname="energy_text" subname="" filtercolor="0" />
+	</control>
+</ui>

@@ -1,0 +1,67 @@
+<!--Copyright 2012 Subatomic Studios, LLC. All rights reserved.-->
+<Form Name="" BasePlatform="2" Version="72">
+    <FormRoot Name="Element">
+        <Element TextureFilename="BGBlack.png" Type="2" Name="Tint" ID="21" Anchor="0.500000, 0.500000" Dimension="1.000000, 1.000000" IsPassive="T" Tint="0, 0, 0, 0" ResizeBias="2" MaximumAlpha="192">
+            <Animations>
+                <Animation Name="FormExit">
+                    <Track ID="10" Type="5">
+                        <TrackKey ID="0" Time="0" Value="194" />
+                        <TrackKey ID="1" Time="0.246875" />
+                    </Track>
+                </Animation>
+                <Animation Name="FormEntry">
+                    <Track ID="7" Type="5">
+                        <TrackKey ID="0" Time="0" />
+                        <TrackKey ID="1" Time="0.74375" Value="192" />
+                    </Track>
+                </Animation>
+            </Animations>
+        </Element>
+        <Element TextureFilename="Trans.png" Type="2" Name="VictoryClick" ID="17" Anchor="0.500000, 0.500000" Dimension="1.000000, 1.000000" ResizeBias="2">
+            <Animations>
+                <Animation Name="FormExit">
+                    <Track ID="2" Type="9">
+                        <TrackKey ID="0" Time="0" Value="playsound UI/In_Game/Tower_Drag_Cancel" />
+                        <TrackKey ID="1" Time="0.25" Value="popform" />
+                    </Track>
+                </Animation>
+            </Animations>
+        </Element>
+        <Element PanelSkin="UnitNoteBox.asc" Type="10" Name="EntryPanel" ID="2" Anchor="0.497917, 1.250000" Dimension="0.618750, 0.244270" Rotation="-0.16974" IsPassive="T" Margin="1" PixelFormat="2">
+            <Animations>
+                <Animation Name="FormExit">
+                    <Track ID="8" Type="1">
+                        <TrackKey ID="0" Time="0" Value="0.497917, 0.625000" />
+                        <TrackKey ID="1" Time="0.24375" Value="0.497917, 1.250000" />
+                    </Track>
+                    <Track ID="9" Type="2">
+                        <TrackKey ID="0" Time="0" />
+                        <TrackKey ID="1" Time="0.246875" Value="-0.144152" />
+                    </Track>
+                </Animation>
+                <Animation Name="FormEntry">
+                    <Track ID="0" Type="9">
+                        <TrackKey ID="0" Time="0" Value="pause on" />
+                    </Track>
+                    <Track ID="5" Type="1">
+                        <TrackKey ID="0" Time="0" Value="0.497917, 1.250000" />
+                        <TrackKey ID="1" Time="0.25" Value="0.497917, 0.625000" />
+                    </Track>
+                    <Track ID="6" Type="2">
+                        <TrackKey ID="0" Time="0" Value="-0.16974" />
+                        <TrackKey ID="1" Time="0.25" />
+                    </Track>
+                </Animation>
+            </Animations>
+            <Element Text="$(TipPuzzleText)" TextScale="0.7" Type="1" Name="Text" ID="3" Anchor="0.067708, -0.023436" Dimension="0.416667, 0.176070" IsPassive="T" Tint="187, 189, 198, 255" Alignment="0" Tracking="-7" Leading="38" Font="ArialWhite05.asc" />
+            <Element TextureFilename="Icon_Puzzle.jpg" Type="2" Name="Image" ID="18" Anchor="-0.220833, 0.004687" Dimension="0.133333, 0.200000" IsPassive="T" Dithered="T" />
+            <Element Text="$(TipPuzzleTitle)" TextScale="0.7" Type="1" Name="Title" ID="19" Anchor="0.003125, 0.148437" Dimension="0.559123, 0.067736" IsPassive="T" Tracking="-6" Leading="47" TranslateOnce="T" Font="StencilYellow10.asc" />
+            <Element Text="$(TapToContinue)" TextScale="0.6" Type="1" Name="Tap To Continue..." ID="20" Anchor="0.105208, -0.085415" Dimension="0.371812, 0.026070" IsPassive="T" Tint="188, 190, 197, 255" Alignment="2" Tracking="-7" Leading="38" Font="ArialWhite05.asc" TextEffect="AlphaPulse" />
+        </Element>
+    </FormRoot>
+    <AnimationTriggers>
+        <AnimationTrigger Event="Touches Ended (UI Only)" Data="2" Animation="FormExit" />
+        <AnimationTrigger Event="Touches Ended (UI Only)" Data="17" Animation="FormExit" />
+        <AnimationTrigger Event="Form Activated (UI Only)" Data="1073741824" Animation="FormEntry" />
+    </AnimationTriggers>
+</Form>

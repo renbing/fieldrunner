@@ -1,0 +1,1893 @@
+<data>
+	<status id="10" name="battle_skill_dizzy_hold"/>
+	<status id="20" name="battle_skill_bind_hold"/>
+	<status id="30" name="battle_skill_turtle_hold"/>
+	<status id="40" name="battle_skill_firebomb_hold"/>
+	<status id="50" name="battle_skill_month_hold"/>
+	<skill id="1" name="奋力一击" resname="icon6001" effectani="battle_skill_thunderclap" desc="奋力怒击敌人单队，造成更大杀伤力。" type="1" morale="100">
+		<level value="0" cardtype="6" cardid="1" cardnumber="1" gold="1000" lv="0">
+			<effect inx="1" targettype="0" parent="0" nexteffect="0" type="10" param1="0" param2="0" param3="0" prob="10000"/>
+		</level>
+		<level value="1" cardtype="6" cardid="1" cardnumber="1" gold="230" lv="5">
+			<effect inx="1" targettype="0" parent="0" nexteffect="0" type="10" param1="9982" param2="9982" param3="0" prob="10000"/>
+		</level>
+		<level value="2" cardtype="6" cardid="1" cardnumber="2" gold="460" lv="9">
+			<effect inx="1" targettype="0" parent="0" nexteffect="0" type="10" param1="20546" param2="20546" param3="0" prob="10000"/>
+		</level>
+		<level value="3" cardtype="6" cardid="1" cardnumber="3" gold="690" lv="13">
+			<effect inx="1" targettype="0" parent="0" nexteffect="0" type="10" param1="34691" param2="34691" param3="0" prob="10000"/>
+		</level>
+		<level value="4" cardtype="6" cardid="1" cardnumber="4" gold="920" lv="17">
+			<effect inx="1" targettype="0" parent="0" nexteffect="0" type="10" param1="52316" param2="52316" param3="0" prob="10000"/>
+		</level>
+		<level value="5" cardtype="6" cardid="1" cardnumber="5" gold="1150" lv="21">
+			<effect inx="1" targettype="0" parent="0" nexteffect="0" type="10" param1="73541" param2="73541" param3="0" prob="10000"/>
+		</level>
+		<level value="6" cardtype="6" cardid="1" cardnumber="6" gold="1380" lv="25">
+			<effect inx="1" targettype="0" parent="0" nexteffect="0" type="10" param1="98043" param2="98043" param3="0" prob="10000"/>
+		</level>
+		<level value="7" cardtype="6" cardid="1" cardnumber="7" gold="1610" lv="29">
+			<effect inx="1" targettype="0" parent="0" nexteffect="0" type="10" param1="125343" param2="125343" param3="0" prob="10000"/>
+		</level>
+		<level value="8" cardtype="6" cardid="1" cardnumber="7" gold="1840" lv="33">
+			<effect inx="1" targettype="0" parent="0" nexteffect="0" type="10" param1="155962" param2="155962" param3="0" prob="10000"/>
+		</level>
+		<level value="9" cardtype="6" cardid="1" cardnumber="7" gold="2070" lv="37">
+			<effect inx="1" targettype="0" parent="0" nexteffect="0" type="10" param1="189465" param2="189465" param3="0" prob="10000"/>
+		</level>
+		<level value="10" cardtype="6" cardid="1" cardnumber="7" gold="2300" lv="41">
+			<effect inx="1" targettype="0" parent="0" nexteffect="0" type="10" param1="225716" param2="225716" param3="0" prob="10000"/>
+		</level>
+		<level value="11" cardtype="6" cardid="1" cardnumber="8" gold="2530" lv="45">
+			<effect inx="1" targettype="0" parent="0" nexteffect="0" type="10" param1="264547" param2="264547" param3="0" prob="10000"/>
+		</level>
+		<level value="12" cardtype="6" cardid="1" cardnumber="8" gold="2760" lv="49">
+			<effect inx="1" targettype="0" parent="0" nexteffect="0" type="10" param1="305287" param2="305287" param3="0" prob="10000"/>
+		</level>
+		<level value="13" cardtype="6" cardid="1" cardnumber="9" gold="2990" lv="53">
+			<effect inx="1" targettype="0" parent="0" nexteffect="0" type="10" param1="349533" param2="349533" param3="0" prob="10000"/>
+		</level>
+		<level value="14" cardtype="6" cardid="1" cardnumber="9" gold="3220" lv="57">
+			<effect inx="1" targettype="0" parent="0" nexteffect="0" type="10" param1="395407" param2="395407" param3="0" prob="10000"/>
+		</level>
+		<level value="15" cardtype="6" cardid="1" cardnumber="11" gold="3450" lv="61">
+			<effect inx="1" targettype="0" parent="0" nexteffect="0" type="10" param1="444787" param2="444787" param3="0" prob="10000"/>
+		</level>
+		<level value="16" cardtype="6" cardid="1" cardnumber="11" gold="3680" lv="65">
+			<effect inx="1" targettype="0" parent="0" nexteffect="0" type="10" param1="494730" param2="494730" param3="0" prob="10000"/>
+		</level>
+		<level value="17" cardtype="6" cardid="1" cardnumber="12" gold="3910" lv="69">
+			<effect inx="1" targettype="0" parent="0" nexteffect="0" type="10" param1="547293" param2="547293" param3="0" prob="10000"/>
+		</level>
+		<level value="18" cardtype="6" cardid="1" cardnumber="13" gold="4140" lv="73">
+			<effect inx="1" targettype="0" parent="0" nexteffect="0" type="10" param1="601616" param2="601616" param3="0" prob="10000"/>
+		</level>
+		<level value="19" cardtype="6" cardid="1" cardnumber="15" gold="4370" lv="77">
+			<effect inx="1" targettype="0" parent="0" nexteffect="0" type="10" param1="657562" param2="657562" param3="0" prob="10000"/>
+		</level>
+		<level value="20" cardtype="6" cardid="1" cardnumber="15" gold="4600" lv="81">
+			<effect inx="1" targettype="0" parent="0" nexteffect="0" type="10" param1="714986" param2="714986" param3="0" prob="10000"/>
+		</level>
+		<level value="21" cardtype="6" cardid="1" cardnumber="15" gold="4830" lv="85">
+			<effect inx="1" targettype="0" parent="0" nexteffect="0" type="10" param1="773741" param2="773741" param3="0" prob="10000"/>
+		</level>
+		<level value="22" cardtype="6" cardid="1" cardnumber="16" gold="5060" lv="89">
+			<effect inx="1" targettype="0" parent="0" nexteffect="0" type="10" param1="833726" param2="833726" param3="0" prob="10000"/>
+		</level>
+		<level value="23" cardtype="6" cardid="1" cardnumber="17" gold="5290" lv="93">
+			<effect inx="1" targettype="0" parent="0" nexteffect="0" type="10" param1="895871" param2="895871" param3="0" prob="10000"/>
+		</level>
+		<level value="24" cardtype="6" cardid="1" cardnumber="17" gold="5520" lv="97">
+			<effect inx="1" targettype="0" parent="0" nexteffect="0" type="10" param1="959043" param2="959043" param3="0" prob="10000"/>
+		</level>
+		<level value="25" cardtype="6" cardid="1" cardnumber="17" gold="5750" lv="101">
+			<effect inx="1" targettype="0" parent="0" nexteffect="0" type="10" param1="1021953" param2="1021953" param3="0" prob="10000"/>
+		</level>
+		<level value="26" cardtype="6" cardid="1" cardnumber="19" gold="5980" lv="105">
+			<effect inx="1" targettype="0" parent="0" nexteffect="0" type="10" param1="1086742" param2="1086742" param3="0" prob="10000"/>
+		</level>
+		<level value="27" cardtype="6" cardid="1" cardnumber="19" gold="6210" lv="109">
+			<effect inx="1" targettype="0" parent="0" nexteffect="0" type="10" param1="1152165" param2="1152165" param3="0" prob="10000"/>
+		</level>
+		<level value="28" cardtype="6" cardid="1" cardnumber="19" gold="6440" lv="113">
+			<effect inx="1" targettype="0" parent="0" nexteffect="0" type="10" param1="1216773" param2="1216773" param3="0" prob="10000"/>
+		</level>
+		<level value="29" cardtype="6" cardid="1" cardnumber="20" gold="6670" lv="117">
+			<effect inx="1" targettype="0" parent="0" nexteffect="0" type="10" param1="1284337" param2="1284337" param3="0" prob="10000"/>
+		</level>
+		<level value="30" cardtype="6" cardid="1" cardnumber="0" gold="1000" lv="0">
+			<effect inx="1" targettype="0" parent="0" nexteffect="0" type="10" param1="1349437" param2="1349437" param3="0" prob="10000"/>
+		</level>
+	</skill>
+	<skill id="2" name="半月斩" resname="icon6002" effectani="battle_skill_month" desc="乱刀挥舞杀入敌人单队，割伤后造成2回合持续伤害。" type="1" morale="100">
+		<level value="0" cardtype="6" cardid="2" cardnumber="1" gold="1000" lv="10">
+			<effect inx="1" targettype="0" parent="0" nexteffect="0" type="11" param1="0" param2="0" param3="0" prob="10000"/>
+		</level>
+		<level value="1" cardtype="6" cardid="2" cardnumber="2" gold="265" lv="14">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="10" param1="31017" param2="31017" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="20" param1="50" param2="2" param3="7754" param4="50" prob="10000" noeffect="1"/>
+		</level>
+		<level value="2" cardtype="6" cardid="2" cardnumber="3" gold="530" lv="18">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="10" param1="45837" param2="45837" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="20" param1="50" param2="2" param3="11459" param4="50" prob="10000" noeffect="1"/>
+		</level>
+		<level value="3" cardtype="6" cardid="2" cardnumber="6" gold="795" lv="22">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="11" param1="63537" param2="63537" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="20" param1="50" param2="2" param3="15884" param4="50" prob="10000" noeffect="1"/>
+		</level>
+		<level value="4" cardtype="6" cardid="2" cardnumber="6" gold="1060" lv="26">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="10" param1="83583" param2="83583" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="20" param1="50" param2="2" param3="20895" param4="50" prob="10000" noeffect="1"/>
+		</level>
+		<level value="5" cardtype="6" cardid="2" cardnumber="7" gold="1325" lv="30">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="10" param1="106071" param2="106071" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="20" param1="50" param2="2" param3="26517" param4="50" prob="10000" noeffect="1"/>
+		</level>
+		<level value="6" cardtype="6" cardid="2" cardnumber="8" gold="1590" lv="34">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="10" param1="131214" param2="131214" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="20" param1="50" param2="2" param3="32803" param4="50" prob="10000" noeffect="1"/>
+		</level>
+		<level value="7" cardtype="6" cardid="2" cardnumber="8" gold="1855" lv="38">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="10" param1="158664" param2="158664" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="20" param1="50" param2="2" param3="39666" param4="50" prob="10000" noeffect="1"/>
+		</level>
+		<level value="8" cardtype="6" cardid="2" cardnumber="8" gold="2120" lv="42">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="10" param1="188313" param2="188313" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="20" param1="50" param2="2" param3="47078" param4="50" prob="10000" noeffect="1"/>
+		</level>
+		<level value="9" cardtype="6" cardid="2" cardnumber="8" gold="2385" lv="46">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="10" param1="219570" param2="219570" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="20" param1="50" param2="2" param3="54892" param4="50" prob="10000" noeffect="1"/>
+		</level>
+		<level value="10" cardtype="6" cardid="2" cardnumber="8" gold="2650" lv="50">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="10" param1="252738" param2="252738" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="20" param1="50" param2="2" param3="63184" param4="50" prob="10000" noeffect="1"/>
+		</level>
+		<level value="11" cardtype="6" cardid="2" cardnumber="9" gold="2915" lv="54">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="10" param1="288711" param2="288711" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="20" param1="50" param2="2" param3="72177" param4="50" prob="10000" noeffect="1"/>
+		</level>
+		<level value="12" cardtype="6" cardid="2" cardnumber="9" gold="3180" lv="58">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="10" param1="325986" param2="325986" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="20" param1="50" param2="2" param3="81496" param4="50" prob="10000" noeffect="1"/>
+		</level>
+		<level value="13" cardtype="6" cardid="2" cardnumber="11" gold="3445" lv="62">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="10" param1="366066" param2="366066" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="20" param1="50" param2="2" param3="91516" param4="50" prob="10000" noeffect="1"/>
+		</level>
+		<level value="14" cardtype="6" cardid="2" cardnumber="12" gold="3710" lv="66">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="10" param1="405960" param2="405960" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="20" param1="50" param2="2" param3="101490" param4="50" prob="10000" noeffect="1"/>
+		</level>
+		<level value="15" cardtype="6" cardid="2" cardnumber="12" gold="3975" lv="70">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="10" param1="448515" param2="448515" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="20" param1="50" param2="2" param3="112128" param4="50" prob="10000" noeffect="1"/>
+		</level>
+		<level value="16" cardtype="6" cardid="2" cardnumber="14" gold="4240" lv="74">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="10" param1="492477" param2="492477" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="20" param1="50" param2="2" param3="123119" param4="50" prob="10000" noeffect="1"/>
+		</level>
+		<level value="17" cardtype="6" cardid="2" cardnumber="15" gold="4505" lv="78">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="10" param1="536994" param2="536994" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="20" param1="50" param2="2" param3="134248" param4="50" prob="10000" noeffect="1"/>
+		</level>
+		<level value="18" cardtype="6" cardid="2" cardnumber="15" gold="4770" lv="82">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="10" param1="584145" param2="584145" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="20" param1="50" param2="2" param3="146036" param4="50" prob="10000" noeffect="1"/>
+		</level>
+		<level value="19" cardtype="6" cardid="2" cardnumber="15" gold="5035" lv="86">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="10" param1="630837" param2="630837" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="20" param1="50" param2="2" param3="157709" param4="50" prob="10000" noeffect="1"/>
+		</level>
+		<level value="20" cardtype="6" cardid="2" cardnumber="16" gold="5300" lv="90">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="10" param1="679257" param2="679257" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="20" param1="50" param2="2" param3="169814" param4="50" prob="10000" noeffect="1"/>
+		</level>
+		<level value="21" cardtype="6" cardid="2" cardnumber="17" gold="5565" lv="94">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="10" param1="729405" param2="729405" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="20" param1="50" param2="2" param3="182351" param4="50" prob="10000" noeffect="1"/>
+		</level>
+		<level value="22" cardtype="6" cardid="2" cardnumber="17" gold="5830" lv="98">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="10" param1="779451" param2="779451" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="20" param1="50" param2="2" param3="194862" param4="50" prob="10000" noeffect="1"/>
+		</level>
+		<level value="23" cardtype="6" cardid="2" cardnumber="18" gold="6095" lv="102">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="10" param1="830139" param2="830139" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="20" param1="50" param2="2" param3="207534" param4="50" prob="10000" noeffect="1"/>
+		</level>
+		<level value="24" cardtype="6" cardid="2" cardnumber="19" gold="6360" lv="106">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="10" param1="882330" param2="882330" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="20" param1="50" param2="2" param3="220582" param4="50" prob="10000" noeffect="1"/>
+		</level>
+		<level value="25" cardtype="6" cardid="2" cardnumber="19" gold="6625" lv="110">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="10" param1="935028" param2="935028" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="20" param1="50" param2="2" param3="233757" param4="50" prob="10000" noeffect="1"/>
+		</level>
+		<level value="26" cardtype="6" cardid="2" cardnumber="19" gold="6890" lv="114">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="10" param1="987075" param2="987075" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="20" param1="50" param2="2" param3="246768" param4="50" prob="10000" noeffect="1"/>
+		</level>
+		<level value="27" cardtype="6" cardid="2" cardnumber="20" gold="7155" lv="118">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="10" param1="1040382" param2="1040382" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="20" param1="50" param2="2" param3="260095" param4="50" prob="10000" noeffect="1"/>
+		</level>
+		<level value="28" cardtype="6" cardid="2" cardnumber="0" gold="1000" lv="0">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="10" param1="1086120" param2="1086120" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="20" param1="50" param2="2" param3="271530" param4="50" prob="10000" noeffect="1"/>
+		</level>
+	</skill>
+	<skill id="4" name="猛击" resname="icon6004" effectani="battle_skill_bash" desc="冲入敌队杀乱阵脚，造成更大杀伤力，并让敌队士气下降。" type="1" morale="100">
+		<level value="0" cardtype="6" cardid="4" cardnumber="0" gold="0" lv="0">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="10" param1="0" param2="0" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="21" param1="20" param2="1" param3="0" prob="10000" noeffect="1"/>
+		</level>
+		<level value="1" cardtype="6" cardid="4" cardnumber="8" gold="525" lv="46">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="10" param1="137231" param2="137231" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="40" param1="0" param2="0" param3="-1" prob="10000" noeffect="1"/>
+		</level>
+		<level value="2" cardtype="6" cardid="4" cardnumber="8" gold="1050" lv="50">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="10" param1="157961" param2="157961" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="40" param1="0" param2="0" param3="-1" prob="10000" noeffect="1"/>
+		</level>
+		<level value="3" cardtype="6" cardid="4" cardnumber="9" gold="1575" lv="54">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="10" param1="180444" param2="180444" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="40" param1="0" param2="0" param3="-1" prob="10000" noeffect="1"/>
+		</level>
+		<level value="4" cardtype="6" cardid="4" cardnumber="9" gold="2100" lv="58">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="10" param1="203741" param2="203741" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="40" param1="0" param2="0" param3="-1" prob="10000" noeffect="1"/>
+		</level>
+		<level value="5" cardtype="6" cardid="4" cardnumber="11" gold="2625" lv="62">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="10" param1="228791" param2="228791" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="40" param1="0" param2="0" param3="-1" prob="10000" noeffect="1"/>
+		</level>
+		<level value="6" cardtype="6" cardid="4" cardnumber="12" gold="3150" lv="66">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="10" param1="253725" param2="253725" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="40" param1="0" param2="0" param3="-1" prob="10000" noeffect="1"/>
+		</level>
+		<level value="7" cardtype="6" cardid="4" cardnumber="12" gold="3675" lv="70">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="10" param1="280321" param2="280321" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="40" param1="0" param2="0" param3="-1" prob="10000" noeffect="1"/>
+		</level>
+		<level value="8" cardtype="6" cardid="4" cardnumber="14" gold="4200" lv="74">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="10" param1="307798" param2="307798" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="40" param1="0" param2="0" param3="-1" prob="10000" noeffect="1"/>
+		</level>
+		<level value="9" cardtype="6" cardid="4" cardnumber="15" gold="4725" lv="78">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="10" param1="335621" param2="335621" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="40" param1="0" param2="0" param3="-1" prob="10000" noeffect="1"/>
+		</level>
+		<level value="10" cardtype="6" cardid="4" cardnumber="15" gold="5250" lv="82">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="10" param1="365090" param2="365090" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="40" param1="0" param2="0" param3="-1" prob="10000" noeffect="1"/>
+		</level>
+		<level value="11" cardtype="6" cardid="4" cardnumber="15" gold="5775" lv="86">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="10" param1="394273" param2="394273" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="40" param1="0" param2="0" param3="-1" prob="10000" noeffect="1"/>
+		</level>
+		<level value="12" cardtype="6" cardid="4" cardnumber="16" gold="6300" lv="90">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="10" param1="424535" param2="424535" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="40" param1="0" param2="0" param3="-1" prob="10000" noeffect="1"/>
+		</level>
+		<level value="13" cardtype="6" cardid="4" cardnumber="17" gold="6825" lv="94">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="10" param1="455878" param2="455878" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="40" param1="0" param2="0" param3="-1" prob="10000" noeffect="1"/>
+		</level>
+		<level value="14" cardtype="6" cardid="4" cardnumber="17" gold="7350" lv="98">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="10" param1="487156" param2="487156" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="40" param1="0" param2="0" param3="-1" prob="10000" noeffect="1"/>
+		</level>
+		<level value="15" cardtype="6" cardid="4" cardnumber="18" gold="7875" lv="102">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="10" param1="518836" param2="518836" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="40" param1="0" param2="0" param3="-1" prob="10000" noeffect="1"/>
+		</level>
+		<level value="16" cardtype="6" cardid="4" cardnumber="19" gold="8400" lv="106">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="10" param1="551456" param2="551456" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="40" param1="0" param2="0" param3="-1" prob="10000" noeffect="1"/>
+		</level>
+		<level value="17" cardtype="6" cardid="4" cardnumber="19" gold="8925" lv="110">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="10" param1="584392" param2="584392" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="40" param1="0" param2="0" param3="-1" prob="10000" noeffect="1"/>
+		</level>
+		<level value="18" cardtype="6" cardid="4" cardnumber="19" gold="9450" lv="114">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="10" param1="616921" param2="616921" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="40" param1="0" param2="0" param3="-1" prob="10000" noeffect="1"/>
+		</level>
+		<level value="19" cardtype="6" cardid="4" cardnumber="20" gold="9975" lv="118">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="10" param1="650238" param2="650238" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="40" param1="0" param2="0" param3="-1" prob="10000" noeffect="1"/>
+		</level>
+		<level value="20" cardtype="6" cardid="4" cardnumber="0" gold="0" lv="0">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="10" param1="678825" param2="678825" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="40" param1="0" param2="0" param3="-1" prob="10000" noeffect="1"/>
+		</level>
+	</skill>
+	<skill id="6" name="斩杀" resname="icon6006" effectani="battle_skill_bigaxe" desc="巨斧舞成车轮阵，气势逼人，如果敌队人数少，则瞬间秒杀，能无视塔盾兵的龟甲阵。" type="1" morale="100">
+		<level value="0" cardtype="6" cardid="6" cardnumber="1" gold="0" lv="0">
+			<effect inx="1" targettype="0" parent="0" nexteffect="0" type="30" param1="0" param2="0" param3="0" prob="10000"/>
+		</level>
+		<level value="1" cardtype="6" cardid="6" cardnumber="6" gold="395" lv="36">
+			<effect inx="1" targettype="0" parent="0" nexteffect="0" type="30" param1="414" param2="144633" param3="40" prob="10000"/>
+		</level>
+		<level value="2" cardtype="6" cardid="6" cardnumber="7" gold="790" lv="40">
+			<effect inx="1" targettype="0" parent="0" nexteffect="0" type="30" param1="456" param2="172986" param3="40" prob="10000"/>
+		</level>
+		<level value="3" cardtype="6" cardid="6" cardnumber="8" gold="1185" lv="44">
+			<effect inx="1" targettype="0" parent="0" nexteffect="0" type="30" param1="499" param2="203850" param3="40" prob="10000"/>
+		</level>
+		<level value="4" cardtype="6" cardid="6" cardnumber="8" gold="1580" lv="48">
+			<effect inx="1" targettype="0" parent="0" nexteffect="0" type="30" param1="540" param2="235866" param3="40" prob="10000"/>
+		</level>
+		<level value="5" cardtype="6" cardid="6" cardnumber="9" gold="1975" lv="52">
+			<effect inx="1" targettype="0" parent="0" nexteffect="0" type="30" param1="583" param2="270687" param3="40" prob="10000"/>
+		</level>
+		<level value="6" cardtype="6" cardid="6" cardnumber="9" gold="2370" lv="56">
+			<effect inx="1" targettype="0" parent="0" nexteffect="0" type="30" param1="624" param2="306810" param3="40" prob="10000"/>
+		</level>
+		<level value="7" cardtype="6" cardid="6" cardnumber="10" gold="2765" lv="60">
+			<effect inx="1" targettype="0" parent="0" nexteffect="0" type="30" param1="668" param2="345738" param3="40" prob="10000"/>
+		</level>
+		<level value="8" cardtype="6" cardid="6" cardnumber="11" gold="3160" lv="64">
+			<effect inx="1" targettype="0" parent="0" nexteffect="0" type="30" param1="711" param2="385743" param3="40" prob="10000"/>
+		</level>
+		<level value="9" cardtype="6" cardid="6" cardnumber="12" gold="3555" lv="68">
+			<effect inx="1" targettype="0" parent="0" nexteffect="0" type="30" param1="753" param2="427290" param3="40" prob="10000"/>
+		</level>
+		<level value="10" cardtype="6" cardid="6" cardnumber="13" gold="3950" lv="72">
+			<effect inx="1" targettype="0" parent="0" nexteffect="0" type="30" param1="795" param2="470244" param3="40" prob="10000"/>
+		</level>
+		<level value="11" cardtype="6" cardid="6" cardnumber="14" gold="4345" lv="76">
+			<effect inx="1" targettype="0" parent="0" nexteffect="0" type="30" param1="837" param2="514497" param3="40" prob="10000"/>
+		</level>
+		<level value="12" cardtype="6" cardid="6" cardnumber="15" gold="4740" lv="80">
+			<effect inx="1" targettype="0" parent="0" nexteffect="0" type="30" param1="880" param2="560703" param3="40" prob="10000"/>
+		</level>
+		<level value="13" cardtype="6" cardid="6" cardnumber="15" gold="5135" lv="84">
+			<effect inx="1" targettype="0" parent="0" nexteffect="0" type="30" param1="922" param2="607275" param3="40" prob="10000"/>
+		</level>
+		<level value="14" cardtype="6" cardid="6" cardnumber="15" gold="5530" lv="88">
+			<effect inx="1" targettype="0" parent="0" nexteffect="0" type="30" param1="964" param2="654831" param3="40" prob="10000"/>
+		</level>
+		<level value="15" cardtype="6" cardid="6" cardnumber="16" gold="5925" lv="92">
+			<effect inx="1" targettype="0" parent="0" nexteffect="0" type="30" param1="1007" param2="704115" param3="40" prob="10000"/>
+		</level>
+		<level value="16" cardtype="6" cardid="6" cardnumber="17" gold="6320" lv="96">
+			<effect inx="1" targettype="0" parent="0" nexteffect="0" type="30" param1="1049" param2="754221" param3="40" prob="10000"/>
+		</level>
+		<level value="17" cardtype="6" cardid="6" cardnumber="17" gold="6715" lv="100">
+			<effect inx="1" targettype="0" parent="0" nexteffect="0" type="30" param1="1092" param2="805068" param3="40" prob="10000"/>
+		</level>
+		<level value="18" cardtype="6" cardid="6" cardnumber="19" gold="7110" lv="104">
+			<effect inx="1" targettype="0" parent="0" nexteffect="0" type="30" param1="1135" param2="856539" param3="40" prob="10000"/>
+		</level>
+		<level value="19" cardtype="6" cardid="6" cardnumber="19" gold="7505" lv="108">
+			<effect inx="1" targettype="0" parent="0" nexteffect="0" type="30" param1="1177" param2="908517" param3="40" prob="10000"/>
+		</level>
+		<level value="20" cardtype="6" cardid="6" cardnumber="19" gold="7900" lv="112">
+			<effect inx="1" targettype="0" parent="0" nexteffect="0" type="30" param1="1218" param2="959844" param3="40" prob="10000"/>
+		</level>
+		<level value="21" cardtype="6" cardid="6" cardnumber="20" gold="8295" lv="116">
+			<effect inx="1" targettype="0" parent="0" nexteffect="0" type="30" param1="1262" param2="1014630" param3="40" prob="10000"/>
+		</level>
+		<level value="22" cardtype="6" cardid="6" cardnumber="20" gold="8690" lv="120">
+			<effect inx="1" targettype="0" parent="0" nexteffect="0" type="30" param1="1303" param2="1066422" param3="40" prob="10000"/>
+		</level>
+		<level value="23" cardtype="6" cardid="6" cardnumber="0" gold="0" lv="0">
+			<effect inx="1" targettype="0" parent="0" nexteffect="0" type="30" param1="1328" param2="1099332" param3="40" prob="10000"/>
+		</level>
+	</skill>
+	<skill id="7" name="暗影击" resname="icon6007" effectani="battle_skill_shadowatk" desc="刺客悄无声息得出现在敌阵中，发起突然攻击。" type="1" morale="100">
+		<level value="0" cardtype="6" cardid="7" cardnumber="0" gold="0" lv="0">
+			<effect inx="1" targettype="0" parent="0" nexteffect="0" type="10" param1="0" param2="0" param3="0" prob="10000"/>
+		</level>
+		<level value="1" cardtype="6" cardid="7" cardnumber="10" gold="735" lv="60">
+			<effect inx="1" targettype="0" parent="0" nexteffect="0" type="10" param1="432172" param2="432172" param3="0" prob="10000"/>
+		</level>
+		<level value="2" cardtype="6" cardid="7" cardnumber="11" gold="1470" lv="64">
+			<effect inx="1" targettype="0" parent="0" nexteffect="0" type="10" param1="482178" param2="482178" param3="0" prob="10000"/>
+		</level>
+		<level value="3" cardtype="6" cardid="7" cardnumber="12" gold="2205" lv="68">
+			<effect inx="1" targettype="0" parent="0" nexteffect="0" type="10" param1="534112" param2="534112" param3="0" prob="10000"/>
+		</level>
+		<level value="4" cardtype="6" cardid="7" cardnumber="13" gold="2940" lv="72">
+			<effect inx="1" targettype="0" parent="0" nexteffect="0" type="10" param1="587805" param2="587805" param3="0" prob="10000"/>
+		</level>
+		<level value="5" cardtype="6" cardid="7" cardnumber="14" gold="3675" lv="76">
+			<effect inx="1" targettype="0" parent="0" nexteffect="0" type="10" param1="643121" param2="643121" param3="0" prob="10000"/>
+		</level>
+		<level value="6" cardtype="6" cardid="7" cardnumber="15" gold="4410" lv="80">
+			<effect inx="1" targettype="0" parent="0" nexteffect="0" type="10" param1="700878" param2="700878" param3="0" prob="10000"/>
+		</level>
+		<level value="7" cardtype="6" cardid="7" cardnumber="15" gold="5145" lv="84">
+			<effect inx="1" targettype="0" parent="0" nexteffect="0" type="10" param1="759093" param2="759093" param3="0" prob="10000"/>
+		</level>
+		<level value="8" cardtype="6" cardid="7" cardnumber="15" gold="5880" lv="88">
+			<effect inx="1" targettype="0" parent="0" nexteffect="0" type="10" param1="818538" param2="818538" param3="0" prob="10000"/>
+		</level>
+		<level value="9" cardtype="6" cardid="7" cardnumber="16" gold="6615" lv="92">
+			<effect inx="1" targettype="0" parent="0" nexteffect="0" type="10" param1="880143" param2="880143" param3="0" prob="10000"/>
+		</level>
+		<level value="10" cardtype="6" cardid="7" cardnumber="17" gold="7350" lv="96">
+			<effect inx="1" targettype="0" parent="0" nexteffect="0" type="10" param1="942776" param2="942776" param3="0" prob="10000"/>
+		</level>
+		<level value="11" cardtype="6" cardid="7" cardnumber="17" gold="8085" lv="100">
+			<effect inx="1" targettype="0" parent="0" nexteffect="0" type="10" param1="1006335" param2="1006335" param3="0" prob="10000"/>
+		</level>
+		<level value="12" cardtype="6" cardid="7" cardnumber="19" gold="8820" lv="104">
+			<effect inx="1" targettype="0" parent="0" nexteffect="0" type="10" param1="1070673" param2="1070673" param3="0" prob="10000"/>
+		</level>
+		<level value="13" cardtype="6" cardid="7" cardnumber="19" gold="9555" lv="108">
+			<effect inx="1" targettype="0" parent="0" nexteffect="0" type="10" param1="1135646" param2="1135646" param3="0" prob="10000"/>
+		</level>
+		<level value="14" cardtype="6" cardid="7" cardnumber="19" gold="10290" lv="112">
+			<effect inx="1" targettype="0" parent="0" nexteffect="0" type="10" param1="1199805" param2="1199805" param3="0" prob="10000"/>
+		</level>
+		<level value="15" cardtype="6" cardid="7" cardnumber="20" gold="11025" lv="116">
+			<effect inx="1" targettype="0" parent="0" nexteffect="0" type="10" param1="1268287" param2="1268287" param3="0" prob="10000"/>
+		</level>
+		<level value="16" cardtype="6" cardid="7" cardnumber="20" gold="11760" lv="120">
+			<effect inx="1" targettype="0" parent="0" nexteffect="0" type="10" param1="1333027" param2="1333027" param3="0" prob="10000"/>
+		</level>
+		<level value="17" cardtype="6" cardid="7" cardnumber="0" gold="0" lv="0">
+			<effect inx="1" targettype="0" parent="0" nexteffect="0" type="10" param1="1374165" param2="1374165" param3="0" prob="10000"/>
+		</level>
+	</skill>
+	<skill id="8" name="连击" resname="icon6008" effectani="battle_skill_confuse" desc="将长戟连续2次如勾刺般扎入敌队。" type="1" morale="100">
+		<level value="0" cardtype="6" cardid="8" cardnumber="1" gold="1000" lv="10">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="0" param1="100" param2="120" param3="1" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="0" param1="100" param2="120" param3="1" prob="10000"/>
+		</level>
+		<level value="1" cardtype="6" cardid="8" cardnumber="2" gold="265" lv="14">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="0" param1="3877" param2="3877" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="0" param1="3877" param2="3877" param3="0" prob="10000"/>
+		</level>
+		<level value="2" cardtype="6" cardid="8" cardnumber="3" gold="530" lv="18">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="0" param1="5729" param2="5729" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="0" param1="5729" param2="5729" param3="0" prob="10000"/>
+		</level>
+		<level value="3" cardtype="6" cardid="8" cardnumber="6" gold="795" lv="22">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="0" param1="7942" param2="7942" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="0" param1="7942" param2="7942" param3="0" prob="10000"/>
+		</level>
+		<level value="4" cardtype="6" cardid="8" cardnumber="6" gold="1060" lv="26">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="0" param1="10447" param2="10447" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="0" param1="10447" param2="10447" param3="0" prob="10000"/>
+		</level>
+		<level value="5" cardtype="6" cardid="8" cardnumber="7" gold="1325" lv="30">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="0" param1="13258" param2="13258" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="0" param1="13258" param2="13258" param3="0" prob="10000"/>
+		</level>
+		<level value="6" cardtype="6" cardid="8" cardnumber="8" gold="1590" lv="34">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="0" param1="16401" param2="16401" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="0" param1="16401" param2="16401" param3="0" prob="10000"/>
+		</level>
+		<level value="7" cardtype="6" cardid="8" cardnumber="8" gold="1855" lv="38">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="0" param1="19833" param2="19833" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="0" param1="19833" param2="19833" param3="0" prob="10000"/>
+		</level>
+		<level value="8" cardtype="6" cardid="8" cardnumber="8" gold="2120" lv="42">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="0" param1="23539" param2="23539" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="0" param1="23539" param2="23539" param3="0" prob="10000"/>
+		</level>
+		<level value="9" cardtype="6" cardid="8" cardnumber="8" gold="2385" lv="46">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="0" param1="27446" param2="27446" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="0" param1="27446" param2="27446" param3="0" prob="10000"/>
+		</level>
+		<level value="10" cardtype="6" cardid="8" cardnumber="8" gold="2650" lv="50">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="0" param1="31592" param2="31592" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="0" param1="31592" param2="31592" param3="0" prob="10000"/>
+		</level>
+		<level value="11" cardtype="6" cardid="8" cardnumber="9" gold="2915" lv="54">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="0" param1="36088" param2="36088" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="0" param1="36088" param2="36088" param3="0" prob="10000"/>
+		</level>
+		<level value="12" cardtype="6" cardid="8" cardnumber="9" gold="3180" lv="58">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="0" param1="40748" param2="40748" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="0" param1="40748" param2="40748" param3="0" prob="10000"/>
+		</level>
+		<level value="13" cardtype="6" cardid="8" cardnumber="11" gold="3445" lv="62">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="0" param1="45758" param2="45758" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="0" param1="45758" param2="45758" param3="0" prob="10000"/>
+		</level>
+		<level value="14" cardtype="6" cardid="8" cardnumber="12" gold="3710" lv="66">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="0" param1="50745" param2="50745" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="0" param1="50745" param2="50745" param3="0" prob="10000"/>
+		</level>
+		<level value="15" cardtype="6" cardid="8" cardnumber="12" gold="3975" lv="70">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="0" param1="56064" param2="56064" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="0" param1="56064" param2="56064" param3="0" prob="10000"/>
+		</level>
+		<level value="16" cardtype="6" cardid="8" cardnumber="14" gold="4240" lv="74">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="0" param1="61559" param2="61559" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="0" param1="61559" param2="61559" param3="0" prob="10000"/>
+		</level>
+		<level value="17" cardtype="6" cardid="8" cardnumber="15" gold="4505" lv="78">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="0" param1="67124" param2="67124" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="0" param1="67124" param2="67124" param3="0" prob="10000"/>
+		</level>
+		<level value="18" cardtype="6" cardid="8" cardnumber="15" gold="4770" lv="82">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="0" param1="73018" param2="73018" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="0" param1="73018" param2="73018" param3="0" prob="10000"/>
+		</level>
+		<level value="19" cardtype="6" cardid="8" cardnumber="15" gold="5035" lv="86">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="0" param1="78854" param2="78854" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="0" param1="78854" param2="78854" param3="0" prob="10000"/>
+		</level>
+		<level value="20" cardtype="6" cardid="8" cardnumber="16" gold="5300" lv="90">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="0" param1="84907" param2="84907" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="0" param1="84907" param2="84907" param3="0" prob="10000"/>
+		</level>
+		<level value="21" cardtype="6" cardid="8" cardnumber="17" gold="5565" lv="94">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="0" param1="91175" param2="91175" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="0" param1="91175" param2="91175" param3="0" prob="10000"/>
+		</level>
+		<level value="22" cardtype="6" cardid="8" cardnumber="17" gold="5830" lv="98">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="0" param1="97431" param2="97431" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="0" param1="97431" param2="97431" param3="0" prob="10000"/>
+		</level>
+		<level value="23" cardtype="6" cardid="8" cardnumber="18" gold="6095" lv="102">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="0" param1="103767" param2="103767" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="0" param1="103767" param2="103767" param3="0" prob="10000"/>
+		</level>
+		<level value="24" cardtype="6" cardid="8" cardnumber="19" gold="6360" lv="106">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="0" param1="110291" param2="110291" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="0" param1="110291" param2="110291" param3="0" prob="10000"/>
+		</level>
+		<level value="25" cardtype="6" cardid="8" cardnumber="19" gold="6625" lv="110">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="0" param1="116878" param2="116878" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="0" param1="116878" param2="116878" param3="0" prob="10000"/>
+		</level>
+		<level value="26" cardtype="6" cardid="8" cardnumber="19" gold="6890" lv="114">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="0" param1="123384" param2="123384" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="0" param1="123384" param2="123384" param3="0" prob="10000"/>
+		</level>
+		<level value="27" cardtype="6" cardid="8" cardnumber="20" gold="7155" lv="118">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="0" param1="130047" param2="130047" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="0" param1="130047" param2="130047" param3="0" prob="10000"/>
+		</level>
+		<level value="28" cardtype="6" cardid="8" cardnumber="0" gold="1000" lv="0">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="0" param1="135765" param2="135765" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="0" param1="135765" param2="135765" param3="0" prob="10000"/>
+		</level>
+	</skill>
+	<skill id="10" name="撞击" resname="icon6010" effectani="battle_skill_deterrence" desc="用盾牌冲撞敌军，将敌军撞退到最后一列。" type="1" morale="100">
+		<level value="0" cardtype="6" cardid="10" cardnumber="1" gold="1000" lv="20">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="10" param1="0" param2="0" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="80" param1="0" param2="0" param3="0" prob="10000"/>
+		</level>
+		<level value="1" cardtype="6" cardid="10" cardnumber="6" gold="310" lv="24">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="10" param1="82360" param2="82360" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="80" param1="0" param2="0" param3="0" prob="10000"/>
+		</level>
+		<level value="2" cardtype="6" cardid="10" cardnumber="6" gold="620" lv="28">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="10" param1="106461" param2="106461" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="80" param1="0" param2="0" param3="0" prob="10000"/>
+		</level>
+		<level value="3" cardtype="6" cardid="10" cardnumber="7" gold="930" lv="32">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="10" param1="133288" param2="133288" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="80" param1="0" param2="0" param3="0" prob="10000"/>
+		</level>
+		<level value="4" cardtype="6" cardid="10" cardnumber="7" gold="1240" lv="36">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="10" param1="162712" param2="162712" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="80" param1="0" param2="0" param3="0" prob="10000"/>
+		</level>
+		<level value="5" cardtype="6" cardid="10" cardnumber="7" gold="1550" lv="40">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="10" param1="194609" param2="194609" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="80" param1="0" param2="0" param3="0" prob="10000"/>
+		</level>
+		<level value="6" cardtype="6" cardid="10" cardnumber="8" gold="1860" lv="44">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="10" param1="229331" param2="229331" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="80" param1="0" param2="0" param3="0" prob="10000"/>
+		</level>
+		<level value="7" cardtype="6" cardid="10" cardnumber="8" gold="2170" lv="48">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="10" param1="265349" param2="265349" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="80" param1="0" param2="0" param3="0" prob="10000"/>
+		</level>
+		<level value="8" cardtype="6" cardid="10" cardnumber="9" gold="2480" lv="52">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="10" param1="304522" param2="304522" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="80" param1="0" param2="0" param3="0" prob="10000"/>
+		</level>
+		<level value="9" cardtype="6" cardid="10" cardnumber="9" gold="2790" lv="56">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="10" param1="345161" param2="345161" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="80" param1="0" param2="0" param3="0" prob="10000"/>
+		</level>
+		<level value="10" cardtype="6" cardid="10" cardnumber="10" gold="3100" lv="60">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="10" param1="388955" param2="388955" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="80" param1="0" param2="0" param3="0" prob="10000"/>
+		</level>
+		<level value="11" cardtype="6" cardid="10" cardnumber="11" gold="3410" lv="64">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="10" param1="433960" param2="433960" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="80" param1="0" param2="0" param3="0" prob="10000"/>
+		</level>
+		<level value="12" cardtype="6" cardid="10" cardnumber="12" gold="3720" lv="68">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="10" param1="480701" param2="480701" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="80" param1="0" param2="0" param3="0" prob="10000"/>
+		</level>
+		<level value="13" cardtype="6" cardid="10" cardnumber="13" gold="4030" lv="72">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="10" param1="529024" param2="529024" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="80" param1="0" param2="0" param3="0" prob="10000"/>
+		</level>
+		<level value="14" cardtype="6" cardid="10" cardnumber="14" gold="4340" lv="76">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="10" param1="578809" param2="578809" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="80" param1="0" param2="0" param3="0" prob="10000"/>
+		</level>
+		<level value="15" cardtype="6" cardid="10" cardnumber="15" gold="4650" lv="80">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="10" param1="630790" param2="630790" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="80" param1="0" param2="0" param3="0" prob="10000"/>
+		</level>
+		<level value="16" cardtype="6" cardid="10" cardnumber="15" gold="4960" lv="84">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="10" param1="683184" param2="683184" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="80" param1="0" param2="0" param3="0" prob="10000"/>
+		</level>
+		<level value="17" cardtype="6" cardid="10" cardnumber="15" gold="5270" lv="88">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="10" param1="736684" param2="736684" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="80" param1="0" param2="0" param3="0" prob="10000"/>
+		</level>
+		<level value="18" cardtype="6" cardid="10" cardnumber="16" gold="5580" lv="92">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="10" param1="792129" param2="792129" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="80" param1="0" param2="0" param3="0" prob="10000"/>
+		</level>
+		<level value="19" cardtype="6" cardid="10" cardnumber="17" gold="5890" lv="96">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="10" param1="848498" param2="848498" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="80" param1="0" param2="0" param3="0" prob="10000"/>
+		</level>
+		<level value="20" cardtype="6" cardid="10" cardnumber="17" gold="6200" lv="100">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="10" param1="905701" param2="905701" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="80" param1="0" param2="0" param3="0" prob="10000"/>
+		</level>
+		<level value="21" cardtype="6" cardid="10" cardnumber="19" gold="6510" lv="104">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="10" param1="963606" param2="963606" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="80" param1="0" param2="0" param3="0" prob="10000"/>
+		</level>
+		<level value="22" cardtype="6" cardid="10" cardnumber="19" gold="6820" lv="108">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="10" param1="1022081" param2="1022081" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="80" param1="0" param2="0" param3="0" prob="10000"/>
+		</level>
+		<level value="23" cardtype="6" cardid="10" cardnumber="19" gold="7130" lv="112">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="10" param1="1079824" param2="1079824" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="80" param1="0" param2="0" param3="0" prob="10000"/>
+		</level>
+		<level value="24" cardtype="6" cardid="10" cardnumber="20" gold="7440" lv="116">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="10" param1="1141458" param2="1141458" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="80" param1="0" param2="0" param3="0" prob="10000"/>
+		</level>
+		<level value="25" cardtype="6" cardid="10" cardnumber="20" gold="7750" lv="120">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="10" param1="1199724" param2="1199724" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="80" param1="0" param2="0" param3="0" prob="10000"/>
+		</level>
+		<level value="26" cardtype="6" cardid="10" cardnumber="0" gold="1000" lv="120">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="10" param1="1236748" param2="1236748" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="80" param1="0" param2="0" param3="0" prob="10000"/>
+		</level>
+	</skill>
+	<skill id="12" name="龟甲阵" resname="icon6012" effectani="battle_skill_turtle" desc="用巨盾排成的铁墙，维持2回合无懈可击的防御，但对等级更高的敌人防御稍弱。" type="1" morale="100">
+		<level value="0" cardtype="6" cardid="12" cardnumber="1" gold="" lv="">
+			<effect inx="1" targettype="0" parent="0" nexteffect="0" type="21" param1="40" param2="2" param3="4" param4="30" prob="10000"/>
+		</level>
+		<level value="1" cardtype="6" cardid="12" cardnumber="5" gold="525" lv="44">
+			<effect inx="1" targettype="1" parent="0" nexteffect="0" type="21" param1="40" param2="2" param3="43" param4="30" prob="10000"/>
+		</level>
+		<level value="2" cardtype="6" cardid="12" cardnumber="5" gold="1050" lv="48">
+			<effect inx="1" targettype="1" parent="0" nexteffect="0" type="21" param1="40" param2="2" param3="47" param4="30" prob="10000"/>
+		</level>
+		<level value="3" cardtype="6" cardid="12" cardnumber="6" gold="1575" lv="52">
+			<effect inx="1" targettype="1" parent="0" nexteffect="0" type="21" param1="40" param2="2" param3="51" param4="30" prob="10000"/>
+		</level>
+		<level value="4" cardtype="6" cardid="12" cardnumber="6" gold="2100" lv="56">
+			<effect inx="1" targettype="1" parent="0" nexteffect="0" type="21" param1="40" param2="2" param3="55" param4="30" prob="10000"/>
+		</level>
+		<level value="5" cardtype="6" cardid="12" cardnumber="6" gold="2625" lv="60">
+			<effect inx="1" targettype="1" parent="0" nexteffect="0" type="21" param1="40" param2="2" param3="59" param4="30" prob="10000"/>
+		</level>
+		<level value="6" cardtype="6" cardid="12" cardnumber="6" gold="3150" lv="64">
+			<effect inx="1" targettype="1" parent="0" nexteffect="0" type="21" param1="40" param2="2" param3="63" param4="30" prob="10000"/>
+		</level>
+		<level value="7" cardtype="6" cardid="12" cardnumber="7" gold="3675" lv="68">
+			<effect inx="1" targettype="1" parent="0" nexteffect="0" type="21" param1="40" param2="2" param3="67" param4="30" prob="10000"/>
+		</level>
+		<level value="8" cardtype="6" cardid="12" cardnumber="7" gold="4200" lv="72">
+			<effect inx="1" targettype="1" parent="0" nexteffect="0" type="21" param1="40" param2="2" param3="71" param4="30" prob="10000"/>
+		</level>
+		<level value="9" cardtype="6" cardid="12" cardnumber="7" gold="4725" lv="76">
+			<effect inx="1" targettype="1" parent="0" nexteffect="0" type="21" param1="40" param2="2" param3="75" param4="30" prob="10000"/>
+		</level>
+		<level value="10" cardtype="6" cardid="12" cardnumber="8" gold="5250" lv="80">
+			<effect inx="1" targettype="1" parent="0" nexteffect="0" type="21" param1="40" param2="2" param3="79" param4="30" prob="10000"/>
+		</level>
+		<level value="11" cardtype="6" cardid="12" cardnumber="8" gold="5775" lv="84">
+			<effect inx="1" targettype="1" parent="0" nexteffect="0" type="21" param1="40" param2="2" param3="83" param4="30" prob="10000"/>
+		</level>
+		<level value="12" cardtype="6" cardid="12" cardnumber="8" gold="6300" lv="88">
+			<effect inx="1" targettype="1" parent="0" nexteffect="0" type="21" param1="40" param2="2" param3="87" param4="30" prob="10000"/>
+		</level>
+		<level value="13" cardtype="6" cardid="12" cardnumber="9" gold="6825" lv="92">
+			<effect inx="1" targettype="1" parent="0" nexteffect="0" type="21" param1="40" param2="2" param3="91" param4="30" prob="10000"/>
+		</level>
+		<level value="14" cardtype="6" cardid="12" cardnumber="9" gold="7350" lv="96">
+			<effect inx="1" targettype="1" parent="0" nexteffect="0" type="21" param1="40" param2="2" param3="95" param4="30" prob="10000"/>
+		</level>
+		<level value="15" cardtype="6" cardid="12" cardnumber="9" gold="7875" lv="100">
+			<effect inx="1" targettype="1" parent="0" nexteffect="0" type="21" param1="40" param2="2" param3="99" param4="30" prob="10000"/>
+		</level>
+		<level value="16" cardtype="6" cardid="12" cardnumber="10" gold="8400" lv="104">
+			<effect inx="1" targettype="1" parent="0" nexteffect="0" type="21" param1="40" param2="2" param3="113" param4="30" prob="10000"/>
+		</level>
+		<level value="17" cardtype="6" cardid="12" cardnumber="10" gold="8925" lv="108">
+			<effect inx="1" targettype="1" parent="0" nexteffect="0" type="21" param1="40" param2="2" param3="107" param4="30" prob="10000"/>
+		</level>
+		<level value="18" cardtype="6" cardid="12" cardnumber="11" gold="9450" lv="112">
+			<effect inx="1" targettype="1" parent="0" nexteffect="0" type="21" param1="40" param2="2" param3="111" param4="30" prob="10000"/>
+		</level>
+		<level value="18" cardtype="6" cardid="12" cardnumber="12" gold="9975" lv="116">
+			<effect inx="1" targettype="1" parent="0" nexteffect="0" type="21" param1="40" param2="2" param3="115" param4="30" prob="10000"/>
+		</level>
+		<level value="18" cardtype="6" cardid="12" cardnumber="13" gold="11000" lv="120">
+			<effect inx="1" targettype="1" parent="0" nexteffect="0" type="21" param1="40" param2="2" param3="119" param4="30" prob="10000"/>
+		</level>
+		<level value="18" cardtype="6" cardid="12" cardnumber="0" gold="0" lv="0">
+			<effect inx="1" targettype="1" parent="0" nexteffect="0" type="21" param1="40" param2="2" param3="120" param4="30" prob="10000"/>
+		</level>
+	</skill>
+	<skill id="14" name="突进" resname="icon6014" effectani="battle_skill_dash" desc="尖刀般突入敌阵，对纵向2个敌阵造成杀伤，但不能突破枪兵系。" type="1" morale="100" canbreak="1">
+		<level value="0" cardtype="6" cardid="14" cardnumber="1" gold="1000" lv="1">
+			<effect inx="1" targettype="21" parent="0" nexteffect="2" type="10" param1="0" param2="0" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="" type="60" param1="0" param2="0" param3="0" prob="10000"/>
+		</level>
+		<level value="1" cardtype="6" cardid="14" cardnumber="1" gold="230" lv="5">
+			<effect inx="1" targettype="21" parent="0" nexteffect="2" type="10" param1="6655" param2="6655" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="" type="60" param1="0" param2="0" param3="0" prob="10000"/>
+		</level>
+		<level value="2" cardtype="6" cardid="14" cardnumber="2" gold="460" lv="9">
+			<effect inx="1" targettype="21" parent="0" nexteffect="2" type="10" param1="13697" param2="13697" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="" type="60" param1="0" param2="0" param3="0" prob="10000"/>
+		</level>
+		<level value="3" cardtype="6" cardid="14" cardnumber="3" gold="690" lv="13">
+			<effect inx="1" targettype="21" parent="0" nexteffect="2" type="10" param1="23127" param2="23127" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="" type="60" param1="0" param2="0" param3="0" prob="10000"/>
+		</level>
+		<level value="4" cardtype="6" cardid="14" cardnumber="4" gold="920" lv="17">
+			<effect inx="1" targettype="21" parent="0" nexteffect="2" type="10" param1="34877" param2="34877" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="" type="60" param1="0" param2="0" param3="0" prob="10000"/>
+		</level>
+		<level value="5" cardtype="6" cardid="14" cardnumber="5" gold="1150" lv="21">
+			<effect inx="1" targettype="21" parent="0" nexteffect="2" type="10" param1="49027" param2="49027" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="" type="60" param1="0" param2="0" param3="0" prob="10000"/>
+		</level>
+		<level value="6" cardtype="6" cardid="14" cardnumber="6" gold="1380" lv="25">
+			<effect inx="1" targettype="21" parent="0" nexteffect="2" type="10" param1="65362" param2="65362" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="" type="60" param1="0" param2="0" param3="0" prob="10000"/>
+		</level>
+		<level value="7" cardtype="6" cardid="14" cardnumber="7" gold="1610" lv="29">
+			<effect inx="1" targettype="21" parent="0" nexteffect="2" type="10" param1="83562" param2="83562" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="" type="60" param1="0" param2="0" param3="0" prob="10000"/>
+		</level>
+		<level value="8" cardtype="6" cardid="14" cardnumber="7" gold="1840" lv="33">
+			<effect inx="1" targettype="21" parent="0" nexteffect="2" type="10" param1="103975" param2="103975" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="" type="60" param1="0" param2="0" param3="0" prob="10000"/>
+		</level>
+		<level value="9" cardtype="6" cardid="14" cardnumber="7" gold="2070" lv="37">
+			<effect inx="1" targettype="21" parent="0" nexteffect="2" type="10" param1="126310" param2="126310" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="" type="60" param1="0" param2="0" param3="0" prob="10000"/>
+		</level>
+		<level value="10" cardtype="6" cardid="14" cardnumber="7" gold="2300" lv="41">
+			<effect inx="1" targettype="21" parent="0" nexteffect="2" type="10" param1="150477" param2="150477" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="" type="60" param1="0" param2="0" param3="0" prob="10000"/>
+		</level>
+		<level value="11" cardtype="6" cardid="14" cardnumber="8" gold="2530" lv="45">
+			<effect inx="1" targettype="21" parent="0" nexteffect="2" type="10" param1="176365" param2="176365" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="" type="60" param1="0" param2="0" param3="0" prob="10000"/>
+		</level>
+		<level value="12" cardtype="6" cardid="14" cardnumber="8" gold="2760" lv="49">
+			<effect inx="1" targettype="21" parent="0" nexteffect="2" type="10" param1="203525" param2="203525" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="" type="60" param1="0" param2="0" param3="0" prob="10000"/>
+		</level>
+		<level value="13" cardtype="6" cardid="14" cardnumber="9" gold="2990" lv="53">
+			<effect inx="1" targettype="21" parent="0" nexteffect="2" type="10" param1="233022" param2="233022" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="" type="60" param1="0" param2="0" param3="0" prob="10000"/>
+		</level>
+		<level value="14" cardtype="6" cardid="14" cardnumber="9" gold="3220" lv="57">
+			<effect inx="1" targettype="21" parent="0" nexteffect="2" type="10" param1="263605" param2="263605" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="" type="60" param1="0" param2="0" param3="0" prob="10000"/>
+		</level>
+		<level value="15" cardtype="6" cardid="14" cardnumber="11" gold="3450" lv="61">
+			<effect inx="1" targettype="21" parent="0" nexteffect="2" type="10" param1="296525" param2="296525" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="" type="60" param1="0" param2="0" param3="0" prob="10000"/>
+		</level>
+		<level value="16" cardtype="6" cardid="14" cardnumber="11" gold="3680" lv="65">
+			<effect inx="1" targettype="21" parent="0" nexteffect="2" type="10" param1="329820" param2="329820" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="" type="60" param1="0" param2="0" param3="0" prob="10000"/>
+		</level>
+		<level value="17" cardtype="6" cardid="14" cardnumber="12" gold="3910" lv="69">
+			<effect inx="1" targettype="21" parent="0" nexteffect="2" type="10" param1="364862" param2="364862" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="" type="60" param1="0" param2="0" param3="0" prob="10000"/>
+		</level>
+		<level value="18" cardtype="6" cardid="14" cardnumber="13" gold="4140" lv="73">
+			<effect inx="1" targettype="21" parent="0" nexteffect="2" type="10" param1="401077" param2="401077" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="" type="60" param1="0" param2="0" param3="0" prob="10000"/>
+		</level>
+		<level value="19" cardtype="6" cardid="14" cardnumber="15" gold="4370" lv="77">
+			<effect inx="1" targettype="21" parent="0" nexteffect="2" type="10" param1="438375" param2="438375" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="" type="60" param1="0" param2="0" param3="0" prob="10000"/>
+		</level>
+		<level value="20" cardtype="6" cardid="14" cardnumber="15" gold="4600" lv="81">
+			<effect inx="1" targettype="21" parent="0" nexteffect="2" type="10" param1="476657" param2="476657" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="" type="60" param1="0" param2="0" param3="0" prob="10000"/>
+		</level>
+		<level value="21" cardtype="6" cardid="14" cardnumber="15" gold="4830" lv="85">
+			<effect inx="1" targettype="21" parent="0" nexteffect="2" type="10" param1="515827" param2="515827" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="" type="60" param1="0" param2="0" param3="0" prob="10000"/>
+		</level>
+		<level value="22" cardtype="6" cardid="14" cardnumber="16" gold="5060" lv="89">
+			<effect inx="1" targettype="21" parent="0" nexteffect="2" type="10" param1="555817" param2="555817" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="" type="60" param1="0" param2="0" param3="0" prob="10000"/>
+		</level>
+		<level value="23" cardtype="6" cardid="14" cardnumber="17" gold="5290" lv="93">
+			<effect inx="1" targettype="21" parent="0" nexteffect="2" type="10" param1="597247" param2="597247" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="" type="60" param1="0" param2="0" param3="0" prob="10000"/>
+		</level>
+		<level value="24" cardtype="6" cardid="14" cardnumber="17" gold="5520" lv="97">
+			<effect inx="1" targettype="21" parent="0" nexteffect="2" type="10" param1="639362" param2="639362" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="" type="60" param1="0" param2="0" param3="0" prob="10000"/>
+		</level>
+		<level value="25" cardtype="6" cardid="14" cardnumber="17" gold="5750" lv="101">
+			<effect inx="1" targettype="21" parent="0" nexteffect="2" type="10" param1="681302" param2="681302" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="" type="60" param1="0" param2="0" param3="0" prob="10000"/>
+		</level>
+		<level value="26" cardtype="6" cardid="14" cardnumber="19" gold="5980" lv="105">
+			<effect inx="1" targettype="21" parent="0" nexteffect="2" type="10" param1="724495" param2="724495" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="" type="60" param1="0" param2="0" param3="0" prob="10000"/>
+		</level>
+		<level value="27" cardtype="6" cardid="14" cardnumber="19" gold="6210" lv="109">
+			<effect inx="1" targettype="21" parent="0" nexteffect="2" type="10" param1="768110" param2="768110" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="" type="60" param1="0" param2="0" param3="0" prob="10000"/>
+		</level>
+		<level value="28" cardtype="6" cardid="14" cardnumber="19" gold="6440" lv="113">
+			<effect inx="1" targettype="21" parent="0" nexteffect="2" type="10" param1="811182" param2="811182" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="" type="60" param1="0" param2="0" param3="0" prob="10000"/>
+		</level>
+		<level value="29" cardtype="6" cardid="14" cardnumber="20" gold="6670" lv="117">
+			<effect inx="1" targettype="21" parent="0" nexteffect="2" type="10" param1="856225" param2="856225" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="" type="60" param1="0" param2="0" param3="0" prob="10000"/>
+		</level>
+		<level value="30" cardtype="6" cardid="14" cardnumber="0" gold="1000" lv="0">
+			<effect inx="1" targettype="21" parent="0" nexteffect="2" type="10" param1="899625" param2="899625" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="" type="60" param1="0" param2="0" param3="0" prob="10000"/>
+		</level>
+	</skill>
+	<skill id="15" name="冲刺" resname="icon6015" effectani="battle_skill_sprint" desc="疾风般冲入敌阵，对纵向3队造成伤害，最后排的敌队由于措手不及会产生眩晕效果，但不能突破枪兵系。" type="1" morale="100" canbreak="1">
+		<level value="0" cardtype="6" cardid="15" cardnumber="1" gold="1000" lv="10">
+			<effect inx="1" targettype="20" parent="0" nexteffect="2" type="10" param1="0" param2="0" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="3" type="60" param1="0" param2="0" param3="0" prob="10000"/>
+			<effect inx="3" targettype="22" parent="2" nexteffect="0" type="20" param1="10" param2="1" param3="0" param4="10" prob="10000" noeffect="1"/>
+		</level>
+		<level value="1" cardtype="6" cardid="15" cardnumber="2" gold="265" lv="14">
+			<effect inx="1" targettype="20" parent="0" nexteffect="2" type="10" param1="19385" param2="19385" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="3" type="60" param1="0" param2="0" param3="0" prob="10000"/>
+			<effect inx="3" targettype="22" parent="2" nexteffect="0" type="20" param1="10" param2="1" param3="0" param4="10" prob="5000" noeffect="1"/>
+		</level>
+		<level value="2" cardtype="6" cardid="15" cardnumber="3" gold="530" lv="18">
+			<effect inx="1" targettype="20" parent="0" nexteffect="2" type="10" param1="28648" param2="28648" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="3" type="60" param1="0" param2="0" param3="0" prob="10000"/>
+			<effect inx="3" targettype="22" parent="2" nexteffect="0" type="20" param1="10" param2="1" param3="0" param4="10" prob="5000" noeffect="1"/>
+		</level>
+		<level value="3" cardtype="6" cardid="15" cardnumber="6" gold="795" lv="22">
+			<effect inx="1" targettype="20" parent="0" nexteffect="2" type="10" param1="39710" param2="39710" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="3" type="60" param1="0" param2="0" param3="0" prob="10000"/>
+			<effect inx="3" targettype="22" parent="2" nexteffect="0" type="20" param1="10" param2="1" param3="0" param4="10" prob="5000" noeffect="1"/>
+		</level>
+		<level value="4" cardtype="6" cardid="15" cardnumber="6" gold="1060" lv="26">
+			<effect inx="1" targettype="20" parent="0" nexteffect="2" type="10" param1="52239" param2="52239" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="3" type="60" param1="0" param2="0" param3="0" prob="10000"/>
+			<effect inx="3" targettype="22" parent="2" nexteffect="0" type="20" param1="10" param2="1" param3="0" param4="10" prob="5000" noeffect="1"/>
+		</level>
+		<level value="5" cardtype="6" cardid="15" cardnumber="7" gold="1325" lv="30">
+			<effect inx="1" targettype="20" parent="0" nexteffect="2" type="10" param1="66294" param2="66294" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="3" type="60" param1="0" param2="0" param3="0" prob="10000"/>
+			<effect inx="3" targettype="22" parent="2" nexteffect="0" type="20" param1="10" param2="1" param3="0" param4="10" prob="5000" noeffect="1"/>
+		</level>
+		<level value="6" cardtype="6" cardid="15" cardnumber="7" gold="1590" lv="34">
+			<effect inx="1" targettype="20" parent="0" nexteffect="2" type="10" param1="82008" param2="82008" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="3" type="60" param1="0" param2="0" param3="0" prob="10000"/>
+			<effect inx="3" targettype="22" parent="2" nexteffect="0" type="20" param1="10" param2="1" param3="0" param4="10" prob="5000" noeffect="1"/>
+		</level>
+		<level value="7" cardtype="6" cardid="15" cardnumber="7" gold="1855" lv="38">
+			<effect inx="1" targettype="20" parent="0" nexteffect="2" type="10" param1="99165" param2="99165" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="3" type="60" param1="0" param2="0" param3="0" prob="10000"/>
+			<effect inx="3" targettype="22" parent="2" nexteffect="0" type="20" param1="10" param2="1" param3="0" param4="10" prob="5000" noeffect="1"/>
+		</level>
+		<level value="8" cardtype="6" cardid="15" cardnumber="8" gold="2120" lv="42">
+			<effect inx="1" targettype="20" parent="0" nexteffect="2" type="10" param1="117695" param2="117695" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="3" type="60" param1="0" param2="0" param3="0" prob="10000"/>
+			<effect inx="3" targettype="22" parent="2" nexteffect="0" type="20" param1="10" param2="1" param3="0" param4="10" prob="5000" noeffect="1"/>
+		</level>
+		<level value="9" cardtype="6" cardid="15" cardnumber="8" gold="2385" lv="46">
+			<effect inx="1" targettype="20" parent="0" nexteffect="2" type="10" param1="137231" param2="137231" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="3" type="60" param1="0" param2="0" param3="0" prob="10000"/>
+			<effect inx="3" targettype="22" parent="2" nexteffect="0" type="20" param1="10" param2="1" param3="0" param4="10" prob="5000" noeffect="1"/>
+		</level>
+		<level value="10" cardtype="6" cardid="15" cardnumber="8" gold="2650" lv="50">
+			<effect inx="1" targettype="20" parent="0" nexteffect="2" type="10" param1="157961" param2="157961" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="3" type="60" param1="0" param2="0" param3="0" prob="10000"/>
+			<effect inx="3" targettype="22" parent="2" nexteffect="0" type="20" param1="10" param2="1" param3="0" param4="10" prob="5000" noeffect="1"/>
+		</level>
+		<level value="11" cardtype="6" cardid="15" cardnumber="9" gold="2915" lv="54">
+			<effect inx="1" targettype="20" parent="0" nexteffect="2" type="10" param1="180444" param2="180444" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="3" type="60" param1="0" param2="0" param3="0" prob="10000"/>
+			<effect inx="3" targettype="22" parent="2" nexteffect="0" type="20" param1="10" param2="1" param3="0" param4="10" prob="5000" noeffect="1"/>
+		</level>
+		<level value="12" cardtype="6" cardid="15" cardnumber="9" gold="3180" lv="58">
+			<effect inx="1" targettype="20" parent="0" nexteffect="2" type="10" param1="203741" param2="203741" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="3" type="60" param1="0" param2="0" param3="0" prob="10000"/>
+			<effect inx="3" targettype="22" parent="2" nexteffect="0" type="20" param1="10" param2="1" param3="0" param4="10" prob="5000" noeffect="1"/>
+		</level>
+		<level value="13" cardtype="6" cardid="15" cardnumber="11" gold="3445" lv="62">
+			<effect inx="1" targettype="20" parent="0" nexteffect="2" type="10" param1="228791" param2="228791" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="3" type="60" param1="0" param2="0" param3="0" prob="10000"/>
+			<effect inx="3" targettype="22" parent="2" nexteffect="0" type="20" param1="10" param2="1" param3="0" param4="10" prob="5000" noeffect="1"/>
+		</level>
+		<level value="14" cardtype="6" cardid="15" cardnumber="12" gold="3710" lv="66">
+			<effect inx="1" targettype="20" parent="0" nexteffect="2" type="10" param1="253725" param2="253725" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="3" type="60" param1="0" param2="0" param3="0" prob="10000"/>
+			<effect inx="3" targettype="22" parent="2" nexteffect="0" type="20" param1="10" param2="1" param3="0" param4="10" prob="5000" noeffect="1"/>
+		</level>
+		<level value="15" cardtype="6" cardid="15" cardnumber="12" gold="3975" lv="70">
+			<effect inx="1" targettype="20" parent="0" nexteffect="2" type="10" param1="280321" param2="280321" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="3" type="60" param1="0" param2="0" param3="0" prob="10000"/>
+			<effect inx="3" targettype="22" parent="2" nexteffect="0" type="20" param1="10" param2="1" param3="0" param4="10" prob="5000" noeffect="1"/>
+		</level>
+		<level value="16" cardtype="6" cardid="15" cardnumber="14" gold="4240" lv="74">
+			<effect inx="1" targettype="20" parent="0" nexteffect="2" type="10" param1="307798" param2="307798" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="3" type="60" param1="0" param2="0" param3="0" prob="10000"/>
+			<effect inx="3" targettype="22" parent="2" nexteffect="0" type="20" param1="10" param2="1" param3="0" param4="10" prob="5000" noeffect="1"/>
+		</level>
+		<level value="17" cardtype="6" cardid="15" cardnumber="15" gold="4505" lv="78">
+			<effect inx="1" targettype="20" parent="0" nexteffect="2" type="10" param1="335621" param2="335621" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="3" type="60" param1="0" param2="0" param3="0" prob="10000"/>
+			<effect inx="3" targettype="22" parent="2" nexteffect="0" type="20" param1="10" param2="1" param3="0" param4="10" prob="5000" noeffect="1"/>
+		</level>
+		<level value="18" cardtype="6" cardid="15" cardnumber="15" gold="4770" lv="82">
+			<effect inx="1" targettype="20" parent="0" nexteffect="2" type="10" param1="365090" param2="365090" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="3" type="60" param1="0" param2="0" param3="0" prob="10000"/>
+			<effect inx="3" targettype="22" parent="2" nexteffect="0" type="20" param1="10" param2="1" param3="0" param4="10" prob="5000" noeffect="1"/>
+		</level>
+		<level value="19" cardtype="6" cardid="15" cardnumber="15" gold="5035" lv="86">
+			<effect inx="1" targettype="20" parent="0" nexteffect="2" type="10" param1="394273" param2="394273" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="3" type="60" param1="0" param2="0" param3="0" prob="10000"/>
+			<effect inx="3" targettype="22" parent="2" nexteffect="0" type="20" param1="10" param2="1" param3="0" param4="10" prob="5000" noeffect="1"/>
+		</level>
+		<level value="20" cardtype="6" cardid="15" cardnumber="16" gold="5300" lv="90">
+			<effect inx="1" targettype="20" parent="0" nexteffect="2" type="10" param1="424535" param2="424535" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="3" type="60" param1="0" param2="0" param3="0" prob="10000"/>
+			<effect inx="3" targettype="22" parent="2" nexteffect="0" type="20" param1="10" param2="1" param3="0" param4="10" prob="5000" noeffect="1"/>
+		</level>
+		<level value="21" cardtype="6" cardid="15" cardnumber="17" gold="5565" lv="94">
+			<effect inx="1" targettype="20" parent="0" nexteffect="2" type="10" param1="455878" param2="455878" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="3" type="60" param1="0" param2="0" param3="0" prob="10000"/>
+			<effect inx="3" targettype="22" parent="2" nexteffect="0" type="20" param1="10" param2="1" param3="0" param4="10" prob="5000" noeffect="1"/>
+		</level>
+		<level value="22" cardtype="6" cardid="15" cardnumber="17" gold="5830" lv="98">
+			<effect inx="1" targettype="20" parent="0" nexteffect="2" type="10" param1="487156" param2="487156" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="3" type="60" param1="0" param2="0" param3="0" prob="10000"/>
+			<effect inx="3" targettype="22" parent="2" nexteffect="0" type="20" param1="10" param2="1" param3="0" param4="10" prob="5000" noeffect="1"/>
+		</level>
+		<level value="23" cardtype="6" cardid="15" cardnumber="18" gold="6095" lv="102">
+			<effect inx="1" targettype="20" parent="0" nexteffect="2" type="10" param1="518836" param2="518836" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="3" type="60" param1="0" param2="0" param3="0" prob="10000"/>
+			<effect inx="3" targettype="22" parent="2" nexteffect="0" type="20" param1="10" param2="1" param3="0" param4="10" prob="5000" noeffect="1"/>
+		</level>
+		<level value="24" cardtype="6" cardid="15" cardnumber="19" gold="6360" lv="106">
+			<effect inx="1" targettype="20" parent="0" nexteffect="2" type="10" param1="551456" param2="551456" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="3" type="60" param1="0" param2="0" param3="0" prob="10000"/>
+			<effect inx="3" targettype="22" parent="2" nexteffect="0" type="20" param1="10" param2="1" param3="0" param4="10" prob="5000" noeffect="1"/>
+		</level>
+		<level value="25" cardtype="6" cardid="15" cardnumber="19" gold="6625" lv="110">
+			<effect inx="1" targettype="20" parent="0" nexteffect="2" type="10" param1="584392" param2="584392" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="3" type="60" param1="0" param2="0" param3="0" prob="10000"/>
+			<effect inx="3" targettype="22" parent="2" nexteffect="0" type="20" param1="10" param2="1" param3="0" param4="10" prob="5000" noeffect="1"/>
+		</level>
+		<level value="26" cardtype="6" cardid="15" cardnumber="19" gold="6890" lv="114">
+			<effect inx="1" targettype="20" parent="0" nexteffect="2" type="10" param1="616921" param2="616921" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="3" type="60" param1="0" param2="0" param3="0" prob="10000"/>
+			<effect inx="3" targettype="22" parent="2" nexteffect="0" type="20" param1="10" param2="1" param3="0" param4="10" prob="5000" noeffect="1"/>
+		</level>
+		<level value="27" cardtype="6" cardid="15" cardnumber="20" gold="7155" lv="118">
+			<effect inx="1" targettype="20" parent="0" nexteffect="2" type="10" param1="650238" param2="650238" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="3" type="60" param1="0" param2="0" param3="0" prob="10000"/>
+			<effect inx="3" targettype="22" parent="2" nexteffect="0" type="20" param1="10" param2="1" param3="0" param4="10" prob="5000" noeffect="1"/>
+		</level>
+		<level value="28" cardtype="6" cardid="15" cardnumber="0" gold="1000" lv="0">
+			<effect inx="1" targettype="20" parent="0" nexteffect="2" type="10" param1="678825" param2="678825" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="3" type="60" param1="0" param2="0" param3="0" prob="10000"/>
+			<effect inx="3" targettype="22" parent="2" nexteffect="0" type="20" param1="10" param2="1" param3="0" param4="10" prob="5000" noeffect="1"/>
+		</level>
+	</skill>
+	<skill id="16" name="强袭" resname="icon6016" effectani="battle_skill_bump" desc="如坦克般碾入敌阵，对纵向3队造成伤害，有一定概率强行突破枪兵系。" type="1" morale="100" canbreak="1">
+		<level value="0" cardtype="6" cardid="16" cardnumber="1" gold="0" lv="0">
+			<effect inx="1" targettype="20" parent="0" nexteffect="2" type="10" param1="180" param2="180" param3="0" prob="10000"/>
+			<effect inx="2" targettype="22" parent="1" nexteffect="3" type="23" param1="10" param2="0" param3="0" param4="10" prob="10000"/>
+			<effect inx="3" targettype="60" parent="2" nexteffect="0" type="60" param1="0" param2="0" param3="0" prob="10000" noeffect="1"/>
+		</level>
+		<level value="1" cardtype="6" cardid="16" cardnumber="7" gold="395" lv="33">
+			<effect inx="1" targettype="20" parent="0" nexteffect="2" type="10" param1="83180" param2="83180" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="60" param1="5000" param2="0" param3="0" prob="10000"/>
+		</level>
+		<level value="2" cardtype="6" cardid="16" cardnumber="7" gold="790" lv="37">
+			<effect inx="1" targettype="20" parent="0" nexteffect="2" type="10" param1="101048" param2="101048" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="60" param1="5000" param2="0" param3="0" prob="10000"/>
+		</level>
+		<level value="3" cardtype="6" cardid="16" cardnumber="7" gold="1185" lv="41">
+			<effect inx="1" targettype="20" parent="0" nexteffect="2" type="10" param1="120382" param2="120382" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="60" param1="5000" param2="0" param3="0" prob="10000"/>
+		</level>
+		<level value="4" cardtype="6" cardid="16" cardnumber="8" gold="1580" lv="45">
+			<effect inx="1" targettype="20" parent="0" nexteffect="2" type="10" param1="141092" param2="141092" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="60" param1="5000" param2="0" param3="0" prob="10000"/>
+		</level>
+		<level value="5" cardtype="6" cardid="16" cardnumber="8" gold="1975" lv="49">
+			<effect inx="1" targettype="20" parent="0" nexteffect="2" type="10" param1="162820" param2="162820" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="60" param1="5000" param2="0" param3="0" prob="10000"/>
+		</level>
+		<level value="6" cardtype="6" cardid="16" cardnumber="9" gold="2370" lv="53">
+			<effect inx="1" targettype="20" parent="0" nexteffect="2" type="10" param1="186418" param2="186418" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="60" param1="5000" param2="0" param3="0" prob="10000"/>
+		</level>
+		<level value="7" cardtype="6" cardid="16" cardnumber="9" gold="2765" lv="57">
+			<effect inx="1" targettype="20" parent="0" nexteffect="2" type="10" param1="210884" param2="210884" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="60" param1="5000" param2="0" param3="0" prob="10000"/>
+		</level>
+		<level value="8" cardtype="6" cardid="16" cardnumber="11" gold="3160" lv="61">
+			<effect inx="1" targettype="20" parent="0" nexteffect="2" type="10" param1="237220" param2="237220" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="60" param1="5000" param2="0" param3="0" prob="10000"/>
+		</level>
+		<level value="9" cardtype="6" cardid="16" cardnumber="11" gold="3555" lv="65">
+			<effect inx="1" targettype="20" parent="0" nexteffect="2" type="10" param1="263856" param2="263856" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="60" param1="5000" param2="0" param3="0" prob="10000"/>
+		</level>
+		<level value="10" cardtype="6" cardid="16" cardnumber="12" gold="3950" lv="69">
+			<effect inx="1" targettype="20" parent="0" nexteffect="2" type="10" param1="291890" param2="291890" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="60" param1="5000" param2="0" param3="0" prob="10000"/>
+		</level>
+		<level value="11" cardtype="6" cardid="16" cardnumber="13" gold="4345" lv="73">
+			<effect inx="1" targettype="20" parent="0" nexteffect="2" type="10" param1="320862" param2="320862" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="60" param1="5000" param2="0" param3="0" prob="10000"/>
+		</level>
+		<level value="12" cardtype="6" cardid="16" cardnumber="15" gold="4740" lv="77">
+			<effect inx="1" targettype="20" parent="0" nexteffect="2" type="10" param1="350700" param2="350700" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="60" param1="5000" param2="0" param3="0" prob="10000"/>
+		</level>
+		<level value="13" cardtype="6" cardid="16" cardnumber="15" gold="5135" lv="81">
+			<effect inx="1" targettype="20" parent="0" nexteffect="2" type="10" param1="381326" param2="381326" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="60" param1="5000" param2="0" param3="0" prob="10000"/>
+		</level>
+		<level value="14" cardtype="6" cardid="16" cardnumber="15" gold="5530" lv="85">
+			<effect inx="1" targettype="20" parent="0" nexteffect="2" type="10" param1="412662" param2="412662" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="60" param1="5000" param2="0" param3="0" prob="10000"/>
+		</level>
+		<level value="15" cardtype="6" cardid="16" cardnumber="16" gold="5925" lv="89">
+			<effect inx="1" targettype="20" parent="0" nexteffect="2" type="10" param1="444654" param2="444654" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="60" param1="5000" param2="0" param3="0" prob="10000"/>
+		</level>
+		<level value="16" cardtype="6" cardid="16" cardnumber="17" gold="6320" lv="93">
+			<effect inx="1" targettype="20" parent="0" nexteffect="2" type="10" param1="477798" param2="477798" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="60" param1="5000" param2="0" param3="0" prob="10000"/>
+		</level>
+		<level value="17" cardtype="6" cardid="16" cardnumber="17" gold="6715" lv="97">
+			<effect inx="1" targettype="20" parent="0" nexteffect="2" type="10" param1="511490" param2="511490" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="60" param1="5000" param2="0" param3="0" prob="10000"/>
+		</level>
+		<level value="18" cardtype="6" cardid="16" cardnumber="17" gold="7110" lv="101">
+			<effect inx="1" targettype="20" parent="0" nexteffect="2" type="10" param1="545042" param2="545042" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="60" param1="5000" param2="0" param3="0" prob="10000"/>
+		</level>
+		<level value="19" cardtype="6" cardid="16" cardnumber="19" gold="7505" lv="105">
+			<effect inx="1" targettype="20" parent="0" nexteffect="2" type="10" param1="579596" param2="579596" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="60" param1="5000" param2="0" param3="0" prob="10000"/>
+		</level>
+		<level value="20" cardtype="6" cardid="16" cardnumber="19" gold="7900" lv="109">
+			<effect inx="1" targettype="20" parent="0" nexteffect="2" type="10" param1="614488" param2="614488" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="60" param1="5000" param2="0" param3="0" prob="10000"/>
+		</level>
+		<level value="21" cardtype="6" cardid="16" cardnumber="19" gold="8295" lv="113">
+			<effect inx="1" targettype="20" parent="0" nexteffect="2" type="10" param1="648946" param2="648946" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="60" param1="5000" param2="0" param3="0" prob="10000"/>
+		</level>
+		<level value="22" cardtype="6" cardid="16" cardnumber="20" gold="8690" lv="117">
+			<effect inx="1" targettype="20" parent="0" nexteffect="2" type="10" param1="684980" param2="684980" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="60" param1="5000" param2="0" param3="0" prob="10000"/>
+		</level>
+		<level value="23" cardtype="6" cardid="16" cardnumber="0" gold="0" lv="0">
+			<effect inx="1" targettype="20" parent="0" nexteffect="2" type="10" param1="719700" param2="719700" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="60" param1="5000" param2="0" param3="0" prob="10000"/>
+		</level>
+	</skill>
+	<skill id="19" name="燃烧弹" resname="icon6019" effectani="battle_skill_firebomb" desc="向敌人投掷燃烧热油弹，造成地面起火，对敌人2回合内都会有持续伤害。" type="1" morale="100">
+		<level value="0" cardtype="6" cardid="19" cardnumber="0" gold="0" lv="0">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="10" param1="120" param2="120" param3="0" prob="10000"/>
+			<effect inx="2" targettype="0" parent="1" nexteffect="0" type="40" param1="4" param2="8" param3="0" prob="10000" noeffect="1"/>
+		</level>
+		<level value="1" cardtype="6" cardid="19" cardnumber="8" gold="585" lv="50">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="10" param1="189553" param2="189553" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="20" param1="50" param2="2" param3="63184" param4="40" prob="10000" noeffect="1"/>
+		</level>
+		<level value="2" cardtype="6" cardid="19" cardnumber="9" gold="1170" lv="54">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="10" param1="216533" param2="216533" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="20" param1="50" param2="2" param3="72177" param4="40" prob="10000" noeffect="1"/>
+		</level>
+		<level value="3" cardtype="6" cardid="19" cardnumber="9" gold="1755" lv="58">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="10" param1="244489" param2="244489" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="20" param1="50" param2="2" param3="81496" param4="40" prob="10000" noeffect="1"/>
+		</level>
+		<level value="4" cardtype="6" cardid="19" cardnumber="11" gold="2340" lv="62">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="10" param1="274549" param2="274549" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="20" param1="50" param2="2" param3="91516" param4="40" prob="10000" noeffect="1"/>
+		</level>
+		<level value="5" cardtype="6" cardid="19" cardnumber="12" gold="2925" lv="66">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="10" param1="304470" param2="304470" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="20" param1="50" param2="2" param3="101490" param4="40" prob="10000" noeffect="1"/>
+		</level>
+		<level value="6" cardtype="6" cardid="19" cardnumber="12" gold="3510" lv="70">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="10" param1="336386" param2="336386" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="20" param1="50" param2="2" param3="112128" param4="40" prob="10000" noeffect="1"/>
+		</level>
+		<level value="7" cardtype="6" cardid="19" cardnumber="14" gold="4095" lv="74">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="10" param1="369357" param2="369357" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="20" param1="50" param2="2" param3="123119" param4="40" prob="10000" noeffect="1"/>
+		</level>
+		<level value="8" cardtype="6" cardid="19" cardnumber="15" gold="4680" lv="78">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="10" param1="402745" param2="402745" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="20" param1="50" param2="2" param3="134248" param4="40" prob="10000" noeffect="1"/>
+		</level>
+		<level value="9" cardtype="6" cardid="19" cardnumber="15" gold="5265" lv="82">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="10" param1="438108" param2="438108" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="20" param1="50" param2="2" param3="146036" param4="40" prob="10000" noeffect="1"/>
+		</level>
+		<level value="10" cardtype="6" cardid="19" cardnumber="15" gold="5850" lv="86">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="10" param1="473127" param2="473127" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="20" param1="50" param2="2" param3="157708" param4="40" prob="10000" noeffect="1"/>
+		</level>
+		<level value="11" cardtype="6" cardid="19" cardnumber="16" gold="6435" lv="90">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="10" param1="509442" param2="509442" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="20" param1="50" param2="2" param3="169814" param4="40" prob="10000" noeffect="1"/>
+		</level>
+		<level value="12" cardtype="6" cardid="19" cardnumber="17" gold="7020" lv="94">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="10" param1="547053" param2="547053" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="20" param1="50" param2="2" param3="182351" param4="40" prob="10000" noeffect="1"/>
+		</level>
+		<level value="13" cardtype="6" cardid="19" cardnumber="17" gold="7605" lv="98">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="10" param1="584588" param2="584588" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="20" param1="50" param2="2" param3="194862" param4="40" prob="10000" noeffect="1"/>
+		</level>
+		<level value="14" cardtype="6" cardid="19" cardnumber="18" gold="8190" lv="102">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="10" param1="622604" param2="622604" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="20" param1="50" param2="2" param3="207534" param4="40" prob="10000" noeffect="1"/>
+		</level>
+		<level value="15" cardtype="6" cardid="19" cardnumber="19" gold="8775" lv="106">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="10" param1="661747" param2="661747" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="20" param1="50" param2="2" param3="220582" param4="40" prob="10000" noeffect="1"/>
+		</level>
+		<level value="16" cardtype="6" cardid="19" cardnumber="19" gold="9360" lv="110">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="10" param1="701271" param2="701271" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="20" param1="50" param2="2" param3="233757" param4="40" prob="10000" noeffect="1"/>
+		</level>
+		<level value="17" cardtype="6" cardid="19" cardnumber="19" gold="9945" lv="114">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="10" param1="740306" param2="740306" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="20" param1="50" param2="2" param3="246768" param4="40" prob="10000" noeffect="1"/>
+		</level>
+		<level value="18" cardtype="6" cardid="19" cardnumber="20" gold="10530" lv="118">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="10" param1="780286" param2="780286" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="20" param1="50" param2="2" param3="260095" param4="40" prob="10000" noeffect="1"/>
+		</level>
+		<level value="19" cardtype="6" cardid="19" cardnumber="0" gold="0" lv="0">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="10" param1="814590" param2="814590" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="20" param1="50" param2="2" param3="271530" param4="40" prob="10000" noeffect="1"/>
+		</level>
+	</skill>
+	<skill id="20" name="圣光祝福" resname="icon6020" effectani="battle_skill_HolyLight" desc="召唤圣光的祝福给自己的部队恢复一定的士兵。" type="1" morale="100">
+		<level value="0" cardtype="6" cardid="20" cardnumber="0" gold="0" lv="0">
+			<effect inx="1" targettype="1" parent="0" nexteffect="0" type="70" param1="50" param2="100" param3="0" prob="10000"/>
+		</level>
+		<level value="1" cardtype="6" cardid="20" cardnumber="12" gold="1100" lv="69">
+			<effect inx="1" targettype="1" parent="0" nexteffect="0" type="70" param1="763" param2="0" param3="0" prob="10000"/>
+		</level>
+		<level value="2" cardtype="6" cardid="20" cardnumber="13" gold="2200" lv="73">
+			<effect inx="1" targettype="1" parent="0" nexteffect="0" type="70" param1="806" param2="0" param3="0" prob="10000"/>
+		</level>
+		<level value="3" cardtype="6" cardid="20" cardnumber="15" gold="3300" lv="77">
+			<effect inx="1" targettype="1" parent="0" nexteffect="0" type="70" param1="848" param2="0" param3="0" prob="10000"/>
+		</level>
+		<level value="4" cardtype="6" cardid="20" cardnumber="15" gold="4400" lv="81">
+			<effect inx="1" targettype="1" parent="0" nexteffect="0" type="70" param1="890" param2="0" param3="0" prob="10000"/>
+		</level>
+		<level value="5" cardtype="6" cardid="20" cardnumber="15" gold="5500" lv="85">
+			<effect inx="1" targettype="1" parent="0" nexteffect="0" type="70" param1="933" param2="0" param3="0" prob="10000"/>
+		</level>
+		<level value="6" cardtype="6" cardid="20" cardnumber="16" gold="6600" lv="89">
+			<effect inx="1" targettype="1" parent="0" nexteffect="0" type="70" param1="975" param2="0" param3="0" prob="10000"/>
+		</level>
+		<level value="7" cardtype="6" cardid="20" cardnumber="17" gold="7700" lv="93">
+			<effect inx="1" targettype="1" parent="0" nexteffect="0" type="70" param1="1017" param2="0" param3="0" prob="10000"/>
+		</level>
+		<level value="8" cardtype="6" cardid="20" cardnumber="17" gold="8800" lv="97">
+			<effect inx="1" targettype="1" parent="0" nexteffect="0" type="70" param1="1061" param2="0" param3="0" prob="10000"/>
+		</level>
+		<level value="9" cardtype="6" cardid="20" cardnumber="17" gold="9900" lv="101">
+			<effect inx="1" targettype="1" parent="0" nexteffect="0" type="70" param1="1102" param2="0" param3="0" prob="10000"/>
+		</level>
+		<level value="10" cardtype="6" cardid="20" cardnumber="19" gold="11000" lv="105">
+			<effect inx="1" targettype="1" parent="0" nexteffect="0" type="70" param1="1145" param2="0" param3="0" prob="10000"/>
+		</level>
+		<level value="11" cardtype="6" cardid="20" cardnumber="19" gold="12100" lv="109">
+			<effect inx="1" targettype="1" parent="0" nexteffect="0" type="70" param1="1188" param2="0" param3="0" prob="10000"/>
+		</level>
+		<level value="12" cardtype="6" cardid="20" cardnumber="19" gold="13200" lv="113">
+			<effect inx="1" targettype="1" parent="0" nexteffect="0" type="70" param1="1229" param2="0" param3="0" prob="10000"/>
+		</level>
+		<level value="13" cardtype="6" cardid="20" cardnumber="20" gold="14300" lv="117">
+			<effect inx="1" targettype="1" parent="0" nexteffect="0" type="70" param1="1272" param2="0" param3="0" prob="10000"/>
+		</level>
+		<level value="14" cardtype="6" cardid="20" cardnumber="0" gold="0" lv="0">
+			<effect inx="1" targettype="1" parent="0" nexteffect="0" type="70" param1="1313" param2="0" param3="0" prob="10000"/>
+		</level>
+	</skill>
+	<skill id="21" name="箭雨" resname="icon6021" effectani="battle_skill_arrow" desc="向天空同时射出密集的箭雨，对最前排一行3个敌队造成伤害。" type="1" morale="100">
+		<level value="0" cardtype="6" cardid="21" cardnumber="1" gold="1000" lv="15">
+			<effect inx="1" targettype="30" parent="0" nexteffect="0" type="10" param1="120" param2="120" param3="0" prob="10000"/>
+		</level>
+		<level value="1" cardtype="6" cardid="21" cardnumber="2" gold="285" lv="19">
+			<effect inx="1" targettype="30" parent="0" nexteffect="0" type="10" param1="31239" param2="31239" param3="0" prob="10000"/>
+		</level>
+		<level value="2" cardtype="6" cardid="21" cardnumber="3" gold="570" lv="23">
+			<effect inx="1" targettype="30" parent="0" nexteffect="0" type="10" param1="42751" param2="42751" param3="0" prob="10000"/>
+		</level>
+		<level value="3" cardtype="6" cardid="21" cardnumber="6" gold="855" lv="27">
+			<effect inx="1" targettype="30" parent="0" nexteffect="0" type="10" param1="55552" param2="55552" param3="0" prob="10000"/>
+		</level>
+		<level value="4" cardtype="6" cardid="21" cardnumber="6" gold="1140" lv="31">
+			<effect inx="1" targettype="30" parent="0" nexteffect="0" type="10" param1="70213" param2="70213" param3="0" prob="10000"/>
+		</level>
+		<level value="5" cardtype="6" cardid="21" cardnumber="7" gold="1425" lv="35">
+			<effect inx="1" targettype="30" parent="0" nexteffect="0" type="10" param1="86154" param2="86154" param3="0" prob="10000"/>
+		</level>
+		<level value="6" cardtype="6" cardid="21" cardnumber="7" gold="1710" lv="39">
+			<effect inx="1" targettype="30" parent="0" nexteffect="0" type="10" param1="103470" param2="103470" param3="0" prob="10000"/>
+		</level>
+		<level value="7" cardtype="6" cardid="21" cardnumber="8" gold="1995" lv="43">
+			<effect inx="1" targettype="30" parent="0" nexteffect="0" type="10" param1="122628" param2="122628" param3="0" prob="10000"/>
+		</level>
+		<level value="8" cardtype="6" cardid="21" cardnumber="8" gold="2280" lv="47">
+			<effect inx="1" targettype="30" parent="0" nexteffect="0" type="10" param1="142278" param2="142278" param3="0" prob="10000"/>
+		</level>
+		<level value="9" cardtype="6" cardid="21" cardnumber="9" gold="2565" lv="51">
+			<effect inx="1" targettype="30" parent="0" nexteffect="0" type="10" param1="163681" param2="163681" param3="0" prob="10000"/>
+		</level>
+		<level value="10" cardtype="6" cardid="21" cardnumber="9" gold="2850" lv="55">
+			<effect inx="1" targettype="30" parent="0" nexteffect="0" type="10" param1="185898" param2="185898" param3="0" prob="10000"/>
+		</level>
+		<level value="11" cardtype="6" cardid="21" cardnumber="10" gold="3135" lv="59">
+			<effect inx="1" targettype="30" parent="0" nexteffect="0" type="10" param1="209868" param2="209868" param3="0" prob="10000"/>
+		</level>
+		<level value="12" cardtype="6" cardid="21" cardnumber="11" gold="3420" lv="63">
+			<effect inx="1" targettype="30" parent="0" nexteffect="0" type="10" param1="234898" param2="234898" param3="0" prob="10000"/>
+		</level>
+		<level value="13" cardtype="6" cardid="21" cardnumber="12" gold="3705" lv="67">
+			<effect inx="1" targettype="30" parent="0" nexteffect="0" type="10" param1="260550" param2="260550" param3="0" prob="10000"/>
+		</level>
+		<level value="14" cardtype="6" cardid="21" cardnumber="13" gold="3990" lv="71">
+			<effect inx="1" targettype="30" parent="0" nexteffect="0" type="10" param1="287081" param2="287081" param3="0" prob="10000"/>
+		</level>
+		<level value="15" cardtype="6" cardid="21" cardnumber="14" gold="4275" lv="75">
+			<effect inx="1" targettype="30" parent="0" nexteffect="0" type="10" param1="314424" param2="314424" param3="0" prob="10000"/>
+		</level>
+		<level value="16" cardtype="6" cardid="21" cardnumber="15" gold="4560" lv="79">
+			<effect inx="1" targettype="30" parent="0" nexteffect="0" type="10" param1="342988" param2="342988" param3="0" prob="10000"/>
+		</level>
+		<level value="17" cardtype="6" cardid="21" cardnumber="15" gold="4845" lv="83">
+			<effect inx="1" targettype="30" parent="0" nexteffect="0" type="10" param1="372279" param2="372279" param3="0" prob="10000"/>
+		</level>
+		<level value="18" cardtype="6" cardid="21" cardnumber="15" gold="5130" lv="87">
+			<effect inx="1" targettype="30" parent="0" nexteffect="0" type="10" param1="401731" param2="401731" param3="0" prob="10000"/>
+		</level>
+		<level value="19" cardtype="6" cardid="21" cardnumber="16" gold="5415" lv="91">
+			<effect inx="1" targettype="30" parent="0" nexteffect="0" type="10" param1="432264" param2="432264" param3="0" prob="10000"/>
+		</level>
+		<level value="20" cardtype="6" cardid="21" cardnumber="17" gold="5700" lv="95">
+			<effect inx="1" targettype="30" parent="0" nexteffect="0" type="10" param1="463876" param2="463876" param3="0" prob="10000"/>
+		</level>
+		<level value="21" cardtype="6" cardid="21" cardnumber="17" gold="5985" lv="99">
+			<effect inx="1" targettype="30" parent="0" nexteffect="0" type="10" param1="494842" param2="494842" param3="0" prob="10000"/>
+		</level>
+		<level value="22" cardtype="6" cardid="21" cardnumber="18" gold="6270" lv="103">
+			<effect inx="1" targettype="30" parent="0" nexteffect="0" type="10" param1="527353" param2="527353" param3="0" prob="10000"/>
+		</level>
+		<level value="23" cardtype="6" cardid="21" cardnumber="19" gold="6555" lv="107">
+			<effect inx="1" targettype="30" parent="0" nexteffect="0" type="10" param1="559614" param2="559614" param3="0" prob="10000"/>
+		</level>
+		<level value="24" cardtype="6" cardid="21" cardnumber="19" gold="6840" lv="111">
+			<effect inx="1" targettype="30" parent="0" nexteffect="0" type="10" param1="592125" param2="592125" param3="0" prob="10000"/>
+		</level>
+		<level value="25" cardtype="6" cardid="21" cardnumber="19" gold="7125" lv="115">
+			<effect inx="1" targettype="30" parent="0" nexteffect="0" type="10" param1="625507" param2="625507" param3="0" prob="10000"/>
+		</level>
+		<level value="26" cardtype="6" cardid="21" cardnumber="20" gold="7410" lv="119">
+			<effect inx="1" targettype="30" parent="0" nexteffect="0" type="10" param1="658353" param2="658353" param3="0" prob="10000"/>
+		</level>
+		<level value="27" cardtype="6" cardid="21" cardnumber="0" gold="1000" lv="0">
+			<effect inx="1" targettype="30" parent="0" nexteffect="0" type="10" param1="682946" param2="682946" param3="0" prob="10000"/>
+		</level>
+	</skill>
+	<skill id="22" name="强弩" resname="icon6022" effectani="battle_skill_arrowfar" desc="用强弩射出威力巨大的弩箭，有可能对敌人造成暴击。" type="1" morale="100">
+		<level value="0" cardtype="6" cardid="22" cardnumber="1" gold="1000" lv="25">
+			<effect inx="1" targettype="32" parent="0" nexteffect="0" type="10" param1="321" param2="321" param3="0" prob="10000"/>
+		</level>
+		<level value="1" cardtype="6" cardid="22" cardnumber="7" gold="360" lv="29">
+			<effect inx="1" targettype="32" parent="0" nexteffect="0" type="0" param1="31335" param2="31335" param3="0" param4="75" prob="10000"/>
+		</level>
+		<level value="2" cardtype="6" cardid="22" cardnumber="7" gold="720" lv="33">
+			<effect inx="1" targettype="32" parent="0" nexteffect="0" type="0" param1="38990" param2="38990" param3="0" param4="75" prob="10000"/>
+		</level>
+		<level value="3" cardtype="6" cardid="22" cardnumber="7" gold="1080" lv="37">
+			<effect inx="1" targettype="32" parent="0" nexteffect="0" type="0" param1="47366" param2="47366" param3="0" param4="75" prob="10000"/>
+		</level>
+		<level value="4" cardtype="6" cardid="22" cardnumber="7" gold="1440" lv="41">
+			<effect inx="1" targettype="32" parent="0" nexteffect="0" type="0" param1="56429" param2="56429" param3="0" param4="75" prob="10000"/>
+		</level>
+		<level value="5" cardtype="6" cardid="22" cardnumber="8" gold="1800" lv="45">
+			<effect inx="1" targettype="32" parent="0" nexteffect="0" type="0" param1="66136" param2="66136" param3="0" param4="75" prob="10000"/>
+		</level>
+		<level value="6" cardtype="6" cardid="22" cardnumber="8" gold="2160" lv="49">
+			<effect inx="1" targettype="32" parent="0" nexteffect="0" type="0" param1="76321" param2="76321" param3="0" param4="75" prob="10000"/>
+		</level>
+		<level value="7" cardtype="6" cardid="22" cardnumber="9" gold="2520" lv="53">
+			<effect inx="1" targettype="32" parent="0" nexteffect="0" type="0" param1="87383" param2="87383" param3="0" param4="75" prob="10000"/>
+		</level>
+		<level value="8" cardtype="6" cardid="22" cardnumber="9" gold="2880" lv="57">
+			<effect inx="1" targettype="32" parent="0" nexteffect="0" type="0" param1="98851" param2="98851" param3="0" param4="75" prob="10000"/>
+		</level>
+		<level value="9" cardtype="6" cardid="22" cardnumber="11" gold="3240" lv="61">
+			<effect inx="1" targettype="32" parent="0" nexteffect="0" type="0" param1="111196" param2="111196" param3="0" param4="75" prob="10000"/>
+		</level>
+		<level value="10" cardtype="6" cardid="22" cardnumber="11" gold="3600" lv="65">
+			<effect inx="1" targettype="32" parent="0" nexteffect="0" type="0" param1="123682" param2="123682" param3="0" param4="75" prob="10000"/>
+		</level>
+		<level value="11" cardtype="6" cardid="22" cardnumber="12" gold="3960" lv="69">
+			<effect inx="1" targettype="32" parent="0" nexteffect="0" type="0" param1="136823" param2="136823" param3="0" param4="75" prob="10000"/>
+		</level>
+		<level value="12" cardtype="6" cardid="22" cardnumber="13" gold="4320" lv="73">
+			<effect inx="1" targettype="32" parent="0" nexteffect="0" type="0" param1="150404" param2="150404" param3="0" param4="75" prob="10000"/>
+		</level>
+		<level value="13" cardtype="6" cardid="22" cardnumber="15" gold="4680" lv="77">
+			<effect inx="1" targettype="32" parent="0" nexteffect="0" type="0" param1="164390" param2="164390" param3="0" param4="75" prob="10000"/>
+		</level>
+		<level value="14" cardtype="6" cardid="22" cardnumber="15" gold="5040" lv="81">
+			<effect inx="1" targettype="32" parent="0" nexteffect="0" type="0" param1="178746" param2="178746" param3="0" param4="75" prob="10000"/>
+		</level>
+		<level value="15" cardtype="6" cardid="22" cardnumber="15" gold="5400" lv="85">
+			<effect inx="1" targettype="32" parent="0" nexteffect="0" type="0" param1="193435" param2="193435" param3="0" param4="75" prob="10000"/>
+		</level>
+		<level value="16" cardtype="6" cardid="22" cardnumber="16" gold="5760" lv="89">
+			<effect inx="1" targettype="32" parent="0" nexteffect="0" type="0" param1="208431" param2="208431" param3="0" param4="75" prob="10000"/>
+		</level>
+		<level value="17" cardtype="6" cardid="22" cardnumber="17" gold="6120" lv="93">
+			<effect inx="1" targettype="32" parent="0" nexteffect="0" type="0" param1="223967" param2="223967" param3="0" param4="75" prob="10000"/>
+		</level>
+		<level value="18" cardtype="6" cardid="22" cardnumber="17" gold="6480" lv="97">
+			<effect inx="1" targettype="32" parent="0" nexteffect="0" type="0" param1="239760" param2="239760" param3="0" param4="75" prob="10000"/>
+		</level>
+		<level value="19" cardtype="6" cardid="22" cardnumber="17" gold="6840" lv="101">
+			<effect inx="1" targettype="32" parent="0" nexteffect="0" type="0" param1="255488" param2="255488" param3="0" param4="75" prob="10000"/>
+		</level>
+		<level value="20" cardtype="6" cardid="22" cardnumber="19" gold="7200" lv="105">
+			<effect inx="1" targettype="32" parent="0" nexteffect="0" type="0" param1="271685" param2="271685" param3="0" param4="75" prob="10000"/>
+		</level>
+		<level value="21" cardtype="6" cardid="22" cardnumber="19" gold="7560" lv="109">
+			<effect inx="1" targettype="32" parent="0" nexteffect="0" type="0" param1="288041" param2="288041" param3="0" param4="75" prob="10000"/>
+		</level>
+		<level value="22" cardtype="6" cardid="22" cardnumber="19" gold="7920" lv="113">
+			<effect inx="1" targettype="32" parent="0" nexteffect="0" type="0" param1="304193" param2="304193" param3="0" param4="75" prob="10000"/>
+		</level>
+		<level value="23" cardtype="6" cardid="22" cardnumber="20" gold="8280" lv="117">
+			<effect inx="1" targettype="32" parent="0" nexteffect="0" type="0" param1="321084" param2="321084" param3="0" param4="75" prob="10000"/>
+		</level>
+		<level value="24" cardtype="6" cardid="22" cardnumber="0" gold="1000" lv="0">
+			<effect inx="1" targettype="32" parent="0" nexteffect="0" type="0" param1="337359" param2="337359" param3="0" param4="75" prob="10000"/>
+		</level>
+	</skill>
+	<skill id="25" name="陨石击" resname="icon6025" effectani="battle_skill_meteor" desc="向敌军投射大量碎石，造成2*2范围内敌军都受到伤害。" type="1" morale="100">
+		<level value="0" cardtype="6" cardid="25" cardnumber="0" gold="0" lv="0">
+			<effect inx="1" targettype="50" parent="0" nexteffect="0" type="10" param1="120" param2="120" param3="0" prob="10000"/>
+		</level>
+		<level value="1" cardtype="6" cardid="25" cardnumber="8" gold="585" lv="49">
+			<effect inx="1" targettype="50" parent="0" nexteffect="0" type="10" param1="152644" param2="152644" param3="0" prob="10000"/>
+		</level>
+		<level value="2" cardtype="6" cardid="25" cardnumber="9" gold="1170" lv="53">
+			<effect inx="1" targettype="50" parent="0" nexteffect="0" type="10" param1="174767" param2="174767" param3="0" prob="10000"/>
+		</level>
+		<level value="3" cardtype="6" cardid="25" cardnumber="9" gold="1755" lv="57">
+			<effect inx="1" targettype="50" parent="0" nexteffect="0" type="10" param1="197704" param2="197704" param3="0" prob="10000"/>
+		</level>
+		<level value="4" cardtype="6" cardid="25" cardnumber="11" gold="2340" lv="61">
+			<effect inx="1" targettype="50" parent="0" nexteffect="0" type="10" param1="222394" param2="222394" param3="0" prob="10000"/>
+		</level>
+		<level value="5" cardtype="6" cardid="25" cardnumber="11" gold="2925" lv="65">
+			<effect inx="1" targettype="50" parent="0" nexteffect="0" type="10" param1="247365" param2="247365" param3="0" prob="10000"/>
+		</level>
+		<level value="6" cardtype="6" cardid="25" cardnumber="12" gold="3510" lv="69">
+			<effect inx="1" targettype="50" parent="0" nexteffect="0" type="10" param1="273647" param2="273647" param3="0" prob="10000"/>
+		</level>
+		<level value="7" cardtype="6" cardid="25" cardnumber="13" gold="4095" lv="73">
+			<effect inx="1" targettype="50" parent="0" nexteffect="0" type="10" param1="300808" param2="300808" param3="0" prob="10000"/>
+		</level>
+		<level value="8" cardtype="6" cardid="25" cardnumber="15" gold="4680" lv="77">
+			<effect inx="1" targettype="50" parent="0" nexteffect="0" type="10" param1="328781" param2="328781" param3="0" prob="10000"/>
+		</level>
+		<level value="9" cardtype="6" cardid="25" cardnumber="15" gold="5265" lv="81">
+			<effect inx="1" targettype="50" parent="0" nexteffect="0" type="10" param1="357493" param2="357493" param3="0" prob="10000"/>
+		</level>
+		<level value="10" cardtype="6" cardid="25" cardnumber="15" gold="5850" lv="85">
+			<effect inx="1" targettype="50" parent="0" nexteffect="0" type="10" param1="386870" param2="386870" param3="0" prob="10000"/>
+		</level>
+		<level value="11" cardtype="6" cardid="25" cardnumber="16" gold="6435" lv="89">
+			<effect inx="1" targettype="50" parent="0" nexteffect="0" type="10" param1="416863" param2="416863" param3="0" prob="10000"/>
+		</level>
+		<level value="12" cardtype="6" cardid="25" cardnumber="17" gold="7020" lv="93">
+			<effect inx="1" targettype="50" parent="0" nexteffect="0" type="10" param1="447935" param2="447935" param3="0" prob="10000"/>
+		</level>
+		<level value="13" cardtype="6" cardid="25" cardnumber="17" gold="7605" lv="97">
+			<effect inx="1" targettype="50" parent="0" nexteffect="0" type="10" param1="479522" param2="479522" param3="0" prob="10000"/>
+		</level>
+		<level value="14" cardtype="6" cardid="25" cardnumber="17" gold="8190" lv="101">
+			<effect inx="1" targettype="50" parent="0" nexteffect="0" type="10" param1="510977" param2="510977" param3="0" prob="10000"/>
+		</level>
+		<level value="15" cardtype="6" cardid="25" cardnumber="19" gold="8775" lv="105">
+			<effect inx="1" targettype="50" parent="0" nexteffect="0" type="10" param1="543371" param2="543371" param3="0" prob="10000"/>
+		</level>
+		<level value="16" cardtype="6" cardid="25" cardnumber="19" gold="9360" lv="109">
+			<effect inx="1" targettype="50" parent="0" nexteffect="0" type="10" param1="576082" param2="576082" param3="0" prob="10000"/>
+		</level>
+		<level value="17" cardtype="6" cardid="25" cardnumber="19" gold="9945" lv="113">
+			<effect inx="1" targettype="50" parent="0" nexteffect="0" type="10" param1="608387" param2="608387" param3="0" prob="10000"/>
+		</level>
+		<level value="18" cardtype="6" cardid="25" cardnumber="20" gold="10530" lv="117">
+			<effect inx="1" targettype="50" parent="0" nexteffect="0" type="10" param1="642169" param2="642169" param3="0" prob="10000"/>
+		</level>
+		<level value="19" cardtype="6" cardid="25" cardnumber="0" gold="0" lv="0">
+			<effect inx="1" targettype="50" parent="0" nexteffect="0" type="10" param1="674719" param2="674719" param3="0" prob="10000"/>
+		</level>
+	</skill>
+	<skill id="26" name="穿甲弹" resname="icon6026" effectani="battle_skill_piercing" desc="发射灼热的铁弹将敌人的装甲打得千疮百孔，降低敌队的防御力。" type="1" morale="100">
+		<level value="0" cardtype="6" cardid="26" cardnumber="0" gold="0" lv="0">
+			<effect inx="1" targettype="1" parent="0" nexteffect="0" type="70" param1="50" param2="100" param3="0" prob="10000"/>
+		</level>
+		<level value="1" cardtype="6" cardid="26" cardnumber="11" gold="835" lv="64">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="10" param1="64290" param2="64290" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="20" param1="131" param2="2" param3="20" param4="0" prob="10000" noeffect="1"/>
+		</level>
+		<level value="2" cardtype="6" cardid="26" cardnumber="12" gold="1670" lv="68">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="10" param1="71215" param2="71215" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="20" param1="131" param2="2" param3="20" param4="0" prob="10000" noeffect="1"/>
+		</level>
+		<level value="3" cardtype="6" cardid="26" cardnumber="13" gold="2505" lv="72">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="10" param1="78374" param2="78374" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="20" param1="131" param2="2" param3="20" param4="0" prob="10000" noeffect="1"/>
+		</level>
+		<level value="4" cardtype="6" cardid="26" cardnumber="14" gold="3340" lv="76">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="10" param1="85749" param2="85749" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="20" param1="131" param2="2" param3="20" param4="0" prob="10000" noeffect="1"/>
+		</level>
+		<level value="5" cardtype="6" cardid="26" cardnumber="15" gold="4175" lv="80">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="10" param1="93450" param2="93450" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="20" param1="131" param2="2" param3="20" param4="0" prob="10000" noeffect="1"/>
+		</level>
+		<level value="6" cardtype="6" cardid="26" cardnumber="15" gold="5010" lv="84">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="10" param1="101212" param2="101212" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="20" param1="131" param2="2" param3="20" param4="0" prob="10000" noeffect="1"/>
+		</level>
+		<level value="7" cardtype="6" cardid="26" cardnumber="15" gold="5845" lv="88">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="10" param1="109138" param2="109138" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="20" param1="131" param2="2" param3="20" param4="0" prob="10000" noeffect="1"/>
+		</level>
+		<level value="8" cardtype="6" cardid="26" cardnumber="16" gold="6680" lv="92">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="10" param1="117352" param2="117352" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="20" param1="131" param2="2" param3="20" param4="0" prob="10000" noeffect="1"/>
+		</level>
+		<level value="9" cardtype="6" cardid="26" cardnumber="17" gold="7515" lv="96">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="10" param1="125703" param2="125703" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="20" param1="131" param2="2" param3="20" param4="0" prob="10000" noeffect="1"/>
+		</level>
+		<level value="10" cardtype="6" cardid="26" cardnumber="17" gold="8350" lv="100">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="10" param1="134178" param2="134178" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="20" param1="131" param2="2" param3="20" param4="0" prob="10000" noeffect="1"/>
+		</level>
+		<level value="11" cardtype="6" cardid="26" cardnumber="19" gold="9185" lv="104">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="10" param1="142756" param2="142756" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="20" param1="131" param2="2" param3="20" param4="0" prob="10000" noeffect="1"/>
+		</level>
+		<level value="12" cardtype="6" cardid="26" cardnumber="19" gold="10020" lv="108">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="10" param1="151419" param2="151419" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="20" param1="131" param2="2" param3="20" param4="0" prob="10000" noeffect="1"/>
+		</level>
+		<level value="13" cardtype="6" cardid="26" cardnumber="19" gold="10855" lv="112">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="10" param1="159974" param2="159974" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="20" param1="131" param2="2" param3="20" param4="0" prob="10000" noeffect="1"/>
+		</level>
+		<level value="14" cardtype="6" cardid="26" cardnumber="20" gold="11690" lv="116">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="10" param1="169105" param2="169105" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="20" param1="131" param2="2" param3="20" param4="0" prob="10000" noeffect="1"/>
+		</level>
+		<level value="15" cardtype="6" cardid="26" cardnumber="20" gold="12525" lv="120">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="10" param1="177737" param2="177737" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="20" param1="131" param2="2" param3="20" param4="0" prob="10000" noeffect="1"/>
+		</level>
+		<level value="16" cardtype="6" cardid="26" cardnumber="0" gold="0" lv="0">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="10" param1="183222" param2="183222" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="20" param1="131" param2="2" param3="20" param4="0" prob="10000" noeffect="1"/>
+		</level>
+	</skill>
+	<skill id="27" name="春风颂" resname="icon6027" effectani="battle_skill_spring" desc="吟唱春风的颂歌，让战友的生命力从伤痕累累的盔甲下喷薄而出。" type="1" morale="100">
+		<level value="0" cardtype="6" cardid="27" cardnumber="0" gold="0" lv="0">
+			<effect inx="1" targettype="1" parent="0" nexteffect="0" type="70" param1="50" param2="100" param3="0" prob="10000"/>
+		</level>
+		<level value="1" cardtype="6" cardid="27" cardnumber="14" gold="1280" lv="75">
+			<effect inx="1" targettype="12" parent="0" nexteffect="0" type="70" param1="206" param2="0" param3="0" prob="10000"/>
+		</level>
+		<level value="2" cardtype="6" cardid="27" cardnumber="15" gold="2560" lv="79">
+			<effect inx="1" targettype="12" parent="0" nexteffect="0" type="70" param1="217" param2="0" param3="0" prob="10000"/>
+		</level>
+		<level value="3" cardtype="6" cardid="27" cardnumber="15" gold="3840" lv="83">
+			<effect inx="1" targettype="12" parent="0" nexteffect="0" type="70" param1="228" param2="0" param3="0" prob="10000"/>
+		</level>
+		<level value="4" cardtype="6" cardid="27" cardnumber="15" gold="5120" lv="87">
+			<effect inx="1" targettype="12" parent="0" nexteffect="0" type="70" param1="238" param2="0" param3="0" prob="10000"/>
+		</level>
+		<level value="5" cardtype="6" cardid="27" cardnumber="16" gold="6400" lv="91">
+			<effect inx="1" targettype="12" parent="0" nexteffect="0" type="70" param1="249" param2="0" param3="0" prob="10000"/>
+		</level>
+		<level value="6" cardtype="6" cardid="27" cardnumber="17" gold="7680" lv="95">
+			<effect inx="1" targettype="12" parent="0" nexteffect="0" type="70" param1="259" param2="0" param3="0" prob="10000"/>
+		</level>
+		<level value="7" cardtype="6" cardid="27" cardnumber="17" gold="8960" lv="99">
+			<effect inx="1" targettype="12" parent="0" nexteffect="0" type="70" param1="270" param2="0" param3="0" prob="10000"/>
+		</level>
+		<level value="8" cardtype="6" cardid="27" cardnumber="18" gold="10240" lv="103">
+			<effect inx="1" targettype="12" parent="0" nexteffect="0" type="70" param1="281" param2="0" param3="0" prob="10000"/>
+		</level>
+		<level value="9" cardtype="6" cardid="27" cardnumber="19" gold="11520" lv="107">
+			<effect inx="1" targettype="12" parent="0" nexteffect="0" type="70" param1="291" param2="0" param3="0" prob="10000"/>
+		</level>
+		<level value="10" cardtype="6" cardid="27" cardnumber="19" gold="12800" lv="111">
+			<effect inx="1" targettype="12" parent="0" nexteffect="0" type="70" param1="302" param2="0" param3="0" prob="10000"/>
+		</level>
+		<level value="11" cardtype="6" cardid="27" cardnumber="19" gold="14080" lv="115">
+			<effect inx="1" targettype="12" parent="0" nexteffect="0" type="70" param1="312" param2="0" param3="0" prob="10000"/>
+		</level>
+		<level value="12" cardtype="6" cardid="27" cardnumber="20" gold="15360" lv="119">
+			<effect inx="1" targettype="12" parent="0" nexteffect="0" type="70" param1="323" param2="0" param3="0" prob="10000"/>
+		</level>
+		<level value="13" cardtype="6" cardid="27" cardnumber="0" gold="0" lv="0">
+			<effect inx="1" targettype="12" parent="0" nexteffect="0" type="70" param1="331" param2="0" param3="0" prob="10000"/>
+		</level>
+	</skill>
+	<skill id="29" name="缠绕" resname="icon6029" effectani="battle_skill_bind" desc="操纵地下的种子瞬间长成巨大的荆棘藤蔓，缠住一个敌队，使其1回合不能行动。" type="1" morale="100">
+		<level value="0" cardtype="6" cardid="29" cardnumber="0" gold="0" lv="0">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="10" param1="0" param2="0" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="20" param1="11" param2="1" param3="0" param4="20" prob="10000" noeffect="1"/>
+		</level>
+		<level value="1" cardtype="6" cardid="29" cardnumber="7" gold="475" lv="41">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="10" param1="180573" param2="180573" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="20" param1="11" param2="1" param3="0" param4="20" prob="10000" noeffect="1"/>
+		</level>
+		<level value="2" cardtype="6" cardid="29" cardnumber="8" gold="950" lv="45">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="10" param1="211638" param2="211638" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="20" param1="11" param2="1" param3="0" param4="20" prob="10000" noeffect="1"/>
+		</level>
+		<level value="3" cardtype="6" cardid="29" cardnumber="8" gold="1425" lv="49">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="10" param1="244230" param2="244230" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="20" param1="11" param2="1" param3="0" param4="20" prob="10000" noeffect="1"/>
+		</level>
+		<level value="4" cardtype="6" cardid="29" cardnumber="9" gold="1900" lv="53">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="10" param1="279627" param2="279627" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="20" param1="11" param2="1" param3="0" param4="20" prob="10000" noeffect="1"/>
+		</level>
+		<level value="5" cardtype="6" cardid="29" cardnumber="9" gold="2375" lv="57">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="10" param1="316326" param2="316326" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="20" param1="11" param2="1" param3="0" param4="20" prob="10000" noeffect="1"/>
+		</level>
+		<level value="6" cardtype="6" cardid="29" cardnumber="11" gold="2850" lv="61">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="10" param1="355830" param2="355830" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="20" param1="11" param2="1" param3="0" param4="20" prob="10000" noeffect="1"/>
+		</level>
+		<level value="7" cardtype="6" cardid="29" cardnumber="11" gold="3325" lv="65">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="10" param1="395784" param2="395784" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="20" param1="11" param2="1" param3="0" param4="20" prob="10000" noeffect="1"/>
+		</level>
+		<level value="8" cardtype="6" cardid="29" cardnumber="12" gold="3800" lv="69">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="10" param1="437835" param2="437835" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="20" param1="11" param2="1" param3="0" param4="20" prob="10000" noeffect="1"/>
+		</level>
+		<level value="9" cardtype="6" cardid="29" cardnumber="13" gold="4275" lv="73">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="10" param1="481293" param2="481293" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="20" param1="11" param2="1" param3="0" param4="20" prob="10000" noeffect="1"/>
+		</level>
+		<level value="10" cardtype="6" cardid="29" cardnumber="15" gold="4750" lv="77">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="10" param1="526050" param2="526050" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="20" param1="11" param2="1" param3="0" param4="20" prob="10000" noeffect="1"/>
+		</level>
+		<level value="11" cardtype="6" cardid="29" cardnumber="15" gold="5225" lv="81">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="10" param1="571989" param2="571989" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="20" param1="11" param2="1" param3="0" param4="20" prob="10000" noeffect="1"/>
+		</level>
+		<level value="12" cardtype="6" cardid="29" cardnumber="15" gold="5700" lv="85">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="10" param1="618993" param2="618993" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="20" param1="11" param2="1" param3="0" param4="20" prob="10000" noeffect="1"/>
+		</level>
+		<level value="13" cardtype="6" cardid="29" cardnumber="16" gold="6175" lv="89">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="10" param1="666981" param2="666981" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="20" param1="11" param2="1" param3="0" param4="20" prob="10000" noeffect="1"/>
+		</level>
+		<level value="14" cardtype="6" cardid="29" cardnumber="17" gold="6650" lv="93">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="10" param1="716697" param2="716697" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="20" param1="11" param2="1" param3="0" param4="20" prob="10000" noeffect="1"/>
+		</level>
+		<level value="15" cardtype="6" cardid="29" cardnumber="17" gold="7125" lv="97">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="10" param1="767235" param2="767235" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="20" param1="11" param2="1" param3="0" param4="20" prob="10000" noeffect="1"/>
+		</level>
+		<level value="16" cardtype="6" cardid="29" cardnumber="17" gold="7600" lv="101">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="10" param1="817563" param2="817563" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="20" param1="11" param2="1" param3="0" param4="20" prob="10000" noeffect="1"/>
+		</level>
+		<level value="17" cardtype="6" cardid="29" cardnumber="19" gold="8075" lv="105">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="10" param1="869394" param2="869394" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="20" param1="11" param2="1" param3="0" param4="20" prob="10000" noeffect="1"/>
+		</level>
+		<level value="18" cardtype="6" cardid="29" cardnumber="19" gold="8550" lv="109">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="10" param1="921732" param2="921732" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="20" param1="11" param2="1" param3="0" param4="20" prob="10000" noeffect="1"/>
+		</level>
+		<level value="19" cardtype="6" cardid="29" cardnumber="19" gold="9025" lv="113">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="10" param1="973419" param2="973419" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="20" param1="11" param2="1" param3="0" param4="20" prob="10000" noeffect="1"/>
+		</level>
+		<level value="20" cardtype="6" cardid="29" cardnumber="20" gold="9500" lv="117">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="10" param1="1027470" param2="1027470" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="20" param1="10" param2="1" param3="0" param4="20" prob="10000" noeffect="1"/>
+		</level>
+		<level value="21" cardtype="6" cardid="29" cardnumber="0" gold="0" lv="0">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="10" param1="1079550" param2="1079550" param3="0" prob="10000"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="20" param1="10" param2="1" param3="0" param4="20" prob="10000" noeffect="1"/>
+		</level>
+	</skill>
+	<skill id="31" name="连锁闪电" resname="icon6031" effectani="battle_skill_chainlighting" desc="发出四溅的巨大电击能力，电能互相迸溅导致地方所有部队都受到伤害。" type="1" morale="100">
+		<level value="0" cardtype="6" cardid="31" cardnumber="0" gold="0" lv="0">
+			<effect inx="1" targettype="10" parent="0" nexteffect="0" type="10" param1="30" param2="50" param3="0" prob="10000"/>
+		</level>
+		<level value="1" cardtype="6" cardid="31" cardnumber="9" gold="655" lv="55">
+			<effect inx="1" targettype="10" parent="0" nexteffect="0" type="10" param1="92949" param2="92949" param3="0" prob="10000"/>
+		</level>
+		<level value="2" cardtype="6" cardid="31" cardnumber="10" gold="1310" lv="59">
+			<effect inx="1" targettype="10" parent="0" nexteffect="0" type="10" param1="104934" param2="104934" param3="0" prob="10000"/>
+		</level>
+		<level value="3" cardtype="6" cardid="31" cardnumber="11" gold="1965" lv="63">
+			<effect inx="1" targettype="10" parent="0" nexteffect="0" type="10" param1="117449" param2="117449" param3="0" prob="10000"/>
+		</level>
+		<level value="4" cardtype="6" cardid="31" cardnumber="12" gold="2620" lv="67">
+			<effect inx="1" targettype="10" parent="0" nexteffect="0" type="10" param1="130275" param2="130275" param3="0" prob="10000"/>
+		</level>
+		<level value="5" cardtype="6" cardid="31" cardnumber="13" gold="3275" lv="71">
+			<effect inx="1" targettype="10" parent="0" nexteffect="0" type="10" param1="143540" param2="143540" param3="0" prob="10000"/>
+		</level>
+		<level value="6" cardtype="6" cardid="31" cardnumber="14" gold="3930" lv="75">
+			<effect inx="1" targettype="10" parent="0" nexteffect="0" type="10" param1="157212" param2="157212" param3="0" prob="10000"/>
+		</level>
+		<level value="7" cardtype="6" cardid="31" cardnumber="15" gold="4585" lv="79">
+			<effect inx="1" targettype="10" parent="0" nexteffect="0" type="10" param1="171494" param2="171494" param3="0" prob="10000"/>
+		</level>
+		<level value="8" cardtype="6" cardid="31" cardnumber="15" gold="5240" lv="83">
+			<effect inx="1" targettype="10" parent="0" nexteffect="0" type="10" param1="186139" param2="186139" param3="0" prob="10000"/>
+		</level>
+		<level value="9" cardtype="6" cardid="31" cardnumber="15" gold="5895" lv="87">
+			<effect inx="1" targettype="10" parent="0" nexteffect="0" type="10" param1="200865" param2="200865" param3="0" prob="10000"/>
+		</level>
+		<level value="10" cardtype="6" cardid="31" cardnumber="16" gold="6550" lv="91">
+			<effect inx="1" targettype="10" parent="0" nexteffect="0" type="10" param1="216132" param2="216132" param3="0" prob="10000"/>
+		</level>
+		<level value="11" cardtype="6" cardid="31" cardnumber="17" gold="7205" lv="95">
+			<effect inx="1" targettype="10" parent="0" nexteffect="0" type="10" param1="231938" param2="231938" param3="0" prob="10000"/>
+		</level>
+		<level value="12" cardtype="6" cardid="31" cardnumber="17" gold="7860" lv="99">
+			<effect inx="1" targettype="10" parent="0" nexteffect="0" type="10" param1="247421" param2="247421" param3="0" prob="10000"/>
+		</level>
+		<level value="13" cardtype="6" cardid="31" cardnumber="18" gold="8515" lv="103">
+			<effect inx="1" targettype="10" parent="0" nexteffect="0" type="10" param1="263676" param2="263676" param3="0" prob="10000"/>
+		</level>
+		<level value="14" cardtype="6" cardid="31" cardnumber="19" gold="9170" lv="107">
+			<effect inx="1" targettype="10" parent="0" nexteffect="0" type="10" param1="279807" param2="279807" param3="0" prob="10000"/>
+		</level>
+		<level value="15" cardtype="6" cardid="31" cardnumber="19" gold="9825" lv="111">
+			<effect inx="1" targettype="10" parent="0" nexteffect="0" type="10" param1="296062" param2="296062" param3="0" prob="10000"/>
+		</level>
+		<level value="16" cardtype="6" cardid="31" cardnumber="19" gold="10480" lv="115">
+			<effect inx="1" targettype="10" parent="0" nexteffect="0" type="10" param1="312753" param2="312753" param3="0" prob="10000"/>
+		</level>
+		<level value="17" cardtype="6" cardid="31" cardnumber="20" gold="11135" lv="119">
+			<effect inx="1" targettype="10" parent="0" nexteffect="0" type="10" param1="329176" param2="329176" param3="0" prob="10000"/>
+		</level>
+		<level value="18" cardtype="6" cardid="31" cardnumber="0" gold="0" lv="0">
+			<effect inx="1" targettype="10" parent="0" nexteffect="0" type="10" param1="341473" param2="341473" param3="0" prob="10000"/>
+		</level>
+	</skill>
+	<skill id="35" name="奥术飞弹" resname="icon6035" effectani="battle_skill_arcane" desc="用魔法投射能量飞弹，飞行过程中能量不断扩大，所以距离越远攻击力越大。" type="1" morale="100">
+		<level value="0" cardtype="6" cardid="35" cardnumber="1" gold="1000" lv="10">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="21" param1="90" param2="1" param3="10" prob="10000" noeffect="1"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="10" param1="100" param2="100" param3="0" prob="10000"/>
+		</level>
+		<level value="1" cardtype="6" cardid="35" cardnumber="2" gold="265" lv="14">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="21" param1="90" param2="1" param3="10" prob="10000" noeffect="1"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="10" param1="32309" param2="32309" param3="0" prob="10000"/>
+		</level>
+		<level value="2" cardtype="6" cardid="35" cardnumber="3" gold="530" lv="18">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="21" param1="90" param2="1" param3="10" prob="10000" noeffect="1"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="10" param1="47746" param2="47746" param3="0" prob="10000"/>
+		</level>
+		<level value="3" cardtype="6" cardid="35" cardnumber="6" gold="795" lv="22">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="21" param1="90" param2="1" param3="10" prob="10000" noeffect="1"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="10" param1="66184" param2="66184" param3="0" prob="10000"/>
+		</level>
+		<level value="4" cardtype="6" cardid="35" cardnumber="6" gold="1060" lv="26">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="21" param1="90" param2="1" param3="10" prob="10000" noeffect="1"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="10" param1="87065" param2="87065" param3="0" prob="10000"/>
+		</level>
+		<level value="5" cardtype="6" cardid="35" cardnumber="7" gold="1325" lv="30">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="21" param1="90" param2="1" param3="10" prob="10000" noeffect="1"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="10" param1="110490" param2="110490" param3="0" prob="10000"/>
+		</level>
+		<level value="6" cardtype="6" cardid="35" cardnumber="7" gold="1590" lv="34">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="21" param1="90" param2="1" param3="10" prob="10000" noeffect="1"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="10" param1="136681" param2="136681" param3="0" prob="10000"/>
+		</level>
+		<level value="7" cardtype="6" cardid="35" cardnumber="7" gold="1855" lv="38">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="21" param1="90" param2="1" param3="10" prob="10000" noeffect="1"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="10" param1="165275" param2="165275" param3="0" prob="10000"/>
+		</level>
+		<level value="8" cardtype="6" cardid="35" cardnumber="8" gold="2120" lv="42">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="21" param1="90" param2="1" param3="10" prob="10000" noeffect="1"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="10" param1="196159" param2="196159" param3="0" prob="10000"/>
+		</level>
+		<level value="9" cardtype="6" cardid="35" cardnumber="8" gold="2385" lv="46">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="21" param1="90" param2="1" param3="10" prob="10000" noeffect="1"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="10" param1="228718" param2="228718" param3="0" prob="10000"/>
+		</level>
+		<level value="10" cardtype="6" cardid="35" cardnumber="8" gold="2650" lv="50">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="21" param1="90" param2="1" param3="10" prob="10000" noeffect="1"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="10" param1="263268" param2="263268" param3="0" prob="10000"/>
+		</level>
+		<level value="11" cardtype="6" cardid="35" cardnumber="9" gold="2915" lv="54">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="21" param1="90" param2="1" param3="10" prob="10000" noeffect="1"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="10" param1="300740" param2="300740" param3="0" prob="10000"/>
+		</level>
+		<level value="12" cardtype="6" cardid="35" cardnumber="9" gold="3180" lv="58">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="21" param1="90" param2="1" param3="10" prob="10000" noeffect="1"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="10" param1="339568" param2="339568" param3="0" prob="10000"/>
+		</level>
+		<level value="13" cardtype="6" cardid="35" cardnumber="11" gold="3445" lv="62">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="21" param1="90" param2="1" param3="10" prob="10000" noeffect="1"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="10" param1="381318" param2="381318" param3="0" prob="10000"/>
+		</level>
+		<level value="14" cardtype="6" cardid="35" cardnumber="12" gold="3710" lv="66">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="21" param1="90" param2="1" param3="10" prob="10000" noeffect="1"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="10" param1="422875" param2="422875" param3="0" prob="10000"/>
+		</level>
+		<level value="15" cardtype="6" cardid="35" cardnumber="12" gold="3975" lv="70">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="21" param1="90" param2="1" param3="10" prob="10000" noeffect="1"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="10" param1="467203" param2="467203" param3="0" prob="10000"/>
+		</level>
+		<level value="16" cardtype="6" cardid="35" cardnumber="14" gold="4240" lv="74">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="21" param1="90" param2="1" param3="10" prob="10000" noeffect="1"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="10" param1="512996" param2="512996" param3="0" prob="10000"/>
+		</level>
+		<level value="17" cardtype="6" cardid="35" cardnumber="15" gold="4505" lv="78">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="21" param1="90" param2="1" param3="10" prob="10000" noeffect="1"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="10" param1="559368" param2="559368" param3="0" prob="10000"/>
+		</level>
+		<level value="18" cardtype="6" cardid="35" cardnumber="15" gold="4770" lv="82">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="21" param1="90" param2="1" param3="10" prob="10000" noeffect="1"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="10" param1="608484" param2="608484" param3="0" prob="10000"/>
+		</level>
+		<level value="19" cardtype="6" cardid="35" cardnumber="15" gold="5035" lv="86">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="21" param1="90" param2="1" param3="10" prob="10000" noeffect="1"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="10" param1="657121" param2="657121" param3="0" prob="10000"/>
+		</level>
+		<level value="20" cardtype="6" cardid="35" cardnumber="16" gold="5300" lv="90">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="21" param1="90" param2="1" param3="10" prob="10000" noeffect="1"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="10" param1="707559" param2="707559" param3="0" prob="10000"/>
+		</level>
+		<level value="21" cardtype="6" cardid="35" cardnumber="17" gold="5565" lv="94">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="21" param1="90" param2="1" param3="10" prob="10000" noeffect="1"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="10" param1="759796" param2="759796" param3="0" prob="10000"/>
+		</level>
+		<level value="22" cardtype="6" cardid="35" cardnumber="17" gold="5830" lv="98">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="21" param1="90" param2="1" param3="10" prob="10000" noeffect="1"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="10" param1="811928" param2="811928" param3="0" prob="10000"/>
+		</level>
+		<level value="23" cardtype="6" cardid="35" cardnumber="18" gold="6095" lv="102">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="21" param1="90" param2="1" param3="10" prob="10000" noeffect="1"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="10" param1="864728" param2="864728" param3="0" prob="10000"/>
+		</level>
+		<level value="24" cardtype="6" cardid="35" cardnumber="19" gold="6360" lv="106">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="21" param1="90" param2="1" param3="10" prob="10000" noeffect="1"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="10" param1="919093" param2="919093" param3="0" prob="10000"/>
+		</level>
+		<level value="25" cardtype="6" cardid="35" cardnumber="19" gold="6625" lv="110">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="21" param1="90" param2="1" param3="10" prob="10000" noeffect="1"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="10" param1="973987" param2="973987" param3="0" prob="10000"/>
+		</level>
+		<level value="26" cardtype="6" cardid="35" cardnumber="19" gold="6890" lv="114">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="21" param1="90" param2="1" param3="10" prob="10000" noeffect="1"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="10" param1="1028203" param2="1028203" param3="0" prob="10000"/>
+		</level>
+		<level value="27" cardtype="6" cardid="35" cardnumber="20" gold="7155" lv="118">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="21" param1="90" param2="1" param3="10" prob="10000" noeffect="1"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="10" param1="1083731" param2="1083731" param3="0" prob="10000"/>
+		</level>
+		<level value="28" cardtype="6" cardid="35" cardnumber="0" gold="1000" lv="0">
+			<effect inx="1" targettype="0" parent="0" nexteffect="2" type="21" param1="90" param2="1" param3="10" prob="10000" noeffect="1"/>
+			<effect inx="2" targettype="60" parent="1" nexteffect="0" type="10" param1="1131375" param2="1131375" param3="0" prob="10000"/>
+		</level>
+	</skill>
+	<skill id="36" name="铁墙" resname="01.png" effectani="battle_skill_1" desc="铁墙" type="2" morale="0">
+		<level value="0" cardtype="6" cardid="36" cardnumber="1" gold="1000" lv="0">
+			<effect inx="1" targettype="1" parent="0" nexteffect="0" type="20" param1="100" param2="1" param3="60" prob="10000"/>
+		</level>
+		<level value="1" cardtype="6" cardid="36" cardnumber="5" gold="1000" lv="0">
+			<effect inx="1" targettype="1" parent="0" nexteffect="0" type="20" param1="100" param2="1" param3="60" prob="10000"/>
+		</level>
+	</skill>
+	<skill id="37" name="鼓舞" resname="01.png" effectani="battle_skill_drum" desc="增加本方单个部队士气" type="1" morale="0">
+		<level value="0" cardtype="6" cardid="37" cardnumber="1" gold="1000" lv="0">
+			<effect inx="1" targettype="42" parent="0" nexteffect="0" type="40" param1="34" param2="34" param3="1" prob="10000" probtype="1"/>
+		</level>
+		<level value="1" cardtype="6" cardid="37" cardnumber="0" gold="1000" lv="0">
+			<effect inx="1" targettype="42" parent="0" nexteffect="0" type="40" param1="34" param2="34" param3="1" prob="10000" probtype="1"/>
+		</level>
+	</skill>
+	<skill id="38" name="吸血藤" resname="01.png" effectani="battle_skill_1" desc="吸血藤" type="2" morale="0">
+		<level value="0" cardtype="6" cardid="38" cardnumber="1" gold="1000" lv="0">
+			<effect inx="1" targettype="1" parent="0" nexteffect="0" type="20" param1="80" param2="-1" param3="25" prob="10000"/>
+		</level>
+		<level value="1" cardtype="6" cardid="38" cardnumber="5" gold="1000" lv="0">
+			<effect inx="1" targettype="1" parent="0" nexteffect="0" type="20" param1="80" param2="-1" param3="25" prob="10000"/>
+		</level>
+	</skill>
+	<skill id="39" name="闪电攻击" resname="01.png" effectani="battle_skill_1" desc="闪电攻击" type="2" morale="0">
+		<level value="0" cardtype="6" cardid="39" cardnumber="1" gold="1000" lv="0">
+			<effect inx="1" targettype="1" parent="0" nexteffect="0" type="20" param1="110" param2="1" param3="40" prob="10000"/>
+		</level>
+		<level value="1" cardtype="6" cardid="39" cardnumber="5" gold="1000" lv="0">
+			<effect inx="1" targettype="1" parent="0" nexteffect="0" type="20" param1="110" param2="1" param3="40" prob="10000"/>
+		</level>
+	</skill>
+	<skill id="40" name="点射" resname="01.png" effectani="battle_skill_1" desc="强弩的普通攻击" type="1" morale="0">
+		<level value="0" cardtype="6" cardid="22" cardnumber="4" gold="1000" lv="28">
+			<effect inx="1" targettype="32" parent="0" nexteffect="0" type="0" param1="0" param2="0" param3="0" param4="0" prob="10000"/>
+		</level>
+		<level value="1" cardtype="6" cardid="22" cardnumber="4" gold="1000" lv="28">
+			<effect inx="1" targettype="32" parent="0" nexteffect="0" type="0" param1="0" param2="0" param3="0" param4="0" prob="10000"/>
+		</level>
+	</skill>
+	<skill id="41" name="反击" resname="01.png" effectani="battle_skill_1" desc="单纯反击" type="2" morale="0">
+		<level value="0" cardtype="6" cardid="22" cardnumber="4" gold="1000" lv="28">
+			<effect inx="1" targettype="32" parent="0" nexteffect="0" type="0" param1="0" param2="0" param3="0" param4="0" prob="10000"/>
+		</level>
+		<level value="1" cardtype="6" cardid="22" cardnumber="4" gold="1000" lv="28">
+			<effect inx="1" targettype="1" parent="0" nexteffect="0" type="20" param1="140" param2="1" param3="50" param4="" prob="10000"/>
+		</level>
+	</skill>
+	<skill id="42" name="治疗术" resname="01.png" effectani="battle_skill_soul" desc="春风颂" type="1" morale="0">
+		<level value="0" cardtype="6" cardid="22" cardnumber="4" gold="1000" lv="28">
+			<effect inx="1" targettype="32" parent="0" nexteffect="0" type="0" param1="0" param2="0" param3="0" param4="0" prob="10000"/>
+		</level>
+		<level value="1" cardtype="6" cardid="22" cardnumber="4" gold="1000" lv="28">
+			<effect inx="1" targettype="43" parent="0" nexteffect="0" type="71" param1="12" param2="0" param3="0" param4="0" prob="10000"/>
+		</level>
+	</skill>
+</data>

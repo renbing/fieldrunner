@@ -1,0 +1,16 @@
+<Doll>
+    <Sprites defaultAnimationSetName="default" defaultAnimationName="run">
+        <Sprite filename="Enemy_Air_Helicopter_Transport_Heavy.asc" attachToTag="" sortToParentDepth="F">
+            <Particles>
+                <ParticleSystem filename="Enemy_Blimp_Death_Explosion.fx" attachToTag="prop" actorEvent="0" actorEventParameter="" animationSet="" renderQueueOffset="1" />
+                <ParticleSystem filename="Enemy_Blimp_Death_Explosion.fx" attachToTag="prop2" actorEvent="0" actorEventParameter="" animationSet="" renderQueueOffset="1" />
+            </Particles>
+            <Sprite filename="Enemy_Air_Helicopter_Propeller.asc" attachToTag="prop" sortToParentDepth="F">
+                <Particles />
+            </Sprite>
+            <Sprite filename="Enemy_Air_Helicopter_Propeller.asc" attachToTag="prop2" sortToParentDepth="F">
+                <Particles />
+            </Sprite>
+        </Sprite>
+    </Sprites>
+</Doll>

@@ -1,0 +1,511 @@
+<!--Copyright 2012 Subatomic Studios, LLC. All rights reserved.-->
+<Form Name="" BasePlatform="2" Version="77" FormType="2" ClassType="21">
+    <FormRoot Name="Element">
+        <Animations>
+            <Animation Name="OnLoad">
+                <Track ID="6" Type="9">
+                    <TrackKey ID="0" Time="0" Value="pausemusic on 500" />
+                    <TrackKey ID="1" Time="1" Value="playsound UI/Menu/Shell_Move_2" />
+                </Track>
+            </Animation>
+            <Animation Name="CloseForm">
+                <Track ID="43" Type="9">
+                    <TrackKey ID="0" Time="0" Value="playsound UI/Menu/Shell_Down" />
+                </Track>
+            </Animation>
+            <Animation Name="TallyButton">
+                <Track ID="44" Type="9">
+                    <TrackKey ID="0" Time="0" Value="playsound UI/Menu/Shell_Down" />
+                </Track>
+            </Animation>
+        </Animations>
+        <Element TextureFilename="Trans.png" Type="2" Name="ScreenTints" ID="15" Anchor="0.500000, 0.500000" Dimension="1.000000, 1.000000" Tint="255, 255, 255, 0" BlendState="3" ResizeBias="2" SetChildrenAlpha="T">
+            <Animations>
+                <Animation Name="OnLoad">
+                    <Track ID="15" Type="5">
+                        <TrackKey ID="0" Time="0" />
+                        <TrackKey ID="1" Time="0.2375" Value="189" />
+                    </Track>
+                </Animation>
+                <Animation Name="CloseForm">
+                    <Track ID="26" Type="5">
+                        <TrackKey ID="0" Time="0.234375" Value="189" />
+                        <TrackKey ID="1" Time="0.70625" />
+                    </Track>
+                </Animation>
+            </Animations>
+            <Element TextureFilename="BGBlack.png" Type="2" Name="Tint" ID="16" Dimension="1.000000, 1.000000" IsPassive="T" Tint="255, 255, 255, 0" ResizeBias="2" />
+        </Element>
+        <Element Type="2" Name="Frames" ID="18" Anchor="0.500000, 0.500000" Dimension="1.012500, 1.012500" IsPassive="T" Tint="255, 255, 255, 0" RelativeScale="1.4" ResizeBias="2">
+            <Animations>
+                <Animation Name="OnLoad">
+                    <Track ID="19" Type="11">
+                        <TrackKey ID="0" Time="1.05625" Value="1.4" />
+                        <TrackKey ID="1" Time="1.31875" Value="1" />
+                    </Track>
+                </Animation>
+                <Animation Name="CloseForm">
+                    <Track ID="24" Type="11">
+                        <TrackKey ID="0" Time="0.171875" Value="1" />
+                        <TrackKey ID="1" Time="0.40625" Value="1.4" />
+                    </Track>
+                </Animation>
+            </Animations>
+            <Element PanelSkin="ResizeableFrame01.asc" Type="10" Name="Inner" ID="19" Dimension="1.093750, 1.171873" IsPassive="T" ResizeBias="2" RenderFlags="510">
+                <Element PanelSkin="Test_InnerShadow.asc" Type="10" Name="ResizablePanel::141" ID="141" Dimension="1.093750, 1.171875" BlendState="3" ResizeBias="2" />
+            </Element>
+            <Element PanelSkin="ResizeableFrame02.asc" Type="10" Name="Outer" ID="23" Dimension="1.095833, 1.172917" IsPassive="T" ResizeBias="2" RenderFlags="238">
+                <Element TextureFilename="Trans.png" Type="2" Name="BottomLeft" ID="24" Anchor="-0.498957, -0.426562" Dimension="0.094792, 0.189063" IsPassive="T" Tint="255, 255, 255, 0" ResizeBias="2" Margin="6">
+                    <Element TextureFilename="Vents02.png" Type="2" Name="BottomLeftVents" ID="25" Anchor="0.000000, -0.039062" Dimension="0.086458, 0.068750" IsPassive="T" ResizeBias="2" PixelFormat="2" />
+                </Element>
+                <Element TextureFilename="Trans.png" Type="2" Name="BottomRight" ID="26" Anchor="0.500000, -0.429688" Dimension="0.094792, 0.189063" IsPassive="T" Tint="255, 255, 255, 0" ResizeBias="2" Margin="6">
+                    <Element TextureFilename="Vents02.png" Type="2" Name="BottomLeftVents" ID="27" Anchor="0.000000, -0.039062" Dimension="0.086458, 0.068750" IsPassive="T" ResizeBias="2" PixelFormat="2" />
+                </Element>
+                <Element PanelSkin="FrameShadow01.asc" Type="10" Name="Shadow" ID="42" Dimension="0.455465, 0.477604" IsPassive="T" RelativeScale="2.4" BlendState="3" ResizeBias="2" RenderFlags="238" />
+                <Element TextureFilename="Trans.png" Type="2" Name="Left" ID="127" Anchor="-0.484375, 0.017188" Dimension="0.065625, 0.500522" IsPassive="T" Tint="255, 255, 255, 0" Margin="7">
+                    <Element TextureFilename="Vents01.png" Type="2" Name="LeftVents" ID="128" Anchor="0.000000, 0.087500" Dimension="0.048958, 0.175000" IsPassive="T" PixelFormat="2" />
+                    <Element Type="2" Name="BoltRoot" ID="129" Dimension="0.090380, 0.260417" IsPassive="T" Tint="255, 255, 255, 0">
+                        <Element TextureFilename="Bolt01.png" Type="2" Name="Bolt" ID="130" Anchor="0.013541, 0.189062" Dimension="0.018750, 0.028125" IsPassive="T" PixelFormat="2" />
+                        <Element TextureFilename="Bolt01.png" Type="2" Name="Bolt" ID="131" Anchor="0.013541, -0.190625" Dimension="0.018750, 0.028125" IsPassive="T" PixelFormat="2" />
+                    </Element>
+                    <Element TextureFilename="Vents01.png" Type="2" Name="LeftVents" ID="132" Anchor="0.000000, -0.087500" Dimension="0.048958, 0.175000" IsPassive="T" PixelFormat="2" />
+                </Element>
+                <Element TextureFilename="Trans.png" Type="2" Name="Left" ID="133" Anchor="0.484375, 0.017188" Dimension="0.065625, 0.500522" IsPassive="T" Tint="255, 255, 255, 0" Margin="7">
+                    <Element TextureFilename="Vents01.png" Type="2" Name="LeftVents" ID="134" Anchor="0.000000, 0.087500" Dimension="0.048958, 0.175000" IsPassive="T" PixelFormat="2" />
+                    <Element Type="2" Name="BoltRoot" ID="135" Dimension="0.090380, 0.260417" IsPassive="T" Tint="255, 255, 255, 0">
+                        <Element TextureFilename="Bolt01.png" Type="2" Name="Bolt" ID="136" Anchor="-0.013541, 0.189062" Dimension="0.018750, 0.028125" IsPassive="T" PixelFormat="2" />
+                        <Element TextureFilename="Bolt01.png" Type="2" Name="Bolt" ID="137" Anchor="-0.013541, -0.190625" Dimension="0.018750, 0.028125" IsPassive="T" PixelFormat="2" />
+                    </Element>
+                    <Element TextureFilename="Vents01.png" Type="2" Name="LeftVents" ID="138" Anchor="0.000000, -0.087500" Dimension="0.048958, 0.175000" IsPassive="T" PixelFormat="2" />
+                </Element>
+            </Element>
+        </Element>
+        <Element TextureFilename="Victory_Screen.png" Type="2" Name="VictoryBackground" ID="2" Anchor="0.500000, 0.506249" Dimension="0.560111, 0.784375" IsPassive="T" Tint="255, 255, 255, 0" PixelFormat="2" Dithered="T" SetChildrenAlpha="T">
+            <Animations>
+                <Animation Name="OnLoad">
+                    <Track ID="17" Type="5">
+                        <TrackKey ID="0" Time="0.334375" />
+                        <TrackKey ID="1" Time="0.746875" Value="255" />
+                    </Track>
+                </Animation>
+                <Animation Name="CloseForm">
+                    <Track ID="25" Type="5">
+                        <TrackKey ID="0" Time="0.18125" Value="255" />
+                        <TrackKey ID="1" Time="0.6125" />
+                    </Track>
+                </Animation>
+                <Animation Name="TallyButton">
+                    <Track ID="35" Type="5">
+                        <TrackKey ID="0" Time="0.071875" Value="255" />
+                        <TrackKey ID="1" Time="0.25625" />
+                    </Track>
+                </Animation>
+            </Animations>
+            <Element Type="7" Name="StarGlow" ID="109" Anchor="-0.003125, -0.035937" Dimension="2.589583, 2.589586" Rotation="0.598381" IsPassive="T" Tint="255, 255, 255, 0" Filename="UI_MainMenu2Glow.fx">
+                <Animations>
+                    <Animation Name="OnLoad">
+                        <Track ID="29" Type="8">
+                            <TrackKey ID="0" Time="0" Value="1" />
+                            <TrackKey ID="1" Time="0.325" />
+                        </Track>
+                    </Animation>
+                    <Animation Name="CloseForm">
+                        <Track ID="39" Type="8">
+                            <TrackKey ID="0" Time="0" Value="1" />
+                        </Track>
+                    </Animation>
+                    <Animation Name="TallyButton">
+                        <Track ID="37" Type="8">
+                            <TrackKey ID="0" Time="0.24375" Value="3" />
+                        </Track>
+                    </Animation>
+                </Animations>
+            </Element>
+            <Element Type="7" Name="FireRight" ID="110" Anchor="0.186458, -0.068751" Dimension="0.837500, 0.837502" Rotation="-0.643487" IsPassive="T" Tint="255, 255, 255, 0" Filename="Victory_Flames.fx">
+                <Animations>
+                    <Animation Name="OnLoad">
+                        <Track ID="29" Type="8">
+                            <TrackKey ID="0" Time="0" Value="1" />
+                            <TrackKey ID="1" Time="0.325" />
+                        </Track>
+                    </Animation>
+                    <Animation Name="CloseForm">
+                        <Track ID="39" Type="8">
+                            <TrackKey ID="0" Time="0" Value="1" />
+                        </Track>
+                    </Animation>
+                    <Animation Name="TallyButton">
+                        <Track ID="37" Type="8">
+                            <TrackKey ID="0" Time="0.24375" Value="3" />
+                        </Track>
+                    </Animation>
+                </Animations>
+            </Element>
+            <Element Type="7" Name="FireLeft" ID="111" Anchor="-0.194792, -0.064063" Dimension="0.864583, 0.864585" Rotation="0.643487" IsPassive="T" Tint="255, 255, 255, 0" Filename="Victory_Flames.fx">
+                <Animations>
+                    <Animation Name="OnLoad">
+                        <Track ID="29" Type="8">
+                            <TrackKey ID="0" Time="0" Value="1" />
+                            <TrackKey ID="1" Time="0.325" />
+                        </Track>
+                    </Animation>
+                    <Animation Name="CloseForm">
+                        <Track ID="39" Type="8">
+                            <TrackKey ID="0" Time="0" Value="1" />
+                        </Track>
+                    </Animation>
+                    <Animation Name="TallyButton">
+                        <Track ID="37" Type="8">
+                            <TrackKey ID="0" Time="0.24375" Value="3" />
+                        </Track>
+                    </Animation>
+                </Animations>
+            </Element>
+            <Element Type="7" Name="LightningSpark" ID="112" Anchor="-0.007292, 0.239063" Dimension="0.577084, 0.577083" Rotation="0.000488281" IsPassive="T" Tint="255, 255, 255, 0" Filename="Tower_Status_Medium_Powered.fx">
+                <Animations>
+                    <Animation Name="OnLoad">
+                        <Track ID="29" Type="8">
+                            <TrackKey ID="0" Time="0" Value="1" />
+                            <TrackKey ID="1" Time="0.325" />
+                        </Track>
+                    </Animation>
+                    <Animation Name="CloseForm">
+                        <Track ID="39" Type="8">
+                            <TrackKey ID="0" Time="0" Value="1" />
+                        </Track>
+                    </Animation>
+                    <Animation Name="TallyButton">
+                        <Track ID="37" Type="8">
+                            <TrackKey ID="0" Time="0.24375" Value="3" />
+                        </Track>
+                    </Animation>
+                </Animations>
+            </Element>
+            <Element Type="7" Name="FlameBurner" ID="113" Anchor="0.181250, -0.112500" Dimension="0.854167, 0.854168" Rotation="-0.628782" IsPassive="T" Tint="255, 255, 255, 0" Filename="Victory_Flames1.fx">
+                <Animations>
+                    <Animation Name="OnLoad">
+                        <Track ID="29" Type="8">
+                            <TrackKey ID="0" Time="0" Value="1" />
+                            <TrackKey ID="1" Time="0.325" />
+                        </Track>
+                    </Animation>
+                    <Animation Name="CloseForm">
+                        <Track ID="39" Type="8">
+                            <TrackKey ID="0" Time="0" Value="1" />
+                        </Track>
+                    </Animation>
+                    <Animation Name="TallyButton">
+                        <Track ID="37" Type="8">
+                            <TrackKey ID="0" Time="0.24375" Value="3" />
+                        </Track>
+                    </Animation>
+                </Animations>
+            </Element>
+            <Element Type="7" Name="LightningGlow" ID="114" Anchor="-0.151042, -0.273438" Dimension="0.135417, 0.135417" Rotation="-0.602273" IsPassive="T" Tint="255, 255, 255, 0" Filename="Victory_Lighteninglow.fx">
+                <Animations>
+                    <Animation Name="OnLoad">
+                        <Track ID="29" Type="8">
+                            <TrackKey ID="0" Time="0" Value="1" />
+                            <TrackKey ID="1" Time="0.325" />
+                        </Track>
+                    </Animation>
+                    <Animation Name="CloseForm">
+                        <Track ID="39" Type="8">
+                            <TrackKey ID="0" Time="0" Value="1" />
+                        </Track>
+                    </Animation>
+                    <Animation Name="TallyButton">
+                        <Track ID="37" Type="8">
+                            <TrackKey ID="0" Time="0.24375" Value="3" />
+                        </Track>
+                    </Animation>
+                </Animations>
+            </Element>
+            <Element Type="7" Name="FlameBurner" ID="119" Anchor="-0.191667, -0.120313" Dimension="0.695833, 0.695833" Rotation="0.739673" IsPassive="T" Tint="255, 255, 255, 0" Filename="Victory_Flames1.fx">
+                <Animations>
+                    <Animation Name="OnLoad">
+                        <Track ID="29" Type="8">
+                            <TrackKey ID="0" Time="0" Value="1" />
+                            <TrackKey ID="1" Time="0.325" />
+                        </Track>
+                    </Animation>
+                    <Animation Name="CloseForm">
+                        <Track ID="39" Type="8">
+                            <TrackKey ID="0" Time="0" Value="1" />
+                        </Track>
+                    </Animation>
+                    <Animation Name="TallyButton">
+                        <Track ID="37" Type="8">
+                            <TrackKey ID="0" Time="0.24375" Value="3" />
+                        </Track>
+                    </Animation>
+                </Animations>
+            </Element>
+            <Element Type="7" Name="LightningGlow" ID="120" Anchor="0.145833, -0.276563" Dimension="0.158334, 0.158334" Rotation="0.388942" IsPassive="T" Tint="255, 255, 255, 0" Filename="Victory_Lighteninglow.fx">
+                <Animations>
+                    <Animation Name="OnLoad">
+                        <Track ID="29" Type="8">
+                            <TrackKey ID="0" Time="0" Value="1" />
+                            <TrackKey ID="1" Time="0.325" />
+                        </Track>
+                    </Animation>
+                    <Animation Name="CloseForm">
+                        <Track ID="39" Type="8">
+                            <TrackKey ID="0" Time="0" Value="1" />
+                        </Track>
+                    </Animation>
+                    <Animation Name="TallyButton">
+                        <Track ID="37" Type="8">
+                            <TrackKey ID="0" Time="0.24375" Value="3" />
+                        </Track>
+                    </Animation>
+                </Animations>
+            </Element>
+            <Element Type="7" Name="LightningGlow" ID="121" Anchor="-0.010417, 0.237500" Dimension="0.206250, 0.206250" Rotation="0.0226318" IsPassive="T" Tint="255, 255, 255, 0" Filename="Victory_Lighteninglow.fx">
+                <Animations>
+                    <Animation Name="OnLoad">
+                        <Track ID="29" Type="8">
+                            <TrackKey ID="0" Time="0" Value="1" />
+                            <TrackKey ID="1" Time="0.325" />
+                        </Track>
+                    </Animation>
+                    <Animation Name="CloseForm">
+                        <Track ID="39" Type="8">
+                            <TrackKey ID="0" Time="0" Value="1" />
+                        </Track>
+                    </Animation>
+                    <Animation Name="TallyButton">
+                        <Track ID="37" Type="8">
+                            <TrackKey ID="0" Time="0.24375" Value="3" />
+                        </Track>
+                    </Animation>
+                </Animations>
+            </Element>
+            <Element Type="7" Name="Flame Glow" ID="122" Anchor="-0.264583, 0.017188" Dimension="0.268907, 0.610417" Rotation="0.901149" IsPassive="T" Tint="255, 255, 255, 0" Filename="UI_Title_Flame.fx">
+                <Animations>
+                    <Animation Name="OnLoad">
+                        <Track ID="29" Type="8">
+                            <TrackKey ID="0" Time="0" Value="1" />
+                            <TrackKey ID="1" Time="0.325" />
+                        </Track>
+                    </Animation>
+                    <Animation Name="CloseForm">
+                        <Track ID="39" Type="8">
+                            <TrackKey ID="0" Time="0" Value="1" />
+                        </Track>
+                    </Animation>
+                    <Animation Name="TallyButton">
+                        <Track ID="37" Type="8">
+                            <TrackKey ID="0" Time="0.24375" Value="3" />
+                        </Track>
+                    </Animation>
+                </Animations>
+            </Element>
+            <Element Type="7" Name="Flame Glow" ID="123" Anchor="0.254167, 0.004688" Dimension="0.268907, 0.610417" Rotation="-0.794241" IsPassive="T" Tint="255, 255, 255, 0" Filename="UI_Title_Flame.fx">
+                <Animations>
+                    <Animation Name="OnLoad">
+                        <Track ID="29" Type="8">
+                            <TrackKey ID="0" Time="0" Value="1" />
+                            <TrackKey ID="1" Time="0.325" />
+                        </Track>
+                    </Animation>
+                    <Animation Name="CloseForm">
+                        <Track ID="39" Type="8">
+                            <TrackKey ID="0" Time="0" Value="1" />
+                        </Track>
+                    </Animation>
+                    <Animation Name="TallyButton">
+                        <Track ID="37" Type="8">
+                            <TrackKey ID="0" Time="0.24375" Value="3" />
+                        </Track>
+                    </Animation>
+                </Animations>
+            </Element>
+        </Element>
+        <Element TextureFilename="Defeat_screen.jpg" Type="2" Name="DefeatBackground" ID="108" Anchor="0.500000, 0.534375" Dimension="0.533333, 0.789063" Visible="F" IsPassive="T" Tint="255, 255, 255, 0" PixelFormat="2" Dithered="T" SetChildrenAlpha="T">
+            <Animations>
+                <Animation Name="OnLoad">
+                    <Track ID="17" Type="5">
+                        <TrackKey ID="0" Time="0.334375" />
+                        <TrackKey ID="1" Time="0.746875" Value="255" />
+                    </Track>
+                </Animation>
+                <Animation Name="CloseForm">
+                    <Track ID="25" Type="5">
+                        <TrackKey ID="0" Time="0.18125" Value="255" />
+                        <TrackKey ID="1" Time="0.6125" />
+                    </Track>
+                </Animation>
+                <Animation Name="TallyButton">
+                    <Track ID="35" Type="5">
+                        <TrackKey ID="0" Time="0.071875" Value="255" />
+                        <TrackKey ID="1" Time="0.25625" />
+                    </Track>
+                </Animation>
+            </Animations>
+            <Element TextureFilename="Defeat_screen_glow.png" Type="2" Name="DefeatGlow" ID="115" Dimension="0.906250, 0.900000" IsPassive="T" Tint="255, 255, 255, 0" BlendState="5" />
+            <Element Type="7" Name="Headlamps" ID="118" Anchor="0.197917, -0.134375" Dimension="0.607477, 0.270833" Rotation="-0.185351" Tint="255, 255, 255, 0" Filename="UI_Title_Flame.fx">
+                <Animations>
+                    <Animation Name="OnLoad">
+                        <Track ID="46" Type="8">
+                            <TrackKey ID="0" Time="0.134375" Value="1" />
+                            <TrackKey ID="1" Time="0.50625" />
+                        </Track>
+                    </Animation>
+                    <Animation Name="CloseForm">
+                        <Track ID="48" Type="8">
+                            <TrackKey ID="0" Time="0" Value="1" />
+                        </Track>
+                    </Animation>
+                </Animations>
+            </Element>
+            <Element Type="7" Name="Headlamps" ID="124" Anchor="-0.219792, -0.156250" Dimension="0.607477, 0.270833" Rotation="0.266238" Tint="255, 255, 255, 0" Filename="UI_Title_Flame.fx">
+                <Animations>
+                    <Animation Name="OnLoad">
+                        <Track ID="46" Type="8">
+                            <TrackKey ID="0" Time="0.134375" Value="1" />
+                            <TrackKey ID="1" Time="0.50625" />
+                        </Track>
+                    </Animation>
+                    <Animation Name="CloseForm">
+                        <Track ID="49" Type="8">
+                            <TrackKey ID="0" Time="0" Value="1" />
+                        </Track>
+                    </Animation>
+                </Animations>
+            </Element>
+            <Element Type="7" Name="Dust" ID="125" Anchor="0.165625, -0.115625" Dimension="0.143942, 0.247916" Rotation="0.291434" Tint="255, 255, 255, 0" Filename="Defeat_Sparks.fx">
+                <Animations>
+                    <Animation Name="OnLoad">
+                        <Track ID="46" Type="8">
+                            <TrackKey ID="0" Time="0.134375" Value="1" />
+                            <TrackKey ID="1" Time="0.50625" />
+                        </Track>
+                    </Animation>
+                    <Animation Name="CloseForm">
+                        <Track ID="50" Type="8">
+                            <TrackKey ID="0" Time="0" Value="1" />
+                        </Track>
+                    </Animation>
+                </Animations>
+            </Element>
+            <Element Type="7" Name="Dust" ID="126" Anchor="-0.178125, -0.125000" Dimension="0.143942, 0.247916" Rotation="-0.348763" Tint="255, 255, 255, 0" Filename="Defeat_Sparks.fx">
+                <Animations>
+                    <Animation Name="OnLoad">
+                        <Track ID="46" Type="8">
+                            <TrackKey ID="0" Time="0.134375" Value="1" />
+                            <TrackKey ID="1" Time="0.50625" />
+                        </Track>
+                    </Animation>
+                    <Animation Name="CloseForm">
+                        <Track ID="51" Type="8">
+                            <TrackKey ID="0" Time="0" Value="1" />
+                        </Track>
+                    </Animation>
+                </Animations>
+            </Element>
+        </Element>
+        <Element Type="2" Name="TallyButtonGroup" ID="72" Anchor="0.775000, -0.067187" Dimension="0.314583, 0.139583" IsPassive="T" Tint="255, 255, 255, 0">
+            <Animations>
+                <Animation Name="OnLoad">
+                    <Track ID="21" Type="1">
+                        <TrackKey ID="0" Time="2.25" Value="0.775000, -0.067187" />
+                        <TrackKey ID="1" Time="2.5" Value="0.775000, 0.090625" />
+                    </Track>
+                    <Track ID="42" Type="9">
+                        <TrackKey ID="0" Time="2.25" Value="playsound UI/Menu/Shell_Up" />
+                    </Track>
+                </Animation>
+                <Animation Name="CloseForm">
+                    <Track ID="23" Type="1">
+                        <TrackKey ID="0" Time="0.009375" Value="0.775000, 0.090625" />
+                        <TrackKey ID="1" Time="0.24375" Value="0.775000, -0.070312" />
+                    </Track>
+                </Animation>
+                <Animation Name="TallyButton">
+                    <Track ID="33" Type="1">
+                        <TrackKey ID="0" Time="0" Value="0.775000, 0.090625" />
+                        <TrackKey ID="1" Time="0.246875" Value="0.775000, -0.070313" />
+                    </Track>
+                </Animation>
+            </Animations>
+            <Element TextureFilename="Joint01A.png" Type="2" Name="Joint" ID="85" Anchor="0.000000, -0.084375" Dimension="0.060417, 0.100000" Rotation="1.5708" IsPassive="T" />
+            <Element TextureFilename="OptionsButtonShadow.png" Type="2" Name="Shadow" ID="84" Anchor="0.005208, -0.035937" Dimension="0.297917, 0.153125" IsPassive="T" BlendState="3" />
+            <Element TextureFilename="Joint02.png" Type="2" Name="RightLamp" ID="80" Anchor="0.119792, 0.000000" Dimension="0.025000, 0.090625" IsPassive="T" Tint="255, 255, 255, 0">
+                <Element TextureFilename="Joint02.png" Type="2" Name="Joint" ID="82" Dimension="0.025000, 0.090625" IsPassive="T" MirrorMode="1" />
+            </Element>
+            <Element TextureFilename="Joint02.png" Type="2" Name="LeftLamps" ID="76" Anchor="-0.119792, 0.000000" Dimension="0.025000, 0.090625" IsPassive="T" Tint="255, 255, 255, 0">
+                <Element TextureFilename="Joint02.png" Type="2" Name="Joint" ID="77" Dimension="0.025000, 0.090625" IsPassive="T" />
+            </Element>
+            <Element PressedTextureFilename="Button08_Pressed.png" HighlightedTextureFilename="Button07_Glow.png" TextureFilename="Button08.png" Type="3" Name="TallyButton" ID="73" Dimension="0.234375, 0.134375" HorizontalScale="1.07111" VerticalScale="1.2093">
+                <Animations>
+                    <Animation Name="TallyButton">
+                        <Track ID="5" Type="9">
+                            <TrackKey ID="0" Time="0.646875" Value="popform | pushform Tally.form" />
+                        </Track>
+                    </Animation>
+                </Animations>
+                <SoundMapRoot>
+                    <SoundEvent EventTrigger="Touches Began (UI Only)" SoundEventFullPath="UI/Menu/Button_Press_Down" />
+                </SoundMapRoot>
+                <Element Text="$(TallyGoTallyText)" TextScale="0.8" Type="1" Name="EndlessLabel" ID="74" Anchor="0.000000, -0.003125" Dimension="0.222978, 0.063570" IsPassive="T" Tracking="-7" Leading="47" TranslateOnce="T" Font="StencilYellow10.asc" />
+            </Element>
+        </Element>
+        <Element Type="2" Name="EndlessButtonGroup" ID="89" Anchor="0.230208, -0.078125" Dimension="0.314583, 0.139583" IsPassive="T" Tint="255, 255, 255, 0">
+            <Animations>
+                <Animation Name="OnLoad">
+                    <Track ID="20" Type="1">
+                        <TrackKey ID="0" Time="2" Value="0.230208, -0.078125" />
+                        <TrackKey ID="1" Time="2.25312" Value="0.230208, 0.090625" />
+                    </Track>
+                    <Track ID="41" Type="9">
+                        <TrackKey ID="0" Time="2" Value="playsound UI/Menu/Shell_Up" />
+                    </Track>
+                </Animation>
+                <Animation Name="CloseForm">
+                    <Track ID="22" Type="1">
+                        <TrackKey ID="0" Time="0" Value="0.230208, 0.090625" />
+                        <TrackKey ID="1" Time="0.240625" Value="0.230208, -0.071875" />
+                    </Track>
+                </Animation>
+                <Animation Name="TallyButton">
+                    <Track ID="34" Type="1">
+                        <TrackKey ID="0" Time="0.103125" Value="0.230208, 0.090625" />
+                        <TrackKey ID="1" Time="0.3125" Value="0.230208, -0.078125" />
+                    </Track>
+                </Animation>
+            </Animations>
+            <Element TextureFilename="Joint01A.png" Type="2" Name="Joint" ID="90" Anchor="0.000000, -0.084375" Dimension="0.060417, 0.100000" Rotation="1.5708" IsPassive="T" />
+            <Element TextureFilename="OptionsButtonShadow.png" Type="2" Name="Shadow" ID="91" Anchor="0.009375, -0.034374" Dimension="0.291667, 0.153125" IsPassive="T" BlendState="3" />
+            <Element TextureFilename="Joint02.png" Type="2" Name="RightLamp" ID="92" Anchor="0.119792, 0.000000" Dimension="0.025000, 0.090625" IsPassive="T" Tint="255, 255, 255, 0">
+                <Element TextureFilename="Joint02.png" Type="2" Name="Joint" ID="94" Dimension="0.025000, 0.090625" IsPassive="T" MirrorMode="1" />
+            </Element>
+            <Element TextureFilename="Joint02.png" Type="2" Name="LeftLamps" ID="95" Anchor="-0.119792, 0.000000" Dimension="0.025000, 0.090625" IsPassive="T" Tint="255, 255, 255, 0">
+                <Element TextureFilename="Joint02.png" Type="2" Name="Joint" ID="97" Dimension="0.025000, 0.090625" IsPassive="T" />
+            </Element>
+            <Element PressedTextureFilename="Button08_Pressed.png" HighlightedTextureFilename="Button07_Glow.png" TextureFilename="Button08.png" Type="3" Name="EndlessButton" ID="98" Dimension="0.234375, 0.134375" HorizontalScale="1.07111" VerticalScale="1.2093">
+                <Animations>
+                    <Animation Name="EndlessButton">
+                        <Track ID="13" Type="9">
+                            <TrackKey ID="0" Time="0" Value="pausemusic off | gametouches on | startEndless | popForm" />
+                        </Track>
+                    </Animation>
+                    <Animation Name="CloseForm">
+                        <Track ID="32" Type="9">
+                            <TrackKey ID="0" Time="0.690625" Value="pausemusic off | gametouches on | startEndless | popForm" />
+                        </Track>
+                    </Animation>
+                </Animations>
+                <SoundMapRoot>
+                    <SoundEvent EventTrigger="Touches Began (UI Only)" SoundEventFullPath="UI/Menu/Button_Press_Down" />
+                </SoundMapRoot>
+                <Element Text="$(EndlessText)" TextScale="0.8" Type="1" Name="EndlessLabel" ID="99" Anchor="0.000000, -0.003125" Dimension="0.222978, 0.063570" IsPassive="T" Tracking="-7" Leading="47" TranslateOnce="T" Font="StencilYellow10.asc" />
+            </Element>
+        </Element>
+    </FormRoot>
+    <AnimationTriggers>
+        <AnimationTrigger Event="Form Activated (UI Only)" Data="1073741824" Animation="OnLoad" />
+        <AnimationTrigger Event="Touch Clicked (UI Only)" Data="73" Animation="TallyButton" />
+        <AnimationTrigger Event="Touch Clicked (UI Only)" Data="98" Animation="CloseForm" />
+    </AnimationTriggers>
+</Form>

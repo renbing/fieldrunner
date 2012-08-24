@@ -1,0 +1,1923 @@
+<!--Copyright 2012 Subatomic Studios, LLC. All rights reserved.-->
+<Form Name="" BasePlatform="2" Version="77" FormType="2" ClassType="2">
+    <FormRoot Name="Element">
+        <Element TextureFilename="Trans.png" Type="2" Name="MoneyPanel" ID="1" Anchor="0.082292, 0.937500" Dimension="0.151652, 0.140625" IsPassive="T" Margin="8" SetChildrenAlpha="T">
+            <Animations>
+                <Animation Name="PlayDefeat">
+                    <Track ID="3" Type="5">
+                        <TrackKey ID="0" Time="0" />
+                        <TrackKey ID="1" Time="0.240625" Value="255" />
+                    </Track>
+                    <Track ID="4" Type="9">
+                        <TrackKey ID="0" Time="0" Value="pausemusic on 500" />
+                        <TrackKey ID="1" Time="2.50312" Value="pushform VictoryNotification.form" />
+                    </Track>
+                </Animation>
+                <Animation Name="PlayVictory">
+                    <Track ID="1" Type="5">
+                        <TrackKey ID="0" Time="0" />
+                        <TrackKey ID="1" Time="0.24375" Value="255" />
+                    </Track>
+                    <Track ID="2" Type="9">
+                        <TrackKey ID="0" Time="0" Value="pausemusic on 500" />
+                        <TrackKey ID="1" Time="2.50312" Value="hideelement Victory | pushform Tally.form" />
+                    </Track>
+                </Animation>
+                <Animation Name="PlayVictoryTutorial">
+                    <Track ID="0" Type="5">
+                        <TrackKey ID="0" Time="0" />
+                        <TrackKey ID="1" Time="0.24375" Value="255" />
+                    </Track>
+                    <Track ID="1" Type="9">
+                        <TrackKey ID="0" Time="2.00312" Value="hideelement Victory | pushform Tutorial2Outro.form" />
+                    </Track>
+                </Animation>
+                <Animation Name="DeselectWeapon">
+                    <Track ID="14" Type="5">
+                        <TrackKey ID="0" Time="0" />
+                        <TrackKey ID="1" Time="0.25" Value="255" />
+                    </Track>
+                </Animation>
+                <Animation Name="Tutorial2ShowGatling">
+                    <Track ID="108" Type="5" />
+                </Animation>
+                <Animation Name="SelectWeapon">
+                    <Track ID="10" Type="5">
+                        <TrackKey ID="0" Time="0" Value="255" />
+                        <TrackKey ID="1" Time="0.25" />
+                    </Track>
+                </Animation>
+                <Animation Name="SelectWeaponTop">
+                    <Track ID="10" Type="5">
+                        <TrackKey ID="0" Time="0" Value="255" />
+                        <TrackKey ID="1" Time="0.25" />
+                    </Track>
+                </Animation>
+                <Animation Name="DeselectWeaponTop">
+                    <Track ID="14" Type="5">
+                        <TrackKey ID="0" Time="0" />
+                        <TrackKey ID="1" Time="0.25" Value="255" />
+                    </Track>
+                </Animation>
+                <Animation Name="PlayVictoryConfirmation">
+                    <Track ID="47" Type="9">
+                        <TrackKey ID="0" Time="0" Value="pushform VictoryNotification.form" />
+                    </Track>
+                </Animation>
+            </Animations>
+            <Element Text="$(Player1Money)" TextScale="0.7" Type="1" Name="15" ID="2" Anchor="0.063542, 0.004688" Dimension="0.154472, 0.048958" IsPassive="T" Alignment="0" Tracking="-7" Leading="40" Font="ImpactYellow06.asc" />
+            <Element TextureFilename="HUD_Dollar.png" Type="2" Name="MoneyIcon" ID="3" Anchor="-0.042708, 0.000000" Dimension="0.090278, 0.135417" IsPassive="T" PixelFormat="2" Dithered="T" />
+        </Element>
+        <Element PressedTextureFilename="Button_Options_Activated.png" HighlightedTextureFilename="Button_Glow.png" TextureFilename="Button_Options.png" Type="3" Name="OptionsButton" ID="5" Anchor="0.256251, 0.937500" Dimension="0.091667, 0.137500" Expansion="0.359000, 0.385000" PixelFormat="2" Dithered="T" HorizontalScale="0.5" VerticalScale="0.5">
+            <Animations>
+                <Animation Name="DeselectWeapon">
+                    <Track ID="5" Type="5">
+                        <TrackKey ID="0" Time="0" />
+                        <TrackKey ID="1" Time="0.25" Value="255" />
+                    </Track>
+                </Animation>
+                <Animation Name="Tutorial2ShowGatling">
+                    <Track ID="109" Type="5" />
+                </Animation>
+                <Animation Name="SelectWeapon">
+                    <Track ID="0" Type="5">
+                        <TrackKey ID="0" Time="0" Value="255" />
+                        <TrackKey ID="1" Time="0.25" />
+                    </Track>
+                </Animation>
+                <Animation Name="OptionsTrigger">
+                    <Track ID="8" Type="9">
+                        <TrackKey ID="0" Time="0" Value="pause on | togglehud | gametouches off | pushform Pause.form" />
+                    </Track>
+                </Animation>
+                <Animation Name="SelectWeaponTop">
+                    <Track ID="7" Type="5">
+                        <TrackKey ID="0" Time="0" Value="255" />
+                        <TrackKey ID="1" Time="0.25" />
+                    </Track>
+                </Animation>
+                <Animation Name="DeselectWeaponTop">
+                    <Track ID="6" Type="5">
+                        <TrackKey ID="0" Time="0" />
+                        <TrackKey ID="1" Time="0.25" Value="255" />
+                    </Track>
+                </Animation>
+            </Animations>
+            <SoundMapRoot>
+                <SoundEvent EventTrigger="Touches Began (UI Only)" SoundEventFullPath="UI/In_Game/Pause_Game" />
+            </SoundMapRoot>
+            <Element TextureFilename="Button_Options_Activated.png" Type="2" Name="OptionsActivated" ID="520" Dimension="0.067708, 0.101563" Visible="F" IsPassive="T" PixelFormat="2">
+                <Animations>
+                    <Animation Name="OptionsActivatedIn">
+                        <Track ID="16" Type="5">
+                            <TrackKey ID="0" Time="0" />
+                            <TrackKey ID="1" Time="0.165625" Value="255" />
+                        </Track>
+                        <Track ID="17" Type="3">
+                            <TrackKey ID="0" Time="0" Value="0.067708, 0.101563" />
+                            <TrackKey ID="1" Time="0.18125" Value="0.067708, 0.101563" />
+                        </Track>
+                    </Animation>
+                    <Animation Name="OptionsActivatedOut">
+                        <Track ID="14" Type="3">
+                            <TrackKey ID="0" Time="0" Value="0.075000, 0.112500" />
+                            <TrackKey ID="1" Time="0.175" Value="0.067708, 0.101563" />
+                        </Track>
+                        <Track ID="15" Type="5">
+                            <TrackKey ID="0" Time="0" Value="255" />
+                            <TrackKey ID="1" Time="0.171875" />
+                        </Track>
+                    </Animation>
+                </Animations>
+            </Element>
+        </Element>
+        <Element PressedTextureFilename="Button_Fastforward_Activated.png" HighlightedTextureFilename="Button_Glow.png" TextureFilename="Button_FastForward.png" Type="3" Name="FastForward2xButton" ID="10" Anchor="0.203125, 0.093750" Dimension="0.102778, 0.154167" Expansion="0.282000, 0.282000" Margin="6" PixelFormat="2" Dithered="T" HorizontalScale="0.5" VerticalScale="0.5">
+            <Animations>
+                <Animation Name="DeselectWeaponBottom">
+                    <Track ID="217" Type="5">
+                        <TrackKey ID="0" Time="0" />
+                        <TrackKey ID="1" Time="0.25" Value="255" />
+                    </Track>
+                </Animation>
+                <Animation Name="DeselectWeapon">
+                    <Track ID="4" Type="5">
+                        <TrackKey ID="0" Time="0" />
+                        <TrackKey ID="1" Time="0.25" Value="255" />
+                    </Track>
+                </Animation>
+                <Animation Name="SelectWeaponBottom">
+                    <Track ID="218" Type="5">
+                        <TrackKey ID="0" Time="0" Value="255" />
+                        <TrackKey ID="1" Time="0.25" />
+                    </Track>
+                </Animation>
+                <Animation Name="SelectWeapon">
+                    <Track ID="2" Type="5">
+                        <TrackKey ID="0" Time="0" Value="255" />
+                        <TrackKey ID="1" Time="0.25" />
+                    </Track>
+                </Animation>
+            </Animations>
+            <SoundMapRoot>
+                <SoundEvent EventTrigger="Touches Began (UI Only)" SoundEventFullPath="UI/In_Game/Pause_Game" />
+            </SoundMapRoot>
+        </Element>
+        <Element PressedTextureFilename="Button_FastForward.jpg" HighlightedTextureFilename="Button_Glow.jpg" TextureFilename="Button_Fastforward_Activated.png" Type="3" Name="FastForward2xButtonActive" ID="13" Anchor="0.203125, 0.093750" Dimension="0.102708, 0.154062" Visible="F" IsPassive="T" Expansion="0.333000, 0.359000" Margin="6" PixelFormat="2" Dithered="T" HorizontalScale="0.5" VerticalScale="0.5">
+            <Animations>
+                <Animation Name="DeselectWeaponBottom">
+                    <Track ID="233" Type="5">
+                        <TrackKey ID="0" Time="0" />
+                        <TrackKey ID="1" Time="0.25" Value="255" />
+                    </Track>
+                </Animation>
+                <Animation Name="DeselectWeapon">
+                    <Track ID="17" Type="5">
+                        <TrackKey ID="0" Time="0" />
+                        <TrackKey ID="1" Time="0.25" Value="255" />
+                    </Track>
+                </Animation>
+                <Animation Name="SelectWeaponBottom">
+                    <Track ID="234" Type="5">
+                        <TrackKey ID="0" Time="0" Value="255" />
+                        <TrackKey ID="1" Time="0.25" />
+                    </Track>
+                </Animation>
+                <Animation Name="SelectWeapon">
+                    <Track ID="2" Type="5">
+                        <TrackKey ID="0" Time="0" Value="255" />
+                        <TrackKey ID="1" Time="0.25" />
+                    </Track>
+                </Animation>
+                <Animation Name="SelectWeaponTop">
+                    <Track ID="22" Type="5">
+                        <TrackKey ID="0" Time="0" Value="255" />
+                        <TrackKey ID="1" Time="0.25" />
+                    </Track>
+                </Animation>
+                <Animation Name="DeselectWeaponTop">
+                    <Track ID="71" Type="5">
+                        <TrackKey ID="0" Time="0" />
+                        <TrackKey ID="1" Time="0.25" Value="255" />
+                    </Track>
+                </Animation>
+                <Animation Name="FFWFadeIn">
+                    <Track ID="10" Type="5">
+                        <TrackKey ID="0" Time="0" />
+                        <TrackKey ID="1" Time="0.128125" Value="255" />
+                    </Track>
+                    <Track ID="4" Type="9">
+                        <TrackKey ID="0" Time="0" Value="showelement FastForward2xButtonActive" />
+                    </Track>
+                </Animation>
+                <Animation Name="FFWFadeOut">
+                    <Track ID="13" Type="5">
+                        <TrackKey ID="0" Time="0" Value="255" />
+                        <TrackKey ID="1" Time="0.2375" />
+                    </Track>
+                    <Track ID="5" Type="9">
+                        <TrackKey ID="0" Time="0.2375" Value="hideelement FastForward2xButtonActive" />
+                    </Track>
+                </Animation>
+            </Animations>
+            <SoundMapRoot>
+                <SoundEvent EventTrigger="Touches Began (UI Only)" SoundEventFullPath="UI/In_Game/Pause_Game" />
+            </SoundMapRoot>
+        </Element>
+        <Element Type="7" Name="RewindClock" ID="510" Anchor="0.500000, 0.500000" Dimension="0.700000, 0.700000" IsPassive="T" Filename="Item_Rewind.fx">
+            <Animations>
+                <Animation Name="ShowRewindClock">
+                    <Track ID="202" Type="8">
+                        <TrackKey ID="0" Time="0" />
+                        <TrackKey ID="1" Time="0.109375" Value="1" />
+                    </Track>
+                </Animation>
+            </Animations>
+        </Element>
+        <Element TextureFilename="Icon_TimeTrial.png" Type="2" Name="ClockBackground" ID="15" Anchor="0.944792, 0.951563" Dimension="0.059722, 0.089583" Visible="F" IsPassive="T" Margin="2" PixelFormat="2" Dithered="T" SetChildrenAlpha="T">
+            <Animations>
+                <Animation Name="SelectWeaponTop">
+                    <Track ID="263" Type="5">
+                        <TrackKey ID="0" Time="0" Value="255" />
+                        <TrackKey ID="1" Time="0.25" />
+                    </Track>
+                </Animation>
+                <Animation Name="DeselectWeaponTop">
+                    <Track ID="262" Type="5">
+                        <TrackKey ID="0" Time="0" />
+                        <TrackKey ID="1" Time="0.25" Value="255" />
+                    </Track>
+                </Animation>
+            </Animations>
+            <Element TextureFilename="Clock03.png" Type="2" Name="ClockMiddle" ID="16" Dimension="0.046875, 0.070313" IsPassive="T" Tint="0, 0, 0, 255" Dithered="T" />
+            <Element Type="12" Name="ClockCenter" ID="545" Dimension="0.059028, 0.088542" IsPassive="T" PixelFormat="2" Dithered="T" MaximumAlpha="128">
+                <Element TextureFilename="Trans.png" Type="2" Name="ClockFrame" ID="546" Dimension="0.046875, 0.070313" IsPassive="T" />
+            </Element>
+            <Element Text="$(CountdownTimer)" TextScale="0.6" Type="1" Name="CountdownTimer" ID="18" Anchor="0.000000, -0.054689" Dimension="0.354167, 0.048986" IsPassive="T" Dithered="T" Tracking="-7" Leading="40" Font="ImpactYellow06.asc">
+                <Animations>
+                    <Animation Name="TimeTrialTipTrigger">
+                        <Track ID="1" Type="9">
+                            <TrackKey ID="0" Time="0" Value="pause | pushform TimeTrialTip.form" />
+                        </Track>
+                    </Animation>
+                </Animations>
+            </Element>
+        </Element>
+        <Element TextureFilename="HUD_Heart.png" Type="2" Name="HealthIcon" ID="55" Anchor="0.950000, 0.939062" Dimension="0.093056, 0.139583" IsPassive="T" Margin="2" PixelFormat="2" Dithered="T" SetChildrenAlpha="T">
+            <Animations>
+                <Animation Name="DeselectWeapon">
+                    <Track ID="36" Type="5">
+                        <TrackKey ID="0" Time="0" />
+                        <TrackKey ID="1" Time="0.25" Value="255" />
+                    </Track>
+                </Animation>
+                <Animation Name="Tutorial2ShowGatling">
+                    <Track ID="111" Type="5" />
+                </Animation>
+                <Animation Name="SelectWeapon">
+                    <Track ID="31" Type="5">
+                        <TrackKey ID="0" Time="0" Value="255" />
+                        <TrackKey ID="1" Time="0.25" />
+                    </Track>
+                </Animation>
+                <Animation Name="SelectWeaponTop">
+                    <Track ID="32" Type="5">
+                        <TrackKey ID="0" Time="0" Value="255" />
+                        <TrackKey ID="1" Time="0.25" />
+                    </Track>
+                </Animation>
+                <Animation Name="DeselectWeaponTop">
+                    <Track ID="33" Type="5">
+                        <TrackKey ID="0" Time="0" />
+                        <TrackKey ID="1" Time="0.25" Value="255" />
+                    </Track>
+                </Animation>
+            </Animations>
+            <Element Type="7" Name="HealthLossParticle" ID="514" Dimension="0.637500, 0.637500" IsPassive="T" Filename="Health_Loss.fx">
+                <Animations>
+                    <Animation Name="HealthLoss">
+                        <Track ID="202" Type="8">
+                            <TrackKey ID="0" Time="0" />
+                            <TrackKey ID="1" Time="0.109375" Value="1" />
+                        </Track>
+                    </Animation>
+                </Animations>
+            </Element>
+            <Element Text="$(Player1Health)" TextScale="0.7" Type="1" Name="HealthText" ID="56" Anchor="0.000000, 0.006251" Dimension="0.088304, 0.048958" IsPassive="T" Tracking="-7" Leading="40" Font="ImpactYellow06.asc" />
+        </Element>
+        <Element Text="$(WaveNumber)" TextScale="0.6" Type="1" Name="WaveNumberLabel" ID="7" Anchor="0.500000, 0.887500" Dimension="0.375000, 0.044820" Visible="F" IsPassive="T" Tracking="-10" Leading="40" Font="ImpactYellow06.asc">
+            <Animations>
+                <Animation Name="ShowWaveNumber">
+                    <Track ID="1" Type="5">
+                        <TrackKey ID="0" Time="0" />
+                        <TrackKey ID="1" Time="0.75" Value="255" />
+                    </Track>
+                </Animation>
+                <Animation Name="DeselectWeapon">
+                    <Track ID="2" Type="5">
+                        <TrackKey ID="0" Time="0" />
+                        <TrackKey ID="1" Time="0.25" Value="255" />
+                    </Track>
+                </Animation>
+                <Animation Name="SelectWeapon">
+                    <Track ID="3" Type="5">
+                        <TrackKey ID="0" Time="0" Value="255" />
+                        <TrackKey ID="1" Time="0.25" />
+                    </Track>
+                </Animation>
+                <Animation Name="SelectWeaponTop">
+                    <Track ID="4" Type="5">
+                        <TrackKey ID="0" Time="0" Value="255" />
+                        <TrackKey ID="1" Time="0.25" />
+                    </Track>
+                </Animation>
+                <Animation Name="DeselectWeaponTop">
+                    <Track ID="5" Type="5">
+                        <TrackKey ID="0" Time="0" />
+                        <TrackKey ID="1" Time="0.25" Value="255" />
+                    </Track>
+                </Animation>
+            </Animations>
+        </Element>
+        <Element TextureFilename="Trans.png" Type="3" Name="AirstrikeGroup" ID="642" Anchor="0.770833, 0.939062" Dimension="0.152154, 0.110417" Expansion="0.333000, 0.820000">
+            <Animations>
+                <Animation Name="AirstrikeStart">
+                    <Track ID="208" Type="9">
+                        <TrackKey ID="0" Time="0" Value="airstrike start" />
+                    </Track>
+                </Animation>
+                <Animation Name="SelectWeaponTop">
+                    <Track ID="214" Type="5">
+                        <TrackKey ID="0" Time="0" Value="255" />
+                        <TrackKey ID="1" Time="0.25" />
+                    </Track>
+                </Animation>
+                <Animation Name="DeselectWeaponTop">
+                    <Track ID="215" Type="5">
+                        <TrackKey ID="0" Time="0" />
+                        <TrackKey ID="1" Time="0.25" Value="255" />
+                    </Track>
+                </Animation>
+            </Animations>
+            <Element HighlightedTextureFilename="Airstrike_Activated.jpg" TextureFilename="Airstrike_Background.png" Type="3" Name="MeterBG" ID="643" Dimension="0.148958, 0.106250" IsPassive="T" Expansion="-0.026000, -0.026000" PixelFormat="2" Dithered="T">
+                <SoundMapRoot>
+                    <SoundEvent EventTrigger="Score Increased (UI Only)" SoundEventFullPath="UI/In_Game/Overdrive_Launched" />
+                </SoundMapRoot>
+                <Element TextureFilename="Airstrike_Shine.png" Type="2" Name="Shine" ID="669" Dimension="0.148958, 0.106250" IsPassive="T" PixelFormat="2" Dithered="T" />
+                <Element TextureFilename="Airstrike_Activated.jpg" Type="2" Name="MeterPressed" ID="756" Dimension="0.163125, 0.126562" Visible="F" IsPassive="T" PixelFormat="2" Dithered="T">
+                    <Animations>
+                        <Animation Name="AirstrikePressed">
+                            <Track ID="271" Type="9">
+                                <TrackKey ID="0" Time="0" Value="showelement MeterPressed" />
+                            </Track>
+                        </Animation>
+                        <Animation Name="AirstrikeDepressed">
+                            <Track ID="270" Type="9">
+                                <TrackKey ID="0" Time="0" Value="hideelement MeterPressed" />
+                            </Track>
+                        </Animation>
+                    </Animations>
+                </Element>
+            </Element>
+            <Element TextureFilename="Trans.png" ClipChildren="T" Type="2" Name="Unveiler" ID="649" Dimension="0.143750, 0.100000" IsPassive="T">
+                <Element TextureFilename="Airstrike_Fill.png" Type="2" Name="MeterFill" ID="650" Anchor="0.000521, 0.000000" Dimension="0.148958, 0.106250" IsPassive="T" Dithered="T" />
+            </Element>
+            <Element TextureFilename="Airstrike_Ready.jpg" Type="2" Name="MeterGlow" ID="648" Dimension="0.160004, 0.114584" IsPassive="T" PixelFormat="2">
+                <Animations>
+                    <Animation Name="AirstrikePullOut">
+                        <Track ID="248" Type="5">
+                            <TrackKey ID="0" Time="0" Value="130" />
+                            <TrackKey ID="1" Time="0.5" Value="255" />
+                            <TrackKey ID="2" Time="1.00312" Value="130" />
+                        </Track>
+                        <Track ID="249" Type="9">
+                            <TrackKey ID="0" Time="0" Value="showelement MeterGlow" />
+                            <TrackKey ID="1" Time="1" Value="playuianimation AirstrikePullOut" />
+                        </Track>
+                    </Animation>
+                    <Animation Name="AirstrikeFinish">
+                        <Track ID="252" Type="9">
+                            <TrackKey ID="0" Time="0" Value="hideelement MeterGlow" />
+                        </Track>
+                    </Animation>
+                </Animations>
+                <Element Text="$(AirstrikeMeterText)" TextScale="0.65" Type="1" Name="ReadyLabel" ID="714" Anchor="-0.015625, 0.006250" Dimension="0.134375, 0.040625" IsPassive="T" Tracking="-19" Leading="45" TranslateOnce="T" Font="ImpactWhite05.asc">
+                    <Animations>
+                        <Animation Name="AirstrikePullOut">
+                            <Track ID="261" Type="5">
+                                <TrackKey ID="0" Time="0" Value="130" />
+                                <TrackKey ID="1" Time="0.503125" Value="255" />
+                                <TrackKey ID="2" Time="0.99375" Value="130" />
+                            </Track>
+                        </Animation>
+                    </Animations>
+                </Element>
+            </Element>
+            <Element Text="Incoming" TextScale="1.2" Type="1" Name="IncomingLabel" ID="654" Anchor="-0.279167, -0.320313" Dimension="0.332592, 0.094820" Visible="F" IsPassive="T" Tracking="-19" Leading="45" Font="ImpactWhite05.asc" TextEffect="AlphaPulse" />
+            <Element TextureFilename="Trans.png" Type="6" Name="AirstrikeSliderDummy" ID="656" Dimension="0.147917, 0.100000" IsPassive="T" SecondsToSlide="2">
+                <Element TextureFilename="BGTint.jpg" Type="2" Name="ProgressIndicator" ID="657" Anchor="-0.069792, 0.000000" Dimension="0.008333, 0.093750" Visible="F" IsPassive="T" />
+            </Element>
+        </Element>
+        <Element Text="Bonus Round" Type="1" Name="EliteBonusWaveLabel" ID="670" Anchor="0.500000, 0.868750" Dimension="0.416667, 0.078125" Visible="F" IsPassive="T" Tint="255, 255, 255, 0" SetChildrenAlpha="T" Tracking="-7" Leading="40" TranslateOnce="T" Font="ImpactYellow06.asc">
+            <Animations>
+                <Animation Name="HideBonusWave">
+                    <Track ID="212" Type="5">
+                        <TrackKey ID="0" Time="0" Value="255" />
+                        <TrackKey ID="1" Time="0.653125" />
+                    </Track>
+                    <Track ID="223" Type="11">
+                        <TrackKey ID="0" Time="0" Value="1" />
+                        <TrackKey ID="1" Time="0.115625" Value="1.3" />
+                        <TrackKey ID="2" Time="0.91875" />
+                        <TrackKey ID="3" Time="1.15" />
+                    </Track>
+                    <Track ID="293" Type="9">
+                        <TrackKey ID="0" Time="1.15" Value="hideelement EliteBonusWaveLabel" />
+                    </Track>
+                </Animation>
+                <Animation Name="SelectWeaponTop">
+                    <Track ID="292" Type="5">
+                        <TrackKey ID="0" Time="0" Value="255" />
+                        <TrackKey ID="1" Time="0.25" />
+                    </Track>
+                </Animation>
+                <Animation Name="DeselectWeaponTop">
+                    <Track ID="291" Type="5">
+                        <TrackKey ID="0" Time="0" />
+                        <TrackKey ID="1" Time="0.25" Value="255" />
+                    </Track>
+                </Animation>
+                <Animation Name="ShowBonusWave">
+                    <Track ID="210" Type="5">
+                        <TrackKey ID="0" Time="0" />
+                        <TrackKey ID="1" Time="0.171875" Value="255" />
+                    </Track>
+                    <Track ID="211" Type="1">
+                        <TrackKey ID="0" Time="2.30847" Value="0.500000, 0.868750" />
+                    </Track>
+                    <Track ID="222" Type="11">
+                        <TrackKey ID="0" Time="0" Value="1" />
+                        <TrackKey ID="1" Time="0.184375" Value="1.3" />
+                        <TrackKey ID="2" Time="0.24375" Value="1" />
+                    </Track>
+                </Animation>
+            </Animations>
+            <Element Text="$(HeroInfo_Name)" TextScale="0.7" Type="1" Name="HeroNameLabel" ID="760" Anchor="0.000000, -0.060937" Dimension="0.688333, 0.053153" IsPassive="T" Tint="255, 0, 0, 0" Tracking="-8" Leading="47" TranslateOnce="T" Font="StencilYellow10.asc" />
+        </Element>
+        <Element Text="&#x0D;&#x0A;" TextScale="0" Type="1" Name="Score" ID="6" Anchor="0.498958, 0.951561" Dimension="0.364583, 0.069819" IsPassive="T" SetChildrenAlpha="T" Tracking="-12" Leading="34" Font="ImpactYellow06.asc">
+            <Animations>
+                <Animation Name="DeselectWeapon">
+                    <Track ID="4" Type="5">
+                        <TrackKey ID="0" Time="0" />
+                        <TrackKey ID="1" Time="0.25" Value="255" />
+                    </Track>
+                </Animation>
+                <Animation Name="Tutorial2ShowGatling">
+                    <Track ID="121" Type="5" />
+                </Animation>
+                <Animation Name="SelectWeapon">
+                    <Track ID="3" Type="5">
+                        <TrackKey ID="0" Time="0" Value="255" />
+                        <TrackKey ID="1" Time="0.25" />
+                    </Track>
+                </Animation>
+                <Animation Name="SelectWeaponTop">
+                    <Track ID="5" Type="5">
+                        <TrackKey ID="0" Time="0" Value="255" />
+                        <TrackKey ID="1" Time="0.25" />
+                    </Track>
+                </Animation>
+                <Animation Name="DeselectWeaponTop">
+                    <Track ID="6" Type="5">
+                        <TrackKey ID="0" Time="0" />
+                        <TrackKey ID="1" Time="0.25" Value="255" />
+                    </Track>
+                </Animation>
+            </Animations>
+            <Element Text="$(Score_ProfileDefault_Score)" Type="1" Name="ScoreLabel" ID="235" Dimension="0.536522, 0.076069" IsPassive="T" Tracking="-7" Leading="40" Font="ImpactYellow06.asc" />
+        </Element>
+        <Element Text="$(WaveStart)" TextScale="0.8" Type="1" Name="StartCountdown" ID="19" Anchor="0.500000, 0.871875" Dimension="0.717829, 0.071903" IsPassive="T" SetChildrenAlpha="T" Tracking="-7" Leading="40" Font="ImpactYellow06.asc">
+            <Animations>
+                <Animation Name="DeselectWeapon">
+                    <Track ID="1" Type="5">
+                        <TrackKey ID="0" Time="0" />
+                        <TrackKey ID="1" Time="0.25" Value="255" />
+                    </Track>
+                </Animation>
+                <Animation Name="SelectWeapon">
+                    <Track ID="0" Type="5">
+                        <TrackKey ID="0" Time="0" Value="255" />
+                        <TrackKey ID="1" Time="0.25" />
+                    </Track>
+                </Animation>
+                <Animation Name="SelectWeaponTop">
+                    <Track ID="10" Type="5">
+                        <TrackKey ID="0" Time="0" Value="255" />
+                        <TrackKey ID="1" Time="0.25" />
+                    </Track>
+                </Animation>
+                <Animation Name="DeselectWeaponTop">
+                    <Track ID="11" Type="5">
+                        <TrackKey ID="0" Time="0" />
+                        <TrackKey ID="1" Time="0.25" Value="255" />
+                    </Track>
+                </Animation>
+            </Animations>
+            <Element Text="$(StartCountdownTimer)" TextScale="0.9" Type="1" Name="10" ID="20" Anchor="0.000000, -0.081249" Dimension="0.376437, 0.107320" IsPassive="T" Tracking="-7" Leading="40" Font="ImpactYellow06.asc" />
+        </Element>
+        <Element TextureFilename="Trans.png" Type="2" Name="KillCounterGroup" ID="645" Anchor="0.500000, 0.876562" Dimension="0.322917, 0.089583" Visible="F" IsPassive="T">
+            <Animations>
+                <Animation Name="SelectWeaponTop">
+                    <Track ID="213" Type="5">
+                        <TrackKey ID="0" Time="0" Value="255" />
+                        <TrackKey ID="1" Time="0.25" />
+                    </Track>
+                </Animation>
+                <Animation Name="DeselectWeaponTop">
+                    <Track ID="216" Type="5">
+                        <TrackKey ID="0" Time="0" />
+                        <TrackKey ID="1" Time="0.25" Value="255" />
+                    </Track>
+                </Animation>
+            </Animations>
+            <Element TextureFilename="DeathMeter_Background.png" Type="2" Name="MeterBackground" ID="646" Dimension="0.300000, 0.071875" IsPassive="T" PixelFormat="2">
+                <Animations>
+                    <Animation Name="SelectWeaponTop">
+                        <Track ID="255" Type="5">
+                            <TrackKey ID="0" Time="0" Value="255" />
+                            <TrackKey ID="1" Time="0.25" />
+                        </Track>
+                    </Animation>
+                    <Animation Name="ShowKillMeter">
+                        <Track ID="264" Type="5">
+                            <TrackKey ID="0" Time="0" />
+                            <TrackKey ID="1" Time="0.5" Value="255" />
+                        </Track>
+                    </Animation>
+                    <Animation Name="DeselectWeaponTop">
+                        <Track ID="254" Type="5">
+                            <TrackKey ID="0" Time="0" />
+                            <TrackKey ID="1" Time="0.25" Value="255" />
+                        </Track>
+                    </Animation>
+                </Animations>
+            </Element>
+            <Element TextureFilename="Trans.png" ClipChildren="T" Type="2" Name="Unveiler" ID="652" Dimension="0.277084, 0.100000" IsPassive="T" SetChildrenAlpha="T">
+                <Animations>
+                    <Animation Name="SelectWeaponTop">
+                        <Track ID="256" Type="5">
+                            <TrackKey ID="0" Time="0" Value="255" />
+                            <TrackKey ID="1" Time="0.25" />
+                        </Track>
+                    </Animation>
+                    <Animation Name="ShowKillMeter">
+                        <Track ID="265" Type="5">
+                            <TrackKey ID="0" Time="0" />
+                            <TrackKey ID="1" Time="0.5" Value="255" />
+                        </Track>
+                    </Animation>
+                    <Animation Name="DeselectWeaponTop">
+                        <Track ID="253" Type="5">
+                            <TrackKey ID="0" Time="0" />
+                            <TrackKey ID="1" Time="0.25" Value="255" />
+                        </Track>
+                    </Animation>
+                </Animations>
+                <Element TextureFilename="DeathMeter_Fill.png" Type="2" Name="MeterFill" ID="653" Dimension="0.300000, 0.071875" IsPassive="T" />
+            </Element>
+            <Element Text="$(Score_ProfileDefault_NumKills)/$(MissionModeParameter) }" TextScale="0.7" Type="1" Name="NumKillsLabel" ID="655" Anchor="0.000000, 0.000001" Dimension="0.277083, 0.043750" IsPassive="T" Tint="6, 17, 26, 255" TextureEnvironmentMode="0" MaximumAlpha="230" Tracking="-6" Leading="35" Font="ArialWhite05.asc">
+                <Animations>
+                    <Animation Name="DeselectWeapon">
+                        <Track ID="5" Type="5">
+                            <TrackKey ID="0" Time="0" />
+                            <TrackKey ID="1" Time="0.25" Value="255" />
+                        </Track>
+                    </Animation>
+                    <Animation Name="SuddenDeathTipTrigger">
+                        <Track ID="0" Type="9">
+                            <TrackKey ID="0" Time="0" Value="pause | pushform SuddenDeathTip.form" />
+                        </Track>
+                    </Animation>
+                    <Animation Name="SelectWeapon">
+                        <Track ID="3" Type="5">
+                            <TrackKey ID="0" Time="0" Value="255" />
+                            <TrackKey ID="1" Time="0.25" />
+                        </Track>
+                    </Animation>
+                    <Animation Name="SelectWeaponTop">
+                        <Track ID="2" Type="5">
+                            <TrackKey ID="0" Time="0" Value="255" />
+                            <TrackKey ID="1" Time="0.25" />
+                        </Track>
+                    </Animation>
+                    <Animation Name="ShowKillMeter">
+                        <Track ID="246" Type="5">
+                            <TrackKey ID="0" Time="0" />
+                            <TrackKey ID="1" Time="0.49375" Value="255" />
+                        </Track>
+                    </Animation>
+                    <Animation Name="DeselectWeaponTop">
+                        <Track ID="1" Type="5">
+                            <TrackKey ID="0" Time="0" />
+                            <TrackKey ID="1" Time="0.25" Value="255" />
+                        </Track>
+                    </Animation>
+                </Animations>
+            </Element>
+            <Element TextureFilename="Trans.png" Type="6" Name="ProgressSlider" ID="658" Anchor="0.000000, -0.001563" Dimension="0.272917, 0.068750" IsPassive="T">
+                <Element TextureFilename="Trans.png" Type="2" Name="ProgressIndicator" ID="659" Anchor="-0.135937, 0.000000" Dimension="0.001042, 0.072396" IsPassive="T">
+                    <Element TextureFilename="Button_Glow.jpg" Type="2" Name="Flash" ID="711" Anchor="-0.002083, 0.000000" Dimension="0.020833, 0.100000" IsPassive="T" Tint="255, 255, 255, 0" BlendState="5" PixelFormat="2">
+                        <Animations>
+                            <Animation Name="KillMeterProgress">
+                                <Track ID="245" Type="5">
+                                    <TrackKey ID="0" Time="0" />
+                                    <TrackKey ID="1" Time="0.053125" Value="255" />
+                                    <TrackKey ID="2" Time="0.15625" />
+                                </Track>
+                            </Animation>
+                        </Animations>
+                    </Element>
+                </Element>
+            </Element>
+        </Element>
+        <Element Text="$(HeroInfo_Name) $(DefeatedText)" TextScale="0.9" Type="1" Name="HeroDefeatedLabel" ID="58" Anchor="0.500000, 0.671875" Dimension="0.781250, 0.203125" IsPassive="T" Tint="255, 0, 0, 0" Tracking="-7" Leading="47" Font="StencilYellow10.asc">
+            <Animations>
+                <Animation Name="HeroDefeated">
+                    <Track ID="1" Type="5">
+                        <TrackKey ID="0" Time="0" />
+                        <TrackKey ID="1" Time="0.10625" Value="255" />
+                        <TrackKey ID="2" Time="2.25625" Value="255" />
+                        <TrackKey ID="3" Time="3.00312" />
+                    </Track>
+                    <Track ID="67" Type="9">
+                        <TrackKey ID="0" Time="0" Value="playsound Enemies/Enemy_Hero/Death" />
+                    </Track>
+                    <Track ID="221" Type="11">
+                        <TrackKey ID="0" Time="0" Value="1" />
+                        <TrackKey ID="1" Time="0.290625" Value="1.3" />
+                        <TrackKey ID="2" Time="0.39375" Value="1" />
+                    </Track>
+                </Animation>
+            </Animations>
+        </Element>
+        <Element Text="$(HeroInfo_Name) $(IncomingText)" TextScale="0.9" Type="1" Name="HeroIncomingLabel" ID="518" Anchor="0.500000, 0.671875" Dimension="0.781250, 0.203125" IsPassive="T" Tint="255, 0, 0, 0" Tracking="-7" Leading="47" Font="StencilYellow10.asc">
+            <Animations>
+                <Animation Name="HeroIncoming">
+                    <Track ID="0" Type="5">
+                        <TrackKey ID="0" Time="0" />
+                        <TrackKey ID="1" Time="0.159375" Value="255" />
+                        <TrackKey ID="2" Time="1.5" Value="255" />
+                        <TrackKey ID="3" Time="2" />
+                    </Track>
+                    <Track ID="66" Type="9">
+                        <TrackKey ID="0" Time="0" Value="playsound Enemies/Enemy_Hero/Spawn" />
+                    </Track>
+                    <Track ID="220" Type="11">
+                        <TrackKey ID="0" Time="0" Value="1" />
+                        <TrackKey ID="1" Time="0.159375" Value="1.4" />
+                        <TrackKey ID="2" Time="0.228125" Value="1" />
+                    </Track>
+                </Animation>
+            </Animations>
+        </Element>
+        <Element PressedTextureFilename="Button_Play_Activated.png" HighlightedTextureFilename="Button_Glow.png" TextureFilename="Button_Play.png" Type="3" Name="PlayButton" ID="51" Anchor="0.062500, 0.093750" Dimension="0.133333, 0.200000" Margin="6" PixelFormat="2" Dithered="T" HorizontalScale="0.5" VerticalScale="0.5">
+            <Animations>
+                <Animation Name="PlayActivatedOut">
+                    <Track ID="12" Type="5">
+                        <TrackKey ID="0" Time="0.04375" Value="255" />
+                        <TrackKey ID="1" Time="0.1" />
+                    </Track>
+                </Animation>
+                <Animation Name="DeselectWeaponBottom">
+                    <Track ID="19" Type="5">
+                        <TrackKey ID="0" Time="0" />
+                        <TrackKey ID="1" Time="0.25" Value="255" />
+                    </Track>
+                </Animation>
+                <Animation Name="DeselectWeapon">
+                    <Track ID="3" Type="5">
+                        <TrackKey ID="0" Time="0" />
+                        <TrackKey ID="1" Time="0.25" Value="255" />
+                    </Track>
+                </Animation>
+                <Animation Name="SelectWeaponBottom">
+                    <Track ID="17" Type="5">
+                        <TrackKey ID="0" Time="0" Value="255" />
+                        <TrackKey ID="1" Time="0.25" />
+                    </Track>
+                </Animation>
+                <Animation Name="SelectWeapon">
+                    <Track ID="1" Type="5">
+                        <TrackKey ID="0" Time="0" Value="255" />
+                        <TrackKey ID="1" Time="0.25" />
+                    </Track>
+                </Animation>
+                <Animation Name="PaustActivatedOut">
+                    <Track ID="6" Type="5">
+                        <TrackKey ID="0" Time="0.13125" />
+                        <TrackKey ID="1" Time="0.265625" Value="255" />
+                    </Track>
+                </Animation>
+            </Animations>
+            <SoundMapRoot>
+                <SoundEvent EventTrigger="Touches Began (UI Only)" SoundEventFullPath="UI/In_Game/Pause_Game" />
+            </SoundMapRoot>
+            <Element TextureFilename="Button_Play_Activated.png" Type="2" Name="PlayActivated" ID="542" Dimension="0.114583, 0.171875" Visible="F" IsPassive="T" PixelFormat="2">
+                <Animations>
+                    <Animation Name="PlayActivatedOut">
+                        <Track ID="10" Type="3">
+                            <TrackKey ID="0" Time="0" Value="0.123958, 0.185937" />
+                            <TrackKey ID="1" Time="0.125" Value="0.114583, 0.171875" />
+                        </Track>
+                        <Track ID="11" Type="5">
+                            <TrackKey ID="0" Time="0" Value="255" />
+                            <TrackKey ID="1" Time="0.121875" />
+                        </Track>
+                    </Animation>
+                    <Animation Name="DeselectWeapon">
+                        <Track ID="18" Type="5">
+                            <TrackKey ID="0" Time="0" />
+                            <TrackKey ID="1" Time="0.25" Value="255" />
+                        </Track>
+                    </Animation>
+                    <Animation Name="SelectWeapon">
+                        <Track ID="16" Type="5">
+                            <TrackKey ID="0" Time="0" Value="255" />
+                            <TrackKey ID="1" Time="0.25" />
+                        </Track>
+                    </Animation>
+                    <Animation Name="PlayActivatedIn">
+                        <Track ID="8" Type="5">
+                            <TrackKey ID="0" Time="0" />
+                            <TrackKey ID="1" Time="0.103125" Value="255" />
+                        </Track>
+                        <Track ID="9" Type="3">
+                            <TrackKey ID="0" Time="0" Value="0.114583, 0.171875" />
+                            <TrackKey ID="1" Time="0.1" Value="0.123958, 0.185937" />
+                        </Track>
+                    </Animation>
+                </Animations>
+            </Element>
+        </Element>
+        <Element PressedTextureFilename="Button_Pause_Activated.png" HighlightedTextureFilename="Button_Glow.png" TextureFilename="Button_Pause.png" Type="3" Name="PauseButton" ID="50" Anchor="0.062501, 0.092188" Dimension="0.133333, 0.200000" Visible="F" Expansion="0.026000, 0.000000" Margin="6" PixelFormat="2" Dithered="T" HorizontalScale="0.5" VerticalScale="0.5">
+            <Animations>
+                <Animation Name="PlayActivatedOut">
+                    <Track ID="13" Type="5">
+                        <TrackKey ID="0" Time="0.13125" />
+                        <TrackKey ID="1" Time="0.2625" Value="255" />
+                    </Track>
+                </Animation>
+                <Animation Name="DeselectWeaponBottom">
+                    <Track ID="19" Type="5">
+                        <TrackKey ID="0" Time="0" />
+                        <TrackKey ID="1" Time="0.25" Value="255" />
+                    </Track>
+                </Animation>
+                <Animation Name="DeselectWeapon">
+                    <Track ID="18" Type="5">
+                        <TrackKey ID="0" Time="0" />
+                        <TrackKey ID="1" Time="0.25" Value="255" />
+                    </Track>
+                </Animation>
+                <Animation Name="SelectWeaponBottom">
+                    <Track ID="20" Type="5">
+                        <TrackKey ID="0" Time="0" Value="255" />
+                        <TrackKey ID="1" Time="0.25" />
+                    </Track>
+                </Animation>
+                <Animation Name="Tutorial2ShowGatling">
+                    <Track ID="112" Type="5" />
+                </Animation>
+                <Animation Name="SelectWeapon">
+                    <Track ID="16" Type="5">
+                        <TrackKey ID="0" Time="0" Value="255" />
+                        <TrackKey ID="1" Time="0.25" />
+                    </Track>
+                </Animation>
+                <Animation Name="PaustActivatedOut">
+                    <Track ID="5" Type="5">
+                        <TrackKey ID="0" Time="0" Value="255" />
+                        <TrackKey ID="1" Time="0.084375" />
+                    </Track>
+                </Animation>
+            </Animations>
+            <SoundMapRoot>
+                <SoundEvent EventTrigger="Touches Began (UI Only)" SoundEventFullPath="UI/In_Game/Pause_Game" />
+            </SoundMapRoot>
+            <Element TextureFilename="Button_Pause_Activated.png" Type="2" Name="PauseActivated" ID="541" Dimension="0.120138, 0.180208" Visible="F" IsPassive="T" PixelFormat="2">
+                <Animations>
+                    <Animation Name="PauseActivatedIn">
+                        <Track ID="1" Type="3">
+                            <TrackKey ID="0" Time="0" Value="0.114583, 0.171875" />
+                            <TrackKey ID="1" Time="0.1" Value="0.124305, 0.186458" />
+                        </Track>
+                        <Track ID="2" Type="5">
+                            <TrackKey ID="0" Time="0" />
+                            <TrackKey ID="1" Time="0.09375" Value="255" />
+                        </Track>
+                    </Animation>
+                    <Animation Name="DeselectWeapon">
+                        <Track ID="37" Type="5">
+                            <TrackKey ID="0" Time="0" />
+                            <TrackKey ID="1" Time="0.25" Value="255" />
+                        </Track>
+                    </Animation>
+                    <Animation Name="SelectWeapon">
+                        <Track ID="33" Type="5">
+                            <TrackKey ID="0" Time="0" Value="255" />
+                            <TrackKey ID="1" Time="0.25" />
+                        </Track>
+                    </Animation>
+                    <Animation Name="PaustActivatedOut">
+                        <Track ID="4" Type="5">
+                            <TrackKey ID="0" Time="0" Value="255" />
+                            <TrackKey ID="1" Time="0.125" />
+                        </Track>
+                        <Track ID="7" Type="3">
+                            <TrackKey ID="0" Time="0.09375" Value="0.124305, 0.186458" />
+                            <TrackKey ID="1" Time="0.125" Value="0.114583, 0.171875" />
+                        </Track>
+                    </Animation>
+                </Animations>
+            </Element>
+        </Element>
+        <Element TextureFilename="Trans.png" Type="3" Name="ExpendableButtonGroup0" ID="28" Anchor="0.946875, 0.818750" Dimension="0.087500, 0.116667" IsPassive="T" Margin="3" SetChildrenAlpha="T">
+            <Animations>
+                <Animation Name="DeselectWeapon">
+                    <Track ID="37" Type="5">
+                        <TrackKey ID="0" Time="0" />
+                        <TrackKey ID="1" Time="0.25" Value="255" />
+                    </Track>
+                </Animation>
+                <Animation Name="Tutorial2SetBack">
+                    <Track ID="142" Type="1">
+                        <TrackKey ID="0" Time="0" Value="0.946875, 0.818750" />
+                    </Track>
+                    <Track ID="143" Type="5">
+                        <TrackKey ID="0" Time="0" Value="255" />
+                    </Track>
+                </Animation>
+                <Animation Name="DeselectWeaponRight">
+                    <Track ID="100" Type="5">
+                        <TrackKey ID="0" Time="0" />
+                        <TrackKey ID="1" Time="0.25" Value="255" />
+                    </Track>
+                </Animation>
+                <Animation Name="SelectWeapon">
+                    <Track ID="33" Type="5">
+                        <TrackKey ID="0" Time="0" Value="255" />
+                        <TrackKey ID="1" Time="0.25" />
+                    </Track>
+                </Animation>
+                <Animation Name="HideItem0">
+                    <Track ID="59" Type="5">
+                        <TrackKey ID="0" Time="0" Value="255" />
+                        <TrackKey ID="1" Time="0.5" />
+                    </Track>
+                </Animation>
+                <Animation Name="SelectWeaponRight">
+                    <Track ID="101" Type="5">
+                        <TrackKey ID="0" Time="0" Value="255" />
+                        <TrackKey ID="1" Time="0.25" />
+                    </Track>
+                </Animation>
+            </Animations>
+            <Element DisabledTextureFilename="$(DisabledExpendableIcon_00)" TextureFilename="$(ExpendableIcon_00)" Type="3" Name="ExpendableButton0" ID="294" Dimension="0.088542, 0.125000" PixelFormat="2">
+                <SoundMapRoot>
+                    <SoundEvent EventTrigger="Touches Began (UI Only)" SoundEventFullPath="UI/In_Game/Item_Drag_Out" />
+                </SoundMapRoot>
+                <Element TextureFilename="ItemQnty.png" Type="2" Name="AmmoSlots" ID="671" Anchor="0.000000, -0.053125" Dimension="0.095098, 0.050521" IsPassive="T" PixelFormat="2">
+                    <Element TextureFilename="ItemQntyFill.png" Type="2" Name="0" ID="672" Anchor="-0.033021, 0.004688" Dimension="0.015246, 0.021875" IsPassive="T" PixelFormat="2" />
+                    <Element TextureFilename="ItemQntyFill.png" Type="2" Name="1" ID="673" Anchor="-0.016667, -0.002344" Dimension="0.015246, 0.021875" IsPassive="T" PixelFormat="2" />
+                    <Element TextureFilename="ItemQntyFill.png" Type="2" Name="2" ID="674" Anchor="0.000000, -0.004687" Dimension="0.015246, 0.021875" IsPassive="T" PixelFormat="2" />
+                    <Element TextureFilename="ItemQntyFill.png" Type="2" Name="3" ID="675" Anchor="0.016771, -0.002344" Dimension="0.015246, 0.021875" IsPassive="T" PixelFormat="2" />
+                    <Element TextureFilename="ItemQntyFill.png" Type="2" Name="4" ID="676" Anchor="0.033438, 0.004688" Dimension="0.015246, 0.021875" IsPassive="T" PixelFormat="2" />
+                </Element>
+            </Element>
+        </Element>
+        <Element TextureFilename="Trans.png" Type="3" Name="ExpendableButtonGroup1" ID="30" Anchor="0.947917, 0.685938" Dimension="0.087500, 0.120833" IsPassive="T" Margin="3" SetChildrenAlpha="T">
+            <Animations>
+                <Animation Name="DeselectWeapon">
+                    <Track ID="38" Type="5">
+                        <TrackKey ID="0" Time="0" />
+                        <TrackKey ID="1" Time="0.25" Value="255" />
+                    </Track>
+                </Animation>
+                <Animation Name="DeselectWeaponRight">
+                    <Track ID="100" Type="5">
+                        <TrackKey ID="0" Time="0" />
+                        <TrackKey ID="1" Time="0.25" Value="255" />
+                    </Track>
+                </Animation>
+                <Animation Name="HideItem1">
+                    <Track ID="60" Type="5">
+                        <TrackKey ID="0" Time="0" Value="255" />
+                        <TrackKey ID="1" Time="0.5" />
+                    </Track>
+                </Animation>
+                <Animation Name="SelectWeapon">
+                    <Track ID="34" Type="5">
+                        <TrackKey ID="0" Time="0" Value="255" />
+                        <TrackKey ID="1" Time="0.25" />
+                    </Track>
+                </Animation>
+                <Animation Name="ItemFlyIn1">
+                    <Track ID="62" Type="1">
+                        <TrackKey ID="0" Time="0" Value="0.947917, 0.685938" />
+                        <TrackKey ID="1" Time="0.5" Value="0.947917, 0.814061" />
+                    </Track>
+                </Animation>
+                <Animation Name="SelectWeaponRight">
+                    <Track ID="101" Type="5">
+                        <TrackKey ID="0" Time="0" Value="255" />
+                        <TrackKey ID="1" Time="0.25" />
+                    </Track>
+                </Animation>
+            </Animations>
+            <Element DisabledTextureFilename="$(DisabledExpendableIcon_01)" TextureFilename="$(ExpendableIcon_01)" Type="3" Name="ExpendableButton1" ID="295" Dimension="0.088542, 0.125000" PixelFormat="2">
+                <SoundMapRoot>
+                    <SoundEvent EventTrigger="Touches Began (UI Only)" SoundEventFullPath="UI/In_Game/Item_Drag_Out" />
+                </SoundMapRoot>
+                <Element TextureFilename="ItemQnty.png" Type="2" Name="AmmoSlots" ID="677" Anchor="0.000000, -0.053125" Dimension="0.095098, 0.050521" IsPassive="T" PixelFormat="2">
+                    <Element TextureFilename="ItemQntyFill.png" Type="2" Name="0" ID="678" Anchor="-0.033021, 0.004688" Dimension="0.015246, 0.021875" IsPassive="T" PixelFormat="2" />
+                    <Element TextureFilename="ItemQntyFill.png" Type="2" Name="1" ID="679" Anchor="-0.016667, -0.002344" Dimension="0.015246, 0.021875" IsPassive="T" PixelFormat="2" />
+                    <Element TextureFilename="ItemQntyFill.png" Type="2" Name="2" ID="680" Anchor="0.000000, -0.004687" Dimension="0.015246, 0.021875" IsPassive="T" PixelFormat="2" />
+                    <Element TextureFilename="ItemQntyFill.png" Type="2" Name="3" ID="681" Anchor="0.016771, -0.002344" Dimension="0.015246, 0.021875" IsPassive="T" PixelFormat="2" />
+                    <Element TextureFilename="ItemQntyFill.png" Type="2" Name="4" ID="682" Anchor="0.033438, 0.004688" Dimension="0.015246, 0.021875" IsPassive="T" PixelFormat="2" />
+                </Element>
+            </Element>
+        </Element>
+        <Element TextureFilename="Trans.png" Type="3" Name="ExpendableButtonGroup2" ID="32" Anchor="0.948959, 0.553125" Dimension="0.087500, 0.131250" IsPassive="T" Margin="3" SetChildrenAlpha="T">
+            <Animations>
+                <Animation Name="DeselectWeapon">
+                    <Track ID="39" Type="5">
+                        <TrackKey ID="0" Time="0" />
+                        <TrackKey ID="1" Time="0.25" Value="255" />
+                    </Track>
+                </Animation>
+                <Animation Name="DeselectWeaponRight">
+                    <Track ID="100" Type="5">
+                        <TrackKey ID="0" Time="0" />
+                        <TrackKey ID="1" Time="0.25" Value="255" />
+                    </Track>
+                </Animation>
+                <Animation Name="HideItem2">
+                    <Track ID="61" Type="5">
+                        <TrackKey ID="0" Time="0" Value="255" />
+                        <TrackKey ID="1" Time="0.5" />
+                    </Track>
+                </Animation>
+                <Animation Name="SelectWeapon">
+                    <Track ID="35" Type="5">
+                        <TrackKey ID="0" Time="0" Value="255" />
+                        <TrackKey ID="1" Time="0.25" />
+                    </Track>
+                </Animation>
+                <Animation Name="ItemFlyIn2">
+                    <Track ID="63" Type="1">
+                        <TrackKey ID="0" Time="0" Value="0.948959, 0.553125" />
+                        <TrackKey ID="1" Time="0.5" Value="0.948959, 0.685935" />
+                    </Track>
+                </Animation>
+                <Animation Name="SelectWeaponRight">
+                    <Track ID="101" Type="5">
+                        <TrackKey ID="0" Time="0" Value="255" />
+                        <TrackKey ID="1" Time="0.25" />
+                    </Track>
+                </Animation>
+            </Animations>
+            <Element DisabledTextureFilename="$(DisabledExpendableIcon_02)" TextureFilename="$(ExpendableIcon_02)" Type="3" Name="ExpendableButton2" ID="296" Dimension="0.088542, 0.125000" PixelFormat="2">
+                <SoundMapRoot>
+                    <SoundEvent EventTrigger="Touches Began (UI Only)" SoundEventFullPath="UI/In_Game/Item_Drag_Out" />
+                </SoundMapRoot>
+                <Element TextureFilename="ItemQnty.png" Type="2" Name="AmmoSlots" ID="683" Anchor="0.000000, -0.053125" Dimension="0.095098, 0.050521" IsPassive="T" PixelFormat="2">
+                    <Element TextureFilename="ItemQntyFill.png" Type="2" Name="0" ID="684" Anchor="-0.033021, 0.004688" Dimension="0.015246, 0.021875" IsPassive="T" PixelFormat="2" />
+                    <Element TextureFilename="ItemQntyFill.png" Type="2" Name="1" ID="685" Anchor="-0.016667, -0.002344" Dimension="0.015246, 0.021875" IsPassive="T" PixelFormat="2" />
+                    <Element TextureFilename="ItemQntyFill.png" Type="2" Name="2" ID="686" Anchor="0.000000, -0.004687" Dimension="0.015246, 0.021875" IsPassive="T" PixelFormat="2" />
+                    <Element TextureFilename="ItemQntyFill.png" Type="2" Name="3" ID="687" Anchor="0.016771, -0.002344" Dimension="0.015246, 0.021875" IsPassive="T" PixelFormat="2" />
+                    <Element TextureFilename="ItemQntyFill.png" Type="2" Name="4" ID="688" Anchor="0.033438, 0.004688" Dimension="0.015246, 0.021875" IsPassive="T" PixelFormat="2" />
+                </Element>
+            </Element>
+        </Element>
+        <Element TextureFilename="Trans.png" Type="2" Name="TowerButtonGroup5" ID="48" Anchor="0.937499, 0.095312" Dimension="0.125000, 0.187500" IsPassive="T" Margin="4" SetChildrenAlpha="T">
+            <Animations>
+                <Animation Name="DeselectWeaponBottom">
+                    <Track ID="100" Type="5">
+                        <TrackKey ID="0" Time="0" />
+                        <TrackKey ID="1" Time="0.25" Value="255" />
+                    </Track>
+                </Animation>
+                <Animation Name="DeselectWeapon">
+                    <Track ID="31" Type="5">
+                        <TrackKey ID="0" Time="0" />
+                        <TrackKey ID="1" Time="0.25" Value="255" />
+                    </Track>
+                </Animation>
+                <Animation Name="SelectWeaponBottom">
+                    <Track ID="101" Type="5">
+                        <TrackKey ID="0" Time="0" Value="255" />
+                        <TrackKey ID="1" Time="0.25" />
+                    </Track>
+                </Animation>
+                <Animation Name="SelectWeapon">
+                    <Track ID="25" Type="5">
+                        <TrackKey ID="0" Time="0" Value="255" />
+                        <TrackKey ID="1" Time="0.25" />
+                    </Track>
+                </Animation>
+            </Animations>
+            <Element DisabledTextureFilename="$(DisabledTowerIcon_05)" TextureFilename="$(TowerIcon_05)" Type="3" Name="TowerButton5" ID="289" Dimension="0.133333, 0.200000" PixelFormat="2" Dithered="T">
+                <SoundMapRoot>
+                    <SoundEvent EventTrigger="Touches Began (UI Only)" SoundEventFullPath="UI/In_Game/Tower_Drag_Out" />
+                </SoundMapRoot>
+            </Element>
+            <Element Text="$$(TowerCost_05)" TextScale="0.4" Type="1" Name="TowerLabel05" ID="224" Anchor="0.000000, -0.063594" Dimension="0.175833, 0.028153" IsPassive="T" Tint="34, 32, 30, 255" Tracking="1" Leading="44" Font="ImpactWhite02.asc" />
+        </Element>
+        <Element TextureFilename="Trans.png" Type="2" Name="TowerButtonGroup4" ID="46" Anchor="0.817705, 0.095312" Dimension="0.125000, 0.187500" IsPassive="T" Margin="4" SetChildrenAlpha="T">
+            <Animations>
+                <Animation Name="DeselectWeaponBottom">
+                    <Track ID="100" Type="5">
+                        <TrackKey ID="0" Time="0" />
+                        <TrackKey ID="1" Time="0.25" Value="255" />
+                    </Track>
+                </Animation>
+                <Animation Name="DeselectWeapon">
+                    <Track ID="30" Type="5">
+                        <TrackKey ID="0" Time="0" />
+                        <TrackKey ID="1" Time="0.25" Value="255" />
+                    </Track>
+                </Animation>
+                <Animation Name="SelectWeaponBottom">
+                    <Track ID="101" Type="5">
+                        <TrackKey ID="0" Time="0" Value="255" />
+                        <TrackKey ID="1" Time="0.25" />
+                    </Track>
+                </Animation>
+                <Animation Name="SelectWeapon">
+                    <Track ID="24" Type="5">
+                        <TrackKey ID="0" Time="0" Value="255" />
+                        <TrackKey ID="1" Time="0.25" />
+                    </Track>
+                </Animation>
+            </Animations>
+            <Element DisabledTextureFilename="$(DisabledTowerIcon_04)" TextureFilename="$(TowerIcon_04)" Type="3" Name="TowerButton4" ID="288" Dimension="0.133333, 0.200000" PixelFormat="2" Dithered="T">
+                <SoundMapRoot>
+                    <SoundEvent EventTrigger="Touches Began (UI Only)" SoundEventFullPath="UI/In_Game/Tower_Drag_Out" />
+                </SoundMapRoot>
+            </Element>
+            <Element Text="$$(TowerCost_04)" TextScale="0.4" Type="1" Name="TowerLabel04" ID="221" Anchor="0.000000, -0.063594" Dimension="0.175833, 0.028153" IsPassive="T" Tint="34, 32, 30, 255" Tracking="1" Leading="44" Font="ImpactWhite02.asc" />
+        </Element>
+        <Element TextureFilename="Trans.png" Type="2" Name="TowerButtonGroup3" ID="44" Anchor="0.697917, 0.095312" Dimension="0.125000, 0.187500" IsPassive="T" Margin="4" SetChildrenAlpha="T">
+            <Animations>
+                <Animation Name="DeselectWeaponBottom">
+                    <Track ID="100" Type="5">
+                        <TrackKey ID="0" Time="0" />
+                        <TrackKey ID="1" Time="0.25" Value="255" />
+                    </Track>
+                </Animation>
+                <Animation Name="DeselectWeapon">
+                    <Track ID="29" Type="5">
+                        <TrackKey ID="0" Time="0" />
+                        <TrackKey ID="1" Time="0.25" Value="255" />
+                    </Track>
+                </Animation>
+                <Animation Name="SelectWeaponBottom">
+                    <Track ID="101" Type="5">
+                        <TrackKey ID="0" Time="0" Value="255" />
+                        <TrackKey ID="1" Time="0.25" />
+                    </Track>
+                </Animation>
+                <Animation Name="SelectWeapon">
+                    <Track ID="23" Type="5">
+                        <TrackKey ID="0" Time="0" Value="255" />
+                        <TrackKey ID="1" Time="0.25" />
+                    </Track>
+                </Animation>
+            </Animations>
+            <Element DisabledTextureFilename="$(DisabledTowerIcon_03)" TextureFilename="$(TowerIcon_03)" Type="3" Name="TowerButton3" ID="287" Anchor="-0.001042, 0.000000" Dimension="0.133333, 0.200000" PixelFormat="2" Dithered="T">
+                <SoundMapRoot>
+                    <SoundEvent EventTrigger="Touches Began (UI Only)" SoundEventFullPath="UI/In_Game/Tower_Drag_Out" />
+                </SoundMapRoot>
+            </Element>
+            <Element Text="$$(TowerCost_03)" TextScale="0.4" Type="1" Name="TowerLabel03" ID="218" Anchor="0.000000, -0.063594" Dimension="0.175833, 0.028153" IsPassive="T" Tint="34, 32, 30, 255" Tracking="1" Leading="44" Font="ImpactWhite02.asc" />
+        </Element>
+        <Element TextureFilename="Trans.png" Type="2" Name="TowerButtonGroup2" ID="40" Anchor="0.578125, 0.096875" Dimension="0.125000, 0.187500" IsPassive="T" Margin="4" SetChildrenAlpha="T">
+            <Animations>
+                <Animation Name="DeselectWeaponBottom">
+                    <Track ID="100" Type="5">
+                        <TrackKey ID="0" Time="0" />
+                        <TrackKey ID="1" Time="0.25" Value="255" />
+                    </Track>
+                </Animation>
+                <Animation Name="DeselectWeapon">
+                    <Track ID="28" Type="5">
+                        <TrackKey ID="0" Time="0" />
+                        <TrackKey ID="1" Time="0.25" Value="255" />
+                    </Track>
+                </Animation>
+                <Animation Name="Tutorial2SetBack">
+                    <Track ID="279" Type="1">
+                        <TrackKey ID="0" Time="0" Value="0.578125, 0.096875" />
+                    </Track>
+                    <Track ID="280" Type="5">
+                        <TrackKey ID="0" Time="0" Value="255" />
+                    </Track>
+                </Animation>
+                <Animation Name="SelectWeaponBottom">
+                    <Track ID="101" Type="5">
+                        <TrackKey ID="0" Time="0" Value="255" />
+                        <TrackKey ID="1" Time="0.25" />
+                    </Track>
+                </Animation>
+                <Animation Name="Tutorial2ShowMissile">
+                    <Track ID="276" Type="1">
+                        <TrackKey ID="0" Time="0.75" Value="0.939583, -0.260938" />
+                        <TrackKey ID="1" Time="1" Value="0.939583, 0.096875" />
+                    </Track>
+                    <Track ID="277" Type="5">
+                        <TrackKey ID="0" Time="0" />
+                        <TrackKey ID="1" Time="0.03125" Value="255" />
+                    </Track>
+                    <Track ID="286" Type="9">
+                        <TrackKey ID="0" Time="0.75" Value="playsound UI/Menu/Shell_Up" />
+                    </Track>
+                </Animation>
+                <Animation Name="SelectWeapon">
+                    <Track ID="22" Type="5">
+                        <TrackKey ID="0" Time="0" Value="255" />
+                        <TrackKey ID="1" Time="0.25" />
+                    </Track>
+                </Animation>
+                <Animation Name="Tutorial2HideWeapons">
+                    <Track ID="272" Type="1">
+                        <TrackKey ID="0" Time="0" Value="0.578125, -0.625000" />
+                    </Track>
+                    <Track ID="273" Type="5">
+                        <TrackKey ID="0" Time="0" Value="255" />
+                        <TrackKey ID="1" Time="0.01875" />
+                    </Track>
+                </Animation>
+            </Animations>
+            <Element Type="7" Name="MissileParticleSystem" ID="758" IsPassive="T" RelativeScale="1.65" Filename="UI_Light_Rays002.fx">
+                <Animations>
+                    <Animation Name="Tutorial2SetBack">
+                        <Track ID="288" Type="8">
+                            <TrackKey ID="0" Time="0" Value="1" />
+                        </Track>
+                    </Animation>
+                    <Animation Name="Tutorial2ShowMissile">
+                        <Track ID="287" Type="8">
+                            <TrackKey ID="0" Time="1.125" />
+                            <TrackKey ID="1" Time="1.375" Value="1" />
+                        </Track>
+                    </Animation>
+                </Animations>
+            </Element>
+            <Element DisabledTextureFilename="$(DisabledTowerIcon_02)" TextureFilename="$(TowerIcon_03\2)" Type="3" Name="TowerButton2" ID="286" Dimension="0.133333, 0.200000" PixelFormat="2" Dithered="T">
+                <SoundMapRoot>
+                    <SoundEvent EventTrigger="Touches Began (UI Only)" SoundEventFullPath="UI/In_Game/Tower_Drag_Out" />
+                </SoundMapRoot>
+            </Element>
+            <Element Text="$$(TowerCost_02)" TextScale="0.4" Type="1" Name="TowerLabel02" ID="215" Anchor="0.000000, -0.063594" Dimension="0.175833, 0.028153" IsPassive="T" Tint="34, 32, 30, 255" Tracking="1" Leading="44" Font="ImpactWhite02.asc" />
+        </Element>
+        <Element TextureFilename="Trans.png" Type="2" Name="TowerButtonGroup1" ID="38" Anchor="0.459376, 0.095313" Dimension="0.125000, 0.187500" IsPassive="T" Margin="4" SetChildrenAlpha="T">
+            <Animations>
+                <Animation Name="DeselectWeaponBottom">
+                    <Track ID="100" Type="5">
+                        <TrackKey ID="0" Time="0" />
+                        <TrackKey ID="1" Time="0.25" Value="255" />
+                    </Track>
+                </Animation>
+                <Animation Name="DeselectWeapon">
+                    <Track ID="27" Type="5">
+                        <TrackKey ID="0" Time="0" />
+                        <TrackKey ID="1" Time="0.25" Value="255" />
+                    </Track>
+                </Animation>
+                <Animation Name="Tutorial2SetBack">
+                    <Track ID="117" Type="1">
+                        <TrackKey ID="0" Time="0" Value="0.459376, 0.095313" />
+                    </Track>
+                    <Track ID="141" Type="5">
+                        <TrackKey ID="0" Time="0" Value="255" />
+                    </Track>
+                </Animation>
+                <Animation Name="SelectWeaponBottom">
+                    <Track ID="101" Type="5">
+                        <TrackKey ID="0" Time="0" Value="255" />
+                        <TrackKey ID="1" Time="0.25" />
+                    </Track>
+                </Animation>
+                <Animation Name="Tutorial2ShowMissile">
+                    <Track ID="275" Type="1">
+                        <TrackKey ID="0" Time="0.375" Value="0.938542, 0.099046" />
+                        <TrackKey ID="1" Time="0.625" Value="0.817709, 0.099046" />
+                    </Track>
+                    <Track ID="285" Type="9">
+                        <TrackKey ID="0" Time="0.375" Value="playsound UI/Menu/Shell_Up" />
+                    </Track>
+                </Animation>
+                <Animation Name="SelectWeapon">
+                    <Track ID="21" Type="5">
+                        <TrackKey ID="0" Time="0" Value="255" />
+                        <TrackKey ID="1" Time="0.25" />
+                    </Track>
+                </Animation>
+                <Animation Name="Tutorial2ShowGlue">
+                    <Track ID="91" Type="5">
+                        <TrackKey ID="0" Time="0" />
+                        <TrackKey ID="1" Time="0.053125" Value="255" />
+                    </Track>
+                    <Track ID="138" Type="1">
+                        <TrackKey ID="0" Time="0.1" Value="0.938542, -0.521266" />
+                        <TrackKey ID="1" Time="0.625" Value="0.938542, 0.099046" />
+                    </Track>
+                    <Track ID="283" Type="9">
+                        <TrackKey ID="0" Time="0.375" Value="playsound UI/Menu/Shell_Up" />
+                    </Track>
+                </Animation>
+                <Animation Name="Tutorial2HideWeapons">
+                    <Track ID="196" Type="5">
+                        <TrackKey ID="0" Time="0" Value="255" />
+                        <TrackKey ID="1" Time="0.03125" />
+                    </Track>
+                    <Track ID="198" Type="1">
+                        <TrackKey ID="0" Time="0" Value="0.459376, -0.626563" />
+                    </Track>
+                </Animation>
+            </Animations>
+            <Element Type="7" Name="GlueParticleSystem" ID="759" IsPassive="T" RelativeScale="1.65" Filename="UI_Light_Rays002.fx">
+                <Animations>
+                    <Animation Name="Tutorial2SetBack">
+                        <Track ID="289" Type="8">
+                            <TrackKey ID="0" Time="0" Value="1" />
+                        </Track>
+                    </Animation>
+                    <Animation Name="Tutorial2ShowGlue">
+                        <Track ID="287" Type="8">
+                            <TrackKey ID="0" Time="0.75" />
+                            <TrackKey ID="1" Time="1" Value="1" />
+                        </Track>
+                    </Animation>
+                </Animations>
+            </Element>
+            <Element DisabledTextureFilename="$(DisabledTowerIcon_01)" TextureFilename="$(TowerIcon_01)" Type="3" Name="TowerButton1" ID="285" Dimension="0.133333, 0.200000" PixelFormat="2" Dithered="T">
+                <SoundMapRoot>
+                    <SoundEvent EventTrigger="Touches Began (UI Only)" SoundEventFullPath="UI/In_Game/Tower_Drag_Out" />
+                </SoundMapRoot>
+            </Element>
+            <Element Text="$$(TowerCost_01)" TextScale="0.4" Type="1" Name="TowerLabel01" ID="212" Anchor="0.000000, -0.063594" Dimension="0.175833, 0.028153" IsPassive="T" Tint="34, 32, 30, 255" Tracking="1" Leading="44" Font="ImpactWhite02.asc" />
+        </Element>
+        <Element TextureFilename="Trans.png" Type="2" Name="TowerButtonGroup0" ID="34" Anchor="0.339322, 0.095312" Dimension="0.125000, 0.187500" IsPassive="T" Margin="4" SetChildrenAlpha="T">
+            <Animations>
+                <Animation Name="DeselectWeaponBottom">
+                    <Track ID="100" Type="5">
+                        <TrackKey ID="0" Time="0" />
+                        <TrackKey ID="1" Time="0.25" Value="255" />
+                    </Track>
+                </Animation>
+                <Animation Name="DeselectWeapon">
+                    <Track ID="26" Type="5">
+                        <TrackKey ID="0" Time="0" />
+                        <TrackKey ID="1" Time="0.25" Value="255" />
+                    </Track>
+                </Animation>
+                <Animation Name="Tutorial2SetBack">
+                    <Track ID="118" Type="1">
+                        <TrackKey ID="0" Time="0" Value="0.339322, 0.095312" />
+                    </Track>
+                    <Track ID="156" Type="5">
+                        <TrackKey ID="0" Time="0" Value="255" />
+                    </Track>
+                </Animation>
+                <Animation Name="SelectWeaponBottom">
+                    <Track ID="101" Type="5">
+                        <TrackKey ID="0" Time="0" Value="255" />
+                        <TrackKey ID="1" Time="0.25" />
+                    </Track>
+                </Animation>
+                <Animation Name="Tutorial2ShowGatling">
+                    <Track ID="90" Type="5">
+                        <TrackKey ID="0" Time="0" />
+                        <TrackKey ID="1" Time="0.028125" Value="255" />
+                    </Track>
+                    <Track ID="107" Type="1">
+                        <TrackKey ID="0" Time="0" Value="0.941405, -0.273438" />
+                        <TrackKey ID="1" Time="0.5" Value="0.941405, 0.095312" />
+                    </Track>
+                    <Track ID="281" Type="9">
+                        <TrackKey ID="0" Time="0.25" Value="playsound UI/Menu/Shell_Up" />
+                    </Track>
+                </Animation>
+                <Animation Name="Tutorial2ShowMissile">
+                    <Track ID="274" Type="1">
+                        <TrackKey ID="0" Time="0" Value="0.818488, 0.095312" />
+                        <TrackKey ID="1" Time="0.25" Value="0.695571, 0.095312" />
+                    </Track>
+                    <Track ID="284" Type="9">
+                        <TrackKey ID="0" Time="0" Value="playsound UI/Menu/Shell_Up" />
+                    </Track>
+                </Animation>
+                <Animation Name="SelectWeapon">
+                    <Track ID="20" Type="5">
+                        <TrackKey ID="0" Time="0" Value="255" />
+                        <TrackKey ID="1" Time="0.25" />
+                    </Track>
+                </Animation>
+                <Animation Name="Tutorial2ShowGlue">
+                    <Track ID="278" Type="1">
+                        <TrackKey ID="0" Time="0" Value="0.941405, 0.095312" />
+                        <TrackKey ID="1" Time="0.25" Value="0.817446, 0.095312" />
+                    </Track>
+                    <Track ID="282" Type="9">
+                        <TrackKey ID="0" Time="0" Value="playsound UI/Menu/Shell_Up" />
+                    </Track>
+                </Animation>
+                <Animation Name="Tutorial2HideWeapons">
+                    <Track ID="195" Type="5">
+                        <TrackKey ID="0" Time="0" Value="255" />
+                        <TrackKey ID="1" Time="0.025" />
+                    </Track>
+                    <Track ID="197" Type="1">
+                        <TrackKey ID="0" Time="0" Value="0.339322, -0.625000" />
+                    </Track>
+                </Animation>
+            </Animations>
+            <Element Type="7" Name="GatlingParticleSystem" ID="757" IsPassive="T" RelativeScale="1.65" Filename="UI_Light_Rays002.fx">
+                <Animations>
+                    <Animation Name="Tutorial2SetBack">
+                        <Track ID="290" Type="8">
+                            <TrackKey ID="0" Time="0" Value="1" />
+                        </Track>
+                    </Animation>
+                    <Animation Name="Tutorial2ShowGatling">
+                        <Track ID="287" Type="8">
+                            <TrackKey ID="0" Time="0.625" />
+                            <TrackKey ID="1" Time="0.890625" Value="1" />
+                        </Track>
+                    </Animation>
+                </Animations>
+            </Element>
+            <Element DisabledTextureFilename="$(DisabledTowerIcon_00)" TextureFilename="$(TowerIcon_00)" Type="3" Name="TowerButton0" ID="283" Anchor="0.000000, 0.001563" Dimension="0.133333, 0.200000" PixelFormat="2" Dithered="T">
+                <SoundMapRoot>
+                    <SoundEvent EventTrigger="Touches Began (UI Only)" SoundEventFullPath="UI/In_Game/Tower_Drag_Out" />
+                </SoundMapRoot>
+            </Element>
+            <Element Text="$$(TowerCost_00)" TextScale="0.4" Type="1" Name="TowerLabel00" ID="35" Anchor="0.000000, -0.063594" Dimension="0.175833, 0.028153" IsPassive="T" Tint="34, 32, 30, 255" Tracking="1" Leading="44" Font="ImpactWhite02.asc" />
+        </Element>
+        <Element TextureFilename="Trans.png" Type="2" Name="TowerSelectMenu" ID="21" Anchor="0.500000, 0.500000" Dimension="0.369661, 0.472916" IsPassive="T" Expansion="0.000000, 0.333000" SetChildrenAlpha="T">
+            <Animations>
+                <Animation Name="ShowTowerMenu">
+                    <Track ID="48" Type="9">
+                        <TrackKey ID="0" Time="0" Value="playsound UI/In_Game/Tower_Select" />
+                    </Track>
+                    <Track ID="182" Type="11">
+                        <TrackKey ID="0" Time="0" />
+                        <TrackKey ID="1" Time="0.25" Value="1" />
+                    </Track>
+                    <Track ID="186" Type="5">
+                        <TrackKey ID="0" Time="0" />
+                        <TrackKey ID="1" Time="0.25" Value="255" />
+                    </Track>
+                </Animation>
+                <Animation Name="HideTowerMenu">
+                    <Track ID="181" Type="5">
+                        <TrackKey ID="0" Time="0" Value="255" />
+                        <TrackKey ID="1" Time="0.24375" />
+                    </Track>
+                </Animation>
+            </Animations>
+            <Element TextureFilename="Trans.png" Type="3" Name="SellButtonGroup" ID="22" Anchor="-0.121875, 0.006250" Dimension="0.104167, 0.156250" IsPassive="T" Expansion="1.000000, 1.000000" Dithered="T">
+                <Element DisabledTextureFilename="icon_sell_off.jpg" TextureFilename="icon_sell.png" Type="3" Name="SellButton" ID="292" Dimension="0.104167, 0.156250" Expansion="0.204000, 0.231000" PixelFormat="2" Dithered="T">
+                    <Animations>
+                        <Animation Name="SellCommand">
+                            <Track ID="2" Type="9">
+                                <TrackKey ID="0" Time="0" Value="sell" />
+                            </Track>
+                        </Animation>
+                    </Animations>
+                    <SoundMapRoot>
+                        <SoundEvent EventTrigger="Touches Began (UI Only)" SoundEventFullPath="UI/In_Game/Tower_Sell" />
+                    </SoundMapRoot>
+                </Element>
+                <Element Text="$(SelectedTowerBuyBackCost)" TextScale="0.34" Type="1" Name="BuyBackCostLabel" ID="26" Anchor="0.000000, -0.061719" Dimension="0.208333, 0.046875" IsPassive="T" Tint="64, 0, 0, 255" Tracking="1" Leading="44" Font="ImpactWhite02.asc">
+                    <Animations>
+                        <Animation Name="SellCommand">
+                            <Track ID="3" Type="9">
+                                <TrackKey ID="0" Time="0" Value="" />
+                            </Track>
+                        </Animation>
+                    </Animations>
+                </Element>
+            </Element>
+            <Element TextureFilename="Trans.png" Type="3" Name="UpgradeButtonGroup" ID="23" Anchor="0.121875, 0.006250" Dimension="0.104167, 0.156250" IsPassive="T" Expansion="1.000000, 1.000000">
+                <Element DisabledTextureFilename="icon_upgrade_off.png" TextureFilename="icon_upgrade.png" Type="3" Name="UpgradeButton" ID="293" Dimension="0.104167, 0.156250" Expansion="0.231000, 0.231000" PixelFormat="2" Dithered="T">
+                    <Animations>
+                        <Animation Name="UpgradeCommand">
+                            <Track ID="0" Type="9">
+                                <TrackKey ID="0" Time="0" Value="upgrade" />
+                            </Track>
+                        </Animation>
+                    </Animations>
+                    <SoundMapRoot>
+                        <SoundEvent EventTrigger="Touches Began (UI Only)" SoundEventFullPath="UI/In_Game/Tower_Upgrade" />
+                    </SoundMapRoot>
+                </Element>
+                <Element Text="$(SelectedTowerUpgradeCost)" TextScale="0.34" Type="1" Name="UpgradeTowerLabel" ID="27" Anchor="0.000000, -0.061719" Dimension="0.122917, 0.046875" IsPassive="T" Tint="64, 0, 0, 255" Tracking="1" Leading="44" Font="ImpactWhite02.asc">
+                    <Animations>
+                        <Animation Name="UpgradeCommand">
+                            <Track ID="1" Type="9">
+                                <TrackKey ID="0" Time="0" Value="" />
+                            </Track>
+                        </Animation>
+                    </Animations>
+                </Element>
+            </Element>
+            <Element TextureFilename="icon_info.png" Type="3" Name="InfoButton" ID="24" Anchor="-0.001042, 0.162500" Dimension="0.104167, 0.156250" Expansion="0.152000, 0.205000" PixelFormat="2" Dithered="T">
+                <Animations>
+                    <Animation Name="InfoCommand">
+                        <Track ID="4" Type="9">
+                            <TrackKey ID="0" Time="0.00625" Value="deselectactor | playuianimation ShowTowerInfo" />
+                        </Track>
+                    </Animation>
+                </Animations>
+                <SoundMapRoot>
+                    <SoundEvent EventTrigger="Touches Began (UI Only)" SoundEventFullPath="UI/In_Game/Pause_Game" />
+                </SoundMapRoot>
+            </Element>
+            <Element Text="$(LevelText) $(WeaponInfo_Selected_TechLevel)" TextScale="0.8" Type="1" Name="TowerLevel" ID="25" Anchor="0.000000, -0.162500" Dimension="0.181250, 0.046875" IsPassive="T" Tracking="-7" Leading="40" Font="ImpactYellow06.asc" />
+        </Element>
+        <Element TextureFilename="Trans.png" Type="2" Name="TowerSelectThreshold" ID="530" Anchor="0.503125, 0.350000" Dimension="0.802083, 0.526042" IsPassive="T" />
+        <Element HighlightedTextureFilename="Circle_Glow.png" TextureFilename="UnitNoteButton.png" Type="3" Name="UnitNotificationButton" ID="543" Anchor="0.043750, 0.815626" Dimension="0.076389, 0.114584" Visible="F" Expansion="1.000000, 0.128000" PixelFormat="2" SetChildrenAlpha="T" HorizontalScale="1.25" VerticalScale="1.23438">
+            <Animations>
+                <Animation Name="ShowUnitNotiButton">
+                    <Track ID="167" Type="5">
+                        <TrackKey ID="0" Time="0" />
+                        <TrackKey ID="1" Time="0.175" Value="255" />
+                    </Track>
+                    <Track ID="257" Type="3">
+                        <TrackKey ID="0" Time="0" Value="0.036111, 0.054167" />
+                        <TrackKey ID="1" Time="0.125" Value="0.086111, 0.129167" />
+                        <TrackKey ID="2" Time="0.175" Value="0.076389, 0.114584" />
+                    </Track>
+                </Animation>
+                <Animation Name="SelectWeaponTop">
+                    <Track ID="267" Type="5">
+                        <TrackKey ID="0" Time="0" Value="255" />
+                        <TrackKey ID="1" Time="0.25" />
+                    </Track>
+                </Animation>
+                <Animation Name="HideUnitNotiButton">
+                    <Track ID="168" Type="5">
+                        <TrackKey ID="0" Time="0" Value="255" />
+                        <TrackKey ID="1" Time="0.25" />
+                    </Track>
+                    <Track ID="268" Type="9">
+                        <TrackKey ID="0" Time="0.25" Value="hideelement UnitNotificationButton" />
+                    </Track>
+                </Animation>
+                <Animation Name="DeselectWeaponTop">
+                    <Track ID="266" Type="5">
+                        <TrackKey ID="0" Time="0" />
+                        <TrackKey ID="1" Time="0.25" Value="255" />
+                    </Track>
+                </Animation>
+            </Animations>
+            <SoundMapRoot>
+                <SoundEvent EventTrigger="Touches Ended (UI Only)" SoundEventFullPath="UI/In_Game/Pause_Game" />
+            </SoundMapRoot>
+            <Element Text="NEW!&#x0D;&#x0A;" TextScale="0.65" Type="1" Name="Label::689" ID="689" Anchor="0.161458, 0.000000" Dimension="0.245279, 0.048986" IsPassive="T" Alignment="0" Tracking="-7" Leading="40" TranslateOnce="T" Font="ImpactYellow06.asc" TextEffect="Bullet" />
+        </Element>
+        <Element TextureFilename="Trans.png" Type="2" Name="FinalWaveNotificationGroup" ID="632" Anchor="0.500000, 0.773438" Dimension="0.060417, 0.090625" IsPassive="T" Tint="255, 0, 0, 0" SetChildrenAlpha="T">
+            <Animations>
+                <Animation Name="ShowFinalWaveDialog">
+                    <Track ID="199" Type="5">
+                        <TrackKey ID="0" Time="0.09375" />
+                        <TrackKey ID="1" Time="0.2375" Value="255" />
+                        <TrackKey ID="2" Time="0.753125" Value="13" />
+                        <TrackKey ID="3" Time="1.25" Value="255" />
+                        <TrackKey ID="4" Time="1.75" Value="21" />
+                        <TrackKey ID="5" Time="2.25938" Value="255" />
+                        <TrackKey ID="6" Time="2.75938" Value="18" />
+                        <TrackKey ID="7" Time="3.24688" Value="255" />
+                        <TrackKey ID="8" Time="3.7375" />
+                    </Track>
+                </Animation>
+            </Animations>
+            <Element Text="FINAL WAVE!" Type="1" Name="FinalWaveNotificationLabel" ID="633" Dimension="0.486048, 0.138570" IsPassive="T" Tint="255, 0, 0, 0" Tracking="-11" Leading="47" TranslateOnce="T" Font="StencilYellow10.asc" />
+        </Element>
+        <Element Text="$(PerfectText)" Type="1" Name="PerfectWaveLabel" ID="709" Anchor="0.500000, 0.801563" Dimension="0.498750, 0.107320" IsPassive="T" Tint="255, 255, 255, 0" RelativeScale="1.5" Tracking="-19" Leading="45" TranslateOnce="T" Font="ImpactWhite05.asc">
+            <Animations>
+                <Animation Name="PerfectWave">
+                    <Track ID="235" Type="5">
+                        <TrackKey ID="0" Time="0" />
+                        <TrackKey ID="1" Time="0.128125" Value="255" />
+                        <TrackKey ID="2" Time="0.96875" Value="255" />
+                        <TrackKey ID="3" Time="1.1375" />
+                    </Track>
+                    <Track ID="236" Type="11">
+                        <TrackKey ID="0" Time="0" Value="1.5" />
+                        <TrackKey ID="1" Time="0.121875" Value="0.8" />
+                        <TrackKey ID="2" Time="0.153125" Value="1" />
+                        <TrackKey ID="3" Time="1.01563" Value="1" />
+                        <TrackKey ID="4" Time="1.375" Value="0.7" />
+                    </Track>
+                </Animation>
+            </Animations>
+        </Element>
+        <Element Type="2" Name="ObjectiveCompleted" ID="718" Anchor="0.500000, 0.873437" Dimension="0.656250, 0.218750" IsPassive="T" Tint="255, 255, 255, 0" PixelFormat="2">
+            <Animations>
+                <Animation Name="KillMeterFilled">
+                    <Track ID="294" Type="9">
+                        <TrackKey ID="0" Time="0" Value="playsound UI/In_Game/Victory_Cheer" />
+                        <TrackKey ID="1" Time="0.4" Value="playsound UI/Menu/Button_Press_Down" />
+                    </Track>
+                </Animation>
+            </Animations>
+            <Element TextureFilename="Trans.png" Type="2" Name="CompletedGroup" ID="719" Dimension="0.287501, 0.076563" IsPassive="T">
+                <Element Text="$(ObjectiveCompletedText)" TextScale="1.2" Type="1" Name="CompleteLabel" ID="720" Anchor="0.000000, -0.123437" Dimension="0.658883, 0.096903" IsPassive="T" Tint="0, 0, 0, 0" RelativeScale="0.4" TextureEnvironmentMode="0" Tracking="-19" Leading="45" TranslateOnce="T" Font="ImpactWhite05.asc">
+                    <Animations>
+                        <Animation Name="KillMeterFilled">
+                            <Track ID="259" Type="11">
+                                <TrackKey ID="0" Time="0.34375" Value="0.4" />
+                                <TrackKey ID="1" Time="0.40625" Value="1" />
+                                <TrackKey ID="2" Time="0.528125" Value="0.8" />
+                            </Track>
+                            <Track ID="260" Type="5">
+                                <TrackKey ID="0" Time="0.315625" />
+                                <TrackKey ID="1" Time="0.390625" Value="255" />
+                                <TrackKey ID="2" Time="5.1" Value="255" />
+                                <TrackKey ID="3" Time="5.25" />
+                            </Track>
+                        </Animation>
+                    </Animations>
+                </Element>
+                <Element TextureFilename="Button_Glow.jpg" Type="2" Name="Glow" ID="728" Anchor="0.012500, 0.000000" Dimension="0.642361, 0.166666" IsPassive="T" Tint="0, 0, 0, 255" BlendState="5" PixelFormat="2">
+                    <Animations>
+                        <Animation Name="KillMeterFilled">
+                            <Track ID="230" Type="4">
+                                <TrackKey ID="0" Time="0" Value="0, 0, 0, 255" />
+                                <TrackKey ID="1" Time="0.1" />
+                                <TrackKey ID="2" Time="0.45625" Value="0, 0, 0, 255" />
+                            </Track>
+                        </Animation>
+                    </Animations>
+                </Element>
+                <Element TextureFilename="Trans.png" Type="2" Name="Sparks" ID="732" Dimension="0.287501, 0.076563" IsPassive="T">
+                    <Element Type="7" Name="Spark1" ID="734" Anchor="-0.109375, 0.000000" Dimension="0.418750, 0.418750" IsPassive="T" Filename="UI_Spark.fx">
+                        <Animations>
+                            <Animation Name="KillMeterFilled">
+                                <Track ID="227" Type="8">
+                                    <TrackKey ID="0" Time="0.08125" />
+                                    <TrackKey ID="1" Time="0.4875" Value="1" />
+                                </Track>
+                            </Animation>
+                        </Animations>
+                    </Element>
+                    <Element Type="7" Name="Spark1" ID="735" Dimension="0.341667, 0.341667" IsPassive="T" Filename="UI_Spark.fx">
+                        <Animations>
+                            <Animation Name="KillMeterFilled">
+                                <Track ID="227" Type="8">
+                                    <TrackKey ID="0" Time="0.075" />
+                                    <TrackKey ID="1" Time="0.45" Value="1" />
+                                </Track>
+                            </Animation>
+                        </Animations>
+                    </Element>
+                    <Element Type="7" Name="Spark1" ID="736" Anchor="0.100000, 0.000000" Dimension="0.485417, 0.485417" IsPassive="T" Filename="UI_Spark.fx">
+                        <Animations>
+                            <Animation Name="KillMeterFilled">
+                                <Track ID="227" Type="8">
+                                    <TrackKey ID="0" Time="0.090625" />
+                                    <TrackKey ID="1" Time="0.45" Value="1" />
+                                </Track>
+                            </Animation>
+                        </Animations>
+                    </Element>
+                    <Element Type="7" Name="Spark1" ID="737" Anchor="-0.060417, 0.000000" Dimension="0.252083, 0.252083" IsPassive="T" Filename="UI_Spark.fx">
+                        <Animations>
+                            <Animation Name="KillMeterFilled">
+                                <Track ID="227" Type="8">
+                                    <TrackKey ID="0" Time="0.078125" />
+                                    <TrackKey ID="1" Time="0.45" Value="1" />
+                                </Track>
+                            </Animation>
+                        </Animations>
+                    </Element>
+                    <Element Type="7" Name="Spark1" ID="738" Dimension="0.314583, 0.314583" IsPassive="T" Filename="UI_Spark.fx">
+                        <Animations>
+                            <Animation Name="KillMeterFilled">
+                                <Track ID="227" Type="8">
+                                    <TrackKey ID="0" Time="0.084375" />
+                                    <TrackKey ID="1" Time="0.5" Value="1" />
+                                </Track>
+                            </Animation>
+                        </Animations>
+                    </Element>
+                    <Element Type="7" Name="Spark1" ID="739" Anchor="-0.077083, 0.014063" Dimension="0.287500, 0.287500" IsPassive="T" Filename="UI_Spark.fx">
+                        <Animations>
+                            <Animation Name="KillMeterFilled">
+                                <Track ID="227" Type="8">
+                                    <TrackKey ID="0" Time="0.10625" />
+                                    <TrackKey ID="1" Time="0.4875" Value="1" />
+                                </Track>
+                            </Animation>
+                        </Animations>
+                    </Element>
+                    <Element Type="7" Name="Spark1" ID="740" Anchor="0.075000, 0.009375" Dimension="0.172917, 0.172917" IsPassive="T" Filename="UI_Spark.fx">
+                        <Animations>
+                            <Animation Name="KillMeterFilled">
+                                <Track ID="227" Type="8">
+                                    <TrackKey ID="0" Time="0.1625" />
+                                    <TrackKey ID="1" Time="0.4875" Value="1" />
+                                </Track>
+                            </Animation>
+                        </Animations>
+                    </Element>
+                    <Element Type="7" Name="Spark1" ID="742" Anchor="0.090625, 0.003125" Dimension="0.418750, 0.418750" IsPassive="T" Filename="UI_Spark.fx">
+                        <Animations>
+                            <Animation Name="KillMeterFilled">
+                                <Track ID="227" Type="8">
+                                    <TrackKey ID="0" Time="0.08125" />
+                                    <TrackKey ID="1" Time="0.4875" Value="1" />
+                                </Track>
+                            </Animation>
+                        </Animations>
+                    </Element>
+                    <Element Type="7" Name="Spark1" ID="743" Dimension="0.418750, 0.418750" IsPassive="T" Filename="UI_Spark.fx">
+                        <Animations>
+                            <Animation Name="KillMeterFilled">
+                                <Track ID="227" Type="8">
+                                    <TrackKey ID="0" Time="0.08125" />
+                                    <TrackKey ID="1" Time="0.4875" Value="1" />
+                                </Track>
+                            </Animation>
+                        </Animations>
+                    </Element>
+                    <Element Type="7" Name="Spark1" ID="744" Anchor="0.047917, 0.000000" Dimension="0.418750, 0.418750" IsPassive="T" Filename="UI_Spark.fx">
+                        <Animations>
+                            <Animation Name="KillMeterFilled">
+                                <Track ID="227" Type="8">
+                                    <TrackKey ID="0" Time="0.08125" />
+                                    <TrackKey ID="1" Time="0.4875" Value="1" />
+                                </Track>
+                            </Animation>
+                        </Animations>
+                    </Element>
+                </Element>
+                <Element TextureFilename="Trans.png" Type="2" Name="Sparks" ID="745" Dimension="0.287501, 0.076563" IsPassive="T">
+                    <Element Type="7" Name="Spark1" ID="746" Anchor="-0.109375, 0.000000" Dimension="0.418750, 0.418750" IsPassive="T" Filename="UI_Spark.fx">
+                        <Animations>
+                            <Animation Name="KillMeterFilled">
+                                <Track ID="227" Type="8">
+                                    <TrackKey ID="0" Time="1.0875" />
+                                    <TrackKey ID="1" Time="1.84375" Value="1" />
+                                </Track>
+                            </Animation>
+                        </Animations>
+                    </Element>
+                    <Element Type="7" Name="Spark1" ID="747" Dimension="0.341667, 0.341667" IsPassive="T" Filename="UI_Spark.fx">
+                        <Animations>
+                            <Animation Name="KillMeterFilled">
+                                <Track ID="227" Type="8">
+                                    <TrackKey ID="0" Time="0.83125" />
+                                    <TrackKey ID="1" Time="1.36563" Value="1" />
+                                </Track>
+                            </Animation>
+                        </Animations>
+                    </Element>
+                    <Element Type="7" Name="Spark1" ID="748" Anchor="0.100000, 0.000000" Dimension="0.485417, 0.485417" IsPassive="T" Filename="UI_Spark.fx">
+                        <Animations>
+                            <Animation Name="KillMeterFilled">
+                                <Track ID="227" Type="8">
+                                    <TrackKey ID="0" Time="0.903125" />
+                                    <TrackKey ID="1" Time="1.30625" Value="1" />
+                                </Track>
+                            </Animation>
+                        </Animations>
+                    </Element>
+                    <Element Type="7" Name="Spark1" ID="749" Anchor="-0.060417, 0.000000" Dimension="0.252083, 0.252083" IsPassive="T" Filename="UI_Spark.fx">
+                        <Animations>
+                            <Animation Name="KillMeterFilled">
+                                <Track ID="227" Type="8">
+                                    <TrackKey ID="0" Time="0.9" />
+                                    <TrackKey ID="1" Time="1.67813" Value="1" />
+                                </Track>
+                            </Animation>
+                        </Animations>
+                    </Element>
+                    <Element Type="7" Name="Spark1" ID="750" Dimension="0.314583, 0.314583" IsPassive="T" Filename="UI_Spark.fx">
+                        <Animations>
+                            <Animation Name="KillMeterFilled">
+                                <Track ID="227" Type="8">
+                                    <TrackKey ID="0" Time="1.33125" />
+                                    <TrackKey ID="1" Time="1.7875" Value="1" />
+                                </Track>
+                            </Animation>
+                        </Animations>
+                    </Element>
+                    <Element Type="7" Name="Spark1" ID="751" Anchor="-0.077083, 0.014063" Dimension="0.287500, 0.287500" IsPassive="T" Filename="UI_Spark.fx">
+                        <Animations>
+                            <Animation Name="KillMeterFilled">
+                                <Track ID="227" Type="8">
+                                    <TrackKey ID="0" Time="0.9875" />
+                                    <TrackKey ID="1" Time="1.64063" Value="1" />
+                                </Track>
+                            </Animation>
+                        </Animations>
+                    </Element>
+                    <Element Type="7" Name="Spark1" ID="752" Anchor="0.075000, 0.009375" Dimension="0.172917, 0.172917" IsPassive="T" Filename="UI_Spark.fx">
+                        <Animations>
+                            <Animation Name="KillMeterFilled">
+                                <Track ID="227" Type="8">
+                                    <TrackKey ID="0" Time="1.18125" />
+                                    <TrackKey ID="1" Time="1.56875" Value="1" />
+                                </Track>
+                            </Animation>
+                        </Animations>
+                    </Element>
+                    <Element Type="7" Name="Spark1" ID="753" Anchor="0.090625, 0.003125" Dimension="0.418750, 0.418750" IsPassive="T" Filename="UI_Spark.fx">
+                        <Animations>
+                            <Animation Name="KillMeterFilled">
+                                <Track ID="227" Type="8">
+                                    <TrackKey ID="0" Time="0.978125" />
+                                    <TrackKey ID="1" Time="1.7" Value="1" />
+                                </Track>
+                            </Animation>
+                        </Animations>
+                    </Element>
+                    <Element Type="7" Name="Spark1" ID="754" Dimension="0.418750, 0.418750" IsPassive="T" Filename="UI_Spark.fx">
+                        <Animations>
+                            <Animation Name="KillMeterFilled">
+                                <Track ID="227" Type="8">
+                                    <TrackKey ID="0" Time="0.925" />
+                                    <TrackKey ID="1" Time="1.83438" Value="1" />
+                                </Track>
+                            </Animation>
+                        </Animations>
+                    </Element>
+                    <Element Type="7" Name="Spark1" ID="755" Anchor="0.047917, 0.000000" Dimension="0.418750, 0.418750" IsPassive="T" Filename="UI_Spark.fx">
+                        <Animations>
+                            <Animation Name="KillMeterFilled">
+                                <Track ID="227" Type="8">
+                                    <TrackKey ID="0" Time="1.00312" />
+                                    <TrackKey ID="1" Time="1.81562" Value="1" />
+                                </Track>
+                            </Animation>
+                        </Animations>
+                    </Element>
+                </Element>
+            </Element>
+        </Element>
+        <Element TextureFilename="Trans.png" Type="2" Name="TowerInfoGroup" ID="72" Anchor="0.500000, 0.500000" Dimension="1.000000, 1.000000" IsPassive="T" Tint="255, 255, 255, 0" ResizeBias="2" SetChildrenAlpha="T">
+            <Animations>
+                <Animation Name="ShowTowerInfo">
+                    <Track ID="1" Type="9">
+                        <TrackKey ID="0" Time="0" Value="setelementpassive TowerInfoGroup off | gametouches off | pause on | pausetime on" />
+                    </Track>
+                    <Track ID="0" Type="5">
+                        <TrackKey ID="0" Time="0" />
+                        <TrackKey ID="1" Time="0.240625" Value="255" />
+                    </Track>
+                </Animation>
+                <Animation Name="HideTowerInfo">
+                    <Track ID="0" Type="9">
+                        <TrackKey ID="0" Time="0" Value="playsound UI/In_Game/Tower_Drag_Cancel | setelementpassive TowerInfoGroup on | gametouches on" />
+                    </Track>
+                    <Track ID="1" Type="5">
+                        <TrackKey ID="0" Time="0.003125" Value="255" />
+                        <TrackKey ID="1" Time="0.253125" />
+                    </Track>
+                </Animation>
+            </Animations>
+            <Element TextureFilename="TowerNoteBox.png" Type="2" Name="PanelFrame" ID="73" Anchor="0.000000, 0.192188" Dimension="0.611688, 0.323437" IsPassive="T" Tint="255, 255, 255, 0" PixelFormat="2">
+                <Element Text="$(SelectedTowerName)" TextScale="0.7" Type="1" Name="TowerInfoTowerName" ID="634" Anchor="0.000000, 0.106250" Dimension="0.468750, 0.061487" IsPassive="T" Tint="255, 255, 255, 0" Margin="1" Tracking="-6" Leading="47" Font="StencilYellow10.asc" />
+                <Element Text="$(SelectedTowerDescription)" TextScale="0.7" Type="1" Name="TowerInfoTowerDescrip" ID="635" Anchor="0.000000, 0.023438" Dimension="0.579167, 0.115654" IsPassive="T" Tint="207, 225, 239, 0" Margin="1" Tracking="-7" Leading="38" Font="ArialWhite05.asc" />
+                <Element TextureFilename="Trans.png" Type="2" Name="TowerDamageMeter" ID="663" Anchor="0.000000, -0.106249" Dimension="0.164584, 0.100000" IsPassive="T" Tint="207, 225, 239, 0" RelativeScale="1.35">
+                    <Element TextureFilename="Trans.png" ClipChildren="T" Type="2" Name="Unveiler" ID="664" Dimension="0.135417, 0.058333" IsPassive="T" Tint="255, 255, 255, 0">
+                        <Element TextureFilename="TowerDamageSlider02.jpg" Type="2" Name="DamageGraphic" ID="665" Dimension="0.132292, 0.025000" IsPassive="T" Tint="255, 255, 255, 0" PixelFormat="2" />
+                    </Element>
+                    <Element TextureFilename="TowerDamageSlider01.jpg" Type="2" Name="DamageOverlay" ID="666" Dimension="0.132292, 0.025000" IsPassive="T" Tint="255, 255, 255, 0" PixelFormat="2" />
+                    <Element Text="$(DamageText)" TextScale="0.5" Type="1" Name="TowerInfoTowerDescription" ID="667" Anchor="0.000000, 0.020776" Dimension="0.239583, 0.033363" Visible="F" IsPassive="T" Tint="255, 255, 255, 0" Tracking="-7" Leading="38" Font="ArialWhite05.asc" />
+                    <Element Text="$(SelectedTowerDPS)" TextScale="0.4" Type="1" Name="DPSCrap" ID="708" Anchor="0.000000, 0.018114" Dimension="0.239583, 0.033363" IsPassive="T" Tint="186, 208, 226, 0" Tracking="-7" Leading="38" Font="ArialWhite05.asc" />
+                </Element>
+            </Element>
+        </Element>
+        <Element TextureFilename="Trans.png" Type="2" Name="UnitNotificationGroup" ID="98" Anchor="0.500000, 0.500000" Dimension="1.000000, 1.000000" IsPassive="T" Tint="255, 255, 255, 0" ResizeBias="2" SetChildrenAlpha="T">
+            <Animations>
+                <Animation Name="HideUnitNotification">
+                    <Track ID="0" Type="5">
+                        <TrackKey ID="0" Time="0" Value="255" />
+                        <TrackKey ID="1" Time="0.24375" />
+                    </Track>
+                    <Track ID="1" Type="9">
+                        <TrackKey ID="0" Time="0" Value="playsound UI/In_Game/Tower_Drag_Cancel | setelementpassive UnitNotificationGroup on | gametouches on | unpausefromdialog" />
+                        <TrackKey ID="1" Time="0.24375" Value="hideelement UnitSprite" />
+                    </Track>
+                </Animation>
+                <Animation Name="ShowUnitNotification">
+                    <Track ID="0" Type="9">
+                        <TrackKey ID="0" Time="0" Value="showelement UnitSprite | setelementpassive UnitNotificationButton on | setelementpassive UnitNotificationGroup off | gametouches off | pause on | pausetime on" />
+                    </Track>
+                    <Track ID="187" Type="5">
+                        <TrackKey ID="0" Time="0" />
+                        <TrackKey ID="1" Time="0.490625" Value="255" />
+                    </Track>
+                </Animation>
+            </Animations>
+            <Element PanelSkin="UnitNoteBox.asc" Type="10" Name="PanelFrame" ID="99" Anchor="0.000000, 0.246875" Dimension="0.596542, 0.214584" IsPassive="T" Tint="255, 255, 255, 0" PixelFormat="2" />
+            <Element Text="$(RunnerInfo_Name)" TextScale="0.7" Type="1" Name="UnitNoteTitle" ID="101" Anchor="0.059375, 0.289063" Dimension="0.427083, 0.067736" IsPassive="T" Tint="255, 255, 255, 0" Alignment="0" Tracking="-6" Leading="47" TranslateOnce="T" Font="StencilYellow10.asc" />
+            <Element Text="$(RunnerInfo_Description)" TextScale="0.6" Type="1" Name="UnitNoteDescription" ID="102" Anchor="0.062500, 0.232812" Dimension="0.427083, 0.073986" IsPassive="T" Tint="207, 225, 239, 0" Alignment="0" Tracking="-5" Leading="38" TranslateOnce="T" Font="ArialWhite05.asc" />
+            <Element TextureFilename="Trans.png" Type="2" Name="UnitSpriteBG" ID="615" Anchor="-0.220834, 0.246875" Dimension="0.135069, 0.186979" IsPassive="T" Tint="24, 26, 35, 0">
+                <Element Type="4" Name="UnitSprite" ID="616" Dimension="0.090278, 0.135417" IsPassive="T" Tint="255, 255, 255, 0" SpriteFilename="$(RunnerInfo_Visual)" SpriteOrientation="90" AnimationName="default" />
+            </Element>
+        </Element>
+        <Element TextureFilename="Trans.png" Type="2" Name="StreamIndicator" ID="566" Anchor="0.489650, 0.500000" Dimension="0.078125, 0.117188" IsPassive="T" Tint="255, 255, 255, 0" SetChildrenAlpha="T">
+            <Animations>
+                <Animation Name="StreamIndicatorPulse">
+                    <Track ID="299" Type="9">
+                        <TrackKey ID="0" Time="0.978125" Value="playuianimation StreamIndicatorPulse" />
+                    </Track>
+                </Animation>
+                <Animation Name="StreamIndicatorOn">
+                    <Track ID="296" Type="5">
+                        <TrackKey ID="0" Time="0" />
+                        <TrackKey ID="1" Time="0.35" Value="255" />
+                    </Track>
+                    <Track ID="298" Type="9">
+                        <TrackKey ID="0" Time="0.35" Value="playuianimation StreamIndicatorPulse" />
+                    </Track>
+                </Animation>
+                <Animation Name="StreamIndicatorOff">
+                    <Track ID="297" Type="5">
+                        <TrackKey ID="0" Time="0" Value="255" />
+                        <TrackKey ID="1" Time="0.23125" />
+                    </Track>
+                </Animation>
+            </Animations>
+            <Element TextureFilename="ArrowEnemy.jpg" Type="2" Name="Arrow" ID="761" Anchor="-0.005208, 0.000000" Dimension="0.052083, 0.078125" IsPassive="T" Tint="255, 255, 255, 0" PixelFormat="2">
+                <Animations>
+                    <Animation Name="StreamIndicatorPulse">
+                        <Track ID="301" Type="3">
+                            <TrackKey ID="0" Time="0" Value="0.062500, 0.093750" />
+                            <TrackKey ID="1" Time="0.5" Value="0.051389, 0.077083" />
+                            <TrackKey ID="2" Time="0.99375" Value="0.062500, 0.093750" />
+                        </Track>
+                        <Track ID="308" Type="1">
+                            <TrackKey ID="0" Time="0" />
+                            <TrackKey ID="1" Time="0.1" Value="-0.000935, 0.000000" />
+                            <TrackKey ID="2" Time="0.403125" Value="-0.009124, 0.000000" />
+                            <TrackKey ID="3" Time="0.496875" Value="-0.010417, 0.000000" />
+                            <TrackKey ID="4" Time="0.59375" Value="-0.009195, 0.000000" />
+                            <TrackKey ID="5" Time="0.896875" Value="-0.001337, 0.000000" />
+                            <TrackKey ID="6" Time="0.99375" />
+                        </Track>
+                    </Animation>
+                    <Animation Name="StreamIndicatorOn">
+                        <Track ID="303" Type="3">
+                            <TrackKey ID="0" Time="0" Value="0.062500, 0.093750" />
+                            <TrackKey ID="1" Time="0.25" Value="0.062500, 0.093750" />
+                        </Track>
+                        <Track ID="309" Type="1">
+                            <TrackKey ID="0" Time="0" Value="-0.010417, 0.000000" />
+                            <TrackKey ID="1" Time="0.25" />
+                        </Track>
+                    </Animation>
+                    <Animation Name="StreamIndicatorOff">
+                        <Track ID="307" Type="3">
+                            <TrackKey ID="0" Time="0" Value="0.062500, 0.093750" />
+                            <TrackKey ID="1" Time="0.234375" Value="0.052083, 0.078125" />
+                        </Track>
+                        <Track ID="310" Type="1">
+                            <TrackKey ID="0" Time="0" />
+                            <TrackKey ID="1" Time="0.240625" Value="-0.005208, 0.000000" />
+                        </Track>
+                    </Animation>
+                </Animations>
+            </Element>
+        </Element>
+    </FormRoot>
+    <AnimationTriggers>
+        <AnimationTrigger Event="Touch Clicked (UI Only)" Data="22" Animation="SellCommand" />
+        <AnimationTrigger Event="Touch Clicked (UI Only)" Data="5" Animation="OptionsTrigger" />
+        <AnimationTrigger Event="Touch Clicked (UI Only)" Data="293" Animation="UpgradeCommand" />
+        <AnimationTrigger Event="Touch Clicked (UI Only)" Data="292" Animation="SellCommand" />
+        <AnimationTrigger Event="Touch Clicked (UI Only)" Data="24" Animation="InfoCommand" />
+        <AnimationTrigger Event="Touch Clicked (UI Only)" Data="72" Animation="HideTowerInfo" />
+        <AnimationTrigger Event="Touch Clicked (UI Only)" Data="98" Animation="HideUnitNotification" />
+        <AnimationTrigger Event="Touch Clicked (UI Only)" Data="529" Animation="AirstrikeStart" />
+        <AnimationTrigger Event="Health Decreased" Data="1073741824" Animation="HealthLoss" />
+        <AnimationTrigger Event="Touch Clicked (UI Only)" Data="643" Animation="AirstrikeStart" />
+        <AnimationTrigger Event="Button Pressed (UI Only)" Data="643" Animation="AirstrikePressed" />
+        <AnimationTrigger Event="Button Depressed (UI Only)" Data="643" Animation="AirstrikeDepressed" />
+    </AnimationTriggers>
+    <ResetOnReplayAnimations>
+        <ResetReplayAnimation Name="SelectWeapon" />
+        <ResetReplayAnimation Name="SelectWeaponBottom" />
+        <ResetReplayAnimation Name="SelectWeaponRight" />
+        <ResetReplayAnimation Name="SelectWeaponTop" />
+        <ResetReplayAnimation Name="DeselectWeaponBottom" />
+        <ResetReplayAnimation Name="DeselectWeaponRight" />
+        <ResetReplayAnimation Name="DeselectWeaponTop" />
+        <ResetReplayAnimation Name="DeselectWeapon" />
+    </ResetOnReplayAnimations>
+</Form>

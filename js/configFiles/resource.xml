@@ -1,0 +1,238 @@
+<?xml version="1.0"?>
+<resource>
+	<!-- 
+	  e.g
+		<version value="1"/> 
+		<resource name="xxx.swf" file="xxx.swf" type="swf" />
+		<resource name="yyy.swf" file="yyy.swf" type="swf" version="2" />
+	  
+	  resource结点内的version，如果比version中value值高，就不用缓存强制更新，上例就是要把yyy.swf单独更新	  
+	  升版本号的规则
+	  一般升version结点中的，如果有个别文件更新，再在resource里面加version(不加默认用version结点的)
+	-->
+	<version value="88"/>
+	<!--
+	resource	   
+	-->
+	<module name="UI界面" filecount="" filesize="">
+		<!-- battle ui -->
+		<resource name="ui/battle/battle_ui.xml" file="ui/battle/battle_ui.xml" type="xml" version="118" />
+		<resource name="ui/battle/challenge_ui.xml" file="ui/battle/challenge_ui.xml" type="xml" version="122" />
+		<resource name="ui/battle/minecraft_ui.xml" file="ui/battle/minecraft_ui.xml" type="xml" version="118" />
+		<!-- global ui -->
+		<resource name="ui/global/global_ui.xml" file="ui/global/global_ui.xml" type="xml" version="118" />
+		<resource name="ui/global/hero_ui.xml" file="ui/global/hero_ui.xml" type="xml" version="118" />
+		<resource name="ui/global/itembag_ui.xml" file="ui/global/itembag_ui.xml" type="xml" version="118" />
+		<resource name="ui/global/friendpanel_ui.xml" file="ui/global/friendpanel_ui.xml" type="xml" version="118" />
+		<resource name="ui/global/legion_ui.xml" file="ui/global/legion_ui.xml" type="xml" version="118" />
+		<resource name="ui/global/battlereport_ui.xml" file="ui/global/battlereport_ui.xml" type="xml" version="118" />
+		<!-- city ui -->
+		<resource name="ui/city/city_scene.xml" file="ui/city/city_scene.xml" type="xml" version="118" />
+		<resource name="ui/city/skybox.xml" file="ui/city/skybox.xml" type="xml" version="118" />
+		<resource name="ui/city/castle_ui.xml" file="ui/city/castle_ui.xml" type="xml" version="118" />
+		<resource name="ui/city/house_ui.xml" file="ui/city/house_ui.xml" type="xml" version="118" />
+		<resource name="ui/city/barrack_ui.xml" file="ui/city/barrack_ui.xml" type="xml" version="118" />
+		<resource name="ui/city/church_ui.xml" file="ui/city/church_ui.xml" type="xml" version="118" />
+		<resource name="ui/city/tavern_ui.xml" file="ui/city/tavern_ui.xml" type="xml" version="118" />
+		<resource name="ui/city/building_ui.xml" file="ui/city/building_ui.xml" type="xml" version="118" />
+		<resource name="ui/city/weaponshop_ui.xml" file="ui/city/weaponshop_ui.xml" type="xml" version="118" />
+		<resource name="ui/city/armorshop_ui.xml" file="ui/city/armorshop_ui.xml" type="xml" version="118" />
+		<resource name="ui/city/trainingfield_ui.xml" file="ui/city/trainingfield_ui.xml" type="xml" version="118" />
+		<resource name="ui/city/recycleequip_ui.xml" file="ui/city/recycleequip_ui.xml" type="xml" version="118" />
+	</module>
+	<module name="配置数据" filecount="" filesize="">
+		<!-- global data --> 
+		<resource name="config/instance/instance.xml" file="config/instance/instance.xml" type="xml" version="118" />
+		<resource name="config/global/local.xml" file="config/global/local.xml" type="xml" version="118"/>
+		<resource name="config/global/item_config.xml" file="config/global/item_config.xml" type="xml" version="122" />
+		<resource name="config/global/vip.xml" file="config/global/vip.xml" type="xml" version="120" />
+		<resource name="config/global/wish.xml" file="config/global/wish.xml" type="xml" version="118" />
+		<resource name="config/global/language.xml" file="config/global/language.xml" type="xml" version="121" />
+		<resource name="config/global/normal.xml" file="config/global/normal.xml" type="xml" version="120" />
+		<!-- city data -->
+		<resource name="config/city/castle_config.xml" file="config/city/castle_config.xml" type="xml" version="121" />
+		<resource name="config/city/mapnpc.xml" file="config/city/mapnpc.xml" type="xml" version="118" />
+		<resource name="config/city/party.xml" file="config/city/party.xml" type="xml" version="118" />
+		<resource name="config/city/recycleequip_config.xml" file="config/city/recycleequip_config.xml" type="xml" version="118" />
+		<resource name="config/city/building.xml" file="config/city/building.xml" type="xml" version="118" />
+		<resource name="config/city/bank_config.xml" file="config/city/bank_config.xml" type="xml" version="118" />
+		<resource name="config/city/build_work_config.xml" file="config/city/build_work_config.xml" type="xml" version="118" />
+		<resource name="config/city/trainingfield_config.xml" file="config/city/trainingfield_config.xml" type="xml" version="118" />
+		<!-- battle data -->
+		<resource name="config/battle/magic_config.xml" file="config/battle/magic_config.xml" type="xml" version="118" />
+		<resource name="config/battle/advantage.xml" file="config/battle/advantage.xml" type="xml" version="118" />
+		<resource name="config/battle/legion_config.xml" file="config/battle/legion_config.xml" type="xml" version="118" />
+		<resource name="config/battle/troop_ability.xml" file="config/battle/troop_ability.xml" type="xml" version="118" />
+		<resource name="config/battle/troop_config.xml" file="config/battle/troop_config.xml" type="xml" version="121" />
+		<resource name="config/battle/challenge_config.xml" file="config/battle/challenge_config.xml" type="xml" version="122" />
+		<resource name="config/battle/hero_config.xml" file="config/battle/hero_config.xml" type="xml" version="120" />
+		<resource name="config/battle/superhero.xml" file="config/battle/superhero.xml" type="xml" version="120" />
+		<resource name="config/battle/hero.xml" file="config/battle/hero.xml" type="xml" version="122" />
+		<resource name="config/battle/skill_config.xml" file="config/battle/skill_config.xml" type="xml" version="120" />
+		<resource name="config/battle/importskill.xml" file="config/battle/importskill.xml" type="xml" version="118" />
+		<resource name="config/battle/importdropitem.xml" file="config/battle/importdropitem.xml" type="xml" version="118" />
+		<resource name="config/battle/weapon_equip_config.xml" file="config/battle/weapon_equip_config.xml" type="xml" version="121" />
+		<resource name="config/battle/armor_equip_config.xml" file="config/battle/armor_equip_config.xml" type="xml" version="121" />
+		<resource name="config/battle/minecraft_config.xml" file="config/battle/minecraft_config.xml" type="xml" version="118" />
+		<resource name="config/battle/herotrain.xml" file="config/battle/herotrain.xml" type="xml" version="118" />
+		<!-- effect data --> 
+		<!--
+		<resource name="config/effect/effect_heavy_rain.xml" file="config/effect/effect_heavy_rain.xml" type="xml" />
+		<resource name="config/effect/effect_rain.xml" file="config/effect/effect_rain.xml" type="xml" />
+		<resource name="config/effect/effect_snow.xml" file="config/effect/effect_snow.xml" type="xml" />
+		<resource name="config/effect/effect_build_lvup.xml" file="config/effect/effect_build_lvup.xml" type="xml" />
+		<resource name="config/effect/effect_morale_up.xml" file="config/effect/effect_morale_up.xml" type="xml" />
+		<resource name="config/effect/effect_funny.xml" file="config/effect/effect_funny.xml" type="xml" /> 
+		-->
+		<!-- mission data -->
+		<resource name="config/mission/mission.xml" file="config/mission/mission.xml" type="xml" version="121" />
+		<resource name="config/guide/guide.xml" file="config/guide/guide.xml" type="xml" version="118" />
+		<resource name="config/share/share.xml" file="config/share/share.xml" type="xml" version="118" />
+		<resource name="config/achivement/achivement.xml" file="config/achivement/achivement.xml" type="xml" version="118" />
+	</module>
+	<module name="音乐音效" filecount="" filesize="">
+		<!--
+		<resource name="logo_bgm.mp3" file="logo_bgm.mp3" type="mp3"/>
+		<resource name="battle_bgm.mp3" file="battle_bgm.mp3" type="mp3"/>
+		<resource name="challenge_map_bgm.mp3" file="challenge_map_bgm.mp3" type="mp3"/>
+		<resource name="map_bgm.mp3" file="map_bgm.mp3" type="mp3"/>		
+		-->		
+		<!--
+		<resource name="battle_failed.mp3" file="battle_failed.mp3" type="mp3"/>
+		<resource name="battle_start.mp3" file="battle_start.mp3" type="mp3"/>
+		<resource name="battle_succeed.mp3" file="battle_succeed.mp3" type="mp3"/>
+		<resource name="build.mp3" file="build.mp3" type="mp3"/>
+		<resource name="construct_complete.mp3" file="construct_complete.mp3" type="mp3"/>
+		<resource name="error.mp3" file="error.mp3" type="mp3"/>
+		<resource name="message_notice.mp3" file="message_notice.mp3" type="mp3"/>
+		<resource name="use_item.mp3" file="use_item.mp3" type="mp3"/>
+		<resource name="gain_item.mp3" file="gain_item.mp3" type="mp3"/>
+		<resource name="accel_item.mp3" file="accel_item.mp3" type="mp3"/>
+		<resource name="harvest_coin.mp3" file="harvest_coin.mp3" type="mp3"/>
+		<resource name="harvest_population.mp3" file="harvest_population.mp3" type="mp3"/>
+		<resource name="harvest_soldier.mp3" file="harvest_soldier.mp3" type="mp3"/>
+		<resource name="level_up.mp3" file="level_up.mp3" type="mp3"/>
+		<resource name="mission_complete.mp3" file="mission_complete.mp3" type="mp3"/>
+		<resource name="mouse_rollover.mp3" file="mouse_rollover.mp3" type="mp3"/>
+		<resource name="npc_caskdrop.mp3" file="npc_caskdrop.mp3" type="mp3"/>
+		<resource name="npc_pull.mp3" file="npc_pull.mp3" type="mp3"/>
+		<resource name="npc_swing.mp3" file="npc_swing.mp3" type="mp3"/>
+		<resource name="drop_coin.mp3" file="drop_coin.mp3" type="mp3"/>
+		<resource name="puton.mp3" file="puton.mp3" type="mp3"/>
+		<resource name="tavern.mp3" file="tavern.mp3" type="mp3"/>
+		-->
+		<!--
+		<resource name="npc/npc07_scream.mp3" file="npc/npc07_scream.mp3" type="mp3"/>
+		<resource name="npc/npc09_scream.mp3" file="npc/npc09_scream.mp3" type="mp3"/>
+		<resource name="npc/npc11_scream.mp3" file="npc/npc11_scream.mp3" type="mp3"/>
+		<resource name="npc/npc13_scream.mp3" file="npc/npc13_scream.mp3" type="mp3"/>
+		<resource name="npc/npc15_scream.mp3" file="npc/npc15_scream.mp3" type="mp3"/>
+		<resource name="npc/npc17_scream.mp3" file="npc/npc17_scream.mp3" type="mp3"/>
+		<resource name="npc/npc19_scream.mp3" file="npc/npc19_scream.mp3" type="mp3"/>
+		<resource name="npc/npc21_scream.mp3" file="npc/npc21_scream.mp3" type="mp3"/>	
+		<resource name="npc/npc23_scream.mp3" file="npc/npc23_scream.mp3" type="mp3"/>
+		<resource name="npc/npc27_scream.mp3" file="npc/npc27_scream.mp3" type="mp3"/>
+		<resource name="npc/npc29_scream.mp3" file="npc/npc29_scream.mp3" type="mp3"/>
+		<resource name="npc/dog.mp3" file="npc/dog.mp3" type="mp3"/>
+		<resource name="npc/goose.mp3" file="npc/goose.mp3" type="mp3"/>
+		<resource name="npc/hen.mp3" file="npc/hen.mp3" type="mp3"/>
+		
+		<resource name="pounding_iron.mp3" file="pounding_iron.mp3" type="mp3"/>
+		<resource name="eagle.mp3" file="eagle.mp3" type="mp3"/>
+		<resource name="" file="skill/attack.mp3" type="mp3"/>
+		<resource name="" file="skill/hurt.mp3" type="mp3"/>
+		<resource name="" file="skill/sword.mp3" type="mp3"/>
+		<resource name="" file="skill/shooting.mp3" type="mp3"/>
+		<resource name="" file="skill/riding.mp3" type="mp3"/>
+		<resource name="" file="skill/spear.mp3" type="mp3"/>
+		<resource name="" file="skill/magic.mp3" type="mp3"/>
+		<resource name="" file="skill/skill_1.mp3" type="mp3"/>
+		<resource name="" file="skill/skill_2.mp3" type="mp3"/>
+		<resource name="" file="skill/skill_4.mp3" type="mp3"/>
+		<resource name="" file="skill/skill_6.mp3" type="mp3"/>
+		<resource name="" file="skill/skill_8.mp3" type="mp3"/>
+		<resource name="" file="skill/skill_10.mp3" type="mp3"/>
+		<resource name="" file="skill/skill_12.mp3" type="mp3"/>
+		<resource name="" file="skill/skill_14.mp3" type="mp3"/>
+		<resource name="" file="skill/skill_15.mp3" type="mp3"/>
+		<resource name="" file="skill/skill_16.mp3" type="mp3"/>
+		<resource name="" file="skill/skill_19.mp3" type="mp3"/>
+		<resource name="" file="skill/skill_21.mp3" type="mp3"/>
+		<resource name="" file="skill/skill_22.mp3" type="mp3"/>
+		<resource name="" file="skill/skill_25.mp3" type="mp3"/>
+		<resource name="" file="skill/skill_29.mp3" type="mp3"/>
+		<resource name="" file="skill/skill_31.mp3" type="mp3"/>
+		<resource name="" file="skill/skill_35.mp3" type="mp3"/>
+		<resource name="" file="skill/skill_36.mp3" type="mp3"/>
+		<resource name="" file="skill/skill_37.mp3" type="mp3"/>
+		<resource name="" file="skill/skill_38.mp3" type="mp3"/>
+		<resource name="" file="skill/skill_39.mp3" type="mp3"/>
+		-->
+	</module>	
+	<module name="图形资源" filecount="" filesize="">
+		<resource name="" file="loading-icon.swf" type="swf" version="118"/>
+		<resource name="ui_cn.swf" file="ui_cn.swf" type="swf" version="122"/>
+		<resource name="" file="default_hero.swf" type="swf" version="118"/>
+		<resource name="" file="default_icon.swf" type="swf" version="118"/>
+		<resource name="" file="default_tinyicon.swf" type="swf" version="118"/>
+		<resource name="" file="default_weapon.swf" type="swf" version="118"/>
+		<resource name="" file="default_armor.swf" type="swf" version="118"/>
+		
+		<resource name="building/cloud1.swf" file="building/cloud1.swf" type="swf" version="118"/>
+		<resource name="building/cloud2.swf" file="building/cloud2.swf" type="swf" version="118"/>
+		<resource name="building/cloud3.swf" file="building/cloud3.swf" type="swf" version="118"/>
+		<resource name="building/cloud4.swf" file="building/cloud4.swf" type="swf" version="118"/>		
+		<resource name="building/armorshop.swf" file="building/armorshop.swf" type="swf" version="118"/>
+		<resource name="building/barrack.swf" file="building/barrack.swf" type="swf" version="118"/>
+		<resource name="building/castle.swf" file="building/castle.swf" type="swf" version="118"/>
+		<resource name="building/church.swf" file="building/church.swf" type="swf" version="118"/>
+		<resource name="building/cityscene.swf" file="building/cityscene.swf" type="swf" version="118"/>
+		<resource name="building/house.swf" file="building/house.swf" type="swf" version="118"/>
+		<resource name="building/market.swf" file="building/market.swf" type="swf" version="118"/>
+		<resource name="building/prison.swf" file="building/prison.swf" type="swf" version="118"/>
+		<resource name="building/store.swf" file="building/store.swf" type="swf" version="118"/>
+		<resource name="building/tavern.swf" file="building/tavern.swf" type="swf" version="118"/>
+		<resource name="building/trainingfield.swf" file="building/trainingfield.swf" type="swf" version="118"/>
+		<resource name="building/weaponshop.swf" file="building/weaponshop.swf" type="swf" version="118"/>
+		<resource name="building/field.swf" file="building/field.swf" type="swf" version="118"/> 
+		
+		<resource name="ectype.swf" file="ectype.swf" type="swf" version="118"/> 		
+		
+		<!--<resource name="map/map_1_bg.swf" file="map/map_1_bg.swf" type="swf" version="106"/>-->
+		<!--<resource name="map/island_1_map_bg.swf" file="map/island_1_map_bg.swf" type="swf" version="106"/>-->
+		<!--<resource name="windows_cn.swf" file="windows_cn.swf" type="swf" version="107"/>-->
+		<!--<resource name="windows_1.swf" file="windows_1.swf" type="swf" version="108"/>-->
+		<resource name="arm_map.swf" file="arm_map.swf" type="swf" version="118"/>
+		<resource name="map.swf" file="map.swf" type="swf" version="122"/>
+		<resource name="battleskill.swf" file="battleskill.swf" type="swf" version="118"/>
+		<resource name="soldier.swf" file="soldier.swf" type="swf" version="118"/>
+		<resource name="monster.swf" file="monster.swf" type="swf" version="118"/>
+		<resource name="NPC.swf" file="NPC.swf" type="swf" version="118"/>
+		<resource name="vip_ui.swf" file="vip_ui.swf" type="swf" version="118"/>
+		<resource name="christmas.swf" file="christmas.swf" type="swf" version="118"/>
+		<resource name="hero.swf" file="hero.swf" type="swf" version="118"/>
+		<!--<resource name="heroD.swf" file="heroD.swf" type="swf" version="118"/>-->	
+		<resource name="grow.swf" file="grow.swf" type="swf" version="118"/>
+		<!--<resource name="shop.swf" file="shop.swf" type="swf" version="118"/>-->
+		<resource name="weapon.swf" file="weapon.swf" type="swf" version="121"/>
+		<!--<resource name="hero_legion.swf" file="hero_legion.swf" type="swf" version="118"/>-->
+		<resource name="minecraft.swf" file="minecraft.swf" type="swf" version="120"/>
+		<resource name="icon.swf" file="icon.swf" type="swf" version="122"/>
+		<resource name="01.png" file="01.png" type="png" version="118"/>
+		<resource name="rain.png" file="rain.png" type="png" version="118"/>
+		<resource name="snow.png" file="snow.png" type="png" version="118"/>
+		<resource name="star.png" file="star.png" type="png" version="118"/>
+	</module>
+	  <movie name="gamestory1.swf" version="122"/>
+		<movie name="title_b.swf" version="122"/>
+		<movie name="mission1.swf" version="122"/>
+		<movie name="mission2.swf" version="122"/> 
+		<movie name="mission3.swf" version="122"/>
+		<movie name="mission4.swf" version="122"/>
+		
+	<!--<dynamic version="108" resource="" swf="" version="" />-->
+
+	
+
+
+</resource>

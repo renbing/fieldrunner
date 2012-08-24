@@ -1,0 +1,60 @@
+<!--Copyright 2012 Subatomic Studios, LLC. All rights reserved.-->
+<Form Name="" BasePlatform="2" Version="74" FormType="2">
+    <FormRoot Name="Element">
+        <Element TextureFilename="BGBlack.png" Type="2" Name="Dimmer" ID="19" Anchor="0.500000, 0.500000" Dimension="1.000000, 1.000000" Tint="255, 255, 255, 0" ResizeBias="2" MaximumAlpha="128">
+            <Animations>
+                <Animation Name="FormEntry">
+                    <Track ID="2" Type="5">
+                        <TrackKey ID="0" Time="0" />
+                        <TrackKey ID="1" Time="0.234375" Value="188" />
+                    </Track>
+                </Animation>
+            </Animations>
+        </Element>
+        <Element PanelSkin="UnitNoteBox.asc" Type="10" Name="EntryPanel" ID="2" Anchor="0.497917, 0.571875" Dimension="0.633333, 0.270834" Tint="255, 255, 255, 0" Margin="1" PixelFormat="2">
+            <Animations>
+                <Animation Name="FormExit">
+                    <Track ID="1" Type="9">
+                        <TrackKey ID="0" Time="0" Value="popform | pushform VictoryNotification.form" />
+                    </Track>
+                </Animation>
+                <Animation Name="FormEntry">
+                    <Track ID="0" Type="9">
+                        <TrackKey ID="0" Time="0" Value="pause on | playsound UI/In_Game/Victory_Cheer" />
+                    </Track>
+                    <Track ID="3" Type="5">
+                        <TrackKey ID="0" Time="0" />
+                        <TrackKey ID="1" Time="0.228125" Value="255" />
+                    </Track>
+                </Animation>
+            </Animations>
+            <Element Text="$(TutorialOutroText)" TextScale="0.7" Type="1" Name="Text" ID="3" Anchor="0.067708, 0.046875" Dimension="0.416667, 0.101070" IsPassive="T" Tint="205, 220, 230, 0" SetChildrenAlpha="T" Alignment="0" Tracking="-7" Leading="38" Font="ArialWhite05.asc">
+                <Animations>
+                    <Animation Name="FormEntry">
+                        <Track ID="4" Type="5">
+                            <TrackKey ID="0" Time="0" />
+                            <TrackKey ID="1" Time="0.2375" Value="255" />
+                        </Track>
+                    </Animation>
+                </Animations>
+                <Element Text="$(TapToContinue)" TextScale="0.6" Type="1" Name="Tap To Continue..." ID="14" Anchor="0.042708, -0.140103" Dimension="0.371812, 0.032320" IsPassive="T" Tint="205, 220, 230, 0" Alignment="2" Tracking="-7" Leading="38" Font="ArialWhite05.asc" TextEffect="AlphaPulse" />
+            </Element>
+            <Element TextureFilename="ShellStar.png" Type="2" Name="Image" ID="18" Anchor="-0.228125, 0.010938" Dimension="0.119444, 0.179167" IsPassive="T" Tint="255, 255, 255, 0" PixelFormat="2" Dithered="T">
+                <Animations>
+                    <Animation Name="FormEntry">
+                        <Track ID="5" Type="5">
+                            <TrackKey ID="0" Time="0" />
+                            <TrackKey ID="1" Time="0.246875" Value="255" />
+                        </Track>
+                    </Animation>
+                </Animations>
+            </Element>
+        </Element>
+        <Element TextureFilename="Trans.png" Type="2" Name="VictoryClick" ID="17" Anchor="0.500000, 0.500000" Dimension="1.000000, 1.000000" ResizeBias="2" />
+    </FormRoot>
+    <AnimationTriggers>
+        <AnimationTrigger Event="Touches Ended (UI Only)" Data="2" Animation="FormExit" />
+        <AnimationTrigger Event="Form Activated (UI Only)" Data="1073741824" Animation="FormEntry" />
+        <AnimationTrigger Event="Touches Ended (UI Only)" Data="17" Animation="FormExit" />
+    </AnimationTriggers>
+</Form>

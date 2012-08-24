@@ -1,0 +1,209 @@
+<!--Copyright 2012 Subatomic Studios, LLC. All rights reserved.-->
+<Form Name="" BasePlatform="2" Version="72" FormType="2" ClassType="22">
+    <FormRoot Name="Element">
+        <Element TextureFilename="BGBlack.png" Type="2" Name="BGTint" ID="103" Anchor="0.500000, 0.500000" Dimension="1.093750, 1.037500" Tint="255, 255, 255, 0" ResizeBias="0">
+            <Animations>
+                <Animation Name="ContinueTrigger">
+                    <Track ID="19" Type="5">
+                        <TrackKey ID="0" Time="0" Value="185" />
+                        <TrackKey ID="1" Time="0.178125" />
+                    </Track>
+                </Animation>
+                <Animation Name="OpenForm">
+                    <Track ID="12" Type="5">
+                        <TrackKey ID="0" Time="0" />
+                        <TrackKey ID="1" Time="0.146875" Value="185" />
+                    </Track>
+                </Animation>
+            </Animations>
+        </Element>
+        <Element TextureFilename="ScreenShadow.png" Type="2" Name="FrameShadow" ID="246" Anchor="0.500000, 0.500000" Dimension="1.516667, 1.516666" IsPassive="T" BlendState="3" ResizeBias="0">
+            <Animations>
+                <Animation Name="ContinueTrigger">
+                    <Track ID="21" Type="3">
+                        <TrackKey ID="0" Time="0" Value="1.000000, 1.000000" />
+                        <TrackKey ID="1" Time="0.171875" Value="1.945833, 1.945833" />
+                    </Track>
+                </Animation>
+                <Animation Name="OpenForm">
+                    <Track ID="11" Type="3">
+                        <TrackKey ID="0" Time="0" Value="1.516667, 1.516666" />
+                        <TrackKey ID="1" Time="0.240625" Value="1.000000, 1.000000" />
+                    </Track>
+                </Animation>
+            </Animations>
+        </Element>
+        <Element Type="2" Name="PauseMenu" ID="3" Anchor="0.500000, -0.423437" Dimension="0.419792, 0.731771" IsPassive="T" Tint="255, 255, 255, 0" Expansion="0.000000, 1.000000" Margin="1">
+            <Animations>
+                <Animation Name="quittutorial">
+                    <Track ID="17" Type="9">
+                        <TrackKey ID="0" Time="0" Value="removeinactiveforms | setform Loading.form MainMenu.form  preloadForms shell" />
+                    </Track>
+                </Animation>
+                <Animation Name="ContinueTrigger">
+                    <Track ID="18" Type="1">
+                        <TrackKey ID="0" Time="0" Value="0.500000, 0.498438" />
+                        <TrackKey ID="1" Time="0.24375" Value="0.500000, -0.334375" />
+                    </Track>
+                </Animation>
+                <Animation Name="PauseMusic">
+                    <Track ID="58" Type="9">
+                        <TrackKey ID="0" Time="0" Value="pausemusic on 500" />
+                    </Track>
+                </Animation>
+                <Animation Name="OpenForm">
+                    <Track ID="10" Type="9">
+                        <TrackKey ID="0" Time="0" Value="pausemusic on 500" />
+                    </Track>
+                    <Track ID="13" Type="1">
+                        <TrackKey ID="0" Time="0.159375" Value="0.500000, -0.423437" />
+                        <TrackKey ID="1" Time="0.35" Value="0.500000, 0.519889" />
+                        <TrackKey ID="2" Time="0.4125" Value="0.500000, 0.498438" />
+                    </Track>
+                </Animation>
+                <Animation Name="quit">
+                    <Track ID="16" Type="9">
+                        <TrackKey ID="0" Time="0" Value="removeinactiveforms | setform Loading.form WorldMap.form  preloadForms shell" />
+                    </Track>
+                </Animation>
+            </Animations>
+            <Element TextureFilename="MetalPole.png" Type="2" Name="Panel::229" ID="233" Anchor="0.068750, -0.039062" Dimension="0.058333, 0.723959" IsPassive="T" MirrorMode="1">
+                <Element TextureFilename="pause_chain.png" Type="2" Name="Panel::292" ID="292" Anchor="0.000000, -0.473437" Dimension="0.035655, 0.220833" />
+            </Element>
+            <Element TextureFilename="MetalPole.png" Type="2" Name="Panel::229" ID="229" Anchor="-0.068750, -0.039062" Dimension="0.058333, 0.723959" IsPassive="T" MirrorMode="1">
+                <Element TextureFilename="pause_chain.png" Type="2" Name="Panel::292" ID="293" Anchor="0.000000, -0.473437" Dimension="0.035655, 0.220833" />
+            </Element>
+            <Element TextureFilename="Trans.png" Type="2" Name="Continue" ID="4" Anchor="-0.005208, 0.239063" Dimension="0.260417, 0.090625" IsPassive="T" Expansion="0.000000, 1.000000">
+                <Element TextureFilename="OptionsButtonShadow.png" Type="2" Name="ButtonShadow" ID="122" Anchor="-0.002083, -0.018750" Dimension="0.293750, 0.163541" IsPassive="T" BlendState="3" />
+                <Element TextureFilename="Trans.png" Type="2" Name="Structure" ID="7" Dimension="0.312500, 0.170312" IsPassive="T">
+                    <Element TextureFilename="Joint02.png" Type="2" Name="Right" ID="8" Anchor="0.122917, 0.001563" Dimension="0.025000, 0.096875" IsPassive="T" MirrorMode="1" />
+                    <Element TextureFilename="Joint02.png" Type="2" Name="Left" ID="206" Anchor="-0.122917, 0.001563" Dimension="0.025000, 0.096875" IsPassive="T" />
+                </Element>
+                <Element PressedTextureFilename="Button07_Pressed.png" HighlightedTextureFilename="Button07_Glow.png" TextureFilename="Button07.png" Type="3" Name="ContinueButton" ID="13" Dimension="0.234375, 0.134375" Expansion="0.000000, 0.359000" HorizontalScale="1.07111" VerticalScale="1.2093">
+                    <Animations>
+                        <Animation Name="ContinueCommand">
+                            <Track ID="56" Type="9">
+                                <TrackKey ID="0" Time="0" Value="playuianimation ContinueTrigger" />
+                                <TrackKey ID="1" Time="0.25" Value="pausemusic off 500 | popform | togglehud | gametouches on" />
+                            </Track>
+                        </Animation>
+                    </Animations>
+                    <SoundMapRoot>
+                        <SoundEvent EventTrigger="Touches Began (UI Only)" SoundEventFullPath="UI/Menu/Button_Press_Down" />
+                        <SoundEvent EventTrigger="Touches Ended (UI Only)" SoundEventFullPath="UI/Menu/Button_Press_Back" />
+                    </SoundMapRoot>
+                </Element>
+                <Element Text="$(ResumeText)" TextScale="0.8" Type="1" Name="ContinueLabel" ID="16" Dimension="0.218844, 0.059404" IsPassive="T" Tracking="-11" Leading="47" Font="StencilYellow10.asc" />
+            </Element>
+            <Element TextureFilename="Trans.png" Type="2" Name="Restart" ID="123" Anchor="-0.005208, 0.050000" Dimension="0.260417, 0.090625" IsPassive="T" Expansion="0.000000, 1.000000">
+                <Element TextureFilename="OptionsButtonShadow.png" Type="2" Name="ButtonShadow" ID="268" Anchor="0.004167, -0.023438" Dimension="0.295834, 0.163541" IsPassive="T" BlendState="3" />
+                <Element TextureFilename="Trans.png" Type="2" Name="Structure" ID="271" Dimension="0.312500, 0.170312" IsPassive="T">
+                    <Element TextureFilename="Joint02.png" Type="2" Name="Right" ID="273" Anchor="0.122917, 0.001563" Dimension="0.025000, 0.096875" IsPassive="T" MirrorMode="1" />
+                    <Element TextureFilename="Joint02.png" Type="2" Name="Left" ID="276" Anchor="-0.122917, 0.001563" Dimension="0.025000, 0.096875" IsPassive="T" />
+                </Element>
+                <Element PressedTextureFilename="Button08_Pressed.png" HighlightedTextureFilename="Button07_Glow.png" TextureFilename="Button08.png" Type="3" Name="RestartButton" ID="138" Dimension="0.234375, 0.134375" Expansion="0.000000, 0.436000" HorizontalScale="1.07111" VerticalScale="1.2093">
+                    <Animations>
+                        <Animation Name="RestartCommand">
+                            <Track ID="57" Type="9">
+                                <TrackKey ID="0" Time="0" Value="playuianimation ContinueTrigger" />
+                                <TrackKey ID="1" Time="0.25" Value="removeInactiveForms | setForm Loading.form  HUD.form  reloadMap  postload startGame | gametouches on" />
+                            </Track>
+                        </Animation>
+                        <Animation Name="RestartTrigger">
+                            <Track ID="1" Type="9">
+                                <TrackKey ID="0" Time="0" Value="pushform NotificationBox.form RestartConfirm" />
+                            </Track>
+                        </Animation>
+                    </Animations>
+                    <SoundMapRoot>
+                        <SoundEvent EventTrigger="Touches Began (UI Only)" SoundEventFullPath="UI/Menu/Button_Press_Down" />
+                        <SoundEvent EventTrigger="Touches Ended (UI Only)" SoundEventFullPath="UI/Menu/Button_Press_Advance" />
+                    </SoundMapRoot>
+                </Element>
+                <Element Text="$(RestartText)" TextScale="0.8" Type="1" Name="RestartLabel" ID="147" Dimension="0.218844, 0.057320" IsPassive="T" Tracking="-11" Leading="47" Font="StencilYellow10.asc" />
+            </Element>
+            <Element TextureFilename="Trans.png" Type="2" Name="Options" ID="150" Anchor="-0.005208, -0.134375" Dimension="0.260417, 0.090625" IsPassive="T" Expansion="0.000000, 1.000000">
+                <Element TextureFilename="OptionsButtonShadow.png" Type="2" Name="ButtonShadow" ID="269" Anchor="0.004167, -0.028125" Dimension="0.283334, 0.163541" IsPassive="T" BlendState="3" />
+                <Element TextureFilename="Trans.png" Type="2" Name="Structure" ID="278" Dimension="0.312500, 0.170312" IsPassive="T">
+                    <Element TextureFilename="Joint02.png" Type="2" Name="Right" ID="280" Anchor="0.122917, 0.001563" Dimension="0.025000, 0.096875" IsPassive="T" MirrorMode="1" />
+                    <Element TextureFilename="Joint02.png" Type="2" Name="Left" ID="283" Anchor="-0.122917, 0.001563" Dimension="0.025000, 0.096875" IsPassive="T" />
+                </Element>
+                <Element PressedTextureFilename="Button08_Pressed.png" HighlightedTextureFilename="Button07_Glow.png" TextureFilename="Button08.png" Type="3" Name="OptionsButton" ID="165" Dimension="0.234375, 0.134375" Expansion="0.000000, 0.282000" HorizontalScale="1.07111" VerticalScale="1.2093">
+                    <Animations>
+                        <Animation Name="OptionsTrigger">
+                            <Track ID="1" Type="9">
+                                <TrackKey ID="0" Time="0" Value="pausemusic off 1500 | pushform Options.form" />
+                            </Track>
+                        </Animation>
+                    </Animations>
+                    <SoundMapRoot>
+                        <SoundEvent EventTrigger="Touches Began (UI Only)" SoundEventFullPath="UI/Menu/Button_Press_Down" />
+                    </SoundMapRoot>
+                </Element>
+                <Element Text="$(OptionsText)&#xD;&#xA;" TextScale="0.8" Type="1" Name="OptionsLabel" ID="174" Dimension="0.218844, 0.055236" IsPassive="T" Tracking="-11" Leading="47" Font="StencilYellow10.asc" />
+            </Element>
+            <Element TextureFilename="Trans.png" Type="2" Name="Quit" ID="177" Anchor="-0.005208, -0.317187" Dimension="0.260417, 0.090625" IsPassive="T" Expansion="0.000000, 1.000000">
+                <Element TextureFilename="OptionsButtonShadow.png" Type="2" Name="ButtonShadow" ID="270" Anchor="0.006250, -0.039063" Dimension="0.283334, 0.163541" IsPassive="T" BlendState="3" />
+                <Element TextureFilename="Trans.png" Type="2" Name="Structure" ID="285" Dimension="0.312500, 0.170312" IsPassive="T">
+                    <Element TextureFilename="Joint02.png" Type="2" Name="Right" ID="287" Anchor="0.122917, 0.001563" Dimension="0.025000, 0.096875" IsPassive="T" MirrorMode="1" />
+                    <Element TextureFilename="Joint02.png" Type="2" Name="Left" ID="290" Anchor="-0.122917, 0.001563" Dimension="0.025000, 0.096875" IsPassive="T" />
+                </Element>
+                <Element PressedTextureFilename="Button07_Pressed.png" HighlightedTextureFilename="Button07_Glow.png" TextureFilename="Button07.png" Type="3" Name="QuitButton" ID="192" Dimension="0.234375, 0.134375" Expansion="0.000000, 0.410000" HorizontalScale="1.07111" VerticalScale="1.2093">
+                    <Animations>
+                        <Animation Name="QuitTrigger">
+                            <Track ID="0" Type="9">
+                                <TrackKey ID="0" Time="0" Value="pushform NotificationBox.form QuitConfirm" />
+                            </Track>
+                        </Animation>
+                    </Animations>
+                    <SoundMapRoot>
+                        <SoundEvent EventTrigger="Touches Began (UI Only)" SoundEventFullPath="UI/Menu/Button_Press_Down" />
+                        <SoundEvent EventTrigger="Touches Ended (UI Only)" SoundEventFullPath="UI/Menu/Button_Press_Advance" />
+                    </SoundMapRoot>
+                </Element>
+                <Element Text="$(QuitText)&#xD;&#xA;&#xD;&#xA;" TextScale="0.8" Type="1" Name="QuitLabel" ID="201" Anchor="0.001042, 0.001563" Dimension="0.218844, 0.059403" IsPassive="T" Tracking="-11" Leading="47" TranslateOnce="T" Font="StencilYellow10.asc" />
+            </Element>
+        </Element>
+        <Element Text="$(MapName)" TextScale="0.9" Type="1" Name="MapNameLabel" ID="204" Anchor="0.501042, 0.909375" Dimension="1.000833, 0.107320" IsPassive="T" Tint="255, 255, 255, 0" Margin="1" Tracking="-11" Leading="47" TranslateOnce="T" Font="StencilYellow10.asc">
+            <Animations>
+                <Animation Name="ContinueTrigger">
+                    <Track ID="22" Type="5">
+                        <TrackKey ID="0" Time="0" Value="255" />
+                        <TrackKey ID="1" Time="0.128125" />
+                    </Track>
+                </Animation>
+                <Animation Name="OpenForm">
+                    <Track ID="14" Type="5">
+                        <TrackKey ID="0" Time="0.271875" />
+                        <TrackKey ID="1" Time="0.35" Value="255" />
+                    </Track>
+                </Animation>
+            </Animations>
+        </Element>
+        <Element Text="$(DifficultyText): $(Difficulty)" TextScale="0.6" Type="1" Name="DifficultyLabel" ID="205" Anchor="0.500000, 0.834375" Dimension="0.848750, 0.107320" IsPassive="T" Tint="192, 192, 192, 0" Margin="1" Tracking="-14" Leading="37" TranslateOnce="T" Font="StencilWhite01.asc">
+            <Animations>
+                <Animation Name="ContinueTrigger">
+                    <Track ID="23" Type="5">
+                        <TrackKey ID="0" Time="0" Value="255" />
+                        <TrackKey ID="1" Time="0" Value="255" />
+                        <TrackKey ID="2" Time="0.134375" />
+                    </Track>
+                </Animation>
+                <Animation Name="OpenForm">
+                    <Track ID="15" Type="5">
+                        <TrackKey ID="0" Time="0.296875" />
+                        <TrackKey ID="1" Time="0.384375" Value="255" />
+                    </Track>
+                </Animation>
+            </Animations>
+        </Element>
+    </FormRoot>
+    <AnimationTriggers>
+        <AnimationTrigger Event="Touch Clicked (UI Only)" Data="165" Animation="OptionsTrigger" />
+        <AnimationTrigger Event="Touch Clicked (UI Only)" Data="192" Animation="QuitTrigger" />
+        <AnimationTrigger Event="Touch Clicked (UI Only)" Data="138" Animation="RestartTrigger" />
+        <AnimationTrigger Event="Form Opened (UI Only)" Data="1073741824" Animation="OpenForm" />
+        <AnimationTrigger Event="Touch Clicked (UI Only)" Data="13" Animation="ContinueCommand" />
+        <AnimationTrigger Event="Form Activated (UI Only)" Data="103" Animation="PauseMusic" />
+    </AnimationTriggers>
+</Form>

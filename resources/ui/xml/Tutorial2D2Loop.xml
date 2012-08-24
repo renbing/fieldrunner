@@ -1,0 +1,38 @@
+<!--Copyright 2012 Subatomic Studios, LLC. All rights reserved.-->
+<Form Name="" BasePlatform="2" Version="74" PassTouches="T">
+    <FormRoot Name="Element">
+        <Element PanelSkin="UnitNoteBox.asc" Type="10" Name="EntryPanel" ID="2" Anchor="0.497917, 1.250000" Dimension="0.510417, 0.219270" Margin="1" PixelFormat="2">
+            <Animations>
+                <Animation Name="FormExit">
+                    <Track ID="11" Type="9">
+                        <TrackKey ID="0" Time="0.246875" Value="popform" />
+                    </Track>
+                    <Track ID="12" Type="1">
+                        <TrackKey ID="0" Time="0" Value="0.497917, 0.867188" />
+                        <TrackKey ID="1" Time="0.234375" Value="0.497917, 1.195313" />
+                    </Track>
+                </Animation>
+                <Animation Name="Neutral">
+                    <Track ID="10" Type="9">
+                        <TrackKey ID="0" Time="4" Value="playuianimation Tutorial2D2Loop.form FormExit" />
+                    </Track>
+                </Animation>
+                <Animation Name="FormEntry">
+                    <Track ID="0" Type="9">
+                        <TrackKey ID="0" Time="0.25" Value="playuianimation Tutorial2D2Loop.form Neutral" />
+                    </Track>
+                    <Track ID="5" Type="1">
+                        <TrackKey ID="0" Time="0" Value="0.497917, 1.250000" />
+                        <TrackKey ID="1" Time="0.25" Value="0.497917, 0.867188" />
+                    </Track>
+                </Animation>
+            </Animations>
+            <Element Text="$(TipD2LoopText)" TextScale="0.7" Type="1" Name="Text" ID="3" Anchor="0.004166, -0.032812" Dimension="0.420834, 0.078154" IsPassive="T" Tint="205, 220, 230, 255" Tracking="-7" Leading="38" Font="ArialWhite05.asc" />
+            <Element Text="$(TipD2LoopTitle)" TextScale="0.7" Type="1" Name="Title" ID="19" Anchor="0.003125, 0.034374" Dimension="0.498706, 0.067736" IsPassive="T" Tracking="-11" Leading="47" TranslateOnce="T" Font="StencilYellow10.asc" />
+        </Element>
+    </FormRoot>
+    <AnimationTriggers>
+        <AnimationTrigger Event="Touches Ended (UI Only)" Data="2" Animation="FormExit" />
+        <AnimationTrigger Event="Form Activated (UI Only)" Data="1073741824" Animation="FormEntry" />
+    </AnimationTriggers>
+</Form>

@@ -1,0 +1,22 @@
+<Doll>
+    <Sprites defaultAnimationSetName="default" defaultAnimationName="run" dithered="T">
+        <Sprite filename="Enemy_Hero_Blimp_Zeppelin_Up.asc" attachToTag="" sortToParentDepth="F">
+            <Particles>
+                <ParticleSystem type="1" filename="Enemy_Blimp_Death_Explosion.fx" attachToTag="anchor" actorEvent="0" actorEventParameter="" animation="" animationSet="" animationFrameIndex="-1" renderQueueOffset="1" removeOnSetChange="F" />
+            </Particles>
+            <Sprite filename="Propeller_Down.asc" attachToTag="prop" sortToParentDepth="F">
+                <Particles />
+            </Sprite>
+            <Sprite filename="Propeller_Down.asc" attachToTag="prop2" sortToParentDepth="F">
+                <Particles />
+            </Sprite>
+            <Sprite filename="Propeller_Down.asc" attachToTag="prop3" sortToParentDepth="F">
+                <Particles />
+            </Sprite>
+        </Sprite>
+    </Sprites>
+    <Sounds>
+        <Sound type="1" soundpath="Common/Explosions/Explosion_Nuclear" replacePrevSoundInstance="T" actorEvent="0" actorEventParameter="" animation="" animationSet="" />
+        <Sound type="1" soundpath="Enemies/Enemy_Air_Blimp/Spawn" replacePrevSoundInstance="T" actorEvent="3" actorEventParameter="" animation="" animationSet="" />
+    </Sounds>
+</Doll>
