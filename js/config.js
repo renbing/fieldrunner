@@ -24,3 +24,20 @@ global.Color = {
     YELLOW : "#ffff00",
     PINK : "#ff00ff"
 };
+
+global.cfgs = [
+    "GameTips.cfg",
+    "achievements.cfg",
+    "credits.cfg",
+    "enemyarchetypelist.cfg",
+    "shop.cfg",
+    "storePurchase.cfg",
+    "texteffects.cfg",
+    "zones.cfg",
+];
+
+global.towers = [
+    "Gatling","Glue","Missile","Flame","Lightning","Laser","Oil",
+    "Beehive","Biowaste","Plasma","Pyro","Spark","Railgun","Mine",
+    "Radiation","Nuke","Ice","Gas","Link","Power"
+];
