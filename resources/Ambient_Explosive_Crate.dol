@@ -1,0 +1,8 @@
+<Doll>
+    <Sprites defaultAnimationSetName="default" defaultAnimationName="run">
+        <Sprite filename="Explosive_Crate.asc" attachToTag="" sortToParentDepth="F">
+            <Particles />
+        </Sprite>
+    </Sprites>
+    <Sounds />
+</Doll>

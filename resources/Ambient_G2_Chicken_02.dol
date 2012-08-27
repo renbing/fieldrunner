@@ -1,0 +1,10 @@
+<Doll>
+    <Sprites defaultAnimationSetName="default" defaultAnimationName="run">
+        <Sprite filename="Ambient_G2_Chicken_02.asc" attachToTag="" sortToParentDepth="F">
+            <Particles>
+                <ParticleSystem type="1" filename="Ambient_Chicken_Death.fx" attachToTag="anchor" actorEvent="0" actorEventParameter="" animation="" animationSet="" animationFrameIndex="-1" removeOnSetChange="F" />
+            </Particles>
+        </Sprite>
+    </Sprites>
+    <Sounds />
+</Doll>

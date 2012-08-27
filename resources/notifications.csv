@@ -1,0 +1,20 @@
+//State Name^Label Name / Contents^^Text (Traverse to “Text”)^Text (Traverse to “Text”)^Text (Traverse to “Text”)^Console Command (Traverse to Button)^Console Command (Traverse to Button)^Console Command (Traverse to Button)
+^TitleLabel^DescriptionLabel^LeftButton^CenterButton^RightButton^LeftButtonHandler^CenterButtonHandler^RightButtonHandler
+FullTowers^$(FullTowersText)^$(FullTowersPromptText)^^^^^^
+FullItems^$(FullItemsText)^$(FullItemsPromptText)^^^^^^
+NoGatling^$(NoGatlingText)^$(NoGatlingPromptText)^$(YesText)^^$(NoText)^popform | forceevaluatetip 3^^playuianimation MissionPrep.form BackButtonTrigger | popform
+TransactionFailed^$(TransactionFailText)^$(TransactionFailDescription)^^^^^^
+TransactionRestored^$(TransactionRestoredText)^$(TransactionRestoredDescription)$(StoreItem)!^^^^^^
+DeleteProfileConfirm^$(DeleteText)^$(DeleteProfileText)^$(YesText)^^$(NoText)^popform | pushform NotificationBox.form DeleteProfileConfirm2 | playsound UI/Menu/Button_Warning^^popform
+DeleteProfileConfirm2^$(ReallyDeleteText)^$(DeleteProfileText2)^$(YesText)^^$(NoText)^resetprofile | popform^^popform
+QuitConfirm^$(QuitText)^$(QuitPromptText)^$(YesText)^^$(NoText)^returnitems | savegame currentprofile | saveprofile | resetmap | playuianimation Pause.form quit | gametouches on ^^popform
+RestartConfirm^$(RestartText)^$(RestartPromptText)^$(YesText)^^$(NoText)^removeInactiveForms | setForm Loading.form  HUD.form  reloadMap  postload startGame | gametouches on^^popform
+ResumeConfirm^$(ResumeShortPromptText)^$(ResumePromptText)^$(ResumeText)^^$(NewMissionText)^removeInactiveForms | setForm Loading.form HUD.form  preloadForms ingame  loadSaveGame currentprofile  postload startGame^^popform | playuianimation MainMenu.form NewMissionTrigger 
+CantConnectMarket^$(CantReachMarketDescription)^$(CantReachMarketDescription)^^^^^^
+UnknownError^$(UknownErrorText)^$(UnknownErrorDescription)^^^^^^
+StarsInfo^$(StarsInfoTitle)^$(StarsInfoDescription)^^^^^^
+WeaponLocked^$(SorryText)^$(CantUseText)^^^^^^
+CoinsInfo^$(CoinsInfoTitle)^$(CoinsInfoDescription)^^^^^^
+NoItems^$(NoItemsText)^$(NoItemsPromptText)^$(StartText)^^$(CancelText)^saveprofile | removeInactiveForms | setForm Loading.form  HUD.form  preloadForms ingame  loadMap $(MapFilename)  postload startGame^^popform
+ItemLocked ^$(TowerUnavailable)^$(TowerUnavailableText)^^^^^^
+AlreadyEquipped^$(AlreadyEquippedLabel)^$(AlreadyEquippedText)^^^^^^

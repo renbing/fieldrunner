@@ -1,0 +1,11 @@
+<Doll>
+    <Sprites defaultAnimationSetName="default" defaultAnimationName="idle">
+        <Sprite filename="Item_Fire_Trap_1.asc" attachToTag="" sortToParentDepth="F">
+            <Particles>
+                <ParticleSystem type="1" filename="Projectile_Mine_Glow.fx" attachToTag="anchor" actorEvent="12" actorEventParameter="" animation="" animationSet="" animationFrameIndex="-1" removeOnSetChange="F" />
+                <ParticleSystem type="1" filename="Item_Create.fx" attachToTag="anchor" actorEvent="3" actorEventParameter="" animation="" animationSet="" animationFrameIndex="-1" removeOnSetChange="F" />
+            </Particles>
+        </Sprite>
+    </Sprites>
+    <Sounds />
+</Doll>

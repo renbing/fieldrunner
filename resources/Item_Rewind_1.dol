@@ -1,0 +1,8 @@
+<Doll>
+    <Sprites defaultAnimationSetName="default" defaultAnimationName="idle">
+        <Sprite filename="Item_Rewind.asc" attachToTag="" sortToParentDepth="F">
+            <Particles />
+        </Sprite>
+    </Sprites>
+    <Sounds />
+</Doll>

@@ -1,0 +1,35 @@
+<Doll>
+    <Sprites defaultAnimationSetName="default" defaultAnimationName="create0">
+        <Sprite filename="Worldmap_Flag.asc" attachToTag="" sortToParentDepth="F">
+            <Particles>
+                <ParticleSystem type="0" filename="UI_Flag_Placed.fx" attachToTag="anchor" actorEvent="-1" actorEventParameter="" animation="create0" animationSet="default" animationFrameIndex="15" renderQueueOffset="-1" removeOnSetChange="F" />
+                <ParticleSystem type="0" filename="UI_Flag_Placed.fx" attachToTag="anchor" actorEvent="-1" actorEventParameter="" animation="create1" animationSet="default" animationFrameIndex="15" renderQueueOffset="-1" removeOnSetChange="F" />
+                <ParticleSystem type="0" filename="UI_Flag_Placed.fx" attachToTag="anchor" actorEvent="-1" actorEventParameter="" animation="create2" animationSet="default" animationFrameIndex="15" renderQueueOffset="-1" removeOnSetChange="F" />
+                <ParticleSystem type="0" filename="UI_Flag_Placed.fx" attachToTag="anchor" actorEvent="-1" actorEventParameter="" animation="create3" animationSet="default" animationFrameIndex="15" renderQueueOffset="-1" removeOnSetChange="F" />
+            </Particles>
+            <Sprite filename="Worldmap_Stars.asc" attachToTag="" sortToParentDepth="F">
+                <Particles>
+                    <ParticleSystem type="0" filename="UI_Flag_Starshine.fx" attachToTag="STARL1_1" actorEvent="-1" actorEventParameter="" animation="create1" animationSet="default" animationFrameIndex="42" removeOnSetChange="F" />
+                    <ParticleSystem type="0" filename="UI_Flag_Starshine.fx" attachToTag="STARL2_1" actorEvent="-1" actorEventParameter="" animation="create2" animationSet="default" animationFrameIndex="32" removeOnSetChange="F" />
+                    <ParticleSystem type="0" filename="UI_Flag_Starshine.fx" attachToTag="STARL2_2" actorEvent="-1" actorEventParameter="" animation="create2" animationSet="default" animationFrameIndex="52" removeOnSetChange="F" />
+                    <ParticleSystem type="0" filename="UI_Flag_Starshine.fx" attachToTag="STARL3_1" actorEvent="-1" actorEventParameter="" animation="create3" animationSet="default" animationFrameIndex="32" removeOnSetChange="F" />
+                    <ParticleSystem type="0" filename="UI_Flag_Starshine.fx" attachToTag="STARL3_2" actorEvent="-1" actorEventParameter="" animation="create3" animationSet="default" animationFrameIndex="42" removeOnSetChange="F" />
+                    <ParticleSystem type="0" filename="UI_Flag_Starshine.fx" attachToTag="STARL3_3" actorEvent="-1" actorEventParameter="" animation="create3" animationSet="default" animationFrameIndex="52" removeOnSetChange="F" />
+                </Particles>
+            </Sprite>
+        </Sprite>
+    </Sprites>
+    <Sounds>
+        <Sound type="0" soundpath="UI/In_Game/Star_Acquired" replacePrevSoundInstance="F" actorEvent="-1" actorEventParameter="" animation="create1" animationSet="default" animationFrameIndex="40" />
+        <Sound type="0" soundpath="UI/In_Game/Star_Acquired" replacePrevSoundInstance="F" actorEvent="-1" actorEventParameter="" animation="create2" animationSet="default" animationFrameIndex="30" />
+        <Sound type="0" soundpath="UI/In_Game/Star_Acquired_2" replacePrevSoundInstance="F" actorEvent="-1" actorEventParameter="" animation="create2" animationSet="default" animationFrameIndex="50" />
+        <Sound type="0" soundpath="UI/In_Game/Star_Acquired" replacePrevSoundInstance="F" actorEvent="-1" actorEventParameter="" animation="create3" animationSet="default" animationFrameIndex="30" />
+        <Sound type="0" soundpath="UI/In_Game/Star_Acquired_2" replacePrevSoundInstance="F" actorEvent="-1" actorEventParameter="" animation="create3" animationSet="default" animationFrameIndex="40" />
+        <Sound type="0" soundpath="UI/In_Game/Star_Acquired_3" replacePrevSoundInstance="F" actorEvent="-1" actorEventParameter="" animation="create3" animationSet="default" animationFrameIndex="50" />
+        <Sound type="0" soundpath="UI/In_Game/Item_Place" replacePrevSoundInstance="F" actorEvent="-1" actorEventParameter="" animation="create0" animationSet="default" animationFrameIndex="9" />
+        <Sound type="0" soundpath="UI/In_Game/Item_Place" replacePrevSoundInstance="F" actorEvent="-1" actorEventParameter="" animation="create1" animationSet="default" animationFrameIndex="10" />
+        <Sound type="0" soundpath="UI/In_Game/Item_Place" replacePrevSoundInstance="F" actorEvent="-1" actorEventParameter="" animation="create2" animationSet="default" animationFrameIndex="10" />
+        <Sound type="0" soundpath="UI/In_Game/Item_Place" replacePrevSoundInstance="F" actorEvent="-1" actorEventParameter="" animation="create3" animationSet="default" animationFrameIndex="10" />
+        <Sound type="0" soundpath="UI/In_Game/Reward_Earned" replacePrevSoundInstance="F" actorEvent="-1" actorEventParameter="" animation="create0" animationSet="default" animationFrameIndex="9" />
+    </Sounds>
+</Doll>

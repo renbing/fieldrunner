@@ -1,0 +1,12 @@
+<Doll>
+    <Sprites defaultAnimationSetName="default" defaultAnimationName="run">
+        <Sprite filename="Item_Mine_1.asc" attachToTag="" sortToParentDepth="F">
+            <Particles>
+                <ParticleSystem type="1" filename="Item_Mine_Death.fx" attachToTag="anchor" actorEvent="0" actorEventParameter="" animation="" animationSet="" animationFrameIndex="-1" />
+                <ParticleSystem type="1" filename="Projectile_Mine_Glow.fx" attachToTag="attack" actorEvent="12" actorEventParameter="" animation="" animationSet="" animationFrameIndex="-1" />
+                <ParticleSystem type="1" filename="Item_Create.fx" attachToTag="anchor" actorEvent="3" actorEventParameter="" animation="" animationSet="" animationFrameIndex="-1" />
+            </Particles>
+        </Sprite>
+    </Sprites>
+    <Sounds />
+</Doll>

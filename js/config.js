@@ -10,8 +10,8 @@ global.GAME_WIDTH = 960;
 global.GAME_HEIGHT = 640;
 global.gameFPS = 25;
 global.renderFPS = 60;
-global.resourceDirectory = 'resources/';
-global.mediaDirectory = 'resources/media/';
+global.resourceDirectory = "resources/";
+global.mediaDirectory = "resources/";
 global.isShowRect = false;
 
 //系统颜色定义

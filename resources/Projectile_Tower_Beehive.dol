@@ -1,0 +1,11 @@
+<Doll>
+    <Sprites defaultAnimationSetName="default" defaultAnimationName="run">
+        <Sprite filename="Projectile_Tower_Beehive.asc" attachToTag="" sortToParentDepth="F">
+            <Particles />
+        </Sprite>
+    </Sprites>
+    <Sounds>
+        <Sound type="1" soundpath="Towers/Tower_Bees/Attack" actorEvent="3" actorEventParameter="" animation="" animationSet="" />
+        <Sound type="1" soundpath="Towers/Tower_Bees/Impact" actorEvent="2" actorEventParameter="" animation="" animationSet="" />
+    </Sounds>
+</Doll>

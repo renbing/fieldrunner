@@ -8,56 +8,102 @@
 
 
 var resourceManager = new ResourceManager();
+var enemyManager = new EnemyManager();
+var uiManager = new UIManager();
 var useTowers = ["Gatling", "Glue", "Missile", "Flame", "Lightning", "Laser"];
 
 function main() {
     gameStage.init();
     trace("start game");
 
-    textureLoader.loadImage("resources/map/g2.jpg", "", function(img){
-        global.stage.addChild(new Texture(img, 0, 0, img.width, img.height, 0, 0, global.GAME_WIDTH, global.GAME_HEIGHT));
-    });
+    loadLoading();
+}
+
+function loadLoading() {
+    resourceManager.add("LoadingLaunch.form", "xml");
+    resourceManager.add("FR2Title.jpg", "image");
+    resourceManager.add("BGTint.jpg", "image");
+    resourceManager.add("Occlusion_Gradient.jpg", "image");
+    resourceManager.add("BoltedBar.jpg", "image");
+
+    resourceManager.load(loadingLoaded);
+}
+
+function loadingLoaded() {
+    var launchForm = resourceManager.get("LoadingLaunch.form");
+    var xmlRoot = launchForm.data.childNodes[1].childNodes[1];
+    
+    var loadingMC = new MovieClip("loading", 1);
+    uiManager.parse(loadingMC, xmlRoot);
+    global.stage.addChild(loadingMC);
 
     loadResource();
 }
 
 function loadResource() {
 
+    resourceManager.add("g2.jpg", "image");
+    
     for(var i=0; i<useTowers.length; i++) {
-        resourceManager.add("resources/tower/Tower_"+useTowers[i]+".arc", "xml");
+        resourceManager.add("Tower_"+useTowers[i]+".arc", "xml");
     }
 
     for(var i=0; i<global.cfgs.length; i++) {
-        resourceManager.add("resources/cfg/"+global.cfgs[i], "xml");
+        resourceManager.add(global.cfgs[i], "xml");
     }
 
-    for(var i=0; i<=3; i++ ) {
-        resourceManager.add("resources/enemy/"+"Enemy_Soldier_Light_0000"+i+".png", "image", "masked");
-    }
-
-    resourceManager.add("resources/enemy/Enemy_Soldier_Light.asc", "text");
-
-    resourceManager.add("resources/a", "text");
-
-    resourceManager.load(towerArcLoaded);
+    resourceManager.load(firstLoaded);
 }
 
-function towerArcLoaded() {
-    
+function firstLoaded() {
+
+    // 当前选中使用的防御塔    
     for(var i=0;i<useTowers.length; i++) {
-        var conf = resourceManager.get("resources/tower/Tower_"+useTowers[i]+".arc");
+        var conf = resourceManager.get("Tower_"+useTowers[i]+".arc");
         var attrs = conf.data.childNodes[1].getElementsByTagName("Weapon")[0].attributes;
-        resourceManager.add("resources/tower/"+attrs.getNamedItem("Icon").nodeValue, "image", "masked");
-        resourceManager.add("resources/tower/"+attrs.getNamedItem("DisabledIcon").nodeValue, "image", "masked");
+        resourceManager.add(attrs.getNamedItem("Icon").nodeValue, "image", "masked");
+        resourceManager.add(attrs.getNamedItem("DisabledIcon").nodeValue, "image", "masked");
     }
 
-    resourceManager.load(start);
+    //所有敌人种类
+    var enemyTypeConf = resourceManager.get("enemyarchetypelist.cfg");
+    var enemyTypeNodes = enemyTypeConf.data.childNodes[1].getElementsByTagName("Archetype");
+
+    for(var i=0; i<enemyTypeNodes.length; i++) {
+        var arc = enemyTypeNodes[i].childNodes[0].nodeValue;
+        if( arc.slice(0, 6) == "Enemy_" ) {
+            resourceManager.add(arc, "xml");
+            resourceManager.add(arc.replace("\.arc","\.asc"), "text");
+        }else{
+        }
+    }
+
+    resourceManager.load(secondLoaded);
+}
+
+function secondLoaded() {
+
+    var enemyTypeConf = resourceManager.get("enemyarchetypelist.cfg");
+    var enemyTypeNodes = enemyTypeConf.data.childNodes[1].getElementsByTagName("Archetype");
+
+    for(var i=0; i<enemyTypeNodes.length; i++) {
+        var arc = enemyTypeNodes[i].textContent;
+        if( arc.slice(0, 6) != "Enemy_" ) {
+            continue;
+        }
+        var imgs = enemyManager.parse(arc.slice(6, arc.length-4));
+        for(var j=0; j<imgs.length; j++) {
+            resourceManager.add(imgs[j], "image", "masked");
+        }
+    }
+
+    //resourceManager.load(start);
 }
 
 function start() {
     trace("resource loaded, prepare to start game");
+    global.stage.removeChild(global.stage.getChildByName("loading"));
     
-
     prepareMap();
 
     prepareEnemy();
@@ -75,16 +121,16 @@ function prepareUI() {
     global.stage.addChild(bottom);
 
     for(var i=0;i<useTowers.length; i++) {
-        var conf = resourceManager.get("resources/tower/Tower_"+useTowers[i]+".arc");
+        var conf = resourceManager.get("Tower_"+useTowers[i]+".arc");
         var attrs = conf.data.childNodes[1].getElementsByTagName("Weapon")[0].attributes;
 
         var icon = new MovieClip(useTowers[i], 2);
-        var img = resourceManager.get("resources/tower/"+attrs.getNamedItem("Icon").nodeValue);
-        icon.addChild(new Texture(img.data));
+        var img = resourceManager.get(attrs.getNamedItem("Icon").nodeValue).data;
+        icon.addChild(new Texture(img));
 
-        img = resourceManager.get("resources/tower/"+attrs.getNamedItem("DisabledIcon").nodeValue);
+        img = resourceManager.get(attrs.getNamedItem("DisabledIcon").nodeValue).data;
         icon.gotoAndStop(2);
-        icon.addChild(new Texture(img.data));
+        icon.addChild(new Texture(img));
         
         if( i<3 ) {
             icon.gotoAndStop(1);
@@ -97,77 +143,19 @@ function prepareUI() {
 function prepareMap() {
     var map = new MovieClip("map");
 
+    var bg = resourceManager.get("g2.jpg").data;
+    map.addChild(new Texture(bg, 0, 0, bg.width, bg.height, 
+                            0, 0, global.GAME_WIDTH, global.GAME_HEIGHT));
+
     global.stage.addChild(map);
 }
 
 function prepareEnemy() {
     var map = global.stage.getChildByName("map");
 
-    var enemyTypeConf = resourceManager.get("resources/cfg/enemyarchetypelist.cfg");
-    var enemyTypeNodes = enemyTypeConf.data.childNodes[1].getElementsByTagName('Archetype');
-
-    for(var i=0; i<enemyTypeNodes.length; i++) {
-        trace(enemyTypeNodes[i].childNodes[0].nodeValue);
-    }
-
-    var a = resourceManager.get("resources/a");
-    var lines = a.data.split("\n");
-    var animation = new MovieClip('run', lines.length-1);
-    var img = resourceManager.get("resources/enemy/Enemy_Soldier_Light_00000.png");
-    for(var i=0; i<lines.length-1; i++) {
-        var segs = lines[i].split(" ");
-        animation.gotoAndStop(i+1);
-        var texture = new Texture(img.data, +segs[0], +segs[1], +segs[2], +segs[3],
-                                            0, 0, +segs[2], +segs[3]);
-        animation.addChild(texture);
-    }
-
-    animation.gotoAndPlay(1);
-    animation.y = 300;
-
-    map.addChild(animation);
-
-    var asc = resourceManager.get("resources/enemy/Enemy_Soldier_Light.asc");
-    lines = asc.data.split("\r\n");
-
-    var img = null;
-    var frames = [];
-    var emptyLine = false;
-
-    for(var i=0; i<lines.length; i++) {
-        var line = lines[i];
-        if(line.slice(0, 4) == "file") {
-            img = resourceManager.get("resources/enemy/"+line.split(" ")[1]);
-        }
-        if(line.slice(0, 11) == "orientation") {
-            if( frames.length > 0 ) {
-                var animation = new MovieClip('animation', frames.length);
-                for(var j=0; j<frames.length; j++) {
-                    var segs = frames[j];
-                    animation.gotoAndStop(j+1);
-                    animation.addChild(new Texture(img.data, +segs[1], +segs[2],
-                                    +segs[3], +segs[4], 0, 0, +segs[3], +segs[4]));
-                    animation.gotoAndPlay(1);
-                }
-                animation.y = Math.floor(Math.random() * 400);
-                animation.x = Math.floor(Math.random() * 600);
-                trace(animation);
-                map.addChild(animation);
-            }
-            frames = [];
-        }
-
-        if(emptyLine) {
-            var segs = line.split(" ");
-            if(segs.length == 6) {
-                frames.push(segs);
-            }
-        }
-
-        if(line == "") {
-            emptyLine = true;
-        }else{
-            emptyLine = false;
-        }
-    }
+    var mc = enemyManager.get("Soldier_Light", "run", 90);
+    mc.y = 300;
+    mc.x = 100;
+    mc.scaleX = -1;
+    map.addChild(mc);
 }

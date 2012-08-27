@@ -1,0 +1,45 @@
+// Distort the scene using normal maps.
+compositor Distortion
+{
+	technique
+	{
+		texture sceneTexture viewport_width viewport_height framebuffer_pixel_format
+		texture distortionTexture 512 512 RGB565
+		
+		target sceneTexture
+		{
+			// Output from previous compositor (or original scene).
+			input previous
+		}
+		
+		target distortionTexture
+		{
+			input none
+						
+			pass clear
+			{
+				buffers color
+				color_value 128 128 128
+			}
+			
+			pass render_scene
+			{
+			}
+		}
+		
+		target_output
+		{
+			// Start with clear output.
+			input none
+			
+			pass render_quad
+			{
+				input uSceneTexture sceneTexture
+				input uDistortionTexture distortionTexture
+				
+				vertex_shader Distortion.vsh
+				pixel_shader Distortion.fsh
+			}
+		}
+	}
+}

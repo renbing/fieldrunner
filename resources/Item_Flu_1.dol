@@ -1,0 +1,11 @@
+<Doll>
+    <Sprites defaultAnimationSetName="default" defaultAnimationName="idle">
+        <Sprite filename="Item_Flu_1.asc" attachToTag="" sortToParentDepth="F">
+            <Particles>
+                <ParticleSystem type="1" filename="Projectile_Flu_Death.fx" attachToTag="anchor" actorEvent="3" actorEventParameter="Attack" animation="" animationSet="" animationFrameIndex="-1" />
+                <ParticleSystem type="1" filename="Item_Create.fx" attachToTag="anchor" actorEvent="3" actorEventParameter="" animation="" animationSet="" animationFrameIndex="-1" />
+            </Particles>
+        </Sprite>
+    </Sprites>
+    <Sounds />
+</Doll>

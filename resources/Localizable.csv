@@ -1,0 +1,763 @@
+Key^English^Comments / Elaboration^
+// Game Strings^^^
+PauseText^PAUSED^Pause Text^
+WaveNumber^Round %d / %d^Wave Number. Current Wave / Max Waves^
+NameText^Name^The player name.^
+ScoreText^Score^^
+SurvivalText^Survival^^
+TimeTrialText^Time Trial^^
+SuddenDeathText^Sudden Death^^
+BossText^Boss^^
+PuzzleText^Puzzle^^
+MoneyText^Money^^
+HealthText^Health^^
+PauseLowerText^Pause^^
+TowersText^Towers^^
+ItemsText^Items^^
+WaveStart^Fieldrunners in...^^
+PerfectText^Perfect Round^^
+ComboText^Combo KO^^
+MegaComboText^Mega Combo^^
+StarsText^Stars^^
+RunnersText^Runners^^
+MegaCombosText^Mega Combos^^
+ReplayText^Replay^^
+WorldMapText^World Map^^
+NextMissionText^New Mission^^
+CombosText^Combos^^
+LevelText^Level^^
+DPSText^Damage Per Second^^
+HitText^Per Hit^^
+StrText^Strength^^
+AirstrikeMeterText^FIRE^^
+ObjectiveCompletedText^Success!^^
+NewUnitText^NEW!^^
+OptimizingTitleText^Optimizing for this space-age gizmo...^Shrinking Runners^
+OptimizingDescriptionText^This will take a minute, but only happens once.^^
+OptimizingFlavorText^Why not use this time to enjoy a refreshing morning jog,^^
+OptimizingFlavor2Text^or construct a world domination device?^^
+DefaultPlayerName^Player^^
+RankText^Rank^^
+MapText^Map^^
+StarText^Stars^^
+ScoreText^Score^^
+RoundText^Round ^^
+UserText^User^^
+MaxText^MAX^^
+Fieldrunners2Text^Fieldrunners 2^^
+^^^
+^^^
+// Options Menu Form^^^
+OptionsText^Options^Name of the Options Screen^
+DifficultyText^Difficulty^Difficulty levels^
+EasyText^Casual^Casual / Brainy / Mental^
+MediumText^Tough^Casual / Smart / Mental^
+HardText^Heroic^Lunatic, Crazy, Loonie, Mad, Mental, Rabid, ^
+GridText^Grid^Serene / Clever / Mental^
+MusicText^Music^^
+SoundsText^Sounds^^
+TipsText^Tips^^
+VibrationText^Vibration^^
+DoneText^Done^^
+OnText^On^^
+ResetText^Reset^^
+GridOptionOffText^Off^^
+GridOptionAutoText^On Drag^^
+GridOptionFullText^Always^^
+^^^
+// Social Menu Form^^^
+SocialTitle^Share the Love^^
+GetFR1Text^Get the Original^^
+Rate5StarsText^Rate us 5 Stars^^
+^^^
+^^^
+// Repeated UI Words^^^
+TapToContinue^Tap to Continue^^
+YesText^Yes^^
+NoText^No^^
+CreateText^Create^^
+CancelText^Cancel^^
+ContinueText^Continue^^
+RestartText^Restart^^
+LoadingText^Loading...^^
+OKText^OK^^
+WavesText^rounds^^
+ItemText^item^^
+^^^
+// Shell Form^^^
+ResumeText^Resume^^
+NewMissionText^New Map^^
+ScoresText^Scores^^
+CardsText^Cards^^
+LocalScoresText^Local Scores^^
+GlobalScoresText^Global Scores^^
+UnlockTowerText^You earned a New Tower!^^
+UnlockMapText^New Mission Available!^^
+UnlockAirstrikeText^Call in some^^
+UnlockItemSlotText^Use some items, champ!^^
+UnlockNewItemSlotText^You can now use items!^^
+UnlockItemText^Items for you!^ ^
+AirstrikeText^Airstrikes!^^
+ItemSlotText^Item Slot Earned!^^
+PlayText^Play^^
+ResumePromptText^Your last mission is still in progress.  Resume it?^^
+ResumeShortPromptText^Mission Active^^
+QuitText^Quit^^
+RestartPromptText^Restart this mission?^^
+QuitPromptText^It's the mission, not you.  Pick a different one?^It's the mission, not you.  Pick a different one?  ^
+NoGatlingText^No Gatling?^^
+NoGatlingPromptText^You forgot your friend the Gatling Tower.  Are you sure you want to start without one?^^
+NoItemsText^No Items?^Are you sure you want to start without items?  We call this difficulty “heroic” for a reason...^
+NoItemsPromptText^Start this heroic map without items?  We don't call it "Heroic" for wearing a spandex cape...^Start this “heroic” map without items?  We don't call it “Heroic” because it wears a spandex cape.^
+FullTowersText^Full Towers^^
+FullTowersPromptText^You're full!  Unequip some towers by tapping the tray below.^^
+FullItemsText^Full Items^^
+FullItemsPromptText^You're full!  Unequip some items by tapping the tray below.^^
+StarsInfoTitle^You want Stars!^^
+StarsInfoDescription^Stars earn new towers! Get more stars by defeating missions on harder difficulties.^^
+CoinsInfoTitle^You need coins!^^
+CoinsInfoDescription^Coins buy items and special towers!  Earn more coins by playing on harder difficulties.^^
+MoreStarsText^Earn more stars.^^
+SorryText^Sorry!^^
+CantUseText^That item won't work on this map.^^
+SignInGameCenterText^Global scores?  Sign in to Game Center.^^
+ReleaseToRefreshText^Release to refresh…^^
+NAText^N/A^^
+NewTowerText^NEW!^^
+NextMapText^Next^^
+NewHighScoreText^NEW HIGH SCORE!^^
+MapTowersText^Map Towers^^
+YourTowersText^Your Towers^^
+DeleteProfileText^Reset all Fieldrunners 2 progress on this Game Center account?  Like the '58 Edsel, this cannot be undone.^^
+DeleteProfileText2^Really start all over?  Alternatively, press "no" and switch Game Center logins to start a separate game.^^
+DeleteText^Reset your game?^^
+ReallyDeleteText^Really?^^
+ResetProgressionText^Reset Progress^^
+TowerUnavailable^Not yet...^^
+TowerUnavailableText^Earn more stars or coins to be rewarded with this tower.^^
+AlreadyEquippedLabel^Warning^^
+AlreadyEquippedText^That weapon is equipped already.^^
+^^^
+^^^
+^^^
+^^^
+^^^
+^^^
+// HUD Form^^^
+IncomingText^Incoming!^for elites.  $(HeroInfo_Name) + $(IncomingText)^
+DefeatedText^DEFEATED!^for elites.  $(HeroInfo_Name) + $(DefeatedText)^
+DamageText^Damage^^
+CardEarnedText^Card Earned!^^
+DamageLCText^Damage^^
+SlowLCText^Slow^^
+^^^
+// ZoneNames^^^
+GrasslandsText^Grasslands^^
+DrylandsText^Drylands^^
+LavaflowText^Lavaflow^^
+CityText^Hometown^Capital City, Metropolis, Homeland, HomeCity, Homestead, ^
+^^^
+// Elite Messaging^^^
+HeroIncomingText^$(HeroInfo_Name) Incoming!^^
+HeroDefeatedText^$(HeroInfo_Name) Defeated!^^
+^^^
+^^^
+^^^
+^^^
+// Maps^^^
+Grasslands_Map1Name^Clonehenge^^
+Grasslands_Map1Description^Sudden Death?  Hold out against the invading fieldrunners for as long as you can.^^
+Grasslands_Map1aName^Speedhenge^//Averil Ravine^
+Grasslands_Map1aDescription^Who left Laser Towers on the field?  However they got here, let's drive fieldrunners into them!^macrame marathoners^
+Grasslands_Map2Name^Twist of Fate^// Was Trench Twist^
+Grasslands_Map2Description^Those replicated runners learned about trenches!  We can't build towers in them, but we can sure hit them from the sides.^//Home Commie^
+Grasslands_Map3Name^Broken Branch^// Dogleg ^
+Grasslands_Map3Description^A more devious trench!  Use pinch points in the field to keep 'em from reaching the branch.^//Broken Branch^
+Grasslands_Map4Name^Home on Derange^Field ^
+Grasslands_Map4Description^After Broken Branch, I guess they ran out of shovels.  Nothing here but grass, cows, and insane invading clones.  Is that Dolly?^^
+Grasslands_Map4aName^Fieldrunners Classic^^
+Grasslands_Map4aDescription^The classic arena.  Co-incidentally, the classic Fieldrunners is still available, come on down...^Come on down to the classic Fieldrunners arena, where everything must go^
+Grasslands_Map5Name^Tangled Turnpike^^
+Grasslands_Map5Description^They're stuck on our freeways! Those loops look like tempting places for towers.^^
+Grasslands_Map5aName^Tangled Express^^
+Grasslands_Map5aDescription^Those spoofed sprinters are running fast.  You have 4 minutes to clear out this traffic.  Good luck!^^
+Drylands_Map1Name^Dry Run^// Sudden Desert^
+Drylands_Map1Description^The mimeographed marathoners have swarmed Drylands!  Hold them off while we set up the rest of these missions.^^
+Drylands_Map2Name^Bizarre Bazaar^^
+Drylands_Map2Description^Those carbon-copy couriers have discovered bridges!  Use this one to form a giant loop.^^
+Drylands_Map3Name^Dryer Straits^^
+Drylands_Map3Description^We've pushed them into the barrens!  Can you build a maze while still doing enough damage to the trench?^^
+Drylands_Map3aName^Turbo Dryer^^
+Drylands_Map3aDescription^A faster version of Dryer Straits.  Hope you remember how to make that maze.^^
+Drylands_Map4Name^Cardio Canyon^// Cactus Canyon^
+Drylands_Map4Description^If you don't have the Pyro Tower, now might be a good time to replay some levels on tough.^^
+Drylands_Map5Name^Curious Gorge^^
+Drylands_Map5Description^Those triplicated trespassers are almost cleared out of Drylands.  Keep pushing!^^
+Lavaflow_Map1Name^The Frying Pan^The Flying Pan^
+Lavaflow_Map1Description^Finally in Lavaflow!  Try splitting the fieldrunners down the middle, then send 'em into the fire!^^
+Lavaflow_Map1aName^Scrambled Eggs^^
+Lavaflow_Map1aDescription^Let's try that again, but this time as fast as you can handle.^^
+Lavaflow_Map2Name^Ring of Fire^^
+Lavaflow_Map2Description^Those rotten runners!  Wrap these rascals up in ribbons.^^
+Lavaflow_Map2aName^Flash Fire^^
+Lavaflow_Map2aDescription^The fieldrunners are in flames!  Keep the heat on!  We're... out of puns.  Just play well, okay?^^
+Lavaflow_Map4Name^End of Doom^^
+Lavaflow_Map4Description^The final countdown!  THIS is where the clones have been forging their helmets.  Let's shutdown this sweatshop for good!^The Runners are going down in flames!  Keep the heat on!  We're... out of fire puns.  Just play well, OK?^
+Lavaflow_Map5Name^High Steaks^// The Final Countdown^
+Lavaflow_Map5Description^The light at the end of the tunnel!  Or is that a pilot light?  What are they hiding down here?^The light at the end of the tunnel!  Or is that a pilot light?  What are they hiding down here?^
+City_Map0Name^Meanwhile...^^
+City_Map0Description^Welcome to Fieldrunners 2!  Training will be short as the fieldrunners are stealing from SubaLabs!^^
+City_Map1Name^Last Limbo^^
+City_Map1Description^A puzzle map?  Guide fieldrunners through the beams for their last dance.^^
+City_Map2Name^Be Mine^Dots All Folks^
+City_Map2Description^Another mind-melting puzzle map?  Mr. Runner, meet Mr. Mine.^^
+City_Map4Name^The Mean Streets^Would you kindly...^
+City_Map4Description^Plan it out, build it fast.^All your base...^
+City_Map5Name^Carnie Guarding^It's dangerous to go alone.  Take this!^
+City_Map5Description^Each round, grateful carnies will reward you with $. They may even forgive you for calling them carnies.^That's the second biggest runner head I've ever seen...^
+City_Map6Name^Hocus Poke Us^//Magic trick or treat^
+City_Map6Description^The disappearing box trick has run amock! Vade celeriter jubeo!^^
+^^^
+// Comics^^^
+Comic0Title^NEWSFLASH! Fieldrunner forces amass for war!^The scheme thickens.  The plot scheme.  One Lazy Sunday...  One Lonely Sunday...  Monday at the Office...  Small man, big dreams  Deep on the doomship SS Friendship...  On the invasion ship, SS Snickerdoodles  Deep in the doomship “Cuddles”...  Doomboat^
+Comic1Title^NEWSFLASH! They plundered our cloning machine!^A Machine for cloning?  The Clone-o-tron 2000.  A clone on derange.  A clone of my own.  Catch me if you clone.  Clonesceans 11.  The Real McClone...^
+Comic2Title^NEWSFLASH! Hordes of clones pour into Drylands!^Where will we get all of those hats?^
+Comic3Title^NEWSFLASH! The battle for Lavaflow rages!^Deep in the Gunboat "Friendship"^
+Comic4Title^VICTORY! The Fieldrunners are running scared!^Clonopoly.  Sandy Beaches.  Clone and Sand.  Clonevasion!^
+^^Regroup at Happy Doom Mountain^
+// Modes^^^
+Mode_Survival_Name^Survival^^
+Mode_Survival_Description^Stop the invasion!  Survive $(SelectedMapModeParameter) rounds!^^
+Mode_Puzzle_Name^Puzzle^^
+Mode_Puzzle_Description^Can you survive by solving this stumper?^^
+Mode_Sudden_Death_Name^Sudden Death^^
+Mode_Sudden_Death_Description^Defeat $(TargetKillCount) units before you get overwhelmed.^^
+Mode_Time_Trial_Name^Time Trial^^
+Mode_Time_Trial_Description^Defeat $(TargetKillCount) units before time runs out.^^
+Mode_Boss_Name^The Boss^^
+Mode_Boss_Description^You have $(SelectedMapModeParameter) rounds to topple this Boss.^^
+^^^
+^^^
+// Units^^^
+Enemy_Air_Blimp_Name^Bad Day Blimp^^
+Enemy_Air_Blimp_Description^You would think that this blimp would be easy to take down.  You would be very wrong.^^
+Enemy_Air_Blimp_Card^"Let me show you my thumbtack collection."^^
+Enemy_Air_Helicopter_Heavy_Name^Louie Copter^Heavy Chopper^
+Enemy_Air_Helicopter_Heavy_Description^It's a flying brick.  Stop it however you can.^^
+Enemy_Air_Helicopter_Heavy_Card^"Of course it's safe.  It's a fuel filled brick.  We, however, are in trouble."^^
+Enemy_Air_Helicopter_Light_Name^Huey Copter^Light Chopper^
+Enemy_Air_Helicopter_Light_Description^This chopper can fly directly over your maze.^^
+Enemy_Air_Helicopter_Light_Card^"The helicopter has only one weakness.  Physics."^^
+Enemy_Air_Plane_Bi_Medium_Name^Wingnut^Biplane^
+Enemy_Air_Plane_Bi_Medium_Description^The lawnmower of the sky. Extra wings don't add any extra strength.^Barnstormer^
+Enemy_Air_Plane_Bi_Medium_Card^"We have a perfect flying record.  We've never left one up there."^^
+Enemy_Air_Plane_Bomber_Heavy_Name^S-17 Skywhale^Heavy Bomber^
+Enemy_Air_Plane_Bomber_Heavy_Description^A bomb with wings.  Destroy it near groups for an earth-shattering Kaboom!^S-17 Skywhale^
+Enemy_Air_Plane_Bomber_Heavy_Card^"It's as creaky as a wooden trampoline, but it's still a doomsday machine."^^
+Enemy_Air_Plane_Fokker_Light_Name^Fokker^Fokker^
+Enemy_Air_Plane_Fokker_Light_Description^Yes, that's its real name.  Use fast weapons to catch this nasty plane.^^
+Enemy_Air_Plane_Fokker_Light_Card^"Yes, that's its real world name."^^
+Enemy_Bike_Heavy_Name^Dirty Hog^Heavy Bike^
+Enemy_Bike_Heavy_Description^These bikers might be too big for their bikes.  But I'm not going to tell them.^Dirty Hog^
+Enemy_Bike_Heavy_Card^"The road never ends.  The ride always does."^^
+Enemy_Bike_Light_Name^Scrambler^Light Bike^
+Enemy_Bike_Light_Description^This bike just might be fast enough to slip by your defenses.^Scrambler^
+Enemy_Bike_Light_Card^"Sometimes you're the fly, sometimes you're the windshield."^^
+Enemy_Bike_Transport_Name^Sidehacker^Transport Bike^
+Enemy_Bike_Transport_Description^This bike comes with a detachable sidecar filled with a spare fieldrunner.^Sidecar Named Desire^
+Enemy_Bike_Transport_Card^"Umm… can I borrow your car?"^^
+Enemy_Tank_Heavy_Name^Momma Tank^Heavy Tank^
+Enemy_Tank_Heavy_Description^Powerful single target towers are your only chance of stopping this angry tank.^Mamma Tank^
+Enemy_Tank_Heavy_Card^"Happy Boxing Day!  We got you explosives!"^^
+Enemy_Tank_Light_Name^Baby Tank^Light Tank^
+Enemy_Tank_Light_Description^This baby tank is a formidable wall of power.  You have to slow it to stop it.^Baby Tank^
+Enemy_Tank_Light_Card^"Somebody in here needs new socks."^ ^
+Enemy_Truck_Transport_Medium_Name^Jammed Jeep^Transport Truck^
+Enemy_Truck_Transport_Medium_Description^This jeep contains 4 fieldrunners.  Be ready with area damage when it breaks open.^Marbles Machine^
+Enemy_Truck_Transport_Medium_Card^"Just 49 bucks for 4 cylinders, 60 horses, and real Corinthian leather."^^
+Enemy_Truck_Transport_Heavy_Name^Heavy Transport^Heavy Transport^
+Enemy_Truck_Transport_Heavy_Description^Like a doughnut filled with fascist jelly, this truck is filled with 6 full-sized fieldrunners.^Jammed Jalopy^
+Enemy_Truck_Transport_Heavy_Card^"You suppose if we took out the ashtray we could fit Frank?"^^
+Enemy_Truck_V2_Heavy_Name^V2 on a Truck^V2 on a Truck^
+Enemy_Truck_V2_Heavy_Description^What a curious truck.  Try blowing it up in the middle of a group of fieldrunners.^^
+Enemy_Truck_V2_Heavy_Card^"The V2 unleashes an unstoppable torrent of fire.  So where did we park it?"^^
+Enemy_Soldier_Anti_Heat_Light_Name^Toastmaster^Fireproof Runner^
+Enemy_Soldier_Anti_Heat_Light_Description^This walking oven mitt takes no damage from heat.  Fire it up!^^
+Enemy_Soldier_Anti_Heat_Light_Card^"Got any questions about propane or propane accessories?"^Relentless Runner^
+Enemy_Soldier_Anti_Slow_Light_Name^Stubborn Runner^Anti-Slow Runner  Power Walker  Mr Unstoppable^
+Enemy_Soldier_Anti_Slow_Light_Description^This little guy won't let anything slow him down.  Slow towers won't work.^Stubborn Runner  Mr Stubborn.^
+Enemy_Soldier_Anti_Slow_Light_Card^"Mamma always said to tell the truth.  So I run like I'm crazy."^^
+Enemy_Soldier_Hazmat_Light_Name^Hazmat^Hazmat^
+Enemy_Soldier_Hazmat_Light_Description^This fieldrunner is immune to radiation, bio hazards, gas, and used socks.^Waste Runner^
+Enemy_Soldier_Hazmat_Light_Card^"No, I will not clean your socks."^^
+Enemy_Soldier_Heavy_Name^Super Trooper^Heavy Runner, Drill Sergeant, Mr Universe, Arnold, The Terminator,  Brawler, Super Trooper^
+Enemy_Soldier_Heavy_Description^Built like a refrigerator with knees, this pumped up runner is worth 2x the money.^Big-Boned Runner, Pumped Up Runner, Schwarzerunner, Protector^
+Enemy_Soldier_Heavy_Card^"I just want you to pump to your full pumptential."^Hard Runner, Huge Runner, Older Brother Runner, Iron Runner, Meaty Runner, ^
+Enemy_Soldier_Light_Name^The Runner^Fieldrunner^
+Enemy_Soldier_Light_Description^These little redshirts are poised to invade!  Build your maze!  Stop them!^lean runner^
+Enemy_Soldier_Light_Card^"Running is a mental sport.  We're all insane."^^
+Enemy_Soldier_Medic_Name^Medic^MEDIC!^
+Enemy_Soldier_Medic_Description^This medic heals all units around him.  If you have an item, take him out.^^
+Enemy_Soldier_Medic_Card^"Whaddya mean, no overtime?"^^
+Enemy_Hero_Biplane_Flying_Ace_Name^Flying Ace^^
+Enemy_Hero_Biplane_Flying_Ace_Description^^"Do unto others before they do unto you"^
+Enemy_Hero_Biplane_Flying_Ace_Card^"I'll smoke out the enemy.  You smoke me a kipper."^"Smoke me a kipper.  I'll be back for breakfast."^
+Enemy_Hero_Biplane_Flying_Red_Baron_Name^Red Baron^^
+Enemy_Hero_Biplane_Flying_Red_Baron_Description^^"I have not gone to war to collect cheese and eggs, but for another purpose."^
+Enemy_Hero_Biplane_Flying_Red_Baron_Card^"The English had a splendid joke.  They said they were going to stop me!"^I honored the fallen enemy by placing a stone on his beautiful grave.^
+Enemy_Hero_Blimp_Hindenburg_Name^Hindenburg^^
+Enemy_Hero_Blimp_Hindenburg_Description^^^
+Enemy_Hero_Blimp_Hindenburg_Card^"Frank, maybe the cabin should be non-smoking."^^
+Enemy_Hero_Blimp_Zeppelin_Name^Zeppelin^^
+Enemy_Hero_Blimp_Zeppelin_Description^^^
+Enemy_Hero_Blimp_Zeppelin_Card^"There is always something you've missed.  Hopefully it's the ground."^^
+Enemy_Hero_Commander_Hajime_Name^Marshal Hajime^^
+Enemy_Hero_Commander_Hajime_Description^^^
+Enemy_Hero_Commander_Hajime_Card^"There are two kinds of Soldiers:  Mine.  And Scared."^^
+Enemy_Hero_Commander_Rommel_Name^The Desert Fox^^
+Enemy_Hero_Commander_Rommel_Description^^^
+Enemy_Hero_Commander_Rommel_Card^"Soldiers win battles.  I win wars."^^
+Enemy_Hero_Fokker_Black_Name^Night Fokker^Silvio Scaroni^
+Enemy_Hero_Fokker_Black_Description^^^
+Enemy_Hero_Fokker_Black_Card^"Fly until the last piece stops moving."^^
+Enemy_Hero_Fokker_Sakai_Name^Lieutenant Sakai^^
+Enemy_Hero_Fokker_Sakai_Description^^^
+Enemy_Hero_Fokker_Sakai_Card^"You can land anywhere once."^^
+Enemy_Hero_Tank_Panzer_Name^Legendary Panzer^^
+Enemy_Hero_Tank_Panzer_Description^^^
+Enemy_Hero_Tank_Panzer_Card^"Victory is for the strongest, bravest, and best.  Let's shoot for a tie."^^
+Enemy_Hero_Tank_Tiger_Name^Legendary Tiger^^
+Enemy_Hero_Tank_Tiger_Description^^"Whoops!  Was that your city?"^
+Enemy_Hero_Tank_Tiger_Card^"Do unto others as they would do unto you.  Just do yours first."^"Do unto others as they would do unto you.  Just do yours first."^
+^^^
+^^^
+// Towers^^^
+Tower_Bee_Name^Hive Tower^Hive Tower^
+Tower_Bee_ShortDescription^An effective alternative to the Missile Tower.^Bee Bugger^
+Tower_Bee_Description1^The level 1 Hive Tower has a long range and a lingering area of effect.  It's perfect for slow units.^^
+Tower_Bee_Description2^This has a good range and a lingering area-of-effect.  A great go-to tower between Gatling and stronger towers.^^
+Tower_Bee_Description3^The level 3 Hive Tower is SubaLabs' #1 eradicator of pests.  Use as directed against slow units.^^
+Tower_Bio_Name^Plague Tower^Bio Tower^
+Tower_Bio_ShortDescription^Infectious needles?  Check!^Toxic Waste^
+Tower_Bio_Description1^This level 1 Plague Tower sickens anyone but hazmat units.  You might want to wash your hands.^^
+Tower_Bio_Description2^The ammunition for this tower is recycled from Superfund sites.  Nature loves you for buying recycled!^^
+Tower_Bio_Description3^We're pretty sure that owning this level 3 Plague Tower does not cause cancer.  We think.^^
+Tower_Flame_Name^Flamethrower^Flamethrower^
+Tower_Flame_ShortDescription^Close-range crowd control.^Toasterator^
+Tower_Flame_Description1^This level 1 Flamethrower provides close-range crowd control.  Just wear all cotton while you light the pilot.^^
+Tower_Flame_Description2^This level 2 Flamethrower loves densely packed clusters of fieldrunners.  It just wants to keep them warm and cozy.^^
+Tower_Flame_Description3^This level 3 Flamethrower is SubaLabs' finest tool in crowd control.  Fire it up.^^
+Tower_Gas_Name^Gas Tower^Gas Tower^
+Tower_Gas_ShortDescription^A nice big toxic cloud.^Gaserator^
+Tower_Gas_Description1^This level 1 Gas Tower works against helicopters but not hazmat units.^^
+Tower_Gas_Description2^Turn that waste into wasted fieldrunners with this level 2 Gas Tower.^^
+Tower_Gas_Description3^Toxic?  Check.  Cheap?  Check.  Effective against hazmat units?  ...No.^^
+Tower_Gatling_Name^Gatling Tower^Gatling Tower^
+Tower_Gatling_ShortDescription^More bark than bite, an efficient wall builder.^^
+Tower_Gatling_Description1^1. Build your maze out of Gatling Towers.  2. Upgrade them for cheaper damage.  3. Sell them to make space.^^
+Tower_Gatling_Description2^Once you've started building your maze, upgrade strategic Gatling Towers for maximum cost effectiveness.^^
+Tower_Gatling_Description3^This level 3 Gatling Tower is a monster.  Use other Gatling Towers to guide fieldrunners around this one again and again.^^
+Tower_Glue_Name^Glue Tower^Glue Tower^
+Tower_Glue_ShortDescription^Substantially slow one unit.^^
+Tower_Glue_Description1^This level 1 Glue Tower slows a single fieldrunner.  Upgrade it to level 3, and pair it with towers that do damage.^^
+Tower_Glue_Description2^Spread out your Glue Towers.  A fieldrunner with two Glue Towers firing at it won't be twice as slow.^^
+Tower_Glue_Description3^This level 3 Glue Tower substantially slows a single fieldrunner.  Remember to upgrade all your Glue Towers.^^
+Tower_Ice_Name^Ice Tower^Ice Tower^
+Tower_Ice_ShortDescription^Slow all adjacent units.^^
+Tower_Ice_Description1^Ice Towers slow any adjacent fieldrunners.  Any, except the stubborn fieldrunners.  Upgrade it to level 2 for more effectiveness.^^
+Tower_Ice_Description2^Ice Towers slow any adjacent fieldrunners.  Maybe this level 2 Ice Tower should be paired with a Flame Tower?^^
+Tower_Ice_Description3^This level 3 Ice Tower loves to be in the path of air units, fast units, or warm drinks.^^
+Tower_Landmine_Name^Mine Tower^Mine Tower^
+Tower_Landmine_ShortDescription^Booby-trap surrounding tiles.^^
+Tower_Landmine_Description1^Given time, this level 1 Mine Tower will booby trap the tiles around it.  They form a solid last line of defense.^^
+Tower_Landmine_Description2^This level 2 Mine Tower slowly booby traps the tiles around it.  They also hit air units.  They're just that effective.^^
+Tower_Landmine_Description3^Try stretching out your maze for as long as possible.  The longer the units are running, the more mines this can drop.^^
+Tower_Laser_Name^Laser Tower^Laser Tower^
+Tower_Laser_ShortDescription^Decimate rows of fieldrunners.^^
+Tower_Laser_Description1^This level 1 laser destroys rows of fieldrunners, takes out flying units, and entertains cats.  Use it at the end of hallways.^^
+Tower_Laser_Description2^This level 2 laser is a combo machine, reaping in the airstrike.  Upgrade it to level 3 for an extra juicy burst.^^
+Tower_Laser_Description3^Unlike most towers, the level 3 Laser Tower gets an extra special surge of power.  SubaLabs accepts your gratitude.^^
+Tower_Lightning_Name^Tesla Tower^Lightning Tower^
+Tower_Lightning_ShortDescription^Zap single units at medium range.^Run Zapper^
+Tower_Lightning_Description1^The Tesla Tower remains highly effective against single units.  End your maze with them for maximum clean-up power.^^
+Tower_Lightning_Description2^This level 2 Tesla Tower has a little extra splash damage for use against groups.  Try not to drool on it.^^
+Tower_Lightning_Description3^This fully upgraded Tesla Tower is great with tanks, air units, or stragglers.  However, it is definitely not OSHA compliant.  ^^
+Tower_Link_Name^Link Tower^Link Tower^
+Tower_Link_ShortDescription^2 Link Towers, 1 space apart, form a gate of doom.^Limbo Tower^
+Tower_Link_Description1^Link Towers should be built in pairs, with an empty square between them.  This forms a finish line.  The very finish line.^^
+Tower_Link_Description2^Link Towers should be built in pairs, with an empty square between them.  This forms a limbo bar.  This limbo goes 6 feet under.^^
+Tower_Link_Description3^Link Towers should be built in pairs, with an empty square between them.  This forms a clothes line.  Hang 'em out to dry.^^
+Tower_Missile_Name^Missile Tower^Missile Tower^
+Tower_Missile_ShortDescription^Good range. Good area damage. Good tower.^^
+Tower_Missile_Description1^Blow up groups and unwanted pests with this level 1 Missile Tower.  Fully upgraded Missile Towers are a solid defensive strategy.^^
+Tower_Missile_Description2^Blow up groups and unwanted pests with this level 2 Missile Tower.  Missiles can reach air units from places where other towers cannot.^^
+Tower_Missile_Description3^Blow up groups of fieldrunners with this level 3 Missile Tower.  Missile towers can make effective combos early in your map.^^
+Tower_Nuke_Name^Nuke Tower^Nuke Tower^
+Tower_Nuke_ShortDescription^You might want to stand back for this one...^^
+Tower_Nuke_Description1^This level 1 Nuke Tower does have trouble hitting fast bikes.  But don't tell it that, you don't want to make it angry.^^
+Tower_Nuke_Description2^SubaLabs disavows any knowledge of the level 2 Nuke Tower's marvelous effectiveness and best-in-class warranty.^^
+Tower_Nuke_Description3^We don't like the word "kill."  This level-3 Nuke Tower "defeats" the "heck" out of everything.^^
+Tower_Oil_Name^Oil Tower^Oil Tower^
+Tower_Oil_ShortDescription^Slow groups of enemies.^^
+Tower_Oil_Description1^This level 1 Oil Tower slows groups of units.  But, stubborn fieldrunners can run right through.  Be sure to upgrade it completely.^^
+Tower_Oil_Description2^This level 2 Oil Tower slows enemies, powers cars, and covers birds in muck.  What can't oil do?^^
+Tower_Oil_Description3^Your level 3 hose of slowing muck.  Be as free as a seabird!  ...What, too soon?^^
+Tower_Plasma_Name^Plasma Tower^Plasma Tower^
+Tower_Plasma_ShortDescription^Create a combo attack with other plasma towers.^^
+Tower_Plasma_Description1^Plasma Towers hit by plasma balls will fire again.  Use in front of long hallways or in grid formations.^^
+Tower_Plasma_Description2^Hitting a Plasma Tower with a plasma ball will cause it to fire.  There is a small recharge time, however, so bring a book.^Plasma forms effective grids, defeats large waves, and is good for the grass.^
+Tower_Plasma_Description3^For maximum effectiveness, form grids of level 3 Plasma Towers.  Plasma is effective against swarms and healthy for grass.^^
+Tower_Power_Name^Power Tower^Power Tower^
+Tower_Power_ShortDescription^Power-up adjacent towers.^^
+Tower_Power_Description1^This level 1 Power Tower will raise one nearby tower significantly, or multiple towers a little bit.^^
+Tower_Power_Description2^This level 2 Power Tower does work with slow towers, but that isn't their best match.  Try hooking them up to Tesla or Flame Towers.^^
+Tower_Power_Description3^Be careful what you attach to this level 3 Power Tower.  Only place it next to extra sturdy towers.^^
+Tower_Pyro_Name^Pyro Tower^Pyro Tower^
+Tower_Pyro_ShortDescription^Effective fire-based area damage.^^
+Tower_Pyro_Description1^The Pyro Tower burns everyone nearby, as long as they aren't fireproof or too fast.  Try alternating Pyro and Radiation Towers.^^
+Tower_Pyro_Description2^This level 2 Pyro Tower loves slow towers, as well as barbecues, long walks on the beach, and torching everything in sight.^^
+Tower_Pyro_Description3^This level 3 Pyro Tower is a great party starter.  Put it near the front of your maze to start 'em off right.^^
+Tower_Radiation_Name^Radiation Tower^Radiation Tower^
+Tower_Radiation_ShortDescription^Need a toxic haze?^Geiger Tower^
+Tower_Radiation_Description1^This tower is effective in area suppression.  Alternate Radiation and Pyro Towers to catch hazmat and fireproof units.^^
+Tower_Radiation_Description2^"Dirty Bomb" is such a harsh term.  Think of this level 2 Radiation Tower as a relaxing 200 million watt tanning slab.^^
+Tower_Radiation_Description3^SubaLabs reminds you that handling this level 3 Radiation Tower in any way will void its warranty and your health coverage.^^
+Tower_Railgun_Name^Railgun^^
+Tower_Railgun_ShortDescription^Huge range. Huge damage. Huge smile.^^
+Tower_Railgun_Description1^This level 1 Railgun provides long-range damage with a little extra area damage.  Place it to pick off units trying to sneak by.^^
+Tower_Railgun_Description2^This level 2 Railgun is an excellent tool against sneaky units.  As it can't fire around itself, why not completely surround it with towers?^^
+Tower_Railgun_Description3^This ultimate Railgun was built out of stainless steel shower heads and anything else we could throw in an atomic furnace.^^
+Tower_Spark_Name^Spark Tower^^
+Tower_Spark_ShortDescription^High damage to a small area.^^
+Tower_Spark_Description1^Clear corners and U-turns with this level 1 Spark Tower.  Spark Towers are especially effective near bridges.^^
+Tower_Spark_Description2^Rumors that the Spark Tower is from an airline catalog are false.  However, it does work against airplanes.^^
+Tower_Spark_Description3^SubaLabs developed this level 3 Spark Tower to pair nicely with Ice Towers for adorable mini-range carnage.^^
+^^^
+^^^
+^^^
+// Loading Tips^^^
+LoadingText01^Give us feedback at www.fieldrunners2.com.  Yes, we read it.  All of it.^^
+LoadingText02^Protip: Read protips.^^
+LoadingText03^Selling towers gains money but comes with a 1,000 point penalty.^^
+LoadingText04^You can't die on time trial maps.  Go nuts.^^
+LoadingText05^Sometimes on time trial maps it's worth more points to let slow units escape.^^
+LoadingText06^For more fun, the classic Fieldrunners is still available.  You're welcome.^^
+LoadingText07^Stay up to date by following @fieldrunners on Twitter!  Or don't!^^
+LoadingText08^Sudden death: Hold off fieldrunners for as long as you can and go down fighting.^^
+LoadingText09^You can sell back newly placed towers for the same price while the game remains paused.^^
+LoadingText10^Coins buy towers.  Towers buy happiness.^^
+LoadingText11^SubaLabs invented the automated firing tower in 1942, the same year as duct tape.^^
+LoadingText12^Upgrading towers is usually more bang-for-the-buck than buying new.^^
+LoadingText13^Sell towers that you don't need for money that you do.^^
+LoadingText14^Fast forward doesn't speed up the clock in time trial.  It just speeds up the points.^^
+LoadingText15^Keep an item or two on hand in case an elite unit drops by unexpectedly.^^
+LoadingText16^Follow Fieldrunners on Facebook.  Say that five times fast.^^
+LoadingText17^Nothing stops the onslaught in sudden death maps.^^
+LoadingText18^Want to start a new game but keep your current progress?  Switch Game Center profiles.^//You have to beat the boss to win.  That's why they're called 'The Boss.'^
+LoadingText19^The biggest attraction at the annual Fieldrunners Faire is the corn maze.^//It's not peer pressure.  It's just Your Turn.^
+LoadingText20^Fieldrunners' top speed: 5 MPH.  It's a marathon, not a sprint.^^
+LoadingText21^Higher difficulty levels earn more points and stars, but is it worth the additional stress?^^
+LoadingText22^Coins buy items.  Items earn stars.  Stars gain towers.  Towers bring joy.^^
+LoadingText23^Every map can be beaten on the Heroic difficulty.  We're not making that up.^^
+LoadingText24^Pouring glue onto glue doesn't make it stickier.  Spread out Glue Towers for maximum effect.^^
+LoadingText25^Stuck on a level?  Items are your rent-a-friends.^^
+LoadingText26^Railgun Towers: The way to stop that last helicopter from escaping.^^
+LoadingText27^Railgun & Tesla Towers do hit a few extra surrounding units.  This helps with groups.^^
+LoadingText28^The Plague Tower sickness spreads from fieldrunner to fieldrunner.^^
+LoadingText29^Spread out your Radiation Towers.  Radiation poisoning does not stack.^^
+LoadingText30^Spread out your Gas Towers.  Fieldrunners can't choke twice at once.^^
+LoadingText31^Spread out your Plague Towers.  Fieldrunners can only get sick from one at a time.^^
+LoadingText32^Link Towers only zap units once as they run by.  In this one case, slow towers don't help.^^
+LoadingText33^Each tower can only be plugged into one Power Tower at a time.^^
+LoadingText34^Yes, landmines hit airplanes.  Please just relax and enjoy the game.^^
+LoadingText35^The Laser Tower isn't the strongest, but the combos earn massive points and airstrike.^^
+LoadingText36^Fieldrunners don't wear helmets for safety.  They wear them to hide their comb overs.^^
+LoadingText37^You can still call airstrikes from within caves.  Union pilots are just that good.^^
+LoadingText38^Powered by Omega 13, rewind reverses time by 3 rounds, enough to correct a mistake.^^
+LoadingText39^Rewind items can't be used on sudden death maps.  There is no safety net!^^
+LoadingText40^Tap the screen impatiently to load the game faster.^^
+LoadingText41^Tapping the screen doesn't actually load the game faster.^^
+LoadingText42^The Laser Tower is especially effective when fully upgraded, or used against cats.^^
+LoadingText43^The Power Tower is a rare tower that costs more to upgrade than to buy.^^
+LoadingText44^Dragging out a tower but changed your mind?  Drop it somewhere it can't go.^^
+LoadingText45^Each Game Center account is a different profile.  Switch accounts to start a new game.^^
+LoadingText46^You're doing better than you realize.  Also, you're smarter and have better hair.^^
+LoadingText47^SubaTips: Making your play dazzling since 1915.^^
+LoadingText48^Switching Game Center profiles is like switching logins.  Be someone new.^^
+LoadingText49^Stuck?  Frustrated?  Commiserate on the forums at www.fieldrunners.com!^^
+LoadingText50^Harder difficulties give more points, coins, and stars.  You might surprise yourself.^^
+LoadingText51^Card Decks: Collect a full set for the free toy inside!^^
+LoadingText52^“Decimate” actually means to remove 1 out of 10.  That still leaves 9 fieldrunners after you.^^
+LoadingText53^Frantically turning the hand-crank on the cloning machine...^^
+LoadingText54^You have to win the mission to earn stars.  But if you lose, you do get to keep your coins.^The fieldrunners are a big family just like yours... except they're all rampaging clones of your uncle milton.^
+LoadingText55^Victoria Cross. Merit Cross. “Day of Triumph” card.  Wear your highest honor with pride.^The ? Button is your guide to the towers.  ^
+LoadingText56^Friendship is magic.  So is Cloning.  Grow your own friends.^Extra Info?^
+LoadingText57^The fieldrunners are covertly upgrading their military technology. They're buying toe shoes.^The more you know...^
+LoadingText58^No fieldrunners were harmed in the making of this loading screen.^Knowing is Growing.^
+LoadingText59^Knowledge is power, but so is a horde of rampaging clones.^Once a year, the fieldrunners vacation together.  Strangely, they do this on Canada Day.^
+LoadingText60^On the Mission Success screen, tap the black bar to cycle through your scores.^Twelve is the largest one-syllable number.  The more you know...^
+LoadingText61^Once you've placed an item, tap it for more info or to pick it back up.^Despite internet rumors, the fieldrunners are not all Canadian.^
+LoadingText62^Share your creations!  Press the Home and Sleep buttons together to take a screenshot.^The ? Button on towers is your guide to info and strategies.  Knowing is Growing.^
+LoadingText63^The fieldrunners are a family just like yours... if yours is full of insane power hungry clones.^Extra Extra, read all about it...^
+LoadingText64^Press ? on towers for info and strategies.  Knowledge is your decoder ring to fun.^tap the tower ? Button for extra info, per tower.^
+^^^
+^^^
+// Items^^^
+Item_Mine_Name^Smart Mine^^
+Item_Mine_Description^Big damage in a precision package.^^
+Item_Mine_Long_Description^Developed by a SubaLabs employee with road rage, the Smart Mine will finish off almost anything.^^
+Item_Flu_Name^Spanish Flu^^
+Item_Flu_Description^This creeping crud spreads from runner to runner.^^
+Item_Flu_Long_Description^The 1918 worldwide flu pandemic was particularly nasty.  Thankfully, we have a bottle of it left.^^
+Item_Fire_Name^Fire Fountain^^
+Item_Fire_Description^A lasting inferno of damage.^^
+Item_Fire_Long_Description^Bottled from Doom Mountain, this fire fountain is three seconds of 75% damage.^^
+Item_Freeze_Name^Deep Freeze^^
+Item_Freeze_Description^Stop a group of enemies in their tracks.^^
+Item_Freeze_Long_Description^Slow all nearby units by 90% with this commemorative chunk of Frostbite!^^
+Item_Rewind_Name^Rewind^^
+Item_Rewind_Description^Made a mistake?  Roll back 3 rounds.^^
+Item_Rewind_Long_Description^Read this description quickly, because it is about to never have happened....^^
+^^^
+^^^
+// Tutorial^^^
+TutorialIntroTitle^Cheat Sheet^Welcome to the Fieldrunners 2 basic training!  Before the Runners get here, let's cover the basics.^
+TutorialIntroSoloText^Drag out towers...^Here come the Runners! Build a maze of towers to stop 'em.  The farther they have to run, the fewer will reach the exit.^
+TutorialIntroGroupText^...to build long mazes^Use the Glue Tower to slow down enemies.  Place a Glue Tower now.^
+TutorialOutroText^Good work!  We have to leave Hometown for now, but we'll be back.  Let's go reclaim Grasslands!^Always remember to upgrade your towers.  It's cheaper to upgrade towers than it is to buy new ones.^
+TutorialGatlingText^Defend us!  Drag out some Gatling Towers.^The final wave! Let's make this maze as long as possible.^
+TutorialUpgradeText^Upgrade your towers!  Tap the tower, then the upgrade button.^Good work!  We have to leave this city for now, but we'll be back.  Let's go reclaim Grasslands!^
+TutorialSlowText^Glue Towers slow down speedy fieldrunners.^Upgrade towers for stronger effects.  Tap this tower, then the upgrade button.^
+TutorialMazeText^Build long, twisting hallways for the most damage.^Upgrade this Glue Tower again for maximum stopping power.^
+TutorialYouRockText^You're doing great!^That's one tough Tank!  Drop a Tank Buster mine here to take it out.^
+TutorialUpgradeRemindText^Don't forget to upgrade your Glue Towers!^ ^
+TutorialHealthText^Build more towers!^Score earns *'s.^
+TutorialRangeText^Tap a tower to see its range.  That's the green circle.^It takes one * to open the next mission.^
+TutorialMissileText^Good range and area damage make these missiles worth saving up for.^You lose one health for every runner that escapes.^
+TutorialItemTitle^What are Items?^ ^
+TutorialItemSoloText^The next map has items.^Towers cost money, but damage enemies and redirect their flow.^
+TutorialItemGroupText^Items are limited use lifesavers.^Buy more items between missions with coins.^
+^^Airstrike fills as you defeat enemies.^
+^^Once full, tap Airstrike to unleash the power!^
+^^Tap, then sell this tower. We'll route the enemies through here.^
+^^Upgrade this Lightning Tower to Level 2.^
+^^Great!  Upgrade it again for a full Level 3 tower.^
+^^To finish a lane in your maze, build 2 more towers here.^
+^^...and here.  ^
+^^^
+// Tips^^^
+TipD2LoopTitle^Make a Loop^^
+TipD2LoopText^Can you figure out how to use this bridge to form a loop?^^
+TipItemsTitle^Add Items!^^
+TipItemsText^Powerful items can be purchased with coins.  Coins are earned while playing missions.^^
+TipPuzzleTitle^Puzzle Maps^^
+TipPuzzleText^Normal rules don't apply in puzzle maps.  Gnarl your noodle and solve these stumpers.^^
+TipC1StepsTitle^One At A Time^^
+TipC1StepsText^Route fieldrunners to one new gate per round.^^
+TipC2SellTitle^Sell Towers^^
+TipC2SellText^"Everyone lives by selling something" - Robert Louis Stevenson^^
+TipC2TimingTitle^Timing is everything^^
+TipC2TimingText^Wait for the right moment to place towers.^^
+TipC2For1Title^2 for 1^^
+TipC2For1Text^Get 2 fieldrunners for the price of 1...^^
+TipSuddenDeathTitle^Sudden Death^^
+TipSuddenDeathText^This is a sudden death map.  You will be overrun.  Defeat a certain number of units to pass, then go down swinging.^^
+TipTimeTrialTitle^Time Trial^^
+TipTimeTrialText^Defeat as many fieldrunners as possible before your time is up.  ...That's probably metaphorical.^^
+TipTowersTitle^Equip Towers!^^
+TipTowersText^Equip some towers now by tapping on their icon.^Use each mission's towers, or swap your earned towers in here.^
+TipTowers2Text^The more stars you earn, the more towers you get.^^
+TipUpgradeText^Keep upgrading your towers.  Upgrading is more bang-for-buck than buying new.^Tap towers to equip them^
+TipMoneyText^Money can't buy love, but it can buy towers and upgrades.  Use it!^^
+^^^
+^^^
+^^^
+^^^
+^^^
+^^^
+^^^
+^^^
+// Tally^^^
+TallyMissionCompleteText^Mission Success!^^
+TallyMissionFailedText^Mission Failed^^
+TallyHighScoreText^High Score!^^
+TallyDefeatedText^Defeated^^
+TallyTimeText^Time X:00^^
+EndlessText^Endless^^
+TallyGoTallyText^Finish^^
+TallyRunnersDefeatedText^Fieldrunners Defeated^^
+TallyCombosText^Combo KOs^^
+TallyMegaCombosText^Mega Combos^^
+TallyDifficultyText^Difficulty^^
+TallyPenaltiesText^Sold Towers Loss^^
+^^^
+^^^
+^^^
+// Deck Names^^^
+GruntText^Grunt^^
+IronText^Iron^^
+BirdText^Bird^^
+WhirlyText^Whirly^^
+FunText^Fun^^
+WorldText^World^^
+HardcoreText^Hardcore^^
+^^^
+^^^
+// Cards / Achievements^^^
+ID00Name^First Class^// To Use: Iron Brigade^
+ID00Description^Earn one million points on one mission.^^
+ID01Name^Luxury Suite^^
+ID01Description^Earn a whopping five million points on one mission.^^
+ID02Name^Jumbo Combo^^
+ID02Description^Defeat 20 units in one combo.  Boomshakalaka!^^
+ID03Name^Never Give Up...^^
+ID03Description^Survive 150 rounds.^^
+ID04Name^Never Surrender!^^
+ID04Description^Survive 200 rounds on Heroic.^^
+ID05Name^Efficiency is Key^^
+ID05Description^Defeat 10 rounds in a survival mission with no towers.  Items will help.^^
+ID06Name^The Thunder^// Maximum Overdrive^
+ID06Description^Call it down!  Unleash airstrike 7 times in one mission.^// Collateral Damage^
+ID07Name^No Slow^^
+ID07Description^Defeat a survival mission without slow towers.^^
+ID08Name^Starburst^^
+ID08Description^Earn 30 stars.^^
+ID09Name^2 Star General^^
+ID09Description^Earn 2 stars on all of the original maps.  This doesn't include DLC.^^
+ID10Name^3 Star General^^
+ID10Description^Earn 3 stars on all of the original maps.  This doesn't include DLC.^^
+ID11Name^Veteran General^^
+ID11Description^Complete all of the original maps.  This doesn't include DLC.^^
+ID12Name^Spoils of War^^
+ID12Description^Earn 10,000 coins.  You don't have to have them all at once.^^
+ID13Name^Chain Combo^^
+ID13Description^Chain 20 combos in a row.  You're on fire!^^
+ID14Name^Minute Man^^
+ID14Description^Complete one level in one minute.^^
+ID15Name^Bounty Hunter^^
+ID15Description^Defeat every Elite unit from the original maps.  This doesn't include DLC.^^
+ID16Name^Crass Commerce^// UNUSED CURRENTLY.  PUT BACK AS ID 16^
+ID16Description^Buy something!  Our kids need shoes!^^
+ID17Name^Itemized^^
+ID17Description^Defeat 10 units in one shot using one item.^^
+ID18Name^Dr. Strangelove^^
+ID18Description^Defeat 10 units at once by blowing up a S-17 Skywhale.^^
+ID19Name^Bullseye^^
+ID19Description^Defeat 10 units at once by blowing up the V2 truck.^^
+ID20Name^Link Limbo^^
+ID20Description^Defeat 10 units, one after another, using a pair of Link Towers.^^
+ID21Name^Day of Victory^^
+ID21Description^Beat every level in 24 Hours.  This doesn't include DLC.^^
+ID22Name^Day of Triumph^^
+ID22Description^Beat every level in 24 Hours.  On Heroic.  No Restarting.  No Failing.  No Quitting.^^
+ID23Name^Tour of Duty^ ^
+ID23Description^Play once a week, every week, for 6 months.  Yes, we mean it.^^
+ID24Name^Mr. Moneybags^^
+ID24Description^Stockpile $500 in a mission without selling any towers.^^
+ID25Name^The TreeMech^^
+ID25Description^Repel Grasslands' TreeMech Boss.^^
+ID26Name^The TombMech^^
+ID26Description^Rebuff Dryland's TombMech Boss.^^
+ID27Name^The OctoMech^^
+ID27Description^Resist Lavaflow's OctoMech.  Yes, we know it only has six legs.^^
+ID28Name^The UltiMech^^
+ID28Description^Defeat City and Fieldrunner 2's Ultimate Mech.^^
+ID29Name^Grunt Deck^^
+ID29Description^Reward: Collect the grunt deck for 1,000 coins!^^
+ID30Name^Iron Deck^// Iron Brigade^
+ID30Description^Reward: Collect the iron deck for 20 rewinds!^^
+ID31Name^Bird Deck^^
+ID31Description^Reward: Collect the bird deck for 25 freezes!^^
+ID32Name^Whirly Deck^^
+ID32Description^Reward: Collect the whirly deck for 30 mines!^^
+ID33Name^Fun Deck^^
+ID33Description^Reward: Collect the fun deck for 35 spanish flu!^^
+ID34Name^World Deck^^
+ID34Description^Reward: Collect the world deck for 40 fire traps!^^
+ID35Name^Hardcore Deck^^
+ID35Description^Reward: Collect the hardcore deck for eternal fame (and 2,000 coins).^^
+GruntDeckName^Grunt^^
+IronDeckName^Iron^^
+BirdDeckName^Bird^^
+WhirlyDeckName^Whirly^^
+FunDeckName^Fun^^
+WorldDeckName^World^^
+HardcoreDeckName^Hardcore^^
+DefeatCardPlural^Defeat %d %ss^^
+DefeatCardSingle^Defeat %d %s^^
+^^^
+^^^
+^^^
+^^^
+^^^
+^^^
+^^^
+// Store / Coins^^^
+SubabucksName^Coins^^
+SubabucksDescription^They buy items, which earn stars, which earn towers, which earn happiness.^^
+SubabucksFirstName^1,000 Subabucks^Enough for a barrel of helpful items.^
+SubabucksSecondName^5,000 Subabucks^Have nice things.  Have lots of nice things.^
+SubabucksThirdName^10,000 Subabucks^You could buy that Ferris Wheel you always wanted.^
+SubabucksFourthName^50,000 Subabucks^Be the CEO of SubaLabs with this many Coins.^
+BuyCoinsText^Buy Coins^^
+BackText^Back^^
+StartText^Start^^
+NextText^Next^^
+PurchasingText^Please wait... still running.^^
+CantReachMarketText^Can't Connect^^
+CantReachMarketDescription^Fieldrunners can't reach the App Store(tm).  Please verify your internet connection and App Store settings.^^
+UnknownErrorText^Unknown Error^^
+UnknownErrorDescription^You discovered a new error! If you keep discovering it, please send a message to bugs@subatomicstudios.com.^^
+TransactionFailText^That Didn't Work^^
+TransactionFailDescription^The transaction failed.  Please clean your internet, and try again.^^
+TransactionRestoredText^Purchase Restored^^
+TransactionRestoredDescription^Your previous purchase is back!  Congrats on your purchase of ^^
+ItemPackSweetFFFTitle^Sweet 3 x 3 Pack^^
+ItemPackSweetFFFDescription^3 Freezes, 3 Fires, 3 Flu^^
+^^^
+^^^
+// Credits^^^
+CreditsArtText^Art^/ Making the pretty^"Purple is cool"
+CreditsAudioText^Audio^/ “Ka-Bwooonnngggg!”^"Ka-Bwooonnngggg!"
+CreditsDesignText^Design^/ "%20 more fun"^"Make it more fun"
+CreditsEngineeringText^Engineering^/ ^
+CreditsPublicRelationsText^Public Relations^/ You look great today!^"Have you lost weight?"
+CreditsProductionText^Production^/ Cat Herding^"Are we there yet?"
+CreditsQAText^Quality Assurance^/ Breaking stuff^"Bad news”
+CreditsPlaytestersText^Playtesters^^
+CreditsSpecialThanksText^Special Thanks^^
+CreditsLegalText^Legal^^
+CreditsAdditionalDevelopmentText^Additional Development^^
+CreditsAppleLegalText^The App Store is a trademark of Apple Inc.^^
+CreditsKeyboard1Text^No keyboards were harmed in the making of Fieldrunners 2.^^
+CreditsKeyboard2Text^...actually, five were shot.  But they had it coming.^^
+CreditsTopText^From all of us at Subatomic Studios: Thank you for playing!^^
+^^^
+// Unused / Archive^^DO NOT TRANSLATE THESE... YET^
+Enemy_Soldier_Commander_Name^UNUSED The Commander^^
+Enemy_Soldier_Commander_Description^UNUSED A-Ten-Hut! This commander orders everyone to move it! Double Time!^^
+Enemy_Soldier_Commander_Card^BUG ME IF YOU SEE THIS TEXT^^
+Enemy_Air_Helicopter_Transport_Name^UNUSED Transport Chopper^^
+Enemy_Air_Helicopter_Transport_Description^UNUSED Get to the Chopper, before the Chopper gets to you.^^
+Enemy_Air_Helicopter_Transport_Card^"Keep the blades up, the skids up, your hopes up, and your insurance up."^^
+Enemy_Air_Plane_Dropship_Heavy_Name^UNUSED Dropship^^
+Enemy_Air_Plane_Dropship_Heavy_Description^UNUSED You didn't think this Dropship would come alone, did you?^^
+Enemy_Air_Plane_Dropship_Heavy_Card^"I thought YOU brought the parachutes!"^^
+Grasslands_Map6Name^UNUSED: Boss: The TreeMech^^
+Grasslands_Map6Description^UNUSED: The source of our problems!  Shut down the TreeMech part by part, and push them out of Grasslands for good.^^
+Drylands_Map6Name^UNUSED: Boss: The TombMech^^
+Drylands_Map6Description^UNUSED: This boss doesn't look easy.  Concentrate your damage as much as possible, while using towers to clear more room.^^
+Lavaflow_Map6Name^UNUSED: Boss: The OctoMech^^
+Lavaflow_Map6Description^UNUSED: The Ultimate Battle!  Units spawn in a clockwise fashion... Maybe you can survive this after all...^^
+City_Map3Name^UNUSED 3: That Other Tower^^
+City_Map3Description^UNUSED Time for a little vacation, no?^^
+Lavaflow_Map3Name^UNUSED: Spicy Dips^Other puns to use (or not) – Ring of Fire, Flaming Yawn, Burning Love, Heated Debate, fall of fire, catch fire, fire blanks, fire up, great balls of fire. Irons in the fire, Out of the Frying Pan, Home Fires, Catching Fire.^
+Lavaflow_Map3Description^UNUSED This level doesn't seem to have any Fireproof units.  Time to break out the barbecue!^^
+City_Map7Name^UNUSED: Boss: The UltiMech^^
+City_Map7Description^UNUSED: City_Map7Description^^
+^^^
+^^^
+^^^
+^^^
+CreateProfileText^UNUSED Create Profile: ^^
+ProfilesText^UNUSEDProfiles^^

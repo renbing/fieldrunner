@@ -1,0 +1,10 @@
+<Doll>
+    <Sprites defaultAnimationSetName="level1" defaultAnimationName="run">
+        <Sprite filename="Projectile_Tower_Mine.asc" attachToTag="" sortToParentDepth="F">
+            <Particles>
+                <ParticleSystem filename="Projectile_Missile_Death_Ground.fx" attachToTag="anchor" actorEvent="6" actorEventParameter="" animationSet="" />
+                <ParticleSystem filename="Projectile_Mine_Created_Trail.fx" attachToTag="anchor" actorEvent="3" actorEventParameter="" animationSet="" />
+            </Particles>
+        </Sprite>
+    </Sprites>
+</Doll>
