@@ -1,4 +1,0 @@
-<ui>
-	<control type="dialog" name="battle_field" background="" x="0" y="0" width="0" height="0" bgcolor="0xcccccc" addchild="1" >		
-	</control>
-</ui>

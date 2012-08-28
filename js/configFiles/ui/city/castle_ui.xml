@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="gb2312" ?>
-<ui> 	
-	<!---------------------------BARRACK DIALOG ------------------------------->		
-	<control type="dialog" name="castle_panel_dialog" background="" x="0" y="0" addchild="1" >		
-		<control type="static" name="castle_panel" background="kingPanel" x="" y="" addchild="1" />
-	</control>
-	<!---------------------------END------------------------------->		
-	
-</ui>

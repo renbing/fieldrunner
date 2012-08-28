@@ -48,6 +48,7 @@
     // 手势
     Event.GESTURE_DRAG = 7;
     Event.GESTURE_SWIPE = 8;
+    Event.GESTURE_DRAG_END = 9
 
     // 系统事件
     Event.ENTER_FRAME = 100;

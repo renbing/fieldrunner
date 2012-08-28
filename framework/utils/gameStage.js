@@ -101,6 +101,12 @@
                 }
             }
 
+            if (Event.dragObject) {
+                var offset = {x:point.x - Event.moveEvent.data.x, y:point.y - Event.moveEvent.data.y};
+                Event.dragObject.triggerEvent(new Event(Event.GESTURE_DRAG, offset));
+                Event.dragObject.triggerEvent(new Event(Event.GESTURE_DRAG_END, point));
+            }
+
             Event.enterObject && Event.enterObject.bubbleEvent(event);
             Event.moved = false;
             Event.enterObject = null;

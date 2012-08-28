@@ -1,6 +1,0 @@
-<ui>
-	<control type="dialog" name="item_res_dialog" background="" x="0" y="0" width="60" height="80" addchild="1" mask="1" >
-		<control type="static" name="item_res_static" background="01.png" x="0" y="0" width="80" height="30" />
-		<control type="text" name="item_res_count_text" content="asdfa" x="0" y="0" width="60" height="25" fontsize="20" />
-	</control>	
-</ui>

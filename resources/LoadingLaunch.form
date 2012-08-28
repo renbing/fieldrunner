@@ -2,16 +2,9 @@
 <Form Name="" BasePlatform="2" Version="73" FormType="1" ClassType="12">
     <FormRoot Name="Element">
         <Element TextureFilename="FR2Title.jpg" Type="2" Name="Panel::1" ID="1" Anchor="0.500000, 0.500000" Dimension="1.000000, 1.000000" ResizeBias="0" Dithered="T">
-            <Element TextScale="0.6" Type="1" Name="ResamplingNotification" ID="2" Anchor="-0.001042, -0.409375" Dimension="1.000000, 0.268750" IsPassive="T" Margin="5" Tracking="-6" Leading="47" TranslateOnce="T" Font="StencilYellow10.asc" TextEffect="VerticalScrollWithInitialWait">
-                <Element TextureFilename="BGTint.jpg" Type="2" Name="Backgrey" ID="19" Anchor="0.000000, 0.042188" Dimension="1.116667, 0.208333" IsPassive="T" Tint="255, 255, 255, 130" />
-                <Element Text="$(OptimizingTitleText)" TextScale="0.6" Type="1" Name="Title" ID="21" Dimension="1.000000, 0.268750" IsPassive="T" Margin="5" Tracking="-6" Leading="47" TranslateOnce="T" Font="StencilYellow10.asc" TextEffect="VerticalScrollWithInitialWait" />
-                <Element Text="$(OptimizingDescriptionText)" TextScale="0.7" Type="1" Name="Description Text" ID="18" Anchor="0.000000, 0.070313" Dimension="0.990417, 0.028153" IsPassive="T" Tracking="1" Leading="34" TranslateOnce="T" Font="ArialWhite03.asc" />
-                <Element Text="$(OptimizingFlavorText)" TextScale="0.7" Type="1" Name="Flavor Text" ID="20" Anchor="0.000000, 0.029687" Dimension="0.990417, 0.028153" IsPassive="T" Tracking="1" Leading="34" TranslateOnce="T" Font="ArialWhite03.asc" />
-                <Element Text="$(OptimizingFlavor2Text)" TextScale="0.7" Type="1" Name="Flavor Text 2" ID="22" Anchor="0.000000, -0.009375" Dimension="0.990417, 0.028153" IsPassive="T" Tracking="1" Leading="34" TranslateOnce="T" Font="ArialWhite03.asc" />
-            </Element>
-            <Element Text="$(LoadingText)" TextScale="0.6" Type="1" Name="LoadingNotification" ID="3" Anchor="0.000000, -0.453125" Dimension="1.000000, 0.093750" Visible="F" IsPassive="T" Margin="5" Tracking="-7" Leading="47" TranslateOnce="T" Font="StencilYellow10.asc" TextEffect="VerticalScrollWithInitialWait" />
+            <Element Text="Loading..." TextScale="0.6" Type="1" Name="LoadingNotification" ID="3" Anchor="0.000000, -0.453125" Dimension="1.000000, 0.093750" Visible="F" IsPassive="T" Margin="5" Tracking="-7" Leading="47" TranslateOnce="T" Font="StencilYellow10.asc" TextEffect="VerticalScrollWithInitialWait" />
         </Element>
-        <Element Type="2" Name="BoltedBar" ID="4" Anchor="0.500000, 0.023438" Dimension="1.112500, 0.050000" IsPassive="T" Tint="255, 255, 255, 0" MirrorMode="2">
+        <Element Type="2" Name="Buttum" ID="4" Anchor="0.500000, 0.023438" Dimension="1.112500, 0.050000" IsPassive="T" Tint="255, 255, 255, 0" MirrorMode="2">
             <Element TextureFilename="Occlusion_Gradient.jpg" Type="2" Name="Shadow" ID="5" Anchor="0.000000, 0.021875" Dimension="1.035417, 0.033333" IsPassive="T" MirrorMode="2" BlendState="3" ResizeBias="2" />
             <Element TextureFilename="BoltedBar.jpg" Type="2" Name="bar" ID="6" Anchor="-0.378125, 0.000000" Dimension="0.246875, 0.042188" IsPassive="T" MirrorMode="3" />
             <Element TextureFilename="BoltedBar.jpg" Type="2" Name="bar" ID="7" Anchor="-0.134375, 0.000000" Dimension="0.246875, 0.042188" IsPassive="T" MirrorMode="3" />
@@ -19,7 +12,7 @@
             <Element TextureFilename="BoltedBar.jpg" Type="2" Name="bar" ID="9" Anchor="0.348958, 0.000000" Dimension="0.246875, 0.042188" IsPassive="T" MirrorMode="3" />
             <Element TextureFilename="BoltedBar.jpg" Type="2" Name="bar" ID="10" Anchor="0.591667, 0.000000" Dimension="0.246875, 0.042188" IsPassive="T" MirrorMode="3" />
         </Element>
-        <Element Type="2" Name="BoltedBar" ID="11" Anchor="0.500000, 0.979687" Dimension="1.112500, 0.050000" IsPassive="T" Tint="255, 255, 255, 0" ResizeBias="2">
+        <Element Type="2" Name="Tup" ID="11" Anchor="0.500000, 0.979687" Dimension="1.112500, 0.050000" IsPassive="T" Tint="255, 255, 255, 0" ResizeBias="2">
             <Element TextureFilename="Occlusion_Gradient.jpg" Type="2" Name="Shadow" ID="12" Anchor="0.000000, -0.018750" Dimension="1.035417, 0.033333" IsPassive="T" BlendState="3" ResizeBias="2" />
             <Element TextureFilename="BoltedBar.jpg" Type="2" Name="bar" ID="13" Anchor="-0.378125, 0.000000" Dimension="0.246875, 0.042188" IsPassive="T" MirrorMode="1" ResizeBias="2" />
             <Element TextureFilename="BoltedBar.jpg" Type="2" Name="bar" ID="14" Anchor="-0.134375, 0.000000" Dimension="0.246875, 0.042188" IsPassive="T" MirrorMode="1" ResizeBias="2" />

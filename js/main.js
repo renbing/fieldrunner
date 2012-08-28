@@ -9,8 +9,11 @@
 
 var resourceManager = new ResourceManager();
 var enemyManager = new EnemyManager();
+var towerManager = new TowerManager();
 var uiManager = new UIManager();
 var useTowers = ["Gatling", "Glue", "Missile", "Flame", "Lightning", "Laser"];
+
+var placingTower = null;
 
 function main() {
     gameStage.init();
@@ -21,6 +24,7 @@ function main() {
 
 function loadLoading() {
     resourceManager.add("LoadingLaunch.form", "xml");
+
     resourceManager.add("FR2Title.jpg", "image");
     resourceManager.add("BGTint.jpg", "image");
     resourceManager.add("Occlusion_Gradient.jpg", "image");
@@ -45,7 +49,8 @@ function loadResource() {
     resourceManager.add("g2.jpg", "image");
     
     for(var i=0; i<useTowers.length; i++) {
-        resourceManager.add("Tower_"+useTowers[i]+".arc", "xml");
+        var tower = useTowers[i];
+        resourceManager.add("Tower_"+tower+".arc", "xml");
     }
 
     for(var i=0; i<global.cfgs.length; i++) {
@@ -63,6 +68,17 @@ function firstLoaded() {
         var attrs = conf.data.childNodes[1].getElementsByTagName("Weapon")[0].attributes;
         resourceManager.add(attrs.getNamedItem("Icon").nodeValue, "image", "masked");
         resourceManager.add(attrs.getNamedItem("DisabledIcon").nodeValue, "image", "masked");
+
+        var tower = useTowers[i];
+        if( global.towers[tower][0] ) {
+            resourceManager.add("Tower_"+tower+"_Turret.asc", "text");
+        }else{
+            resourceManager.add("Tower_"+tower+".asc", "text");
+        }
+
+        if( global.towers[tower][1] ) {
+            resourceManager.add("Tower_"+tower+"_Base.asc", "text");
+        }
     }
 
     //所有敌人种类
@@ -97,7 +113,14 @@ function secondLoaded() {
         }
     }
 
-    //resourceManager.load(start);
+    for(var i=0; i<useTowers.length; i++) {
+        var imgs = towerManager.parse(useTowers[i]);
+        for(var k=0; k<imgs.length; k++) {
+            resourceManager.add(imgs[k], "image", "masked");
+        }
+    }
+
+    resourceManager.load(start);
 }
 
 function start() {
@@ -107,6 +130,8 @@ function start() {
     prepareMap();
 
     prepareEnemy();
+
+    prepareTower();
 
     prepareUI();
 }
@@ -134,6 +159,11 @@ function prepareUI() {
         
         if( i<3 ) {
             icon.gotoAndStop(1);
+            icon.addEventListener(Event.MOUSE_CLICK, function(e) {
+                if( !placingTower ) {
+                    placingTower = this.name;
+                }
+            });
         }
         icon.x = global.GAME_WIDTH - (useTowers.length-i) * 128;
         bottom.addChild(icon);
@@ -147,6 +177,25 @@ function prepareMap() {
     map.addChild(new Texture(bg, 0, 0, bg.width, bg.height, 
                             0, 0, global.GAME_WIDTH, global.GAME_HEIGHT));
 
+    map.addEventListener(Event.MOUSE_CLICK, function(e) {
+        if( !placingTower ) {
+            return;
+        }
+
+        var mc = towerManager.get(placingTower, "level1", "run", 180);
+        mc.scaleX = mc.scaleY = 0.4;
+        mc.x = Math.floor((e.data.x-26)/43) * 43 + 26 + 22;
+        mc.y = Math.floor((e.data.y-5)/45) * 45 + 5 + 23;
+
+        mc.addEventListener(Event.GESTURE_DRAG, function(e){
+            mc.x += e.data.x;
+            mc.y += e.data.y;
+        });
+
+        map.addChild(mc);
+        placingTower = null;
+    });
+
     global.stage.addChild(map);
 }
 
@@ -156,6 +205,25 @@ function prepareEnemy() {
     var mc = enemyManager.get("Soldier_Light", "run", 90);
     mc.y = 300;
     mc.x = 100;
-    mc.scaleX = -1;
+    //mc.scaleX = -1;
+    mc.addEventListener(Event.ENTER_FRAME, function(e) {
+        //this.x += 1.5; 
+    });
+
+    map.addChild(mc);
+}
+
+function prepareTower() {
+    var map = global.stage.getChildByName("map");
+
+
+    var mc = towerManager.get("Gatling", "level1", "attack", 180);
+    mc.scaleX = mc.scaleY = 0.4;
+    mc.y = 253;
+    mc.x = 200;
+    mc.addEventListener(Event.GESTURE_DRAG, function(e){
+        mc.x += e.data.x;
+        mc.y += e.data.y;
+    });
     map.addChild(mc);
 }
