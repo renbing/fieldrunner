@@ -13,6 +13,16 @@ var towerManager = new TowerManager();
 var uiManager = new UIManager();
 var useTowers = ["Gatling", "Glue", "Missile", "Flame", "Lightning", "Laser"];
 
+var mapCoords = [[1,0],
+    [1,0],[1,0],[1,0],[1,0],[1,0],[1,0],
+    [0,-1],[0,-1],[1,0],[1,0],[1,0],[1,0],
+    [0,1],[0,1],[0,1],[0,1],[-1,0],[-1,0],
+    [0,-1],[0,-1],[1,0],[1,0],[1,0],[1,0],
+    [1,0],[1,0],[0,1],[0,1],[-1,0],[-1,0],
+    [0,-1],[0,-1],[0,-1],[0,-1],[0,-1],
+    [1,0],[1,0],[1,0],[1,0],[0,1],[0,1],[1,0],[1,0],[1,0]
+];
+
 var placingTower = null;
 
 function main() {
@@ -201,13 +211,57 @@ function prepareMap() {
 
 function prepareEnemy() {
     var map = global.stage.getChildByName("map");
-
-    var mc = enemyManager.get("Soldier_Light", "run", 90);
+    
+    var mc = new MovieClip("enemy");
+    mc.orientation = 90;
+    mc.data.coord = 0;
+    mc.data.next = 41;
     mc.y = 300;
-    mc.x = 100;
-    //mc.scaleX = -1;
+    mc.x = 36;
+
+    var enemy = enemyManager.get("Soldier_Light", "run", 90);
+    mc.addChild(enemy);
     mc.addEventListener(Event.ENTER_FRAME, function(e) {
-        //this.x += 1.5; 
+        if( this.data.orientation == 90 ) {
+            this.x += 2;
+        }else if( this.data.orientation == 0 ) {
+            this.y -= 2;
+        }else if( this.data.orientation == 180) {
+            this.y += 2;
+        }else if( this.data.orientation == -90 ) {
+            this.x -= 2;
+        }
+        this.data.next -= 2;
+        if( this.data.next <= 0 ) {
+            this.data.coord += 1;
+            if( this.data.coord >= mapCoords.length ) {
+                this.removeEventListener(Event.ENTER_FRAME);
+                return;
+            }
+            this.data.next = 45;
+
+            var orientation = 90;
+            var nextCoord = this.data.coord + 1;
+            if( mapCoords[nextCoord][0] == 1 ) {
+                orientation = 90;
+            }else if( mapCoords[nextCoord][0] == -1 ) {
+                orientation = -90;
+            }else if( mapCoords[nextCoord][1] == 1 ) {
+                orientation = 180;
+            }else if( mapCoords[nextCoord][1] == -1 ) {
+                orientation= 0;
+            }
+
+            if( orientation != this.data.orientation ) {
+                this.data.orientation = orientation;
+                var enemy = enemyManager.get("Soldier_Light", "run", Math.abs(orientation));
+                if( orientation < 0 ) {
+                    enemy.scaleX = -1;
+                }
+                this.removeAllChild();
+                this.addChild(enemy);
+            }
+        }
     });
 
     map.addChild(mc);

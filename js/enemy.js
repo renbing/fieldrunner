@@ -92,7 +92,7 @@ EnemyManager.prototype.get = function(name, anim, orientation) {
             mc.gotoAndStop(i+1);
             var img = resourceManager.get(segs[6]);
             mc.addChild(new Texture(img.data, +segs[1], +segs[2],
-                            +segs[3], +segs[4], 0, 0, +segs[3], +segs[4]));
+                +segs[3], +segs[4], -segs[3]/2, -segs[4]/2, +segs[3], +segs[4]));
             mc.gotoAndPlay(1);
         }
         return mc;

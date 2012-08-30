@@ -8,7 +8,7 @@
 
 global.GAME_WIDTH = 960;
 global.GAME_HEIGHT = 640;
-global.gameFPS = 60;
+global.gameFPS = 25;
 global.renderFPS = 60;
 global.resourceDirectory = "resources/";
 global.mediaDirectory = "resources/";

@@ -45,6 +45,9 @@
         this._isEnabled = false;
         this._onClick = null;
 
+        // 外带数据
+        this.data = {};
+
         // 异步加载图片,MovieClip
         this._asyncImage = null;
         this._asyncMovieClip = null;
@@ -516,9 +519,13 @@
             callbackHash[eventType] = [];
         }
         var arr = callbackHash[eventType];
-        var index = arr.indexOf(callback)
-        if (index > -1) {
-            arr.splice(index, 1);
+        if( callback ) {
+            var index = arr.indexOf(callback)
+            if (index > -1) {
+                arr.splice(index, 1);
+            }
+        }else {
+            callbackHash[eventType] = [];
         }
     };
 
